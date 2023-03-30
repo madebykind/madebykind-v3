@@ -1,0 +1,46 @@
+
+{{- $img := .Page.Resources.GetMatch .Destination -}}
+{{- if and (not $img) .Page.File -}}
+{{ $path := path.Join .Page.File.Dir .Destination }}
+{{- $img = resources.Get $path -}}
+{{- end -}}
+{{- with $img -}}
+
+  {{- $2xl := $img.Resize "1920x jpg" -}}
+  {{- $xl := $2xl.Resize "1600x" -}}
+  {{- $lg := $xl.Resize "1200x" -}}
+  {{- $md := $lg.Resize "768x" -}}
+  {{- $sm := $md.Resize "320x" -}}
+
+  <figure class="my-8">
+    <img
+      alt="{{ $.Text }}"
+      class="object-fit"
+      height="{{ $img.Height }}"
+      loading=lazy
+      sizes="100vw"
+      src="{{ $sm.RelPermalink }}"
+      srcset="
+        {{ $sm.RelPermalink }} 320w,
+        {{ $md.RelPermalink }} 768w,
+        {{ $lg.RelPermalink }} 1200w,
+        {{ $xl.RelPermalink }} 1600w,
+        {{ $2xl.RelPermalink }} 1920w"
+      width="{{ $img.Width }}" />
+    <figcaption class="italic">{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
+  </figure>
+{{- else -}}
+  <img
+    src="{{ .Destination | safeURL }}"
+    alt="{{ $.Text }}"
+    srcset="
+      {{ $sm.RelPermalink }} 320w,
+      {{ $md.RelPermalink }} 768w,
+      {{ $lg.RelPermalink }} 1200w,
+      {{ $xl.RelPermalink }} 1600w,
+      {{ $2xl.RelPermalink }} 1920w"
+    height="{{ $img.Height }}"
+    sizes="100vw"
+    width="{{ $img.Width }}"
+  />
+{{- end -}}

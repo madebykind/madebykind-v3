@@ -1,0 +1,24 @@
+
+<nav>
+  <h2 class="h3">Also in this section:</h2>
+  <ol class="flex gap-10 list-none" role="list">
+    {{ with .NextInSection }}
+      <li>
+        <p>&larr; Previous</p>
+        <h3><a href="{{.Permalink}}">{{ .Title}}</a></h3>
+        <p>
+          {{ .Summary|markdownify }}
+        </p>
+      </li>
+    {{ end }}
+    {{ with .PrevInSection }}
+      <li>
+        <p>Next &rarr;</p>
+        <h3><a href="{{.Permalink}}">{{ .Title}}</a></h3>
+        <p>
+          {{ .Summary|markdownify }}
+        </p>
+      </li>
+    {{ end }}
+  </ol>
+</nav>

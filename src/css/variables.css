@@ -1,0 +1,22 @@
+/**
+ * variables.css
+ *
+ * Custom CSS properties are set here.
+ *
+ */
+
+:root {
+  --color-body: hsla(0,0%,0%,.8);
+  --color-list-marker: var(--color-ui-border);
+  --color-link: initial;
+  --color-bg-ui: hsla(0,0%,0%,.05);
+  --color-border-ui: hsla(0,0%,0%,.05);
+  --width-container: 90%;
+  --max-width-container: ;
+  --max-width-copy: 70ch;
+}
+
+/* You asked for dark? Try some funk! */
+@media (prefers-color-scheme: dark) {
+  :root {}
+}

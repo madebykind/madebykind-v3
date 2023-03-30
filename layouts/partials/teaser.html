@@ -1,0 +1,19 @@
+<article>
+  <a aria-labelledby="#{{ .Title }}" class="block group section--sm" href="{{ .Permalink }}">
+    <header>
+      {{ if isset .Params "tags" }}
+        {{ partial "tags" . }}
+      {{ end }}
+      <h3 id="{{ .Title | urlize }}">{{ .Title }}</h3>
+      {{ if .Date }}
+        <div class="mt-2 text-sm">
+        {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
+        </div>
+      {{ end }}
+    </header>
+    {{ .Summary | markdownify }}
+    <p class="mt-8 read-more">
+      {{ i18n "readMore" }}&rarr;<span class="sr-only"> {{ .Title }}</span>
+    </p>
+  </a>
+</article>

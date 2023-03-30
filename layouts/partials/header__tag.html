@@ -1,0 +1,11 @@
+<header class="{{ with .Params.cover_img }} flex flex-col justify-end min-h-screen pt-36 lg:pt-48 pb-12 relative{{ else }} border-ui border-t{{ end }}">
+  {{ if isset .Params "cover_img" }}
+    {{ partial "image__hero" . }}
+  {{ end }}
+  <div class="container relative {{ with .Params.reversed }}antialiased text-white{{ end }}">
+    <h1 class="clig dlig">Posts tagged: <span>#</span>{{ title .Page.Title | safeHTML }}</h1>
+    {{ if isset .Params "description" }}
+    <div class="mt-4 text-xl lg:col-end-7 lg:text-2xl">{{ .Description | markdownify }}</div>
+    {{ end }}
+  </div>
+</header>

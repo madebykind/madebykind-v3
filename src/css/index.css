@@ -1,0 +1,54 @@
+
+/* Include custom css properties. */
+@import 'variables.css';
+
+/* Include Tailwind reset and base styles
+/* @import 'tailwindcss/base';  */
+
+/* Include Tailwind default components */
+@import 'tailwindcss/components';
+
+/* Elements */
+@import 'elements/address.postcss';
+@import 'elements/anchor.postcss';
+@import 'elements/blockquote.postcss';
+@import 'elements/body.postcss';
+@import 'elements/cite.postcss';
+@import 'elements/code.postcss';
+@import 'elements/figure.postcss';
+@import 'elements/fonts.postcss';
+@import 'elements/headings.postcss';
+@import 'elements/html.postcss';
+@import 'elements/image.postcss';
+@import 'elements/lists.postcss';
+@import 'elements/paragraphs.postcss';
+@import 'elements/rule.postcss';
+@import 'elements/sub-super.postcss';
+@import 'elements/table.postcss';
+
+/**
+ * Here we add custom component classes; stuff we want loaded
+ * *before* the utilities so that the utilities can still
+ * override them.
+ */
+@import 'components/background.postcss';
+@import 'components/border.postcss';
+/* @import 'components/grid.postcss'; */
+@import 'components/container.postcss';
+@import 'components/prose.postcss';
+@import 'components/section.postcss';
+@import 'components/typography.postcss';
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ */
+@import 'tailwindcss/utilities';
+
+/* Include Open-type utilities */
+/* @import 'utility-opentype'; */
+
+/* Debug layout */
+* > * {
+  box-shadow: 0 0 0 1px var(--color-border-ui);
+}

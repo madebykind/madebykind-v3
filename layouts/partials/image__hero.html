@@ -1,0 +1,35 @@
+
+{{ $alt := ( .Params.cover_img_alt ) }}
+{{ $img := (.Params.cover_img ) }}
+{{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+{{ $version := hugo.Version }}
+
+{{ with $img }}
+
+  {{- $5xl := $image.Fill "2560x1440 jpg" -}}
+  {{ $4xl := $5xl.Fill "1920x1280" -}}
+  {{ $3xl := $4xl.Fill "1440x1024" -}}
+  {{ $2xl := $3xl.Fill "1280x960" -}}
+  {{ $xl := $2xl.Fill "800x600" -}}
+  {{ $lg := $xl.Fill "640x480" -}}
+  {{ $md := $lg.Fill "480x360" -}}
+  {{ $sm := $md.Fill "320x240" -}}
+
+  <picture>
+    <img
+      alt="{{ $alt }}"
+      class="object-cover object-top"
+      sizes="100vw"
+      src="{{ $sm.RelPermalink }}"
+      srcset="
+      {{ $sm.RelPermalink }} 320w,
+      {{ $md.RelPermalink }} 480w,
+      {{ $lg.RelPermalink }} 640w,
+      {{ $xl.RelPermalink }} 800w,
+      {{ $2xl.RelPermalink }} 1280w,
+      {{ $3xl.RelPermalink }} 1280w,
+      {{ $4xl.RelPermalink }} 1920w,
+      {{ $5xl.RelPermalink }} 2560w"
+    />
+  </picture>
+{{ end }}

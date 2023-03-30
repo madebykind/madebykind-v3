@@ -1,0 +1,9 @@
+{{ with .Params.tags }}
+<ul class="flex flex-wrap list-none -mx-1 text-sm">
+  {{ range . }}
+    <li class="m-1">
+      <a class="bg-ui border border-ui no-underline leading-loose px-2 rounded-sm" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,12 @@
+<figure>
+  <blockquote>
+    {{ .Content|markdownify }}
+  </blockquote>
+  <figcaption class="flex items-center font-sans">
+    {{ partial "image__avatar" . }}
+    <div>
+      <div class="font-bold">{{ .Params.Name }}</div>
+      <div class="text-sm">{{ .Params.Role }}</div>
+    </div>
+  </figcaption>
+</figure>

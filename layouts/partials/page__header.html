@@ -1,0 +1,14 @@
+<header class="grid gap-5">
+	{{ if isset .Params "cover_img" }}
+	<div class="relative max-h-50vh">
+		{{ partial "image__hero" . }}
+	</div>
+	{{ end }}
+	<h1 class="clig dlig">{{ .Page.Title|safeHTML }}</h1>
+	{{ with .Params.meta }}
+		{{ partial "meta" . }}
+	{{ end }}
+	{{ if .Description }}
+		<p class="text-lg leading-tight">{{ .Description }}</p>
+	{{ end }}
+</header>

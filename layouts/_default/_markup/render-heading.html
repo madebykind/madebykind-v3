@@ -1,0 +1,5 @@
+
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+  {{ .Text | safeHTML }}
+  <a aria-labelledby="{{ .Anchor }}" class="text-base no-underline" href="#{{ .Anchor | safeURL }}">🔗</a>
+</h{{ .Level }}>

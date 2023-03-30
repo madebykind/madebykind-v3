@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ $section := .Site.GetPage "section" .Section }}
+<section>
+  {{ partial "page__header.html" . }}
+  <ol>
+    {{ range .Pages }}
+      <li>
+        {{ partial "teaser" . }}
+      </li>
+    {{ end }}
+  </ol>
+  {{ partial "pagination.html" . }}
+</section>
+{{ end }}

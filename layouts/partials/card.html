@@ -1,0 +1,17 @@
+<a class="text-current no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+  <article class="transition-all duration-300 border shadow-sm bg-ui border-ui group-hover:border-pink-300 group-hover:shadow-xl">
+    {{ if isset .Params "cover_img" }}
+      {{ partial "image__card" . }}
+    {{ end }}
+    <div class="p-5">
+      {{ if isset .Params "tags" }}
+        <footer>{{ partial "tags" . }}</footer>
+      {{ end }}
+      <header>
+        <h3 id="{{ .Title | urlize }}">{{ .Title }}</h3>
+        <time class="text-sm">{{ .Date.Format .Site.Params.date_format }}</time>
+      </header>
+      <p>{{ .Summary | markdownify }}</p>
+    </div>
+  </article>
+</a>

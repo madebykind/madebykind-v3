@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="min-h-full" lang="{{ $.Site.Language.Lang }}">
+  <!-- The <head> element. See https://github.com/joshbuchea/HEAD for what _could_ go here. -->
+  {{ block "head" . }}
+    {{ partial "head" . }}
+  {{ end }}
+  
+  <body class="grid min-h-screen font-serif text-base antialiased leading-normal auto-rows-auto liga kern">
+    <!-- Code that all your templates share, like the site banner -->
+    {{ block "header" . }}
+      {{ partial "site__header" . }}
+    {{ end }}
+
+    <!-- The part of the page that begins to differ between templates -->
+    <main class="container">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- The part of the page that begins to differ between templates -->
+    {{ block "footer" . }}
+      {{ partialCached "site__footer" . }}
+    {{ end }}
+    
+    <!-- Creepy tracking junk -->
+    {{ if .Site.GoogleAnalytics }}
+      {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+  </body>
+</html>

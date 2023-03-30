@@ -1,0 +1,23 @@
+<article class="flex flex-wrap">
+  {{ if isset .Params "cover_img" }}
+  <a class="w-full md:w-1/2" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+    {{ partial "image__card" . }}
+  </a>
+  {{ end }}
+  <div class="flex flex-wrap items-center justify-center w-full p-8 md:w-1/2">
+    <div class="f">
+      <h2 class="mt-4 h4" id="{{ .Title | urlize }}">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      <footer class="mt-2 text-xs font-bold tracking-wider uppercase">
+        {{ .Date.Format .Site.Params.date_format }}
+      </footer>
+      <div class="mt-4">
+        {{ .Summary | markdownify }}
+      </div>
+      <div class="mt-4">
+        <a href="{{ .Permalink }}">{{ i18n "readMore" }}<span class="sr-only">: {{ .Title }}</span></a>
+      </div>
+    </div>
+  </div>
+</article>

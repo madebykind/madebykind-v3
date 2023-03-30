@@ -1,0 +1,19 @@
+<header class="section">
+  <div class="container">
+    <div class="flex flex-wrap items-center justify-between">
+      {{ partial "logo" . }}
+      <nav aria-label="Main menu">
+        <ul class="flex items-center gap-5 list-none" role="list">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          <li>
+            <a class="flex p-2"{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{end}} href="{{ .URL }}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

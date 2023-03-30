@@ -1,0 +1,50 @@
+<head>
+	<!-- Ultra-turbo-features_v8. The best version. -->
+	<meta charset="utf-8">
+
+	<!-- Do not prevent zoom! Just leave this alone. No touch. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Page title, if there is one. If not, site title. -->
+	<title>{{ if .IsHome }}{{ .Site.Title }}{{ else}}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+	<!-- Page description goes here, if there is one. If not, we'll summarize from page content. Failing that, fallback to global site description. -->
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+
+	<!-- Yo! Assets list, right here. Pre-load em while they hot! -->
+	<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
+	<link rel="preload" href="/assets/Fraunces--latin_basic" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/assets/Fraunces-Italic--latin_basic" as="font" type="font/woff2" crossorigin>
+
+	<!-- Favicone bologne -->
+	<link rel="apple-touch-icon" href="{{ "icon.png" | absURL }}">
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- Scripts entry point -->
+	{{ if .Site.IsServer }}
+		<!-- development -->
+		<script type="module" src="http://localhost:5173/@vite/client"></script>
+		<script type="module" src="http://localhost:5173/src/main.js"></script>
+	{{ else }}
+		<link rel="stylesheet" href="/assets/main.css"/>
+		<script type="module" src="/assets/app.js"></script>
+	{{ end }}
+
+	<!-- Webmention awesomes! -->
+	{{ if isset .Site.Params "webmentions" }}
+		{{ if .Site.Params.webmentions.enable }}
+			<link rel="webmention" href="https://webmention.io/{{ .Site.Params.webmentions.username }}/webmention">
+			<link rel="pingback" href="https://webmention.io/{{ .Site.Params.webmentions.username }}/xmlrpc">
+		{{ end }}
+	{{ end }}
+
+	<!-- Hugo internal meta templates -->
+	{{ template "_internal/opengraph.html" . }}
+	{{ template "_internal/schema.html" . }}
+	{{ template "_internal/twitter_cards.html" . }}
+
+	<!-- Maybe we're not doing html! -->
+	{{ range .AlternativeOutputFormats -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+</head>

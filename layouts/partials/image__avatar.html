@@ -1,0 +1,19 @@
+
+{{ $src := (.Params.img ) }}
+{{ $alt := ( .Params.img_alt ) }}
+{{ $img := resources.GetMatch (printf "**%s" ($src)) }}
+
+{{ with $img }}
+  {{ $lg := $img.Fill "180x180 jpg" }}
+  {{ $sm := $lg.Resize "120x" -}}
+
+  <img
+    alt="{{ $alt }}"
+    class="mr-4 w-16 h-16 object-cover object-center rounded-full inline-block border border-ui"
+    loading=lazy
+    sizes="(min-width: 62em) 180w, 120w"
+    src="{{ $sm.RelPermalink }}"
+    srcset="{{ $sm.RelPermalink }} 120w,{{ $lg.RelPermalink }} 180w,"
+    height="180"
+    width="180" />
+{{ end }}

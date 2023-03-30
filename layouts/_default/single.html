@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="grid gap-10">
+  {{ partial "page__header" . }} 
+  <div class="grid gap-20 lg:grid-cols-10">
+    {{ if .Params.toc }}
+      <div class="lg:col-span-3">
+        <aside class="sticky top-10">
+          <h2 class="mt-0 h3">{{ i18n "tocTitle" }}</h2>
+          {{.TableOfContents }}
+        </aside>
+      </div>
+    {{ end }}
+    <div class="prose lg:col-span-7">
+      {{- .Content -}}
+      {{ if .Params.tags }}
+        <footer class="mt-8">
+          <h3 class="font-bold">{{ i18n "taxonomy" }}</h3>
+          <nav>
+            {{ partial "tags--linked" . }}
+          </nav>
+        </footer>
+      {{ end }}
+    </div>
+  </div>
+  {{ partial "pager" . }}
+</article>
+{{ end }}

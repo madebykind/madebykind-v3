@@ -1,0 +1,15 @@
+{
+  "name": "inspired",
+  "short_name": "inspired",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "https://hugo.internet-inspired.com/",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}

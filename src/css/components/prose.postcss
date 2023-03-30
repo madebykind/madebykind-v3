@@ -1,0 +1,44 @@
+
+/* ==========================================================================
+    PROSE - Longform content, the stuff we hope someone else will write!
+  ========================================================================== */
+.prose {
+
+  & * + h1,
+  & * + h2,
+  & * + h3,
+  & * + h4,
+  & * + h5,
+  & * + h6 {
+    @apply 
+      mt-16
+    ;
+  }
+
+  & * + p {
+    @apply
+      mt-5
+    ;
+  }
+
+  & p:first-of-type {
+    @apply 
+      lede
+    ;
+  }
+
+  & pre {
+    @apply
+      inline-block
+      p-4
+      rounded
+    ;
+  }
+
+  & ol,
+  & ul {
+    @apply
+      grid gap-5
+    ;
+  }
+}

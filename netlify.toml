@@ -1,0 +1,69 @@
+
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+[build.environment]
+  HUGO_VERSION = "0.111.2"
+  NODE_VERSION = "19.5.0"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+  NODE_ENV = "production"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = '''
+    base-uri 'none';
+    font-src 'self';
+    frame-ancestors 'none';
+    object-src 'none';
+    script-src 'self';
+    style-src 'self';
+    '''    
+    Permissions-Policy = '''
+    accelerometer=(),
+    camera=(),
+    geolocation=(),
+    gyroscope=(),
+    interest-cohort=(),
+    magnetometer=(),
+    microphone=(),
+    payment=(),
+    usb=()
+    '''
+    Strict-Transport-Security = '''
+    max-age=31536000;
+    includeSubDomains;
+    preload
+    '''
+    # Multi-value headers are expressed with multi-line strings
+    cache-control = '''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/*.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"
+
+# [[headers]]
+#   for = "/*.html"
+#   [headers.values]
