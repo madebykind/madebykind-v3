@@ -8,7 +8,10 @@
   translation: "Address"
 
 - id: contactTitle
-  translation: "Get in touch!"
+  translation: "Let’s make a difference together"
+
+- id: ctaCopy
+  translation: "If you put purspose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help."
 
 - id: categoriesTitle
   translation: "Categories"

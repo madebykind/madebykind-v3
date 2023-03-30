@@ -1,7 +1,13 @@
 {{ define "main" }}
   {{ partial "page__header.html" . }}
-  {{ partial "features.html" . }}
+  {{ .Content }}
+
+  
+  {{/* partial "features.html" . */}}
+  
   {{ partial "latest_posts.html" . }}
+  
   {{ partial "testimonials.html" . }}
+  
   {{ partial "clients.html" . }}
 {{ end }}

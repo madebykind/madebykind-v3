@@ -1,5 +1,6 @@
 ---
-title: Design solutions
+title: User-centered design
+description: The most successful digital projects are those that put the needs of their users first.
 ---
 
-I work hand in hand with my clients, from research and discovery through to wire frames, functional prototypes and user testing to craft design solutions that deliver the goods.
+The most successful digital projects are those that put the needs of their users first.

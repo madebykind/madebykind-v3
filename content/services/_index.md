@@ -7,6 +7,5 @@ menu: main
 title: We 🦄 do that!
 linktitle: Services
 draft: false
-weight: 4
-summary:
+weight: 3
 ---

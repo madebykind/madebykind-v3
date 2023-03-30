@@ -58,27 +58,22 @@ paginate = 6
 ## Site Settings
 [params]
   author = "Seth Warburton"
-  callToAction = "We’re in the business of creating fast, accessible and user-centric websites by combining cutting-edge technologies with an understanding of business requirements."
   date_format = "January 2, 2006"
   description = "Blazing fast, super secure and accessible by default"
-  email = "hello@internet-inspired.com"
+  email = "hello@madebykind.com"
   images = ["site-feature-image.jpg"]
   naked = false
-  owner = "Internet Inspired."
-  phone = "+447528958615"
-  phonePretty = "0752 895 8615"
+  owner = "Kind"
+  phone = "+441157270990"
+  phonePretty = "0115 727 0990"
   since = 2009
 
   # All dem socials
-  dribbble = "https://dribbble.com/Internetinspired"
-  github = "https://github.com/nternetinspired"
+  #github = "https://github.com/nternetinspired"
   linkedin = "https://www.linkedin.com/in/ux-design-pro/"
-  stackoverflow = "https://stackexchange.com/users/2338356/seth-warburton"
   twitter = "https://twitter.com/nternetinspired"
-#  facebook = "https://facebook.com/nternetinspired"
-#  instagram = "https://instagram.com/internetinspired"
-#  youtube = "https://youtube.com/nternetinspired"
-  vimeo = "https://vimeo.com/nternetinspired"
+  #facebook = "https://facebook.com/nternetinspired"
+  instagram = "https://instagram.com/internetinspired"
 
   # Table of contents
   #toc = none, "hugo", or "tocbot"
@@ -97,7 +92,6 @@ paginate = 6
 
 [params.pricing]
   enable = true
-  items = ["pricing"]
 
 [params.recent_posts]
   enable = true
@@ -113,7 +107,7 @@ paginate = 6
 
 [params.webmentions]
   enable = true
-  username = "nternetinspired"
+  username = "madebykind"
 
 [privacy]
   [privacy.disqus]

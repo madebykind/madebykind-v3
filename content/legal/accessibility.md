@@ -1,7 +1,6 @@
 ---
 date: 2020-04-24T11:48:46+01:00
 description: "Accessiblity is at the heart of everything we do, this page explains our process."
-menu: legal
 title: Accessibility Statement
 toc: true
 ---

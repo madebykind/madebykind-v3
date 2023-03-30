@@ -1,7 +1,7 @@
 ---
 cover_img: images/alabaster-co-H_beOZ5CWmc-unsplash.jpg
 cover_img_alt: A nerd in his natural habitat
-icon:
+draft: true
 title: Tuned typography
 toc: true
 date: 2020-04-30T17:28:36.948Z

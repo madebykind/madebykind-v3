@@ -3,7 +3,7 @@ date: 2020-04-20T11:48:46+01:00
 menu: main
 title: About me
 linktitle: About
-weight: 2
+weight: 1
 draft: false
 cover_img: images/seth-warburton.jpg
 cover_img_alt: Since lockdown my hair is looking less tidy than this!
