@@ -6,7 +6,18 @@
 		<ul class="inline-flex flex-wrap gap-10 list-none" role="list">
 			{{ range first 4 (where site.RegularPages "Section" "in" .Site.Params.testimonials.items ) }}
 				<li class="max-w-lg">
-					{{ partial "testimonial" . }}
+          <figure>
+            <blockquote>
+              {{ .Content|markdownify }}
+            </blockquote>
+            <figcaption class="flex items-center font-sans">
+              {{ partial "image__avatar" . }}
+              <div>
+                <div class="font-bold">{{ .Params.Name }}</div>
+                <div class="text-sm">{{ .Params.Role }}</div>
+              </div>
+            </figcaption>
+          </figure>
 				</li>
 			{{ end }}
 		</ul>

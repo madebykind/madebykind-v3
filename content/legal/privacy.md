@@ -43,12 +43,15 @@ We occasionally use your contact information to send you details of our services
 When we store information in our own systems, only the people who need it have access. Our management team have access to everything you’ve provided, but individual employees have access to only what they need to do their job.
 
 ## The steps we take to keep your information private
+
 Where we store your information in third-party services, we restrict access only to people who need it. We store passwords in an encrypted password manager, use a different, randomly generated password for each service, and never use the same password twice.
 
 The computers we use are all encrypted using military-grade encryption and are protected by a passcode or fingerprint access. These computers ask for authentication whenever they’re started or after 5 minutes of inactivity. Our mobile devices are also protected by a fingerprint or facial recognition.
 
 ## How to complain
+
 We take complaints very seriously. If you’ve any reason to complain about the ways we handle your privacy, please contact [Contact Name] by email at <a href="mailto:help@example.com ">help@example.com</a>. If you’re the letter writing type, send your envelope to [Contact Address]
 
 ## Changes to this policy
+
 If we change the contents of this policy, those changes will become effective the moment we publish them on our website.

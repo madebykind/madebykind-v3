@@ -2,37 +2,19 @@
 baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en"
-title = "Inspired!"
+title = "Kind"
 disableHugoGeneratorInject = true
 author = "Seth Warburton"
-copyright = "All rights, and lefts, reserved."
+copyright = "All rights, and lefts, reserved. For ever!"
 canonifyURLs = true
 enableGitInfo = true
-# disqusShortname = "nternetinspired"
-# googleAnalytics = "UA-XXXXX-Y"
 enableRobotsTXT = true
 summarylength = 10
 paginate = 6
 
 [build]
   publishResources = true
-  writeStats = true
-
-# Options for the Hugo deploy command
-[deployment]
-
-# [[deployment.targets]]
-#   name = "example.com"
-#   URL = "s3://[S3_BUCKET_NAME]?region=eu-west-2"
-#   # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-#   cloudFrontDistributionID =	"[CLOUDFRONT_DIST_ID]"
-
-# # Behaviour and caching policies for specific file types
-# [[deployment.matchers]]
-#   # Cache static assets for 20 years.
-#   pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
-#   cacheControl = "max-age=630720000, no-transform, public"
-#   gzip = true
+  #writeStats = true
 
 [imaging]
   anchor = "smart"
@@ -76,7 +58,6 @@ paginate = 6
   instagram = "https://instagram.com/internetinspired"
 
   # Table of contents
-  #toc = none, "hugo", or "tocbot"
   toc = "tocbot"
 
 [params.clients]
@@ -90,44 +71,37 @@ paginate = 6
   enable = true
   items = ["features"]
 
-[params.pricing]
-  enable = true
-
 [params.recent_posts]
   enable = true
   items = ["posts"]
 
-[params.stats]
-  enable = true
-  items = ["stats"]
+#[params.stats]
+#  enable = true
+#  items = ["stats"]
 
 [params.testimonials]
   enable = true
   items = ["testimonials"]
 
-[params.webmentions]
-  enable = true
-  username = "madebykind"
-
 [privacy]
   [privacy.disqus]
-    disable = false
+    disable = true
   [privacy.googleAnalytics]
     anonymizeIP = true
-    disable = false
+    disable = true
     respectDoNotTrack = true
     useSessionStorage = true
   [privacy.instagram]
-    disable = true
+    disable = false
     simple = false
   [privacy.twitter]
     disable = false
     enableDNT = true
     simple = true
   [privacy.vimeo]
-    disable = false
+    disable = true
     enableDNT = true
-    simple = false
+    simple = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true

@@ -16,15 +16,19 @@ Accessibility is extremely important to us. We want as many people as possible t
 AbilityNet has [advice on making your device easier to use](https://mcmw.abilitynet.org.uk/) if you have a disability.
 
 ## What to do if you cannot access parts of this website
+
 If you need information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille, contact <a href="mailto:help@example.com ">help@example.com </a>. We’ll consider your request and get back to you within 2 working days.
 
 ## Reporting accessibility problems with this website
+
 We’re always looking to improve the accessibility of this website. If you have any problems accessing this site, or you think we’re not meeting accessibility requirements, please contact <a href="mailto:help@example.com ">help@example.com</a>.
 
 ## Technical information about this website’s accessibility
+
 This website is compliant with the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a> AA standard, and we treat that as the minimum acceptable while aiming to achieve compliance with the AAA standard.
 
 ## How we tested this website
+
 This website was last tested in February 2020 by our developers, using a combination of automated and manual tests. When testing this site, we:
 
 * Used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to audit each page for accessibility, and performance, issues.

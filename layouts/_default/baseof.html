@@ -5,7 +5,8 @@
     {{ partial "head" . }}
   {{ end }}
   
-  <body class="grid min-h-screen font-serif text-base antialiased leading-normal auto-rows-auto liga kern">
+<body class="{{ if .Site.IsServer }}border-debug {{ end }}grid min-h-screen font-serif text-base leading-normal bg-buff text-indigo auto-rows-auto liga kern"></body>
+
     <!-- Code that all your templates share, like the site banner -->
     {{ block "header" . }}
       {{ partial "site__header" . }}

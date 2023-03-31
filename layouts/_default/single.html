@@ -10,8 +10,10 @@
         </aside>
       </div>
     {{ end }}
-    <div class="prose lg:col-span-7">
-      {{- .Content -}}
+    <div class="lg:col-span-7">
+      <div class="prose ">
+        {{- .Content -}}
+      </div>
       {{ if .Params.tags }}
         <footer class="mt-8">
           <h3 class="font-bold">{{ i18n "taxonomy" }}</h3>

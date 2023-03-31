@@ -33,7 +33,6 @@
  */
 @import 'components/background.postcss';
 @import 'components/border.postcss';
-/* @import 'components/grid.postcss'; */
 @import 'components/container.postcss';
 @import 'components/prose.postcss';
 @import 'components/section.postcss';
@@ -47,8 +46,3 @@
 
 /* Include Open-type utilities */
 /* @import 'utility-opentype'; */
-
-/* Debug layout */
-* > * {
-  box-shadow: 0 0 0 1px var(--color-border-ui);
-}
