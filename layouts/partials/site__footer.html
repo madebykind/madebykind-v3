@@ -1,8 +1,8 @@
 <footer class="border-t border-ui section">
   <div class="container">
     <h2>{{ i18n "contactTitle" }}</h2>
-    <p>{{ i18n "ctaCopy" }}</p>
-    <ul>
+    <p class="text-md">{{ i18n "ctaCopy" }}</p>
+    <ul class="flex list-none" role="list">
       <li>
         {{ i18n "emailTitle" }} <a href="mailto:{{.Site.Params.Email}}" rel="me">{{.Site.Params.Email}}</a>
       </li>
@@ -10,9 +10,8 @@
         {{ i18n "phoneTitle" }} <a href="tel:{{.Site.Params.Phone}}">{{.Site.Params.PhonePretty}}</a>
       </li>
     </ul>
-    <h3>{{ i18n "socialTitle" }}</h3>
-    <nav aria-label="Social media links">
-      <ul class="flex flex-wrap items-center gap-2 p-0 list-none" role=list>
+    <nav aria-label="{{ i18n "socialTitle" }}">
+      <ul class="flex flex-wrap items-center gap-2 list-none" role=list>
         {{ if isset .Site.Params "facebook" }}
         <li>
           <a href="{{ .Site.Params.Facebook }}" title="Facebook">
@@ -65,8 +64,7 @@
 
       </ul>
     </nav>
-    <h3>{{ i18n "footerNavTitle" }}</h3>
-    <nav aria-label="Secondary menu" class="inline-flex">
+    <nav aria-label="{{ i18n "footerNavTitle" }}" class="inline-flex">
       <ul>
       {{ $currentPage := . }}
         {{ range .Site.Menus.legal }}
