@@ -2,10 +2,10 @@
 baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en"
-title = "Kind"
+title = "Future Friendly Ltd."
 disableHugoGeneratorInject = true
 author = "Seth Warburton"
-copyright = "All rights, and lefts, reserved. For ever!"
+copyright = "All rights, and lefts, reserved, for ever!"
 canonifyURLs = true
 enableGitInfo = true
 enableRobotsTXT = true

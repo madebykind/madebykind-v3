@@ -1,8 +1,8 @@
 ---
 date: 2020-04-24T10:48:46.000Z
-description: The latest from our “web log”. Such hip, so now, such content.
+description:
 menu: main
-title: Latest News
+title: Insights from our expert team
 linktitle: Insights
 draft: false
 weight: 4
