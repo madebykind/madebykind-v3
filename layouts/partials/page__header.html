@@ -1,12 +1,14 @@
-<header class="relative grid content-center min-h-screen gap-5 ">
+<header class="relative grid content-center min-h-screen gap-5">
 	{{ if isset .Params "cover_img" }}
 		{{ partial "image__hero" . }}
 	{{ end }}
-	<h1 class="clig dlig">{{ .Page.Title|safeHTML }}</h1>
-	{{ with .Params.meta }}
-		{{ partial "meta" . }}
-	{{ end }}
-	{{ if .Description }}
-		<p class="text-lg leading-tight">{{ .Description }}</p>
-	{{ end }}
+  <div class="container max-w-copy">
+    <h1 class="clig dlig">{{ .Page.Title|safeHTML }}</h1>
+    {{ with .Params.meta }}
+      {{ partial "meta" . }}
+    {{ end }}
+    {{ if .Description }}
+      <p class="text-lg leading-tight">{{ .Description }}</p>
+    {{ end }}
+  </div>
 </header>

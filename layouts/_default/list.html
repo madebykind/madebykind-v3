@@ -2,7 +2,7 @@
 {{ $section := .Site.GetPage "section" .Section }}
 <section>
   {{ partial "page__header.html" . }}
-  <ol>
+  <ol class="container">
     {{ range .Pages }}
       <li>
         {{ partial "teaser" . }}
