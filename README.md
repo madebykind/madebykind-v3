@@ -2,7 +2,7 @@
 
 > Hugo, Webpack, PostCss, Tailwindcss & Netlify!
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fcec7f92-d66c-4674-9efc-3f74c97f6f05/deploy-status)](https://app.netlify.com/sites/serene-curie-12f16a/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fcec7f92-d66c-4674-9efc-3f74c97f6f05/deploy-status)](https://app.netlify.com/sites/wonderful-bonbon-d48e44/deploys)
 
 ## Features
 
