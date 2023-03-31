@@ -16,4 +16,4 @@
 - Purgecss to remove unused styles
 - 100, 100, 100, 100 score on Google Lighthouse.
 - Netflify CMS ready.
-- 1-click deployment [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/madebykind/madebykind-v3)
+- 1-click deployment [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/nternetinspired/madebykind-v3)
