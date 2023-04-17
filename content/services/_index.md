@@ -1,11 +1,12 @@
 ---
-cover_img: images/markus-spiske-516263-unsplash.jpg
-cover_img_alt: A sexy banana
-date: 2020-04-24T10:48:46.000Z
-description: This is the master list of all reasons we are excellent, some of which you have already seen elsewhere on this site, because linked content strategies rock! Humungous images are also apparantlently important to marketing types…
+date: 2020-04-24T11:48:46+01:00
+description: We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
+cover_img:
+cover_img_alt:
 menu: main
-title: We 🦄 do that!
+title: Ethical work is excellent work
 linktitle: Services
-draft: false
 weight: 3
 ---
+
+We combine expertise in digital, branding and strategy with an unwavering commitment to social change.

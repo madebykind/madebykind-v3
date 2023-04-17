@@ -1,9 +1,9 @@
 ---
 cover_img: images/cody-davis-253925-unsplash.jpg
-cover_img_alt: Ohh, a pineapple
+cover_img_alt: A pineapple, drowned in white paint.
 date: 2020-04-24T11:48:46+01:00
-description: Low-bandwidth, high-availability sites can handle huge volumes of traffic and still deliver your content quickly.
-summary: Our low-bandwidth, high-availability sites can handle huge volumes of traffic and still ensure your content gets to your users as quickly as possible.
+description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 tags: [Webperf, UX]
 title: Fast & energy efficient
 ---
