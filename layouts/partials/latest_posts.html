@@ -1,15 +1,12 @@
-{{ if isset .Site.Params "recent_posts" }}
-  {{ if .Site.Params.recent_posts.enable }}
-  <section class="section">
-		<h2>{{ i18n "latestTitle" }}</h2>
-		<p class="text-md">{{ i18n "latestDescription" }}</p>
-		<ul class="grid gap-10 list-none" role="list">
-			{{ range first 5 (where site.RegularPages "Section" "in" .Site.Params.recent_posts.items ) }}
-				<li>
-					{{ partial "teaser" . }}
-				</li>
-			{{ end }}
-		</ul>
-  </section>
-  {{ end }}
-{{ end }}
+
+<section class="container section">
+  <h2>{{ i18n "latestTitle" }}</h2>
+  <p class="text-md">{{ i18n "latestDescription" }}</p>
+  <ul class="grid gap-10 list-none" role="list">
+    {{ range first 3 (where site.RegularPages "Section" "posts" ) }}
+      <li>
+        {{ partial "teaser" . }}
+      </li>
+    {{ end }}
+  </ul>
+</section>

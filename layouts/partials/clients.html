@@ -1,23 +1,20 @@
-{{ if isset .Site.Params "clients" }}
-  {{ if .Site.Params.clients.enable }}
-    <section class="section">
-			<div class="mb-6">
-				<h2>{{ i18n "clientsTitle" }}</h2>
-				<p>{{ i18n "clientsDescription" }}</p>
-			</div>
-			<ul class="inline-flex flex-wrap gap-10 list-none" role="list">
-				{{ range (where site.RegularPages "Section" "in" .Site.Params.clients.items ) }}
-				<li>
-					{{ if isset .Params "url" }}
-						<a href="https://{{ .Params.Url }}" rel="noopener noreferrer" title="{{ .Title }}">
-							{{ .Content }}
-						</a>
-					{{ else }}
-						{{ .Content }}
-					{{ end }}
-				</li>
-				{{ end }}
-			</ul>
-    </section>
-  {{ end }}
-{{ end }}
+
+<section class="container section">
+  <div class="mb-6">
+    <h2>{{ i18n "clientsTitle" }}</h2>
+    <p>{{ i18n "clientsDescription" }}</p>
+  </div>
+  <ul class="inline-flex flex-wrap gap-10 list-none" role="list">
+    {{ range (where site.RegularPages "Section" "clients" ) }}
+    <li>
+      {{ if isset .Params "url" }}
+        <a href="https://{{ .Params.Url }}" rel="noopener noreferrer" title="{{ .Title }}">
+          {{ .Content }}
+        </a>
+      {{ else }}
+        {{ .Content }}
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</section>

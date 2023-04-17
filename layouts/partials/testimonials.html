@@ -1,26 +1,23 @@
-{{ if isset .Site.Params "testimonials" }}
-  {{ if .Site.Params.testimonials.enable }}
-  <section class="section">
-		<h2>{{ i18n "testimonialsTitle" }}</h2>
-		<p class="text-md">{{ i18n "testimonialsDescription" }}</p>
-		<ul class="inline-flex flex-wrap gap-10 list-none" role="list">
-			{{ range first 4 (where site.RegularPages "Section" "in" .Site.Params.testimonials.items ) }}
-				<li class="max-w-lg">
-          <figure>
-            <blockquote>
-              {{ .Content|markdownify }}
-            </blockquote>
-            <figcaption class="flex items-center font-sans">
-              {{ partial "image__avatar" . }}
-              <div>
-                <div class="font-bold">{{ .Params.Name }}</div>
-                <div class="text-sm">{{ .Params.Role }}</div>
-              </div>
-            </figcaption>
-          </figure>
-				</li>
-			{{ end }}
-		</ul>
-  </section>
-  {{ end }}
-{{ end }}
+
+<section class="section">
+  <h2>{{ i18n "testimonialsTitle" }}</h2>
+  <p class="text-md">{{ i18n "testimonialsDescription" }}</p>
+  <ul class="inline-flex flex-wrap gap-10 list-none" role="list">
+    {{ range first 4 (where site.RegularPages "Section" "testimonials" ) }}
+      <li class="max-w-lg">
+        <figure>
+          <blockquote>
+            {{ .Content|markdownify }}
+          </blockquote>
+          <figcaption class="flex items-center font-sans">
+            {{ partial "image__avatar" . }}
+            <div>
+              <div class="font-bold">{{ .Params.Name }}</div>
+              <div class="text-sm">{{ .Params.Role }}</div>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+    {{ end }}
+  </ul>
+</section>
