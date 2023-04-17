@@ -2,9 +2,9 @@
 baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en"
-title = "Future Friendly Ltd."
+title = "Kind"
 disableHugoGeneratorInject = true
-author = "Seth Warburton"
+author = "Future Friendly Ltd."
 copyright = "All rights, and lefts, reserved, for ever!"
 canonifyURLs = true
 enableGitInfo = true
@@ -45,12 +45,11 @@ paginate = 6
   email = "hello@madebykind.com"
   images = ["site-feature-image.jpg"]
   naked = false
-  owner = "Kind"
+  owner = "Future Friendly Ltd."
   phone = "+441157270990"
   phonePretty = "0115 727 0990"
   since = 2009
 
-  # All dem socials
   #github = "https://github.com/nternetinspired"
   linkedin = "https://www.linkedin.com/in/ux-design-pro/"
   twitter = "https://twitter.com/nternetinspired"
@@ -59,29 +58,6 @@ paginate = 6
 
   # Table of contents
   toc = "tocbot"
-
-[params.clients]
-  enable = true
-  items = ["clients"]
-
-[params.comments]
-  enable = false
-
-[params.features]
-  enable = true
-  items = ["features"]
-
-[params.recent_posts]
-  enable = true
-  items = ["posts"]
-
-#[params.stats]
-#  enable = true
-#  items = ["stats"]
-
-[params.testimonials]
-  enable = true
-  items = ["testimonials"]
 
 [privacy]
   [privacy.disqus]
