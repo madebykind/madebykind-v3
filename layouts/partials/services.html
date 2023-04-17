@@ -1,0 +1,18 @@
+
+<section class="container min-h-screen">
+  <h2 class="sr-only">{{ i18n "featuresTitle" }}</h2>
+  <ul class="grid list-none md:grid-cols-3">
+    {{ range (where site.RegularPages "Section" "services" ) }}
+      <li>
+        <article>
+          {{ if isset .Params "cover_img" }}
+            {{ partial "image__card" . }}
+          {{ end }}
+          <h3 id="{{ .Title | anchorize }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Summary | markdownify }}</p>
+          <a aria-labelledby="{{ .Title | anchorize }}" class="inline-flex items-center" href="{{ .Permalink }}">{{ i18n "readMore" }} &rarr;</a>
+        </article>
+      </li>
+    {{ end }}
+  </ul>
+</section>

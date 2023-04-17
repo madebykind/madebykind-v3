@@ -1,0 +1,11 @@
+
+<section class="container section">
+  <h2>{{ i18n "featuredTitle" }}</h2>
+  <ul class="grid gap-10 list-none" role="list">
+    {{ range first 3 (where site.RegularPages "Section" "work" ) }}
+      <li>
+        {{ partial "teaser" . }}
+      </li>
+    {{ end }}
+  </ul>
+</section>
