@@ -1,0 +1,9 @@
+<header class="relative grid content-center min-h-screen gap-5 border-t border-b">
+	{{ if isset .Params "cover_img" }}
+		{{ partial "image__hero" . }}
+	{{ end }}
+  <div class="container max-w-copy">
+    <h1 class="clig dlig">{{ .Page.Title|safeHTML }}</h1>
+    {{ .Content }}
+  </div>
+</header>
