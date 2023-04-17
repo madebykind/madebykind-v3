@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
 <section>
-  {{ partial "page__header.html" . }}
+  {{ partial "list__header.html" . }}
   <ol class="container">
     {{ range .Pages }}
       <li>
