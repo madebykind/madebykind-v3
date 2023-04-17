@@ -1,10 +1,6 @@
 {{ define "main" }}
-  {{ partial "page__header.html" . }}
-  <div class="container">
-  {{ .Content }}
-  {{/* partial "features.html" . */}}
+  {{ partial "services.html" . }}
+  {{ partial "list__header.html" . }}
+  {{ partial "featured_work.html" . }}
   {{ partial "latest_posts.html" . }}
-  {{ partial "testimonials.html" . }}
-  {{ partial "clients.html" . }}
-  </div>
 {{ end }}
