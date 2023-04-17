@@ -35,17 +35,33 @@ module.exports = {
         serif: ['Marselis', ...defaultTheme.fontFamily.serif],
       },
     },
-    fontSize: { 
-      // @link https://utopia.fyi/type/calculator?c=320,16,1.618,1366,24,1.618,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12
-      sm: 'clamp(0.62rem, calc(0.52rem + 0.47vw), 0.93rem)',
-      base: 'clamp(1.00rem, calc(0.85rem + 0.76vw), 1.50rem)',
-      md: 'clamp(1.62rem, calc(1.37rem + 1.24vw), 2.43rem)',   
-      lg: 'clamp(2.62rem, calc(2.22rem + 2.00vw), 3.93rem)',    
-      xl: 'clamp(4.24rem, calc(3.59rem + 3.24vw), 6.35rem)', 
-      '2xl': 'clamp(6.85rem, calc(5.81rem + 5.24vw), 10.28rem)',  
-      '3xl': 'clamp(11.09rem, calc(9.39rem + 8.48vw), 16.63rem)',  
+    fontSize: {
+      /* @link https://utopia.fyi/type/calculator?c=375,15,1.618,1366,24,1.618,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+      /* Step -2: 5.73px → 9.17px */
+      xs: 'clamp(0.36rem, calc(0.28rem + 0.35vw), 0.57rem)',
+
+      /* Step -1: 9.27px → 14.83px */
+      sm: 'clamp(0.58rem, calc(0.45rem + 0.56vw), 0.93rem)',
+
+      /* Step 0: 15.00px → 24.00px */
+      base: 'clamp(0.94rem, calc(0.72rem + 0.91vw), 1.50rem)',
+
+      /* Step 1: 24.27px → 38.83px */
+      md: 'clamp(1.52rem, calc(1.17rem + 1.47vw), 2.43rem)',
+
+      /* Step 2: 39.27px → 62.83px */
+      lg: 'clamp(2.45rem, calc(1.90rem + 2.38vw), 3.93rem)',
+
+      /* Step 3: 63.54px → 101.66px */
+      xl: 'clamp(3.97rem, calc(3.07rem + 3.85vw), 6.35rem)',
+
+      /* Step 4: 102.80px → 164.48px */
+      '2xl': 'clamp(6.43rem, calc(4.97rem + 6.22vw), 10.28rem)',
+
+      /* Step 5: 166.34px → 266.14px */
+      '3xl': 'clamp(10.40rem, calc(8.04rem + 10.07vw), 16.63rem)',
+      },
     },
-  },
   variants: {
     extend: {
       fontSmoothing: ['dark'],
