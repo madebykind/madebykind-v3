@@ -4,8 +4,9 @@ description: We combine expertise in digital, branding and strategy with an unwa
 cover_img:
 cover_img_alt:
 menu: main
-title: Ethical work is excellent work
 linktitle: Work
-draft: false
+title: Ethical work is excellent work
 weight: 2
 ---
+
+We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
