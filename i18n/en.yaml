@@ -1,5 +1,8 @@
 - id: latestTitle
-  translation: "Latest posts"
+  translation: "Insights from our strategic, creative and technical experts"
+
+- id: featuredTitle
+  translation: "Case studies"
 
 - id: latestDescription
   translation: "Our thoughts, targetted clickbait & thinly-veiled sales pitches."
@@ -11,7 +14,7 @@
   translation: "Let’s make a difference together"
 
 - id: ctaCopy
-  translation: "If you put purspose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help."
+  translation: "If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help."
 
 - id: categoriesTitle
   translation: "Categories"
@@ -25,20 +28,14 @@
 - id: tagsTitle
   translation: "Tags"
 
-- id: featuresTitle
-  translation: "Features"
-
-- id: featuresDescription
-  translation: "Every box ticked, comprehensively, and with style."
+- id: servicesTitle
+  translation: "Services"
 
 - id: readMore
   translation: "Continue reading"
 
 - id: authorBy
   translation: "By"
-
-- id: recentPostsTitle
-  translation: "Recent posts"
 
 - id: statsTitle
   translation: "Numbers"
