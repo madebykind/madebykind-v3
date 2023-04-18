@@ -1,22 +1,19 @@
-<header>
-  <div class="container">
-    <div class="flex flex-wrap items-center justify-between">
-      {{ partial "logo" . }}
-      <nav aria-label="Main menu">
-        <ul class="flex items-center gap-5 list-none" role="list">
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.main }}
-          <li>
-            <a class="flex p-2"{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{end}} href="{{ .URL }}">
-              {{- .Name -}}
-            </a>
-          </li>
-          {{ end }}
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+<header class="container grid items-center justify-center grid-cols-3 gap-5 py-5">
+
+  {{ partial "logo" . }}
+  <nav aria-label="Main menu">
+    <ul class="flex items-center justify-center flex-grow gap-5 m-0 font-bold list-none" role="list">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <li>
+        <a class="flex p-2 no-underline"{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{end}} href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{ end }}
+      <li>
+        <a class="no-underline" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
 </header>
