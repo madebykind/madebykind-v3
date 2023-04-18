@@ -41,20 +41,20 @@ paginate = 6
 [params]
   author = "Seth Warburton"
   date_format = "January 2, 2006"
-  description = "Blazing fast, super secure and accessible by default"
+  description = "Fast, secure, and accessible by default."
   email = "hello@madebykind.com"
   images = ["site-feature-image.jpg"]
-  naked = false
+  naked = false # …for no-css day!
   owner = "Future Friendly Ltd."
   phone = "+441157270990"
   phonePretty = "0115 727 0990"
   since = 2009
 
-  #github = "https://github.com/nternetinspired"
-  linkedin = "https://www.linkedin.com/in/ux-design-pro/"
-  twitter = "https://twitter.com/nternetinspired"
-  #facebook = "https://facebook.com/nternetinspired"
-  instagram = "https://instagram.com/internetinspired"
+  #github = "https://github.com/madebykind"
+  linkedin = "https://www.linkedin.com/in/madebykind/"
+  twitter = "https://twitter.com/madebykind"
+  #facebook = "https://facebook.com/madebykind"
+  instagram = "https://instagram.com/imadebykind"
 
   # Table of contents
   toc = "tocbot"
