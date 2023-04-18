@@ -2,8 +2,8 @@
 /* Include custom css properties. */
 @import 'variables.css';
 
-/* Include Tailwind reset and base styles
-/* @import 'tailwindcss/base';  */
+/* Include Tailwind reset and base styles */
+@import 'tailwindcss/base';
 
 /* Include Tailwind default components */
 @import 'tailwindcss/components';
