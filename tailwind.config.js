@@ -5,10 +5,11 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   darkMode: 'media',
   content: [
-    './src/js/**/*.*',
     './archetypes/**/*.*',
+    './content/**/*.*',
     './data/**/*.*',
     './layouts/**/*.html',
+    './src/js/**/*.*',
     './static/**/*.*',
   ],
   theme: {
@@ -33,6 +34,9 @@ module.exports = {
         display: ['Smithee'],
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         serif: ['Marselis', ...defaultTheme.fontFamily.serif],
+      },
+      minHeight: {
+        '90vh': '90vh',
       },
     },
     fontSize: {
