@@ -5,7 +5,8 @@ date: 2020-04-24T11:48:46+01:00
 description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 tags: [Webperf, UX]
-title: Fast & energy efficient
+title: Strategy
+block_class: bg-teal text-blue
 ---
 
 Our sites scale effortlessly and can accomodate millions of hits. Suddenly trending on Twitter, no problem, we make sites that don't fall over when the going gets tough.

@@ -1,4 +1,5 @@
 ---
+block_class: bg-blue text-sky
 cover_img: images/markus-spiske-516263-unsplash.jpg
 cover_img_alt: Oooh! A banana.
 date: 2020-04-30T17:28:36.948Z
