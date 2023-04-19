@@ -15,7 +15,7 @@
     "dev:hugo": "hugo server --buildDrafts --templateMetrics",
     "dev:vite": "vite --host",
     "lint": "eslint src",
-    "clean": "rimraf ./node_modules && yarn",
+    "clean": "rimraf ./node_modules && yarn && npm run prebuild",
     "prebuild": "rimraf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
