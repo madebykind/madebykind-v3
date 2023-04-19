@@ -2,7 +2,7 @@
 <section class="flex min-h-90vh">
   <h2 class="sr-only">{{ i18n "featuresTitle" }}</h2>
   <ul class="grid gap-0 list-none lg:grid-cols-3">
-    {{ range (where site.RegularPages "Section" "services" ) }}
+    {{ range (where (where site.RegularPages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
       <li>
         <article class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }} overflow-hidden h-full justify-end flex flex-col border-debug">
           <a aria-labelledby="{{ .Title | anchorize }}" class="flex flex-col flex-grow no-underline group text-currentColor" href="{{ .Permalink }}">
@@ -12,8 +12,7 @@
             </div>
             {{ end }}
             <div class="grid gap-5 p-5 max-h-20 lg:max-h-24 group-hover:max-h-none group-focus:max-h-none">
-
-              <h3 class="h4" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
+              <h3 class="h2" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
               <p>{{ .Summary | markdownify }}</p>
               {{ i18n "readMore" }} &rarr;
             </div>
