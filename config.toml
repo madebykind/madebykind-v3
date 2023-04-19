@@ -5,10 +5,10 @@ languageLang = "en"
 title = "Kind"
 disableHugoGeneratorInject = true
 author = "Future Friendly Ltd."
-copyright = "All rights, and lefts, reserved, for ever!"
+copyright = ""
 canonifyURLs = true
 enableGitInfo = true
-enableRobotsTXT = true
+enableRobotsTXT = false
 summarylength = 10
 paginate = 6
 
