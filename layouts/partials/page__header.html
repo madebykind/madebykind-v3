@@ -1,14 +1,16 @@
-<header class="relative grid content-center gap-5 border-t border-b">
-	{{ if isset .Params "cover_img" }}
-		{{ partial "image__hero" . }}
-	{{ end }}
-  <div class="container max-w-copy">
-    <h1 class="clig dlig">{{ .Page.Title|safeHTML }}</h1>
+<header class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}">
+  <div class="container grid gap-5 md:gap-10">
+    <h1>{{ .Page.Title|safeHTML }}</h1>
     {{ with .Params.meta }}
       {{ partial "meta" . }}
     {{ end }}
     {{ if .Description }}
-      <p class="text-lg leading-tight">{{ .Description }}</p>
+      <p class="max-w-copy lede">{{ .Description }}</p>
+    {{ end }}
+    {{ if isset .Params "cover_img" }}
+      <div class="md:self-end">
+        {{ partial "image__hero" . }}
+      </div>
     {{ end }}
   </div>
 </header>
