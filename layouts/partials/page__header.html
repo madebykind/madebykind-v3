@@ -1,6 +1,12 @@
 <header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }}grid content-center min-h-screen border-b">
 	<div class="container grid gap-5 md:grid-cols-2">
 		<div class="grid items-center col-span-1 gap-5 lg:gap-10">
+      {{ if .Params.tags }}
+        <h2 class="h3">Taxonomy (tags) terms:</h2>
+        <nav>
+          {{ partial "tags--linked" . }}
+        </nav>
+      {{ end }}
 			<h1>{{ .Page.Title|safeHTML }}</h1>
       {{ with .Params.meta }}
         {{ partial "meta" . }}
@@ -10,14 +16,17 @@
         <p class="max-w-copy lede">{{ .Description }}</p>
 			</div>
       {{ end }}
-			{{ if isset .Params "toc" }}
-				<code>Do a toc!</code>
-			{{ end }}
 		</div>
 		{{ if isset .Params "cover_img" }}
 			<div class="self-end max-w-2xl col-span-1 justify-self-end">
 				{{ partial "image__illustration" . }}
 			</div>
 		{{ end }}
+  {{ if  .Params.toc }}
+    <div>
+        <h2 class="h3">{{ i18n "tocTitle" }}</h2>
+        {{ .TableOfContents }}
+    </div>
+  {{ end }}
 	</div>
 </header>
