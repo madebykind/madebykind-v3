@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ $section := .Site.GetPage "section" .Section }}
+<section>
+  {{ partial "list__header.html" . }}
+  <section class="section bg-indigo text-buff">
+    <div class="container grid gap-10">
+      <h2>We do give a damn</h2>
+      <p>We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.</p>
+      <p>We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</p>
+      <a class="btn" href="/about/impact">Our impact</a>
+
+    </div>
+  </section>
+  <section class="section bg-teal text-blue">
+    <div class="container grid gap-10">
+      <h2>Partnerships that deliver real impact</h2>
+      <p>Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else — and that means great results for you.</p>
+      <p>Our client base is 100% socially responsible and purpose-driven in the environment, non-profit, arts and culture, and education sectors. By using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container grid gap-10">
+      <h2>Our team of experts</h2>
+    </div>
+  </section>
+</section>
+{{ end }}
