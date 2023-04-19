@@ -38,6 +38,9 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         serif: ['Marselis', ...defaultTheme.fontFamily.serif],
       },
+      maxWidth: {
+        'cta-copy': '45ch',
+      },
       minHeight: {
         '90vh': '90vh',
       },

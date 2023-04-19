@@ -1,9 +1,30 @@
-<header class="relative grid content-center min-h-screen gap-5 border-b">
-	{{ if isset .Params "cover_img" }}
-		{{ partial "image__hero" . }}
-	{{ end }}
-  <div class="container max-w-copy">
-    <h1 class="clig dlig">{{ .Page.Title|safeHTML }}</h1>
-    {{ .Content }}
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }}grid content-center min-h-screen border-b">
+  <div class="container grid gap-5 md:grid-cols-2">
+    <div class="grid col-span-1 gap-5 lg:gap-10">
+      <h1>{{ .Page.Title|safeHTML }}</h1>
+      <div class="prose max-w-cta-copy cta_prose">
+        {{ .Content }}
+      </div>
+      {{ if isset .Params "cta" }}
+        <div class="flex gap-5">
+            <a class="btn btn--primary" href="{{ .Params.ctaLink }}">
+              {{ .Params.Cta }}
+              <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                <use xlink:href="#icon-arrow"/>
+              </svg>
+            </a>
+          {{ if isset .Params "cta2" }}
+            <a class="btn" href="{{ .Params.cta2Link }}">
+              {{ .Params.Cta2 }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+    {{ if isset .Params "cover_img" }}
+    <div class="self-end max-w-2xl col-span-1 align-end">
+      {{ partial "image__illustration" . }}
+    </div>
+    {{ end }}
   </div>
 </header>
