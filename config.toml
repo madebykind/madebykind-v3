@@ -44,7 +44,6 @@ paginate = 6
   description = "Fast, secure, and accessible by default."
   email = "hello@madebykind.com"
   images = ["site-feature-image.jpg"]
-  naked = false # …for no-css day!
   owner = "Future Friendly Ltd."
   phone = "+441157270990"
   phonePretty = "0115 727 0990"
