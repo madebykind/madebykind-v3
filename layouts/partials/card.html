@@ -1,5 +1,5 @@
 <a class="text-current no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
-  <article class="transition-all duration-300 border shadow-sm bg-ui border-ui group-hover:border-pink-300 group-hover:shadow-xl">
+<article class="transition-all duration-300 border shadow-sm bg-ui border-ui group-hover:border-pink-300 group-hover:shadow-xl">
     {{ if isset .Params "cover_img" }}
       {{ partial "image__card" . }}
     {{ end }}
