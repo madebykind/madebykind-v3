@@ -50,10 +50,10 @@ paginate = 6
   phonePretty = "0115 727 0990"
   since = 2009
 
-  #github = "https://github.com/madebykind"
+  github = "https://github.com/madebykind"
   linkedin = "https://www.linkedin.com/in/madebykind/"
   twitter = "https://twitter.com/madebykind"
-  #facebook = "https://facebook.com/madebykind"
+  facebook = "https://facebook.com/madebykind"
   instagram = "https://instagram.com/imadebykind"
 
   # Table of contents
