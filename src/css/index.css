@@ -23,6 +23,7 @@
 @import 'elements/lists.postcss';
 @import 'elements/paragraphs.postcss';
 @import 'elements/rule.postcss';
+@import 'elements/small.postcss';
 @import 'elements/sub-super.postcss';
 @import 'elements/table.postcss';
 
@@ -33,6 +34,7 @@
  */
 @import 'components/background.postcss';
 @import 'components/border.postcss';
+@import 'components/button.postcss';
 @import 'components/container.postcss';
 @import 'components/prose.postcss';
 @import 'components/section.postcss';
