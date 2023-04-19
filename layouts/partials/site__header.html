@@ -5,8 +5,10 @@
     <ul class="flex items-center justify-center flex-grow gap-5 m-0 font-bold list-none" role="list">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-      <li>
-        <a class="flex p-2 no-underline"{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{end}} href="{{ .URL }}">
+<li{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} class="relative flex before:text-claret items-center before:flex before:content-['•'] before:absolute before:-left-1" {{ end }}>
+
+
+        <a class="flex p-2 no-underline"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{ end }} href="{{ .URL }}">
           {{- .Name -}}
         </a>
       </li>
