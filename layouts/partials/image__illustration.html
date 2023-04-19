@@ -1,0 +1,22 @@
+{{ $alt := ( .Params.cover_img_alt ) }}
+{{ $img := (.Params.cover_img ) }}
+{{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+
+{{ with $img }}
+
+	{{- $2xl := $image.Resize "1280x" -}}
+	{{ $xl := $2xl.Resize "800x" -}}
+	{{ $lg := $xl.Resize "640x" -}}
+	{{ $md := $lg.Resize "480x" -}}
+	{{ $sm := $md.Resize "320x" -}}
+
+	<picture>
+		<img alt="{{ $alt }}" class="object-cover" sizes="100vw" src="{{ $sm.RelPermalink }}" srcset="
+      {{ $sm.RelPermalink }} 320w,
+      {{ $md.RelPermalink }} 480w,
+      {{ $lg.RelPermalink }} 640w,
+      {{ $xl.RelPermalink }} 800w,
+      {{ $2xl.RelPermalink }} 1280w"
+    />
+	</picture>
+{{ end }}
