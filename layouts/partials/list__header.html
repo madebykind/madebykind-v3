@@ -8,14 +8,14 @@
       {{ if isset .Params "cta" }}
         <div class="flex gap-5">
             <a class="btn btn--primary" href="{{ .Params.ctaLink }}">
-              {{ .Params.Cta }}
+              {{ title .Params.Cta }}
               <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
                 <use xlink:href="#icon-arrow"/>
               </svg>
             </a>
           {{ if isset .Params "cta2" }}
             <a class="btn" href="{{ .Params.cta2Link }}">
-              {{ .Params.Cta2 }}
+              {{ title .Params.Cta2 }}
             </a>
           {{ end }}
         </div>
