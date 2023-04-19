@@ -3,6 +3,7 @@ cover_img: images/chris-liverani-HUJDz6CJEaM-unsplash.jpg
 cover_img_alt: Illuminated rev counter
 date: 2020-04-30T17:28:36.948Z
 description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+featured: true
 summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 title: Brand
 block_class: bg-yellow text-green
