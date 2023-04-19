@@ -1,16 +1,23 @@
-<header class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}">
-  <div class="container grid gap-5 md:gap-10">
-    <h1>{{ .Page.Title|safeHTML }}</h1>
-    {{ with .Params.meta }}
-      {{ partial "meta" . }}
-    {{ end }}
-    {{ if .Description }}
-      <p class="max-w-copy lede">{{ .Description }}</p>
-    {{ end }}
-    {{ if isset .Params "cover_img" }}
-      <div class="md:self-end">
-        {{ partial "image__hero" . }}
-      </div>
-    {{ end }}
-  </div>
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }}grid content-center min-h-screen border-b">
+	<div class="container grid gap-5 md:grid-cols-2">
+		<div class="grid items-center col-span-1 gap-5 lg:gap-10">
+			<h1>{{ .Page.Title|safeHTML }}</h1>
+      {{ with .Params.meta }}
+        {{ partial "meta" . }}
+      {{ end }}
+      {{ if .Description }}
+      <div class="font-light prose max-w-cta-copy cta_prose">
+        <p class="max-w-copy lede">{{ .Description }}</p>
+			</div>
+      {{ end }}
+			{{ if isset .Params "toc" }}
+				<code>Do a toc!</code>
+			{{ end }}
+		</div>
+		{{ if isset .Params "cover_img" }}
+			<div class="self-end max-w-2xl col-span-1 justify-self-end">
+				{{ partial "image__illustration" . }}
+			</div>
+		{{ end }}
+	</div>
 </header>
