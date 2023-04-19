@@ -3,7 +3,6 @@ const colors = require('tailwindcss/colors')
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  darkMode: 'media',
   content: [
     './archetypes/**/*.*',
     './content/**/*.*',
@@ -12,6 +11,10 @@ module.exports = {
     './src/js/**/*.*',
     './static/**/*.*',
   ],
+  corePlugins: {
+    container: false,
+  },
+  darkMode: 'media',
   theme: {
     colors: {
       currentColor: 'currentColor',
