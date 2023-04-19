@@ -6,7 +6,10 @@
   {{ end }}
   
   <body class="{{ if .Site.IsServer }}border-debug {{ end }}min-h-screen font-serif text-base leading-normal bg-buff text-indigo auto-rows-auto liga kern">
-    <a href="#content">Skip to main content</a>
+
+    <!-- The Bush Kangaroo -->
+    <a href="#content" class="sr-only focus:not-sr-only">Skip to content</a>
+
     <!-- Code that all your templates share, like the site banner -->
     {{ block "header" . }}
       {{ partial "site__header" . }}
@@ -26,5 +29,6 @@
     {{ if .Site.GoogleAnalytics }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
+    
   </body>
 </html>

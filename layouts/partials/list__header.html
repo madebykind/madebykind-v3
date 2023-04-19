@@ -1,4 +1,4 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }}grid content-center min-h-screen border-b">
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }}grid content-center min-h-90vh h-screen border-b">
   <div class="container grid gap-5 md:grid-cols-2">
     <div class="grid items-center col-span-1 gap-5 lg:gap-10">
       <h1>{{ .Page.Title|safeHTML }}</h1>
