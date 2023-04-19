@@ -33,6 +33,9 @@ module.exports = {
       yellow: '#fdb515',
     },
     extend: {
+      borderWidth: {
+        3: '3px',
+      },
       fontFamily: {
         display: ['Smithee'],
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
