@@ -1,23 +1,32 @@
 ---
-title: Rewilding Britain
-description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment**
+title: For thriv­ing rivers and communities. Wild, healthy, natural rivers, valued by all.
+link: https://thetungauditorium.com/
+description: A new website design to build awareness of the charity’s work and gain support from the public.
 ---
 
-## The Challenge
+**The Challenge**
 
-Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.
+The rivers trust aims to bring together the people, knowledge, data and intelligence to help rivers thrive again; for us and future generations.
 
-## Services
+**Services**
 
-UX design
+- User research and analysis
+- User-centred design (UX)
+- Mobile-first design (UI)
+- Front-end development
+- CMS integration
+- CRM integration
+- Member area
+- Support and maintenance
 
-UI design
+****“Rivers shape our land­scapes and pro­vide the foun­da­tions of our cities, towns and coun­try­side. When they thrive, so do we.”****
 
-Development
-
-Strategic consultancy
-
-> “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
+- Brand designed by Emperor, RT worked with us to launch it digitally
+- User-centred - Tested with real users from key audiences
+- Sewage map showing overflows of raw sewage across the UK
+- Coverage on national TV and press
+- Area for member trusts to promote news, events and job vacancies
+- Content layered for multiple audiences
 
 One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
 
@@ -32,3 +41,5 @@ Impact stats
 149% increase in donations in the first 6 months
 
 200**° signed upto the projects network
+
+***** need to find some more / get the right stats
