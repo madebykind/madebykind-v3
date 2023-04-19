@@ -2,7 +2,6 @@
 {{ $alt := ( .Params.cover_img_alt ) }}
 {{ $img := (.Params.cover_img ) }}
 {{ $image := resources.GetMatch (printf "**%s" ($img)) }}
-{{ $version := hugo.Version }}
 
 {{ with $img }}
 
@@ -27,7 +26,7 @@
       {{ $lg.RelPermalink }} 640w,
       {{ $xl.RelPermalink }} 800w,
       {{ $2xl.RelPermalink }} 1280w,
-      {{ $3xl.RelPermalink }} 1280w,
+      {{ $3xl.RelPermalink }} 1440w,
       {{ $4xl.RelPermalink }} 1920w,
       {{ $5xl.RelPermalink }} 2560w"
     />
