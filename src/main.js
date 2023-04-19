@@ -1,7 +1,9 @@
-import 'vite/modulepreload-polyfill'
+// Assets
+import 'virtual:svg-icons-register';
+import "./css/index.css";
+
 // JS Goes here - ES6 supported
 
-import "./css/index.css";
 
 // Say hello
 console.log("Sup?! Edit me in src/main.js");
