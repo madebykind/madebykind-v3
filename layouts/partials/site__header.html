@@ -1,13 +1,10 @@
-<header class="container grid items-center justify-center grid-cols-3 gap-5 py-5">
-
+<header class="container flex flex-wrap items-center justify-between gap-5 py-5">
   {{ partial "logo" . }}
   <nav aria-label="Main menu">
     <ul class="flex items-center justify-center flex-grow gap-5 m-0 font-bold list-none" role="list">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-<li{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} class="relative flex before:text-claret items-center before:flex before:content-['•'] before:absolute before:-left-1" {{ end }}>
-
-
+      <li{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} class="relative flex before:text-claret items-center before:flex before:content-['•'] before:absolute before:-left-1" {{ end }}>
         <a class="flex p-2 no-underline"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{ end }} href="{{ .URL }}">
           {{- .Name -}}
         </a>
@@ -18,4 +15,12 @@
       </li>
     </ul>
   </nav>
+  <div class="flex">
+    <svg class="w-32 h-16" viewbox="0 0 131 63"  role="presentation">
+      <use xlink:href="#icon-1-percent"/>
+    </svg>
+    <svg class="w-32 h-16" viewbox="0 0 77 63"  role="presentation">
+      <use xlink:href="#icon-living-wage"/>
+    </svg>
+  </div>
 </header>
