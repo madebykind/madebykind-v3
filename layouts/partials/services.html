@@ -1,5 +1,5 @@
 
-<section class="flex min-h-90vh">
+<section class="flex min-h-screen">
   <h2 class="sr-only">{{ i18n "featuresTitle" }}</h2>
   <ul class="grid gap-0 list-none lg:grid-cols-3">
     {{ range (where (where site.RegularPages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
@@ -11,7 +11,7 @@
               {{ partial "image__card" . }}
             </div>
             {{ end }}
-            <div class="grid gap-5 p-5 max-h-20 lg:max-h-24 group-hover:max-h-none group-focus:max-h-none">
+            <div class="grid gap-5 p-5">
               <h3 class="h2" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
               <p>{{ .Summary | markdownify }}</p>
               {{ i18n "readMore" }} &rarr;
