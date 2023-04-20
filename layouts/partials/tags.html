@@ -1,8 +1,8 @@
 {{ with .Params.tags }}
-<ul class="flex flex-wrap gap-1 font-sans text-xs list-none">
+<ul class="flex gap-5 list-none">
   {{ range . }}
     <li>
-      <span class="p-1 px-2 no-underline border rounded-sm shadow-sm border-ui">{{ . }}</span>
+      <span class="underline">{{ . }}</span>
     </li>
   {{ end }}
 </ul>

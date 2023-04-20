@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ $section := .Site.GetPage "section" .Section }}
+<section>
+  {{ partial "list__header.html" . }}
+  <ol class="container grid gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 section">
+    {{ range .Pages }}
+      <li>
+        {{ partial "card" . }}
+      </li>
+    {{ end }}
+  </ol>
+  {{ partial "pagination.html" . }}
+</section>
+{{ end }}

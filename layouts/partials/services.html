@@ -8,7 +8,7 @@
           <a aria-labelledby="{{ .Title | anchorize }}" class="flex flex-col flex-grow no-underline group text-currentColor" href="{{ .Permalink }}">
             {{ if isset .Params "cover_img" }}
             <div class="relative flex flex-grow">
-              {{ partial "image__card" . }}
+              {{ partial "image__service" . }}
             </div>
             {{ end }}
             <div class="grid gap-5 p-5">

@@ -1,17 +1,20 @@
-<a class="text-current no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
-<article class="transition-all duration-300 border shadow-sm bg-ui border-ui group-hover:border-pink-300 group-hover:shadow-xl">
-    {{ if isset .Params "cover_img" }}
-      {{ partial "image__card" . }}
-    {{ end }}
-    <div class="p-5">
-      {{ if isset .Params "tags" }}
-        <footer>{{ partial "tags" . }}</footer>
+<a class="no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+  <article class="grid gap-5">
+    <div class="relative">
+      {{ if isset .Params "cover_img" }}
+        {{ partial "image__card" . }}
       {{ end }}
-      <header>
-        <h3 id="{{ .Title | urlize }}">{{ .Title }}</h3>
-        <time class="text-sm">{{ .Date.Format .Site.Params.date_format }}</time>
-      </header>
-      <p>{{ .Summary | markdownify }}</p>
+      <div class="absolute z-10 grid content-center gap-5 lg:gap-10 inset-5 lg:inset-10">
+        {{ if isset .Params "tags" }}
+          {{ partial "tags" . }}
+        {{ end }}
+        <h2 id="{{ .Title | urlize }}">{{ .Title }}</h2>
+      </div>
     </div>
+    <p class="flex items-center gap-5 font-bold">Read the article
+      <svg class="w-8 h-4" role="presentation">
+        <use xlink:href="#icon-arrow-right"/>
+      </svg>
+    </p>
   </article>
 </a>
