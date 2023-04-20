@@ -1,12 +1,8 @@
 {{ define "main" }}
-<article class="grid gap-10">
+<article>
   {{ partial "page__header" . }}
-  <div class="container grid gap-20 lg:grid-cols-10">
-    <div class="lg:col-span-7">
-      <div class="prose section">
-        {{- .Content -}}
-      </div>
-    </div>
+  <div class="container prose section">
+    {{- .Content -}}
   </div>
 </article>
 {{ end }}
