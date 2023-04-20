@@ -1,5 +1,6 @@
 ---
-cover_img: images/markus-spiske-516263-unsplash.jpg
+block_class: bg-teal text-blue
+cover_img: images/environment.png
 cover_img_alt: A roll of film on a yellow background
 title: Building a more sustainable website architecture
 date: 2021-02-16
