@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.436 11.308">
   <g stroke="currentColor">
-    <path id="Path_23" d="M-11431.5-14121.4l4.794,4.656-4.794,4.652" transform="translate(11442.71 14122.397)" fill="none" stroke-linecap="round" stroke-width="2"/>
-    <path id="Path_24" d="M-11422.958-14119.373h-12.831" transform="translate(11436.789 14124.975)" fill="none" stroke-linecap="round" stroke-width="2"/>
+    <path d="M-11431.5-14121.4l4.794,4.656-4.794,4.652" transform="translate(11442.71 14122.397)" fill="none" stroke-linecap="round" stroke-width="2"/>
+    <path d="M-11422.958-14119.373h-12.831" transform="translate(11436.789 14124.975)" fill="none" stroke-linecap="round" stroke-width="2"/>
   </g>
 </svg>
