@@ -1,8 +1,8 @@
 {{ with .Params.tags }}
-<ul class="flex flex-wrap gap-2 font-sans text-sm list-none">
+<ul class="flex flex-wrap gap-2 font-sans list-none" role="list">
   {{ range . }}
     <li>
-      <a class="px-2 leading-loose border rounded-sm bg-ui border-ui" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+      <a class="p-2" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
     </li>
   {{ end }}
 </ul>
