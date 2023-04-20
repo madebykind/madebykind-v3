@@ -44,8 +44,12 @@ module.exports = {
       lineHeight: {
         'heading': '0.8',
       },
+      maxHeight: {
+        'illustration': '55rem',
+      },
       maxWidth: {
         'cta-copy': '45ch',
+        'illustration': '55rem',
       },
       minHeight: {
         '90vh': '90vh',
