@@ -5,14 +5,15 @@
       <ul class="flex items-center justify-between flex-grow gap-5 m-0 font-bold list-none" role="list">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} class="relative flex before:text-claret items-center before:flex before:content-['•'] before:absolute before:-left-1" {{ end }}>
-          <a class="flex p-2 no-underline"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{ end }} href="{{ .URL }}">
+        <li class="relative {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} relative flex before:text-orange items-center before:flex before:content-['•'] before:absolute before:-left-1 {{ end }}">
+<a class="btn after:h-1 after:w-full after:opacity-0 hover:after:opacity-100 focus:after:opacity-100 after:absolute after:bg-orange after:left-0 after:bottom-0" {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page" {{ end }} href="{{ .URL }}">
+
             {{- .Name -}}
           </a>
         </li>
         {{ end }}
         <li>
-          <a class="no-underline" href="#contact">Contact</a>
+          <a class="btn" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
