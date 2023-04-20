@@ -1,31 +1,30 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }}grid content-center min-h-screen h-min border-b pt-24 lg:pt-32 xl:pt-48">
-	<div class="container grid gap-5 md:grid-cols-2">
-		<div class="grid col-span-1 gap-5 items-between">
-      {{ if .Params.tags }}
-        <nav aria-label="Explore related content by tag">
-          {{ partial "tags--linked" . }}
-        </nav>
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }} grid min-h-screen border-b section">
+  <div class="container grid content-between h-full gap-10 min-h-max">
+    {{ if .Params.tags }}
+      <nav aria-label="Explore related content by tag">
+        {{ partial "tags--linked" . }}
+      </nav>
+    {{ end }}
+    <div class="grid items-center gap-10 md:grid-cols-2">
+      <div class="grid col-span-1 gap-10">
+        <h1>{{ .Page.Title|safeHTML }}</h1>
+        {{ with .Params.meta }}
+          {{ partial "meta" . }}
+        {{ end }}
+        {{ if .Description }}
+        <div class="font-light prose max-w-cta-copy cta_prose">
+          <p class="max-w-copy lede">{{ .Description }}</p>
+        </div>
+        {{ end }}
+      </div>
+      {{ if isset .Params "cover_img" }}
+        <div class="self-end col-span-1 max-h-illustration max-w-illustration justify-self-end">
+          {{ partial "image__illustration" . }}
+        </div>
       {{ end }}
-			<h1>{{ .Page.Title|safeHTML }}</h1>
-      {{ with .Params.meta }}
-        {{ partial "meta" . }}
-      {{ end }}
-      {{ if .Description }}
-      <div class="font-light prose max-w-cta-copy cta_prose">
-        <p class="max-w-copy lede">{{ .Description }}</p>
-			</div>
-      {{ end }}
-		</div>
-		{{ if isset .Params "cover_img" }}
-			<div class="self-end max-w-2xl col-span-1 justify-self-end">
-				{{ partial "image__illustration" . }}
-			</div>
-		{{ end }}
-  {{ if  .Params.toc }}
-    <div>
-        <h2 class="h3">{{ i18n "tocTitle" }}</h2>
-        {{ .TableOfContents }}
     </div>
-  {{ end }}
-	</div>
+    {{ if  .Params.toc }}
+      {{ .TableOfContents }}
+    {{ end }}
+  </div>
 </header>
