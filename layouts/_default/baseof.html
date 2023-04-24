@@ -12,7 +12,7 @@
 
     <!-- Code that all your templates share, like the site banner -->
     {{ block "header" . }}
-      {{ partial "site__header" . }}
+      {{ partial "site__header" . .Section }}
     {{ end }}
 
     <!-- The part of the page that begins to differ between templates -->
@@ -29,6 +29,37 @@
     {{ if .Site.GoogleAnalytics }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
-    
+
+    <!-- SEO Shiz! -->
+    {{ $m := dict
+      "@context" "https://schema.org"
+      "@type" "Article"
+      "mainEntityOfPage" (dict
+        "@type" "WebPage"
+        "@id" .Permalink
+      )
+      "headline" .Title
+      "image" .Params.cover_img
+      "author" (dict
+        "@type" "Organization"
+        "name" (site.Params.SiteTitle | safeHTML)
+        "url" site.BaseURL
+      )
+      "publisher" (dict
+        "@type" "Organization"
+        "name" "Name"
+        "logo" (dict
+          "@type" "ImageObject"
+          "url" (print site.BaseURL "/img/logo.png")
+        )
+      )
+      "datePublished" .Params.date
+      "dateModified" .Params.lastmod
+    }}
+
+    <script type="application/ld+json">
+      {{ jsonify (dict "indent" "  ") $m | safeJS }}
+    </script>
+
   </body>
 </html>
