@@ -1,19 +1,30 @@
 <footer id="contact">
   <div class="grid antialiased bg-indigo text-buff">
-    <div class="container section">
-      <h2>{{ i18n "contactTitle" }}</h2>
-      <p class="mt-5 text-md">{{ i18n "ctaCopy" }}</p>
-      <div class="flex gap-4 mt-10">
-      <p class="font-bold">Speak to Mat or Michelle</p>
-        <ul class="inline-flex gap-5 list-none" role="list">
-          <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
-            <span class="sr-only">{{ i18n "emailTitle" }}</span><a href="mailto:{{.Site.Params.Email}}" rel="me">{{.Site.Params.Email}}</a>
-          </li>
-          <li>
-            <span class="sr-only">{{ i18n "phoneTitle" }}</span><a href="tel:{{.Site.Params.Phone}}">{{.Site.Params.PhonePretty}}</a>
-          </li>
-        </ul>
+    <div class="container grid items-center gap-10 md:grid-cols-2">
+      <div class="section">
+        <h2>{{ i18n "contactTitle" }}</h2>
+        <p class="mt-5 text-md">{{ i18n "ctaCopy" }}</p>
+        <div class="flex gap-4 mt-10">
+        <p class="font-bold">Speak to Mat or Michelle</p>
+          <ul class="inline-flex gap-5 list-none" role="list">
+            <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
+              <span class="sr-only">{{ i18n "emailTitle" }}</span><a href="mailto:{{.Site.Params.Email}}" rel="me">{{.Site.Params.Email}}</a>
+            </li>
+            <li>
+              <span class="sr-only">{{ i18n "phoneTitle" }}</span><a href="tel:{{.Site.Params.Phone}}">{{.Site.Params.PhonePretty}}</a>
+            </li>
+          </ul>
+        </div>
       </div>
+      
+      {{ partial "image" (dict 
+        "alt" "Mat and Michelle, standing by the bureaux and smiling."
+        "maxHeight" "500"
+        "maxWidth" "800"
+        "mode" "Fill"
+        "src" "/images/alabaster.jpg" 
+      ) }}
+
     </div>
   </div>
   <div class="container section">
