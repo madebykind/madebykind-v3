@@ -1,0 +1,26 @@
+
+{{ $mode := ($.mode) }}
+{{ $img := resources.GetMatch ($.src) }}
+
+{{ with $img }}
+	{{ $xl := $img.Fill "800x600" }}
+	{{ $lg := $xl.Resize "600x" }}
+	{{ $md := $lg.Resize "400x" }}
+	{{ $sm := $md.Resize "300x" }}
+
+	<img 
+    alt="{{ $.alt }}" 
+    class="object-cover {{ $.mode }}" 
+    height="{{ $.maxHeight }}" 
+    loading="lazy" 
+    sizes="(min-width: 100em) 50vw, 100vw" 
+    src="{{ $sm.RelPermalink }}" 
+    srcset="
+      {{ $sm.RelPermalink }} 300w,
+      {{ $md.RelPermalink }} 400w,
+      {{ $lg.RelPermalink }} 600w,
+      {{ $xl.RelPermalink }} 800w
+    " 
+    width="{{ $.maxWidth }}"
+  />
+{{ end }}
