@@ -1,18 +1,18 @@
-<article class="border-b-2">
-  <a aria-labelledby="#{{ .Title }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}">  
-    {{ if isset .Params "tags" }}
-      {{ partial "tags" . }}
-    {{ end }}
-    <h3 id="{{ .Title | urlize }}">{{ .Title }}</h3>
-    {{ if .Date }}
-      <div class="mt-2 text-sm">
-      {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
+<article>
+  <a aria-labelledby="#{{ .Title }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}">
+    <div class="grid gap-10 py-10 border-b-2 border-teal">
+      {{ if isset .Params "tags" }}
+        {{ partial "tags" . }}
+      {{ end }}
+      <div class="flex flex-wrap gap-10">
+        <div class="flex-grow w-2/3">
+          <h3 class="font-serif leading-tight underline normal-case h2" id="{{ .Title | urlize }}">{{ .Title }}</h3>
+          {{ .Summary | markdownify }}
+        </div>
+        <svg class="w-8 h-8 flex-no-shrink" viewbox="0 0 77 63" role="presentation">
+          <use xlink:href="#icon-arrow"/>
+        </svg>
       </div>
-    {{ end }}
-
-    {{ .Summary | markdownify }}
-    <p class="mt-8 read-more">
-      {{ i18n "readMore" }}&rarr;<span class="sr-only"> {{ .Title }}</span>
-    </p>
+    </div> 
   </a>
 </article>
