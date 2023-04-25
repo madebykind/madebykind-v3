@@ -56,3 +56,6 @@ hugo_stats.json
 
 # Local Netlify folder
 .netlify
+
+# File backups
+*.bak
