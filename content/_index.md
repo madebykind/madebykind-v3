@@ -1,4 +1,6 @@
 ---
+cover_img: images/true-to-who-we-are-v1.png
+cover_img_alt: A giant friendly hand, holding a small flower
 cta: More about kind
 ctaLink: /about
 cta2: Our approach
