@@ -1,7 +1,7 @@
 ---
 block_class: bg-blue text-sky
-cover_img: images/markus-spiske-516263-unsplash.jpg
-cover_img_alt: Oooh! A banana.
+cover_img: images/mansplaining.jpg
+cover_img_alt: Seth mansplains to Jess…
 date: 2020-04-30T17:28:36.948Z
 description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 featured: true

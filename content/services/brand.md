@@ -1,5 +1,5 @@
 ---
-cover_img: images/chris-liverani-HUJDz6CJEaM-unsplash.jpg
+cover_img: images/chapter-card.jpg
 cover_img_alt: Illuminated rev counter
 date: 2020-04-30T17:28:36.948Z
 description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
