@@ -5,14 +5,14 @@
     {{ range (where (where site.RegularPages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
       <li>
         <article class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }} overflow-hidden h-full justify-end flex flex-col border-debug">
-          <a aria-labelledby="{{ .Title | anchorize }}" class="flex flex-col flex-grow no-underline group text-currentColor" href="{{ .Permalink }}">
+          <a aria-labelledby="{{ .Title | urlize }}" class="flex flex-col flex-grow no-underline group text-currentColor" href="{{ .Permalink }}">
             {{ if isset .Params "cover_img" }}
             <div class="relative flex flex-grow">
               {{ partial "image__service" . }}
             </div>
             {{ end }}
             <div class="grid gap-5 p-5">
-              <h3 class="h2" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
+              <h3 class="h2" id="{{ .Title | urlize }}">{{ .Title }}</h3>
               <p>{{ .Summary | markdownify }}</p>
               {{ i18n "readMore" }} &rarr;
             </div>
