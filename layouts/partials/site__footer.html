@@ -2,10 +2,10 @@
   <div class="grid antialiased bg-indigo text-buff">
     <div class="container grid gap-10 md:grid-cols-2">
       <div class="grid content-center section">
-        <h2>{{ i18n "contactTitle" }}</h2>
-        <p class="mt-5 text-md">{{ i18n "ctaCopy" }}</p>
+        <h2 class="text-xl">Let’s make a difference, together</h2>
+        <p class="mt-5 leading-tight text-md">{{ i18n "ctaCopy" }}</p>
         <p class="mt-10 font-bold">Speak to Mat or Michelle</p>
-        <ul class="inline-flex gap-5 list-none" role="list">
+        <ul class="inline-flex gap-5 mt-5 list-none" role="list">
           <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
             <span class="sr-only">{{ i18n "emailTitle" }}</span><a href="mailto:{{.Site.Params.Email}}" rel="me">{{.Site.Params.Email}}</a>
           </li>
