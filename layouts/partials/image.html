@@ -3,14 +3,15 @@
 {{ $img := resources.GetMatch ($.src) }}
 
 {{ with $img }}
-	{{ $xl := $img.Fill "800x600" }}
+	{{ $2xl := $img.Fill "1200x900" }}
+  {{ $xl := $2xl.Resize "800x" }}
 	{{ $lg := $xl.Resize "600x" }}
 	{{ $md := $lg.Resize "400x" }}
 	{{ $sm := $md.Resize "300x" }}
 
 	<img 
     alt="{{ $.alt }}" 
-    class="object-cover {{ $.mode }}" 
+    class="{{ $.class }}" 
     height="{{ $.maxHeight }}" 
     loading="lazy" 
     sizes="(min-width: 100em) 50vw, 100vw" 
@@ -19,7 +20,8 @@
       {{ $sm.RelPermalink }} 300w,
       {{ $md.RelPermalink }} 400w,
       {{ $lg.RelPermalink }} 600w,
-      {{ $xl.RelPermalink }} 800w
+      {{ $xl.RelPermalink }} 800w,
+      {{ $2xl.RelPermalink }} 1200w
     " 
     width="{{ $.maxWidth }}"
   />
