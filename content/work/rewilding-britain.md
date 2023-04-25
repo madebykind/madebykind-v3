@@ -1,9 +1,13 @@
 ---
-title: Rewilding Britain
-description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment**
+block_class: bg-pink text-claret
+cover_img: images/markus-spiske-516263-unsplash.jpg
+cover_img_alt: 
+description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment
+featured: true
+summary: 
+tags: [Strategy, Digital]
+title: A platform to inspire rewilding projects across the country
 ---
-
-## The Challenge
 
 Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.
 
