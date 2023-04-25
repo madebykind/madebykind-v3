@@ -15,8 +15,11 @@
                 </svg>
               </a>
             {{ if isset .Params "cta2" }}
-              <a class="btn" href="{{ .Params.cta2Link }}">
+              <a class="btn btn--secondary" href="{{ .Params.cta2Link }}">
                 {{ title .Params.Cta2 }}
+                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                  <use xlink:href="#icon-arrow"/>
+                </svg>
               </a>
             {{ end }}
           </div>
