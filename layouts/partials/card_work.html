@@ -1,0 +1,21 @@
+  <article class="grid h-full gap-5">
+    <a class="no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+    <div class="relative">
+      {{ if isset .Params "cover_img" }}
+        {{ partial "image__card" . }}
+      {{ end }}
+      <div class="grid content-center gap-5 py-5 lg:gap-10">
+        <h2 class="group-hover:unerline" id="{{ .Title | urlize }}">{{ .Title }}</h2>
+        {{ with .Params.tags }}
+          <ul class="flex gap-5 list-none lg:gap-10">
+            {{ range . }}
+              <li class="relative after:flex after:bg-blue after:absolute after:-right-5 after:content-['+']">
+                <span class="underline">{{ . }}</span>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    </div>
+  </a>
+</article>
