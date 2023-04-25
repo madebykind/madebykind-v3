@@ -1,10 +1,10 @@
 
-<section class="container section">
-  <h2>{{ i18n "featuredTitle" }}</h2>
-  <ul class="grid gap-10 list-none" role="list">
-    {{ range first 3 (where site.RegularPages "Section" "work" ) }}
+<section>
+  <h2 class="sr-only">{{ i18n "featuredTitle" }}</h2>
+  <ul class="list-none" role="list">
+    {{ range first 3 ( where (where site.RegularPages "Section" "work" ) ".Params.featured" "eq" true ) }}
       <li>
-        {{ partial "teaser" . }}
+        {{ partial "teaser_work" . }}
       </li>
     {{ end }}
   </ul>
