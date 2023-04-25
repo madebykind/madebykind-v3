@@ -1,6 +1,6 @@
 
 <section>
-  <h2 class="sr-only">{{ i18n "featuredTitle" }}</h2>
+  <h2 class="sr-only">Cases studies</h2>
   <ul class="list-none" role="list">
     {{ range first 3 ( where (where site.RegularPages "Section" "work" ) ".Params.featured" "eq" true ) }}
       <li>
