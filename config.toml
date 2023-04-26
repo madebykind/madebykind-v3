@@ -51,8 +51,8 @@ paginate = 6
 
   github = "https://github.com/madebykind"
   linkedin = "https://www.linkedin.com/company/madebykind/"
-  twitter = "https://twitter.com/madebykind"
-  facebook = "https://facebook.com/madebykind"
+  #twitter = "https://twitter.com/madebykind"
+  #facebook = "https://facebook.com/madebykind"
   instagram = "https://instagram.com/imadebykind"
 
   # Table of contents
