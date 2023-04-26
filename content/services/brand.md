@@ -1,6 +1,6 @@
 ---
-cover_img: images/chapter-card.jpg
-cover_img_alt: Illuminated rev counter
+cover_img: images/brand.jpg
+cover_img_alt: Chapter on a sofa
 date: 2020-04-30T17:28:36.948Z
 description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 featured: true
