@@ -1,5 +1,5 @@
 ---
-cover_img: images/markus-spiske-516263-unsplash.jpg
+cover_img: images/portra400.jpg
 cover_img_alt: A roll of film on a yellow background
 title: Creating sustainable and ethical digital products
 date: 2020-05-12

@@ -39,7 +39,7 @@ determines the header level.)
 
 Responsive images are added with markdown, like this:
 
-![Nerd reading](../images/alabaster-co-H_beOZ5CWmc-unsplash.jpg "Oh look, a nerd reading a magazine")
+![Nerd reading](../images/alabaster.jpg "Oh look, a nerd reading a magazine")
 
 ### Blockquotes
 

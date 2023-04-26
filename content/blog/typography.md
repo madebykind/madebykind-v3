@@ -1,5 +1,5 @@
 ---
-cover_img: images/alabaster-co-H_beOZ5CWmc-unsplash.jpg
+cover_img: images/brand-rwb.jpg
 cover_img_alt: A nerd in his natural habitat
 draft: true
 title: Tuned typography
@@ -40,7 +40,7 @@ So that’s a header for you – with any luck if we’ve done our job correctly
 
 > Typography is pretty important if you don’t want your stuff to look like trash. Make it good then it won’t be bad.
 
-It’s probably important that images look okay here by default as well… ![A smiling female scientist](../images/thisisengineering-raeng-vGA1ei1yxos-unsplash.jpg "Science is great, the computers are the bestest!")
+It’s probably important that images look okay here by default as well… ![A smiling female scientist](../images/thisisengineering.jpg "Science is great, the computers are the bestest!")
 
 #### Even for lists…
 

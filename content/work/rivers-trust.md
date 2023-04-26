@@ -1,6 +1,6 @@
 ---
 block_class: bg-blue text-sky
-cover_img: images/markus-spiske-516263-unsplash.jpg
+cover_img: images/pineapple.jpg
 cover_img_alt: Oooh! A banana.
 title: For thriv­ing rivers and communities. Wild, healthy, natural rivers, valued by all.
 link: https://thetungauditorium.com/

@@ -1,6 +1,6 @@
 ---
 block_class: bg-pink text-claret
-cover_img: images/markus-spiske-516263-unsplash.jpg
+cover_img: images/brand-rwb.jpg
 cover_img_alt: 
 description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment
 featured: true
