@@ -4,25 +4,31 @@
 {{ $img := resources.GetMatch (printf "**%s" ($src)) }}
 
 {{ with $img }}
-  {{ $2xl := $img.Fill "800x600 jpg" }}
-
-  {{ $xl := $img.Resize "800x" }}
-  {{ $lg := $xl.Resize "600x" }}
-  {{ $md := $lg.Resize "400x" }}
-  {{ $sm := $md.Resize "300x" }}
+  {{ $5xl := $img.Fill "2560x1920 jpg" }}
+  {{ $4xl := $5xl.Resize "1920x" }}
+  {{ $3xl := $4xl.Resize "1440x" }}
+  {{ $2xl := $3xl.Resize "1280x" }}
+  {{ $xl := $img.Resize "960x" }}
+  {{ $lg := $xl.Resize "640x" }}
+  {{ $md := $lg.Resize "480x" }}
+  {{ $sm := $md.Resize "320x" }}
 
   <img
     alt="{{ $alt }}"
-    class="inset-0 flex-grow object-cover w-full min-h-full lg:absolute max-w-none"
+    class="absolute object-cover w-full h-full"
     height="{{ .Height }}"
     src="{{ $sm.RelPermalink }}"
     srcset="
-    {{ $sm.RelPermalink }} 300w,
-    {{ $md.RelPermalink }} 400w,
-    {{ $lg.RelPermalink }} 600w,
-    {{ $xl.RelPermalink }} 800w,
-    {{ $2xl.RelPermalink }} 1200w"
-    sizes="(min-width: 100em) 33vw, 100vw"
+    {{ $sm.RelPermalink }} 320w,
+    {{ $md.RelPermalink }} 480w,
+    {{ $lg.RelPermalink }} 640w,
+    {{ $xl.RelPermalink }} 960w,
+    {{ $2xl.RelPermalink }} 1280w,
+    {{ $3xl.RelPermalink }} 1440w,
+    {{ $4xl.RelPermalink }} 1920w,
+    {{ $5xl.RelPermalink }} 2560w"
+
+    sizes="100vw"
     width="{{ .Width }}"
   />
 {{ end }}
