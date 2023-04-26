@@ -4,19 +4,21 @@
 {{ $img := resources.GetMatch (printf "**%s" ($src)) }}
 
 {{ with $img }}
-  {{ $5xl := $img.Fill "2560x1920 jpg" }}
-  {{ $4xl := $5xl.Resize "1920x" }}
-  {{ $3xl := $4xl.Resize "1440x" }}
-  {{ $2xl := $3xl.Resize "1280x" }}
-  {{ $xl := $img.Resize "960x" }}
-  {{ $lg := $xl.Resize "640x" }}
-  {{ $md := $lg.Resize "480x" }}
-  {{ $sm := $md.Resize "320x" }}
+  {{- $5xl := $img.Fill "2560x1920 jpg" -}}
+  {{- $4xl := $5xl.Resize "1920x" -}}
+  {{- $3xl := $4xl.Resize "1440x" -}}
+  {{- $2xl := $3xl.Resize "1280x" -}}
+  {{- $xl := $img.Resize "960x" -}}
+  {{- $lg := $xl.Resize "640x" -}}
+  {{- $md := $lg.Resize "480x" -}}
+  {{- $sm := $md.Resize "320x" -}}
 
   <img
     alt="{{ $alt }}"
     class="absolute object-cover w-full h-full"
     height="{{ .Height }}"
+    loading="auto"
+    sizes="100vw"
     src="{{ $sm.RelPermalink }}"
     srcset="
     {{ $sm.RelPermalink }} 320w,
@@ -27,8 +29,6 @@
     {{ $3xl.RelPermalink }} 1440w,
     {{ $4xl.RelPermalink }} 1920w,
     {{ $5xl.RelPermalink }} 2560w"
-
-    sizes="100vw"
     width="{{ .Width }}"
   />
 {{ end }}
