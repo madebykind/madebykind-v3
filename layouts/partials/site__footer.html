@@ -29,6 +29,7 @@
   <div class="container section">
     <nav aria-label="{{ i18n "socialTitle" }}">
       <ul class="flex flex-wrap items-center gap-2 list-none" role=list>
+        
         {{ if isset .Site.Params "facebook" }}
         <li>
           <a href="{{ .Site.Params.Facebook }}" title="Facebook">
@@ -78,6 +79,14 @@
             </a>
           </li>
         {{ end }}
+
+        <li class="mx-2">
+          <a href="/index.xml" rel="me" title="RSS feed">
+            <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+              <use xlink:href="#icon-rss"/>
+            </svg>
+          </a>
+        </li>
 
       </ul>
     </nav>
