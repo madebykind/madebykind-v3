@@ -4,17 +4,23 @@
   <ul class="grid gap-0 list-none lg:grid-cols-3">
     {{ range (where (where site.RegularPages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
       <li>
-        <article class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }} overflow-hidden h-full justify-end flex flex-col border-debug">
-          <a aria-labelledby="{{ .Title | urlize }}" class="flex flex-col flex-grow no-underline group text-currentColor" href="{{ .Permalink }}">
+        <article class="flex flex-col justify-end h-full overflow-hidden border-debug">
+          <a aria-labelledby="{{ .Title | urlize }}" class="relative flex flex-col flex-grow h-screen overflow-hidden no-underline group text-currentColor" href="{{ .Permalink }}">
             {{ if isset .Params "cover_img" }}
-            <div class="relative flex flex-grow">
-              {{ partial "image__service" . }}
-            </div>
+              <div class="h-full">
+                {{ partial "image__service" . }}
+              </div>
             {{ end }}
-            <div class="grid gap-5 p-5">
-              <h3 class="h2" id="{{ .Title | urlize }}">{{ .Title }}</h3>
-              <p>{{ .Summary | markdownify }}</p>
-              {{ i18n "readMore" }} &rarr;
+            <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 xl:p-16 transition duration-200 translate-y-full group-hover:translate-y-0 group-focus:translate-y-0 z-10">
+              <h3 class="text-xl " id="{{ .Title | urlize }}">{{ .Title }}</h3>
+            </div>
+            <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 xl:px-16 relative">
+              <div class="flex gap-5 transition duration-500 opacity-0 group-hover:opacity-100 group-focus:opacity-100">
+                <p>{{ .Summary }}</p>
+                <svg class="self-end w-16 h-16 flex-no-shrink" role="presentation">
+                  <use xlink:href="#icon-arrow-right"/>
+                </svg>
+              </div>
             </div>
           </a>
         </article>
