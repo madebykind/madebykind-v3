@@ -2,10 +2,17 @@
 <section>
   <h2 class="sr-only">Cases studies</h2>
   <ul class="list-none" role="list">
-    {{ range first 3 ( where (where site.RegularPages "Section" "work" ) ".Params.featured" "eq" true ) }}
+    {{ range $i,$p := ( where (where site.RegularPages "Section" "work" ) ".Params.featured" "eq" true ) }}
+
+      {{ $odd := false }}
+      {{if not (modBool $i 2)}}
+        {{ $odd = true }}
+      {{end}}
+
       <li>
-        {{ partial "teaser_work" . }}
+        {{ partial "teaser_work" ( dict "context" . "odd" $odd ) }}
       </li>
+
     {{ end }}
   </ul>
 </section>
