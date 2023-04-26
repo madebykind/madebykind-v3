@@ -1,7 +1,7 @@
 <header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }} grid min-h-screen border-b section">
   <div class="container grid h-full gap-10 min-h-max">
     <div class="grid items-center gap-10 md:grid-cols-2">
-      <div class="grid col-span-1 gap-10">  
+      <div id="content" class="grid col-span-1 gap-10">
         <h1>{{ .Page.Title|safeHTML }}</h1>
         <div class="font-light prose max-w-cta-copy cta_prose">
           {{ .Content }}

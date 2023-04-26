@@ -6,7 +6,7 @@
       </nav>
     {{ end }}
     <div class="grid items-center gap-10 md:grid-cols-2">
-      <div class="grid col-span-1 gap-10">
+      <div id="content" class="grid col-span-1 gap-10">
         <h1>{{ .Page.Title|safeHTML }}</h1>
         {{ with .Params.meta }}
           {{ partial "meta" . }}
