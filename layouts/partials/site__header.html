@@ -1,8 +1,8 @@
-<header class="z-10 w-full bg-buff">
-  <div class="container flex flex-wrap items-center justify-between gap-5 py-5">
+<header class="absolute z-10 w-full bg-buff">
+  <div class="container flex justify-between gap-5 py-5 md:items-center">
     {{ partial "logo" . }}
     <nav class="flex-grow w-auto max-w-4xl" aria-label="Main menu">
-      <ul class="flex items-center justify-between flex-grow gap-5 m-0 font-bold list-none" role="list">
+      <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:justify-between" role="list">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li class="{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} relative flex before:text-orange items-center before:flex before:content-['•'] before:absolute before:-left-1 {{ end }}">
@@ -16,7 +16,7 @@
         </li>
       </ul>
     </nav>
-    <div class="flex items-center">
+    <div class="items-center hidden gap-5 xl:gap-10 lg:flex">
       <svg class="w-auto h-20" viewbox="0 0 77 63"  role="presentation">
         <use xlink:href="#icon-bcorp"/>
       </svg>
