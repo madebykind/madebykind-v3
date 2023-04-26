@@ -28,7 +28,7 @@
   </div>
   <div class="container section">
     <nav aria-label="{{ i18n "socialTitle" }}">
-      <ul class="flex flex-wrap items-center gap-2 list-none" role=list>
+      <ul class="flex flex-wrap items-center gap-5 list-none" role=list>
         
         {{ if isset .Site.Params "facebook" }}
         <li>
@@ -41,7 +41,7 @@
         {{ end }}
 
         {{ if isset .Site.Params "instagram" }}
-          <li class="mx-2">
+          <li>
             <a href="{{ .Site.Params.Instagram }}" title="Instagram">
               <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
                 <use xlink:href="#icon-instagram"/>
@@ -51,7 +51,7 @@
         {{ end }}
 
         {{ if isset .Site.Params "twitter" }}
-          <li class="mx-2">
+          <li>
             <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter">
               <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
                 <use xlink:href="#icon-twitter"/>
@@ -61,7 +61,7 @@
         {{ end }}
 
         {{ if isset .Site.Params "linkedin" }}
-          <li class="mx-2">
+          <li>
             <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn">
               <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
@@ -71,7 +71,7 @@
         {{ end }}
 
         {{ if isset .Site.Params "github" }}
-          <li class="mx-2">
+          <li>
             <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github">
               <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
                 <use xlink:href="#icon-github"/>
@@ -80,7 +80,7 @@
           </li>
         {{ end }}
 
-        <li class="mx-2">
+        <li>
           <a href="/index.xml" rel="me" title="RSS feed">
             <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
               <use xlink:href="#icon-rss"/>
