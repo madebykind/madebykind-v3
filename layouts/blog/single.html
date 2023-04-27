@@ -4,12 +4,9 @@
   <div class="container font-sans font-light prose">
     {{- .Content -}}
   </div>
-  <footer class="container section">
+  <footer class="container mt-10 border-t section ">
     {{ if .Params.tags }}
-      <h2>Related topics:</h2>
-      <nav>
-        {{ partial "tags--linked" . }}
-      </nav>
+      {{ partial "tags--linked" . }}
     {{ end }}
   </footer>
 </article>
