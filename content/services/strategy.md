@@ -1,4 +1,5 @@
 ---
+block_class: bg-teal text-blue
 cover_img: images/strategy-notes.jpg
 cover_img_alt: A pineapple, drowned in white paint.
 date: 2020-04-24T11:48:46+01:00
@@ -7,7 +8,7 @@ featured: true
 summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 tags: [Webperf, UX]
 title: Strategy
-block_class: bg-teal text-blue
+weight: 1
 ---
 
 Our sites scale effortlessly and can accomodate millions of hits. Suddenly trending on Twitter, no problem, we make sites that don't fall over when the going gets tough.
