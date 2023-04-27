@@ -1,30 +1,30 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }} grid min-h-screen border-b section">
-  <div class="container grid content-between h-full gap-10 min-h-max">
-    {{ if .Params.tags }}
-      <nav aria-label="Explore related content by tag">
-        {{ partial "tags--linked" . }}
-      </nav>
-    {{ end }}
-    <div class="grid items-center gap-10 md:grid-cols-2">
-      <div id="content" class="grid col-span-1 gap-10">
-        <h1>{{ .Page.Title|safeHTML }}</h1>
-        {{ with .Params.meta }}
-          {{ partial "meta" . }}
-        {{ end }}
-        {{ if .Description }}
-        <div class="font-light prose max-w-cta-copy cta_prose">
-          <p class="max-w-copy lede">{{ .Description }}</p>
-        </div>
-        {{ end }}
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }} grid content-end min-h-screen section">
+	<div class="container grid gap-10 md:grid-cols-2">
+    <div class="grid justify-between col-span-1 gap-10 max-w-copy">
+			<h1>{{ .Page.Title|safeHTML }}</h1>
+
+			{{ with .Params.meta }}
+				{{ partial "meta" . }}
+			{{ end }}
+
+			{{ if .Summary }}
+				<div class="prose lede">
+					{{ .Summary | markdownify }}
+				</div>
+			{{ end }}
+		</div>
+
+		{{ if isset .Params "cover_img" }}
+			<div class="self-end col-span-1 max-h-illustration max-w-illustration justify-self-end">
+				{{ partial "image__illustration" . }}
+			</div>
+		{{ end }}
+
+		{{ if  .Params.toc }}
+      <div class="col-span-2">
+        {{ .TableOfContents }}
       </div>
-      {{ if isset .Params "cover_img" }}
-        <div class="self-end col-span-1 max-h-illustration max-w-illustration justify-self-end">
-          {{ partial "image__illustration" . }}
-        </div>
-      {{ end }}
-    </div>
-    {{ if  .Params.toc }}
-      {{ .TableOfContents }}
-    {{ end }}
-  </div>
+		{{ end }}
+
+	</div>
 </header>
