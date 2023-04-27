@@ -1,21 +1,8 @@
 
-<section class="section"> 
-  <div class="container">
-    <h2 class="text-lg">Insights from our strategic, creative and technical experts.</h2>
-    <ul class="grid gap-10 list-none" role="list">
-      {{ range first 3 (where site.RegularPages "Section" "blog" ) }}
-        <li>
-          {{ partial "teaser" . }}
-        </li>
-      {{ end }}
-    </ul>
-    <div class="flex justify-end mt-10">
-      <a class="btn btn--secondary" href="/blog">
-        More insights
-        <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-          <use xlink:href="#icon-arrow"/>
-        </svg>
-      </a>
-    </div>
-  </div>
-</section>
+<ul class="grid gap-10 list-none" role="list">
+  {{ range first 3 (where site.RegularPages "Section" "blog" ) }}
+    <li>
+      {{ partial "teaser" . }}
+    </li>
+  {{ end }}
+</ul>

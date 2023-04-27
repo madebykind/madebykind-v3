@@ -9,5 +9,11 @@
       {{ partial "tags--linked" . }}
     {{ end }}
   </footer>
+  <aside class="section">
+    <div class="container">
+      <h2 class="text-lg">You might also be interested in</h2>
+      {{ partial "latest_posts.html" . }}
+    </div>
+  </aside>
 </article>
 {{ end }}
