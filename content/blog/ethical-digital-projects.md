@@ -1,16 +1,14 @@
 ---
-cover_img: images/portra400.jpg
-cover_img_alt: A roll of film on a yellow background
+cover_img: 
+cover_img_alt:
 title: Creating sustainable and ethical digital products
 date: 2020-05-12
-description: 
-draft: false
-toc: true
-summary: How can we adapt our process to create usable and useful products that are environmentally and ethically sound? 
+description: How can we adapt our process to create usable and useful products that are environmentally and ethically sound?
+intro: After attending [New Adventures](https://newadventuresconf.com/) in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
+summary: 
 tags: ['User-centered design','Strategic consultancy','Digital sustainability']
+toc: false
 ---
-
-After attending New Adventures in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
 
 Cennydd spoke of looking past the needs of users in the present-tense to the impact our designs choices could have on wider society, wildlife and the planet, both now and in the future. Considering the potential short and long-term negative consequences of our work, not just on the user, but elsewhere. While Laura spoke of web privacy and the sheer volume and detail of data stored about us, often assumed but very accurate.
 
@@ -38,7 +36,7 @@ We’re already accustomed to user testing and research, so we already have the 
 
 We will need to reframe our thinking. Rather than simply looking at how our products can facilitate users, including our clients, in achieving their goals, we must talk to non-users about whether those user goals will have a potentially negative effect on them and consider whether they align with the common goals for society and the environment.
 
-As an example, it would make little difference to most people using broadband or even a 4G connection if the download size of a webpage could be reduced from 2MB to 500KB, but there are additional positives of making a website fast and lightweight. To start, lightweight webpages use less energy to download and saving energy is always preferred to using it, even if it’s sustainable. Similarly, lightweight webpages will load much quicker on poor connections in less technologically developed areas, giving a more even footing to all.
+As an example, it would make little difference to most people using broadband or even a <span class="smcp">4G</span> connection if the download size of a webpage could be reduced from 2<span class="smcp">MB</span> to 500<span class="smcp">KB</span>, but there are additional positives of making a website fast and lightweight. To start, lightweight webpages use less energy to download and saving energy is always preferred to using it, even if it’s sustainable. Similarly, lightweight webpages will load much quicker on poor connections in less technologically developed areas, giving a more even footing to all.
 
 ## Can it work in practice?
 
@@ -46,9 +44,8 @@ This is all a very considerate way to think about our work, but can it work in a
 
 When we attended the 1% for the Planet European Summit in 2018, one phrase stood out and has stuck with me ever since:
 
->> “Progress over perfection.”
-
-Nicholas Bornstein, Protect our Winters
+> “Progress over perfection.”
+> Nicholas Bornstein, Protect our Winters
 
 We’re not going to be able to know all consequences to all groups and all environments, ever, and to even get to a point where we feel like we’re doing enough to consider others will take time. We just have to make a start or risk going nowhere.
 
