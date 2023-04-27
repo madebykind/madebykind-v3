@@ -1,5 +1,5 @@
 
-<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+<h{{.Level}} id="{{ .Anchor | safeURL }}" class="flex items-center gap-5">
   {{ .Text | safeHTML }}
-  <a aria-labelledby="{{ .Anchor }}" class="text-base no-underline" href="#{{ .Anchor | safeURL }}">🔗</a>
+  <a aria-labelledby="{{ .Anchor }}" class="sr-only text-md focus:not-sr-only" href="{{ .Anchor | urlize }}">🔗</a>
 </h{{ .Level }}>
