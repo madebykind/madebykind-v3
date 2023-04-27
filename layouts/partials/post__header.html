@@ -1,0 +1,29 @@
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }} grid content-end min-h-screen border-b section">
+  <div class="container grid gap-10 md:grid-cols-2">
+    <div class="grid gap-10 max-w-copy">
+
+      <h1>{{ .Page.Title|safeHTML }}</h1>
+    
+      {{ with .Params.meta }}
+        {{ partial "meta" . }}
+      {{ end }}
+
+      {{ if .Params.intro }}
+        <div class="prose lede">
+          {{ .Params.intro | markdownify }}
+        </div>
+      {{ end }}
+    </div>
+
+    {{ if isset .Params "cover_img" }}
+      <div class="self-end col-span-1 max-h-illustration max-w-illustration justify-self-end">
+        {{ partial "image__illustration" . }}
+      </div>
+    {{ end }}
+
+    {{ if  .Params.toc }}
+      {{ .TableOfContents }}
+    {{ end }}
+
+  </div>
+</header>
