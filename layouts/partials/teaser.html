@@ -1,9 +1,6 @@
 <article>
   <a aria-labelledby="{{ .Title | urlize }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}">
     <div class="grid gap-10 py-10 border-b-2 border-teal">
-      {{ if isset .Params "tags" }}
-        {{ partial "tags" . }}
-      {{ end }}
       <div class="flex flex-wrap gap-10">
         <div class="flex-grow w-2/3">
           <h3 class="font-serif leading-tight underline normal-case h2" id="{{ .Title | urlize }}">{{ .Title }}</h3>
