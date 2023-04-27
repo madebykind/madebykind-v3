@@ -1,8 +1,16 @@
 {{ define "main" }}
 <article>
-  {{ partial "page__header" . }}
-  <div class="container font-sans font-light prose section">
+  {{ partial "post__header" . }}
+  <div class="container font-sans font-light prose">
     {{- .Content -}}
   </div>
+  <footer class="container section">
+    {{ if .Params.tags }}
+      <h2>Related topics:</h2>
+      <nav>
+        {{ partial "tags--linked" . }}
+      </nav>
+    {{ end }}
+  </footer>
 </article>
 {{ end }}

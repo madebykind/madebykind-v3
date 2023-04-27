@@ -47,7 +47,7 @@
 @import 'tailwindcss/utilities';
 
 /* Include Open-type utilities */
-/* @import 'utility-opentype'; */
+@import '../../node_modules/utility-opentype/css/utility-opentype';
 
 /* WIP styles that should be moved to their own components! */
 @import 'scratch.postcss';
