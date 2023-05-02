@@ -1,5 +1,5 @@
 <footer id="contact">
-  <div class="grid antialiased bg-indigo text-buff">
+  <div class="grid {{ with .Params.footer_class }} {{ . }}{{ else }} antialiased bg-indigo text-buff{{ end }}">
     <div class="container grid gap-10 md:grid-cols-2">
       <div class="grid content-center section">
         <h2 class="text-xl">Let’s make a difference, together</h2>
