@@ -21,7 +21,7 @@
       {{ block "main" . }}{{ end }}
     </main>
 
-    <!-- The part of the page that begins to differ between templates -->
+    <!-- The site footer, cached as it doesn't change -->
     {{ block "footer" . }}
       {{ partialCached "site__footer" . }}
     {{ end }}
