@@ -1,0 +1,107 @@
+  {{ define "main" }}
+{{ $section := .Site.GetPage "section" .Section }}
+<section>
+  {{ partial "list__header.html" . }}
+  <section class="section bg-indigo text-buff">
+    <div class="container grid items-center gap-10 md:grid-cols-2">
+      <div class="grid gap-10">
+        <h2 class="h1">We do give a damn</h2>
+        <p>We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.</p>
+        <p>We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</p>
+        <div>
+        <a class="btn bg-buff text-indigo" href="/about/impact">
+          Our impact
+          <svg class="self-end w-16 h-16 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-arrow-right"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="flex">
+        <svg class="self-end w-48 h-48 flex-no-shrink" role="presentation">
+          <use xlink:href="#icon-bcorp"/>
+        </svg>
+        <svg class="self-end w-48 h-48 flex-no-shrink" role="presentation">
+          <use xlink:href="#icon-1fortheplanet"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container grid gap-10">
+      <h2 class="text-xl">Our team of experts</h2>
+      <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-32">
+        {{ range $.Site.Data.authors }}
+        {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
+          <li>
+            <article class="grid gap-5" itemscope itemtype="http://schema.org/Person">      
+              {{ $xl := $author_img.Fill "460x680 jpg" }}
+              {{ $lg := $xl.Resize "480x" }}
+              {{ $md := $lg.Resize "320x" }}
+
+              <img  
+                alt="{{ .name }}" 
+                class="" 
+                height="{{ .Height }}" 
+                loading="lazy" 
+                sizes="
+                  (min-width: 90em) 680px,
+                  (min-width: 62em) 480w,
+                  320w
+                " 
+                src="{{ $md.RelPermalink }}" 
+                srcset="
+                  {{ $md.RelPermalink }} 320w,
+                  {{ $lg.RelPermalink }} 480w,
+                  {{ $xl.RelPermalink }} 680w
+                " 
+                width="{{ .Width }}"
+              />
+              <div class="flex items-center justify-between gap-5">
+                <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
+                <svg class="self-end w-12 h-12 flex-no-shrink" role="presentation">
+                  <use xlink:href="#icon-arrow-right"/>
+                </svg>
+              </div>
+
+              <p class="font-bold">{{ .role }}</p>
+              <div>{{ .bio | markdownify }}</div>
+              <ul>
+                {{ with .social.Linkedin }}
+                  <li>
+                    Linkedin:
+                    <a href="https://linkedin.com/{{ . }}">{{ . }}</a>
+                  </li>
+                {{ end }}
+                {{ with .social.instagram }}
+                  <li>
+                    Instagram:
+                    <a href="https://instagram.com/{{ . }}">{{ . }}</a>
+                  </li>
+                {{ end }}
+                {{ with .social.facebook }}
+                  <li>
+                    Facebook:
+                    <a href="https://facebook.com/{{ . }}">{{ . }}</a>
+                  </li>
+                {{ end }}
+                {{ with .social.github }}
+                <li>
+                  Github: <a href="https://github.com/{{ . }}">{{ . }}</a>
+                </li>
+                {{ end }}
+                {{ with .social.twitter }}
+                  <li>
+                    Twitter:
+                    <a href="https://Twitter.com/{{ . }}">@{{ . }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+            </article>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+</section>
+{{ end }}
