@@ -1,20 +1,25 @@
 ---
 date: 2020-04-20T11:48:46+01:00
-title: Well-worn paths are never going to lead to a better world.
 cover_img:
 cover_img_alt:
 description: Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else — and that means great results for you.
+footer_class: bg-teal text-blue
+page_class: bg-indigo text-buff
+summary: That’s why we go our own way. We’re a small but powerful team of carefully selected senior professionals. People whose work packs a real punch. **Strategy, brand, digital** – we bring it all together and drive change in ways that really matter. Our work delivers faster, bigger, more effective results for our clients’ causes – in the charity sector, sustainability, research, the environment, and the arts.
+title: Well-worn paths are never going to lead to a better world.
 ---
 
-**Well-worn paths are never going to lead to a better world.** That’s why we go our own way. We’re a small but powerful team of carefully selected senior professionals. People whose work packs a real punch. Strategy, brand, digital – we bring it all together and drive change in ways that really matter. Our work delivers faster, bigger, more effective results for our clients’ causes – in the charity sector, sustainability, research, the environment, and the arts.
 
-**Let’s be clear – we’re not for everyone.** All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes. We set our standards high, so becoming a
+
+## Let’s be clear – we’re not for everyone
+
+All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes. We set our standards high, so becoming a
 
 B Corp was just a starting point – and we’re part of 1% for the Planet. We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.
 
-**How we work**
+## How we work
 
-### We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. By spending more time on discovery and analysis before jumping into production we gain a clear understanding of ***why*** a brief is necessary and ***what*** we need to deliver in order to achieve a successful outcome
+We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. By spending more time on discovery and analysis before jumping into production we gain a clear understanding of ***why*** a brief is necessary and ***what*** we need to deliver in order to achieve a successful outcome
 
 ## Understanding organisational strategy
 
