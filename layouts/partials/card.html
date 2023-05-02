@@ -1,20 +1,18 @@
-<a class="no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
-  <article class="grid gap-5">
-    <div class="relative">
-      {{ if isset .Params "cover_img" }}
-        {{ partial "image__card" . }}
+<a class="{{ with .Params.header_class }} {{ . }} {{ end }}grid content-center h-full no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+  <article class="relative">
+    {{ if isset .Params "cover_img" }}
+      {{ partial "image__card" . }}
+    {{ end }}
+    <div class="absolute z-10 grid content-center gap-5 lg:gap-10 inset-5 lg:inset-10">
+      {{ if isset .Params "tags" }}
+        {{ partial "tags" . }}
       {{ end }}
-      <div class="absolute z-10 grid content-center gap-5 lg:gap-10 inset-5 lg:inset-10">
-        {{ if isset .Params "tags" }}
-          {{ partial "tags" . }}
-        {{ end }}
-        <h2 id="{{ .Title | urlize }}">{{ .Title }}</h2>
-      </div>
+      <h2 class="group-hover:underline" id="{{ .Title | urlize }}">{{ .Title }}</h2>
+      <p class="flex items-center gap-5 font-bold">Read the article
+        <svg class="w-8 h-4" role="presentation">
+          <use xlink:href="#icon-arrow-right"/>
+        </svg>
+      </p>
     </div>
-    <p class="flex items-center gap-5 font-bold">Read the article
-      <svg class="w-8 h-4" role="presentation">
-        <use xlink:href="#icon-arrow-right"/>
-      </svg>
-    </p>
   </article>
 </a>
