@@ -1,7 +1,7 @@
 
 
 {{ $author := index .Site.Data.authors .Params.author }}
-{{ $author_img := resources.GetMatch (printf "**%s" ($author.avatar)) }}
+{{ $author_img := resources.GetMatch (printf "**%s" ($author.headshot)) }}
 
 <article class="flex items-center gap-5" itemscope itemtype="http://schema.org/Person">
   {{ with $author_img }}
