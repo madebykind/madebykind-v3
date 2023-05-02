@@ -1,16 +1,10 @@
 <ul>
   <li>
-    {{ i18n "publishedOn" }} <time itemprop="dateCreated pubdate datePublished" pubdate datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+    Published: <time itemprop="dateCreated pubdate datePublished" pubdate datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
   </li>
   {{ if .Lastmod }}
   <li>
-    {{ i18n "updatedOn" }} <time itemprop="dateModified" datetime="{{ .Lastmod }}"> {{ .Lastmod.Format "January 2, 2006" }}</time>
+    Last updated: <time itemprop="dateModified" datetime="{{ .Lastmod }}"> {{ .Lastmod.Format "January 2, 2006" }}</time>
   </li>
   {{ end }}
-  <li itemscope itemtype="http://schema.org/Person">
-    {{ i18n "author" }} <span itemprop="author">{{ .Site.Params.Author }}</span>
-  </li>
-  <li>
-    {{ i18n "readingTime" }} {{ .ReadingTime }} {{ i18n "minutes" }}
-  </li>
 </ul>
