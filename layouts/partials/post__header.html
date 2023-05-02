@@ -1,6 +1,5 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }} ">
-<div class="container grid items-end content-end min-h-screen gap-10 md:grid-cols-12 section">
-
+<header{{with.Params.header_class}} class="{{ . }}" {{ end }}>
+  <div class="container grid items-end content-end min-h-screen gap-10 md:grid-cols-12 section">
     {{ if .Params.cover_img }}
       <div class="col-span-12 md:col-span-4 md:col-start-9 md:row-start-1">
         {{ partial "image__illustration" . }}
@@ -9,9 +8,9 @@
     <div class="grid col-span-12 gap-10 md:col-span-8 max-w-copy">
       <h1>{{ .Page.Title|safeHTML }}</h1>
       {{ partial "meta" . }}
-      {{ if .Summary }}
+      {{ if .Params.intro }}
         <div class="prose lede">
-          {{ .Summary | markdownify }}
+          {{ .Params.intro | markdownify }}
         </div>
       {{ end }}
     </div>
