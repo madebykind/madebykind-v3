@@ -1,4 +1,5 @@
 ---
+author: mat
 block_class: bg-teal text-blue
 cover_img: images/environment.png
 cover_img_alt: A roll of film on a yellow background

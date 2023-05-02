@@ -1,4 +1,5 @@
 ---
+author: jess
 cover_img: 
 cover_img_alt:
 title: Creating sustainable and ethical digital products

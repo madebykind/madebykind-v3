@@ -1,4 +1,5 @@
 ---
+author: michelle
 cover_img: images/pineapple.jpg
 cover_img_alt: Ohh, a pineapple
 date: 2022-03-22
