@@ -7,7 +7,7 @@ title: Tuned typography
 toc: true
 date: 2020-04-30T17:28:36.948Z
 description: We want our users to engage with our content, and great typography helps to do that.
-summary: We want our users to engage with our content, and great typography helps to do that. The easier it is to read, the better the engagemnent.
+intro: We want our users to engage with our content, and great typography helps to do that. The easier it is to read, the better the engagemnent.
 ---
 
 Until now, trying to style the content of an article, document, or blog post has been a tedious task that required a keen eye for typography and a lot of complex custom CSS. Typically, we remove all of the default browser styling from paragraphs, headings, lists and more.

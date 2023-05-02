@@ -7,6 +7,7 @@ title: Working with the World’s leading art and design museum
 link: 
 description: A new website design to build awareness of the charity’s work and gain support from the public.
 tags: ['Brand','Digital']
+icon:
 ---
 
 Lorem ipsum dolor sit amet, purto altera adipisci ei pro, ex mea amet admodum tincidunt. Te adhuc quidam facilis duo, mel ne nobis delectus, id persius prompta vituperatoribus eum. 

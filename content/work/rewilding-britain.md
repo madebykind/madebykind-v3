@@ -4,6 +4,7 @@ cover_img: images/brand-rwb.jpg
 cover_img_alt: 
 description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment
 featured: true
+icon: bcorp
 summary: 
 tags: [Strategy, Digital]
 title: A platform to inspire rewilding projects across the country

@@ -1,5 +1,5 @@
 ---
-block_class: bg-pink text-claret
+header_class: bg-pink text-claret
 cover_img: images/true-to-who-we-are-v2.png
 cover_img_alt: 
 date: 2020-04-30T17:28:36.948Z

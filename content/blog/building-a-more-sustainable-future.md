@@ -1,6 +1,6 @@
 ---
 author: mat
-block_class: bg-teal text-blue
+header_class: bg-teal text-blue
 cover_img: images/environment.png
 cover_img_alt: A roll of film on a yellow background
 title: Building a more sustainable website architecture
@@ -8,7 +8,7 @@ date: 2021-02-16
 description: There are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice. 
 draft: false
 toc: true
-summary: There are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice.
+intro: There are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice.
 tags: ['Environment','Mobile-first design','Digital sustainability']
 ---
 
