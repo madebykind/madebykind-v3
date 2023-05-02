@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article>
+<article{{ if isset .Params "page_class"}} class="{{ .Params.page_class }}"{{ end }}>
   {{ partial "page__header" . }}
   <div class="container font-sans font-light prose section">
     {{- .Content -}}
