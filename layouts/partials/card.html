@@ -4,8 +4,14 @@
       {{ partial "image__card" . }}
     {{ end }}
     <div class="absolute z-10 grid content-center gap-5 lg:gap-10 inset-5 lg:inset-10">
-      {{ if isset .Params "tags" }}
-        {{ partial "tags" . }}
+      {{ with .Params.topics }}
+        <ul class="flex gap-5 list-none lg:gap-10">
+          {{ range first 1 . }}
+            <li class="relative flex items-center after:absolute after:-right-4 lg:after:-right-7 after:content-['+'] last:after:content-none">
+              <span class="underline">{{ . }}</span>
+            </li>
+          {{ end }}
+        </ul>
       {{ end }}
       <h2 class="group-hover:underline" id="{{ .Title | urlize }}">{{ .Title }}</h2>
       <p class="flex items-center gap-5 font-bold">Read the article
