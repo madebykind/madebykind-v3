@@ -1,12 +1,11 @@
-{{ with .Params.tags }}
+
 <nav class="flex flex-wrap items-center gap-5">
   <h2 class="font-sans text-sm font-bold normal-case">Related topics:</h2>
   <ul class="flex flex-wrap gap-5 font-sans text-sm font-medium list-none" role="list">
-    {{ range . }}
+    {{ range .Params.topics }}
       <li>
         <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
       </li>
     {{ end }}
   </ul>
 </nav>
-{{ end }}
