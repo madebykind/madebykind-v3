@@ -15,7 +15,7 @@ title: Well-worn paths are never going to lead to a better world.
 
 All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes. We set our standards high, so becoming a
 
-B Corp was just a starting point – and we’re part of 1% for the Planet. We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.
+[B-Corp](/blog/b-corp) was just a starting point – and we’re part of [1% for the Planet](https://onepercentfortheplanet.org/). We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.
 
 ## How we work
 
