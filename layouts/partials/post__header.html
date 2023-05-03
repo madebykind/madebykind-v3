@@ -6,7 +6,7 @@
       </div>
     {{ end }}
     <div class="grid col-span-12 gap-10 md:col-span-8 max-w-copy">
-      <h1>{{ .Page.Title|safeHTML }}</h1>
+      <h1 class="leading-heading">{{ .Page.Title|safeHTML }}</h1>
       {{ partial "meta" . }}
       {{ if .Params.intro }}
         <div class="prose lede">
