@@ -7,8 +7,9 @@ date: 2020-05-12
 description: How can we adapt our process to create usable and useful products that are environmentally and ethically sound?
 header_class: bg-pink text-indigo
 intro: After attending [New Adventures](https://newadventuresconf.com/) in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
+services: [brand, strategy]
 summary: 
-tags: ['User-centered design','Strategic consultancy','Digital sustainability']
+topics: [User-centered design,Strategic consultancy,Digital sustainability]
 toc: false
 ---
 
