@@ -81,6 +81,16 @@ paginate = 6
     disable = false
     privacyEnhanced = true
 
+[related]
+  includeNewer = true
+  toLower = true
+  [[related.indices]]   
+    name = "topics"
+    weight = 100
+  [[related.indices]]
+    name = "services"
+    weight = 10 
+
 [services]
   [services.twitter]
     disableInlineCSS = true

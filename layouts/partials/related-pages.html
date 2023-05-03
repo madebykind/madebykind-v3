@@ -1,0 +1,14 @@
+
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<div class="container section">
+	<h2>(progammatically related pages) you might also be interested in</h2>
+	<ul>
+		{{ range . }}
+			<li>
+        {{ partial "teaser" . }}
+			</li>
+		{{ end }}
+	</ul>
+</div>
+{{ end }}
