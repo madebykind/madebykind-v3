@@ -5,11 +5,11 @@
   <div class="container font-sans font-light prose">
     {{- .Content -}}
   </div>
+  {{ if .Params.topics }}
   <footer class="container mt-10 border-t section ">
-    {{ if .Params.tags }}
-      {{ partial "tags--linked" . }}
-    {{ end }}
+      {{ partial "topics" . }}
   </footer>
+  {{ end }}
   {{ partial "related-pages.html" . }}
 </article>
 {{ end }}
