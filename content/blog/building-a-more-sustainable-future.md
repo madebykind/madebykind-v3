@@ -9,7 +9,7 @@ description: There are many ways we can improve the efficiency of a website, man
 draft: false
 toc: true
 intro: There are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice.
-tags: ['Environment','Mobile-first design','Digital sustainability']
+topics: [Environment,Mobile-first design,Digital sustainability]
 ---
 
 It’s rare that anyone considers the environmental effects of sending an email, loading a website or posting a tweet, but it’s estimated that digital technologies are responsible for 1.7 billion tonnes of greenhouse gas emissions per year.

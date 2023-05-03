@@ -5,13 +5,12 @@ cover_img_alt:
 description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment
 featured: true
 icon: bcorp
-summary: 
-tags: [Strategy, Digital]
+intro: Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.
+summary:
+services: [Strategy, Digital]
+topics: [CRM Integration, Design systems]
 title: A platform to inspire rewilding projects across the country
 ---
-
-Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.
-
 ## Services
 
 UX design
@@ -25,6 +24,8 @@ Strategic consultancy
 > “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
 
 One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
+
+![Nerd reading](../images/alabaster.jpg "Oh look, a nerd reading a magazine")
 
 Through user needs testing, UX, and UI design we were able to develop a website that gave very different groups access to all of the information they needed to support and engage with the cause. Resulting in an increase of xxx donations
 

@@ -4,9 +4,9 @@ cover_img: images/mansplaining.jpg
 cover_img_alt: Oooh! A banana.
 featured: true
 title: Working with the World’s leading art and design museum
-link: 
 description: A new website design to build awareness of the charity’s work and gain support from the public.
-tags: ['Brand','Digital']
+services: [Brand, Digital, Strategy]
+topics: [UX,User-centered design]
 icon:
 ---
 

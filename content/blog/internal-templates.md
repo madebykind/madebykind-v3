@@ -6,7 +6,7 @@ date: 2020-01-04T17:31:19Z
 description:
 draft: true
 intro: A demo of Hugo's internal templates.
-tags: []
+topics: []
 title: "Internal Templates"
 toc: false
 reversed: true

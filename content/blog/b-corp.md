@@ -6,8 +6,8 @@ date: 2022-03-22
 description: 
 draft: false
 intro: We’re delighted to announce that, this week, Kind has officially certified as a B Corporation, joining 4,600 businesses globally who are committed to purpose beyond profit.
-tags: [performance, UX, a11y]
 title: Kind certifies as a B Corporation
+topics: [performance, UX, a11y]
 ---
 
 Certified B Corporations, or B Corps, are companies that meet the highest standards of social and environmental performance, transparency, and accountability.
