@@ -87,4 +87,4 @@ paginate = 6
 
 [taxonomies]
   rss = "rss"
-  tag = "tags"
+  topic = "topics"
