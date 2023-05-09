@@ -31,6 +31,11 @@
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
 
+    <!-- Majic lock -->
+    {{ if .IsHome }}
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{ end }}
+
     <!-- SEO Shiz! -->
     {{ $m := dict
       "@context" "https://schema.org"
@@ -58,9 +63,10 @@
       "dateModified" .Params.lastmod
     }}
 
+
     <script type="application/ld+json">
       {{ jsonify (dict "indent" "  ") $m | safeJS }}
     </script>
-
+    
   </body>
 </html>
