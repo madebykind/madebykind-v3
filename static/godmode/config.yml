@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: assets/images
+public_folder: ../images
+site_url: https://next.madebykind.com/
+collections:
+  - name: 'blog'
+    label: 'Posts' # Used in the UI
+    label_singular: 'Post' # Used in the UI, ie: "New Post"
+    folder: 'content/blog'
+    create: true
+    slug: '{{slug}}'
+    filter: { field: 'hidden', value: false }
+    fields:
+      - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false}
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
+      - { label: 'SEO Description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines.' }
+      - { label: 'Summary - Intro text shown on listing pages', name: 'summary', widget: 'string' }
+      - {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'Main content goes here.',
+          buttons: [
+            'bold',
+            'italic',
+            'code',
+            'link',
+            'heading-two',
+            'heading-three',
+            'heading-four',
+            'heading-five',
+            'heading-six',
+            'quote',
+            'bulleted-list',
+            'numbered-list'
+          ]
+        }
