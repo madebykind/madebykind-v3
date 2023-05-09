@@ -23,7 +23,7 @@
     font-src 'self';
     frame-ancestors 'none';
     object-src 'none';
-    script-src 'self';
+    script-src 'self' https://identity.netlify.com/v1/netlify-identity-widget.js https://unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js;
     style-src 'self';
     '''    
     Permissions-Policy = '''
