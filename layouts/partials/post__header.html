@@ -14,9 +14,11 @@
         </div>
       {{ end }}
     </div>
-    <div class="col-span-12 md:col-start-9 md:col-span-4 ">
-      {{ partial "author" . }} 
-    </div>
+    {{ if .Params.intro }}
+      <div class="col-span-12 md:col-start-9 md:col-span-4 ">
+        {{ partial "author" . }} 
+      </div>
+    {{ end }}
     {{ if  .Params.toc }}
     <div class="col-span-12">
       {{ .TableOfContents }}
