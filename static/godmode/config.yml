@@ -17,6 +17,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
+      - { label: 'Services', name: 'services', widget: 'select', options: ['brand', 'digital', 'strategy'] }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string' }
       - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', optional: true }
