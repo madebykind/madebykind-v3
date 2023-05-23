@@ -3,6 +3,7 @@ author: pam
 cover_img: images/brand-rwb.jpg
 cover_img_alt: A nerd in his natural habitat
 draft: true
+hidden: true
 title: Tuned typography
 toc: true
 date: 2020-04-30T17:28:36.948Z

@@ -5,6 +5,7 @@ cover_img_alt: Just another rando unsplash image
 date: 2020-01-04T17:31:19Z
 description:
 draft: true
+hidden: true
 intro: A demo of Hugo's internal templates.
 topics: []
 title: "Internal Templates"
