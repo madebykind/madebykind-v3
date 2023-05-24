@@ -24,6 +24,7 @@ collections:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
       - { label: 'Services', name: 'services', widget: 'select', options: ['brand', 'digital', 'strategy'] }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
@@ -64,6 +65,7 @@ collections:
       - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'cover_img', widget: 'image' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
       - {
           label: 'Body',
