@@ -8,6 +8,7 @@ linktitle: Work
 title: Ethical work is excellent work
 weight: 2
 layout: work
+hidden: false
 ---
 
 We combine expertise in digital, branding and strategy with an unwavering commitment to social change.

@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: "Stats"
 _build:
   render: never

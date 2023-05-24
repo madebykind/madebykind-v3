@@ -9,6 +9,7 @@ summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriur
 topics: [a11y, UX]
 title: Digital
 weight: 3
+hidden: false
 ---
 
 Semantic elements, user-centric design and rigorous testing ensure that we ship accessible sites that adhere to industry best-practice as standard, because we [care about our users](/thoughts-on-accessibility/).

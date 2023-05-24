@@ -9,6 +9,7 @@ summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriur
 topics: [Webperf, UX]
 title: Strategy
 weight: 1
+hidden: false
 ---
 
 Our sites scale effortlessly and can accomodate millions of hits. Suddenly trending on Twitter, no problem, we make sites that don't fall over when the going gets tough.

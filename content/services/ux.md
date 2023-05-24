@@ -7,6 +7,7 @@ description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas i
 summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 title: User-centered design
 toc: true
+hidden: false
 ---
 
 Persius fierent percipit pri in. Dolor eligendi oportere vis eu, eos euismod feugait interesset ne. Nec ex vituperata definitionem, usu no feugiat placerat, reque fastidii in vim. Ei cum quis prompta. Ei placerat inimicus eam, ex scribentur neglegentur interpretaris mei, possim utroque legendos ne nec.

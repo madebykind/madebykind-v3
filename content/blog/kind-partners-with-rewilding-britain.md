@@ -12,6 +12,7 @@ summary:
 toc: false
 topics: []
 title: "Kind Partners With Rewilding Britain"
+hidden: false
 ---
 
 After the 1% for the Planet summit in 2018, we were inspired to find a long-term charity partner to amplify the positive impact our membership has. Today, we’re pleased to announce that we have chosen to partner with Rewilding Britain and will be offering our support by way of monetary donations and our time and expertise.

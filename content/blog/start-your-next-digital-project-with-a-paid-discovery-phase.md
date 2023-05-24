@@ -12,6 +12,7 @@ summary: Anyone who has taken on a digital project before knows that, even with 
 toc: false
 topics: []
 title: "Start Your Next Digital Project With a Paid Discovery Phase"
+hidden: false
 ---
 
 <p>Perhaps, when you launch, results are positive, but nowhere near what you expected or hoped for. Maybe your users aren’t as delighted as you’d like them to be. Maybe they complain or go elsewhere.</p>

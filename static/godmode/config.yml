@@ -18,9 +18,9 @@ collections:
     folder: 'content/blog'
     create: true
     slug: '{{slug}}'
-    # filter:  
-    #   field: 'hidden' 
-    #   value: false 
+    filter:  
+      field: 'hidden' 
+      value: false
     fields:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -60,11 +60,11 @@ collections:
     folder: 'content'
     create: false
     delete: false
-    # filter:  
-    #   field: 'hidden' 
-    #   value: false 
+    filter:  
+      field: 'hidden' 
+      value: false
     fields:
-      - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false }
+      - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -100,7 +100,11 @@ collections:
     folder: 'content/services'
     create: true
     delete: false
+    filter:  
+      field: 'hidden' 
+      value: false
     fields:
+      - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -135,7 +139,11 @@ collections:
     create: true
     editor:
       preview: false
+    filter:  
+      field: 'hidden' 
+      value: false
     fields:
+      - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Icon', name: 'icon', widget: 'string' }
@@ -153,7 +161,11 @@ collections:
     create: true
     editor:
       preview: false
+    filter:  
+      field: 'hidden' 
+      value: false
     fields:
+      - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Author image', name: 'image', widget: 'image' }
@@ -183,7 +195,7 @@ collections:
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string' }
       - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'] }
-      - { label: 'Topics', name: 'topics', widget: 'select', options: ['brand', 'digital', 'strategy'] }
+      - { label: 'Topics', name: 'topics', widget: 'select', multiple: true, options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'] }
       - {
           label: 'Body',
           name: 'body',

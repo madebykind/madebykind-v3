@@ -1,5 +1,6 @@
 ---
 title: "Testimonials"
+hidden: true
 _build:
   render: never
 cascade:

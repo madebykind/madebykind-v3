@@ -11,6 +11,7 @@ services: [brand, strategy]
 summary: 
 topics: [User-centered design,Strategic consultancy,Digital sustainability]
 toc: false
+hidden: false
 ---
 
 Cennydd spoke of looking past the needs of users in the present-tense to the impact our designs choices could have on wider society, wildlife and the planet, both now and in the future. Considering the potential short and long-term negative consequences of our work, not just on the user, but elsewhere. While Laura spoke of web privacy and the sheer volume and detail of data stored about us, often assumed but very accurate.
