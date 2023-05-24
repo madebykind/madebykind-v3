@@ -3,6 +3,7 @@ backend:
   cms_label_prefix: netlify-cms/
   name: git-gateway
 media_folder: assets/images
+local_backend: true
 public_folder: ../images
 logo_url: https://next.madebykind.com/img/logo.svg
 #publish_mode: editorial_workflow
@@ -24,9 +25,10 @@ collections:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      
+      - { label: 'Image', name: 'cover_img', widget: 'image' }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
-      - { label: 'Services', name: 'services', widget: 'select', options: ['brand', 'digital', 'strategy'] }
+      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'] }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string' }
       - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', optional: true }
@@ -64,9 +66,11 @@ collections:
     fields:
       - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'cover_img', widget: 'image' }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!' }
+      - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - {
           label: 'Body',
           name: 'body',
@@ -98,8 +102,11 @@ collections:
     delete: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'cover_img', widget: 'image' }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!' }
+      - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - {
           label: 'Body',
           name: 'body',
@@ -149,6 +156,7 @@ collections:
     fields:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author image', name: 'image', widget: 'image' }
       - { label: 'Role', hint: ' Who dis?! ¯\_(ツ)_/¯', name: 'role', widget: 'string' }
       - {
           label: 'Body',
@@ -167,12 +175,15 @@ collections:
     slug: '{{slug}}'
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
-      - { label: 'Services', name: 'services', widget: 'select', options: ['brand', 'digital', 'strategy'] }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'cover_img', widget: 'image' }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!' }
+      - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', optional: true }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string' }
-      - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', optional: true }
+      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'] }
+      - { label: 'Topics', name: 'topics', widget: 'select', options: ['brand', 'digital', 'strategy'] }
       - {
           label: 'Body',
           name: 'body',
