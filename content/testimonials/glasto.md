@@ -1,6 +1,6 @@
 ---
 date: 2020-04-24
-img: images/clientfaces/michael_groves.jpg
+image: images/clientfaces/michael_groves.jpg
 title: Carolyn Addelman
 role: Project Lead, Performing Glastonbury
 hidden: false

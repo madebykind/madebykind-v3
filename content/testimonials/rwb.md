@@ -1,6 +1,6 @@
 ---
 date: 2020-04-24
-img: images/clientfaces/rus_sellers.jpg
+image: images/clientfaces/rus_sellers.jpg
 title: Hillary Cross
 role: Brand and Marketing Lead
 url: rewilding-britain.org.uk
