@@ -14,19 +14,11 @@
       class="w-16 border rounded-full md:w-24" 
       height="{{ .Height }}" 
       loading="lazy" 
-      sizes="
-        (min-width: 90em) 240w
-        (min-width: 62em) 180w, 
-        120w
-      "
+      sizes="(min-width: 90em) 240px,(min-width: 62em) 180px,120px"
       src="{{ $sm.RelPermalink }}" 
-      srcset="
-        {{ $sm.RelPermalink }} 120w,
-        {{ $md.RelPermalink }} 180w,
-        {{ $lg.RelPermalink }} 240w" 
+      srcset="{{ $sm.RelPermalink }} 120w,{{ $md.RelPermalink }} 180w,{{ $lg.RelPermalink }} 240w" 
       width="{{ .Width }}"
-      
-    />
+    >
   {{ end }}
   <div>
     <h2 class="font-serif text-base font-bold normal-case" itemprop="author">{{ $author.name }}</h2>
