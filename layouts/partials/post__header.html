@@ -1,5 +1,5 @@
 <header{{with.Params.header_class}} class="{{ . }}" {{ end }}>
-  <div class="container grid items-end content-end min-h-screen gap-10 md:grid-cols-12 section">
+  <div class="container grid items-end content-end gap-10 md:grid-cols-12 section">
     {{ if .Params.cover_img }}
       <div class="col-span-12 md:col-span-4 md:col-start-9 md:row-start-1">
         {{ partial "image__illustration" . }}
