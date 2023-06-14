@@ -3,7 +3,9 @@
 <article>
   {{ partial "post__header" . }}
   <div class="container font-sans font-light prose section">
-    {{- .Content -}}
+    <div class="max-w-4xl">
+      {{- .Content -}}
+    </div>
   </div>
   {{ if .Params.topics }}
   <footer class="container mt-10 border-t section ">

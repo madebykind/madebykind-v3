@@ -5,10 +5,10 @@
 				{{ partial "image__illustration" . }}
 			</div>
 		{{ end }}
-		<div class="grid col-span-12 gap-10 md:col-span-8 max-w-copy">
+    <div class="grid max-w-5xl col-span-12 gap-10 md:col-span-8">
 			<h1 class="leading-heading">{{ .Page.Title|safeHTML }}</h1>
       {{ if .Params.intro }}
-        <div class="prose lede">
+      <div class="max-w-4xl prose lede">
           {{ .Params.intro | markdownify }}
         </div>
       {{ end }}
