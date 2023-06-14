@@ -9,11 +9,12 @@
 
   <img
     alt="{{ $alt }}"
-    class="mr-4 w-16 h-16 object-cover object-center rounded-full inline-block border border-ui"
+    class="inline-block object-cover object-center w-16 h-16 mr-4 border rounded-full border-ui"
+    height="180"
     loading=lazy
-    sizes="(min-width: 62em) 180w, 120w"
+    sizes="(min-width: 62em) 180px, 120px"
     src="{{ $sm.RelPermalink }}"
     srcset="{{ $sm.RelPermalink }} 120w,{{ $lg.RelPermalink }} 180w,"
-    height="180"
-    width="180" />
+    width="180"
+  >
 {{ end }}

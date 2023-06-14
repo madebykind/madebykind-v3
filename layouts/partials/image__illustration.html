@@ -14,7 +14,7 @@
       alt="{{ $alt }}" 
       class="object-cover"
       height="{{ $image.Height }}"
-      loading="eager"
+      loading=eager
       sizes="(min-width: 100em) 33vw, 96vw"
       src="{{ $sm.RelPermalink }}" 
       srcset="
@@ -24,6 +24,6 @@
         {{ $xl.RelPermalink }} 800w,
         {{ $2xl.RelPermalink }} 1280w"
       width="{{ $image.Width }}"
-    />
+    >
 	</picture>
 {{ end }}

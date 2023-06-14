@@ -13,14 +13,10 @@
     alt="{{ $alt }}"
     class="object-cover"
     loading=lazy
-    src="{{ $sm.RelPermalink }}"
-    srcset="
-    {{ $sm.RelPermalink }} 300w,
-    {{ $md.RelPermalink }} 400w,
-    {{ $lg.RelPermalink }} 600w,
-    {{ $xl.RelPermalink }} 800w"
     sizes="(min-width: 100em) 33vw, 96vw"
+    src="{{ $sm.RelPermalink }}"
+    srcset="{{ $sm.RelPermalink }} 300w,{{ $md.RelPermalink }} 400w,{{ $lg.RelPermalink }} 600w,{{ $xl.RelPermalink }} 800w"
     height="600"
     width="800"
-  />
+  >
 {{ end }}

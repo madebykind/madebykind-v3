@@ -15,14 +15,14 @@
     class="object-cover w-full h-full"
     height="{{ .Height }}"
     loading=lazy
+    sizes="(min-width: 100em) 48vw, 96vw"
     src="{{ $sm.RelPermalink }}"
     srcset="
-    {{ $sm.RelPermalink }} 300w,
-    {{ $md.RelPermalink }} 400w,
-    {{ $lg.RelPermalink }} 600w,
-    {{ $xl.RelPermalink }} 800w,
-    {{ $2xl.RelPermalink }} 1200w"
-    sizes="(min-width: 100em) 48vw, 96vw"
+      {{ $sm.RelPermalink }} 300w,
+      {{ $md.RelPermalink }} 400w,
+      {{ $lg.RelPermalink }} 600w,
+      {{ $xl.RelPermalink }} 800w,
+      {{ $2xl.RelPermalink }} 1200w"
     width="{{ .Width }}"
-  />
+  >
 {{ end }}

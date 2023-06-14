@@ -17,7 +17,7 @@
     alt="{{ $alt }}"
     class="absolute object-cover w-full h-full"
     height="{{ .Height }}"
-    loading="eager"
+    loading=eager
     sizes="100vw"
     src="{{ $sm.RelPermalink }}"
     srcset="
@@ -30,5 +30,5 @@
     {{ $4xl.RelPermalink }} 1920w,
     {{ $5xl.RelPermalink }} 2560w"
     width="{{ .Width }}"
-  />
+  >
 {{ end }}
