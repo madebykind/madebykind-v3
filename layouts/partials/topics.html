@@ -4,7 +4,7 @@
   <ul class="flex flex-wrap gap-5 font-sans text-sm font-medium list-none" role="list">
     {{ range .Params.topics }}
       <li>
-        <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+        <a href="{{ "topics/" | absURL }}{{ . | urlize }}">{{ . }}</a>
       </li>
     {{ end }}
   </ul>
