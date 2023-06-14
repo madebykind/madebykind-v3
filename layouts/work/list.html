@@ -1,8 +1,6 @@
 {{ define "main" }}
-{{ $section := .Site.GetPage "section" .Section }}
 <section>
   {{ partial "list__header.html" . }}
-
   <nav class="container grid gap-5">
     <h2>Filter by (topic):</h2>
     <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
@@ -16,7 +14,6 @@
       {{ end }}
     </ul>
   </nav>
-
   <ol class="container grid gap-10 section md:grid-cols-2 lg:grid-cols-3 lg:gap-20">
     {{ range .Pages }}
       <li>
