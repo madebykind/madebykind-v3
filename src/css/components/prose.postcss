@@ -29,11 +29,24 @@
     ;
   }
 
+  /*
+  * There's a reason it's called 'hanging punctuation', bullets should be outdented.
+  * http://www.markboulton.co.uk/journal/five-simple-steps-to-better-typography-part-2
+  */
   & ol,
   & ul {
+
+    list-style: initial;
+    
     @apply
-      grid gap-5
+      list-outside
     ;
+
+    /* Nice nested lists */
+    & li > ol,
+    & li > ul {
+      @apply pl-4;
+    }
   }
 }
 
