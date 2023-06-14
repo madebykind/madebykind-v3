@@ -7,7 +7,7 @@ title: Working with the World’s leading art and design museum
 description: A new website design to build awareness of the charity’s work and gain support from the public.
 services: [Brand, Digital, Strategy]
 topics: [UX,User-centered design]
-icon:
+icon: va-logo
 ---
 
 Lorem ipsum dolor sit amet, purto altera adipisci ei pro, ex mea amet admodum tincidunt. Te adhuc quidam facilis duo, mel ne nobis delectus, id persius prompta vituperatoribus eum. 

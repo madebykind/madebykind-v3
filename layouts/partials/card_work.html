@@ -1,9 +1,19 @@
 <article class="grid h-full gap-5">
-  <a class="flex no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+  <a class="no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
     <div class="relative">
       {{ if isset .Params "cover_img" }}
         {{ partial "image__card" . }}
       {{ end }}
+
+      {{ with .Params.icon }}
+        <div class="absolute bottom-0 right-0 p-5 bg-white">
+          <svg class="w-24 h-12 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-{{ . }}"/>
+          </svg>
+        </div>
+      {{ end }}
+    </div>
+
       <div class="grid content-center gap-5 py-5 lg:gap-10">
         <h2 class="group-hover:underline" id="{{ .Title | urlize }}">{{ .Title }}</h2>
         {{ with .Params.services }}
@@ -16,6 +26,5 @@
           </ul>
         {{ end }}
       </div>
-    </div>
   </a>
 </article>

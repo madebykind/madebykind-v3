@@ -4,7 +4,7 @@ cover_img: images/brand-rwb.jpg
 cover_img_alt: 
 description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment
 featured: true
-icon: bcorp
+icon: rwb-logo
 intro: Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.
 summary:
 services: [Strategy, Digital]

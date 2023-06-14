@@ -3,7 +3,7 @@ block_class: bg-teal text-blue
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle arrange it all with sticky notes on a wall.
 featured: true
-icon: facebook
+icon: chapter-logo
 external_link: https://chapter.org.uk
 summary: How we helped reposition a historic community force
 services: [Brand, Digital]
