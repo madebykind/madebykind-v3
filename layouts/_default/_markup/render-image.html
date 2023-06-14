@@ -26,7 +26,8 @@
         {{ $lg.RelPermalink }} 1200w,
         {{ $xl.RelPermalink }} 1600w,
         {{ $2xl.RelPermalink }} 1920w"
-      width="{{ $img.Width }}" />
+      width="{{ $img.Width }}"
+    >
     <figcaption class="italic">{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
   </figure>
 {{- else -}}
@@ -42,5 +43,5 @@
     height="{{ $img.Height }}"
     sizes="100vw"
     width="{{ $img.Width }}"
-  />
+  >
 {{- end -}}
