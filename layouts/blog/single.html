@@ -1,17 +1,39 @@
 {{ define "main" }}
 
 <article>
+  
   {{ partial "post__header" . }}
-  <div class="container font-sans font-light prose section">
-    <div class="max-w-4xl">
-      {{- .Content -}}
+  
+  <div class="container grid grid-cols-12 gap-10 font-sans font-light prose section">
+    <div class="col-span-full lg:col-span-8">
+      <div class="max-w-4xl">
+        {{- .Content -}}
+      </div>
     </div>
+
+    {{ with .Params.related }}
+      <aside class="col-span-full lg:col-span-4">
+        <h2>Related posts</h2>
+        {{ range . }}
+          <ul>
+            {{ with site.GetPage . }}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </aside>
+    {{ end }}
   </div>
+
   {{ if .Params.topics }}
-  <footer class="container mt-10 border-t section ">
-      {{ partial "topics" . }}
-  </footer>
+    <footer class="container mt-10 border-t section ">
+        {{ partial "topics" . }}
+    </footer>
   {{ end }}
+
   {{ partial "related-pages.html" . }}
+
 </article>
 {{ end }}
