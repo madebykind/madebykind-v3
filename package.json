@@ -12,7 +12,7 @@
     "build:vite": "vite build",
     "build:hugo": "hugo -d ./dist --gc --minify --templateMetricsHints",
     "dev": "run-p dev:**",
-    "dev:hugo": "hugo server --buildDrafts --templateMetrics",
+    "dev:hugo": "hugo server --buildDrafts --gc --templateMetrics",
     "dev:vite": "vite --host",
     "lint": "eslint src",
     "clean": "rimraf ./node_modules && yarn && npm run prebuild",

@@ -1,5 +1,5 @@
 <a class="{{ with .Params.header_class }} {{ . }} {{ end }}grid content-center h-full no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
-  <article class="relative">
+  <article class="relative aspect-square">
     {{ if isset .Params "cover_img" }}
       {{ partial "image__card" . }}
     {{ end }}

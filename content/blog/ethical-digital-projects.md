@@ -1,4 +1,6 @@
 ---
+author: mat
+date: 2020-01-04T17:31:19Z
 draft: false
 topics:
   - User-centered design
@@ -6,6 +8,7 @@ topics:
   - Digital sustainability
 cover_img: 
 cover_img_alt:
+intro: After attending New Adventures in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
 header_class: bg-pink text-indigo
 summary: How can we adapt our process to create usable and useful products that
   are environmentally and ethically sound?
@@ -14,6 +17,7 @@ hidden: false
 related:
   - b-corp
   - kind-partners-with-rewilding-britain
+title: Creating sustainable and ethical digital products
 ---
 
 Cennydd spoke of looking past the needs of users in the present-tense to the impact our designs choices could have on wider society, wildlife and the planet, both now and in the future. Considering the potential short and long-term negative consequences of our work, not just on the user, but elsewhere. While Laura spoke of web privacy and the sheer volume and detail of data stored about us, often assumed but very accurate.
