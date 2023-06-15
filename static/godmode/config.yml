@@ -58,6 +58,7 @@ collections:
           widget: 'relation',
           collection: 'blog',
           searchFields: ['title'],
+          multiple: true,
           valueField: 'title',
         }
   
