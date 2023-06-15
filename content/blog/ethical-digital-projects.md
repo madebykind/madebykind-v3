@@ -1,17 +1,26 @@
 ---
-author: jess
-cover_img: 
-cover_img_alt:
-title: Creating sustainable and ethical digital products
-date: 2020-05-12
-description: How can we adapt our process to create usable and useful products that are environmentally and ethically sound?
+draft: true
+topics:
+  - User-centered design
+  - Strategic consultancy
+  - Digital sustainability
+cover_img_alt: Pointing up
 header_class: bg-pink text-indigo
-intro: After attending [New Adventures](https://newadventuresconf.com/) in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
-services: [brand, strategy]
-summary: 
-topics: [User-centered design,Strategic consultancy,Digital sustainability]
+summary: How can we adapt our process to create usable and useful products that
+  are environmentally and ethically sound?
 toc: false
 hidden: false
+author: jess
+title: Creating sustainable and ethical digital products
+date: 2020-05-12
+cover_img: ../images/hand-2v2.png
+services:
+  - brand
+  - strategy
+description: How can we adapt our process to create usable and useful products
+  that are environmentally and ethically sound?
+intro: After attending [New Adventures](https://newadventuresconf.com/) in
+  January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
 ---
 
 Cennydd spoke of looking past the needs of users in the present-tense to the impact our designs choices could have on wider society, wildlife and the planet, both now and in the future. Considering the potential short and long-term negative consequences of our work, not just on the user, but elsewhere. While Laura spoke of web privacy and the sheer volume and detail of data stored about us, often assumed but very accurate.
