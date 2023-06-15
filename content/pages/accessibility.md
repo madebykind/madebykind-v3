@@ -1,8 +1,11 @@
 ---
 date: 2020-04-24T11:48:46+01:00
-description: "Accessiblity is at the heart of everything we do, this page explains our process."
+description: Accessiblity is at the heart of everything we do, this page explains our process.
 title: Accessibility Statement
 toc: true
+related:
+  - b-corp
+  - kind-partners-with-rewilding-britain
 ---
 
 Accessibility is extremely important to us. We want as many people as possible to be able to use this website. You should be able to:

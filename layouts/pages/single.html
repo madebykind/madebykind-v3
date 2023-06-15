@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article{{ if isset .Params "page_class"}} class="{{ .Params.page_class }}"{{ end }}>
+  
+  {{ partial "page__header" . }}
+
+  <div class="container grid grid-cols-12 gap-10 font-sans font-light prose section">
+    <div class="col-span-full lg:col-span-8">
+      <div class="max-w-4xl">
+        {{- .Content -}}
+      </div>
+    </div>
+
+    {{ with .Params.related }}
+      <aside class="col-span-full lg:col-span-4">
+        <h2>Related posts</h2>
+        {{ range . }}
+          <ul>
+            {{ with site.GetPage . }}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </aside>
+    {{ end }}
+    
+  </div>
+</article>
+{{ end }}
