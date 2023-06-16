@@ -4,25 +4,17 @@
   
   {{ partial "post__header" . }}
   
-  <div class="container grid grid-cols-12 gap-10 font-sans font-light prose section">
+  <div class="container grid grid-cols-12 gap-10 font-sans font-light section">
     <div class="col-span-full lg:col-span-8">
-      <div class="max-w-4xl">
+      <div class="max-w-4xl prose">
         {{- .Content -}}
       </div>
     </div>
 
-    {{ with .Params.related }}
+    {{ with .Params.related_pages }}
       <aside class="col-span-full lg:col-span-4">
-        <h2>Related posts</h2>
-        {{ range . }}
-          <ul>
-            {{ with site.GetPage . }}
-              <li>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
+        <h2 class="font-sans text-sm font-bold">Related</h2>
+        {{ partial "related-pages.html" . }}
       </aside>
     {{ end }}
   </div>
@@ -32,8 +24,13 @@
         {{ partial "topics" . }}
     </footer>
   {{ end }}
-
-  {{ partial "related-pages.html" . }}
+  
+  {{ with .Params.related_posts }}
+  <div class="container section">
+    <h2 class="uppercase font-display">You may also be interested in</h2>
+    {{ partial "related-posts.html" . }}
+  </div>
+  {{ end }}
 
 </article>
 {{ end }}

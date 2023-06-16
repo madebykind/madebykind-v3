@@ -3,8 +3,8 @@
     <div class="grid gap-10 py-10 border-b-2 border-teal">
       <div class="flex flex-wrap gap-10">
         <div class="flex-grow w-2/3">
-          <h3 class="font-serif leading-tight underline normal-case h2" id="{{ .Title | urlize }}">{{ .Title }}</h3>
-          {{ .Summary | markdownify }}
+          <h3 class="font-serif font-light leading-tight underline normal-case" id="{{ .Title | urlize }}">{{ .Title }}</h3>
+          <span class="font-sans text-sm font-medium">{{ .Params.key_topic }}</span>
         </div>
         <svg class="w-12 h-4 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-arrow-right"/>

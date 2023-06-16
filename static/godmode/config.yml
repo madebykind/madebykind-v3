@@ -31,6 +31,8 @@ collections:
       - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'], optional: true }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', optional: true }
+      - { label: 'Key Topic', name: 'key_topic', widget: 'select', options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], optional: true }
+      - { label: 'Topics', name: 'topics', widget: 'select', multiple: true, options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], optional: true }
       - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', optional: true }
       - {
           label: 'Body',
@@ -52,16 +54,9 @@ collections:
             'link',
           ]
         }
-      - { 
-          label: 'Related Post',
-          name: 'post',
-          widget: 'relation',
-          collection: 'blog',
-          searchFields: ['title'],
-          multiple: true,
-          valueField: 'title',
-        }
-  
+      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
+      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
+        
   - name: 'pages'
     editor:
       preview: false

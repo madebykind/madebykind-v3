@@ -14,9 +14,12 @@ summary: How can we adapt our process to create usable and useful products that
   are environmentally and ethically sound?
 toc: false
 hidden: false
-related:
+related_pages:
   - b-corp
   - kind-partners-with-rewilding-britain
+related_posts:
+  - building-a-more-sustainable-website-architecture
+  - start-your-next-digital-project-with-a-paid-discovery-phase
 title: Creating sustainable and ethical digital products
 ---
 

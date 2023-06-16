@@ -1,14 +1,16 @@
 
-{{ $related := .Site.RegularPages.Related . | first 3 }}
-{{ with $related }}
-<div class="container section">
-	<h2 class="uppercase font-display">You might also be interested in</h2>
+
 	<ul>
 		{{ range . }}
-			<li>
-        {{ partial "teaser" . }}
-			</li>
+      {{ with site.GetPage . }}
+        <li class="mt-5">
+          <a class="flex gap-5 py-2.5 leading-tight font-serif" href="{{ .RelPermalink }}">
+            {{ .Title }}
+            <svg class="w-12 h-4 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-arrow-right"/>
+            </svg>
+          </a>
+        </li>
+      {{ end }}
 		{{ end }}
 	</ul>
-</div>
-{{ end }}
