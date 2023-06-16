@@ -6,7 +6,7 @@
       {{ end }}
       <div class="absolute z-10 grid content-center gap-5 lg:gap-10 inset-5 lg:inset-10">
         {{ with .Params.key_topic }}
-          <span class="underline">{{ . }}</span>
+          <span class="text-sm underline">{{ . }}</span>
         {{end}}
         <h2 class="h--condensed group-hover:underline" id="{{ .Title | urlize }}">{{ .Title }}</h2>
       </div>
