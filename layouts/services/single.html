@@ -4,6 +4,23 @@
   <div class="container font-sans font-light prose section">
     {{- .Content -}}
   </div>
-	{{ partial "related-pages.html" . }}
+	
+  {{ with .Params.related_posts }}
+    <div class="container section">
+      <h2>Insights on</h2>
+
+      <ul class="flex flex-wrap gap-5">
+        {{ range . }}
+          {{ with site.GetPage . }}
+            <li class="w-full lg:w-1/3">
+              {{ partial "card" . }}
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+
+    </div>
+  {{ end }}
+
 </article>
 {{ end }}

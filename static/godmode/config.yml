@@ -135,7 +135,9 @@ collections:
             'numbered-list'
           ]
         }
-
+      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
+      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
+  
   - name: 'stats'
     label: 'Stats'
     label_singular: 'Fun fact…'
