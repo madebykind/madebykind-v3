@@ -10,6 +10,7 @@ intro: Anyone who has taken on a digital project before knows that, even with th
 services: []
 summary: Anyone who has taken on a digital project before knows that, even with the best intentions, things can often go awry. What you're missing is a discovery…
 toc: false
+header_class: bg-pink text-claret
 key_topic: Research and analysis
 topics: []
 title: Start Your Next Digital Project With a Paid Discovery Phase

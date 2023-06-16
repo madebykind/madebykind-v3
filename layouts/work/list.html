@@ -1,10 +1,11 @@
 {{ define "main" }}
 <section>
   {{ partial "list__header.html" . }}
+
   <nav class="container grid gap-5">
-    <h2>Filter by (topic):</h2>
+    <h2 class="h--condensed">Filter by topic</h2>
     <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
-      {{ range sort .Site.Taxonomies.topics ".Count" "desc" }}
+      {{ range (sort .Site.Taxonomies.topics ".Count" "desc") }}
         <li>
           <a href="{{ .Page.Permalink }}">
             {{ .Page.Title }}
@@ -14,9 +15,10 @@
       {{ end }}
     </ul>
   </nav>
-  <ol class="container grid gap-10 section md:grid-cols-2 lg:grid-cols-3 lg:gap-20">
-    {{ range .Pages }}
-      <li>
+  
+  <ol class="container flex flex-wrap gap-10 section lg:gap-20">
+	  {{ range .Pages }}
+		  <li class="w-full max-w-lg">
         {{ partial "card_work" . }}
       </li>
     {{ end }}

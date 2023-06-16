@@ -10,7 +10,9 @@ intro:
 services: []
 summary: 
 toc: false
+key_topic: Our impact
 topics: []
+header_class: bg-yellow text-blue
 title: Kind Partners With Rewilding Britain
 hidden: false
 related:
