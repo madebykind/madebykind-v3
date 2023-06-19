@@ -6,7 +6,7 @@ media_folder: assets/images
 local_backend: true
 public_folder: images
 logo_url: https://next.madebykind.com/img/logo.svg
-#publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 site_url: https://next.madebykind.com/
 collections:
   
