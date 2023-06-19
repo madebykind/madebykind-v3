@@ -25,15 +25,15 @@ collections:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Image', name: 'cover_img', widget: 'image', optional: true }
-      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', optional: true }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, optional: true }
-      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'], optional: true }
+      - { label: 'Image', name: 'cover_img', widget: 'image', required: false }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
+      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'], required: false }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
-      - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', optional: true }
-      - { label: 'Key Topic', name: 'key_topic', widget: 'select', options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], optional: true }
-      - { label: 'Topics', name: 'topics', widget: 'select', multiple: true, options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], optional: true }
-      - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', optional: true }
+      - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false }
+      - { label: 'Key Topic', name: 'key_topic', widget: 'select', options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], required: false }
+      - { label: 'Topics', name: 'topics', widget: 'select', multiple: true, options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], required: false }
+      - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', required: false }
       - {
           label: 'Body',
           name: 'body',
@@ -54,8 +54,8 @@ collections:
             'link',
           ]
         }
-      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
-      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
+      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: 'title'}
+      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: 'title'}
         
   - name: 'pages'
     editor:
@@ -70,10 +70,10 @@ collections:
     fields:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, optional: true }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Image', name: 'cover_img', widget: 'image', optional: true }
-      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', optional: true }
+      - { label: 'Image', name: 'cover_img', widget: 'image', required: false }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - {
           label: 'Body',
@@ -110,10 +110,10 @@ collections:
     fields:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, optional: true }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Image', name: 'cover_img', widget: 'image', optional: true }
-      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', optional: true }
+      - { label: 'Image', name: 'cover_img', widget: 'image', required: false }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - {
           label: 'Body',
@@ -152,7 +152,7 @@ collections:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Icon', name: 'icon', widget: 'string', optional: true }
+      - { label: 'Icon', name: 'icon', widget: 'string', required: false }
       - {
           label: 'Body',
           name: 'body',
@@ -174,8 +174,8 @@ collections:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Author image', name: 'image', widget: 'image', optional: true }
-      - { label: 'Role', hint: ' Who dis?! ¯\_(ツ)_/¯', name: 'role', widget: 'string', optional: true }
+      - { label: 'Author image', name: 'image', widget: 'image', required: false }
+      - { label: 'Role', hint: ' Who dis?! ¯\_(ツ)_/¯', name: 'role', widget: 'string', required: false }
       - {
           label: 'Body',
           name: 'body',
@@ -193,15 +193,15 @@ collections:
     slug: '{{slug}}'
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, optional: true }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Image', name: 'cover_img', widget: 'image', optional: true }
-      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', optional: true }
-      - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', optional: true }
+      - { label: 'Image', name: 'cover_img', widget: 'image', required: false }
+      - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
+      - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', required: false }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
-      - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', optional: true }
+      - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false }
       - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'] }
-      - { label: 'Topics', name: 'topics', widget: 'select', multiple: true, options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], optional: true }
+      - { label: 'Topics', name: 'topics', widget: 'select', multiple: true, options: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], required: false }
       - {
           label: 'Body',
           name: 'body',
