@@ -3,7 +3,7 @@
     <div class="grid items-center gap-10 md:grid-cols-2">
       <div id="content" class="grid col-span-1 gap-10">
         <h1>{{ .Page.Title|safeHTML }}</h1>
-        <div class="font-light prose max-w-cta-copy cta_prose">
+        <div class="max-w-5xl prose cta_prose">
           {{ .Content }}
         </div>
         {{ if isset .Params "cta" }}

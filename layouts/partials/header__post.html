@@ -6,10 +6,10 @@
       </div>
     {{ end }}
     <div class="grid max-w-6xl col-span-12 gap-10 md:col-span-8">
-      <h1 class="leading-heading">{{ .Page.Title|safeHTML }}</h1>
+      <h1>{{ .Page.Title|safeHTML }}</h1>
       {{ partial "meta" . }}
       {{ if .Params.intro }}
-        <div class="max-w-4xl prose lede">
+        <div class="max-w-4xl prose lede cta_prose">
           {{ .Params.intro | markdownify }}
         </div>
       {{ end }}

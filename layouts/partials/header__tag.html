@@ -3,9 +3,12 @@
     {{ partial "image__hero" . }}
   {{ end }}
   <div class="container relative {{ with .Params.reversed }}antialiased text-white{{ end }}">
-    <h1 class="clig dlig">Posts tagged: <span>#</span>{{ title .Page.Title | safeHTML }}</h1>
+    <h1>Posts tagged: 
+      <span>#</span>{{ title .Page.Title | safeHTML }}
+    </h1>
+
     {{ if isset .Params "description" }}
-    <div class="mt-4 text-xl lg:col-end-7 lg:text-2xl">{{ .Description | markdownify }}</div>
+      <div class="max-w-4xl prose lede cta_prose lg:col-end-7">{{ .Description | markdownify }}</div>
     {{ end }}
   </div>
 </header>
