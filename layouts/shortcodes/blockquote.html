@@ -1,0 +1,18 @@
+  
+{{ if .Get "author" }}
+  <figure {{ with .Get "cite" }} cite="https://{{.}}" {{ end }}>
+    <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
+      <p itemprop="citation">&ldquo;{{ .Inner }}&rdquo;</p>
+    </blockquote>
+    <figcaption class="border-l-4 border-orange -ml-[4px] pl-10">
+      {{ if .Get "author" }}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ .Get "author" }}</span>
+        </span>
+        {{ if .Get "role" }}
+          <span itemprop="jobTitle">{{.Get "role" }}</span>
+        {{ end }}
+      {{ end }}
+    </figcaption>
+  </figure>
+{{ end }}
