@@ -16,13 +16,20 @@
       {{ end }}
     </ul>
   </nav>
-  <ol class="container flex flex-wrap gap-10 section lg:gap-20">
-    {{ range .Pages }}
-      <li class="w-full max-w-lg">
-        {{ partial "card" . }}
-      </li>
-    {{ end }}
-  </ol>
-  {{ partial "pagination.html" . }}
+  <section class="container">
+    <h2 class="h--ui">Latest posts</h2>
+    <ol class="flex flex-wrap gap-10 section lg:gap-20">
+      {{ range first 6 .Pages }}
+        <li class="w-full max-w-lg">
+          {{ partial "card" . }}
+        </li>
+      {{ end }}
+      {{ range first 9 ( after 6 .Pages ) }}
+        <li class="w-full">
+          {{ partial "teaser" . }}
+        </li>
+      {{ end }}
+    </ol>
+  </section>
 </section>
 {{ end }}
