@@ -1,6 +1,9 @@
 ---
-date: 2020-04-24T11:48:46+01:00
-title: Policies & legal information
-linktitle: Policies & legal information
-menu: legal
+_build:
+  render: never
+cascade:
+  _build:
+    render: true
+    list: true
+    publishResources: true
 ---

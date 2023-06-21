@@ -29,7 +29,7 @@
   </section>
   <section class="section">
     <div class="container grid gap-10">
-      <h2 class="text-xl">Our team of experts</h2>
+      <h2 class="text-xl h--condensed">Our team of experts</h2>
       <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-32">
         {{ range $.Site.Data.authors }}
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
