@@ -45,15 +45,11 @@
   */
   & ol,
   & ul {
-
-    ::marker {
-      @apply text-orange;
-    }
-
     list-style: initial;
     
     @apply
-      list-outside
+      marker:text-orange
+      list-outside 
     ;
 
     /* Nice nested lists */
