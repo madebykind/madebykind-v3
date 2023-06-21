@@ -3,7 +3,7 @@
     <div class="grid gap-10 py-10 border-b-2 border-teal">
       <div class="flex flex-wrap gap-10">
         <div class="flex-grow w-2/3">
-          <h3 class="font-serif font-light leading-tight underline normal-case" id="{{ .Title | urlize }}">{{ .Title }}</h3>
+          <h3 class="font-light leading-tight underline text-md" id="{{ .Title | urlize }}">{{ .Title }}</h3>
           {{ with .Params.key_topic }}
             <span class="font-sans text-sm font-medium underline">{{ . }}</span>
           {{end}}
