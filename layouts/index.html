@@ -2,9 +2,8 @@
   {{ partial "services.html" . }}
   {{ partial "header__list.html" . }}
   {{ partial "featured_work.html" . }}
-  <section class="section">
-    <div class="container">
-      <h2 class="text-lg">Insights from our strategic, creative and technical experts.</h2>
+  <section class="container section">
+      <h2 class="text-lg h--condensed">Insights from our strategic, creative and technical experts.</h2>
       {{ partial "latest_posts.html" . }}
       <div class="flex justify-end mt-10">
         <a class="btn btn--secondary" href="/blog">
@@ -14,6 +13,5 @@
           </svg>
         </a>
       </div>
-    </div>
   </section>
 {{ end }}
