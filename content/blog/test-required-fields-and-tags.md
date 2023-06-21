@@ -2,7 +2,7 @@
 hidden: false
 title: Test (required fields and tags)
 date: 2023-06-19T16:16:37.612Z
-draft: false
+draft: true
 description: Meta description is required!
 tags:
   - Foo
