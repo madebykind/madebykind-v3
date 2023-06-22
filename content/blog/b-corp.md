@@ -5,6 +5,7 @@ cover_img_alt: Ohh, a pineapple
 date: 2022-03-22
 description: 
 draft: false
+featured: true
 intro: We’re delighted to announce that, this week, Kind has officially certified as a B Corporation, joining 4,600 businesses globally who are committed to purpose beyond profit.
 title: Kind certifies as a B Corporation
 topics: [performance, UX, a11y]

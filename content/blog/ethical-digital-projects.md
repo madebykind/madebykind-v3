@@ -8,6 +8,7 @@ topics:
   - Digital sustainability
 cover_img: 
 cover_img_alt:
+featured: true
 intro: After attending New Adventures in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
 header_class: bg-pink text-indigo
 summary: How can we adapt our process to create usable and useful products that

@@ -8,6 +8,7 @@ date: 2021-02-16
 description: There are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice. 
 draft: false
 toc: true
+featured: true
 intro: There are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice.
 key_topic: Digital sustainability
 related:

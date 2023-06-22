@@ -6,6 +6,7 @@ date: 2021-06-16T15:20:00+0100
 description: All pages should have a meta description, describing the content of the page
 draft: false
 header_class: 
+featured: true
 intro: Anyone who has taken on a digital project before knows that, even with the best intentions, things can often go awry. Initial excitement slowly fades during the project and the final result can be underwhelming. Wires got crossed somewhere and the final delivery is not quote what you imagined.
 services: []
 summary: Anyone who has taken on a digital project before knows that, even with the best intentions, things can often go awry. What you're missing is a discovery…

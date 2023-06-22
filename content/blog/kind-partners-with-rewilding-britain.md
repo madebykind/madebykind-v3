@@ -7,6 +7,7 @@ description: All pages should have a meta description, describing the content of
 draft: false
 header_class: 
 intro:
+featured: true
 services: []
 summary: 
 toc: false
