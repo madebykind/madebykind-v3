@@ -5,17 +5,17 @@
         {{ partial "image__illustration" . }}
       </div>
     {{ end }}
-    <div class="grid max-w-6xl col-span-12 gap-10 md:col-span-8">
+    <div class="grid col-span-12 gap-10 md:col-span-8">
       <h1>{{ .Page.Title|safeHTML }}</h1>
       {{ partial "meta" . }}
       {{ if .Params.intro }}
-        <div class="max-w-4xl prose lede cta_prose">
+        <div class="prose lede cta_prose">
           {{ .Params.intro | markdownify }}
         </div>
       {{ end }}
     </div>
     {{ if .Params.intro }}
-      <div class="max-w-4xl col-span-12 md:col-start-9 md:col-span-4 ">
+      <div class="col-span-12 prose md:col-start-9 md:col-span-4 ">
         {{ partial "author" . }} 
       </div>
     {{ end }}
