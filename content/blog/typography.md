@@ -5,7 +5,8 @@ cover_img_alt: A nerd in his natural habitat
 draft: false
 hidden: true
 title: Tuned typography
-toc: true
+toc: false
+topics: [Markdown,Demo content]
 date: 2020-04-30T17:28:36.948Z
 description: We want our users to engage with our content, and great typography helps to do that.
 intro: We want our users to engage with our content, and great typography helps to do that. The easier it is to read, the better the engagemnent.
