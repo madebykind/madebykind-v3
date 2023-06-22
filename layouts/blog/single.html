@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-<article>
-  
+<article class="pb-10{{ if isset .Params " page_class"}} {{ .params.page_class }}{{ end }}">
+
   {{ partial "header__post" . }}
   
   <div class="container grid grid-cols-12 gap-10 font-sans font-light">
     <div class="col-span-full lg:col-span-8">
-      <div class="max-w-4xl prose">
+      <div class="prose">
         {{- .Content -}}
       </div>
     </div>
@@ -17,6 +17,7 @@
         {{ partial "related-pages.html" . }}
       </aside>
     {{ end }}
+    
   </div>
 
   {{ if .Params.topics }}
