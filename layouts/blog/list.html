@@ -17,15 +17,20 @@
     </ul>
   </nav>
   <section class="container">
-    <h2 class="mt-20 h--ui">Latest posts</h2>
+    <h2 class="sr-only">Featured posts</h2>
     <ol class="grid grid-cols-12 gap-10 section lg:gap-20">
-      {{ range first 6 .Pages }}
+      {{ range where .Pages "Params.featured" "==" true }}
         <li class="col-span-full lg:col-span-6 xl:col-span-4">
           {{ partial "card" . }}
         </li>
       {{ end }}
-      {{ range first 9 ( after 6 .Pages ) }}
-        <li class="col-span-full">
+    </ol>
+  </section>
+  <section class="container mt-20">
+    <h2 class="h--condensed text-md">Insights</h2>
+    <ol class="flex flex-wrap">
+      {{ range where .Pages "Params.featured" "!=" true }}
+        <li class="w-full">
           {{ partial "teaser" . }}
         </li>
       {{ end }}

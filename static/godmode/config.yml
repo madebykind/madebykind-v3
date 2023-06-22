@@ -30,7 +30,8 @@ collections:
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'], required: false }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
-      - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false }
+      - { label: 'Featured', name: 'featured', hint: 'Featured posts display as a large card on the blog listing', widget: 'boolean', default: false, required: false }
+      - { label: 'Summary', hint: 'This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false }
       - { label: 'Key Topic', name: 'key_topic', widget: 'string', required: false }
       - { label: 'Topics', name: 'topics', widget: 'list', default: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], required: false }
       - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', required: false }
@@ -199,7 +200,7 @@ collections:
       - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
       - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', required: false }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
-      - { label: 'Summary', hint: ' This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false }
+      - { label: 'Summary', hint: 'This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false }
       - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'] }
       - { label: 'Topics', name: 'topics', widget: 'list', default: ['User-centered design', 'Strategic consultancy', 'Digital sustainability'], required: false }
       - {
