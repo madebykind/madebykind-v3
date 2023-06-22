@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section>
+<section class="pb-10">
   
   {{ partial "header__list.html" . }}
 
@@ -19,7 +19,7 @@
   <section class="container">
     <h2 class="sr-only">Featured posts</h2>
     <ol class="grid grid-cols-12 gap-10 section lg:gap-20">
-      {{ range where .Pages "Params.featured" "==" true }}
+      {{ range where .Pages "Params.featured" "!=" nil }}
         <li class="col-span-full lg:col-span-6 xl:col-span-4">
           {{ partial "card" . }}
         </li>
