@@ -1,8 +1,8 @@
 ---
+author: michelle
 hidden: false
 title: Finding the common ground between your organisation and its audience
 date: 2023-06-22T15:40:38.551Z
-cover_img: images/people-on-crossing.avif
 draft: false
 services:
   - strategy
@@ -63,8 +63,6 @@ But, at this stage, these stories are simply a group of nicely structured assum
 
 This could be achieved through focus groups or one-to-one interviews with key audience groups or, if we’re replacing an existing product, we can use a digital survey to ask current users about the tasks they are trying to complete and why it is important to them. 
 
-![Kind user needs anim](https://madebykind.imgix.net/images/Blog/kind-user-needs-anim.gif?auto=format&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&q=70&w=300&s=36c6cc83ecedf5df5dcee7367aa14c6a)
-
 Example of a user story and how we structure them
 
 ## Scope out the sweet spot
@@ -86,8 +84,6 @@ Using the principles of User-centred Design (UCD) helps us to continually focus 
 3. **Structure:** How should we structure the product to achieve those shared goals quicker?
 4. **Skeleton:** How should we structure content and features at page level to achieve those shared goals quicker?
 5. **Surface:** How will the visual design of the product support the user?
-
-![Process illustration cropped](https://madebykind.imgix.net/images/Blog/process-illustration-cropped.png?auto=format&crop=&fit=fitmax&h=700&q=70&s=c6b6b5c59ea8096b2ae05e0a0ad6f72e)
 
 Surface > Skeleton > Structure > Scope > Strategy
 
