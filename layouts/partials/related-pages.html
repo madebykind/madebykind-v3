@@ -1,16 +1,16 @@
 
 
-	<ul>
-		{{ range . }}
-      {{ with site.GetPage . }}
-        <li class="mt-5">
-          <a class="flex gap-5 py-2.5 leading-tight font-serif" href="{{ .RelPermalink }}">
-            {{ .Title }}
-            <svg class="w-12 h-4 flex-no-shrink" role="presentation">
-              <use xlink:href="#icon-arrow"/>
-            </svg>
-          </a>
-        </li>
-      {{ end }}
-		{{ end }}
-	</ul>
+<ul>
+  {{ range . }}
+    {{ with site.GetPage . }}
+      <li class="mt-5">
+        <a class="flex gap-5 py-2.5 leading-tight font-serif" href="{{ .RelPermalink }}">
+          {{ .Title }}
+          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
