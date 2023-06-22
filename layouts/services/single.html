@@ -1,13 +1,13 @@
 {{ define "main" }}
 <article{{ if isset .Params "page_class"}} class="{{ .Params.page_class }}"{{ end }}>
   {{ partial "header__page" . }}
-  <div class="container font-sans font-light prose section">
+  <div class="container font-sans font-light prose">
     {{- .Content -}}
   </div>
 	
   {{ with .Params.related_posts }}
     <div class="container section">
-      <h2>Insights on</h2>
+      <h2 class="h--condensed">Insights on</h2>
 
       <ul class="flex flex-wrap gap-5">
         {{ range . }}
