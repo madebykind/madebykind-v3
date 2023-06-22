@@ -3,6 +3,7 @@ date: 2020-04-24T11:48:46+01:00
 description: We respect your privacy. This policy desribes what you need to know.
 title: Privacy policy
 toc: true
+url: /about/legal/privacy
 ---
 
 We respect the <abbr title="European Union">EU</abbr>’s General Data Protection Regulations (GDPR) and this policy explains how we collect and treat any information you give us. You won’t find any complicated legal terms or long passages of unreadable text.

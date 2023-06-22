@@ -2,6 +2,7 @@
 date: 2020-04-24T11:48:46+01:00
 description: How we use cookies and what it means to you.
 title: Cookie Policy
+url: /about/legal/cookies
 ---
 
 __This site does not use cookies__, none. If you'd like to learn about cookies, how they are used by some other websites, and what that means to you [Cookiesandyou.com](https://www.cookiesandyou.com/) is a great place to start.
