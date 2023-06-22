@@ -18,14 +18,14 @@
   </nav>
   <section class="container">
     <h2 class="mt-20 h--ui">Latest posts</h2>
-    <ol class="flex flex-wrap gap-10 section lg:gap-20">
+    <ol class="grid grid-cols-12 gap-10 section lg:gap-20">
       {{ range first 6 .Pages }}
-        <li class="w-full max-w-lg">
+        <li class="col-span-full lg:col-span-6 xl:col-span-4">
           {{ partial "card" . }}
         </li>
       {{ end }}
       {{ range first 9 ( after 6 .Pages ) }}
-        <li class="w-full">
+        <li class="col-span-full">
           {{ partial "teaser" . }}
         </li>
       {{ end }}
