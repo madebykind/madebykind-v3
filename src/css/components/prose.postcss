@@ -18,6 +18,24 @@
     ;
   }
 
+  p {
+    @apply
+      mt-10
+    ;
+
+    + * {
+      @apply
+        mt-10
+      ;
+    }
+
+    + p {
+      @apply
+        mt-15
+      ;
+    }
+  }
+
   & * + h1,
   & * + h2,
   & * + h3,
@@ -29,24 +47,13 @@
     ;
   }
 
-  p,
-  p + * {
-    @apply
-      mt-10
-    ;
-  }
-
-  p + p {
-    @apply
-      mt-15
-    ;
-  }
 
   pre {
     @apply
+      border border-ui
       bg-white
       p-4
-      border
+      overflow-x-scroll
     ;
   }
 
@@ -59,8 +66,9 @@
     list-style: initial;
     
     @apply
-      marker:text-orange
       list-outside 
+      marker:text-orange
+      mt-5 lg:mt-10
     ;
 
     /* Nice nested lists */
