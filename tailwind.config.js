@@ -56,6 +56,9 @@ module.exports = {
       minHeight: {
         '90vh': '90vh',
       },
+      spacing: {
+        '15': '3.75rem',
+      },
     },
     fontSize: {
       /* @link https://utopia.fyi/type/calculator?c=375,15,1.618,1366,24,1.618,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
