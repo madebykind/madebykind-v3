@@ -36,12 +36,12 @@
     }
   }
 
-  & * + h1,
-  & * + h2,
-  & * + h3,
-  & * + h4,
-  & * + h5,
-  & * + h6 {
+  * + h1,
+  * + h2,
+  * + h3,
+  * + h4,
+  * + h5,
+  * + h6 {
     @apply 
       mt-20
     ;
@@ -57,30 +57,37 @@
     ;
   }
 
-  /*
-  * There's a reason it's called 'hanging punctuation', bullets should be outdented.
-  * http://www.markboulton.co.uk/journal/five-simple-steps-to-better-typography-part-2
-  */
-  & ol,
-  & ul {
-    list-style: initial;
-    
+  ol {
+    @apply list-decimal;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol,
+  ul {
+
     @apply
       list-outside 
       marker:text-orange
       mt-5 lg:mt-10
     ;
+  }
 
-    /* Nice nested lists */
-    li > ol,
-    li > ul {
-      @apply pl-4;
-    }
+  li + li {
+    @apply mt-5;
+  }
+
+  /* Nice nested lists */
+  li > ol,
+  li > ul {
+    @apply list-inside;
   }
 }
 
 .cta_prose {
-  & p:first-of-type {
+  p:first-of-type {
     @apply lede;
   }
 }
