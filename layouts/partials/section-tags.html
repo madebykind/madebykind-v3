@@ -1,0 +1,11 @@
+
+<ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
+	{{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
+		<li>
+			<a href="{{ .Page.Permalink }}">
+				{{ .Page.Title }}
+			</a>
+			<sup>{{ .Count }}</sup>
+		</li>
+	{{ end }}
+</ul>

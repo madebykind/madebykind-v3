@@ -1,20 +1,9 @@
 {{ define "main" }}
 <section class="pb-10">
-  
   {{ partial "header__list.html" . }}
-
   <nav class="container grid gap-5 section">
     <h2 class="h--condensed">Filter by topic</h2>
-    <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
-      {{ range (sort .Site.Taxonomies.topics ".Count" "desc") }}
-        <li>
-          <a href="{{ .Page.Permalink }}">
-            {{ .Page.Title }}
-          </a>
-          <sup>{{ .Count }}</sup>
-        </li>
-      {{ end }}
-    </ul>
+    {{ partial "section-tags" . }}
   </nav>
   <section class="container">
     <h2 class="sr-only">Featured posts</h2>
