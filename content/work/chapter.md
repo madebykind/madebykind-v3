@@ -6,9 +6,14 @@ featured: true
 icon: chapter-logo
 external_link: https://chapter.org.uk
 summary: How we helped reposition a historic community force
-services: [Brand, Digital]
+services: 
+  - brand
+  - digital
 title: Rebranding an international arts centre
-topics: [UX, CMS Integration, User-centered design]
+topics: 
+  - UX
+  - CMS Integration
+  - User-centered design
 ---
 
 - Brand strategy - Manifesto, Tone of Voice and Values

@@ -1,15 +1,23 @@
 ---
 block_class: bg-pink text-claret
 cover_img: images/brand-rwb.jpg
-cover_img_alt: 
+cover_img_alt: Rewilding Britain donate page on a laptop screen. The laptop is
+  on a table by a window. There is a plant in the background.
 description: Engaging and influencing audiences to support rewilding areas of the country for the good of the environment
 featured: true
 icon: rwb-logo
 intro: Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.
-summary:
-services: [Strategy, Digital]
-topics: [CRM Integration, Design systems]
+summary: One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive
+  engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial
 title: A platform to inspire rewilding projects across the country
+services:
+  - digital
+topics:
+  - user-centered design
+related_work:
+  - chapter
+  - rivers-trust
+  - vanda
 ---
 ## Services
 

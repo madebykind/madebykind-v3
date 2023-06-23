@@ -9,20 +9,13 @@
     </div>
   </div>
 
-  {{ with .Params.related }}
-    <aside class="col-span-full lg:col-span-4">
-      <h2>Related posts</h2>
-      {{ range . }}
-        <ul>
-          {{ with site.GetPage . }}
-            <li>
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </li>
-          {{ end }}
-        </ul>
-      {{ end }}
-    </aside>
-  {{ end }}
+{{ with .Params.related_work }}
+	<aside class="container section">
+		<h2 class="h--condensed">You may also be interested in</h2>
+		{{ partial "related-work.html" . }}
+	</aside>
+{{ end }}
+
 
 </article>
 {{ end }}

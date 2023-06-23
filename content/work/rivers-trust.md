@@ -6,14 +6,20 @@ title: For thriv­ing rivers and communities. Wild, healthy, natural rivers, 
 external_link: https://thetungauditorium.com/
 description: A new website design to build awareness of the charity’s work and gain support from the public.
 icon: rt-logo
-services: [Brand, Strategy]
+services: 
+  - brand
+  - strategy
 ---
 
-**The Challenge**
+> “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
+>
+> REWILDING BRITAIN MANIFESTO
+
+## The Challenge
 
 The rivers trust aims to bring together the people, knowledge, data and intelligence to help rivers thrive again; for us and future generations.
 
-**Services**
+## Services
 
 - User research and analysis
 - User-centred design (UX)
@@ -24,7 +30,7 @@ The rivers trust aims to bring together the people, knowledge, data and intellig
 - Member area
 - Support and maintenance
 
-****“Rivers shape our land­scapes and pro­vide the foun­da­tions of our cities, towns and coun­try­side. When they thrive, so do we.”****
+> “Rivers shape our land­scapes and pro­vide the foun­da­tions of our cities, towns and coun­try­side. When they thrive, so do we.”
 
 - Brand designed by Emperor, RT worked with us to launch it digitally
 - User-centred - Tested with real users from key audiences

@@ -21,7 +21,7 @@ intro: In the many years that our team have been working in the digital
   industry, we’ve found that the projects with the best outcomes are those that
   focus on the sweet spot where audience needs and organisational goals align.
 related_pages: []
-related_posts:
+related_work:
   - building-a-more-sustainable-website-architecture
   - b-corp
 ---

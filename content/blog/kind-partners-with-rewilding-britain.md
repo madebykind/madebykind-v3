@@ -16,7 +16,7 @@ topics: []
 header_class: bg-yellow text-blue
 title: Kind Partners With Rewilding Britain
 hidden: false
-related:
+related_pages:
   - ethical-digital-projects
 ---
 

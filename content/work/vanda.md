@@ -5,8 +5,12 @@ cover_img_alt: Oooh! A banana.
 featured: true
 title: Working with the World’s leading art and design museum
 description: A new website design to build awareness of the charity’s work and gain support from the public.
-services: [Brand, Digital, Strategy]
-topics: [UX,User-centered design]
+services: 
+  - brand
+  - strategy
+topics: 
+  - UX
+  - user-centered design
 icon: va-logo
 ---
 
