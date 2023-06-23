@@ -5,9 +5,9 @@
     <h2 class="h--condensed">Filter by topic</h2>
     {{ partial "section-tags" . }}
   </nav>
-  <ol class="container flex flex-wrap gap-10 section lg:gap-20">
+  <ol class="container grid grid-cols-12 gap-10 section lg:gap-20">
 	  {{ range .Pages }}
-		  <li class="w-full max-w-lg">
+		  <li class="col-span-full lg:col-span-6 xl:col-span-4">
         {{ partial "card_work" . }}
       </li>
     {{ end }}
