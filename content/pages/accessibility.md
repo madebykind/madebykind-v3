@@ -3,7 +3,7 @@ date: 2020-04-24T11:48:46+01:00
 description: Accessiblity is at the heart of everything we do, this page explains our process.
 title: Accessibility Statement
 toc: true
-related:
+related_pages:
   - b-corp
   - kind-partners-with-rewilding-britain
 url: /about/legal/accessibility

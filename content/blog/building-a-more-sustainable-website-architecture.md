@@ -11,7 +11,7 @@ toc: true
 featured: true
 intro: There are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice.
 key_topic: Digital sustainability
-related:
+related_pages:
   - b-corp
   - kind-partners-with-rewilding-britain
 topics: [Environment,Mobile-first design,Digital sustainability]
