@@ -12,9 +12,11 @@
     </div>
 
     {{ with .Params.related_pages }}
-      <aside class="col-span-full lg:col-span-4">
+      <aside class="mt-10 col-span-full lg:col-span-4">
+      <div class="sticky top-10 ">
         <h2 class="font-sans text-sm font-bold">Related</h2>
         {{ partial "related-pages.html" . }}
+      </div>
       </aside>
     {{ end }}
     
