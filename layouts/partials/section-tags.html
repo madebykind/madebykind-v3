@@ -3,7 +3,7 @@
 	{{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
 		<li>
 			<a href="{{ .Page.Permalink }}">
-				{{ .Page.Title }}
+				{{ title .Page.Title }}
 			</a>
 			<sup>{{ .Count }}</sup>
 		</li>
