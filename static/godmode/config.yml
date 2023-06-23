@@ -56,8 +56,8 @@ collections:
             'link',
           ]
         }
-      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: 'title'}
-      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: 'title'}
+      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: "{{slug}}" }
+      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: "{{slug}}" }
         
   - name: 'pages'
     editor:
