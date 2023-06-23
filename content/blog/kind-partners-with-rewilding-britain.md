@@ -9,7 +9,6 @@ header_class:
 intro:
 featured: true
 services: []
-summary: 
 toc: false
 key_topic: Our impact
 topics: []

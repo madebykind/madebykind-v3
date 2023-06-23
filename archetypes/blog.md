@@ -8,7 +8,6 @@ draft: true
 header_class: 
 intro:
 services: []
-summary: 
 toc: false
 topics: []
 title: "{{ replace .TranslationBaseName "-" " " | title }}"

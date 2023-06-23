@@ -3,15 +3,13 @@ author: mat
 cover_img: 
 cover_img_alt:
 date: 2021-06-16T15:20:00+0100
-description: All pages should have a meta description, describing the content of the page
+description: Anyone who has taken on a digital project before knows that, even with the best intentions, things can often go awry. What you're missing is a discovery…
 draft: false
-header_class: 
+header_class: bg-pink text-claret
 featured: true
 intro: Anyone who has taken on a digital project before knows that, even with the best intentions, things can often go awry. Initial excitement slowly fades during the project and the final result can be underwhelming. Wires got crossed somewhere and the final delivery is not quote what you imagined.
 services: []
-summary: Anyone who has taken on a digital project before knows that, even with the best intentions, things can often go awry. What you're missing is a discovery…
 toc: false
-header_class: bg-pink text-claret
 key_topic: Research and analysis
 topics: []
 title: Start Your Next Digital Project With a Paid Discovery Phase
