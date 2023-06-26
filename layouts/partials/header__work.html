@@ -1,0 +1,24 @@
+<header{{ with .Params.header_class }} class="{{ . }}"{{ end }}>
+	<div class="container grid items-center content-end gap-10 md:grid-cols-12 section--lg">
+    {{ with .Params.key_stat }}
+			<div class="col-span-12 md:col-span-4 md:col-start-9 md:row-start-1">
+        <aside class="p-5 bg-bright-green text-buff">
+          {{ range . }}
+            {{ with site.GetPage . }}
+              <h2 class="text-xl h--condensed">{{ .Title }}</h2>
+              <div class="font-sans font-medium">{{ .Content }}</div>
+            {{ end }}
+          {{ end }}
+        </aside>
+			</div>
+		{{ end }}
+    <div class="grid max-w-5xl col-span-12 gap-10 md:col-span-8">
+			<h1>{{ .Page.Title|safeHTML }}</h1>
+      {{ if .Params.intro }}
+        <div class="max-w-4xl prose lede cta_prose">
+          {{ .Params.intro | markdownify }}
+        </div>
+      {{ end }}
+		</div>
+	</div>
+</header>
