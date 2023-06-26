@@ -8,9 +8,9 @@ summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriur
 title: User-centered design
 toc: true
 hidden: false
-related_pages:
-  - b-corp
-  - kind-partners-with-rewilding-britain
+related_work:
+  - chapter
+  - rewilding-britain
 related_posts:
   - building-a-more-sustainable-website-architecture
   - start-your-next-digital-project-with-a-paid-discovery-phase
