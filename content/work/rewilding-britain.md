@@ -7,15 +7,17 @@ description: Engaging and influencing audiences to support rewilding areas of th
 featured: true
 icon: rwb-logo
 intro: Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.
-title: A platform to inspire rewilding projects across the country
+key_stat:
+  - 149-percent
+related_work:
 services:
   - digital
-topics:
-  - user-centered design
-related_work:
   - chapter
   - rivers-trust
   - vanda
+title: A platform to inspire rewilding projects across the country
+topics:
+  - user-centered design
 ---
 ## Services
 
