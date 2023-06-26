@@ -26,6 +26,7 @@ module.exports = {
       buff: '#f1ebe8',
       claret: '#9b0b36',
       green: '#08533c',
+      'bright-green': '#006042',
       indigo: '#084059',
       orange: '#e85625',
       pink: '#ebd6e6',
