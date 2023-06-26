@@ -1,21 +1,33 @@
 {{ define "main" }}
 <article{{ if isset .Params "page_class"}} class="{{ .Params.page_class }}"{{ end }}>
-  
   {{ partial "header__work" . }}
-  
   <div class="container grid gap-10 font-sans font-light prose">
-    <div class="max-w-4xl">
-      {{- .Content -}}
-    </div>
+    {{- .Content -}}
   </div>
+  
+  {{ with .Params.services }}
+    <section class="container mt-10 section">
+      <nav class="flex flex-col gap-5">
+        <h2 class="text-md h--condensed">Services:</h2>
+        <ul class="flex flex-wrap gap-5 font-sans font-medium" role="list">
+          {{ range . }}
+            {{ with site.GetPage . }}
+              <li>
+                <a href="{{ .Permalink }}">{{ title .Title }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </nav>
+    </section>
+  {{ end }}
 
-{{ with .Params.related_work }}
-	<aside class="container section">
-		<h2 class="h--condensed">You may also be interested in</h2>
-		{{ partial "related-work.html" . }}
-	</aside>
-{{ end }}
-
-
+  {{ with .Params.related_work }}
+    <aside class="container section">
+      <h2 class="h--condensed">You may also be interested in</h2>
+      {{ partial "related-work.html" . }}
+    </aside>
+  {{ end }}
+  
 </article>
 {{ end }}
