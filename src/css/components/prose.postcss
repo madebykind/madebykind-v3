@@ -17,18 +17,14 @@
       font-bold font-serif
     ;
   }
-
-  p {
-    @apply
-      mt-10
-    ;
-
-    + * {
+  
+  * + * {
       @apply
         mt-10
       ;
-    }
+  }
 
+  p {
     + p {
       @apply
         mt-15
@@ -46,7 +42,6 @@
       mt-20
     ;
   }
-
 
   pre {
     @apply
