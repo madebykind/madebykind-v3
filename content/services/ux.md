@@ -1,22 +1,28 @@
 ---
-header_class: bg-pink text-claret
-cover_img: images/true-to-who-we-are-v2.png
-cover_img_alt: 
-date: 2020-04-30T17:28:36.948Z
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
-intro: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that helps us to do just that.
-title: User-centered design
-toc: true
-hidden: false
 related_work:
   - chapter
   - rewilding-britain
-related_posts:
-  - building-a-more-sustainable-website-architecture
-  - start-your-next-digital-project-with-a-paid-discovery-phase
+cover_img_alt: null
+header_class: bg-pink text-claret
+toc: true
+hidden: false
+intro: The most successful digital projects are those that put the needs of
+  their users first. User-centred design is an approach that helps us to do just
+  that.
+title: User-centered design
+date: 2020-04-30T17:28:36.948Z
+cover_img: images/true-to-who-we-are-v2.png
+description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
+  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
+  euismod te qui.
 related_pages:
-  - b-corp
-  - kind-partners-with-rewilding-britain
+  - Building a more sustainable website architecture
+  - Kind certifies as a B Corporation
+  - Start Your Next Digital Project With a Paid Discovery Phase
+related_posts:
+  - Start Your Next Digital Project With a Paid Discovery Phase
+  - Creating sustainable and ethical digital products
+  - Kind certifies as a B Corporation
 ---
 
 <section class="grid grid-cols-12 gap-10 mt-20 lg:gap-20 section--lg">
