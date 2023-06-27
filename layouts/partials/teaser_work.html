@@ -5,29 +5,25 @@
         {{ if isset .context.Params "cover_img" }}
           {{ partial "image__teaser-lg" .context }}
         {{ end }}
-
-        {{ with .context.Params.icon }}
-        <div class="absolute bottom-0 p-5 bg-buff">
+        {{ if .context.Params.icon }}
+        <div class="absolute bottom-0 p-5 bg-buff{{ if .odd }} left-0{{ else }} right-0{{ end }}">
           <svg class="w-24 h-24 text-black flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-{{ . }}"/>
+          <use xlink:href="#icon-{{ .context.Params.icon }}"/>
           </svg>
         </div>
         {{ end }}
       </div>
       <div class="relative grid content-center gap-5 p-10 lg:p-20 lg:col-span-1">
         <h3 class="text-xl leading-heading h--condensed" id="{{ .context.Title | urlize }}">{{ .context.Title }}</h3>
-
-{{ with .context.Params.services }}
-	<ul class="flex gap-5 list-none lg:gap-10">
-		{{ range . }}
-			<li class="relative flex items-center">
-        <span class="underline">{{ title . }}</span>
-			</li>
-		{{ end }}
-	</ul>
-{{ end }}
-
-
+        {{ with .context.Params.services }}
+          <ul class="flex gap-5 list-none lg:gap-10">
+            {{ range . }}
+              <li class="relative flex items-center">
+                <span class="underline">{{ title . }}</span>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
         <p class="flex items-center gap-5 justify-apart">
           {{ .context.Summary }}
           <svg class="w-12 h-4 flex-no-shrink" role="presentation">
