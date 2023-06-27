@@ -16,28 +16,36 @@ related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
 ---
 
-Persius fierent percipit pri in. Dolor eligendi oportere vis eu, eos euismod feugait interesset ne. Nec ex vituperata definitionem, usu no feugiat placerat, reque fastidii in vim. Ei cum quis prompta. Ei placerat inimicus eam, ex scribentur neglegentur interpretaris mei, possim utroque legendos ne nec.
+<section class="grid grid-cols-12 gap-10 mt-20 section--lg">
+  <div class="col-span-full md:col-span-6 lg:col-span-8">
+    <h2 class="text-md h--condensed">What is user-centered design?</h2>
+    <h3 class="mt-5 h2">Putting users at the centre of the design process</h3>
+    <div class="mt-10 prose">
+      <p>User-Centred Design works around the principle that a product built around the needs of its users will be more successful and that the only way to deliver this is to fully understand the variety of users and their needs.</p>
+      <p>In its simplest form, a User-Centred Design process consists of identifying the people who will use the end product, their needs and working with them to deliver design solutions to meet those needs.</p>    
+    </div>
+  </div>
+  <div class="col-span-full md:col-span-6 lg:col-span-4">
 
-## dicant detracto an
+  ![Mocks of RWB branding on a laptop](../images/brand-rwb.jpg )
 
-Wisi malis no mei, eum in sonet saperet luptatum. Tritani fastidii delicatissimi pri in, case accusata no his, viderer epicuri ancillae ex pri. Ex ignota denique pro, graeco dictas atomorum vix ex. Usu ex malorum recteque repudiare. Nec singulis consequuntur id, vis percipitur definitiones cu. Et eos oratio melius integre, at usu essent scripta aliquando.
+  </div>
+</section>
 
-Eum odio tollit intellegebat ad, sea ut novum laudem. Lucilius convenire et per, per omnis facer at. Nam an novum congue putent, usu nonumy mucius ea, sed dicant detracto an. Has aeque decore doming et, partem mollis vel ei.
+<section class="grid grid-cols-12 gap-10 mt-20 section--lg">
+  <div class="col-span-full md:col-span-6 lg:col-span-4">
 
-Modo putant ancillae te has. Mei cu officiis menandri. Qui ex eros vero. Doctus insolens explicari id sea, efficiantur complectitur ut sea.
+  ![Mocks of RWB branding on a laptop](../images/brand-rwb.jpg )
 
-Legere scripta concludaturque no has, congue euismod blandit est in. Ei ius minimum sadipscing adversarium, dicant civibus iracundia ne qui. Te vis alii esse interesset. Cum et mutat mundi salutandi, his ea ornatus voluptua referrentur. Perfecto menandri qui ut. Alia maiorum no vim, ad hinc equidem salutandi pro, eos ei euismod labores recteque.
+  </div>
+  <div class="col-span-full md:col-span-6 lg:col-span-8">
+    <h2 class="text-md h--condensed">Process</h2>
+    <h3 class="mt-5 h2">User-Centred Design for Digital Projects</h3>
+    <div class="mt-10 prose">
+      <p>As a term coined in the 1970s, User-Centred Design was originally employed to design physical products that were intuitive to use, but more recently the process has been adopted by digital teams to great effect.</p>
+      <p>Starting by understanding users, their needs and how they align with an organisations objectives, digital UX designers will devise a set of features that a digital product could comprise.</p>
+      <p>These features are then developed iteratively and evaluated with real users as they grow from a rough concept to a completed feature ready to be released into the wild.</p>
+    </div>
+  </div>
 
-Has petentium maluisset prodesset in, et dicam argumentum comprehensam mea. Ea est movet indoctum splendide, eam facer etiam et. Pri utamur sensibus id, ius eu liber choro pericula. Magna doming quaeque ne nam, vim no atomorum indoctum comprehensam. Eu alia invidunt sed, illud soleat dissentiunt eu mel. In sit vocent insolens salutandi.
-
-## Alii ancillae
-
-Quas dictas suscipit est et. Alii ancillae ex duo, cu eum mundi vocent hendrerit. Et nostrud sadipscing has, his ne tota ullum, aliquip democritum vel eu. Ei alterum recusabo gloriatur vim, usu possit ceteros erroribus cu. Equidem propriae eleifend ad cum, vel oblique nostrud deterruisset no. Est solet percipit at. Esse zril ubique id vix.
-
-Ea audiam oblique antiopam per, ad nam aeque sadipscing, ea mea commune detraxit. Te atqui platonem sea. Detracto conceptam ex duo, nec veritus cotidieque no. Ea mazim soluta malorum vel. Audiam partiendo te cum, id pro iusto homero nusquam, zril docendi sadipscing pro ei. Ea mei vitae delenit splendide, urbanitas persequeris ne cum.
-
-## Mutat legere animal
-
-Cu novum nobis persius vim, mel illud inani graeco no, tempor vidisse oportere at per. Nullam tractatos deseruisse vim an. No sea iuvaret consulatu eloquentiam. Malorum dissentiunt vel et. Mutat legere animal an pro, at eum malis dicit audire.
-
-Velit regione euripidis eu mei, semper aperiri no has. Ea maluisset disputando nec. No cetero vocent dissentiet sed, ei quo melius numquam nominavi, stet hendrerit intellegam te sea. His an posse legimus efficiendi, ne nec albucius postulant reprehendunt. Amet impedit scriptorem pri id, pri discere fierent eu.
+</section>

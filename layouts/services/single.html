@@ -3,43 +3,40 @@
 
   {{ partial "header__page" . }}
 
-  <div class="container grid grid-cols-12 gap-10">
-    <div class="col-span-full lg:col-span-8">
-      <div class="font-sans font-light prose">
-        {{- .Content -}}
+  <div class="container">
+
+    {{- .Content -}}
+
+    {{ if .Params.related_work }}
+      <div class="mt-10 lg:mt-20">
+        <h2 class="h3">Our experience</h2>
+        <ul class="flex flex-wrap gap-10 mt-5 lg:gap-20">
+          {{ range .Params.related_work }}
+            {{ with site.GetPage . }}
+              <li class="w-full lg:w-1/3">
+                {{ partial "card_work" . }}
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
       </div>
-    </div>
+    {{ end }}
+
+    {{ if .Params.related_posts }}
+      <div class="mt-10 lg:mt-20">
+        <h2 class="h3">Insights on {{ .Page.Title }}</h2>
+        <ul class="flex flex-wrap gap-10 mt-5 lg:gap-20">
+          {{ range .Params.related_posts }}
+            {{ with site.GetPage . }}
+              <li class="w-full lg:w-1/3">
+                {{ partial "card" . }}
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+
   </div>
-
-  {{ if .Params.related_work }}
-    <div class="container mt-10 lg:mt-20">
-      <h2 class="h3">Our experience</h2>
-      <ul class="flex flex-wrap gap-10 mt-5 lg:gap-20">
-        {{ range .Params.related_work }}
-          {{ with site.GetPage . }}
-            <li class="w-full lg:w-1/3">
-              {{ partial "card_work" . }}
-            </li>
-          {{ end }}
-        {{ end }}
-      </ul>
-    </div>
-  {{ end }}
-
-  {{ if .Params.related_posts }}
-    <div class="container mt-10 lg:mt-20">
-      <h2 class="h3">Insights on {{ .Page.Title }}</h2>
-      <ul class="flex flex-wrap gap-10 mt-5 lg:gap-20">
-        {{ range .Params.related_posts }}
-          {{ with site.GetPage . }}
-            <li class="w-full lg:w-1/3">
-              {{ partial "card" . }}
-            </li>
-          {{ end }}
-        {{ end }}
-      </ul>
-    </div>
-  {{ end }}
-    
 </article>
 {{ end }}
