@@ -31,6 +31,7 @@ collections:
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'], required: false }
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
+      - { label: 'Table of contents', name: 'toc', hint: 'Display links to section headings', widget: 'boolean', default: false, required: false }
       - { label: 'Featured', name: 'featured', hint: 'Featured posts display as a large card on the blog listing', widget: 'boolean', default: false, required: false }
       - { label: 'Summary', hint: 'This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false, hidden: true }
       - { label: 'Key Topic', name: 'key_topic', widget: 'string', required: false }
