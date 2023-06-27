@@ -14,15 +14,18 @@ related_work:
 related_posts:
   - building-a-more-sustainable-website-architecture
   - start-your-next-digital-project-with-a-paid-discovery-phase
+related_pages:
+  - b-corp
+  - kind-partners-with-rewilding-britain
 ---
 
 <section class="grid grid-cols-12 gap-10 mt-20 lg:gap-20 section--lg">
   <div class="col-span-full md:col-span-6 lg:col-span-7">
     <h2 class="text-md h--condensed">What is user-centered design?</h2>
     <h3 class="mt-5 h2">Putting users at the centre of the design process</h3>
-    <div class="mt-10 prose">
+    <div class="mt-10 font-sans font-light prose">
       <p>User-Centred Design works around the principle that a product built around the needs of its users will be more successful and that the only way to deliver this is to fully understand the variety of users and their needs.</p>
-      <p>In its simplest form, a User-Centred Design process consists of identifying the people who will use the end product, their needs and working with them to deliver design solutions to meet those needs.</p>    
+      <p>In its simplest form, a User-Centred Design process consists of identifying the people who will use the end product, their needs and working with them to deliver design solutions to meet those needs.</p>
     </div>
   </div>
   <div class="col-span-full md:col-span-6 lg:col-span-5">
@@ -41,11 +44,35 @@ related_posts:
   <div class="col-span-full md:col-span-6 lg:col-span-7">
     <h2 class="text-md h--condensed">Process</h2>
     <h3 class="mt-5 h2">User-Centred Design for Digital Projects</h3>
-    <div class="mt-10 prose">
+    <div class="mt-10 font-sans font-light prose">
       <p>As a term coined in the 1970s, User-Centred Design was originally employed to design physical products that were intuitive to use, but more recently the process has been adopted by digital teams to great effect.</p>
       <p>Starting by understanding users, their needs and how they align with an organisations objectives, digital UX designers will devise a set of features that a digital product could comprise.</p>
       <p>These features are then developed iteratively and evaluated with real users as they grow from a rough concept to a completed feature ready to be released into the wild.</p>
     </div>
+    <h4 class="mt-10">Examples of user-centred digital products</h4>
+    <ul>
+      <li class="mt-5">
+        <a class="flex justify-between gap-5 py-2.5 leading-tight font-serif" href="https://airbnb.com">Airbnb
+          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+      </li>
+      <li class="mt-5">
+        <a class="flex justify-between gap-5 py-2.5 leading-tight font-serif" href="https://uber.com">Uber
+          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+      </li>
+      <li class="mt-5">
+        <a class="flex justify-between gap-5 py-2.5 leading-tight font-serif" href="https://gov.uk">Gov.uk
+          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
   </div>
 </section>
 <section class="section--lg">
