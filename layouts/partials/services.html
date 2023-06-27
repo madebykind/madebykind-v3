@@ -5,14 +5,14 @@
     {{ range (where (where site.RegularPages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
       <li>
         <article class="flex flex-col justify-end h-full overflow-hidden">
-          <a aria-labelledby="{{ .Title | urlize }}" class="relative flex flex-col flex-grow h-screen overflow-hidden no-underline group text-currentColor" href="{{ .Permalink }}">
+          <a aria-labelledby="{{ .Title | anchorize }}" class="relative flex flex-col flex-grow h-screen overflow-hidden no-underline group text-currentColor" href="{{ .Permalink }}">
             {{ if isset .Params "cover_img" }}
               <div class="h-full">
                 {{ partial "image__service" . }}
               </div>
             {{ end }}
             <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 xl:p-16 transition duration-200 translate-y-full group-hover:translate-y-0 group-focus:translate-y-0 z-10">
-            <h3 class="text-xl h--condensed" id="{{ .Title | urlize }}">{{ .Title }}</h3>
+            <h3 class="text-xl h--condensed" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
             </div>
             <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 xl:px-16 relative">
               <div class="flex gap-5 transition duration-500 opacity-0 group-hover:opacity-100 group-focus:opacity-100">

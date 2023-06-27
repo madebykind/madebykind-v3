@@ -1,12 +1,12 @@
 <article class="flex flex-wrap">
   {{ if isset .Params "cover_img" }}
-  <a class="w-full md:w-1/2" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+  <a class="w-full md:w-1/2" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
     {{ partial "image__card" . }}
   </a>
   {{ end }}
   <div class="flex flex-wrap items-center justify-center w-full p-8 md:w-1/2">
     <div class="f">
-      <h2 class="mt-4 h4" id="{{ .Title | urlize }}">
+      <h2 class="mt-4 h4" id="{{ .Title | anchorize }}">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
       </h2>
       <footer class="mt-2 text-xs font-bold tracking-wider uppercase">

@@ -1,5 +1,5 @@
 <article class="h-full">
-  <a class="no-underline group" aria-labelledby="{{ .Title | urlize }}" href="{{ .Permalink }}">
+  <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
     <div class="relative">
       {{ if isset .Params "cover_img" }}
         {{ partial "image__card" . }}
@@ -15,7 +15,7 @@
     </div>
 
       <div class="grid content-center gap-8 py-5">
-        <h2 class="h--condensed group-hover:underline" id="{{ .Title | urlize }}">{{ .Title }}</h2>
+        <h2 class="h--condensed group-hover:underline" id="{{ .Title | anchorize }}">{{ .Title }}</h2>
         {{ with .Params.services }}
           <ul class="flex gap-5 list-none lg:gap-10">
             {{ range . }}

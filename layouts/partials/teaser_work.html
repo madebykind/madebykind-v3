@@ -1,5 +1,5 @@
 <article class="{{ .context.Params.block_class }}">
-  <a aria-labelledby="{{ .context.Title | urlize }}" class="no-underline group" href="{{ .context.Permalink }}">
+  <a aria-labelledby="{{ .context.Title | anchorize }}" class="no-underline group" href="{{ .context.Permalink }}">
     <div class="container grid lg:grid-cols-2">
       <div class="relative lg:col-span-1{{ if .odd }} lg:order-1{{ end }}">
         {{ if isset .context.Params "cover_img" }}
@@ -14,7 +14,7 @@
         {{ end }}
       </div>
       <div class="relative grid content-center gap-5 p-10 lg:p-20 lg:col-span-1">
-        <h3 class="text-xl leading-heading h--condensed" id="{{ .context.Title | urlize }}">{{ .context.Title }}</h3>
+        <h3 class="text-xl leading-heading h--condensed" id="{{ .context.Title | anchorize }}">{{ .context.Title }}</h3>
         {{ with .context.Params.services }}
           <ul class="flex gap-5 list-none lg:gap-10">
             {{ range . }}
