@@ -47,5 +47,31 @@ related_posts:
       <p>These features are then developed iteratively and evaluated with real users as they grow from a rough concept to a completed feature ready to be released into the wild.</p>
     </div>
   </div>
-
+</section>
+<section class="section--lg">
+  <h2 class="text-md h--condensed">Benefits of user-centered design</h2>
+  <div class="grid grid-cols-12 gap-10 mt-10 lg:gap-20">
+    <div class="col-span-full md:col-span-6">
+      <h3 class="h2">Understand and engage your users</h3>
+      <div class="font-sans font-light prose">
+      <p>One of the key benefits of involving the end users of a product in the design process is that the design team will inherit an understanding of an organisation’s audience that can be transferred to future deliveries.</p>
+      </div>
+    </div>
+    <div class="col-span-full md:col-span-6">
+      <h3 class="h2">Avoid costly mistakes</h3>
+      <div class="font-sans font-light prose">
+        <p>Delivering features to meet validated user needs reduces the likelihood of doing the wrong thing and involving users at all stages of the design process means that the delivery team stays focussed and on track throughout. Any deviation is quickly corrected, through user testing, before large amounts of the project budget is wasted.</p>
+      </div>
+    </div>
+    <div class="col-span-full md:col-span-6">
+      <h3 class="h2">Deliver positive experiences</h3>
+      <div class="font-sans font-light prose">
+      <p>Users are more engaged in a product that they intuitively feel is built for them and that will only reflect positively on the organisation that releases it. This dedication to deliver for users leads to brand loyalty and a clear improvement in a brand’s reputation.</p>
+      </div>
+    </div>
+    <div class="col-span-full md:col-span-6">
+    
+![Mocks of RWB branding on a laptop](../images/empowering-change.png )
+    </div>
+  </div>
 </section>

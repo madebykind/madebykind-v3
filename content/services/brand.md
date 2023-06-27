@@ -11,4 +11,4 @@ weight: 2
 hidden: false
 ---
 
-Fast, secure and without errors. With built in RSS feeds and automatically updated site maps, our sites get indexed quickly and keep us on top.
+Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
