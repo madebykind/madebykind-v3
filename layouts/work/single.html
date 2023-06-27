@@ -1,6 +1,16 @@
 {{ define "main" }}
 <article{{ if isset .Params "page_class"}} class="{{ .Params.page_class }}"{{ end }}>
   {{ partial "header__work" . }}
+
+  {{ if .Params.feature_heading }}
+    <section class="bg-blue text-sky">
+      <div class="container section--lg">
+        <h2 class="h--condensed">{{ .Params.feature_heading }}</h2>
+        <div class="max-w-6xl mt-10 lede">{{ .Params.feature_content }}</div>
+      </div>
+    </section>
+  {{ end }}
+
   <div class="container grid gap-10 font-sans font-light prose">
     {{- .Content -}}
   </div>

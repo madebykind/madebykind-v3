@@ -19,11 +19,11 @@ services:
 title: A platform to inspire rewilding projects across the country
 topics:
   - user-centered design
+feature_heading: Our partnership
+feature_content: One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
 ---
 
 > “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
-
-One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
 
 ![Mocks of RWB branding on a laptop](../images/brand-rwb.jpg "An example of the work we did.")
 
