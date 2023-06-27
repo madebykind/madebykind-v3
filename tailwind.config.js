@@ -36,6 +36,9 @@ module.exports = {
       yellow: '#fdb515',
     },
     extend: {
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
       borderWidth: {
         3: '3px',
       },
