@@ -4,7 +4,7 @@ cover_img: images/true-to-who-we-are-v2.png
 cover_img_alt: 
 date: 2020-04-30T17:28:36.948Z
 description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
-summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+intro: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that helps us to do just that.
 title: User-centered design
 toc: true
 hidden: false
@@ -16,8 +16,8 @@ related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
 ---
 
-<section class="grid grid-cols-12 gap-10 mt-20 section--lg">
-  <div class="col-span-full md:col-span-6 lg:col-span-8">
+<section class="grid grid-cols-12 gap-10 mt-20 lg:gap-20 section--lg">
+  <div class="col-span-full md:col-span-6 lg:col-span-7">
     <h2 class="text-md h--condensed">What is user-centered design?</h2>
     <h3 class="mt-5 h2">Putting users at the centre of the design process</h3>
     <div class="mt-10 prose">
@@ -25,20 +25,20 @@ related_posts:
       <p>In its simplest form, a User-Centred Design process consists of identifying the people who will use the end product, their needs and working with them to deliver design solutions to meet those needs.</p>    
     </div>
   </div>
-  <div class="col-span-full md:col-span-6 lg:col-span-4">
+  <div class="col-span-full md:col-span-6 lg:col-span-5">
 
   ![Mocks of RWB branding on a laptop](../images/brand-rwb.jpg )
 
   </div>
 </section>
 
-<section class="grid grid-cols-12 gap-10 mt-20 section--lg">
-  <div class="col-span-full md:col-span-6 lg:col-span-4">
+<section class="grid grid-cols-12 gap-10 mt-20 lg:gap-20 section--lg">
+  <div class="col-span-full md:col-span-6 lg:col-span-5">
 
   ![Mocks of RWB branding on a laptop](../images/brand-rwb.jpg )
 
   </div>
-  <div class="col-span-full md:col-span-6 lg:col-span-8">
+  <div class="col-span-full md:col-span-6 lg:col-span-7">
     <h2 class="text-md h--condensed">Process</h2>
     <h3 class="mt-5 h2">User-Centred Design for Digital Projects</h3>
     <div class="mt-10 prose">
