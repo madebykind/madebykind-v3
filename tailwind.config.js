@@ -44,6 +44,9 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         serif: ['Marselis', ...defaultTheme.fontFamily.serif],
       },
+      height: {
+        '2px': '2px',
+      },
       lineHeight: {
         'heading': '0.8',
       },

@@ -5,9 +5,9 @@
       <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:justify-between" role="list">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li class="relative {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} flex before:text-orange items-center before:flex before:content-['•'] before:absolute before:-left-1 {{ end }}">
-          <a class="{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}text-blue {{ end }} btn after:h-1 after:w-full after:opacity-0 hover:after:opacity-100 focus:after:opacity-100 after:absolute after:bg-orange after:left-0 after:bottom-0" {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page" {{ end }} href="{{ .URL }}">
-            {{- .Name -}}
+        <li class="{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} flex before:text-orange items-center before:flex before:content-['•'] before:absolute before:-left-1 {{ end }}">
+          <a class="{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}text-blue {{ end }} btn group" {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page" {{ end }} href="{{ .URL }}">
+            <span class="relative inline-flex after:h-2px after:w-full after:opacity-0 group-hover:after:opacity-100 group-focus:after:opacity-100 after:absolute after:bg-orange after:left-0 after:-bottom-1">{{- .Name -}}</span>
           </a>
         </li>
         {{ end }}
