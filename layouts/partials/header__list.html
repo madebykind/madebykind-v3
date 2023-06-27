@@ -7,7 +7,7 @@
           {{ .Content }}
         </div>
         {{ if isset .Params "cta" }}
-          <div class="flex gap-5">
+          <div class="flex flex-wrap gap-5">
               <a class="btn btn--primary" href="{{ .Params.ctaLink }}">
                 {{ title .Params.Cta }}
                 <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
