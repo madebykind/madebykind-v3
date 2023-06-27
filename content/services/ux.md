@@ -2,13 +2,11 @@
 related_work:
   - chapter
   - rewilding-britain
-cover_img_alt: null
+cover_img_alt: Alt text cannot be blank
 header_class: bg-pink text-claret
 toc: true
 hidden: false
-intro: The most successful digital projects are those that put the needs of
-  their users first. User-centred design is an approach that helps us to do just
-  that.
+intro: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that helps us to do just that.
 title: User-centered design
 date: 2020-04-30T17:28:36.948Z
 cover_img: images/true-to-who-we-are-v2.png
