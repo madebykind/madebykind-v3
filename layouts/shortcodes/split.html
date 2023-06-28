@@ -1,0 +1,25 @@
+<!-- 
+{{/* 
+
+Usage:
+
+{{< split heading="the heading of this section" >}}
+
+![](/uploads/split-image.jpg)
+
+## What is user-centered design?
+
+### Putting users at the centre of the design process
+
+Markdown is intended to be as easy-to-read and easy-to-write as is feasible.Readability, however, is emphasized above all else.
+
+{{< /split >}}
+    
+*/}}
+-->
+
+{{ if .Get "heading" }}
+<section id="#{{ .Get "heading" | anchorize }}">
+  {{- partial "split.html" .Inner -}}
+</section>
+{{ end }}
