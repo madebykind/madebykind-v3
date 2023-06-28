@@ -1,7 +1,7 @@
 <a class="h-full no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
   <article class="grid gap-5">
     <div class="{{ with .Params.header_class }}{{ . }} {{ end }}{{ with .Params.cover_img }}text-buff after:bg-black after:block after:inset-0 after:absolute after:h-full after:w-full after:opacity-50 {{ end }}relative aspect-4/3">
-      {{ if isset .Params "cover_img" }}
+      {{ with .Params.cover_img }}
         {{ partial "image__card" . }}
       {{ end }}
       <div class="absolute z-10 grid content-center gap-5 lg:gap-10 inset-5 lg:inset-10">
