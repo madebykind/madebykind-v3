@@ -1,5 +1,10 @@
 ---
-topics: []
+topics:
+  - Research and analysis
+  - User-centred Design
+  - Mobile-first Design
+  - CMS integration
+  - CRM integration
 related_work:
   - chapter
   - rivers-trust
@@ -28,7 +33,6 @@ description: Engaging and influencing audiences to support rewilding areas of
 feature_heading: Our partnership
 services:
   - digital
-  - brand
   - strategy
 ---
 > “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
