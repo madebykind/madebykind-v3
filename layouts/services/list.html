@@ -1,6 +1,11 @@
 {{ define "main" }}
 <section>
   {{ partial "header__list.html" . }}
+
+  <div class="container section">
+    {{ .Content }}
+  </div>
+  
   <ul class="section">
     {{ range .Pages }}
     <li>
