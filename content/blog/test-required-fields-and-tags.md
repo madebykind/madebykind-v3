@@ -8,8 +8,8 @@ tags:
   - Foo
   - Bar
   - Baz
+cover_img: images/hand-3.png
 ---
-
 Main content goes here.
 
 This is an example of how to use the blockquote shortcode
@@ -17,3 +17,5 @@ This is an example of how to use the blockquote shortcode
 {{< blockquote author="Tim Berners-Lee" cite="www.brainyquote.com/citation/quotes/tim_bernerslee_444486" role="Computer Scientist" >}}
 The Semantic Web isn't inherently complex. The Semantic Web language, at its heart, is very, very simple. It's just about the relationships between things.
 {{</ blockquote >}}
+
+![alt text is required](images/digital.jpg)
