@@ -1,7 +1,5 @@
 ---
-title: "Bringing a brand to life digitally for a charity that brings together
-  thousands of people who share a common belief – that organic growing is
-  essential for a healthy and sustainable world. "
+title: Growing organically for a healthy and sustainable world
 draft: false
 date: 2023-06-28T12:58:42.437Z
 cover_img: images/work-garden-organic-laptop-3.jpg
