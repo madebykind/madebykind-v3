@@ -5,9 +5,6 @@
 /* Include Tailwind reset and base styles */
 @import 'tailwindcss/base';
 
-/* Include Tailwind default components */
-@import 'tailwindcss/components';
-
 /* Elements */
 @import 'elements/address.postcss';
 @import 'elements/anchor.postcss';
@@ -39,6 +36,9 @@
 @import 'components/prose.postcss';
 @import 'components/section.postcss';
 @import 'components/typography.postcss';
+
+/* Include Tailwind default components */
+@import 'tailwindcss/components';
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
