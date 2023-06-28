@@ -48,5 +48,5 @@ Rewilding Britain needed to build a strong network of rewilding projects and loc
 ![Another phone](images/work-rewilding-britain-phone.jpg)
 
 {{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" >}}
-We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision. They listened and collaborated with us while bringing extensive expertise and professionalism to the project - and we couldn’t be happier with the results. Our new website is magnificent - and will enable and inspire many more people to get involved in rewilding.
+We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
 {{</ blockquote >}}
