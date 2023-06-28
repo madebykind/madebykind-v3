@@ -1,18 +1,24 @@
 ---
-block_class: bg-teal text-blue
-cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle arrange it all with sticky notes on a wall.
+topics:
+  - Brand strategy
+  - Brand identity
+  - Research and analysis
+  - User-centred Design
+  - Mobile-first Design
+  - CMS integration
+  - Ticketing journey
+block_class: bg-teal text-blue
 featured: true
-icon: chapter-logo
+date: 2023-06-28T12:25:28.863Z
 external_link: https://chapter.org.uk
-services: 
+title: Rebranding an international arts centre
+icon: chapter-logo
+cover_img: images/strategy-notes.jpg
+description: Pam and Michelle arrange it all with sticky notes on a wall.
+services:
   - brand
   - digital
-title: Rebranding an international arts centre
-topics: 
-  - UX
-  - CMS Integration
-  - User-centered design
 ---
 
 - Brand strategy - Manifesto, Tone of Voice and Values

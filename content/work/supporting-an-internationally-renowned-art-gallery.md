@@ -15,12 +15,10 @@ services:
   - brand
   - digital
 topics:
-  - User research and analysis
-  - User-centred design
-  - Mobile-first design
-  - Front-end development
+  - Brand identity
+  - User-centred Design
+  - Mobile-first Design
   - CMS integration
-  - Member area
 ---
 > “Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.”
 

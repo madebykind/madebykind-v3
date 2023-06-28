@@ -1,8 +1,15 @@
 ---
 cover_img_alt: A man and woman looking at a laptop screen together
 topics:
-  - UX
-  - user-centered design
+  - Brand identity
+  - Research and analysis
+  - Technical consultancy
+  - User-centred Design
+  - Mobile-first Design
+  - Design Systems
+  - CMS integration
+  - CRM integration
+  - Digital archives
 block_class: bg-blue text-sky
 featured: true
 title: Working with the World’s leading art and design museum
@@ -14,6 +21,7 @@ description: A new website design to build awareness of the charity’s work and
 services:
   - brand
   - strategy
+  - digital
 ---
 
 Lorem ipsum dolor sit amet, purto altera adipisci ei pro, ex mea amet admodum tincidunt. Te adhuc quidam facilis duo, mel ne nobis delectus, id persius prompta vituperatoribus eum. 
