@@ -24,23 +24,23 @@ topics:
 ---
 > “Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.”
 
-![Interior of Backlit Gallery with Logo overlayed](images/work-backlit-header.jpg)
+![Interior of Backlit Gallery with Logo overlayed](../images/work-backlit-header.jpg)
 
 ## User-centred website
 
 Backlit required an artistic design to reflect their personality, their historical building, the programme and their commitment to community engagement, ensuring their message of a safe-space for all translates to their audience.
 
-![Mockups of the Backlit Gallery website on multiple tablet devices](images/work-backlit-ipad-pages.jpg)
+![Mockups of the Backlit Gallery website on multiple tablet devices](../images/work-backlit-ipad-pages.jpg)
 
 
 ## Income generation opportunities
 
 Backlit is more than a gallery and is home to local artists to develop their skills. They hire out event space and sell studio memberships to enable them to fund the gallery. This was important to make clear on the new site to help them continue to run the organisation and guarantee the funding they need.
 
-![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](images/work-backlit-kind-team.jpg)
+![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](../images/work-backlit-kind-team.jpg)
 
 ## Historic Archive
 
 Backlit and Kind have an established partnership. Before their website redesign project, we worked collaboratively to build the Samuel Morley Archive, an interactive and immersive online exhibition.
 
-![Backlit Gallery archive page on a tablet screen](images/work-backlit-ipad-archives-2.jpg)
+![Backlit Gallery archive page on a tablet screen](../images/work-backlit-ipad-archives-2.jpg)

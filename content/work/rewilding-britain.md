@@ -33,19 +33,19 @@ services:
 ---
 > “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
 
-![Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white](images/work-rewilding-britain-header.jpg)
+![Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white](../images/work-rewilding-britain-header.jpg)
 
 One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support. 
 
-![Over the shoulder view of a laptop with Rewilding Britain donation page on screen. ](images/work-rewilding-britain-laptop-mat-jess.jpg)
+![Over the shoulder view of a laptop with Rewilding Britain donation page on screen. ](../images/work-rewilding-britain-laptop-mat-jess.jpg)
 
 Through user needs testing, UX, and UI design we were able to develop a website that gave very different groups access to all of the information they needed to support and engage with the cause. Resulting in an increase of 149% in donations in the first six months from launch.
 
-![A phone with Rewilding Britain website on it. ](images/work-rewilding-britain-phone-2.jpg)
+![A phone with Rewilding Britain website on it. ](../images/work-rewilding-britain-phone-2.jpg)
 
 Rewilding Britain needed to build a strong network of rewilding projects and local organisations. To enable them to start conversations with these audiences, we created a ‘Networks’ area to enable information to be easily shared and for projects to prosper. Over 200 rewilding projects have signed up for this service.
 
-![Another phone](images/work-rewilding-britain-phone.jpg)
+![Another phone](../images/work-rewilding-britain-phone.jpg)
 
 {{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" >}}
 We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision. They listened and collaborated with us while bringing extensive expertise and professionalism to the project - and we couldn’t be happier with the results. Our new website is magnificent - and will enable and inspire many more people to get involved in rewilding.
