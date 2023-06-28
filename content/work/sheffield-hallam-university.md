@@ -10,7 +10,6 @@ intro: "Sheffield Hallam University is one of the UK’s largest and most divers
   guaranteed work experience on their degree courses. Sheffield Hallam wanted to
   stand out in the busy landscape of Higher Education as an education provider
   who add real long-term value to their students. "
-key_stat: 149-percent
 description: Sheffield Hallam University is one of the UK’s largest and most
   diverse universities
 feature_heading: Our partnership

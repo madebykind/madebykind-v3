@@ -2,6 +2,7 @@
 title: Growing organically for a healthy and sustainable world
 draft: false
 date: 2023-06-28T12:58:42.437Z
+key_stat:
 cover_img: images/work-garden-organic-laptop-3.jpg
 cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
 intro: Organic gardening can boost the environment and sustainability, and

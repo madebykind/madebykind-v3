@@ -15,6 +15,7 @@ external_link: https://chapter.org.uk
 title: Rebranding an international arts centre
 icon: chapter-logo
 cover_img: images/strategy-notes.jpg
+key_stat:
 description: Pam and Michelle arrange it all with sticky notes on a wall.
 services:
   - brand

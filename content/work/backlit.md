@@ -11,6 +11,7 @@ intro: Backlit is a home to over 120 artists, collectives, and associate
   creat­ives at all stages of life to develop.
 description: Find out how Kind have helped Backlit Gallery
 summary: ""
+key_stat:
 services:
   - brand
   - digital

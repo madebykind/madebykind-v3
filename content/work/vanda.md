@@ -15,7 +15,7 @@ featured: true
 title: Working with the world’s leading art and design museum
 date: 2023-06-28T11:49:55.811Z
 cover_img: images/mansplaining.jpg
-key_stat: 149-percent
+key_stat:
 icon: va-logo
 description: A new website design to build awareness of the charity’s work and
   gain support from the public.

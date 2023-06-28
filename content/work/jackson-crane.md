@@ -2,13 +2,14 @@
 title: Bringing focus to a sustainable architecture and interior design practice
 draft: false
 date: 2023-06-28T13:51:18.140Z
+key_stat:
 cover_img: images/work-jackson-crane-biophillic-house.jpg
 cover_img_alt: Rendered image of a biophilic house
 intro: Jackson-Crane Architects we founded by David Jackson-Crane in 2017, as a
   small practice he needed help to take his big ideas for his company and
   fashion them into a strategic plan which would help support stability and then
   growth over the next 5 years.
-key_stat: 149-percent
+key_stat:
 description: Bringing focus to a sustainable architecture and interior design practice.
 summary: ""
 services:

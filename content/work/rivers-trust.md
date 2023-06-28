@@ -5,7 +5,7 @@ cover_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 cover_img_alt: A river in the Scottish Higlands
 intro: The Rivers Trust aims to bring together the people, knowledge, data and
   intelligence to help rivers thrive again; for us and future generations.
-key_stat: 149-percent
+key_stat:
 topics:
   - User-centred Design
   - Mobile-first Design
