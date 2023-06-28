@@ -3,8 +3,8 @@
 
 {{ if gt $pag.TotalPages 1 }}
 
-<nav>
-  <ol class="flex items-center gap-5 list-none" role="list">
+<nav class="container">
+  <ol class="flex items-center gap-5 font-sans font-bold list-none" role="list">
     <li>
       {{ if .Paginator.HasPrev }}
         <a href="{{ .Paginator.Prev.URL | absURL }}">
