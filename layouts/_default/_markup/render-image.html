@@ -12,6 +12,7 @@
   {{- $md := $lg.Resize "768x" -}}
   {{- $sm := $md.Resize "320x" -}}
 
+  {{ if $.Text }}
   <figure class="my-10">
     <img
       alt="{{ $.Text }}"
@@ -30,20 +31,7 @@
     >
     <figcaption class="italic">{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
   </figure>
-{{- else -}}
-{{/*
-  <img
-    src="{{ .Destination | safeURL }}"
-    alt="{{ $.Text }}"
-    srcset="
-      {{ $sm.RelPermalink }} 320w,
-      {{ $md.RelPermalink }} 768w,
-      {{ $lg.RelPermalink }} 1200w,
-      {{ $xl.RelPermalink }} 1600w,
-      {{ $2xl.RelPermalink }} 1920w"
-    height="{{ $img.Height }}"
-    sizes="100vw"
-    width="{{ $img.Width }}"
-  >
-*/}}
+  {{ else }}
+<code class="text-claret">You can't insert images without alt text!</code>
+  {{ end }}
 {{- end -}}
