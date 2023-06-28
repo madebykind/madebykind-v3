@@ -3,8 +3,8 @@ topics: []
 related_work:
   - chapter
   - rivers-trust
-cover_img_alt: Rewilding Britain donate page on a laptop screen. The laptop is
-  on a table by a window. There is a plant in the background.
+cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
+  mobile is on the ground in the woods
 block_class: bg-pink text-claret
 intro: Rewilding Britain are the first and only country-wide organisation in
   Britain focusing on rewilding – acting as a catalyst for debate and action,
@@ -22,7 +22,7 @@ key_stat:
   - 149-percent
 title: A platform to inspire rewilding projects across the country
 icon: rwb-logo
-cover_img: images/brand-rwb.jpg
+cover_img: images/work-rewilding-britain-phone-4.jpg
 description: Engaging and influencing audiences to support rewilding areas of
   the country for the good of the environment
 feature_heading: Our partnership
