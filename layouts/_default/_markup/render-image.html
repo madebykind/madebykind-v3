@@ -4,8 +4,8 @@
 {{ $path := path.Join .Page.File.Dir .Destination }}
 {{- $img = resources.Get $path -}}
 {{- end -}}
-{{- with $img -}}
 
+{{- with $img -}}
   {{- $2xl := $img.Resize "1920x jpg" -}}
   {{- $xl := $2xl.Resize "1600x" -}}
   {{- $lg := $xl.Resize "1200x" -}}
