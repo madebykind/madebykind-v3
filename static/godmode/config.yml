@@ -64,8 +64,9 @@ collections:
     editor:
       preview: false
     label: 'Pages'
+    label_singular: 'Page'
     folder: 'content/pages'
-    create: false
+    create: true
     delete: false
     filter:  
       field: 'hidden' 
