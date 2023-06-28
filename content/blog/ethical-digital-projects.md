@@ -59,6 +59,10 @@ This is all a very considerate way to think about our work, but can it work in a
 
 When we attended the 1% for the Planet European Summit in 2018, one phrase stood out and has stuck with me ever since:
 
+{{< blockquote author="Nicholas Bornstein" role="Founder, Protect our Winters EU" >}}
+Progress over perfection
+{{</ blockquote >}}
+
 We’re not going to be able to know all consequences to all groups and all environments, ever, and to even get to a point where we feel like we’re doing enough to consider others will take time. We just have to make a start or risk going nowhere.
 
 At Kind, we’ve already started. For our own website project we made many considerations about impact, but the decision we made to not track individual users is the stand out one for me.
