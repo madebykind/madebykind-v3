@@ -1,7 +1,4 @@
 ---
-related_work:
-  - chapter
-  - rewilding-britain
 cover_img_alt: Alt text cannot be blank
 header_class: bg-pink text-claret
 toc: true
@@ -10,17 +7,15 @@ intro: The most successful digital projects are those that put the needs of thei
 title: User-centered design
 date: 2020-04-30T17:28:36.948Z
 cover_img: images/true-to-who-we-are-v2.png
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
-  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
+description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
   euismod te qui.
-related_pages:
-  - Building a more sustainable website architecture
-  - Kind certifies as a B Corporation
-  - Start Your Next Digital Project With a Paid Discovery Phase
+related_work:
+  - rewilding-britain
+  - rivers-trust
 related_posts:
-  - Start Your Next Digital Project With a Paid Discovery Phase
-  - Creating sustainable and ethical digital products
-  - Kind certifies as a B Corporation
+  - start-your-next-digital-project-with-a-paid-discovery-phase
+  - ethical-digital-projects
+  - b-corp
 ---
 
 <section class="grid grid-cols-12 gap-10 mt-20 lg:gap-20 section--lg">
