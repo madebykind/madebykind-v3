@@ -28,7 +28,7 @@ We have long-term, successful digital partnerships that focus on meeting user ne
 
 We start by understanding why your brief is important and how it supports the overall strategy of your organisation. This not only involves reading strategy documents but also talking directly to key stakeholders about how they are implementing strategy and how our work will help them to do that better. It's this clear view of what matters to the wider organisation that helps us to maintain successful relationships and deliver digital work that is well-received and supported by everyone.
 
-[Strategic consultancy](https://madebykind.com/strategy)
+[Strategic consultancy](/services/strategy)
 
 ## Assessing user needs
 
@@ -38,7 +38,7 @@ We do this together, identifying the various audience groups and theorise about 
 
 These theories about users are then translated into "user stories" - a short description of what a user wants to achieve and why, written from their point of view, before being validated through user testing and interviews.
 
-[Start your next digital project with a paid discovery phase](https://madebykind.com/blog/start-your-next-digital-project-with-a-paid-discovery-phase)
+[Start your next digital project with a paid discovery phase](/blog/start-your-next-digital-project-with-a-paid-discovery-phase)
 
 ## Identify focal points
 
@@ -46,7 +46,7 @@ As we already understand our clients’ strategy and goals, we can identify and 
 
 Even better, we can locate the “sweet spot”, where prevalent user stories align with the organisation’s goals, and plan to focus the majority of our future effort there. We decide on the minimum group of user stories to deliver and begin to plan the features that will meet them.
 
-[Finding the common ground between your organisation and its audience](https://madebykind.com/blog/finding-the-common-ground-between-your-organisation-and-its-audience)
+[Finding the common ground between your organisation and its audience](/blog/finding-the-common-ground-between-your-organisation-and-its-audience)
 
 ## User-centred design process
 
