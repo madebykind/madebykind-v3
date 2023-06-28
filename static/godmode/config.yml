@@ -203,6 +203,7 @@ collections:
       - { label: 'Image', name: 'cover_img', widget: 'image', required: false, choose_url: false }
       - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
       - { label: 'Introduction', name: 'intro', widget: 'string', hint: 'This is large subtext that appears in the page header. It’s optional.', required: false }
+      - { label: 'Key stat', hint: 'This is the headline statistic shown on the page header.', name: 'key_stat', widget: 'relation', collection: 'stats', searchFields: ['title'], multiple: false, valueField: '{{slug}}'}
       - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - { label: 'Summary', hint: 'This text shown on listing pages, possibly elsewhere! ¯\_(ツ)_/¯', name: 'summary', widget: 'string', required: false, hidden: true }
       - { label: 'Feature heading', name: 'feature_heading', widget: 'string', hint: 'This is heading of the big blue box.', required: false }
