@@ -10,7 +10,6 @@
   {{- $md := $lg.Resize "768x" -}}
   {{- $sm := $md.Resize "320x" -}}
   {{- if $.Text -}}
-  <figure>
     <img
       alt="{{ $.Text }}"
       class="object-fit"
@@ -25,8 +24,6 @@
         {{ $2xl.RelPermalink }} 1920w"
       width="{{ $img.Width }}"
     >
-    <figcaption class="italic">{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
-  </figure>
   {{- else -}}
     <code class="text-claret">You can’t insert images without alt text! Do not use placeholder alt text!</code>
   {{- end -}}
