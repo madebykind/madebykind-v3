@@ -1,19 +1,16 @@
-
 {{- $img := .Page.Resources.GetMatch .Destination -}}
 {{- if and (not $img) .Page.File -}}
-{{ $path := path.Join .Page.File.Dir .Destination }}
+{{- $path := path.Join .Page.File.Dir .Destination -}}
 {{- $img = resources.Get $path -}}
 {{- end -}}
-
 {{- with $img -}}
   {{- $2xl := $img.Resize "1920x jpg" -}}
   {{- $xl := $2xl.Resize "1600x" -}}
   {{- $lg := $xl.Resize "1200x" -}}
   {{- $md := $lg.Resize "768x" -}}
   {{- $sm := $md.Resize "320x" -}}
-
-  {{ if $.Text }}
-  <figure class="my-10">
+  {{- if $.Text -}}
+  <figure>
     <img
       alt="{{ $.Text }}"
       class="object-fit"
@@ -21,8 +18,7 @@
       loading=lazy
       sizes="100vw"
       src="{{ $sm.RelPermalink }}"
-      srcset="
-        {{ $sm.RelPermalink }} 320w,
+      srcset="{{ $sm.RelPermalink }} 320w,
         {{ $md.RelPermalink }} 768w,
         {{ $lg.RelPermalink }} 1200w,
         {{ $xl.RelPermalink }} 1600w,
@@ -31,7 +27,7 @@
     >
     <figcaption class="italic">{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
   </figure>
-  {{ else }}
-<code class="text-claret">You can't insert images without alt text!</code>
-  {{ end }}
+  {{- else -}}
+    <code class="text-claret">You can’t insert images without alt text! Do not use placeholder alt text!</code>
+  {{- end -}}
 {{- end -}}
