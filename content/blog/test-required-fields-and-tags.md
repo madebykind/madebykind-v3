@@ -8,7 +8,7 @@ tags:
   - Foo
   - Bar
   - Baz
-cover_img: images/hand-3.png
+cover_img: ""
 ---
 Main content goes here.
 
