@@ -13,7 +13,7 @@ intro: We want our users to engage with our content, and great typography helps 
 ---
 
 Until now, trying to style the content of an article, document, or blog post has been a tedious task that required a keen eye for typography and a lot of complex custom CSS. Typically, we remove all of the default browser styling from paragraphs, headings, lists and more.
-_
+
 This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you really are_just trying to style some content_ that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
 
 We get lots of complaints about it actually, with people regularly asking us things like:
@@ -49,7 +49,9 @@ Unfortunately, Markdown does not provide a way to include proper quotations, i.e
 The Semantic Web isn't inherently complex. The Semantic Web language, at its heart, is very, very simple. It's just about the relationships between things.
 {{</ blockquote >}}
 
-It’s probably important that images look okay here by default as well… ![A smiling female scientist](../images/thisisengineering.jpg "Science is great, the computers are the bestest!")
+It’s probably important that images look okay here by default as well…
+
+![A smiling female scientist](../images/thisisengineering.jpg "Science is great, the computers are the bestest!")
 
 #### Even for lists…
 
