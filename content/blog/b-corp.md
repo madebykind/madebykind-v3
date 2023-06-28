@@ -3,8 +3,8 @@ hidden: false
 title: Kind certifies as a B Corporation
 date: 2022-03-22
 author: michelle
-cover_img: ""
-cover_img_alt: ""
+cover_img:
+cover_img_alt:
 draft: false
 description: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation
