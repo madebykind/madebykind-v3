@@ -12,10 +12,11 @@ topics:
   - Digital archives
 block_class: bg-blue text-sky
 featured: true
-title: Working with the World’s leading art and design museum
+title: Working with the world’s leading art and design museum
 date: 2023-06-28T11:49:55.811Z
-icon: va-logo
 cover_img: images/mansplaining.jpg
+key_stat: 149-percent
+icon: va-logo
 description: A new website design to build awareness of the charity’s work and
   gain support from the public.
 services:
@@ -23,9 +24,10 @@ services:
   - brand
   - digital
 ---
+![A domed ceiling (or cupola) shot from below with the light coming through a circular hole in the top. The V&A logo is overlayed in white](images/work-va-header.jpg)
 
-Lorem ipsum dolor sit amet, purto altera adipisci ei pro, ex mea amet admodum tincidunt. Te adhuc quidam facilis duo, mel ne nobis delectus, id persius prompta vituperatoribus eum. 
+![](images/work-va-creswell-laptop-michelle.jpg)
 
-Pri errem option imperdiet ne, sumo senserit necessitatibus ei nam, audiam impetus consectetuer ea sit. Vix ferri veniam neglegentur id, duo vero laudem quaestio ei, delenit mandamus voluptatibus pro eu. Pri homero recusabo intellegam ad.
+![](images/work-va-glastonbury-ipad.jpg)
 
-Eos ex mazim dolor facilisi. Ei eos simul consulatu. Ut mazim causae nec. Eum ei oratio alienum dolores, clita quaeque denique in nec, cu cum vivendum cotidieque efficiantur. Mea cu quas rationibus, qui an quem purto equidem. Te eam audire tractatos, cu ius nibh affert fastidii. Nec ea vitae convenire.
+![](images/work-va-glastonbury.jpg)
