@@ -9,6 +9,9 @@ summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriur
 title: Brand
 weight: 2
 hidden: false
+related_work:
+  - chapter
+  - rivers-trust
 ---
 
 Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.

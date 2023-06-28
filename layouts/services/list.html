@@ -9,7 +9,7 @@
   <ul class="section">
     {{ range .Pages }}
     <li>
-      <section class="container prose section">
+      <section class="container section">
         <div class="grid grid-cols-12 gap-10">
           {{ if .Params.cover_img }}
             <div class="col-span-full md:col-span-6">
@@ -17,20 +17,39 @@
             </div>
           {{ end }}
           <div class="col-span-full md:col-span-6">
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Summary }}</p>
-            <div class="section">
-              <h3>Services</h3>
+            <div class="prose">
+              <h2>{{ .Title }}</h2>
+              <p>{{ .Summary }}</p>
+              <div class="section">
+                <h3>Services</h3>
+                <ul class="font-sans">
+                  {{ range .Pages }}
+                  <li>
+                    <a href="{{ .Permalink }}">
+                      {{ .Title }}
+                    </a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            {{ with .Params.related_work }}
+            <section class="section">
+              <h3 class="h--condensed">Example digital projects</h3>
               <ul>
-                {{ range .Pages }}
-                <li>
-                  <a href="{{ .Permalink }}">
-                    {{ .Title }}
-                  </a>
-                </li>
+                {{ range . }}
+                  {{ with site.GetPage . }}
+                    <li class="py-10 border-b">
+                      <article>
+                        <h4 class="font-serif">{{ .Title }}</h4>
+                        <p>{{ .Summary }}</p>
+                      </article>
+                    </li>
+                  {{ end }}
                 {{ end }}
               </ul>
-            </div>
+            </section>
+            {{ end }}
           </div>
         </div>
       </section>
