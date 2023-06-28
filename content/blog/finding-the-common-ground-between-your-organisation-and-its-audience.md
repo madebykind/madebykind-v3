@@ -1,26 +1,26 @@
 ---
-author: michelle
+draft: false
+topics:
+  - Research and analysis
+  - User-centred design
+related_work:
+  - building-a-more-sustainable-website-architecture
+  - b-corp
 hidden: false
 title: Finding the common ground between your organisation and its audience
 date: 2023-06-22T15:40:38.551Z
-draft: false
+author: Mat
 services:
   - strategy
-description: In the many years that our team have been working in the digital
-  industry, we’ve found that the projects with the best outcomes are those that
-  focus on the sweet spot where audience needs and organisational goals align.
+  - digital
+description: How do we go about creating a digital product that works both for
+  an organisation and for its users?
 featured: false
-topics:
-  - User-centered design
-  - Strategic consultancy
-  - Digital sustainability
+key_topic: How we work
 intro: In the many years that our team have been working in the digital
   industry, we’ve found that the projects with the best outcomes are those that
   focus on the sweet spot where audience needs and organisational goals align.
 related_pages: []
-related_work:
-  - building-a-more-sustainable-website-architecture
-  - b-corp
 ---
 Often, project owners or content creators (sometimes the same person) feel they intuitively understand their audience and will make assumptions based on this knowledge, only to be surprised when introducing new content or features has a negative impact.
 
@@ -44,7 +44,7 @@ These conversations could take the form of one-to-one interviews, with analysts 
 
 Instead, and especially for larger organisations, it is useful to carry out open sessions or workshops where all stakeholders work together to make decisions quickly and understand whether their opinions are personal or shared (it’s not uncommon for people to be so passionate about their area of work that they believe it should trump all others). Being able to clearly see that a large organisation has multiple priorities, and where their’s might fit within those, can help to prevent resentment or animosity toward a project when it is launched.
 
-During [our work with Nottingham Trent University](https://madebykind.com/case-studies/nottingham-trent-university), we began our discovery process by facilitating an [Open Space](https://en.wikipedia.org/wiki/Open_Space_Technology) session with around 50 members of the University Leadership Team (ULT). This ensured that every senior stakeholder had an opportunity to raise issues and enabled the ULT to build its own consensus about what the key objectives were.
+During our work with Nottingham Trent University, we began our discovery process by facilitating an [Open Space](https://en.wikipedia.org/wiki/Open_Space_Technology) session with around 50 members of the University Leadership Team (ULT). This ensured that every senior stakeholder had an opportunity to raise issues and enabled the ULT to build its own consensus about what the key objectives were.
 
 Understanding and validating the key objectives of the University helped us to understand the context of the project, and how to assign relative importance to the needs of the different user groups that were mapped in the next stage.
 
@@ -81,8 +81,6 @@ Using the principles of User-centred Design (UCD) helps us to continually focus 
 3. **Structure:** How should we structure the product to achieve those shared goals quicker?
 4. **Skeleton:** How should we structure content and features at page level to achieve those shared goals quicker?
 5. **Surface:** How will the visual design of the product support the user?
-
-Surface > Skeleton > Structure > Scope > Strategy
 
 As we already have the ***Strategy*** and the ***Scope***, we begin to work on planning the ***Structure*** of the product before moving on to the more visual ***Skeleton*** (wireframing or prototyping) and ***Surface*** (visual design) of its components.
 
