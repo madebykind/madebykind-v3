@@ -16,7 +16,7 @@ services:
   - digital
 topics:
   - User research and analysis
-  - User-centred design (UX)
+  - User-centred design
   - Mobile-first design
   - Front-end development
   - CMS integration
