@@ -1,27 +1,28 @@
 ---
+hidden: false
+title: Creating sustainable and ethical digital products
+date: 2020-01-04T17:31:19.000Z
 author: mat
-date: 2020-01-04T17:31:19Z
+cover_img: null
+cover_img_alt: null
 draft: false
+description: How can we adapt our process to create usable and useful products
+  that are environmentally and ethically sound?
+toc: false
 topics:
   - User-centered design
   - Strategic consultancy
   - Digital sustainability
-cover_img: 
-cover_img_alt:
-featured: true
-intro: After attending New Adventures in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
 header_class: bg-pink text-indigo
-description: How can we adapt our process to create usable and useful products that
-  are environmentally and ethically sound?
-toc: false
-hidden: false
+featured: true
+intro: After attending New Adventures in January, we were inspired by talks from
+  Cennydd Bowles and Laura Kalbag.
 related_pages:
   - b-corp
   - kind-partners-with-rewilding-britain
 related_posts:
   - building-a-more-sustainable-website-architecture
   - start-your-next-digital-project-with-a-paid-discovery-phase
-title: Creating sustainable and ethical digital products
 ---
 
 Cennydd spoke of looking past the needs of users in the present-tense to the impact our designs choices could have on wider society, wildlife and the planet, both now and in the future. Considering the potential short and long-term negative consequences of our work, not just on the user, but elsewhere. While Laura spoke of web privacy and the sheer volume and detail of data stored about us, often assumed but very accurate.
@@ -58,8 +59,12 @@ This is all a very considerate way to think about our work, but can it work in a
 
 When we attended the 1% for the Planet European Summit in 2018, one phrase stood out and has stuck with me ever since:
 
-> “Progress over perfection.”
-> Nicholas Bornstein, Protect our Winters
+{{< blockquote author="Nicholas Bornstein" role="Founder, Protect our Winters EU" >}}
+Progress over perfection
+{{</ blockquote >}}
+
+> Nicholas Bornstein
+Protect our Winters
 
 We’re not going to be able to know all consequences to all groups and all environments, ever, and to even get to a point where we feel like we’re doing enough to consider others will take time. We just have to make a start or risk going nowhere.
 
