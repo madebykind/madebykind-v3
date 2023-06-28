@@ -33,7 +33,7 @@ Over the last year, we've been so excited to work on some really wonderful proje
 
 Alongside this, we've really loved working with the Victoria and Albert Museum (V&A) again on their digital archive celebrating 50 years of the Glastonbury Festival. Despite the festival not being able to run for the past two years, we've really enjoyed going through the artefacts from across the decades and creating a pilot site that is ready to collate more memories in the future.
 
-![The Glastonbury Digital Archive shown on a iMac screen, over the shoulder](images/glastonbury-mockup.png)
+![The Glastonbury Digital Archive shown on a iMac screen, over the shoulder](../images/glastonbury-mockup.png)
 
 We've also been working on excellent creative projects with the teams at the Backlit Gallery in Nottingham and the Tung Auditorium in Liverpool which are both due to launch early next year. We're really excited to get these sites live!
 
@@ -53,7 +53,7 @@ On collaborations, we've continued to develop our extended network of trusted fr
 
 Alongside working, we've been pleased to get together as a team in the great outdoors. We all love to be outside, even more so than ever before, so we found ourselves on more walks around the Peak District and in the summer we camped at Kielder Forest. Rain and midges aside it was lovely to reconnect as a team and we look forward to (hopefully) ending the year together with a celebratory meal this week.
 
-![Selfie picture of the Kind team on a walk in Derbyshire](images/kind-in-derbyshire.jpg)
+![Selfie picture of the Kind team on a walk in Derbyshire](../images/kind-in-derbyshire.jpg)
 
 2021 may not have been exactly what we all hoped for, but we've definitely managed to be resilient, support each other, our clients and remain as positive as possible throughout. Which is no small feat in the current climate.
 
