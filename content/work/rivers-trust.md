@@ -1,14 +1,21 @@
 ---
-block_class: bg-blue text-sky
+title: For thriv­ing rivers and communities. Wild, healthy, natural rivers,
+  valued by all.
+date: 2023-06-28T12:26:29.707Z
 cover_img: images/pineapple.jpg
 cover_img_alt: Oooh! A banana.
-title: For thriv­ing rivers and communities. Wild, healthy, natural rivers, valued by all.
+description: A new website design to build awareness of the charity’s work and
+  gain support from the public.
+topics:
+  - User-centred Design
+  - Mobile-first Design
+  - CMS integration
+  - CRM integration
+block_class: bg-blue text-sky
 external_link: https://thetungauditorium.com/
-description: A new website design to build awareness of the charity’s work and gain support from the public.
 icon: rt-logo
-services: 
-  - brand
-  - strategy
+services:
+  - digital
 ---
 
 > “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
