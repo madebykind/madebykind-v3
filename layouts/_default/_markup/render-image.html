@@ -23,6 +23,9 @@
         {{ $xl.RelPermalink }} 1600w,
         {{ $2xl.RelPermalink }} 1920w"
       width="{{ $img.Width }}"
+      {{- with $.Title | safeHTML -}}
+        title="{{ . }}"
+      {{- end -}}
     >
   {{- else -}}
     <code class="text-claret">You can’t insert images without alt text! Do not use placeholder alt text!</code>
