@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section>
+  {{ partial "header__list.html" . }}
+  <ul class="section">
+    {{ range .Pages }}
+    <li>
+      <section class="container section">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Summary }}</p>
+        <div class="prose section">
+          <h3>Services</h3>
+          <ul>
+            {{ range .Pages }}
+            <li>
+              <a href="{{ .Permalink }}">
+                {{ .Title }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </section>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
