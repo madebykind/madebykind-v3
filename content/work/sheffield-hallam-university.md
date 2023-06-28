@@ -29,6 +29,7 @@ topics:
   - CMS integration
   - CRM integration
 ---
+
 ![A boy in a gymnasium wearing a VR headset. The Sheffield Hallam University logo is overlayed](../images/work-shu-header.jpg)
 
 ## Design principles
