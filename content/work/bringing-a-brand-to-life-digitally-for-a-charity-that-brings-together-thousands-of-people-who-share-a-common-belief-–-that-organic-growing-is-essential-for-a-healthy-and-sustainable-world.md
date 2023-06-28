@@ -23,7 +23,9 @@ topics:
   - CRM integration
   - Ticketing journey
 ---
-> We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
+{{< blockquote author="Garden Organic Mission" >}}
+We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
+{{</ blockquote >}}
 
 ![A trowel on a garden bench with some flowers behind. The Garden Organic logo is overlayed](../images/work-header-garden-organic.jpg)
 
