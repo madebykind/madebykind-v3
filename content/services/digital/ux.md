@@ -34,7 +34,7 @@ related_posts:
   </div>
   <div class="col-span-full md:col-span-6 lg:col-span-5">
 
-  ![Mocks of RWB branding on a laptop](../images/brand-rwb.jpg )
+  ![Mocks of RWB branding on a laptop](../../images/brand-rwb.jpg )
 
   </div>
 </section>
@@ -42,7 +42,7 @@ related_posts:
 <section class="grid grid-cols-12 gap-10 mt-20 lg:gap-20 section--lg">
   <div class="col-span-full md:col-span-6 lg:col-span-5">
 
-  ![Mocks of RWB branding on a laptop](../images/brand-rwb.jpg )
+  ![Mocks of RWB branding on a laptop](../../images/brand-rwb.jpg )
 
   </div>
   <div class="col-span-full md:col-span-6 lg:col-span-7">
@@ -102,7 +102,8 @@ related_posts:
     </div>
     <div class="col-span-full md:col-span-6">
     
-![Mocks of RWB branding on a laptop](../images/empowering-change.png )
+![Mocks of RWB branding on a laptop](../../images/empowering-change.png )
+
     </div>
   </div>
 </section>
