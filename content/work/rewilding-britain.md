@@ -32,8 +32,8 @@ description: Engaging and influencing audiences to support rewilding areas of
   the country for the good of the environment
 feature_heading: Our partnership
 services:
-  - digital
   - strategy
+  - digital
 ---
 > “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
 
