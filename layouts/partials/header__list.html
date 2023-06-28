@@ -3,9 +3,11 @@
     <div class="grid items-center gap-10 md:grid-cols-2">
       <div id="content" class="grid col-span-1 gap-15">
         <h1>{{ .Page.Title|safeHTML }}</h1>
-        <div class="max-w-5xl prose cta_prose">
-          {{ .Content }}
-        </div>
+        {{ with .Params.Intro }}
+          <div class="max-w-5xl prose cta_prose">
+            <p>{{ . | markdownify }}</p>
+          </div>
+        {{ end }}
         {{ if isset .Params "cta" }}
           <div class="flex flex-wrap gap-5">
               <a class="btn btn--primary" href="{{ .Params.ctaLink }}">
