@@ -1,8 +1,8 @@
-
+{{ with .Params.featured_services }}
 <section class="flex min-h-screen">
   <h2 class="sr-only">Services</h2>
   <ul class="grid gap-0 list-none lg:grid-cols-3">
-    {{ range (where (where site.RegularPages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
+    {{ range . }}
       <li>
         <article class="flex flex-col justify-end h-full overflow-hidden">
           <a aria-labelledby="{{ .Title | anchorize }}" class="relative flex flex-col flex-grow h-screen overflow-hidden no-underline group text-currentColor" href="{{ .Permalink }}">
@@ -28,3 +28,4 @@
     {{ end }}
   </ul>
 </section>
+{{ end }}
