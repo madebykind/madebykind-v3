@@ -1,17 +1,19 @@
 ---
-block_class: bg-blue text-sky
-cover_img: images/mansplaining.jpg
-cover_img_alt: Oooh! A banana.
-featured: true
-title: Working with the World’s leading art and design museum
-description: A new website design to build awareness of the charity’s work and gain support from the public.
-services: 
-  - brand
-  - strategy
-topics: 
+cover_img_alt: A man and woman looking at a laptop screen together
+topics:
   - UX
   - user-centered design
+block_class: bg-blue text-sky
+featured: true
+title: Working with the World’s leading art and design museum
+date: 2023-06-28T11:49:55.811Z
 icon: va-logo
+cover_img: images/mansplaining.jpg
+description: A new website design to build awareness of the charity’s work and
+  gain support from the public.
+services:
+  - brand
+  - strategy
 ---
 
 Lorem ipsum dolor sit amet, purto altera adipisci ei pro, ex mea amet admodum tincidunt. Te adhuc quidam facilis duo, mel ne nobis delectus, id persius prompta vituperatoribus eum. 
