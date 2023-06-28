@@ -101,11 +101,12 @@ collections:
 
   - name: 'services'
     label: 'Services'
-    label_singular: 'New service'
+    label_singular: 'Service'
     editor:
       preview: false
     folder: 'content/services'
     create: true
+    nested: { depth: 100 }
     delete: false
     filter:  
       field: 'hidden' 
@@ -138,8 +139,8 @@ collections:
             'numbered-list'
           ]
         }
-      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
-      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: 'title'}
+      - { label: 'Related work', name: 'related_work', widget: 'relation', collection: 'work', searchFields: ['title'], multiple: true, valueField: '{{slug}}'}
+      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: '{{slug}}'}
   
   - name: 'stats'
     label: 'Stats'
