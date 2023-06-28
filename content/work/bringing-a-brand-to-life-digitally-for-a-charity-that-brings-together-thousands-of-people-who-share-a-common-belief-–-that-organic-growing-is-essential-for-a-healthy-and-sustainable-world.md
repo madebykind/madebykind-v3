@@ -33,7 +33,7 @@ Garden Organic had built a new offline brand and they worked with us to bring th
 
 ![Two women in front of a wall of sticky notes.](../images/work-garden-organic-discovery.jpg)
 
-![Two men and two women sat around a wooden table having a discussion](../images/work-garden-organic-kind-team.jpg)
+![A photograph of a kitchen garden](../images/work-garden-organic-garden.jpg)
 
 ## Communicating to broad demographics and being inclusive
 
@@ -54,5 +54,3 @@ Expanding their dedicated user base to welcome new gardeners and take them from 
 Establishing e-commerce with integrated CRM to manage multiple membership types, donations, event bookings, and a seed shop.
 
 ![The Garden Organic website on a tablet device, on a garden bench](../images/work-garden-organic-tablet-2.jpg)
-
-![A photograph of a kitchen garden](../images/work-garden-organic-garden.jpg)
