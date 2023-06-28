@@ -63,8 +63,8 @@ When we attended the 1% for the Planet European Summit in 2018, one phrase stood
 Progress over perfection
 {{</ blockquote >}}
 
-> Nicholas Bornstein
-Protect our Winters
+> *Nicholas Bornstein*
+> Protect our Winters
 
 We’re not going to be able to know all consequences to all groups and all environments, ever, and to even get to a point where we feel like we’re doing enough to consider others will take time. We just have to make a start or risk going nowhere.
 
