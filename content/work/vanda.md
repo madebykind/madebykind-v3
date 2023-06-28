@@ -19,8 +19,8 @@ cover_img: images/mansplaining.jpg
 description: A new website design to build awareness of the charity’s work and
   gain support from the public.
 services:
-  - brand
   - strategy
+  - brand
   - digital
 ---
 
