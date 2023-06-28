@@ -31,6 +31,7 @@
     <figcaption class="italic">{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
   </figure>
 {{- else -}}
+{{/*
   <img
     src="{{ .Destination | safeURL }}"
     alt="{{ $.Text }}"
@@ -44,4 +45,5 @@
     sizes="100vw"
     width="{{ $img.Width }}"
   >
+*/}}
 {{- end -}}
