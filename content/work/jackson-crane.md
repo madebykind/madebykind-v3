@@ -17,6 +17,7 @@ services:
 topics:
   - Research and analysis
 ---
+
 > “Our mission is to create sustainable, environmentally conscious and high performing architectural and interior design for like-minded, progressive clients and to exceed expectations on each project”
 
 ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](../images/work-jackson-crane-header.jpg)
