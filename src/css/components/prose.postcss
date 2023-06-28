@@ -2,101 +2,104 @@
 /* ==========================================================================
     PROSE - Longform content, the stuff we hope someone else will write!
   ========================================================================== */
-.prose {
 
-  * { 
-    text-wrap: pretty;
-  }
-  
-  &.font-sans {
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      @apply
-        font-serif
-      ;
-    }    
-  }
+@layer components {
+  .prose {
 
-  &:not(.font-sans) {
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      @apply
-        h--condensed
-      ;
-    }    
-  }
-  
-  * + * {
-      @apply
-        mt-10
-      ;
-  }
+    * { 
+      text-wrap: pretty;
+    }
+    
+    &.font-sans {
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        @apply
+          font-serif
+        ;
+      }    
+    }
 
-  p {
-    + p {
-      @apply
-        mt-15
+    &:not(.font-sans) {
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        @apply
+          h--condensed
+        ;
+      }    
+    }
+    
+    * + * {
+        @apply
+          mt-10
+        ;
+    }
+
+    p {
+      + p {
+        @apply
+          mt-15
+        ;
+      }
+    }
+
+    * + h1,
+    * + h2,
+    * + h3,
+    * + h4,
+    * + h5,
+    * + h6 {
+      @apply 
+        mt-20
       ;
+    }
+
+    pre {
+      @apply
+        border border-ui
+        bg-white
+        p-4
+        overflow-x-scroll
+      ;
+    }
+
+    ol {
+      @apply list-decimal;
+    }
+
+    ul {
+      @apply list-disc;
+    }
+
+    ol,
+    ul {
+
+      @apply
+        list-outside 
+        marker:text-orange
+        mt-5 lg:mt-10
+      ;
+    }
+
+    li + li {
+      @apply mt-5;
+    }
+
+    /* Nice nested lists */
+    li > ol,
+    li > ul {
+      @apply list-inside;
     }
   }
 
-  * + h1,
-  * + h2,
-  * + h3,
-  * + h4,
-  * + h5,
-  * + h6 {
-    @apply 
-      mt-20
-    ;
-  }
-
-  pre {
-    @apply
-      border border-ui
-      bg-white
-      p-4
-      overflow-x-scroll
-    ;
-  }
-
-  ol {
-    @apply list-decimal;
-  }
-
-  ul {
-    @apply list-disc;
-  }
-
-  ol,
-  ul {
-
-    @apply
-      list-outside 
-      marker:text-orange
-      mt-5 lg:mt-10
-    ;
-  }
-
-  li + li {
-    @apply mt-5;
-  }
-
-  /* Nice nested lists */
-  li > ol,
-  li > ul {
-    @apply list-inside;
-  }
-}
-
-.cta_prose {
-  p:first-of-type {
-    @apply lede;
+  .cta_prose {
+    p:first-of-type {
+      @apply lede;
+    }
   }
 }
