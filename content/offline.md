@@ -2,7 +2,7 @@
 title: Offline
 date: 2021-02-02T18:32:51Z
 draft: true
-hidden: true
+hidden: false
 ---
 
 Your device appears to be offline.

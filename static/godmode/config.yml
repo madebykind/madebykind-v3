@@ -64,7 +64,7 @@ collections:
     editor:
       preview: false
     label: 'Pages'
-    folder: 'content'
+    folder: 'content/pages'
     create: false
     delete: false
     filter:  
