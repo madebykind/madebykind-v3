@@ -44,7 +44,7 @@ Rewilding Britain, along with many other charities, clearly show the breakdown o
 
 Another approach to reassuring donors is to show them specific outcomes. With The Rivers Trust, for example, we used messaging such as *"£30 could help purchase trees and plants to support us in our fight to improve river habitats"* to show a clear beneficial outcome to donating a specific amount.
 
-![The Rivers Trust online donation form, showing what your donation could be used toward](images/rt-donate.png)
+![The Rivers Trust online donation form, showing what your donation could be used toward](../images/rt-donate.png)
 
 ## Show them the bigger impacts
 
@@ -54,7 +54,7 @@ And, even if they choose to give that £10 to your charity, the impact of that s
 
 Sharing case studies and statistics, like we did for the Rivers Trust, is a great way to show your impact.
 
-![The Rivers Trust impact block shows statistics and projects, to outline the work of the organisation](images/rt-case-study-stats.png)
+![The Rivers Trust impact block shows statistics and projects, to outline the work of the organisation](../images/rt-case-study-stats.png)
 
 ## Keep them engaged
 
@@ -72,7 +72,7 @@ Make it as easy as possible for your users to give the amount they want, decide 
 
 This is where our expertise in User Experience Design come in useful. Making the donation form as clear as possible by stripping back distractions, breaking the form into stages so it doesn't feel overwhelming and only asking for the information you **really** need, are all great practice.
 
-![The Rewilding Britain donation form](images/rb-pay-now.png "Rewilding Britain reiterate your donation just before it is processed")
+![The Rewilding Britain donation form](../images/rb-pay-now.png "Rewilding Britain reiterate your donation just before it is processed")
 
 You could consider integrating alternative payment processors, such as PayPal or Apple Pay, allowing the donor to use their pre-filled information and saving them precious time. And, just for that final reassurance, reiterate to the donor what they are doing and how it will help, just before they press the button.
 
