@@ -13,8 +13,8 @@ collections:
   - name: 'blog'
     editor:
       preview: false
-    label: 'Blog'
-    label_singular: 'Blog post'
+    label: 'Insights'
+    label_singular: 'Insight'
     folder: 'content/blog'
     create: true
     slug: '{{slug}}'
@@ -24,9 +24,34 @@ collections:
     fields:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { 
+          label: 'Card colour', 
+          name: 'card_colour', 
+          widget: 'select',
+          hint: 'This will be the card colours when no card image is selected. If an image is chosen it will overlay this.',
+          default: { label: 'Blue on teal', value: 'bg-teal text-blue' },
+          options: [
+            { label: 'Dark green on sky blue', value: 'bg-sky text-green' },
+            { label: 'Blue on light pink', value: 'bg-pink text-blue' },
+            { label: 'Blue on teal', value: 'bg-teal text-blue' },
+            { label: 'Blue on yellow', value: 'bg-yellow text-blue' },
+          ]
+        }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Author', name: 'author', widget: 'select', options: ['Jess', 'Mat', 'Michelle', 'Pam', 'Seth'], required: false }
+      - { label: 'Illustration', hint: 'Optionally set an illustration as the card background. Always overriden by image.', name: 'illustration', widget: 'image', required: false, choose_url: false }
       - { label: 'Image', name: 'cover_img', widget: 'image', required: false, choose_url: false }
+      - { 
+          label: 'Text colour', 
+          name: 'text_colour', 
+          widget: 'select',
+          required: false,
+          hint: 'If an image is chosen you can set the text colour.',
+          options: [
+            { label: 'Buff', value: 'text-buff' },
+            { label: 'White', value: 'text-white' },
+          ]
+        }
       - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ['brand', 'digital', 'strategy'], required: false }
@@ -57,8 +82,8 @@ collections:
             'link',
           ]
         }
-      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: "{{slug}}" }
-      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: "{{slug}}" }
+      - { label: 'Related pages', name: 'related_pages', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: '{{slug}}' }
+      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, required: false, valueField: '{{slug}}' }
         
   - name: 'pages'
     editor:
