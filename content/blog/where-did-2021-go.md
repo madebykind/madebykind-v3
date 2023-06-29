@@ -5,6 +5,7 @@ card_colour: bg-yellow text-blue
 date: 2021-12-16T16:01:00.000Z
 author: Michelle
 cover_img: images/kind-in-derbyshire.jpg
+text_colour: text-white
 draft: false
 description: Sitting down to reflect on the last 12 months seems like a strange
   task after the past couple of years.
