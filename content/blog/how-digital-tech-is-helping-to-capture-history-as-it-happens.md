@@ -3,7 +3,7 @@ hidden: false
 title: How digital tech is helping to capture history, as it happens
 card_colour: bg-sky text-green
 date: 2023-06-29T14:58:34.039Z
-author: Michelle
+author: michelle
 draft: false
 description: With the impermanence and speed of change of the internet and how
   it is used, how can you collect and retain pieces of history that may

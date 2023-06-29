@@ -3,9 +3,9 @@ hidden: false
 title: Building a more sustainable website architecture
 card_colour: bg-teal text-blue
 date: 2021-02-16
-author: Mat
-cover_img: null
-cover_img_alt: null
+author: mat
+cover_img:
+cover_img_alt:
 draft: false
 description: There are many ways we can improve the efficiency of a website,
   many of which Kind already includes as standard practice.

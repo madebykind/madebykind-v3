@@ -3,7 +3,9 @@ hidden: false
 title: Improving the online ticket buying experience
 card_colour: bg-teal text-blue
 date: 2021-04-23T14:23:33.332Z
-author: Mat
+author: mat
+cover_img:
+cover_img_alt:
 draft: false
 description: Frustrated users always lead to high abandonment rates. So how can
   we build a ticket purchasing journey that is a breeze? Make it quick.
@@ -17,6 +19,7 @@ intro: Since the pandemic, the willingness of audiences to collect tickets in
   person or visit a box office has dropped substantially, so the need to get the
   online ticket purchasing experience right is paramount.
 ---
+
 ![Illustration showing ticket buying preferences between digital and box office.](../images/5-digital-tickets.jpg)
 
 From a user point of view, booking tickets for an event is often a long-winded and frustrating experience. If you're using a mobile device (as the majority of web users are) the experience can be particularly awkward and clunky.
@@ -41,7 +44,7 @@ A good portion of users will want to know about availability, rather than alread
 
 Our prototype surfaces the earliest upcoming events that have availability and allows the user to quickly select a time they can attend.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539060608" data-video-src="https://player.vimeo.com/video/539060608">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539060608" data-video-src="https://player.vimeo.com/video/539060608">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-1.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539060608">
@@ -58,7 +61,7 @@ Our prototype surfaces the earliest upcoming events that have availability and a
 
 Those users who want to select a date and time further in the future, can choose to do so.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079129" data-video-src="https://player.vimeo.com/video/539079129">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079129" data-video-src="https://player.vimeo.com/video/539079129">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-2.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079129">
@@ -81,7 +84,7 @@ Once a date and time has been chosen, our prototype skips the steps of selecting
 
 This is because we've made these choices for the user.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079259" data-video-src="https://player.vimeo.com/video/539079259">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079259" data-video-src="https://player.vimeo.com/video/539079259">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-3.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079259">
@@ -100,7 +103,7 @@ We've assumed that the majority of ticket purchasers for this event are looking 
 
 Those who want to select their own seat or change the quantity or type of ticket can do so in the usual way.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079424" data-video-src="https://player.vimeo.com/video/539079424">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079424" data-video-src="https://player.vimeo.com/video/539079424">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-4.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079424">
@@ -121,7 +124,7 @@ By this point, a user could have tickets in their basket with seats selected by 
 
 Allowing users to authenticate through their social accounts (like Facebook, Twitter or Google) means that personal details can be pulled automatically without the need to manually enter them. It also means, if the user allows, that we can use these details to set up an account and store their information for future use and marketing purposes.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079457" data-video-src="https://player.vimeo.com/video/539079457">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079457" data-video-src="https://player.vimeo.com/video/539079457">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-5.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079457">
@@ -138,7 +141,7 @@ Allowing users to authenticate through their social accounts (like Facebook, Twi
 
 An even quicker solution would be to integrate Apple Pay and Google Pay which, for users of iPhone and Android devices, means we can collect both personal and payment data with zero manual input.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079484" data-video-src="https://player.vimeo.com/video/539079484">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079484" data-video-src="https://player.vimeo.com/video/539079484">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-6.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079484">
@@ -155,7 +158,7 @@ An even quicker solution would be to integrate Apple Pay and Google Pay which, f
 
 But there are still users that don't have these technologies set up, or simply don't want to use them. For them, we should make the data input process as seamless as possible, using features like auto-completing address fields.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079504" data-video-src="https://player.vimeo.com/video/539079504">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079504" data-video-src="https://player.vimeo.com/video/539079504">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-7.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079504">
@@ -176,7 +179,7 @@ Another issue with traditional ticket purchasing journeys is up-sells. More spec
 
 In our prototype, we've still included up-sells as we know this is an important revenue stream for many venues. However, instead of forcing another step in the process, and giving the user another reason to give up, we surface them on the basket page, making assumptions about relevant quantities and products based on the basket contents.
 
-<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079525" data-video-src="https://player.vimeo.com/video/539079525">
+<div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079525" data-video-src="https://player.vimeo.com/video/539079525">
   <div class="relative" style="width:375px; height:666px;">
     <img alt src="../images/ticketing-8.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079525">

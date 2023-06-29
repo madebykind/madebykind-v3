@@ -3,9 +3,9 @@ hidden: false
 title: Communicating complex issues
 card_colour: bg-sky text-green
 date: 2021-09-08T15:09:09.931Z
-author: Michelle
-cover_img: null
-cover_img_alt: null
+author: michelle
+cover_img:
+cover_img_alt:
 draft: false
 services:
   - strategy
@@ -15,9 +15,9 @@ toc: false
 featured: false
 key_topic: Insights
 topics:
-  - User-centered design
-  - Strategic consultancy
-  - Digital sustainability
+  - user-centered design
+  - strategic consultancy
+  - digital sustainability
 intro: A key challenge for charities and non-profit organisations is clearly
   communicating their work and the issues they are attempting to tackle.
 ---

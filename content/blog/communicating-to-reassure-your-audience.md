@@ -3,7 +3,7 @@ hidden: false
 title: Communicating to reassure your audience
 card_colour: bg-sky text-green
 date: 2021-03-31T14:43:06.833Z
-author: Michelle
+author: michelle
 draft: false
 description: Our recent survey raised some unsurprising but interesting views on
   what and how people wanted to be communicated with.

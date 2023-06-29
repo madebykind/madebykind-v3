@@ -3,9 +3,9 @@ hidden: false
 title: Start Your Next Digital Project With a Paid Discovery Phase
 card_colour: bg-yellow text-blue
 date: 2021-06-16T15:20:00+0100
-author: Mat
-cover_img: null
-cover_img_alt: null
+author: mat
+cover_img:
+cover_img_alt:
 draft: false
 services: []
 description: Anyone who has taken on a digital project before knows that, even

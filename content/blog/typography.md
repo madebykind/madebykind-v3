@@ -55,7 +55,6 @@ It’s probably important that images look okay here by default as well…
 
 Markdown does not provide a way to create figures, with captions, so that requires a shortcode, eg: 
 
-{{< figure src="../images/thisisengineering.jpg" caption="Science is great, the computers are the bestest!" >}}
 
 #### Even for lists…
 

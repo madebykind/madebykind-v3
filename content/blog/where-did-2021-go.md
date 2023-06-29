@@ -3,16 +3,16 @@ hidden: false
 title: Where did 2021 go?
 card_colour: bg-yellow text-blue
 date: 2021-12-16T16:01:00.000Z
-author: Michelle
-cover_img: ""
-text_colour: null
-cover_img_alt: ""
+author: michelle
+cover_img:
+text_colour:
+cover_img_alt:
 draft: false
 description: Sitting down to reflect on the last 12 months seems like a strange
   task after the past couple of years.
 toc: false
 featured: false
-summary: null
+summary:
 topics: []
 intro: Sitting down to reflect on the last 12 months seems like a strange task
   after the past couple of years. This time last year, even though the UK was on
@@ -21,6 +21,7 @@ intro: Sitting down to reflect on the last 12 months seems like a strange task
   carried us through and the belief that 2021 would be the best year for
   everyone was strong.
 ---
+
 As we all know 2021 didn't turn out exactly as we had planned, the pandemic has dragged on and so have the restrictions and uncertainty that go with it. As a small business we coped by remaining flexible and trying to be positive but it certainly made any long-term planning incredibly difficult.
 
 However, here we are in December, wondering where 2021 went and reminding ourselves of all of the things we are grateful for this year.

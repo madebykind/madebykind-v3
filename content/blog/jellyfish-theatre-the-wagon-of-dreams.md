@@ -1,24 +1,23 @@
 ---
 hidden: false
 title: "Jellyfish Theatre: The Wagon of Dreams"
-card_colour:
-  label: Blue on teal
-  value: bg-teal text-blue
+card_colour: bg-teal text-blue
 date: 2021-08-02T14:15:17.227Z
-author: Michelle
+author: michelle
+cover_img:
+cover_img_alt:
 draft: false
-description: Late in 2020, we were approached by the Jellyfish theatre company
-  to help give them strategic marketing advice on how to promote their live
-  outdoor shows in Nottingham.
+description: Late in 2020, we were approached by the Jellyfish theatre company to help give them strategic marketing advice on how to promote their live outdoor shows in Nottingham.
 toc: false
 featured: false
 topics:
-  - Arts & Culture
-  - Strategy
+  - arts & culture
+  - strategy
 intro: Late in 2020, we were approached by the Jellyfish theatre company to help
   give them strategic marketing advice on how to promote their live outdoor
   shows in Nottingham.
 ---
+
 ## About Jellyfish Theatre
 
 London-based Jellyfish Theatre teamed up with local actors Jordan Laidley and Mitchell Ndema to bring an interactive family show 'The Wagon of Dreams' to 10 parks across Nottingham. They managed to secure funding from the Arts Council England and local councillors to create a touring production with the aim to engage with families that do not have frequent access to theatre, in a safe outdoor environment.

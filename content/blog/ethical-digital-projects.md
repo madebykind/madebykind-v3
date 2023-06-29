@@ -3,7 +3,7 @@ hidden: false
 title: Creating sustainable and ethical digital products
 card_colour: bg-sky text-green
 date: 2020-03-12T17:31:19.000Z
-author: Mat
+author: mat
 cover_img: images/becca-tapert-qofjunxy9ly-unsplash.jpg
 text_colour: text-white
 cover_img_alt: A woman looking a phone, outside by a lake in the dark

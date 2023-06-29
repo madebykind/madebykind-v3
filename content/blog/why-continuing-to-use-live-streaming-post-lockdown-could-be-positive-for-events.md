@@ -4,9 +4,11 @@ title: Why continuing to use live streaming post-lockdown could be positive for 
 card_colour: bg-sky text-green
 date: 2023-06-29T14:21:29.816Z
 draft: false
-description: We've been thinking about what the future looks like for live
+cover_img:
+cover_img_alt:
+description: We’ve been thinking about what the future looks like for live
   streaming, will it completely cease as events come back again? Our gut feeling
-  is no. Here's why...
+  is no. Here's why…
 toc: false
 featured: false
 key_topic: Insights
