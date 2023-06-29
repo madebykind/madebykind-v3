@@ -1,10 +1,11 @@
 ---
 hidden: false
 title: Building a more sustainable website architecture
+card_colour: bg-teal text-blue
 date: 2021-02-16
 author: Mat
-cover_img:
-cover_img_alt:
+cover_img: null
+cover_img_alt: null
 draft: false
 description: There are many ways we can improve the efficiency of a website,
   many of which Kind already includes as standard practice.
@@ -20,8 +21,7 @@ key_topic: Digital sustainability
 intro: There are many ways we can improve the efficiency of a website, many of
   which Kind already includes as standard practice.
 related_pages: []
-related_posts:
-  - b-corp
+related_posts: []
 ---
 
 It’s rare that anyone considers the environmental effects of sending an email, loading a website or posting a tweet, but it’s estimated that digital technologies are responsible for 1.7 billion tonnes of greenhouse gas emissions per year.
