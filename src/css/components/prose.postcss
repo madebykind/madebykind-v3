@@ -10,18 +10,6 @@
       text-wrap: pretty;
     }
     
-    /* &.font-sans {
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        @apply
-          font-serif
-        ;
-      }    
-    } */
-
     &:not(.font-sans) {
       h2,
       h3,
@@ -34,10 +22,10 @@
       }    
     }
     
-    * + * {
-        @apply
-          mt-10
-        ;
+    > * + * {
+      @apply
+        mt-10
+      ;
     }
 
     p {
