@@ -5,6 +5,7 @@ card_colour: bg-sky text-green
 date: 2020-03-12T17:31:19.000Z
 author: Mat
 cover_img: images/becca-tapert-qofjunxy9ly-unsplash.jpg
+text_colour: text-white
 cover_img_alt: A woman looking a phone, outside by a lake in the dark
 draft: false
 description: How can we adapt our process to create usable and useful products
