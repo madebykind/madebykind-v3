@@ -71,6 +71,6 @@ A design system is constantly evolving. A living thing. And as such is never 'de
 
 You could say that a design system is made for the future of your organisation.
 
-\-﻿--
+<hr>
 
 If you'd like to learn more about how a design system could help your organisation maintain consistency, speak to one of our experts.
