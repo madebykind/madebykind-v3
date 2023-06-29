@@ -1,11 +1,12 @@
 ---
 hidden: false
 title: Increasing online donations
+card_colour: bg-sky text-green
 date: 2021-09-06T15:11:00.723Z
 author: Mat
+cover_img: null
+cover_img_alt: null
 draft: false
-cover_img:
-cover_img_alt:
 services:
   - strategy
   - digital
@@ -46,7 +47,7 @@ Rewilding Britain, along with many other charities, clearly show the breakdown o
 
 Another approach to reassuring donors is to show them specific outcomes. With The Rivers Trust, for example, we used messaging such as *"£30 could help purchase trees and plants to support us in our fight to improve river habitats"* to show a clear beneficial outcome to donating a specific amount.
 
-![The Rivers Trust online donation form, showing what your donation could be used toward](../images/rt-donate.png)
+![The Rivers Trust online donation form, showing what your donation could be used toward](../images/rt-donate.png "The Rivers Trust online donation form, showing what your donation could be used toward")
 
 ## Show them the bigger impacts
 
@@ -56,7 +57,7 @@ And, even if they choose to give that £10 to your charity, the impact of that s
 
 Sharing case studies and statistics, like we did for the Rivers Trust, is a great way to show your impact.
 
-![The Rivers Trust impact block shows statistics and projects, to outline the work of the organisation](../images/rt-case-study-stats.png)
+![The Rivers Trust impact block shows statistics and projects, to outline the work of the organisation](../images/rt-case-study-stats.png "The Rivers Trust impact block shows statistics and projects, to outline the work of the organisation")
 
 ## Keep them engaged
 

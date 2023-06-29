@@ -1,16 +1,17 @@
 ---
 hidden: false
 title: Benefits of a design system for complex organisations
+card_colour: bg-pink text-blue
 date: 2021-09-02T15:19:24.478Z
 author: Mat
-cover_img:
-cover_img_alt:
+cover_img: null
+cover_img_alt: null
 draft: false
 services:
   - digital
 description: What exactly is a Design System and what are the benefits of implementing one?
 toc: false
-featured: false
+featured: true
 key_topic: How we work
 topics:
   - Design systems
@@ -70,6 +71,6 @@ A design system is constantly evolving. A living thing. And as such is never 'de
 
 You could say that a design system is made for the future of your organisation.
 
-\-﻿--
+<hr>
 
 If you'd like to learn more about how a design system could help your organisation maintain consistency, speak to one of our experts.
