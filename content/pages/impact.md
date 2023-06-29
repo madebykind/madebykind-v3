@@ -9,7 +9,7 @@ intro:
   
   This statement outlines the impacts our day-to-day activities have, how we are reducing or offsetting these and how we aim to further reduce them in the future.
 title: We give a damn
-slug: about/impact
+slug: /about/impact
 ---
 
 Sustainable isn’t what we do, it’s who we are. We don’t leave our ethics at the agency door. We live our values round the clock, professionally and personally.
