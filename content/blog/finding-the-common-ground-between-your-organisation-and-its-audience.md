@@ -8,6 +8,7 @@ related_work:
   - b-corp
 hidden: false
 title: Finding the common ground between your organisation and its audience
+card_colour: bg-pink text-blue
 date: 2023-06-22T15:40:38.551Z
 author: Mat
 services:
