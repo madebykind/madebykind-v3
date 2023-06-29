@@ -1,5 +1,5 @@
 ---
-author: michelle
+author: seth
 cover_img: images/alabaster.jpg
 cover_img_alt: Just another rando unsplash image
 date: 2020-01-04T17:31:19Z

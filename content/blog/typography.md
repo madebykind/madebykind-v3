@@ -6,7 +6,7 @@ draft: false
 hidden: true
 title: Tuned typography
 toc: false
-topics: [Markdown,Demo content]
+topics: 
 date: 2020-04-30T17:28:36.948Z
 description: We want our users to engage with our content, and great typography helps to do that.
 intro: We want our users to engage with our content, and great typography helps to do that. The easier it is to read, the better the engagemnent.

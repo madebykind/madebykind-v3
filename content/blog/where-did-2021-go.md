@@ -13,7 +13,6 @@ description: Sitting down to reflect on the last 12 months seems like a strange
 toc: false
 featured: false
 summary:
-topics: []
 intro: Sitting down to reflect on the last 12 months seems like a strange task
   after the past couple of years. This time last year, even though the UK was on
   the brink of another bleak and unnerving lockdown, hopes were high that the
