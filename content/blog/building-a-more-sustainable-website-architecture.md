@@ -4,8 +4,9 @@ title: Building a more sustainable website architecture
 card_colour: bg-teal text-blue
 date: 2021-02-16
 author: mat
-cover_img:
-cover_img_alt:
+cover_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
+text_colour: text-white
+cover_img_alt: A misty forest
 draft: false
 description: There are many ways we can improve the efficiency of a website,
   many of which Kind already includes as standard practice.
@@ -16,7 +17,7 @@ topics:
   - Digital sustainability
   - test fourth topic
 header_class: bg-teal text-blue
-featured: false
+featured: true
 key_topic: Digital sustainability
 intro: There are many ways we can improve the efficiency of a website, many of
   which Kind already includes as standard practice.
