@@ -18,7 +18,8 @@ paginate = 6
 
 [imaging]
   anchor = "smart"
-  quality = 80
+  filter = "Lanczos"
+  quality = 90
 
 [imaging.exif]
   excludeFields = ".*"
