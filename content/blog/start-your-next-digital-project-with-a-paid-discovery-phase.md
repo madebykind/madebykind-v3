@@ -3,14 +3,14 @@ hidden: false
 title: Start Your Next Digital Project With a Paid Discovery Phase
 date: 2021-06-16T15:20:00+0100
 author: mat
-cover_img: null
-cover_img_alt: null
+cover_img: 
+cover_img_alt: 
 draft: false
 services: []
 description: Anyone who has taken on a digital project before knows that, even
   with the best intentions, things can often go awry. What you're missing is a
   discovery…
-toc: false
+toc: true
 topics: []
 header_class: bg-pink text-claret
 featured: false
