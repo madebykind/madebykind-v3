@@ -17,7 +17,7 @@ intro: Since the pandemic, the willingness of audiences to collect tickets in
   person or visit a box office has dropped substantially, so the need to get the
   online ticket purchasing experience right is paramount.
 ---
-![Illustration showing ticket buying preferences between digital and box office.](images/5-digital-tickets.jpg)
+![Illustration showing ticket buying preferences between digital and box office.](../images/5-digital-tickets.jpg)
 
 From a user point of view, booking tickets for an event is often a long-winded and frustrating experience. If you're using a mobile device (as the majority of web users are) the experience can be particularly awkward and clunky.
 
@@ -41,11 +41,37 @@ A good portion of users will want to know about availability, rather than alread
 
 Our prototype surfaces the earliest upcoming events that have availability and allows the user to quickly select a time they can attend.
 
-{﻿{ VIDEO 1 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539060608" data-video-src="https://player.vimeo.com/video/539060608">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-1.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539060608">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539060608"></div>
+  </div>
+</div>
 
 Those users who want to select a date and time further in the future, can choose to do so.
 
-{﻿{ VIDEO 2 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079129" data-video-src="https://player.vimeo.com/video/539079129">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-2.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079129">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539079129"></div>
+  </div>
+</div>
 
 While this is a quick win in speeding up the purchasing process, it could also help venues to fill up those remaining seats for relatively imminent performances.
 
@@ -55,13 +81,39 @@ Once a date and time has been chosen, our prototype skips the steps of selecting
 
 This is because we've made these choices for the user.
 
-{﻿{ VIDEO 3 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079259" data-video-src="https://player.vimeo.com/video/539079259">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-3.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079259">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539079259"></div>
+  </div>
+</div>
 
 We've assumed that the majority of ticket purchasers for this event are looking for 2 x standard tickets in the best seats available. We can change this assumption on an event or venue level, but the benefit of making it is that the majority of users never have to go through the confusing experience of deciding where to sit.
 
 Those who want to select their own seat or change the quantity or type of ticket can do so in the usual way.
 
-{﻿{ VIDEO 4 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079424" data-video-src="https://player.vimeo.com/video/539079424">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-4.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079424">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539079424"></div>
+  </div>
+</div>
 
 ## Automate personal and payment details
 
@@ -69,15 +121,54 @@ By this point, a user could have tickets in their basket with seats selected by 
 
 Allowing users to authenticate through their social accounts (like Facebook, Twitter or Google) means that personal details can be pulled automatically without the need to manually enter them. It also means, if the user allows, that we can use these details to set up an account and store their information for future use and marketing purposes.
 
-{﻿{ VIDEO 5 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079457" data-video-src="https://player.vimeo.com/video/539079457">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-5.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079457">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539079457"></div>
+  </div>
+</div>
 
 An even quicker solution would be to integrate Apple Pay and Google Pay which, for users of iPhone and Android devices, means we can collect both personal and payment data with zero manual input.
 
-{﻿{ VIDEO 6 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079484" data-video-src="https://player.vimeo.com/video/539079484">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-6.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079484">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539079484"></div>
+  </div>
+</div>
 
 But there are still users that don't have these technologies set up, or simply don't want to use them. For them, we should make the data input process as seamless as possible, using features like auto-completing address fields.
 
-{{ VIDEO 7 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079504" data-video-src="https://player.vimeo.com/video/539079504">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-7.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079504">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539079504"></div>
+  </div>
+</div>
 
 ## Considering up-sells
 
@@ -85,6 +176,19 @@ Another issue with traditional ticket purchasing journeys is up-sells. More spec
 
 In our prototype, we've still included up-sells as we know this is an important revenue stream for many venues. However, instead of forcing another step in the process, and giving the user another reason to give up, we surface them on the basket page, making assumptions about relevant quantities and products based on the basket contents.
 
-{﻿{ VIDEO 8 }}
+<div class="section--sm flex justify-center relative" data-video-facade data-video-id="539079525" data-video-src="https://player.vimeo.com/video/539079525">
+  <div class="relative" style="width:375px; height:666px;">
+    <img alt src="../images/ticketing-8.png" width="375" height="666" data-video-thumb>
+    <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079525">
+      <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
+        <svg class="w-8 h-8" viewbox="0 0 32 32">
+          <use xlink:href="#icon-arrow-cta" />
+        </svg>
+        <span class="sr-only">Play video</span>
+      </button>
+    </div>
+    <div data-video-placeholder class="absolute top-0 left-0 hidden w-full h-full" id="placeholder-539079525"></div>
+  </div>
+</div>
 
 All of these considerations together will deliver a ticket purchasing experience that is quick and painless and leads to lower abandonment rates and happier audiences. It may take more budget than a simple iframe integration with your chosen box office system but, providing there is a good developer API (as with Spektrix for example), the benefit of reducing cart abandonment should far outweigh the cost.
