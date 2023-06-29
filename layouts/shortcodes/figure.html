@@ -1,0 +1,67 @@
+
+{{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+{{- $imgBase := "images/" -}}
+{{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}{{- $alt := .Get "alt" -}}{{- $divClass := "" -}}
+{{- $imgClass := "object-fit" -}}
+{{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
+{{- $actualImg := $src.Resize "640x jpg" -}}
+
+{{ with .Get "caption" }}
+  <figure>
+    <picture>
+      <source
+        sizes="{{ $dataSzes }}"
+        srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}"
+        type="image/webp"
+      >
+      <source
+        sizes="{{ $dataSzes }}"
+        srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}"
+        type="image/jpeg"
+      >
+      <img 
+        alt="{{ $alt }}"
+        class="{{ $imgClass }}"
+        src="{{ $actualImg.RelPermalink }}"
+        width="{{ $src.Width }}"
+        height="{{ $src.Height }}"
+        loading="lazy"
+      >
+    </picture>
+    <figcaption>{{ . }}</figcaption>
+  </figure>
+{{ else }}
+  <picture>
+    <source sizes="{{ $dataSzes }}" srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).relpermalink }} {{ . }}w
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}" type="image/webp">
+    <source sizes="{{ $dataSzes }}" srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).relpermalink }} {{ . }}w
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}" type="image/jpeg">
+    <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+  </picture>
+{{ end }}
