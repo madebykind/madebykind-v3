@@ -38,7 +38,15 @@ collections:
           ]
         }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Author', name: 'author', widget: 'select', options: ['Jess', 'Mat', 'Michelle', 'Pam', 'Seth'], required: false }
+      - { label: 'Author', name: 'author', widget: 'select', required: false,
+          options: [
+            { label: 'Jess', value: 'jess' },
+            { label: 'Mat', value: 'mat' },
+            { label: 'Michelle', value: 'michelle' },
+            { label: 'Pam', value: 'pam' },
+            { label: 'Seth', value: 'seth' },
+          ]
+        }
       - { label: 'Illustration', hint: 'Optionally set an illustration as the card background. Always overriden by image.', name: 'illustration', widget: 'image', required: false, choose_url: false }
       - { label: 'Image', name: 'cover_img', widget: 'image', required: false, choose_url: false }
       - { 
