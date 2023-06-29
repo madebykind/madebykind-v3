@@ -17,6 +17,7 @@ intro: Rewilding Britain are the first and only country-wide organisation in
   emergency and the extinction crisis.
 featured: true
 date: 2023-06-28T11:07:38.606Z
+feature_heading: Our partnership
 feature_content: "Rewilding Britain understood that they needed a digital
   partner to not only create a digital presence but to maintain it and evolve as
   their organisation does. We’ve been delighted to work with them for almost
@@ -30,12 +31,14 @@ icon: rwb-logo
 cover_img: images/work-rewilding-britain-phone-4.jpg
 description: Engaging and influencing audiences to support rewilding areas of
   the country for the good of the environment
-feature_heading: Our partnership
 services:
   - strategy
   - digital
 ---
+
 > “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
+
+{{< figure src="../images/work-rewilding-britain-header.jpg" caption="Glen Affric estate" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
 
 ![Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white](../images/work-rewilding-britain-header.jpg)
 
