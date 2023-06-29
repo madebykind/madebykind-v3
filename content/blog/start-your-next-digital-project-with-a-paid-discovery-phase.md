@@ -12,7 +12,6 @@ description: Anyone who has taken on a digital project before knows that, even
   discovery…
 toc: true
 topics: []
-header_class: bg-pink text-claret
 featured: false
 key_topic: Research and analysis
 intro: Anyone who has taken on a digital project before knows that, even with

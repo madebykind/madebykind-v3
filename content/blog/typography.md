@@ -53,6 +53,10 @@ It’s probably important that images look okay here by default as well…
 
 ![A smiling female scientist](../images/thisisengineering.jpg "Science is great, the computers are the bestest!")
 
+Markdown does not provide a way to create figures, with captions, so that requires a shortcode, eg: 
+
+{{< figure src="../images/thisisengineering.jpg" caption="Science is great, the computers are the bestest!" >}}
+
 #### Even for lists…
 
 Now I’m going to show you an example of an unordered list to make sure that looks good, too:

@@ -4,6 +4,8 @@ title: Communicating complex issues
 date: 2021-09-08T15:09:09.931Z
 author: Michelle
 draft: false
+cover_img:
+cover_img_alt:
 services:
   - strategy
 description: A key challenge for charities and non-profit organisations is

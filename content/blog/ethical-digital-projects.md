@@ -3,8 +3,8 @@ hidden: false
 title: Creating sustainable and ethical digital products
 date: 2020-01-04T17:31:19.000Z
 author: mat
-cover_img: null
-cover_img_alt: null
+cover_img:
+cover_img_alt:
 draft: false
 description: How can we adapt our process to create usable and useful products
   that are environmentally and ethically sound?

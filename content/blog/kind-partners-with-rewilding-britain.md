@@ -5,14 +5,12 @@ cover_img_alt:
 date: 2020-01-30T11:37:00+0000
 description: All pages should have a meta description, describing the content of the page.
 draft: false
-header_class: 
 intro:
 featured: true
 services: []
 toc: false
 key_topic: Our impact
 topics: []
-header_class: bg-yellow text-blue
 title: Kind Partners With Rewilding Britain
 hidden: false
 related_pages:

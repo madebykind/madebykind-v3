@@ -4,6 +4,8 @@ title: Increasing online donations
 date: 2021-09-06T15:11:00.723Z
 author: Mat
 draft: false
+cover_img:
+cover_img_alt:
 services:
   - strategy
   - digital

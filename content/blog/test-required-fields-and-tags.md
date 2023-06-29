@@ -3,13 +3,11 @@ hidden: false
 title: Test (required fields and tags)
 date: 2023-06-19T16:16:37.612Z
 draft: true
+cover_img:
+cover_img_alt:
 description: Meta description is required!
-tags:
-  - Foo
-  - Bar
-  - Baz
-cover_img: ""
 ---
+
 Main content goes here.
 
 This is an example of how to use the blockquote shortcode

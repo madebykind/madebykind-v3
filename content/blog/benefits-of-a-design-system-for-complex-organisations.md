@@ -3,6 +3,8 @@ hidden: false
 title: Benefits of a design system for complex organisations
 date: 2021-09-02T15:19:24.478Z
 author: Mat
+cover_img:
+cover_img_alt:
 draft: false
 services:
   - digital

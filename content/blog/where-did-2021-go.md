@@ -6,13 +6,13 @@ date: 2021-12-16T16:01:00.000Z
 author: Michelle
 cover_img: images/kind-in-derbyshire.jpg
 text_colour: text-white
+cover_img_alt: Team Kind in Derbyshire.
 draft: false
-description: Sitting down to reflect on the last 12 months seems like a strange
-  task after the past couple of years.
+description: Sitting down to reflect on the last 12 months seems like a strange task after the past couple of years.
 toc: false
 featured: false
-summary: ""
-topics: []
+summary:
+topics:
 intro: Sitting down to reflect on the last 12 months seems like a strange task
   after the past couple of years. This time last year, even though the UK was on
   the brink of another bleak and unnerving lockdown, hopes were high that the
