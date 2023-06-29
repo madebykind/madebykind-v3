@@ -18,7 +18,7 @@
   <section class="container mt-20">
     <h2 class="h--condensed text-md">Insights</h2>
     <ol class="flex flex-wrap">
-      {{ range where .Pages "Params.featured" "!=" true }}
+      {{ range first 9 ( where .Pages "Params.featured" "!=" true ) }}
         <li class="w-full">
           {{ partial "teaser" . }}
         </li>
