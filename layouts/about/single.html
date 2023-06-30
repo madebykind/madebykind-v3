@@ -1,0 +1,10 @@
+{{ define "main" }}
+	<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+		{{ partial "header__page" . }}
+		<div class="container">
+			<div class="prose section--lg prose-page first:mt-10">
+				{{- .Content -}}
+			</div>
+		</div>
+	</article>
+{{ end }}
