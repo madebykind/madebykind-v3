@@ -1,6 +1,6 @@
-{{ $src := (.Params.cover_img ) }}
 {{ $alt := ( .Params.cover_img_alt ) }}
-{{ $img := resources.GetMatch (printf "**%s" ($src)) }}
+{{ $img := resources.GetMatch ($.src) }}
+{{ $src := (.Params.cover_img ) }}
 
 {{ with $img }}
 	{{ $2xl := $img.Resize "1280x jpg" }}
@@ -10,7 +10,7 @@
 	{{ $sm := $md.Resize "320x" }}
 
 	<img alt="{{ $alt }}" 
-    class="object-cover w-full h-full" 
+    class="object-cover" 
     height="{{ .Height }}" 
     loading="lazy" 
     sizes="(min-width: 100em) 48vw, 96vw" 
