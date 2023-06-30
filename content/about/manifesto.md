@@ -14,14 +14,14 @@ related_pages:
   - b-corp
 ---
 
-<div class="grid gap-10 md:grid-cols-2 lg:gap-20 section text-teal">
+<div class="grid gap-10 md:grid-cols-2 lg:gap-20 section">
 
-  {{< blockquote author="Mat Hayward" role="Founder & Partnership Director" >}}
-  “Doing the right thing isn’t easy, but when we started Kind, we decided it was the only way we wanted to do business.”
+  {{< blockquote author="Mat Hayward" avatar="Avatar-Mat.png" class="text-lg leading-tight text-teal" role="Founder & Partnership Director" >}}
+  Doing the right thing isn’t easy, but when we started Kind, we decided it was the only way we wanted to do business.
   {{</ blockquote >}}
 
-  {{< blockquote author="Michelle Pavey" role="Co-owner & Strategy Director" >}}
-  “Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out do.”
+  {{< blockquote author="Michelle Pavey" avatar="Avatar-Michelle.png" class="text-lg leading-tight text-teal" role="Co-owner & Strategy Director" >}}
+  Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out do.
   {{</ blockquote >}}
 
 </div>
