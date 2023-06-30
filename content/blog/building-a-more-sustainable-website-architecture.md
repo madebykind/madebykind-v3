@@ -5,7 +5,7 @@ card_colour: bg-teal text-blue
 date: 2021-02-16
 author: mat
 cover_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
-text_colour: text-white
+text_colour: text-buff
 cover_img_alt: A misty forest
 draft: false
 description: There are many ways we can improve the efficiency of a website,
