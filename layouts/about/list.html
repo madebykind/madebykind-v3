@@ -48,7 +48,7 @@
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
           <li>
             <article itemscope itemtype="http://schema.org/Person">      
-              {{ $xl := $author_img.Fill "920x1360 jpg" }}
+              {{ $xl := $author_img.Fill "920x1360" }}
               {{ $lg := $xl.Resize "640x" }}
               {{ $md := $lg.Resize "480x" }}
               {{ $sm := $md.Resize "320x" }}
