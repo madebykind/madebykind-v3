@@ -3,9 +3,9 @@ block_class: bg-yellow text-green
 cover_img: images/brand.jpg
 cover_img_alt: Chapter on a sofa
 date: 2020-04-30T17:28:36.948Z
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+description: We work from the ground up; from your brand foundations, personality, values all the way to the final output. A carefully crafted, cohesive, thought through brand identity, that has longevity, creativity and truly reflects who you are as an organisation.
 featured: true
-summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+summary: We work from the ground up; from your brand foundations, personality, values all the way to the final output. A carefully crafted, cohesive, thought through brand identity, that has longevity, creativity and truly reflects who you are as an organisation.
 title: Brand
 weight: 2
 hidden: false
@@ -13,5 +13,3 @@ related_work:
   - chapter
   - rivers-trust
 ---
-
-Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.

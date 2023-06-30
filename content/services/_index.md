@@ -41,4 +41,4 @@ Using the principles of User-centred Design (UCD) helps us to continually focus 
 
 ## Our offering
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt orci nec aliquam imperdiet. Vestibulum viverra pellentesque diam. Quisque facilisis eu dui et efficitur.
+We don’t do upselling or false promises, just honest and transparent advice to help your organisation do better.
