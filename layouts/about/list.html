@@ -2,26 +2,28 @@
 {{ $section := .Site.GetPage "section" .Section }}
 <section>
   {{ partial "header__landing.html" . }}
-  <section class="section bg-indigo text-buff">
-    <div class="container grid items-center gap-10 md:grid-cols-2">
+  <section class="flex flex-col justify-center h-screen section--lg bg-indigo text-buff">
+    <div class="container grid content-center gap-10 md:grid-cols-2">
       <div class="grid gap-10">
         <h2 class="h1">We do give a damn</h2>
-        <p>We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.</p>
-        <p>We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</p>
+        <div class="max-w-5xl prose lede cta_prose">
+          <p>We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.</p>
+          <p>We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</p>
+        </div>
         <div>
-        <a class="btn bg-buff text-indigo" href="/about/impact">
-          Our impact
-          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
-        </a>
+          <a class="btn bg-buff text-indigo" href="/about/impact">
+            Our impact
+            <svg class="w-12 h-4 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
         </div>
       </div>
-      <div class="flex">
-        <svg class="self-end w-48 h-48 flex-no-shrink" role="presentation">
+      <div class="flex flex-wrap items-center gap-10 lg:gap-20">
+        <svg class="w-48 h-64 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-bcorp"/>
         </svg>
-        <svg class="self-end w-48 h-48 flex-no-shrink" role="presentation">
+        <svg class="h-48 w-96 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-1fortheplanet"/>
         </svg>
       </div>
