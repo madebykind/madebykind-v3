@@ -43,73 +43,63 @@
   <section class="section">
     <div class="container grid gap-10">
       <h2 class="text-xl h--condensed">Our team of experts</h2>
-      <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-32">
+      <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:gap-32">
         {{ range $.Site.Data.authors }}
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
           <li>
-            <article class="grid gap-5" itemscope itemtype="http://schema.org/Person">      
-              {{ $xl := $author_img.Fill "460x680 jpg" }}
-              {{ $lg := $xl.Resize "480x" }}
-              {{ $md := $lg.Resize "320x" }}
+            <article itemscope itemtype="http://schema.org/Person">      
+              {{ $xl := $author_img.Fill "920x1360 jpg" }}
+              {{ $lg := $xl.Resize "640x" }}
+              {{ $md := $lg.Resize "480x" }}
+              {{ $sm := $md.Resize "320x" }}
 
               <img  
                 alt="{{ .name }}" 
-                class="" 
                 height="{{ .Height }}" 
                 loading="lazy" 
                 sizes="
-                  (min-width: 90em) 680px,
-                  (min-width: 62em) 480w,
-                  320w
-                " 
-                src="{{ $md.RelPermalink }}" 
+                  (min-width: 90em) 920px,
+                  (min-width: 62em) 640w,
+                  (min-width: 48em) 480w,
+                  100vw" 
+                src="{{ $sm.RelPermalink }}" 
                 srcset="
-                  {{ $md.RelPermalink }} 320w,
-                  {{ $lg.RelPermalink }} 480w,
-                  {{ $xl.RelPermalink }} 680w
+                  {{ $sm.RelPermalink }} 320w,
+                  {{ $md.RelPermalink }} 480w,
+                  {{ $lg.RelPermalink }} 680w,
+                  {{ $xl.RelPermalink }} 920w
                 " 
                 width="{{ .Width }}"
               />
-              <div class="flex items-center justify-between gap-5">
+              <div class="flex items-center justify-between gap-5 mt-5">
                 <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
                 <svg class="self-end w-12 h-6 flex-no-shrink" role="presentation">
                   <use xlink:href="#icon-arrow"/>
                 </svg>
               </div>
 
-              <p class="font-bold">{{ .role }}</p>
-              <div>{{ .bio | markdownify }}</div>
+              <p class="mt-2 h--condensed">{{ .role }}</p>
+              <div class="my-5">
+                {{ .bio | markdownify }}
+              </div>
               <ul>
                 {{ with .social.Linkedin }}
-                  <li>
-                    Linkedin:
-                    <a href="https://linkedin.com/{{ . }}">{{ . }}</a>
-                  </li>
+                  <li>Linkedin: <a href="https://linkedin.com/{{ . }}">{{ . }}</a></li>
                 {{ end }}
                 {{ with .social.instagram }}
-                  <li>
-                    Instagram:
-                    <a href="https://instagram.com/{{ . }}">{{ . }}</a>
-                  </li>
+                  <li>Instagram: <a href="https://instagram.com/{{ . }}">{{ . }}</a></li>
                 {{ end }}
                 {{ with .social.facebook }}
-                  <li>
-                    Facebook:
-                    <a href="https://facebook.com/{{ . }}">{{ . }}</a>
-                  </li>
+                  <li>Facebook: <a href="https://facebook.com/{{ . }}">{{ . }}</a></li>
                 {{ end }}
                 {{ with .social.github }}
-                <li>
-                  Github: <a href="https://github.com/{{ . }}">{{ . }}</a>
-                </li>
+                  <li>Github: <a href="https://github.com/{{ . }}">{{ . }}</a></li>
                 {{ end }}
                 {{ with .social.twitter }}
-                  <li>
-                    Twitter:
-                    <a href="https://Twitter.com/{{ . }}">@{{ . }}</a>
-                  </li>
+                  <li> Twitter:<a href="https://Twitter.com/{{ . }}">@{{ . }}</a></li>
                 {{ end }}
               </ul>
+  
             </article>
           </li>
         {{ end }}
