@@ -234,8 +234,9 @@ collections:
     fields:
       - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string', hint: 'You can use Markdown for styling' }
       - { label: 'Images', name: 'image', widget: 'image', required: false }
+      - { label: 'Topics', name: 'topics', widget: 'list', required: false }
       - {
           label: 'Body',
           name: 'body',
