@@ -1,5 +1,5 @@
 ---
-title: "Clients"
+title: Projects
 _build:
   render: never
 cascade:

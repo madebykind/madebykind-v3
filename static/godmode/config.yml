@@ -221,10 +221,10 @@ collections:
           hint: 'Quote content goes here.',
         }
   
-  - name: 'clients'
+  - name: 'projects'
     label: 'Project summaries'
     label_singular: 'Project summary'
-    folder: 'content/clients'
+    folder: 'content/projects'
     create: true
     editor:
       preview: false
