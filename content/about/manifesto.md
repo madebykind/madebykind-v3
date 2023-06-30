@@ -12,7 +12,6 @@ intro: >
 title: Well-worn paths are never going to lead to a better world.
 related_pages:
   - b-corp
-slug: /about/manifesto
 ---
 
 ## Let’s be clear – we’re not for everyone
