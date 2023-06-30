@@ -30,7 +30,6 @@ topics:
   - CMS integration
   - CRM integration
 ---
-
 ![A boy in a gymnasium wearing a VR headset. The Sheffield Hallam University logo is overlayed](../images/work-shu-header.jpg)
 
 ## Design principles
@@ -43,7 +42,7 @@ We started by working with the SHU team to understand the University’s strateg
 
 To ensure everyone understands the design foundations and components we created, we provided a pattern library that is maintained as the single source of truth. Within this pattern library we detailed the functional specification for each component, examples of how they could and should be used and shared the HTML code for implementing them.
 
-![](../images/work-shu-laptop.jpg)
+![Sheffield Hallam University homepage on a laptop on a wooden table](../images/work-shu-laptop.jpg)
 
 ## User-centred design
 
@@ -53,7 +52,7 @@ As with all complex organisations, SHU has a varied audience, all of which have 
 
 SHU’s need for a highly-accessible web presence aligned with our team’s value of delivering for everyone.All of the components and templates meet the AAA of WCAG 2.1 and are designed following the principles of progressive enhancement; that means starting with the minimal, accessible design, and then improving the experience along with the capability of the user’s browser, technology or preferences.
 
-![](../images/work-shu-homepage.png)
+![Mobile design for the Sheffield Hallam University homepage](../images/work-shu-homepage.png)
 
 ## Multi-platform usage
 
