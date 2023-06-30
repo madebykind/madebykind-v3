@@ -1,7 +1,8 @@
 
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
 {{- $imgBase := "images/" -}}
-{{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}{{- $alt := .Get "alt" -}}{{- $divClass := "" -}}
+{{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}
+{{- $alt := .Get "alt" -}}
 {{- $imgClass := "object-fit" -}}
 {{- $dataSizes := "(min-width: 1024px) 100vw, 50vw" -}}
 {{- $actualImg := $src.Resize "640x jpg" -}}
