@@ -14,7 +14,10 @@
   <div class="container grid gap-10 font-sans font-light prose prose-page first:mt-10">
     {{- .Content -}}
   </div>
+
   
+{{/* Disabled coz breaking builds
+
   {{ with .Params.services }}
     <section class="container mt-10 section">
       <nav class="flex flex-col gap-5">
@@ -31,6 +34,8 @@
       </nav>
     </section>
   {{ end }}
+
+*/}}
 
   {{ with .Params.related_work }}
     <aside class="container section">
