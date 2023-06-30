@@ -25,6 +25,21 @@ related_pages:
   {{</ blockquote >}}
 
 </div>
-<h2 class="h1">Let’s be clear—we’re not for everyone</div>
-<div class="lede">
-All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes. We set our standards high, so becoming a <strong>B Corporation</strong> was just a starting point—and we’re part of <strong>1% for the Planet</strong>. We understand that we can’t save the world with a brand, a strategy or a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</div>
+<section class="max-w-5xl mx-auto">
+<h2 class="h1">Let’s be clear—we’re not for everyone</h2>
+<div class="mt-10 prose lede">
+
+All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes. We set our standards high, so becoming a **B Corporation** was just a starting point—and we’re part of **1% for the Planet**. We understand that we can’t save the world with a brand, a strategy or a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.
+
+</div>
+</section>
+<section class="max-w-5xl mx-auto">
+<h2 class="h1">For the good folks</h2>
+<div class="mt-10 prose lede">
+
+The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for good.
+
+That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
+  
+</div>
+</section>
