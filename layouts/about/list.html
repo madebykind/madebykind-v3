@@ -2,7 +2,7 @@
 {{ $section := .Site.GetPage "section" .Section }}
 <section>
   {{ partial "header__landing.html" . }}
-  <section class="flex flex-col justify-center h-screen section--lg bg-indigo text-buff">
+  <section class="flex flex-col justify-center min-h-screen section--lg bg-indigo text-buff">
     <div class="container grid content-center gap-10 md:grid-cols-2">
       <div class="grid gap-10">
         <h2 class="h1">We do give a damn</h2>
@@ -26,6 +26,18 @@
         <svg class="h-48 w-96 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-1fortheplanet"/>
         </svg>
+      </div>
+    </div>
+  </section>
+  <section class="section--lg bg-teal text-blue">
+    <div class="container grid gap-10 md:grid-cols-2">
+      <div class="grid gap-10">
+
+        <h2 class="h1">Partnerships that deliver real impact</h2>
+        <div class="max-w-5xl prose lede cta_prose">
+          <p>Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else – and that means great results for you.</p>
+          <p>Our client base is 100% socially responsible and purpose-driven. By using our skills and insights, we empower and lift up these organisations. A force for good behind the scenes.</p>
+        </div>
       </div>
     </div>
   </section>
