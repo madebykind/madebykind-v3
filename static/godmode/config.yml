@@ -221,6 +221,28 @@ collections:
           hint: 'Quote content goes here.',
         }
   
+  - name: 'clients'
+    label: 'Project summaries'
+    label_singular: 'Project summary'
+    folder: 'content/clients'
+    create: true
+    editor:
+      preview: false
+    filter:  
+      field: 'hidden' 
+      value: false
+    fields:
+      - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Images', name: 'image', widget: 'image', required: false }
+      - {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'Project summary content goes here.',
+        }
+
   - name: 'work'
     editor:
       preview: false
