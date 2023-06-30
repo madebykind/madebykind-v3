@@ -14,7 +14,7 @@ related_pages:
   - b-corp
 ---
 
-<div class="grid gap-10 md:grid-cols-2 lg:gap-20 section">
+<div class="grid gap-10 md:grid-cols-2 lg:gap-20 section text-teal">
 
   {{< blockquote author="Mat Hayward" role="Founder & Partnership Director" >}}
   “Doing the right thing isn’t easy, but when we started Kind, we decided it was the only way we wanted to do business.”
@@ -25,7 +25,6 @@ related_pages:
   {{</ blockquote >}}
 
 </div>
-
-## Let’s be clear – we’re not for everyone
-
-All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes. We set our standards high, so becoming a B Corporation was just a starting point – and we’re part of 1% for the Planet. We understand that we can’t save the world with a brand, a strategy or a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.
+<h2 class="h1">Let’s be clear—we’re not for everyone</div>
+<div class="lede">
+All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes. We set our standards high, so becoming a <strong>B Corporation</strong> was just a starting point—and we’re part of <strong>1% for the Planet</strong>. We understand that we can’t save the world with a brand, a strategy or a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</div>
