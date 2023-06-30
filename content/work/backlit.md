@@ -21,6 +21,7 @@ topics:
   - Mobile-first Design
   - CMS integration
 ---
+
 > “Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.”
 
 ![Interior of Backlit Gallery with Logo overlayed](../images/work-backlit-header.jpg)

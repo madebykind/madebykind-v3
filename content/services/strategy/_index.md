@@ -7,7 +7,7 @@ description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas i
 featured: true
 summary: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
 topics: [Webperf, UX]
-title: Strategy
+title: strategy
 weight: 1
 hidden: false
 ---
