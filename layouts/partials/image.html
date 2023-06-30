@@ -1,25 +1,18 @@
-{{ $alt := ( .Params.cover_img_alt ) }}
+
 {{ $img := resources.GetMatch ($.src) }}
-{{ $src := (.Params.cover_img ) }}
 
 {{ with $img }}
-	{{ $2xl := $img.Resize "1280x jpg" }}
-	{{ $xl := $2xl.Resize "960x" }}
-	{{ $lg := $xl.Resize "640x" }}
-	{{ $md := $lg.Resize "480x" }}
-	{{ $sm := $md.Resize "320x" }}
+	{{ $2xl := $img.Fill "1200x900" }}
+	{{ $xl := $2xl.Resize "800x" }}
+	{{ $lg := $xl.Resize "600x" }}
+	{{ $md := $lg.Resize "400x" }}
+	{{ $sm := $md.Resize "300x" }}
 
-	<img alt="{{ $alt }}" 
-    class="object-cover" 
-    height="{{ .Height }}" 
-    loading="lazy" 
-    sizes="(min-width: 100em) 48vw, 96vw" 
-    src="{{ $sm.RelPermalink }}" 
-    srcset="
-      {{ $sm.RelPermalink }} 320w,
-      {{ $md.RelPermalink }} 480w,
-      {{ $lg.RelPermalink }} 640w,
-      {{ $xl.RelPermalink }} 960w,
-      {{ $2xl.RelPermalink }} 1280w" 
-    width="{{ .Width }}">
+	<img alt="{{ $.alt }}" class="{{ $.class }}" height="{{ $.maxHeight }}" loading="lazy" sizes="(min-width: 100em) 50vw, 100vw" src="{{ $sm.RelPermalink }}" srcset="
+		      {{ $sm.RelPermalink }} 300w,
+		      {{ $md.RelPermalink }} 400w,
+		      {{ $lg.RelPermalink }} 600w,
+		      {{ $xl.RelPermalink }} 800w,
+		      {{ $2xl.RelPermalink }} 1200w
+		    " width="{{ $.maxWidth }}">
 {{ end }}
