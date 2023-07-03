@@ -9,16 +9,15 @@ related_work:
 hidden: false
 title: Finding the common ground between your organisation and its audience
 card_colour: bg-pink text-blue
-date: 2023-06-22T15:40:38.551Z
+date: 2019-01-23T16:40:38.551Z
 author: mat
-cover_img: images/thisisengineering.jpg
+cover_img: ""
+text_colour: text-white
 cover_img_alt: Science is the bestest!
-services:
-  - strategy
-  - digital
+services: null
 description: How do we go about creating a digital product that works both for
   an organisation and for its users?
-featured: false
+featured: true
 key_topic: How we work
 intro: In the many years that our team have been working in the digital
   industry, we’ve found that the projects with the best outcomes are those that
