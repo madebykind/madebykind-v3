@@ -2,7 +2,7 @@
 hidden: false
 title: BBC selects Kind as digital services framework provider
 card_colour: bg-sky text-green
-date: 2023-07-03T15:25:39.141Z
+date: 2020-10-22T15:25:39.141Z
 author: michelle
 draft: false
 description: We're delighted to announce that Kind have been selected as a
