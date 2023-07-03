@@ -2,7 +2,7 @@
 hidden: false
 title: Analysing the Arts Council National Portfolio
 card_colour: bg-sky text-green
-date: 2023-07-03T16:18:30.032Z
+date: 2017-07-06T16:18:30.032Z
 draft: false
 description: ​We watched with interest last week as the Arts Council England
   announced their National Portfolio for 2018 - 2022.
