@@ -1,5 +1,6 @@
 {{ define "main" }}
-<article{{ if isset .Params "page_class"}} class="{{ .Params.page_class }}"{{ end }}>
+<article class="pb-10{{ if isset .Params " page_class"}} {{ .params.page_class }}{{ end }}">
+
   {{ partial "header__work" . }}
 
   {{ if .Params.feature_heading }}
