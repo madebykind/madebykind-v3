@@ -16,8 +16,7 @@ key_topic: Our impact
 topics:
   - Environment
 intro: null
-related_pages:
-  - ethical-digital-projects
+related_pages: []
 ---
 After the **[1% for the Planet summit in 2018](https://madebykind.com/blog/1-for-the-planet-european-summit)**, we were inspired to find a long-term charity partner to amplify the positive impact our membership has. Today, we’re pleased to announce that we have chosen to partner with **[Rewilding Britain](https://www.rewildingbritain.org.uk/)** and will be offering our support by way of monetary donations and our time and expertise.
 
@@ -33,4 +32,4 @@ In the five years since we started Kind we have donated over £7,000 to environm
 
 We hope they can make a real difference.
 
-<small>Photo credits: <a href="http://scotlandbigpicture.com" target="_blank">scotlandbigpicture.com</a>, <a href="https://www.benporterwildlife.co.uk/" target="_blank">Ben Porter</a></small>
+<small>Photo credit: <a href="http://scotlandbigpicture.com" target="_blank">scotlandbigpicture.com</a>, <a href="https://www.benporterwildlife.co.uk/" target="_blank">Ben Porter</a></small>
