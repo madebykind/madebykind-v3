@@ -3,6 +3,7 @@ hidden: false
 title: Access all areas
 card_colour: bg-sky text-green
 date: 2023-07-03T15:21:16.220Z
+author: seth
 draft: false
 description: Experienced web developers ensure that accessibility is baked into
   everything they do because it’s the right thing to do, and the right way to do
