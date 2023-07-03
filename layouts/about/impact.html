@@ -35,8 +35,8 @@
       </div>
     </div>
 		<div class="container">
-			<div class="prose prose-page first:mt-10">
-				<section class="grid gap-10 md:grid-cols-2 section--lg">
+			<div class="first:mt-10">
+				<section class="grid gap-10 prose md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "md:order-1"
@@ -63,7 +63,7 @@
             </div>
           </div>
         </section>
-        <section class="grid gap-10 md:grid-cols-2 section--lg">
+        <section class="grid gap-10 prose md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" ""
@@ -91,14 +91,14 @@
               <li>consider all stakeholders (not just shareholders) when making business decisions. These stakeholders include our team, our suppliers, the environment and society as a whole.</li>
             </ul>
             <p>To certify, B Corporations are required to go through a “B Impact Assessment” and gain a score of over 80 points, verified by B Lab analysts.
-	<a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a>.</p>
+	          <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a>.</p>
             <p>Additionally, B Lab found that Kind has an Impact Business Model due to our support for purpose-driven enterprises. A company with an Impact Business Model is intentionally designed to create a specific positive outcome for one its stakeholders.</p>
             <h3>What else can we do?</h3>
             <p>B Impact Assessments happen every 3 years, and we’re in the process of making improvements to our business that will hopefully increase our score and, more importantly, increase our positive impact.</p>
             </div>
           </div>
         </section>
-        <section class="grid gap-10 md:grid-cols-2 section--lg">
+        <section class="grid gap-10 prose md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "md:order-1"
@@ -140,8 +140,8 @@
           </div>
         </section>
         <section>
-          <h2>The impact of our activity</h2>
-          <ul class="list-none">
+          <h2 class="h--condensed">The impact of our activity</h2>
+          <ul class="mt-5 list-none">
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
                 <article class="pb-5 font-sans prose border-b">
