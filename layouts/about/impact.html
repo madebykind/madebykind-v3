@@ -119,12 +119,12 @@
         </section>
         <section>
           <h2>The impact of our activity</h2>
-          <ul>
+          <ul class="list-none">
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
-                <article class="font-sans prose">
+                <article class="pb-5 font-sans prose border-b">
                   <div class="flex justify-between">
-                    <h3 class="font-serif">{{ .Title }}</h3>
+                    <h3>{{ .Title }}</h3>
                     <button data-toggle data-target="#{{ .Title | anchorize }}_body">
                       <div class="absolute h--ui">Show hidden content</div>
                       <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
