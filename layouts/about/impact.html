@@ -4,7 +4,7 @@
 
     <div class="bg-blue text-teal section">
       <div class="container">
-        <h2 class="h--ui">Key impacts</h2>
+        <h2 class="sr-only">Key impacts</h2>
         <ul class="grid grid-cols-3 gap-10 md:grid-cols-6">
           <li>
             <svg class="w-auto h-full flex-no-shrink" role="presentation">
@@ -37,7 +37,41 @@
     
 		<div class="container">
 			<div class="prose prose-page first:mt-10">
-				{{- .Content -}}
+				<div class="grid gap-10 md:grid-cols-2 section--lg">
+          {{ partial "image" (dict 
+            "alt" "Mat and Michelle, standing by the bureaux and smiling."
+            "class" "object-cover h-full w-full md:order-1"
+            "src" "/images/mat-and-michelle.jpg" 
+          ) }}
+          <div>
+            <h2 class="mb-5 text-xl">We’re climate positive</h2>
+            <p>Being certified as Climate Positive means an organisation has gone beyond achieving “Net Zero” and instead creates an environmental benefit by removing additional greenhouse gases from the atmosphere, not just those that it emits.</p>
+            <p>Kind is a climate positive business and have taken the step to balance twice our greenhouse gas emissions since 2014 (when we were founded).</p>
+          </div>
+        </div>
+        <div class="grid gap-10 md:grid-cols-2 section--lg">
+          {{ partial "image" (dict 
+            "alt" "Mat and Michelle, standing by the bureaux and smiling."
+            "class" "object-cover h-full w-full"
+            "src" "/images/mat-and-michelle.jpg" 
+          ) }}
+          <div>
+            <h2 class="mb-5 text-xl">Certified B Corporation</h2>
+            <p>Kind recently certified as a B Corporation - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
+          </div>
+        </div>
+        <div class="grid gap-10 md:grid-cols-2 section--lg">
+          {{ partial "image" (dict 
+            "alt" "Mat and Michelle, standing by the bureaux and smiling."
+            "class" "object-cover h-full w-full md:order-1"
+            "src" "/images/mat-and-michelle.jpg" 
+          ) }}
+          <div>
+            <h2 class="mb-5 text-xl">Our charity partnerships</h2>
+            <p>Kind have been members of 1% for the Planet since 2017 which requires us to donate a minimum of 1% of our turnover to environmental causes.</p>
+            <p>In 2019 we selected Rewilding Britain as our environmental charity partner and pledged the majority of our 1% donations to their cause.</p>
+          </div>
+        </div>
 			</div>
 		</div>
 	</article>
