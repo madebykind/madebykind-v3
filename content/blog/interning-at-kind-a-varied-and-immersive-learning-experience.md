@@ -1,13 +1,11 @@
 ---
 hidden: false
-title: Making the most of an internship
+title: "Interning at Kind: a varied and immersive learning experience"
 card_colour: bg-sky text-green
 date: 2019-05-14T15:53:20.072Z
 author: michelle
 draft: false
-description: If you have read any of our previous blogs you will know that we
-  are pretty keen on opening the door to the creative industry and helping
-  people develop their skills.
+description: "In this post, Priyanca shares her main takeaways from her time at Kind. "
 toc: false
 featured: false
 intro: "In this post, Priyanca shares her main takeaways from her time at Kind. "
