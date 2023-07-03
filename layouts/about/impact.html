@@ -39,7 +39,7 @@
 				<section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
-            "class" "object-cover h-full w-full md:order-1"
+            "class" "md:order-1"
             "src" "/images/mat-and-michelle.jpg" 
           ) }}
           <div>
@@ -66,7 +66,7 @@
         <section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
-            "class" "object-cover h-full w-full"
+            "class" ""
             "src" "/images/mat-and-michelle.jpg" 
           ) }}
           <div>
@@ -84,16 +84,24 @@
                 </p>
               </div>
             </button>
-            <div id="bcorp" class="mt-10">
-              <p>Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.</p>
+            <div id="bcorp" class="mt-10 prose">
+            <p>B Corporation certification legally requires us to:</p>
+            <ul>
+              <li>create a material positive impact on society and the environment through our business operation</li>
+              <li>consider all stakeholders (not just shareholders) when making business decisions. These stakeholders include our team, our suppliers, the environment and society as a whole.</li>
+            </ul>
+            <p>To certify, B Corporations are required to go through a “B Impact Assessment” and gain a score of over 80 points, verified by B Lab analysts.
+	<a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a>.</p>
+            <p>Additionally, B Lab found that Kind has an Impact Business Model due to our support for purpose-driven enterprises. A company with an Impact Business Model is intentionally designed to create a specific positive outcome for one its stakeholders.</p>
+            <h3>What else can we do?</h3>
+            <p>B Impact Assessments happen every 3 years, and we’re in the process of making improvements to our business that will hopefully increase our score and, more importantly, increase our positive impact.</p>
             </div>
-
           </div>
         </section>
         <section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
-            "class" "object-cover h-full w-full md:order-1"
+            "class" "md:order-1"
             "src" "/images/mat-and-michelle.jpg" 
           ) }}
           <div>
@@ -113,7 +121,21 @@
               </div>
             </button>
             <div id="charity-partnerships" class="mt-10">
-              <p>Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.</p>
+              <p>We've also been members of the
+                <a href="https://sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
+                since 2018, supporting their work to end sewage and plastic pollution in our oceans.</p>
+              <p>Over the last three financial years, we have donated 28% of our profits and 136 hours of our times to charitable causes. That equates to a donated value of more than £15,000.</p>
+              <p>Since 2014, our donated value is more than £23,000.</p>
+              <div class="flex flex-wrap items-start -mx-4">
+                <div class="w-full p-4 md:w-1/2">
+                  <div class="text-2xl md:text-4xl font-display">£23k</div>
+                  <div class="leading-snug uppercase text-md md:text-lg text-grey">Donated value since 2014</div>
+                </div>
+                <div class="w-full p-4 md:w-1/2">
+                  <div class="text-2xl md:text-4xl font-display">28%</div>
+                  <div class="leading-snug uppercase text-md md:text-lg text-grey">of profits donated to charity</div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -123,17 +145,17 @@
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
                 <article class="pb-5 font-sans prose border-b">
-                  <div class="flex justify-between">
-                    <h3>{{ .Title }}</h3>
-                    <button data-toggle data-target="#{{ .Title | anchorize }}_body">
-                      <div class="absolute h--ui">Show hidden content</div>
+          
+                    <button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+                      <h3>{{ .Title }}</h3>
+                      <div class="absolute right-24 h--ui">Show hidden content</div>
                       <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
-                      <svg class="w-8 h-8" role="presentation">
-                        <use xlink:href="#icon-arrow-down"/>
-                      </svg>
+                        <svg class="w-8 h-8" role="presentation">
+                          <use xlink:href="#icon-arrow-down"/>
+                        </svg>
                       </div>
                     </button>
-                  </div>
+    
                   <div id="{{ .Title | anchorize }}_body" class="mt-10 text-md">
                     {{ .Content }}
                   </div>
