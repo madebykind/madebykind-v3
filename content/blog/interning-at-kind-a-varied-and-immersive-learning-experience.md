@@ -1,8 +1,8 @@
 ---
 hidden: false
-title: "Interning at Kind: a varied and immersive learning experience"
+title: Making the most of an internship
 card_colour: bg-sky text-green
-date: 2023-07-03T15:53:20.072Z
+date: 2019-05-14T15:53:20.072Z
 author: michelle
 draft: false
 description: If you have read any of our previous blogs you will know that we
@@ -10,33 +10,30 @@ description: If you have read any of our previous blogs you will know that we
   people develop their skills.
 toc: false
 featured: false
+intro: "In this post, Priyanca shares her main takeaways from her time at Kind. "
 ---
-If you have read any of our previous blogs you will know that we are pretty keen on opening the door to the creative industry and helping people develop their skills.
+I saw the internship at Kind as an opportunity to apply skills and interests I’d pursued independently to real tasks in an agency where you can get feedback on your work from people who understand the field.
 
-During the summer of 2017, we had a wonderful intern join us for 6 weeks. Curtis was proactive, using his initiative and passion for design to contact our Head of Design, Chris Bailey, to kickstart an internship. During his time with Kind, he worked closely with the team to build his skill set and soak up any knowledge he could from a creative agency. 
+I read the [case studies](https://madebykind.com/case-studies) on the Kind website and wanted to see first-hand how the five person team designed, developed and delivered excellent websites to their clients. 
 
-{{< blockquote author="Curtis Lee" >}}
-Designing at Kind was my first proper internship, after meeting Chris Bailey at DXN. Talking about his process, principles of design, colour theory and typography hugely inspired my work and what I am doing now.
-{{</ blockquote >}}
+### Down-to-earth expertise
 
-After this internship, he continued his studies in design at Nottingham College, fast forward two years and he has almost completed his course. We were thrilled when Curtis came back and asked us to host his end of year design showcase for him. For us, it was really great to see a rewarding outcome for a young person who had worked hard to progress his career and we were really pleased to be a small part of his journey. 
+Each individual at Kind is highly skilled and experienced in their field whilst also being highly approachable. People are happy to talk through their work, past projects and the challenges they face. The openness and transparency at Kind really make a difference if you’re there for a short time because they make you feel comfortable asking questions. Each morning, we had a stand-up where we talk about what we’ve done, our progress and what we plan to do for the day.
 
-{{< blockquote author="Chris Bailey" role="Kind">}}
-Curtis has been a pleasure to mentor. To his credit, he approached me after I gave a lecture at his college and our friendship has grown from there. His passion, drive and enthusiasm have inspired me and seeing him progress has been humbling. He’s already secured himself a full-time position before fully leaving education and that speaks volumes about his work ethic and character.
-{{</ blockquote >}}
+On day one, I spoke to each person one-to-one and found out about their individual roles and responsibilities at Kind. For example, Sam (the front-end developer) took the time to explain and demonstrate the merits of [Craft CMS and the limitations of WordPress](https://madebykind.com/thinking/why-you-should-be-considering-craft-over-wordpress). I also learnt how to quickly assess the accessibility of webpages. 
 
-On Thursday 2nd May, Kind and Nottingham College invited a number of creative professionals from across the city to join us to view Curtis’ work and celebrate with him. We were lucky to be joined by Curtis’s family, friends and people from UniDays, JH, Page+Looker, Isaac Powell Design, Studio Seventeen, Nottingham College and CPMG. Thank you to everyone that came along! 
+People are very happy to share resources, advice and what they have learnt from their many years working in an industry or with a particular programme. Inspired by the designers, beyond my internship I would like to continue improving my skills with Adobe XD. 
 
-### What did we learn from this internship?
+### Super-inclusive and empathetic
 
-Internships are about way more than having someone make the tea. When you get the right person join you with the right attitude, you are not only giving something back to someone who needs help but you gain so much in return.
+As a person with a disability, a source of anxiety when approaching a new workplace is how people respond to you and your condition. The emphasis on accessibility when Kind builds and designs websites extends to the working environment fostered at Kind which is super welcoming and inclusive. I feel comfortable using assistive technology in the office and sharing my experiences of digital accessibility.
 
-A proactive and committed approach is necessary from both the intern and the person responsible for them. When both are fully invested as Curtis and Chris were, it makes for a very productive internship and consequently a great relationship between designers. 
+In my first week, I met a [former intern at Kind](https://madebykind.com/blog/making-the-most-of-an-internship). Finding out how Kind supported him to develop his skills and inspired his career has only reinforced my experience of people being super helpful and happy to open up the creative industries to people from all backgrounds. 
 
-It doesn’t matter whether an intern joins you for a week, a month or a year, keeping the point of contact open is beneficial for both the intern and yourself and can leave room for great future collaborations. 
+### Varied and immersive learning experience
 
-### And finally...
+I really appreciate how structured my placement has been because it has mobilised me to make the most of the time at Kind. I was exposed to different areas of web design and development, marketing and agency life. This is a reflection of Michelle (Kind’s Head of Marketing and Strategy) and her exceptional organisation and management skills.
 
-Thank you to Curtis for being a brilliant intern, inspiring our team to continue to invest time in helping others and for celebrating your achievements with us. We cannot wait to follow your design journey and wish you every success going forward!
+Each day, I had a clear idea of what to do and how to get it done. I was given the space to learn and work independently while also feeling welcome to ask different people for their feedback or interpretation. Every day I left the office having learnt new skills or deepening my understanding and awareness. It has been an internship of many firsts! For example, when I created a prototype I was happy to show Chris, Kind’s Head of Design and ask for constructive feedback and recommendations on how to make the design more usable and the actions more explicit. 
 
-You can follow Curtis’s work on [Instagram](https://www.instagram.com/that_boy_curt/), [Dribbble](https://dribbble.com/Curtis_A_Lee) or [Twitter](https://twitter.com/CurtisLee97)
+The work has been varied, thought-provoking and fun. From analytical digital marketing reports to event management to reviewing user needs and planning user flows. If you get the opportunity to work with or for Kind, I would certainly recommend them.
