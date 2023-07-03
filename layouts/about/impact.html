@@ -34,10 +34,9 @@
         </ul>
       </div>
     </div>
-    
 		<div class="container">
 			<div class="prose prose-page first:mt-10">
-				<div class="grid gap-10 md:grid-cols-2 section--lg">
+				<section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "object-cover h-full w-full md:order-1"
@@ -47,9 +46,24 @@
             <h2 class="mb-5 text-xl">We’re climate positive</h2>
             <p>Being certified as Climate Positive means an organisation has gone beyond achieving “Net Zero” and instead creates an environmental benefit by removing additional greenhouse gases from the atmosphere, not just those that it emits.</p>
             <p>Kind is a climate positive business and have taken the step to balance twice our greenhouse gas emissions since 2014 (when we were founded).</p>
+            <button class="mt-5" data-toggle data-target="#climate-positive">
+              <div class="flex items-center gap-2.5 font-sans">
+                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
+                  <svg class="w-8 h-8" role="presentation">
+                    <use xlink:href="#icon-arrow-down"/>
+                  </svg>
+                </div>
+                <p>Read more
+                <span class="h--ui">about We're climate positive</span>
+                </p>
+              </div>
+            </button>
+            <div id="climate-positive" class="mt-10">
+              <p>Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.</p>
+            </div>
           </div>
-        </div>
-        <div class="grid gap-10 md:grid-cols-2 section--lg">
+        </section>
+        <section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "object-cover h-full w-full"
@@ -58,9 +72,25 @@
           <div>
             <h2 class="mb-5 text-xl">Certified B Corporation</h2>
             <p>Kind recently certified as a B Corporation - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
+            <button class="mt-5" data-toggle data-target="#bcorp">
+              <div class="flex items-center gap-2.5 font-sans">
+                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
+                  <svg class="w-8 h-8" role="presentation">
+                    <use xlink:href="#icon-arrow-down"/>
+                  </svg>
+                </div>
+                <p>Read more
+                  <span class="h--ui">about Certified B Corporation</span>
+                </p>
+              </div>
+            </button>
+            <div id="bcorp" class="mt-10">
+              <p>Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.</p>
+            </div>
+
           </div>
-        </div>
-        <div class="grid gap-10 md:grid-cols-2 section--lg">
+        </section>
+        <section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "object-cover h-full w-full md:order-1"
@@ -70,8 +100,48 @@
             <h2 class="mb-5 text-xl">Our charity partnerships</h2>
             <p>Kind have been members of 1% for the Planet since 2017 which requires us to donate a minimum of 1% of our turnover to environmental causes.</p>
             <p>In 2019 we selected Rewilding Britain as our environmental charity partner and pledged the majority of our 1% donations to their cause.</p>
+            <button class="mt-5" data-toggle data-target="#charity-partnerships">
+              <div class="flex items-center gap-2.5 font-sans">
+                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
+                  <svg class="w-8 h-8" role="presentation">
+                    <use xlink:href="#icon-arrow-down"/>
+                  </svg>
+                </div>
+                <p>Read more
+                  <span class="h--ui">about Our charity partnerships</span>
+                </p>
+              </div>
+            </button>
+            <div id="charity-partnerships" class="mt-10">
+              <p>Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.</p>
+            </div>
           </div>
-        </div>
+        </section>
+        <section>
+          <h2>The impact of our activity</h2>
+          <ul>
+            {{ range where site.RegularPages "Section" "impacts" }}
+              <li>
+                <article class="font-sans prose">
+                  <div class="flex justify-between">
+                    <h3 class="font-serif">{{ .Title }}</h3>
+                    <button data-toggle data-target="#{{ .Title | anchorize }}_body">
+                      <div class="absolute h--ui">Show hidden content</div>
+                      <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+                      <svg class="w-8 h-8" role="presentation">
+                        <use xlink:href="#icon-arrow-down"/>
+                      </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div id="{{ .Title | anchorize }}_body" class="mt-10 text-md">
+                    {{ .Content }}
+                  </div>
+                </article>
+              </li>
+            {{ end }}
+          </ul>
+        </section>
 			</div>
 		</div>
 	</article>
