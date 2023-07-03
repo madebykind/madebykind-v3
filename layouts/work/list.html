@@ -7,7 +7,7 @@
   </nav>
   <ol class="container grid gap-10 lg:grid-cols-12 section lg:gap-20">
 	  {{ range .Pages }}
-		  <li class="col-span-full lg:col-span-6 xl:col-span-4">
+      <li class="col-span-full lg:col-span-6 xl:col-span-4"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
         {{ partial "card_work" . }}
       </li>
     {{ end }}

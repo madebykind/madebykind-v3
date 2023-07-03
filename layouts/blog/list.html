@@ -9,7 +9,7 @@
     <h2 class="sr-only">Featured posts</h2>
     <ol class="grid grid-cols-12 gap-10 section lg:gap-20">
       {{ range first 6 ( where .Pages "Params.featured" "==" true ) }}
-        <li class="col-span-full lg:col-span-6 xl:col-span-4">
+        <li class="col-span-full lg:col-span-6 xl:col-span-4"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
           {{ partial "card" . }}
         </li>
       {{ end }}
@@ -19,7 +19,7 @@
     <h2 class="h--condensed text-md">Insights</h2>
     <ol class="flex flex-wrap">
       {{ range first 9 ( where .Pages "Params.featured" "!=" true ) }}
-        <li class="w-full">
+        <li class="w-full"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
           {{ partial "teaser" . }}
         </li>
       {{ end }}

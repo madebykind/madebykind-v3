@@ -2,7 +2,7 @@
 <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
 	{{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
 		<li>
-			<a href="{{ .Page.Permalink }}">
+      <a href="{{ .Page.Permalink }}" data-topic-filter="{{ .Page.Title | anchorize }}">
 				{{ title .Page.Title }}
 			</a>
 			<sup class="sr-only">{{ .Count }}</sup>
