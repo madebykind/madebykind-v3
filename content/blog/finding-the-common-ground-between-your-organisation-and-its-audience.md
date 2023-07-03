@@ -13,7 +13,7 @@ date: 2019-01-23T16:40:38.551Z
 author: mat
 cover_img: ""
 text_colour: text-white
-cover_img_alt: Science is the bestest!
+cover_img_alt: ""
 services: null
 description: How do we go about creating a digital product that works both for
   an organisation and for its users?
