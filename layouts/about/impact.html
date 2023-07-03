@@ -1,0 +1,44 @@
+{{ define "main" }}
+	<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+		{{ partial "header__page" . }}
+
+    <div class="bg-blue text-teal section">
+      <div class="container">
+        <h2 class="h--ui">Key impacts</h2>
+        <ul class="grid grid-cols-3 gap-10 md:grid-cols-6">
+          <li>
+            <svg class="w-auto h-full flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-bcorp"/>
+            </svg>
+          </li>
+          <li class="flex flex-col gap-5">
+            <div class="h1">2014</div>
+            <p>Climate positive since day one</p>
+          </li>
+          <li class="flex flex-col gap-5">
+            <div class="h1">0%</div>
+            <p>Gender pay gap</p>
+          </li>
+          <li class="flex flex-col gap-5">
+            <div class="h1">100%</div>
+            <p>Socially-responsible client base</p>
+          </li>
+          <li class="flex flex-col gap-5">
+            <div class="h1">28%</div>
+            <p>of profits donated to charities</p>
+          </li>
+          <li class="flex flex-col gap-5">
+            <div class="h1">50%</div>
+            <p>Female owned business</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+		<div class="container">
+			<div class="prose prose-page first:mt-10">
+				{{- .Content -}}
+			</div>
+		</div>
+	</article>
+{{ end }}
