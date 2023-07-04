@@ -12,6 +12,7 @@ intro: Organic gardening can boost the environment and sustainability, and
   organic way’.
 description: See how Kind helped Garden Organic launch their updated brand
   through a new website and CRM integration.
+icon: garden-organic-logo
 services:
   - digital
 topics:
