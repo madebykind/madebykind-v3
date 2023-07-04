@@ -1,5 +1,4 @@
 ---
-hidden: false
 title: "2019: The year we rebuilt and refocused"
 card_colour: bg-sky text-green
 date: 2020-01-06T16:41:45.156Z
