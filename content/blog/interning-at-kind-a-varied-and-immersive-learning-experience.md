@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 title: "Interning at Kind: a varied and immersive learning experience"
 card_colour: bg-sky text-green
 date: 2019-05-14T15:53:20.072Z
