@@ -1,4 +1,4 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} grid min-h-screen section">
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} grid min-h-screen section snap-start">
   <div class="container grid gap-10">
     <div class="grid items-center gap-10 md:grid-cols-2">
       <div id="content" class="grid col-span-1 gap-15">
@@ -9,7 +9,7 @@
           </div>
         {{ end }}
         {{ if isset .Params "cta" }}
-          <div class="flex flex-wrap gap-5">
+          <div class="flex flex-wrap gap-5 lg:gap-10">
               <a class="btn btn--primary" href="{{ .Params.ctaLink }}">
                 {{ title .Params.Cta }}
                 <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">

@@ -1,5 +1,5 @@
 {{ if .Params.cta3Title }}
-<div class="flex flex-col justify-center min-h-screen section--lg">
+<div class="flex flex-col justify-center min-h-screen snap-start section--lg">
   <div class="container grid gap-10">
     <div class="grid items-center gap-10 md:grid-cols-2">
       <div id="content" class="grid col-span-1 gap-15">
@@ -9,24 +9,22 @@
             <p>{{ . | markdownify }}</p>
           </div>
         {{ end }}
-        {{ if isset .Params "cta3" }}
-          <div class="flex flex-wrap gap-5">
-              <a class="btn btn--primary" href="{{ .Params.cta3Link }}">
-                {{ title .Params.cta3 }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ if isset .Params "cta4" }}
-              <a class="btn btn--secondary" href="{{ .Params.cta4Link }}">
-                {{ title .Params.cta4 }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ end }}
-          </div>
-        {{ end }}
+        <div class="flex flex-wrap gap-5 lg:gap-10">
+            <a class="btn btn--primary" href="{{ .Params.cta3Link }}">
+              {{ title .Params.cta3 }}
+              <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                <use xlink:href="#icon-arrow"/>
+              </svg>
+            </a>
+          {{ if isset .Params "cta4" }}
+            <a class="btn btn--secondary" href="{{ .Params.cta4Link }}">
+              {{ title .Params.cta4 }}
+              <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                <use xlink:href="#icon-arrow"/>
+              </svg>
+            </a>
+          {{ end }}
+        </div>
       </div>
 
       {{ if .Params.cta_img }}
