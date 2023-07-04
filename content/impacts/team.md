@@ -13,6 +13,6 @@ title: Team
 <ul><li>Hybrid working and flexible hours</li>
 <li>Unlimited holiday allowance that we encourage our team to make use of</li>
 <li>A team summer trip which includes positive impact activities</li></ul>
-<h2>What else can we do?</h2>
+<h3>What else can we do?</h3>
 <ul><li>Find an ethical medical insurance supplier</li>
 <li>Address the current lack of diversity within the team</li></ul>
