@@ -51,7 +51,7 @@
             {{- with $respSizes -}}
               {{- range $i, $e := . -}}
                 {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).relpermalink }} {{ . }}w
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
                 {{- end -}}
               {{- end -}}
             {{- end -}}" type="image/webp">
@@ -59,7 +59,7 @@
             {{- with $respSizes -}}
               {{- range $i, $e := . -}}
                 {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).relpermalink }} {{ . }}w
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
                 {{- end -}}
               {{- end -}}
             {{- end -}}" type="image/jpeg">
