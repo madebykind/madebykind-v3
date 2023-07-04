@@ -1,7 +1,7 @@
 let filters;
 let filterableItems;
 let hiddenClasses = ["hidden"];
-let activeClasses = ["active", "test"];
+let activeClasses = ["active", "before:bg-orange"];
 
 function initFilter(el, filter) {
   
