@@ -1,11 +1,10 @@
 {{ define "main" }}
-<section class="pb-10">
   {{ partial "header__list.html" . }}
-  <nav class="container grid gap-5 section">
+  <nav class="container grid gap-5 section snap-start">
     <h2 class="h--condensed">Filter by topic</h2>
     {{ partial "topic-filters" . }}
   </nav>
-  <section class="container">
+  <section class="container snap-start">
     <h2 class="sr-only">Featured posts</h2>
     <ol class="grid grid-cols-12 gap-10 section lg:gap-20">
       {{ range first 6 ( where .Pages "Params.featured" "==" true ) }}
@@ -25,5 +24,4 @@
       {{ end }}
     </ol>
   </section>
-</section>
 {{ end }}
