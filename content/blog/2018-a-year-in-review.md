@@ -4,7 +4,7 @@ card_colour: bg-sky text-green
 date: 2018-12-19T17:05:37.525Z
 author: mat
 draft: false
-hidden: true
+listed: false
 description: With the year almost over, I thought I'd take a look at some of my
   favourite things that have happened at Kind this year.
 toc: false

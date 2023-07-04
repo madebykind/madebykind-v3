@@ -5,5 +5,5 @@ menu: main
 title: Insights from our expert team
 linktitle: Insights
 weight: 4
-hidden: true
+listed: false
 ---

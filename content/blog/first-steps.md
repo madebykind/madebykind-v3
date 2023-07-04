@@ -4,7 +4,7 @@ card_colour: bg-sky text-green
 date: 2017-01-23T17:20:16.842Z
 author: mat
 draft: false
-hidden: true
+listed: false
 description: In my previous post ​I announced Kind's resolutions for 2017 and
   we're already making progress.
 toc: false

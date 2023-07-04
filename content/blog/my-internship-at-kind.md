@@ -1,5 +1,5 @@
 ---
-hidden: true
+listed: false
 title: My internship at Kind
 card_colour:
   label: Blue on teal
