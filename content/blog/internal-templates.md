@@ -6,7 +6,7 @@ date: 2020-01-04T17:31:19Z
 description:
 draft: true
 hidden: true
-listed: false
+unlisted: true
 intro: A demo of Hugo's internal templates.
 topics: []
 title: "Internal Templates"

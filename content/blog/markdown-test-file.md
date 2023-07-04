@@ -6,7 +6,7 @@ title: Markdown test file
 date: 2020-04-24T10:48:46.000Z
 draft: true
 hidden: true
-listed: false
+unlisted: true
 topics: [Markdown,Demo content]
 toc: true
 description: Everything you need to know about Markdown.

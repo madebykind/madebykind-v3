@@ -4,7 +4,7 @@ card_colour: bg-sky text-green
 date: 2020-01-06T16:41:45.156Z
 author: mat
 draft: false
-listed: false
+unlisted: true
 description: Every New Year I sit down to make an honest assessment of the past
   12 months at Kind and think about our priorities for the year ahead.
 toc: false
