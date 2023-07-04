@@ -1,6 +1,6 @@
 ---
 title: Creating a sustainable design system to improve the efficiency of digital
-  projects.
+  projects
 draft: false
 date: 2023-06-28T13:59:11.952Z
 cover_img: images/work-shu-runner.jpg
@@ -19,9 +19,6 @@ feature_content: In 2018, SHU appointed Kind as a digital partner, tasking us
   digital platforms, as well as collaborating on all of their digital projects,
   they asked us to lead in creating a sustainable design system for their online
   properties.
-icon: shu-logo
-services:
-  - digital
 topics:
   - Research and analysis
   - Technical consultancy
@@ -30,20 +27,27 @@ topics:
   - Design Systems
   - CMS integration
   - CRM integration
+icon: shu-logo
+services:
+  - digital
 ---
-![A boy in a gymnasium wearing a VR headset. The Sheffield Hallam University logo is overlayed](../images/work-shu-header.jpg)
+{{< blockquote author="Sheffield Hallam University Mission" >}}
+We transform lives. We shape our students' futures, preparing them for whatever they choose to do, and create knowledge that provides practical solutions to real world challenges.
+{{</ blockquote >}}
+
+{{< figure src="../images/work-shu-header.jpg" alt="A boy in a gymnasium wearing a VR headset. The Sheffield Hallam University logo is overlayed" >}}
 
 ## Design principles
 
 We started by working with the SHU team to understand the University’s strategy, brand and how we should reflect that through the visual language we would be creating with a design system. Based on this we came up with four design principles that ensure consistency during the design process of new components or when making improvements to existing ones.
 
-![](../images/work-shu-protestor-2.jpg)
+{{< figure src="../images/work-shu-protester-2.jpg" alt="A girl holding a cardboard placard stating 'The Time is Now'. There is a painted picture of the earth in the centre of the placard" >}}
 
 ## Living pattern library
 
 To ensure everyone understands the design foundations and components we created, we provided a pattern library that is maintained as the single source of truth. Within this pattern library we detailed the functional specification for each component, examples of how they could and should be used and shared the HTML code for implementing them.
 
-![Sheffield Hallam University homepage on a laptop on a wooden table](../images/work-shu-laptop.jpg)
+{{< figure src="../images/work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
 
 ## User-centred design
 
@@ -53,7 +57,7 @@ As with all complex organisations, SHU has a varied audience, all of which have 
 
 SHU’s need for a highly-accessible web presence aligned with our team’s value of delivering for everyone.All of the components and templates meet the AAA of WCAG 2.1 and are designed following the principles of progressive enhancement; that means starting with the minimal, accessible design, and then improving the experience along with the capability of the user’s browser, technology or preferences.
 
-![Mobile design for the Sheffield Hallam University homepage](../images/work-shu-homepage.png)
+{{< figure src="../images/work-shu-homepage.jpg" alt="Mobile design for the Sheffield Hallam University homepage" >}}
 
 ## Multi-platform usage
 

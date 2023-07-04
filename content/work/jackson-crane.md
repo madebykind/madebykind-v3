@@ -11,11 +11,11 @@ intro: Jackson-Crane Architects we founded by David Jackson-Crane in 2017, as a
 key_stat: null
 description: Bringing focus to a sustainable architecture and interior design practice.
 summary: null
+topics:
+  - Research and analysis
 icon: jackson-crane-logo
 services:
   - strategy
-topics:
-  - research and analysis
 ---
 > “Our mission is to create sustainable, environmentally conscious and high performing architectural and interior design for like-minded, progressive clients and to exceed expectations on each project”
 
