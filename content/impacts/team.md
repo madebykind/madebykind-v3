@@ -2,6 +2,7 @@
 date: 2020-04-24T11:48:46+01:00
 icon:
 title: Team
+weight: 3
 ---
 
 <p>We are a Living Wage Employer. Although all of our team are paid at least twice the living wage, we decided to register as a Living Wage Employer to ensure that our interns are paid fairly too, even though they don’t contribute to project work.</p>
