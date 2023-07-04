@@ -21,4 +21,9 @@ intro: >
   The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for good.
 
   That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
+related_stats:
+  - climate-positive
+  - pay-gap
+  - socially-reponsible
+  - charity-donations
 ---
