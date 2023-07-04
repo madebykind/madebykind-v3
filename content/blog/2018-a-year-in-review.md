@@ -1,5 +1,4 @@
 ---
-hidden: false
 title: 2018 - A year in review
 card_colour: bg-sky text-green
 date: 2018-12-19T17:05:37.525Z
