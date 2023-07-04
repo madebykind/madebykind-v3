@@ -8,6 +8,7 @@ topics:
 related_work:
   - chapter
   - rivers-trust
+title: A platform to inspire rewilding projects across the country
 cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
   mobile is on the ground in the woods
 block_class: bg-pink text-claret
@@ -17,26 +18,26 @@ intro: Rewilding Britain are the first and only country-wide organisation in
   emergency and the extinction crisis.
 featured: true
 date: 2023-06-28T11:07:38.606Z
-feature_heading: Our partnership
+cover_img: images/work-rewilding-britain-phone-4.jpg
+key_stat:
+  - 149-percent
+description: Engaging and influencing audiences to support rewilding areas of
+  the country for the good of the environment
 feature_content: "Rewilding Britain understood that they needed a digital
   partner to not only create a digital presence but to maintain it and evolve as
   their organisation does. We’ve been delighted to work with them for almost
   three years to constantly improve the performance and direction of their site
   as they continue to gain awareness and support on a national and international
   level. "
-key_stat:
-  - 149-percent
-title: A platform to inspire rewilding projects across the country
 icon: rwb-logo
-cover_img: images/work-rewilding-britain-phone-4.jpg
-description: Engaging and influencing audiences to support rewilding areas of
-  the country for the good of the environment
+feature_heading: Our partnership
 services:
   - strategy
   - digital
 ---
-
-> “Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse”
+{{< blockquote author="Rewilding Britian Manifesto" >}}
+Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
+{{</ blockquote >}}
 
 {{< figure src="../images/work-rewilding-britain-header.jpg" caption="Glen Affric estate" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
 
