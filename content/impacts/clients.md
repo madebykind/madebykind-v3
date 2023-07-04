@@ -2,7 +2,6 @@
 date: 2020-04-24T11:48:46+01:00
 icon:
 title: Clients
-weight: 2
 ---
 
 <p>Since we founded Kind in 2014, we’ve been very selective about who we work with. Our clientbase is 100% made up of organisations that have a net positive impact on society and/or the environment. This includes education providers, environmental charities, arts organisations and healthcare researchers.</p>
