@@ -4,15 +4,15 @@ title: Improving the online ticket buying experience
 card_colour: bg-teal text-blue
 date: 2021-04-23T14:23:33.332Z
 author: mat
-cover_img:
-cover_img_alt:
+cover_img: null
+cover_img_alt: null
 draft: false
 description: Frustrated users always lead to high abandonment rates. So how can
   we build a ticket purchasing journey that is a breeze? Make it quick.
 toc: false
 featured: true
 topics:
-  - User-centered design
+  - User-centred design
   - Strategic consultancy
   - Digital sustainability
 intro: Since the pandemic, the willingness of audiences to collect tickets in
