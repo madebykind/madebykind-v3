@@ -47,10 +47,10 @@ function clearFilters() {
   });
 }
 
-function Toggler(el) {
-  filters = document.querySelectorAll('[data-topic-filter]');
+function Filters(el) {
+  filters = el.querySelectorAll('[data-topic-filter]');
   filterableItems = document.querySelectorAll('[data-topics]');
-  clearButton = document.querySelector('[data-topic-filter-clear]');
+  clearButton = el.querySelector('[data-topic-filter-clear]');
 
   filters.forEach(function(el, i) {
     el.addEventListener("click", function() {
