@@ -19,6 +19,7 @@ feature_content: In 2018, SHU appointed Kind as a digital partner, tasking us
   digital platforms, as well as collaborating on all of their digital projects,
   they asked us to lead in creating a sustainable design system for their online
   properties.
+icon: shu-logo
 services:
   - digital
 topics:
