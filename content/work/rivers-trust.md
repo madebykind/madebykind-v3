@@ -42,4 +42,4 @@ The website needed to showcase content which was layered for multiple audiences,
 
 After the website launch, the Rivers Trust gained a significant amount of interest in its ‘State of the Rivers’ report, sewage map, and website which led to coverage on national TV and press.
 
-{{< figure src="../images/work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}
+{{< figure src="../images/work-rivers-trust-phone-2.png" alt="The Rivers Trust website on a mobile device, on a river bank" >}}
