@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 title: The importance of mentoring
 card_colour: bg-sky text-green
 date: 2019-02-18T17:03:29.255Z
