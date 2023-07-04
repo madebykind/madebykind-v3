@@ -10,7 +10,6 @@ toc: false
 featured: false
 key_topic: Insights
 topics:
-  - ""
   - Research and analysis
   - Arts & Culture
 ---
