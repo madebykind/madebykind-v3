@@ -1,5 +1,4 @@
 ---
-hidden: false
 title: A year to walk the walk
 card_colour: bg-sky text-green
 date: 2016-12-31T17:21:32.422Z
