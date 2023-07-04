@@ -10,4 +10,7 @@ weight: 2
 intro: We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
 layout: work
 hidden: true
+cascade:
+  _build:
+    publishResources: true
 ---
