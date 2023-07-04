@@ -4,7 +4,7 @@
 {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}
 {{- $alt := .Get "alt" -}}
 {{- $imgClass := "object-fit" -}}
-{{- $dataSizes := "(min-width: 1024px) 100vw, 50vw" -}}
+{{- $dataSizes := "98vw" -}}
 {{- $actualImg := $src.Resize "640x jpg" -}}
 
 {{ with .Get "caption" }}
