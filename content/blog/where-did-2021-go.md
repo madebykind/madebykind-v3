@@ -8,6 +8,7 @@ cover_img:
 text_colour:
 cover_img_alt:
 draft: false
+hidden: true
 description: Sitting down to reflect on the last 12 months seems like a strange
   task after the past couple of years.
 toc: false
