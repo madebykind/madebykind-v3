@@ -5,6 +5,7 @@ card_colour: bg-sky text-green
 date: 2016-12-31T17:21:32.422Z
 author: mat
 draft: false
+hidden: true
 description: 2016 was a good year for Kind. We completed some great work for our
   clients, won some exciting new ones and took on our first employees. So what
   does 2017 hold for us?
