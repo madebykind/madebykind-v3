@@ -1,10 +1,10 @@
 ---
-hidden: false
 title: 2018 - A year in review
 card_colour: bg-sky text-green
 date: 2018-12-19T17:05:37.525Z
 author: mat
 draft: false
+hidden: true
 description: With the year almost over, I thought I'd take a look at some of my
   favourite things that have happened at Kind this year.
 toc: false

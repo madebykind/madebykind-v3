@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 title: Making the most of an internship
 card_colour: bg-sky text-green
 date: 2019-05-07T15:56:46.074Z

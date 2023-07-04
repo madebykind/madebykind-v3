@@ -1,10 +1,10 @@
 ---
-hidden: false
 title: 5 years of being Kind
 card_colour: bg-sky text-green
 date: 2019-07-11T15:52:34.943Z
 author: mat
 draft: false
+hidden: true
 description: ​This month marks our 5th anniversary and we'll be celebrating with
   our colleagues, clients, friends and family this evening.
 toc: false

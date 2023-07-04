@@ -1,9 +1,9 @@
 ---
-hidden: false
 title: Continuing the walk in 2018
 card_colour: bg-sky text-green
 date: 2018-01-15T17:16:20.085Z
 draft: false
+hidden: true
 description: Last year we decided to make some resolutions to help us go further
   in our mission to be a responsible business, for our team, society and the
   environment.
