@@ -2,7 +2,6 @@
 date: 2020-04-24T11:48:46+01:00
 icon:
 title: Travel
-weight: 1
 ---
 
 Kind have clients all over the UK but even making a visit by public transport has an affect on the environment.
