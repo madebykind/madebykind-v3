@@ -15,7 +15,7 @@ function initFilter(el, filter) {
 
   // Loop through all items, hide / unhide depending on filtered topic
   filterableItems.forEach(function(el, i) {
-    topics = el.dataset.topics.split(" ");
+    let topics = el.dataset.topics.split(" ");
     
 
     if (topics.includes(filter)) {
