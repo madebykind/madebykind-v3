@@ -1,5 +1,5 @@
 <article class="h-full">
-  <a class="grid gap-5 no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
+  <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
     <div class="relative aspect-4/3
       {{ with .Params.card_colour }}{{ . }}{{ end }}
       {{ if .Params.cover_img }}{{ .Params.text_colour }} after:bg-black after:block after:inset-0 after:absolute after:h-full after:w-full after:opacity-50 {{ end }}">
