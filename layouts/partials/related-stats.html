@@ -1,0 +1,12 @@
+<ul class="flex flex-wrap gap-5 lg:gap-10">
+  {{ range . }}
+    {{ with site.GetPage . }}
+      <li class="max-w-xs">
+        <article>
+          <h4 class="h1">{{ .Title }}</h4>
+          <p class="mt-5">{{ .Content }}</p>
+        </article>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
