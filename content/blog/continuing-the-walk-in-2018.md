@@ -1,5 +1,4 @@
 ---
-hidden: false
 title: Continuing the walk in 2018
 card_colour: bg-sky text-green
 date: 2018-01-15T17:16:20.085Z
