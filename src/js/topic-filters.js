@@ -50,7 +50,7 @@ function clearFilters() {
 function Filters(el) {
   filters = el.querySelectorAll('[data-topic-filter]');
   filterableItems = document.querySelectorAll('[data-topics]');
-  clearButton = el.querySelector('[data-topic-filter-clear]');
+  const clearButton = el.querySelector('[data-topic-filter-clear]');
 
   filters.forEach(function(el, i) {
     el.addEventListener("click", function() {
