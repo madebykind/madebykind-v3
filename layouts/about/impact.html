@@ -144,19 +144,17 @@
           <ul class="mt-5 list-none">
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
-                <article class="pb-5 font-sans prose border-b">
-          
-                    <button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
-                      <h3>{{ .Title }}</h3>
-                      <div class="absolute right-24 h--ui">Show hidden content</div>
-                      <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
-                        <svg class="w-8 h-8" role="presentation">
-                          <use xlink:href="#icon-arrow-down"/>
-                        </svg>
-                      </div>
-                    </button>
-    
-                  <div id="{{ .Title | anchorize }}_body" class="mt-10 text-md">
+                <article class="py-5 font-sans prose border-b">
+                  <button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+                    <h3>{{ .Title }}</h3>
+                    <div class="absolute right-24 h--ui">Show hidden content</div>
+                    <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+                      <svg class="w-8 h-8" role="presentation">
+                        <use xlink:href="#icon-arrow-down"/>
+                      </svg>
+                    </div>
+                  </button>
+                  <div id="{{ .Title | anchorize }}_body" class="mt-10 prose text-md">
                     {{ .Content }}
                   </div>
                 </article>
