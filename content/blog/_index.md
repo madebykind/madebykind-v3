@@ -5,5 +5,4 @@ menu: main
 title: Insights from our expert team
 linktitle: Insights
 weight: 4
-listed: false
 ---
