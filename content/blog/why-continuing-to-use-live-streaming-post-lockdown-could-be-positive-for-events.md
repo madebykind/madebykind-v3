@@ -1,12 +1,12 @@
 ---
-author: mat
 hidden: false
 title: Why continuing to use live streaming post-lockdown could be positive for events
 card_colour: bg-sky text-green
-date: 2023-06-29T14:21:29.816Z
+date: 2021-04-29T14:21:29.816Z
+author: mat
+cover_img: null
+cover_img_alt: null
 draft: false
-cover_img:
-cover_img_alt:
 description: We’ve been thinking about what the future looks like for live
   streaming, will it completely cease as events come back again? Our gut feeling
   is no. Here's why…
