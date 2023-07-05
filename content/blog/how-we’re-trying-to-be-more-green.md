@@ -14,6 +14,10 @@ topics:
   - Environment
 intro: At Kind we set ourselves up to deliver strategic thinking & digital
   delivery for socially responsible brands. But what does that mean?
+related_posts:
+  - kind-partners-with-rewilding-britain
+  - b-corp
+  - who-gives-a-damn-well-we-do-actually
 ---
 In short, it means we choose to work with a client base that sets out to do good. Whether that’s good things for people, culture, animals or the planet, as long as it leaves a positive footprint for future generations we can truly get behind it. We are lucky to have a host of wonderful clients from renewable energy institutes, universities through to online stores which sell socially conscious and environmentally friendly products and many more!
 
