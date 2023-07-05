@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Access all areas
-card_colour: bg-sky text-green
+card_colour: bg-yellow text-blue
 date: 2020-11-30T16:21:16.220Z
 author: seth
 draft: false
