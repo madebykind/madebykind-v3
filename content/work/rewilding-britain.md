@@ -47,11 +47,11 @@ One of the key goals for Rewilding Britain is to incite action and participation
 
 Through user needs testing, UX, and UI design we were able to develop a website that gave very different groups access to all of the information they needed to support and engage with the cause. Resulting in an increase of 149% in donations in the first six months from launch.
 
-{{< figure src="../images/work-rewilding-britain-phone-2.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure src="../images/work-rewilding-britain-ipad.jpg" alt="A phone with Rewilding Britain website on it." >}}
 
 Rewilding Britain needed to build a strong network of rewilding projects and local organisations. To enable them to start conversations with these audiences, we created a ‘Networks’ area to enable information to be easily shared and for projects to prosper. Over 200 rewilding projects have signed up for this service.
 
-{{< figure src="../images/work-rewilding-britain-phone.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
 
 {{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" >}}
 We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
