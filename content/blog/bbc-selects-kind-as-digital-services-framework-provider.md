@@ -11,6 +11,10 @@ toc: false
 featured: false
 topics:
   - Arts & Culture
+related_posts:
+  - ethical-digital-projects
+  - partnering-with-the-right-agency-for-you
+  - implementing-a-design-system-on-a-legacy-code-base
 ---
 We're delighted to announce that Kind have been successful in winning a place on the Digital Services Framework IV for the British Broadcasting Corporation (BBC), running for 2 years from October 2020.
 
