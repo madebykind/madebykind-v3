@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Communicating complex issues
-card_colour: bg-sky text-green
+card_colour: bg-pink text-blue
 date: 2021-09-08T15:09:09.931Z
 author: michelle
 cover_img: null
