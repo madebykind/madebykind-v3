@@ -18,6 +18,10 @@ topics:
 intro: At Kind, we often work with large organisations, such as universities and
   cultural organisations, that have a complex digital presence comprising
   multiple online properties.
+related_posts:
+  - implementing-a-design-system-on-a-legacy-code-base
+  - finding-the-common-ground-between-your-organisation-and-its-audience
+  - start-your-next-digital-project-with-a-paid-discovery-phase
 ---
 Maintaining consistency on how these properties look and function can be difficult. A Design System aims to alleviate these difficulties by acting as the foundation which all properties are built on, or from.
 
