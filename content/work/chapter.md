@@ -1,5 +1,16 @@
 ---
+title: Rebranding an international arts centre
+date: 2023-06-28T12:25:28.863Z
+cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
+intro: Chapter provides space for creativity in all its many forms. Art. Cinema.
+  Theatre. Community. The stories unfolding in their centre, from their creative
+  spaces to their café. They believe art is what you make it. That’s why they
+  seek to nurture and embolden every artist, every creative, every curious mind.
+key_stat: null
+services:
+  - brand
+  - digital
 topics:
   - Brand strategy
   - Brand identity
@@ -10,24 +21,17 @@ topics:
   - Ticketing journey
 block_class: bg-teal text-blue
 featured: true
-date: 2023-06-28T12:25:28.863Z
 external_link: https://chapter.org.uk
-title: Rebranding an international arts centre
-cover_img: images/strategy-notes.jpg
-key_stat: null
 icon: chapter-logo
-description: Pam and Michelle arrange it all with sticky notes on a wall.
-services:
-  - brand
-  - digital
+description: Chapter provides space for creativity in all its many forms. Art.
+  Cinema. Theatre. Community. The stories unfolding in their centre, from their
+  creative spaces to their café. They believe art is what you make it. That’s
+  why they seek to nurture and embolden every artist, every creative, every
+  curious mind.
 ---
-
 {{< figure alt="Chapter brand statement set on a green background: "A World Of Creativity. A Place To Be You."" src="../images/work-chapter-positioning.jpg" > }}
 
-
 {{< figure src="../images/work-chapter-header.jpg" alt="Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows." >}}
-
-Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.
 
 {{< blockquote author="Chapter manifesto">}}
 From world-class and emerging talent to the next generation, to our audiences and visitors. We’re here for all the things that bring us together, the things made to share, the things that make us.
