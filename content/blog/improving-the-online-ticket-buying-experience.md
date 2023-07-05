@@ -19,7 +19,6 @@ intro: Since the pandemic, the willingness of audiences to collect tickets in
   person or visit a box office has dropped substantially, so the need to get the
   online ticket purchasing experience right is paramount.
 ---
-
 ![Illustration showing ticket buying preferences between digital and box office.](../images/5-digital-tickets.jpg)
 
 From a user point of view, booking tickets for an event is often a long-winded and frustrating experience. If you're using a mobile device (as the majority of web users are) the experience can be particularly awkward and clunky.
@@ -30,7 +29,7 @@ Frustrated users always lead to high abandonment rates. Eventbrite reports an av
 
 Make it quick.
 
----
+- - -
 
 Over the past few years, in our downtime, we've been thinking about this a lot. In that time we've bought tickets for events at theatres, museums, stadium shows and small music venues and we followed the same process time and time again.
 
@@ -46,7 +45,7 @@ Our prototype surfaces the earliest upcoming events that have availability and a
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539060608" data-video-src="https://player.vimeo.com/video/539060608">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-1.png"  >}}
+    <img src="../images/ticketing-1.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539060608">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -63,7 +62,7 @@ Those users who want to select a date and time further in the future, can choose
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079129" data-video-src="https://player.vimeo.com/video/539079129">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-2.png"  >}}
+    <img src="../images/ticketing-2.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079129">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -86,7 +85,7 @@ This is because we've made these choices for the user.
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079259" data-video-src="https://player.vimeo.com/video/539079259">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-3.png"  >}}
+    <img src="../images/ticketing-3.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079259">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -105,7 +104,7 @@ Those who want to select their own seat or change the quantity or type of ticket
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079424" data-video-src="https://player.vimeo.com/video/539079424">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-4.png"  >}}
+    <img src="../images/ticketing-4.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079424">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -126,7 +125,7 @@ Allowing users to authenticate through their social accounts (like Facebook, Twi
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079457" data-video-src="https://player.vimeo.com/video/539079457">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-5.png"  >}}
+    <img src="../images/ticketing-5.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079457">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -143,7 +142,7 @@ An even quicker solution would be to integrate Apple Pay and Google Pay which, f
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079484" data-video-src="https://player.vimeo.com/video/539079484">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-6.png"  >}}
+    <img src="../images/ticketing-6.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079484">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -160,7 +159,7 @@ But there are still users that don't have these technologies set up, or simply d
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079504" data-video-src="https://player.vimeo.com/video/539079504">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-7.png"  >}}
+    <img src="../images/ticketing-7.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079504">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -181,7 +180,7 @@ In our prototype, we've still included up-sells as we know this is an important 
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079525" data-video-src="https://player.vimeo.com/video/539079525">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-8.png"  >}}
+    <img src="../images/ticketing-8.png" width="375" height="666" data-video-thumb>
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079525">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
