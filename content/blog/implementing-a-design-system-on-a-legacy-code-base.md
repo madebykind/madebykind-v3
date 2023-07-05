@@ -11,6 +11,10 @@ featured: false
 key_topic: How we work
 topics:
   - Design systems
+related_posts:
+  - benefits-of-a-design-system-for-complex-organisations
+  - building-a-more-sustainable-website-architecture
+  - finding-the-common-ground-between-your-organisation-and-its-audience
 ---
 It's been just over a year since we started working with [Sheffield Hallam University](https://madebykind.com/blog/sheffield-hallam-university-appoint-kind-as-digital-consultancy) to create a design system for their website and other online properties.
 
