@@ -3,7 +3,8 @@
 		{{ partial "header__impact" . }}
 		<div class="container">
 			<div class="first:mt-10">
-				{{/* <section class="grid gap-10 prose md:grid-cols-2 section--lg">
+{{/* 
+        <section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "md:order-1"
@@ -29,8 +30,9 @@
               <p>Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.</p>
             </div>
           </div>
-        </section> */}}
-        <section class="grid gap-10 prose md:grid-cols-2 section--lg">
+        </section> 
+*/}}
+        <section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" ""
@@ -38,7 +40,9 @@
           ) }}
           <div>
             <h2 class="mb-5 text-xl">Certified B Corporation</h2>
-            <p><a href="/blog/kind-certifies-a-b-corporation">Kind certified as a B Corporation in 2022</a> - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
+            <div class="prose lede">
+              <p><a href="/blog/kind-certifies-a-b-corporation">Kind certified as a B Corporation in 2022</a> - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
+            </div>  
             <button class="mt-5" data-toggle data-target="#bcorp">
               <div class="flex items-center gap-2.5 font-sans">
                 <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
@@ -51,7 +55,7 @@
                 </p>
               </div>
             </button>
-            <div id="bcorp" class="mt-10 prose">
+            <div id="bcorp" class="mt-10 prose lede">
             <p>B Corporation certification legally requires us to:</p>
             <ul>
               <li>create a material positive impact on society and the environment through our business operation</li>
@@ -65,7 +69,7 @@
             </div>
           </div>
         </section>
-        <section class="grid gap-10 prose md:grid-cols-2 section--lg">
+        <section class="grid gap-10 md:grid-cols-2 section--lg">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "md:order-1"
@@ -73,8 +77,10 @@
           ) }}
           <div>
             <h2 class="mb-5 text-xl">Our charity partnerships</h2>
-            <p>Kind have been <a href="https://directories.onepercentfortheplanet.org/profile/kind">members of 1% for the Planet since 2017</a> which requires us to donate a minimum of 1% of our turnover to environmental causes.</p>
-            <p>In 2019 we selected Rewilding Britain as our environmental charity partner and pledged the majority of our 1% donations to their cause.</p>
+            <div class="prose lede">
+              <p>Kind have been <a href="https://directories.onepercentfortheplanet.org/profile/kind">members of 1% for the Planet since 2017</a> which requires us to donate a minimum of 1% of our turnover to environmental causes.</p>
+              <p>In 2019 we selected Rewilding Britain as our environmental charity partner and pledged the majority of our 1% donations to their cause.</p>
+            </div>
             <button class="mt-5" data-toggle data-target="#charity-partnerships">
               <div class="flex items-center gap-2.5 font-sans">
                 <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
@@ -88,20 +94,19 @@
               </div>
             </button>
             <div id="charity-partnerships" class="mt-10">
-              <p>We've also been members of the
-                <a href="https://sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
-                since 2018, supporting their work to end sewage and plastic pollution in our oceans.</p>
-              <p>Over the last three financial years, we have donated 28% of our profits and 136 hours of our times to charitable causes. That equates to a donated value of more than £15,000.</p>
-              <p>Since 2014, our donated value is more than £23,000.</p>
+              <div class="prose lede">
+                <p>We've also been members of the
+                  <a href="https://sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
+                  since 2018, supporting their work to end sewage and plastic pollution in our oceans.</p>
+                <p>Over the last three financial years, we have donated 28% of our profits and 136 hours of our times to charitable causes. That equates to a donated value of more than £15,000.</p>
+                <p>Since 2014, our donated value is more than £23,000.</p>
+              </div>
               <div class="flex flex-wrap gap-5 mt-10 lg:gap-10">
-                <div class="flex flex-col w-full gap-5 md:w-auto">
-                  <div class="h1">£23k</div>
-                  <p>Donated value since 2014</p>
-                </div>
-                <div class="flex flex-col w-full gap-5 md:w-auto">
-                  <div class="h1">28%</div>
-                  <p>of profits donated to charity</p>
-                </div>
+                
+                {{ with .Params.extra_stats }}
+                  {{ partial "related-stats.html" . }}
+                {{ end }}
+                
               </div>
             </div>
           </div>

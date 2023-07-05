@@ -14,4 +14,7 @@ related_stats:
   - socially-reponsible
   - charity-donations
   - gender-neutral
+extra_stats:
+  - 23k-donated
+  - 28-percent
 ---
