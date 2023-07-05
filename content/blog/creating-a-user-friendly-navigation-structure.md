@@ -1,9 +1,7 @@
 ---
 hidden: false
 title: Creating a user-friendly navigation structure
-card_colour:
-  label: Blue on teal
-  value: bg-teal text-blue
+card_colour: bg-teal text-blue
 date: 2018-02-07T17:15:04.354Z
 author: mat
 draft: false
