@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Implementing a design system on a legacy code base
-card_colour: bg-sky text-green
+card_colour: bg-pink text-blue
 date: 2019-07-23T15:45:46.525Z
 author: mat
 draft: false
