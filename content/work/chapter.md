@@ -1,5 +1,5 @@
 ---
-cover_img_alt: Pam and Michelle arrange it all with sticky notes on a wall.
+cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 topics:
   - Brand strategy
   - Brand identity
