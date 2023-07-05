@@ -15,7 +15,8 @@ NG<span class="numbers">1</span><span class="numbers">1</span>HS
 
 
 <strong>Company number</strong>: 
-<span class="numbers">09111618</span><strong>VAT number</strong>: GB <span class="numbers">190</span> <span class="numbers">3204</span> <span class="numbers">37</span>
+<span class="numbers">09111618</span><br>
+<strong>VAT number</strong>: GB <span class="numbers">190</span> <span class="numbers">3204</span> <span class="numbers">37</span>
 
 ##  Policies
 
