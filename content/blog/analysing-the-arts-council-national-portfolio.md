@@ -15,7 +15,7 @@ topics:
 ---
 We watched with interest last week as the [Arts Council England](http://www.artscouncil.org.uk/) announced their [National Portfolio](http://www.artscouncil.org.uk/NPO) for 2018-2022. And while we were pleased to discover the additional investment outside of London, we wanted to look further into the figures and make our own minds up.
 
-<﻿hr>
+---
 
 While the headline statistic of an extra £170m investment outside London will be welcome news for those tired of a London-centric approach to distribution, funding per head is still over 4 times as much inside the capital than everywhere else and in real terms the shift in funding is only very slight at around 3%.
 
