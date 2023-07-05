@@ -4,6 +4,9 @@ title: How we’re trying to be more green
 card_colour: bg-sky text-green
 date: 2018-10-17T16:09:57.040Z
 author: michelle
+cover_img: ""
+text_colour: text-buff
+cover_img_alt: Sam on a beach, doing a beach clean
 draft: false
 description: At Kind we set ourselves up to deliver strategic thinking & digital
   delivery for socially responsible brands. But what does that mean?
@@ -33,7 +36,7 @@ We knew climate change was a serious issue and one which as people we could no 
 
 To further our commitment to cleaning up the planet we wanted to get out there and understand the effects plastic consumption has on UK waters. As a team we decided to [take a team building trip to Wales](https://madebykind.com/blog/kind-go-wild-in-wales) and meet up with the rep from [Surfers Against Sewage](https://www.sas.org.uk/) and do a beach clean. It was an eye opening experience and really made us think more about how we use plastic. We continue to support Surfers Against Sewage and hope to plan another trip in the future.
 
-![Man in a beach with a bucket and a litter picker](../images/img_8048.jpg)
+![Man on a beach with a bucket and a litter picker](../images/img_8048.jpg)
 
 ## Plastic Waste
 
