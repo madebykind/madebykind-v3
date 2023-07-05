@@ -1,35 +1,43 @@
+{{- $img := (.Params.cover_img ) -}}
+{{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
 
-{{ $alt := ( .Params.cover_img_alt ) }}
-{{ $img := (.Params.cover_img ) }}
-{{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+{{- $actualImg := $src.Resize "640x jpg" -}}
+{{- $alt := ( .Params.cover_img_alt ) -}}
+{{- $dataSizes := "(min-width: 90em) 49vw, 98vw" -}}
+{{- $imgClass := "object-cover h-full" -}}
+{{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
 
-{{ with $img }}
-
-  {{- $5xl := $image.Fill "2560x1440" -}}
-  {{ $4xl := $5xl.Fill "1920x1280" -}}
-  {{ $3xl := $4xl.Fill "1440x1024" -}}
-  {{ $2xl := $3xl.Fill "1280x960" -}}
-  {{ $xl := $2xl.Fill "800x600" -}}
-  {{ $lg := $xl.Fill "640x480" -}}
-  {{ $md := $lg.Fill "480x360" -}}
-  {{ $sm := $md.Fill "320x240" -}}
-
+{{- with $img -}}
   <picture>
+    <source 
+      sizes="{{ $dataSizes }}" 
+      srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}" 
+      type="image/webp">
+
     <img
       alt="{{ $alt }}"
-      class="object-cover"
+      class="{{ $imgClass }}"
       loading=eager
-      sizes="100vw"
-      src="{{ $sm.RelPermalink }}"
+      sizes="{{ $dataSizes }}"
+      src="{{ $actualImg.RelPermalink }}"
       srcset="
-        {{ $sm.RelPermalink }} 320w,
-        {{ $md.RelPermalink }} 480w,
-        {{ $lg.RelPermalink }} 640w,
-        {{ $xl.RelPermalink }} 800w,
-        {{ $2xl.RelPermalink }} 1280w,
-        {{ $3xl.RelPermalink }} 1440w,
-        {{ $4xl.RelPermalink }} 1920w,
-        {{ $5xl.RelPermalink }} 2560w"
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }},
+              {{ end -}}
+              {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
+              {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}"
     >
   </picture>
 {{ end }}
