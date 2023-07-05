@@ -21,27 +21,27 @@ services:
   - brand
   - digital
 ---
-![Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows.](images/work-chapter-header.jpg)
+![Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows.](../images/work-chapter-header.jpg)
 
-![Chapter brand statement set on a green background: "A World Of Creativity. A Place To Be You."](images/work-chapter-positioning.jpg)
+![Chapter brand statement set on a green background: "A World Of Creativity. A Place To Be You."](../images/work-chapter-positioning.jpg)
 
-![A split image showing Chapter's brand font (PP Supply Sans Semibold) and a mockup of signage running on stairs and by an elevator.](images/work-chapter-typography.png)
+![A split image showing Chapter's brand font (PP Supply Sans Semibold) and a mockup of signage running on stairs and by an elevator.](../images/work-chapter-typography.png)
 
-![A mockup of a Chapter business card. The business card is duotone green and is placed on a yellow board](images/work-chapter-business-card.jpg)
+![A mockup of a Chapter business card. The business card is duotone green and is placed on a yellow board](../images/work-chapter-business-card.jpg)
 
-![A mockup of a billboard for "The Rolling Calf" a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.](images/work-chapter-billboard.jpg)
+![A mockup of a billboard for "The Rolling Calf" a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.](../images/work-chapter-billboard.jpg)
 
-![A single poster mockup for the film Red Rocket. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image.](images/work-chapter-poster.jpg)
+![A single poster mockup for the film Red Rocket. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image.](../images/work-chapter-poster.jpg)
 
-![A view of multiple poster mockups lined up on the street. The back end of the bicycle is visible on the right-hand side as it goes past.](images/work-chapter-poster-wall-2.jpg)
+![A view of multiple poster mockups lined up on the street. The back end of the bicycle is visible on the right-hand side as it goes past.](../images/work-chapter-poster-wall-2.jpg)
 
-![Pages from Chapter brand guidelines document](images/work-chapter-guidelines.jpg)
+![Pages from Chapter brand guidelines document](../images/work-chapter-guidelines.jpg)
 
-![A POV mockup of floor-based directions around the Chapter venue](images/work-chapter-floor-signage.jpg)
+![A POV mockup of floor-based directions around the Chapter venue](../images/work-chapter-floor-signage.jpg)
 
-![Chapter website components](images/work-chapter-components.jpg)
+![Chapter website components](../images/work-chapter-components.jpg)
 
-![Chapter website shown on a laptop screen](images/work-chapter-laptop.jpg)
+![Chapter website shown on a laptop screen](../images/work-chapter-laptop.jpg)
 
 * Brand strategy - Manifesto, Tone of Voice and Values
 * Cohesive, bold identity design language for use online, offline and in-venue
