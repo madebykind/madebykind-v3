@@ -1,5 +1,6 @@
 let filters;
 let filterableItems;
+let clearButton;
 let hiddenClasses = ["hidden"];
 let activeClasses = ["active", "before:bg-orange"];
 
@@ -29,6 +30,11 @@ function initFilter(el, filter) {
   activeClasses.forEach(function(c) {
     el.classList.add(c);
   });
+
+  // remove active classes from clear button
+  activeClasses.forEach(function(c) {
+    clearButton.classList.remove(c);
+  });
 }
 
 function clearFilters() {
@@ -45,12 +51,17 @@ function clearFilters() {
       el.classList.remove(c);
     });
   });
+
+  // add active classes from clear button
+  activeClasses.forEach(function(c) {
+    clearButton.classList.add(c);
+  });
 }
 
 function Filters(el) {
   filters = el.querySelectorAll('[data-topic-filter]');
   filterableItems = document.querySelectorAll('[data-topics]');
-  const clearButton = el.querySelector('[data-topic-filter-clear]');
+  clearButton = el.querySelector('[data-topic-filter-clear]');
 
   filters.forEach(function(el, i) {
     el.addEventListener("click", function() {

@@ -1,5 +1,6 @@
 ---
-cover_img_alt: Chapter on a sofa
+cover_img_alt: A view of multiple poster mockups lined up on the street. The
+  back end of the bicycle is visible on the right-hand side as it goes past.
 related_work:
   - chapter
   - rivers-trust
@@ -18,7 +19,5 @@ description: We work from the ground up; from your brand foundations,
   personality, values all the way to the final output. A carefully crafted,
   cohesive, thought through brand identity, that has longevity, creativity and
   truly reflects who you are as an organisation.
-related_posts:
-  - access-all-areas
+related_posts: []
 ---
-d﻿rtr

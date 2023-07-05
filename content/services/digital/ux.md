@@ -1,26 +1,29 @@
 ---
 cover_img_alt: Alt text cannot be blank
-header_class: bg-pink text-claret
-toc: true
-hidden: false
-intro: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that helps us to do just that.
-title: User-centered design
-date: 2020-04-30T17:28:36.948Z
-cover_img: images/true-to-who-we-are-v2.png
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
-  euismod te qui.
 related_work:
   - rewilding-britain
   - rivers-trust
+header_class: bg-pink text-claret
+toc: true
+hidden: false
+intro: The most successful digital projects are those that put the needs of
+  their users first. User-centred design is an approach that helps us to do just
+  that.
+title: User-centred design
+date: 2020-04-30T17:28:36.948Z
+cover_img: images/true-to-who-we-are-v2.png
+description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
+  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
+  euismod te qui.
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
   - ethical-digital-projects
   - b-corp
 ---
 
-{{% split heading="What is user-centered design?" %}}
+{{% split heading="What is user-centred design?" %}}
 
-## What is user-centered design?
+## What is user-centred design?
 
 ### Putting users at the centre of the design process
 
@@ -74,7 +77,7 @@ These features are then developed iteratively and evaluated with real users as t
 {{% /split %}}
 
 <section class="section--lg">
-  <h2 class="text-md h--condensed">Benefits of user-centered design</h2>
+  <h2 class="text-md h--condensed">Benefits of user-centred design</h2>
   <div class="grid grid-cols-12 gap-10 mt-10 lg:gap-20">
     <div class="col-span-full md:col-span-6">
       <h3 class="h2">Understand and engage your users</h3>

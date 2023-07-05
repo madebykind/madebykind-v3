@@ -35,7 +35,7 @@ services:
 
 ![A view of multiple poster mockups lined up on the street. The back end of the bicycle is visible on the right-hand side as it goes past.](images/work-chapter-poster-wall-2.jpg)
 
-![Pages from Chapter brand guidelines document ](images/work-chapter-guidelines.jpg)
+![Pages from Chapter brand guidelines document](images/work-chapter-guidelines.jpg)
 
 ![A POV mockup of floor-based directions around the Chapter venue](images/work-chapter-floor-signage.jpg)
 
