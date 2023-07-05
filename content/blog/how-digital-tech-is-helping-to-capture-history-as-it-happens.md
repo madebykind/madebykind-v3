@@ -24,6 +24,9 @@ intro: I am probably not alone in feeling like I am living through a series of
   weather, oh and that teeny tiny global pandemic. For many of us, it really
   feels like we have front-row seats for a period of time that will go down in
   history and be taught to many generations to come.
+related_posts:
+  - bbc-selects-kind-as-digital-services-framework-provider
+  - analysing-the-arts-council-national-portfolio
 ---
 
 So with that in mind, and as digital nerds and lovers of arts, culture and museums, we got to thinking about how history is captured in a digital era. I think of history and my school years, learning about the Tudors and Stuarts from massive textbooks and possibly visiting a museum to draw pictures of armour and crowns. It is fair to say, A LOT has moved on since then. Not only has the way we digest history changed (thanks internet) but what we consider to be worth capturing has had to change too. Previously the emphasis on historical collection was on physical pieces (letters, art, literature, clothes and so on) but in the last 20 years, society, how it functions, interacts and engages has become vastly different to pre-2000 and so is what we will identify as artefacts of history.
