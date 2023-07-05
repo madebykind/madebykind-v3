@@ -1,7 +1,7 @@
 ---
 hidden: false
 date: 2023-07-05T10:41:59.831Z
-title: Proof-of-concept app to provide music to influential content creators
+title: "**Proof-of-concept app** to provide music to influential content creators"
 images:
   - image: images/owsla-project-1.jpg
     img_alt: A desktop mockup of the OWSLA Aux dashboard
