@@ -19,8 +19,8 @@ NG<span class="numbers">1</span><span class="numbers">1</span>HS
 
 ##  Policies
 
-* <a href="https://madebykind.com/about/legal/privacy">Privacy policy</a>
-* <a href="https://madebykind.com/about/legal/quality-assurance-policy">Quality assurance policy</a>
-* <a href="https://madebykind.com/about/legal/equality-and-diversity-policy">Equality and diversity policy</a>
-* <a href="https://madebykind.com/about/legal/data-protection-policy">Data protection policy</a>
-* <a href="https://madebykind.com/about/legal/governance">Governance</a>
+* <a href="/about/legal/privacy">Privacy policy</a>
+* <a href="/about/legal/quality-assurance-policy">Quality assurance policy</a>
+* <a href="m/about/legal/equality-and-diversity-policy">Equality and diversity policy</a>
+* <a href="/about/legal/data-protection-policy">Data protection policy</a>
+* <a href="/about/legal/governance">Governance</a>
