@@ -5,7 +5,7 @@ topics:
 hidden: false
 title: Digital
 date: 2020-04-30T17:28:36.948Z
-cover_img: images/work-rewilding-britain-ipad.jpg
+cover_img: images/becca-tapert-qofjunxy9ly-unsplash.jpg
 cover_img_alt: Team looking at devices
 related_work:
   - jackson-crane
