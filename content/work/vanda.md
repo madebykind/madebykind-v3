@@ -6,7 +6,7 @@ cover_img_alt: A man and woman looking at a laptop screen together
 intro: The V&A is the world’s leading museum of art and design, housing a
   permanent collection of over 2.8 million objects, books and archives that span
   over 5,000 years of human creativity.
-key_stat: null
+key_stat: "50"
 topics:
   - Brand identity
   - Research and analysis

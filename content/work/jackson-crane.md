@@ -29,14 +29,15 @@ We ran workshops with the team at Jackson-Crane to really identify who they are,
 
 {{< figure src="../images/work-jackson-crane-drawing.jpg" alt="Over the shoulder view of someone drawing" >}}
 
-{{< figure src="../images/work-jackson-crane-dave-2.jpg" alt="A man sat at a laptop with a coffee. A large glass window and a garden behind" >}}
+![Jackson-Crane strategy document on a laptop screen](../images/work-jackson-crane-strategy-laptop.jpg)
+
+![Jackson-Crane values on a tablet device](../images/work-jackson-crane-values.jpg)
 
 With all of the learnings and data we collected, we were able to create a short and long-term business plan for them, which gave them a vision, mission, values, organisational and financial goals and help to identify team roles to aid meaningful growth to the business.
 
-![Jackson-Crane mission statement on a laptop screen](../images/work-jackson-crane-laptop-mission.jpg)
+{{< figure src="../images/work-jackson-crane-laptop-mission.jpg" alt="Jackson-Crane mission statement on a laptop screen" >}}
+
 
 The practice was able to take that work and grow its business to become an award-winning architectural practice. Since then we have worked with them to give advice on marketing, SEO and hope to continue working with them in the future.
 
-{{< figure src="../images/work-jackson-crane-strategy-laptop.jpg" alt="Jackson-Crane strategy document on a laptop screen" >}}
-
-{{< figure src="../images/work-jackson-crane-values.jpg" alt="Jackson-Crane values on a tablet device" >}}
+{{< figure src="../images/work-jackson-crane-dave-2.jpg" alt="A man sat at a laptop with a coffee. A large glass window and a garden behind" >}}
