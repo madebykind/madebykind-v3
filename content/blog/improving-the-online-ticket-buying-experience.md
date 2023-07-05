@@ -46,7 +46,7 @@ Our prototype surfaces the earliest upcoming events that have availability and a
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539060608" data-video-src="https://player.vimeo.com/video/539060608">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-1.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-1.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539060608">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -63,7 +63,7 @@ Those users who want to select a date and time further in the future, can choose
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079129" data-video-src="https://player.vimeo.com/video/539079129">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-2.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-2.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079129">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -86,7 +86,7 @@ This is because we've made these choices for the user.
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079259" data-video-src="https://player.vimeo.com/video/539079259">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-3.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-3.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079259">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -105,7 +105,7 @@ Those who want to select their own seat or change the quantity or type of ticket
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079424" data-video-src="https://player.vimeo.com/video/539079424">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-4.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-4.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079424">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -126,7 +126,7 @@ Allowing users to authenticate through their social accounts (like Facebook, Twi
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079457" data-video-src="https://player.vimeo.com/video/539079457">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-5.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-5.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079457">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -143,7 +143,7 @@ An even quicker solution would be to integrate Apple Pay and Google Pay which, f
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079484" data-video-src="https://player.vimeo.com/video/539079484">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-6.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-6.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079484">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -160,7 +160,7 @@ But there are still users that don't have these technologies set up, or simply d
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079504" data-video-src="https://player.vimeo.com/video/539079504">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-7.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-7.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079504">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
@@ -181,7 +181,7 @@ In our prototype, we've still included up-sells as we know this is an important 
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539079525" data-video-src="https://player.vimeo.com/video/539079525">
   <div class="relative" style="width:375px; height:666px;">
-    {{< figure src="../images/ticketing-8.jpg" width="375" height="666" data-video-thumb >}}
+    {{< figure src="../images/ticketing-8.jpg"  >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539079525">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
