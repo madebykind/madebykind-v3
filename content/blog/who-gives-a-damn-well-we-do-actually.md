@@ -21,8 +21,8 @@ intro: In the time-honoured tradition of businesses rebranding and launching
   is fair, but we do, and here is why…
 related_posts:
   - b-corp
-  - kind-partners-with-rewilding-britain
   - learnings-from-the-1-for-the-planet-european-summit
+  - kind-partners-with-rewilding-britain
 ---
 Since Kind’s inception in 2014, it was built on the basis of being a force for good. In the years since that, it has snowballed beautifully into a fully-fledged mission and set of core values to put people and the planet at the forefront of everything we do. It's at the root of who we work with, the projects we deliver, the team that we employ, and how we operate every single day in and outside of work. Which is why we are one of the leading sustainable agencies in the UK. 
 
