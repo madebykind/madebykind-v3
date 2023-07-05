@@ -4,8 +4,8 @@ title: Increasing online donations
 card_colour: bg-sky text-green
 date: 2021-09-06T15:11:00.723Z
 author: mat
-cover_img:
-cover_img_alt:
+cover_img: null
+cover_img_alt: null
 draft: false
 services:
   - strategy
@@ -22,6 +22,10 @@ intro: Many charitable organisations rely on public donations to continue their
   important work and further their cause. And while many have an online donation
   form, conversion rates for these are often low, with the average rate in the
   sector being below 1% of visits resulting in a donation.
+related_posts:
+  - communicating-complex-issues
+  - building-a-more-sustainable-website-architecture
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
 ---
 This doesn't mean that 99% of online visitors aren't useful to the organisation, however. There are plenty of other valuable interactions that users will take on a third-sector website that don't lead to a donation. Such as joining your mailing list, enquiring about volunteer opportunities or enquiring about fundraising for the charity. More importantly, there are those users that could become beneficiaries of your work.
 
