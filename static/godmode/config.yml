@@ -184,12 +184,7 @@ collections:
     create: true
     editor:
       preview: false
-    filter:  
-      field: 'hidden' 
-      value: false
     fields:
-      - { label: 'hidden', name: 'hidden', widget: 'hidden', default: false }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Icon', name: 'icon', widget: 'string', required: false }
       - {
