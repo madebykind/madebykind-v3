@@ -55,10 +55,10 @@
 
               <img  
                 alt="{{ .name }}" 
-                height="{{ .Height }}" 
-                loading="lazy" 
+                height="{{ $author_img.Height }}"
+                loading=lazy
                 sizes="
-                  (min-width: 90em) 920px,
+                  (min-width: 90em) 920w,
                   (min-width: 62em) 640w,
                   (min-width: 48em) 480w,
                   100vw" 
@@ -69,7 +69,7 @@
                   {{ $lg.RelPermalink }} 680w,
                   {{ $xl.RelPermalink }} 920w
                 " 
-                width="{{ .Width }}"
+                width="{{ $author_img.Width }}"
               />
               <div class="flex items-center justify-between gap-5 mt-5">
                 <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
