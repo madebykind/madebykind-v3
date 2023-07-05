@@ -47,7 +47,7 @@
       "image" .Params.cover_img
       "author" (dict
         "@type" "Organization"
-        "name" (site.Params.SiteTitle | safeHTML)
+        "name" (site.Title | safeHTML)
         "url" site.BaseURL
       )
       "publisher" (dict

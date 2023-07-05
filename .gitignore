@@ -51,9 +51,6 @@ jspm_packages
 dist
 public
 
-# Build logs
-hugo_stats.json
-
 # Local Netlify folder
 .netlify
 
@@ -61,4 +58,6 @@ hugo_stats.json
 *.bak
 
 # HUGO built assets
-# resources/_gen/*
+hugo_stats.json
+.hugo_build.lock
+resources/_gen/images/

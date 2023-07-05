@@ -5,12 +5,14 @@ languageLang = "en"
 title = "Kind"
 disableHugoGeneratorInject = true
 author = "Future Friendly Ltd."
-copyright = ""
+copyright = "Future Friendly Ltd."
 canonifyURLs = true
+enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = false
 summarylength = 10
 paginate = 6
+ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [build]
   publishResources = true
@@ -45,7 +47,6 @@ paginate = 6
   description = "Fast, secure, and accessible by default."
   email = "hello@madebykind.com"
   images = ["site-feature-image.jpg"]
-  owner = "Future Friendly Ltd."
   phone = "+441157270990"
   phonePretty = "0115 727 0990"
   since = 2009
@@ -77,7 +78,7 @@ paginate = 6
   [privacy.vimeo]
     disable = false
     enableDNT = true
-    simple = true
+    simple = false
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
