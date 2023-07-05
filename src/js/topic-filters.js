@@ -3,6 +3,7 @@ let filterableItems;
 let clearButton;
 let hiddenClasses = ["hidden"];
 let activeClasses = ["active", "before:bg-orange"];
+let filterContainerId = "js--filters";
 
 function initFilter(el, filter) {
   
@@ -35,6 +36,9 @@ function initFilter(el, filter) {
   activeClasses.forEach(function(c) {
     clearButton.classList.remove(c);
   });
+
+  // scroll to filters
+  document.getElementById(filterContainerId).scrollIntoView();
 }
 
 function clearFilters() {
