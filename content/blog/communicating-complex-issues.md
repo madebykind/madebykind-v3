@@ -17,6 +17,10 @@ key_topic: Insights
 topics: []
 intro: A key challenge for charities and non-profit organisations is clearly
   communicating their work and the issues they are attempting to tackle.
+related_posts:
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
+  - ethical-digital-projects
+  - partnering-with-the-right-agency-for-you
 ---
 In a hectic landscape of attempting to raise awareness and gain support, it is critical for these organisations to explain what they do in multiple ways to ensure their work gets funding/donations and has a positive impact. Charities and non-profits whose fundamental purpose is of scientific or environmental nature often find it difficult to convey the large-scale problems we collectively face, in a way that is easy for the general public to comprehend and engage with. For some, the problem is too large, seems too far away or is not relatable to them in their every day lives. So, with this in mind, what can organisations do to communicate complex issues in a way that inspires people to support their cause.
 
