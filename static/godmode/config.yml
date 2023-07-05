@@ -152,11 +152,12 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'cover_img', widget: 'image', required: false, choose_url: false }
       - { label: 'Alt text', name: 'cover_img_alt', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!', required: false }
-      - { label: 'Meta description', name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
+      - { label: 'Meta description', required: false, name: 'description', widget: 'string', hint: 'This is the description of the page that is read by search engines. SEO innit?' }
       - {
           label: 'Body',
           name: 'body',
           widget: 'markdown',
+          required: false,
           hint: 'Main content goes here.',
           buttons: [
             'bold',
@@ -173,8 +174,8 @@ collections:
             'numbered-list'
           ]
         }
-      - { label: 'Related work', name: 'related_work', widget: 'relation', collection: 'work', searchFields: ['title'], multiple: true, valueField: '{{slug}}'}
-      - { label: 'Related posts', name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: '{{slug}}'}
+      - { label: 'Related work', required: false, name: 'related_work', widget: 'relation', collection: 'work', searchFields: ['title'], multiple: true, valueField: '{{slug}}'}
+      - { label: 'Related posts', required: false, name: 'related_posts', widget: 'relation', collection: 'blog', searchFields: ['title'], multiple: true, valueField: '{{slug}}'}
   
   - name: 'stats'
     label: 'Stats'
