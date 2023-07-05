@@ -1,5 +1,6 @@
 ---
-cover_img_alt: Chapter on a sofa
+cover_img_alt: A view of multiple poster mockups lined up on the street. The
+  back end of the bicycle is visible on the right-hand side as it goes past.
 related_work:
   - chapter
   - rivers-trust
