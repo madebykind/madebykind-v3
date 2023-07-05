@@ -19,8 +19,7 @@ intro: Rewilding Britain are the first and only country-wide organisation in
 featured: true
 date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-phone-4.jpg
-key_stat:
-  - 149-percent
+key_stat: "149"
 description: Engaging and influencing audiences to support rewilding areas of
   the country for the good of the environment
 feature_content: "Rewilding Britain understood that they needed a digital
