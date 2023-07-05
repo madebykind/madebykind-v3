@@ -23,11 +23,11 @@ block_class: bg-teal text-blue
 featured: true
 external_link: https://chapter.org.uk
 icon: chapter-logo
-description: Chapter provides space for creativity in all its many forms. Art.
+description: "Chapter provides space for creativity in all its many forms. Art.
   Cinema. Theatre. Community. The stories unfolding in their centre, from their
   creative spaces to their café. They believe art is what you make it. That’s
   why they seek to nurture and embolden every artist, every creative, every
-  curious mind.
+  curious mind."
 ---
 
 {{< figure alt="Chapter brand statement set on a green background: ‘A World Of Creativity. A Place To Be You’" src="../images/work-chapter-positioning.jpg" >}}
