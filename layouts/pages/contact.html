@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="{{ with .Params.page_class }} {{ . }}{{ end }}">
+  {{ partial "header__page" . }}
+  <div class="container grid grid-cols-12 gap-10">
+    <div class="col-span-full lg:col-span-8">
+      <h2 class="sr-only">Contact details</h2>
+      <nav>
+        <ul class="flex items-center gap-10 text-lg list-none lg:gap-20" role="list">
+          <li class="relative inline-flex after:content-['/'] after:absolute after:-right-5 lg:after:-right-15">
+            <span class="sr-only">Email: </span>
+            <a href="mailto:hello@madebykind.com" rel="me">hello@madebykind.com</a>
+          </li>
+          <li>
+            <span class="sr-only">Telephone: </span>
+            <a href="tel:+441157270990">0115 727 0990</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</article>
+{{ end }}

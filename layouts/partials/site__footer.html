@@ -7,10 +7,10 @@
         <p class="font-bold mt-15">Speak to Mat or Michelle</p>
         <ul class="inline-flex gap-5 mt-2 list-none" role="list">
           <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
-            <span class="sr-only">{{ i18n "emailTitle" }}</span><a href="mailto:{{.Site.Params.Email}}" rel="me">{{.Site.Params.Email}}</a>
+            <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me">{{.Site.Params.Email}}</a>
           </li>
           <li>
-            <span class="sr-only">{{ i18n "phoneTitle" }}</span><a href="tel:{{.Site.Params.Phone}}">{{.Site.Params.PhonePretty}}</a>
+            <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}">{{.Site.Params.PhonePretty}}</a>
           </li>
         </ul>
       </div>
