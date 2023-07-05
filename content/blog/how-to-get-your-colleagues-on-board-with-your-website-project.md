@@ -20,6 +20,10 @@ intro: During my career in marketing and communications, I have often been
   technology, policy, research and development and have sought to share their
   knowledge further with their specific interested parties but have also been
   nervous to do so.
+related_posts:
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
+  - partnering-with-the-right-agency-for-you
+  - start-your-next-digital-project-with-a-paid-discovery-phase
 ---
 Managing a digital project can be a tricky process. Often, your internal stakeholders will show a high level of interest but won't always have the same level of understanding of the project process and its objectives. This can result in a disparity between expectations and reality and lead to frustration and bad feeling about the project itself.
 
