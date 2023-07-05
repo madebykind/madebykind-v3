@@ -4,7 +4,8 @@ title: Who gives a damn? Well we do actually
 card_colour: bg-pink text-blue
 date: 2023-07-05T13:30:20.852Z
 author: michelle
-illustration: images/work-shu-kind-team.jpg
+illustration: ""
+cover_img: images/work-shu-kind-team.jpg
 text_colour: text-white
 cover_img_alt: Kind team sat around a wooden table having a laugh!
 draft: false
