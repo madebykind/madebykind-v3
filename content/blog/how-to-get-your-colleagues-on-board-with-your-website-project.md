@@ -1,9 +1,7 @@
 ---
 hidden: false
 title: How to get your colleagues on board with your website project
-card_colour:
-  label: Blue on teal
-  value: bg-teal text-blue
+card_colour: bg-yellow text-blue
 date: 2020-02-19T16:29:36.327Z
 author: michelle
 draft: false
