@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: "Cultural recovery: audience insights"
-card_colour: bg-sky text-green
+card_colour: bg-yellow text-blue
 date: 2021-03-24T15:48:15.030Z
 author: michelle
 draft: false
