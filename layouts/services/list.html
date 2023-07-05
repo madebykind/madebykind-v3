@@ -1,11 +1,9 @@
 {{ define "main" }}
 <section>
   {{ partial "header__landing.html" . }}
-
   <div class="container prose section">
     {{ .Content }}
   </div>
-  
   <ul class="section">
     {{ range .Pages }}
     <li>

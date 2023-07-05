@@ -1,37 +1,36 @@
 <header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} grid section--lg snap-start">
-  <div class="container grid gap-10">
-    <div class="grid items-center gap-10 md:grid-cols-2">
-      <div id="content" class="grid col-span-1 gap-15">
-        <h1>{{ .Page.Title|safeHTML }}</h1>
-        {{ with .Params.Intro }}
-          <div class="max-w-5xl prose cta_prose">
-            <p>{{ . | markdownify }}</p>
-          </div>
-        {{ end }}
-        {{ if isset .Params "cta" }}
-          <div class="flex flex-wrap gap-5">
-              <a class="btn btn--primary" href="{{ .Params.ctaLink }}">
-                {{ title .Params.Cta }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ if isset .Params "cta2" }}
-              <a class="btn btn--secondary" href="{{ .Params.cta2Link }}">
-                {{ title .Params.Cta2 }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ end }}
-          </div>
-        {{ end }}
-      </div>
-      {{ if isset .Params "cover_img" }}
-        <div class="self-end col-span-1 max-h-illustration max-w-illustration justify-self-end">
-          {{ partial "image__illustration" . }}
+  <div class="container grid items-center content-end gap-10 md:grid-cols-12 section--lg">
+    <div id="content" class="grid max-w-5xl col-span-12 gap-10 md:col-span-8">
+
+      <h1>{{ .Page.Title|safeHTML }}</h1>
+      {{ with .Params.Intro }}
+        <div class="max-w-5xl prose cta_prose">
+          <p>{{ . | markdownify }}</p>
+        </div>
+      {{ end }}
+      {{ if isset .Params "cta" }}
+        <div class="flex flex-wrap gap-5">
+            <a class="btn btn--primary" href="{{ .Params.ctaLink }}">
+              {{ title .Params.Cta }}
+              <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                <use xlink:href="#icon-arrow"/>
+              </svg>
+            </a>
+          {{ if isset .Params "cta2" }}
+            <a class="btn btn--secondary" href="{{ .Params.cta2Link }}">
+              {{ title .Params.Cta2 }}
+              <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                <use xlink:href="#icon-arrow"/>
+              </svg>
+            </a>
+          {{ end }}
         </div>
       {{ end }}
     </div>
+    {{ if isset .Params "cover_img" }}
+      <div class="self-end col-span-1 max-h-illustration max-w-illustration justify-self-end">
+        {{ partial "image__illustration" . }}
+      </div>
+    {{ end }}
   </div>
 </header>
