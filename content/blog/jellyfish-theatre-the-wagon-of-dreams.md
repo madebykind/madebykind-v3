@@ -4,15 +4,17 @@ title: "Jellyfish Theatre: The Wagon of Dreams"
 card_colour: bg-teal text-blue
 date: 2021-08-02T14:15:17.227Z
 author: michelle
-cover_img:
-cover_img_alt:
+cover_img: null
+cover_img_alt: null
 draft: false
-description: Late in 2020, we were approached by the Jellyfish theatre company to help give them strategic marketing advice on how to promote their live outdoor shows in Nottingham.
+description: Late in 2020, we were approached by the Jellyfish theatre company
+  to help give them strategic marketing advice on how to promote their live
+  outdoor shows in Nottingham.
 toc: false
 featured: false
 topics:
-  - arts & culture
-  - strategy
+  - Arts & Culture
+  - Strategy
 intro: Late in 2020, we were approached by the Jellyfish theatre company to help
   give them strategic marketing advice on how to promote their live outdoor
   shows in Nottingham.
@@ -22,7 +24,7 @@ intro: Late in 2020, we were approached by the Jellyfish theatre company to help
 
 London-based Jellyfish Theatre teamed up with local actors Jordan Laidley and Mitchell Ndema to bring an interactive family show 'The Wagon of Dreams' to 10 parks across Nottingham. They managed to secure funding from the Arts Council England and local councillors to create a touring production with the aim to engage with families that do not have frequent access to theatre, in a safe outdoor environment.
 
-![A caravan window, three people popping there heads out at different angles.](images/jf-theatre.jpeg)
+![A caravan window, three people popping there heads out at different angles.](../images/jf-theatre.jpeg)
 
 ## How we helped
 
@@ -40,7 +42,7 @@ We spoke at length with Artistic Director Sarah Simpson to understand what they 
 
 One of the central ideas we discussed was around how they could utilise their digital platforms to explain the show and to get people to engage and book tickets. We gave the team ideas on different types of content they could create, the frequency and timing of posts, where they could promote it and how they can plan and manage all of this through the use of a content planning document, helping them to use their time effectively and get the best out of their dynamic content and resources.
 
-![A caravan, with a target on the door. Two men standing in front of it.](images/jf-theatre-3.jpeg)
+![A caravan, with a target on the door. Two men standing in front of it.](../images/jf-theatre-3.jpeg)
 
 ## Press release guidance
 
