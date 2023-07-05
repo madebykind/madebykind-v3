@@ -5,13 +5,6 @@ title: Quality assurance policy
 url: /about/legal/quality-assurance-policy
 ---
 
-_---
-date: 2020-04-24T11:48:46+01:00
-description: How we use cookies and what it means to you.
-title: Cookie Policy
-url: /about/legal/cookies
----
-
 Future Friendly Ltd (“The company”) is wholly committed to our quality policy which is in place to ensure our services fully meet the requirements of our customers at all times. The company’s goal is to be the go-to digital agency for socially responsible organisations. To achieve this goal we are committed to implementing, maintaining and continually assessing operational systems and processes.
 
 ## Approach to Quality
