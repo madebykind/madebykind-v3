@@ -1,8 +1,6 @@
 {{ define "main" }}
-<article class="pb-10{{ if isset .Params " page_class"}} {{ .params.page_class }}{{ end }}">
-
+<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
   {{ partial "header__work" . }}
-
   {{ if .Params.feature_heading }}
     <section class="mb-10 bg-blue text-sky">
       <div class="container section--lg">
@@ -11,12 +9,10 @@
       </div>
     </section>
   {{ end }}
-
   <div class="container grid gap-10 font-sans font-light prose prose-page first:mt-10">
     {{- .Content -}}
   </div>
 
-  
 {{/* Disabled coz breaking builds
 
   {{ with .Params.services }}

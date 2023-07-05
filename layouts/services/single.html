@@ -1,12 +1,8 @@
 {{ define "main" }}
-<article class="pb-10{{ if isset .Params " page_class"}} {{ .params.page_class }}{{ end }}">
-
+<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
   {{ partial "header__page" . }}
-
   <div class="container">
-
     {{- .Content -}}
-
     {{ if .Params.related_work }}
       <div class="mt-10 lg:mt-20">
         <h2 class="h3">Our experience</h2>
@@ -21,7 +17,6 @@
         </ul>
       </div>
     {{ end }}
-
     {{ if .Params.related_posts }}
       <div class="mt-10 lg:mt-20">
         <h2 class="h3">Insights on {{ .Page.Title }}</h2>
@@ -36,7 +31,6 @@
         </ul>
       </div>
     {{ end }}
-
   </div>
 </article>
 {{ end }}

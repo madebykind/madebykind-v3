@@ -61,8 +61,7 @@
       "datePublished" .Params.date
       "dateModified" .Params.lastmod
     }}
-
-
+    
     <script type="application/ld+json">
       {{ jsonify (dict "indent" "  ") $m | safeJS }}
     </script>
