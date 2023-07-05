@@ -1,10 +1,10 @@
 ---
 hidden: false
 title: Kind Partners With Rewilding Britain
-card_colour: bg-sky text-green
+card_colour: bg-yellow text-blue
 date: 2020-01-30T11:37:00+0000
 author: mat
-cover_img: null
+cover_img: images/tim-umphreys-s7zabnrg2bw-unsplash.jpg
 cover_img_alt: null
 draft: false
 services: []
