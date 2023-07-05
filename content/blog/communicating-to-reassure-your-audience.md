@@ -16,6 +16,10 @@ intro: It has always been important to communicate clearly and effectively to
   your audience but now it has become critical for organisations to communicate
   far more frequently and across multiple touchpoints to build trust and
   confidence.
+related_posts:
+  - cultural-recovery-audience-insights
+  - why-continuing-to-use-live-streaming-post-lockdown-could-be-positive-for-events
+  - improving-the-online-ticket-buying-experience
 ---
 We recently undertook a survey asking event-goers across the UK their thoughts on going back to live events. It raised some unsurprising but interesting views on what and how people wanted to be communicated with. Here's what we found...
 
