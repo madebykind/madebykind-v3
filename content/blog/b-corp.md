@@ -4,8 +4,9 @@ title: Kind certifies as a B Corporation
 card_colour: bg-sky text-green
 date: 2022-03-22
 author: michelle
-cover_img: null
-cover_img_alt: null
+cover_img: images/work-backlit-kind-team.jpg
+text_colour: text-buff
+cover_img_alt: Kind team sat around a table looking at a laptop and an ipad
 draft: false
 description: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation
