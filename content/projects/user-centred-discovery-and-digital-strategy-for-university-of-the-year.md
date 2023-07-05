@@ -9,6 +9,10 @@ images:
     img_alt: Mobile mockups of the NTU website
   - image: images/NTU-Project-3.png
     img_alt: A desktop mockup of the NTU website
+topics:
+  - Research and analysis
+  - User-centred design
+  - Mobile-first design
 ---
 NTU commissioned us to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of the University’s external and internal audiences, while still reflecting NTU strategy, key messages and unique position.
 
