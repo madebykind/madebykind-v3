@@ -64,6 +64,6 @@ Seriously what on earth has been going on for the past five years politically. I
 
 ![Exterior of the Donald J trump Presidential Twitter Library - Which was a joke](images/trump_twitter_library.png)
 
-<﻿hr>
+---
 
 With all of these innovations being taken to preserve different formats of history in a meaningful and contextually representative way, we really look forward to seeing how what we are experiencing today will continue to be captured and how it will be shared in decades to come, both digitally and at museums and galleries. Although in fairness, for now, I do not really want to relive 2020 any time soon…

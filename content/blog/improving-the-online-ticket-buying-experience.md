@@ -30,7 +30,7 @@ Frustrated users always lead to high abandonment rates. Eventbrite reports an av
 
 Make it quick.
 
-<﻿hr>
+---
 
 Over the past few years, in our downtime, we've been thinking about this a lot. In that time we've bought tickets for events at theatres, museums, stadium shows and small music venues and we followed the same process time and time again.
 
