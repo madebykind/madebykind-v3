@@ -15,6 +15,10 @@ topics:
   - Environment
 intro: Last week Kind travelled to the Netherlands to attend 1% For The Planet’s
   first European global summit.
+related_posts:
+  - kind-partners-with-rewilding-britain
+  - who-gives-a-damn-well-we-do-actually
+  - b-corp
 ---
 Held at the awesome [Patagonia](https://eu.patagonia.com/) headquarters in central Amsterdam, we were pleased to sponsor the event and be a part of the 100 strong delegation of members in attendance.
 
