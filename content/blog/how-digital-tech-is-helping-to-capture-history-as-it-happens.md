@@ -2,7 +2,7 @@
 hidden: false
 title: How digital tech is helping to capture history, as it happens
 card_colour: bg-sky text-green
-date: 2023-06-29T14:58:34.039Z
+date: 2021-02-23T15:58:34.039Z
 author: michelle
 cover_img: images/sushil-nash-7jlgnlwl4_a-unsplash.jpg
 text_colour: text-white
@@ -13,7 +13,7 @@ description: With the impermanence and speed of change of the internet and how
   disappear the next day?
 toc: false
 featured: true
-summary:
+summary: null
 key_topic: Insights
 topics:
   - Arts & Culture
