@@ -16,4 +16,11 @@ cover_img: images/strategy-notes.jpg
 description: Our team uses research and analysis techniques to fully understand
   what our clients are trying to achieve and why, before delivering high-level
   strategies and detailed plans of how to get there.
+_build:
+  render: never
+cascade:
+  _build:
+    render: never
+    list: true
+    publishResources: true
 ---
