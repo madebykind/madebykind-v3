@@ -53,6 +53,6 @@ I have always been a firm believer in switching up the plan if it is needed. Yes
 
 The whole process of creating a strategy, planning out the work, checking in to see how it is going and switching it up if necessary should be an enjoyable one and nothing to fear! Getting the chance to set out your work across the year, devise and implement exciting ideas and seeing them come to fruition is a great thing! Giving yourself time to do this and seeing it through is a real investment in your business and in your own personal development.
 
-<﻿hr>
+---
 
 If you want to get started with a strategy for your organisation and aren’t sure where to start, we can help. Get in touch and we’ll point you in the right direction.

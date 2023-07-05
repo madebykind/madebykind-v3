@@ -69,6 +69,6 @@ Not everyone will be involved in the project or even show any interest, however,
 
 To communicate effectively make sure you utilise all of the tools available to you. Tell people in person, email them, put it on your internal intranet or newsletter if you have one. But most of all make sure people know about it and have time to digest the information.
 
-<﻿hr>
+---
 
 If you're starting a digital project soon, hopefully this rundown will help things run smoothly. Good luck!

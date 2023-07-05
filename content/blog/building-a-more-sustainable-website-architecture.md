@@ -102,6 +102,6 @@ You can make use of caching methods to ensure that if a file, image or the code 
 
 This approach means that, for example, a webpage that usually weighs 500KB can be served by downloading just 10<span class="smcp">KB</span> of code.
 
-<hr>
+---
 
 Ok, some of the tips above might be difficult to implement without a developer, but hopefully there are some quick wins that you can use to start doing better and reduce your websites energy consumption today.

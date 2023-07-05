@@ -136,7 +136,7 @@ Towards the end of a discovery phase, we will have amounted a wealth of research
 * An audit of existing content & brand assets
 * An initial estimate of the time and resources that will be required to deliver the project
 
-<﻿hr>
+---
 
 While a well run discovery phase doesn’t guarantee project success, it provides a massive head start towards ensuring that you’re building the right thing, in the right way, for the right reasons. You’ll also know if you have the correct resources in place to make that vision a reality, as well as the tools to advocate for more if you don’t.
 
