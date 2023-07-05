@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Communicating to reassure your audience
-card_colour: bg-sky text-green
+card_colour: bg-teal text-blue
 date: 2021-03-31T14:43:06.833Z
 author: michelle
 draft: false
