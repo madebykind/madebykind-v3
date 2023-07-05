@@ -12,9 +12,8 @@ description: Running a digital project can be a tricky process, if you are new
   when it comes to taking the information back to your internal stakeholders.
 toc: false
 featured: false
-key_topic: Insights
-topics:
-  - How we work
+key_topic: Insights, How we work
+topics: []
 intro: During my career in marketing and communications, I have often been
   tasked with managing multiple digital projects for organisations that are not
   traditionally digitally-led. Those organisations have also been based in
