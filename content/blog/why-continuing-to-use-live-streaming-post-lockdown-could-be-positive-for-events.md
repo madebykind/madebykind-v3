@@ -20,6 +20,10 @@ intro: In the past year, we saw venues close and live streaming become a more
   As we make moves towards the country steadily re-opening we’ve been thinking
   about what the future looks like for live streaming, will it completely cease
   as events come back again? Our gut feeling is no. Here’s why…
+related_posts:
+  - improving-the-online-ticket-buying-experience
+  - communicating-to-reassure-your-audience
+  - cultural-recovery-audience-insights
 ---
 In March we [carried out a survey](https://madebykind.com/blog/cultural-recovery-audience-insights) asking people how they felt about going back to live events. One interesting thing we found is that audiences are open to attending events online with 27% willing to attend despite never having done so previously and 40% happy to continue streaming.
 
