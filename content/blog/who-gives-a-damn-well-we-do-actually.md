@@ -19,6 +19,10 @@ intro: In the time-honoured tradition of businesses rebranding and launching
   their own website and promoting it to high heaven, we’re doing that ourselves
   this week, and for what reason? Does anyone give a damn? probably not, which
   is fair, but we do, and here is why…
+related_posts:
+  - b-corp
+  - kind-partners-with-rewilding-britain
+  - learnings-from-the-1-for-the-planet-european-summit
 ---
 Since Kind’s inception in 2014, it was built on the basis of being a force for good. In the years since that, it has snowballed beautifully into a fully-fledged mission and set of core values to put people and the planet at the forefront of everything we do. It's at the root of who we work with, the projects we deliver, the team that we employ, and how we operate every single day in and outside of work. Which is why we are one of the leading sustainable agencies in the UK. 
 
@@ -42,7 +46,7 @@ We’re an independent creative agency For the Good Folks. The wildlife protecto
 
 We combine expertise in digital, branding and strategy with an unwavering commitment to social change. By using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes.
 
-![Mockups of the new Kind website on mobile devices](../images/instagram-post-–-flat-iphone-graphic.jpg)
+![Mockups of the new Kind website on mobile devices](../images/7.3-website-launch-linkedin-instagram-1080x1080.png)
 
 We’re genuine, caring human beings who’ve chosen to use our experience to make the world a bit better. We understand that we can’t save the world with a brand or a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.
 
