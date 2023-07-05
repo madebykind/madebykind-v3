@@ -18,6 +18,10 @@ topics:
 intro: Late in 2020, we were approached by the Jellyfish theatre company to help
   give them strategic marketing advice on how to promote their live outdoor
   shows in Nottingham.
+related_posts:
+  - cultural-recovery-audience-insights
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
+  - partnering-with-the-right-agency-for-you
 ---
 
 ## About Jellyfish Theatre
