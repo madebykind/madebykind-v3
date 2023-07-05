@@ -237,8 +237,8 @@ collections:
           required: false, 
           widget: 'list', 
           fields: [
-            { name: 'image', label: 'Image', widget: 'image' }
-            { name: 'img_alt', label: 'Alt text', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!' }
+            { name: 'image', label: 'Image', widget: 'image' },
+            { name: 'img_alt', label: 'Alt text', widget: 'string', hint: 'Alt(ernative) text should describe the visual content of the image. Don’t start with “Image of…”!' },
           ]
         }
       - { label: 'Topics', name: 'topics', widget: 'list', required: false }
