@@ -1,9 +1,7 @@
 ---
 hidden: false
 title: Creating a user-friendly navigation structure
-card_colour:
-  label: Blue on teal
-  value: bg-teal text-blue
+card_colour: bg-teal text-blue
 date: 2018-02-07T17:15:04.354Z
 author: mat
 draft: false
@@ -20,6 +18,10 @@ intro: One of the initial and most important tasks on a digital project of any
   organisations already value audience analysis, user journeys and user-centred
   design, many struggle to break away from mirroring their internal structures
   when devising an Information Architecture (IA).
+related_posts:
+  - finding-the-common-ground-between-your-organisation-and-its-audience
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
+  - ethical-digital-projects
 ---
 Unfortunately, to those critically important end-users, this type of navigation structure can be confusing and obscure and lead them to become frustrated, give up on their task and (worse) go elsewhere.
 

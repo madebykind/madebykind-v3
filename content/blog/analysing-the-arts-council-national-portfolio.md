@@ -1,8 +1,9 @@
 ---
 hidden: false
 title: Analysing the Arts Council National Portfolio
-card_colour: bg-sky text-green
+card_colour: bg-teal text-blue
 date: 2017-07-06T16:18:30.032Z
+author: mat
 draft: false
 description: ​We watched with interest last week as the Arts Council England
   announced their National Portfolio for 2018 - 2022.
@@ -12,6 +13,10 @@ key_topic: Insights
 topics:
   - Research and analysis
   - Arts & Culture
+related_posts:
+  - bbc-selects-kind-as-digital-services-framework-provider
+  - how-digital-tech-is-helping-to-capture-history-as-it-happens
+  - jellyfish-theatre-the-wagon-of-dreams
 ---
 We watched with interest last week as the [Arts Council England](http://www.artscouncil.org.uk/) announced their [National Portfolio](http://www.artscouncil.org.uk/NPO) for 2018-2022. And while we were pleased to discover the additional investment outside of London, we wanted to look further into the figures and make our own minds up.
 
@@ -31,4 +36,4 @@ And, looking further at local investment, the East Midlands is set to receive an
 
 Based on the Arts Council’s National Portfolio data, we’ve created an infographic illustrating the change in funding since 2015. We think there’s still a long way to go.
 
-![An infographic showing our analysis of the Arts Council NPO data](images/arts-council-portfolio-analysis-2018.png)
+![An infographic showing our analysis of the Arts Council NPO data](../images/arts-council-portfolio-analysis-2018.png)

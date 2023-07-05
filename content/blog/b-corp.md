@@ -4,17 +4,22 @@ title: Kind certifies as a B Corporation
 card_colour: bg-sky text-green
 date: 2022-03-22
 author: michelle
-cover_img: null
-cover_img_alt: null
+cover_img: images/work-backlit-kind-team.jpg
+text_colour: text-buff
+cover_img_alt: Kind team sat around a table looking at a laptop and an ipad
 draft: false
 description: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation
-featured: true
+featured: false
 key_topic: Our impact
 topics: []
 intro: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation, joining 4,600 businesses globally who are
   committed to purpose beyond profit.
+related_posts:
+  - who-gives-a-damn-well-we-do-actually
+  - building-a-more-sustainable-website-architecture
+  - kind-partners-with-rewilding-britain
 ---
 
 Certified B Corporations, or B Corps, are companies that meet the highest standards of social and environmental performance, transparency, and accountability.

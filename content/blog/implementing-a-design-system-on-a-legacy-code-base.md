@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Implementing a design system on a legacy code base
-card_colour: bg-sky text-green
+card_colour: bg-pink text-blue
 date: 2019-07-23T15:45:46.525Z
 author: mat
 draft: false
@@ -11,6 +11,10 @@ featured: false
 key_topic: How we work
 topics:
   - Design systems
+related_posts:
+  - benefits-of-a-design-system-for-complex-organisations
+  - building-a-more-sustainable-website-architecture
+  - finding-the-common-ground-between-your-organisation-and-its-audience
 ---
 It's been just over a year since we started working with [Sheffield Hallam University](https://madebykind.com/blog/sheffield-hallam-university-appoint-kind-as-digital-consultancy) to create a design system for their website and other online properties.
 
@@ -22,11 +26,11 @@ When creating a design system for existing products, it’s useful to begin by 
 
 This was our first task and we were not surprised to find a large amount of colours and font-styles being used, especially on the older properties owned by the University. 
 
-![A list of background-colours used on the Sheffield Hallam University website. There are a lot.](images/shu-colour-audit-vert.jpg)
+![A list of background-colours used on the Sheffield Hallam University website. There are a lot.](../images/shu-colour-audit-vert.jpg)
 
 We also found that there wasn’t very much in the way of component reuse or consistency of design between similar components.
 
-![Examples of call to action styles found on the Sheffield Hallam University website](images/cta-audit.jpg)
+![Examples of call to action styles found on the Sheffield Hallam University website](../images/cta-audit.jpg)
 
 At this point, the scale of the task was becoming clear, but it’s just not possible to fix this in one fell swoop without rebuilding all online properties and releasing in one ​“big-bang” launch. 
 
@@ -62,7 +66,7 @@ These consistency issues then live in the wild for a relatively long time, whil
 
 To reduce the likelihood of these problems arising, we created a user interface library in Adobe XD which includes colours, type styles and all of the existing design system components. 
 
-![Screenshot of Adobe XD file containing Sheffield Hallam University UI toolkit](images/shu-toolkit.jpg)
+![Screenshot of Adobe XD file containing Sheffield Hallam University UI toolkit](../images/shu-toolkit.jpg)
 
 The toolkit is then used to wireframe new templates and is subsequently updated when creating new design.
 
@@ -72,7 +76,7 @@ As we are not Sitecore developers, all integration of the design system HTML cod
 
 While we love collaborating with other teams, this has previously thrown up some issues with how the HTML is used, largely down to a lack of knowledge about the intended behaviour of a component or template. 
 
-![Screenshots of Sheffield Hallam University component library in Fractal](images/shu-design-system.jpg)
+![Screenshots of Sheffield Hallam University component library in Fractal](../images/shu-design-system.jpg)
 
 To combat this, we are introducing component specifications in [Fractal](http://fractal.build/), the tool we use to document our component libraries, helping everyone working with design system code to understand each components’ intended behaviour and thus implement it correctly. 
 
@@ -80,6 +84,6 @@ To combat this, we are introducing component specifications in [Fractal](http:/
 
 We’ve just finished working with SHU to update their online prospectus. This will be released soon and includes a 100x faster course search and landing pages for their many subject areas.
 
-![A hand holding an iPhone on a pink background. The iPhone has the Sheffield Hallam University website on it](images/iphone-mockup.jpg)
+![A hand holding an iPhone on a pink background. The iPhone has the Sheffield Hallam University website on it](../images/iphone-mockup.jpg)
 
 After that we’ll be working to align the rest of the primary SHU website with the design system by creating a forms API and working on the structure of the primary navigation and masthead.

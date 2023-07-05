@@ -4,8 +4,8 @@ title: Benefits of a design system for complex organisations
 card_colour: bg-pink text-blue
 date: 2021-09-02T15:19:24.478Z
 author: mat
-cover_img:
-cover_img_alt:
+cover_img: null
+cover_img_alt: null
 draft: false
 services:
   - digital
@@ -18,6 +18,10 @@ topics:
 intro: At Kind, we often work with large organisations, such as universities and
   cultural organisations, that have a complex digital presence comprising
   multiple online properties.
+related_posts:
+  - implementing-a-design-system-on-a-legacy-code-base
+  - finding-the-common-ground-between-your-organisation-and-its-audience
+  - start-your-next-digital-project-with-a-paid-discovery-phase
 ---
 Maintaining consistency on how these properties look and function can be difficult. A Design System aims to alleviate these difficulties by acting as the foundation which all properties are built on, or from.
 
@@ -29,7 +33,7 @@ While this is one of the key constituent parts of a design system, it alone does
 
 A design system is more than that. It is a consolidation of an organisation's visual identity, strategy, brand values, purpose and audiences into shared practices, design principles and finally a pattern library, templates, themes and digital properties such as websites and applications.
 
-![An illustrated diagram of how a design system works](images/design-systems-diagram.png)
+![An illustrated diagram of how a design system works](../images/design-systems-diagram.png)
 
 ## Ok, so do I need one?
 
@@ -63,7 +67,7 @@ Having a single overarching project that underpins everything you deliver online
 
 And, educating new members of the team is much easier as there's clear documentation and a focal point for training.
 
-![Mat and Seth discuss design systems, while Michelle watches on](images/kind-team-meeting.jpg)
+![Mat and Seth discuss design systems, while Michelle watches on](../images/kind-team-meeting.jpg)
 
 ### Ready for anything!
 

@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Access all areas
-card_colour: bg-sky text-green
+card_colour: bg-yellow text-blue
 date: 2020-11-30T16:21:16.220Z
 author: seth
 draft: false
@@ -19,6 +19,9 @@ intro: Experienced web developers ensure that accessibility is baked into
   everything they do because it’s the right thing to do, and the right way to do
   it. The web is accessible to start with, it was designed to be, and it is our
   responsibility to ensure we don’t break that.
+related_posts:
+  - ethical-digital-projects
+  - how-to-get-your-colleagues-on-board-with-your-website-project
 ---
 ## Accessibility is misunderstood
 

@@ -4,6 +4,9 @@ title: How we’re trying to be more green
 card_colour: bg-sky text-green
 date: 2018-10-17T16:09:57.040Z
 author: michelle
+cover_img: ""
+text_colour: text-buff
+cover_img_alt: Sam on a beach, doing a beach clean
 draft: false
 description: At Kind we set ourselves up to deliver strategic thinking & digital
   delivery for socially responsible brands. But what does that mean?
@@ -14,6 +17,10 @@ topics:
   - Environment
 intro: At Kind we set ourselves up to deliver strategic thinking & digital
   delivery for socially responsible brands. But what does that mean?
+related_posts:
+  - kind-partners-with-rewilding-britain
+  - b-corp
+  - who-gives-a-damn-well-we-do-actually
 ---
 In short, it means we choose to work with a client base that sets out to do good. Whether that’s good things for people, culture, animals or the planet, as long as it leaves a positive footprint for future generations we can truly get behind it. We are lucky to have a host of wonderful clients from renewable energy institutes, universities through to online stores which sell socially conscious and environmentally friendly products and many more!
 
@@ -29,7 +36,7 @@ We knew climate change was a serious issue and one which as people we could no 
 
 To further our commitment to cleaning up the planet we wanted to get out there and understand the effects plastic consumption has on UK waters. As a team we decided to [take a team building trip to Wales](https://madebykind.com/blog/kind-go-wild-in-wales) and meet up with the rep from [Surfers Against Sewage](https://www.sas.org.uk/) and do a beach clean. It was an eye opening experience and really made us think more about how we use plastic. We continue to support Surfers Against Sewage and hope to plan another trip in the future.
 
-![Man in a beach with a bucket and a litter picker](images/img_8048.jpg)
+![Man on a beach with a bucket and a litter picker](../images/img_8048.jpg)
 
 ## Plastic Waste
 

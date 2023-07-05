@@ -1,11 +1,11 @@
 ---
 hidden: false
-title: Start Your Next Digital Project With a Paid Discovery Phase
+title: Start your next digital project with a paid discovery phase
 card_colour: bg-yellow text-blue
 date: 2021-06-16T15:20:00+0100
 author: mat
-cover_img:
-cover_img_alt:
+cover_img: null
+cover_img_alt: null
 draft: false
 services: []
 description: Anyone who has taken on a digital project before knows that, even
@@ -20,6 +20,10 @@ intro: Anyone who has taken on a digital project before knows that, even with
   the best intentions, things can often go awry. Initial excitement slowly fades
   during the project and the final result can be underwhelming. Wires got
   crossed somewhere and the final delivery is not quote what you imagined.
+related_posts:
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
+  - how-to-get-your-colleagues-on-board-with-your-website-project
+  - finding-the-common-ground-between-your-organisation-and-its-audience
 ---
 Perhaps, when you launch, results are positive, but nowhere near what you expected or hoped for. Maybe your users aren't as delighted as you'd like them to be. Maybe they complain or go elsewhere.
 

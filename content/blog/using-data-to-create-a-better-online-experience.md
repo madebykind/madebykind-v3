@@ -16,6 +16,10 @@ intro: "Most people understand the importance of data to a website. On one hand
   it’s the content the user sees, on the other we collect data about how those
   users interact with a site: How long were they there? What device were they
   using? etc."
+related_posts:
+  - finding-the-common-ground-between-your-organisation-and-its-audience
+  - creating-a-user-friendly-navigation-structure
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
 ---
 But what if we could make this data work for our users by creating a more relevant, engaging and personalised experience?
 

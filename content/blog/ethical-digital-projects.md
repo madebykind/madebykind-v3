@@ -20,7 +20,10 @@ key_topic: Insights
 intro: After attending New Adventures in January, we were inspired by talks from
   Cennydd Bowles and Laura Kalbag.
 related_pages: []
-related_posts: []
+related_posts:
+  - who-gives-a-damn-well-we-do-actually
+  - building-a-more-sustainable-website-architecture
+  - finding-the-common-ground-between-your-organisation-and-its-audience
 ---
 
 Cennydd spoke of looking past the needs of users in the present-tense to the impact our designs choices could have on wider society, wildlife and the planet, both now and in the future. Considering the potential short and long-term negative consequences of our work, not just on the user, but elsewhere. While Laura spoke of web privacy and the sheer volume and detail of data stored about us, often assumed but very accurate.

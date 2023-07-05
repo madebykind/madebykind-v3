@@ -1,9 +1,7 @@
 ---
 hidden: false
 title: How to get your colleagues on board with your website project
-card_colour:
-  label: Blue on teal
-  value: bg-teal text-blue
+card_colour: bg-yellow text-blue
 date: 2020-02-19T16:29:36.327Z
 author: michelle
 draft: false
@@ -12,15 +10,18 @@ description: Running a digital project can be a tricky process, if you are new
   when it comes to taking the information back to your internal stakeholders.
 toc: false
 featured: false
-key_topic: Insights
-topics:
-  - How we work
+key_topic: Insights, How we work
+topics: []
 intro: During my career in marketing and communications, I have often been
   tasked with managing multiple digital projects for organisations that are not
   traditionally digitally-led. Those organisations have also been based in
   technology, policy, research and development and have sought to share their
   knowledge further with their specific interested parties but have also been
   nervous to do so.
+related_posts:
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
+  - partnering-with-the-right-agency-for-you
+  - start-your-next-digital-project-with-a-paid-discovery-phase
 ---
 Managing a digital project can be a tricky process. Often, your internal stakeholders will show a high level of interest but won't always have the same level of understanding of the project process and its objectives. This can result in a disparity between expectations and reality and lead to frustration and bad feeling about the project itself.
 

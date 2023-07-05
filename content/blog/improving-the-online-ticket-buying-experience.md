@@ -18,6 +18,10 @@ topics:
 intro: Since the pandemic, the willingness of audiences to collect tickets in
   person or visit a box office has dropped substantially, so the need to get the
   online ticket purchasing experience right is paramount.
+related_posts:
+  - communicating-to-reassure-your-audience
+  - cultural-recovery-audience-insights
+  - why-continuing-to-use-live-streaming-post-lockdown-could-be-positive-for-events
 ---
 ![Illustration showing ticket buying preferences between digital and box office.](../images/5-digital-tickets.jpg)
 
