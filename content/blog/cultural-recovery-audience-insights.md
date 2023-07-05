@@ -18,6 +18,10 @@ intro: This month, we conducted a survey to find out how audiences across the
   country felt about going back to live events. We surveyed 216 people aged
   18-80 and asked them how they behaved prior to the pandemic and how they will
   approach going back to events as lockdown restrictions ease over the summer.
+related_posts:
+  - why-continuing-to-use-live-streaming-post-lockdown-could-be-positive-for-events
+  - improving-the-online-ticket-buying-experience
+  - communicating-to-reassure-your-audience
 ---
 Despite it showing that respondents are still cautious about measures easing and are unsure about what 'normal life' looks like post-June 21st, it became clear that survey-takers are keen to get back to live events when it is safe to do so.
 
