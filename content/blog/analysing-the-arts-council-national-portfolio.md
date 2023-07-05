@@ -17,7 +17,7 @@ We watched with interest last week as the [Arts Council England](http://www.art
 
 <﻿hr>
 
-While the headline & statistic of an extra £170m investment outside London will be welcome news for those tired of a London-centric approach to distribution, funding per head is still over 4 times as much inside the capital than everywhere else and in real terms the shift in funding is only very slight at around 3%.
+While the headline statistic of an extra £170m investment outside London will be welcome news for those tired of a London-centric approach to distribution, funding per head is still over 4 times as much inside the capital than everywhere else and in real terms the shift in funding is only very slight at around 3%.
 
 This shift has largely been made possible by some of the larger institutions such as the Royal Opera House, Southbank Centre and RSC agreeing a reduction in their funding to allow the Arts Council to support more small and/or diverse organisations.
 
