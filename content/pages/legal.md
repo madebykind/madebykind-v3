@@ -15,12 +15,13 @@ NG<span class="numbers">1</span><span class="numbers">1</span>HS
 
 
 <strong>Company number</strong>: 
-<span class="numbers">09111618</span><strong>VAT number</strong>: GB <span class="numbers">190</span> <span class="numbers">3204</span> <span class="numbers">37</span>
+<span class="numbers">09111618</span><br>
+<strong>VAT number</strong>: GB <span class="numbers">190</span> <span class="numbers">3204</span> <span class="numbers">37</span>
 
 ##  Policies
 
-* <a href="https://madebykind.com/about/legal/privacy">Privacy policy</a>
-* <a href="https://madebykind.com/about/legal/quality-assurance-policy">Quality assurance policy</a>
-* <a href="https://madebykind.com/about/legal/equality-and-diversity-policy">Equality and diversity policy</a>
-* <a href="https://madebykind.com/about/legal/data-protection-policy">Data protection policy</a>
-* <a href="https://madebykind.com/about/legal/governance">Governance</a>
+* <a href="/about/legal/privacy">Privacy policy</a>
+* <a href="/about/legal/quality-assurance-policy">Quality assurance policy</a>
+* <a href="/about/legal/equality-and-diversity-policy">Equality and diversity policy</a>
+* <a href="/about/legal/data-protection-policy">Data protection policy</a>
+* <a href="/about/legal/governance">Governance</a>

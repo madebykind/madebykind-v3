@@ -21,11 +21,11 @@ AbilityNet has [advice on making your device easier to use](https://mcmw.ability
 
 ## What to do if you cannot access parts of this website
 
-If you need information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille, contact <a href="mailto:help@example.com ">help@example.com </a>. We’ll consider your request and get back to you within 2 working days.
+If you need information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille, contact <a href="mailto:dev@madebykind.com">dev@madebykind.com </a>. We’ll consider your request and get back to you within 2 working days.
 
 ## Reporting accessibility problems with this website
 
-We’re always looking to improve the accessibility of this website. If you have any problems accessing this site, or you think we’re not meeting accessibility requirements, please contact <a href="mailto:help@example.com ">help@example.com</a>.
+We’re always looking to improve the accessibility of this website. If you have any problems accessing this site, or you think we’re not meeting accessibility requirements, please contact <a href="mailto:dev@madebykind.com">dev@madebykind.com</a>.
 
 ## Technical information about this website’s accessibility
 
