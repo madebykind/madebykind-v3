@@ -9,7 +9,7 @@ cover_img_alt: null
 draft: false
 description: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation
-featured: true
+featured: false
 key_topic: Our impact
 topics: []
 intro: We’re delighted to announce that, this week, Kind has officially
