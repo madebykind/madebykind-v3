@@ -46,7 +46,7 @@ Our prototype surfaces the earliest upcoming events that have availability and a
 
 <div class="relative flex justify-center section--sm" data-video-facade data-video-id="539060608" data-video-src="https://player.vimeo.com/video/539060608">
   <div class="relative" style="width:375px; height:666px;">
-    <img alt src="../images/ticketing-1.png" width="375" height="666" data-video-thumb>
+    {{< figure src="../images/ticketing-1.jpg" width="375" height="666" data-video-thumb >}}
     <div class="absolute top-0 left-0 z-10 flex items-center justify-center w-full h-full transition-opacity duration-200 pointer-events-none opacity-1" data-video-button="539060608">
       <button class="flex items-center justify-center w-24 h-24 bg-white rounded-full hover:bg-grey-lightest">
         <svg class="w-8 h-8" viewbox="0 0 32 32">
