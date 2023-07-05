@@ -1,4 +1,4 @@
----
+d---
 date: 2020-04-24T11:48:46+01:00
 description: We respect your privacy. This policy desribes what you need to know.
 title: Legal policies
@@ -21,6 +21,6 @@ NG<span class="numbers">1</span><span class="numbers">1</span>HS
 
 * <a href="/about/legal/privacy">Privacy policy</a>
 * <a href="/about/legal/quality-assurance-policy">Quality assurance policy</a>
-* <a href="m/about/legal/equality-and-diversity-policy">Equality and diversity policy</a>
+* <a href="/about/legal/equality-and-diversity-policy">Equality and diversity policy</a>
 * <a href="/about/legal/data-protection-policy">Data protection policy</a>
 * <a href="/about/legal/governance">Governance</a>
