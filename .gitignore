@@ -60,4 +60,4 @@ public
 # HUGO built assets
 hugo_stats.json
 .hugo_build.lock
-resources/_gen/images/
+# resources/_gen/images/
