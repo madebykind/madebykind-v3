@@ -12,6 +12,10 @@ key_topic: Insights
 topics:
   - Research and analysis
   - Arts & Culture
+related_posts:
+  - bbc-selects-kind-as-digital-services-framework-provider
+  - how-digital-tech-is-helping-to-capture-history-as-it-happens
+  - jellyfish-theatre-the-wagon-of-dreams
 ---
 We watched with interest last week as the [Arts Council England](http://www.artscouncil.org.uk/) announced their [National Portfolio](http://www.artscouncil.org.uk/NPO) for 2018-2022. And while we were pleased to discover the additional investment outside of London, we wanted to look further into the figures and make our own minds up.
 
