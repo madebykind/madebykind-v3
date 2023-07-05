@@ -11,11 +11,12 @@
   --color-bg-ui: hsla(0,0%,0%,.05);
   --color-border-ui: hsla(0,0%,0%,.1);
   --width-container: 90%;
-  --max-width-container: ;
+  --max-width-container: 120rem;
   --max-width-copy: 57ch;
 }
 
-/* You asked for dark? Try some funk! */
+/* You asked for dark? Try some funk! 
 @media (prefers-color-scheme: dark) {
   :root {}
 }
+*/
