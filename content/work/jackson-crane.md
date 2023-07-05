@@ -29,13 +29,17 @@ We ran workshops with the team at Jackson-Crane to really identify who they are,
 
 {{< figure src="../images/work-jackson-crane-drawing.jpg" alt="Over the shoulder view of someone drawing" >}}
 
+<﻿div class="flex gap-10">
 ![Jackson-Crane strategy document on a laptop screen](../images/work-jackson-crane-strategy-laptop.jpg)
+
+![Jackson-Crane values on a tablet device](../images/work-jackson-crane-values.jpg)
+
+<﻿/div>
 
 With all of the learnings and data we collected, we were able to create a short and long-term business plan for them, which gave them a vision, mission, values, organisational and financial goals and help to identify team roles to aid meaningful growth to the business.
 
 {{< figure src="../images/work-jackson-crane-laptop-mission.jpg" alt="Jackson-Crane mission statement on a laptop screen" >}}
 
-![Jackson-Crane values on a tablet device](../images/work-jackson-crane-values.jpg)
 
 The practice was able to take that work and grow its business to become an award-winning architectural practice. Since then we have worked with them to give advice on marketing, SEO and hope to continue working with them in the future.
 
