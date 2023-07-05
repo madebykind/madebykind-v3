@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Increasing online donations
-card_colour: bg-sky text-green
+card_colour: bg-yellow text-blue
 date: 2021-09-06T15:11:00.723Z
 author: mat
 cover_img: null
