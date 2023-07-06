@@ -2,6 +2,7 @@
 hidden: false
 date: 2023-07-05T10:57:40.247Z
 title: "**Design system** for institution searching for cures for endemic diseases"
+name: The Crick Institute
 images:
   - image: images/crick-project-1.jpg
     img_alt: A desktop mockup of an event page

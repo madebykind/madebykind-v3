@@ -2,6 +2,7 @@
 hidden: false
 date: 2023-07-05T10:45:00.706Z
 title: "**Website with ticketing integration** for state-of-the-art concert venue"
+name: The Tung Auditorium
 images:
   - image: images/tung-project-1.jpg
     img_alt: A desktop mockup of the Tung Auditorium homepage

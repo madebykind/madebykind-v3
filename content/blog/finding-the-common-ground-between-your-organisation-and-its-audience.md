@@ -5,7 +5,7 @@ topics:
   - User-centred design
 related_work:
   - building-a-more-sustainable-website-architecture
-  - b-corp
+  - kind-certifies-a-b-corporation
 hidden: false
 title: Finding the common ground between your organisation and its audience
 card_colour: bg-pink text-blue

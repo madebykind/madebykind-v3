@@ -2,6 +2,7 @@
 hidden: false
 date: 2023-07-05T11:01:15.541Z
 title: "**User-centred discovery and digital strategy** for University of the Year"
+name: Nottinghaml Trent University
 images:
   - image: images/NTU-Project-1.png
     img_alt: A desktop mockup of the NTU homepage

@@ -3,6 +3,7 @@ hidden: false
 date: 2023-07-05T10:51:49.707Z
 title: "**Digital editorial design** for independent media platform, built on
   cutting-edge tech"
+name: Nest
 images:
   - image: images/nest-project-1.jpg
     img_alt: A desktop mockup of the Nest HQ homepage

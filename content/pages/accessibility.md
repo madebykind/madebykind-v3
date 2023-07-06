@@ -4,7 +4,7 @@ description: Accessiblity is at the heart of everything we do, this page explain
 title: Accessibility Statement
 toc: true
 related_pages:
-  - b-corp
+  - kind-certifies-a-b-corporation
   - kind-partners-with-rewilding-britain
 url: /about/legal/accessibility
 ---

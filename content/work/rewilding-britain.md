@@ -7,7 +7,7 @@ topics:
   - CRM integration
 related_work:
   - chapter
-  - rivers-trust
+  - the-rivers-trust
 title: A platform to inspire rewilding projects across the country
 cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
   mobile is on the ground in the woods

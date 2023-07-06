@@ -21,10 +21,9 @@
       {{ range (where site.RegularPages "Section" "projects" ) }}
         <li class="py-10 border-b">
           <article>
-
-            <button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
-              <h4 class="font-normal h3">{{ .Title | markdownify }}</h4>
-              <div class="absolute sr-only right-24">Show hidden content</div>
+            <button class="flex items-center justify-between w-full gap-5" data-toggle data-target="#{{ .Title | anchorize }}_body">
+              <h4 class="font-normal text-left h3">{{ .Title | markdownify }}</h4>
+              <div class="absolute sr-only right-24">{{ .Title }}: Read more about our  impact in this area</div>
               <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
                 <svg class="w-8 h-8" role="presentation">
                   <use xlink:href="#icon-arrow-down"/>
