@@ -4,7 +4,7 @@ cover_img_alt: A view of multiple poster mockups lined up on the street. The
 related_projects:
   - crick
   - chapter
-  - rivers-trust
+  - the-rivers-trust
 block_class: bg-yellow text-green
 summary: We work from the ground up; from your brand foundations, personality,
   values all the way to the final output. A carefully crafted, cohesive, thought

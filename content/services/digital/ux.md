@@ -2,7 +2,7 @@
 cover_img_alt: Alt text cannot be blank
 related_work:
   - rewilding-britain
-  - rivers-trust
+  - the-rivers-trust
 header_class: bg-pink text-claret
 toc: true
 hidden: false
@@ -18,7 +18,7 @@ description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
   - ethical-digital-projects
-  - b-corp
+  - kind-certifies-a-b-corporation
 ---
 
 {{% split heading="What is user-centred design?" %}}

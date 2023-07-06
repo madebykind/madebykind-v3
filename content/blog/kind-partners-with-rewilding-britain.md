@@ -19,7 +19,7 @@ intro: null
 related_pages: []
 related_posts:
   - learnings-from-the-1-for-the-planet-european-summit
-  - b-corp
+  - kind-certifies-a-b-corporation
   - who-gives-a-damn-well-we-do-actually
 ---
 After the **[1% for the Planet summit in 2018](https://madebykind.com/blog/1-for-the-planet-european-summit)**, we were inspired to find a long-term charity partner to amplify the positive impact our membership has. Today, we’re pleased to announce that we have chosen to partner with **[Rewilding Britain](https://www.rewildingbritain.org.uk/)** and will be offering our support by way of monetary donations and our time and expertise.

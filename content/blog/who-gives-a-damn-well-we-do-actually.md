@@ -20,7 +20,7 @@ intro: In the time-honoured tradition of businesses rebranding and launching
   this week, and for what reason? Does anyone give a damn? probably not, which
   is fair, but we do, and here is why…
 related_posts:
-  - b-corp
+  - kind-certifies-a-b-corporation
   - learnings-from-the-1-for-the-planet-european-summit
   - kind-partners-with-rewilding-britain
 ---
