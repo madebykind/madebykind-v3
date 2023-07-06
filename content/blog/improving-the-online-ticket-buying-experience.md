@@ -11,10 +11,9 @@ description: Frustrated users always lead to high abandonment rates. So how can
   we build a ticket purchasing journey that is a breeze? Make it quick.
 toc: false
 featured: true
+key_topic: Insights
 topics:
-  - User-centred design
-  - Strategic consultancy
-  - Digital sustainability
+  - Arts & Culture
 intro: Since the pandemic, the willingness of audiences to collect tickets in
   person or visit a box office has dropped substantially, so the need to get the
   online ticket purchasing experience right is paramount.
