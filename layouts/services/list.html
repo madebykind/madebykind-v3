@@ -39,29 +39,30 @@
       <h2 class="text-xl">Our offering</h2>
       <p>We don’t do upselling or false promises, just honest and transparent advice to help your organisation do better.</p>
     </div>
-
-{{ range $i,$p := .Pages }}
-	{{ if not (modBool $i 2) }}
-    <section id="{{ .Title | anchorize }}" class="section">
-      <div class="grid grid-cols-12 gap-10 lg:gap-20">
-        {{ if .Params.cover_img }}
-          <div class="col-span-full md:col-span-6 md:order-1">
-            {{ partial "image__teaser-lg" . }}
-          </div>
-        {{ end }}
-        <div class="col-span-full md:col-span-6">
-          <div class="prose">
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Summary }}</p>
-            <div class="section">
-              <h3>Services</h3>
-              <ul class="font-sans">
-                {{ range .Pages }}
-                  <li>
-                    {{ .Title }}
-                  </li>
-                {{ end }}
-              </ul>
+    {{ range $i,$p := .Pages }}
+      {{ if not (modBool $i 2) }}
+        <section id="{{ .Title | anchorize }}" class="section">
+          <div class="grid grid-cols-12 gap-10 lg:gap-20">
+            {{ if .Params.cover_img }}
+              <div class="col-span-full md:col-span-6 md:order-1">
+                {{ partial "image__teaser-lg" . }}
+              </div>
+            {{ end }}
+            <div class="col-span-full md:col-span-6">
+              <div class="prose">
+                <h2>{{ .Title }}</h2>
+                <p>{{ .Summary }}</p>
+                <div class="section">
+                  <h3>Services</h3>
+                  <ul class="font-sans">
+                    {{ range .Pages }}
+                      <li>
+                        {{ .Title }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           {{ with .Params.related_work }}
@@ -72,8 +73,20 @@
                   {{ with site.GetPage . }}
                     <li class="py-10 border-b">
                       <article>
-                        <h4 class="font-serif">{{ .Title }}</h4>
-                        <p>{{ .Summary }}</p>
+
+<button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+	<h4 class="h3">{{ .Title }}</h4>
+	<div class="absolute sr-only right-24">Show hidden content</div>
+	<div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+		<svg class="w-8 h-8" role="presentation">
+			<use xlink:href="#icon-arrow-down"/>
+		</svg>
+	</div>
+</button>
+<div id="{{ .Title | anchorize }}_body" class="mt-10 prose text-md">
+  <p>{{ .Summary }}</p>
+</div>
+                        
                       </article>
                     </li>
                   {{ end }}
@@ -81,30 +94,30 @@
               </ul>
             </section>
           {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ else }}
-    <section id="{{ .Title | anchorize }}" class="section">
-      <div class="grid grid-cols-12 gap-10 lg:gap-20">
-        {{ if .Params.cover_img }}
-          <div class="col-span-full md:col-span-6">
-            {{ partial "image__teaser-lg" . }}
-          </div>
-        {{ end }}
-        <div class="col-span-full md:col-span-6">
-          <div class="prose">
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Summary }}</p>
-            <div class="section">
-              <h3>Services</h3>
-              <ul class="font-sans">
-                {{ range .Pages }}
-                  <li>
-                    {{ .Title }}
-                  </li>
-                {{ end }}
-              </ul>
+        </section>
+      {{ else }}
+        <section id="{{ .Title | anchorize }}" class="section">
+          <div class="grid grid-cols-12 gap-10 lg:gap-20">
+            {{ if .Params.cover_img }}
+              <div class="col-span-full md:col-span-6">
+                {{ partial "image__teaser-lg" . }}
+              </div>
+            {{ end }}
+            <div class="col-span-full md:col-span-6">
+              <div class="prose">
+                <h2>{{ .Title }}</h2>
+                <p>{{ .Summary }}</p>
+                <div class="section">
+                  <h3>Services</h3>
+                  <ul class="font-sans">
+                    {{ range .Pages }}
+                      <li>
+                        {{ .Title }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           {{ with .Params.related_work }}
@@ -115,8 +128,20 @@
                   {{ with site.GetPage . }}
                     <li class="py-10 border-b">
                       <article>
-                        <h4 class="font-serif">{{ .Title }}</h4>
-                        <p>{{ .Summary }}</p>
+                      
+<button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+	<h4 class="h3">{{ .Title }}</h4>
+	<div class="absolute sr-only right-24">Show hidden content</div>
+	<div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+		<svg class="w-8 h-8" role="presentation">
+			<use xlink:href="#icon-arrow-down"/>
+		</svg>
+	</div>
+</button>
+<div id="{{ .Title | anchorize }}_body" class="mt-10 prose text-md">
+	<p>{{ .Summary }}</p>
+</div>
+
                       </article>
                     </li>
                   {{ end }}
@@ -124,12 +149,9 @@
               </ul>
             </section>
           {{ end }}
-        </div>
-      </div>
-    </section>
-	{{end}}
-{{end}}
-
+        </section>
+      {{end}}
+    {{end}}
   </section>
 </article>
 {{ end }}
