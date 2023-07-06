@@ -1,6 +1,6 @@
 ---
 hidden: true
-title: "Stats"
+title: Impacts
 _build:
   render: never
 cascade:
