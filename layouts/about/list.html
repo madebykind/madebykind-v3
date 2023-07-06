@@ -83,8 +83,8 @@
                 {{ .bio | markdownify }}
               </div>
               <ul>
-                {{ with .social.Linkedin }}
-                  <li>Linkedin: <a href="https://linkedin.com/{{ . }}">{{ . }}</a></li>
+                {{ with .social.linkedin }}
+                  <li>Linkedin: <a href="https://linkedin.com/in/{{ . }}">{{ . }}</a></li>
                 {{ end }}
                 {{ with .social.instagram }}
                   <li>Instagram: <a href="https://instagram.com/{{ . }}">{{ . }}</a></li>
@@ -96,7 +96,10 @@
                   <li>Github: <a href="https://github.com/{{ . }}">{{ . }}</a></li>
                 {{ end }}
                 {{ with .social.twitter }}
-                  <li> Twitter:<a href="https://Twitter.com/{{ . }}">@{{ . }}</a></li>
+                  <li> Twitter:<a href="https://twitter.com/{{ . }}">@{{ . }}</a></li>
+                {{ end }}
+                {{ with .social.threads }}
+                  <li> Threads:<a href="https://threads.net/{{ . }}">{{ . }}</a></li>
                 {{ end }}
               </ul>
   
