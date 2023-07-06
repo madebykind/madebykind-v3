@@ -117,9 +117,9 @@
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
                 <article class="py-10 font-sans prose border-b">
-                  <button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+                  <button class="flex flex-wrap items-center justify-between w-full gap-5" data-toggle data-target="#{{ .Title | anchorize }}_body">
                     <h3>{{ .Title }}</h3>
-                    <div class="absolute right-24 sr-only">Show hidden content</div>
+                    <div class="absolute sr-only right-24">Show hidden content</div>
                     <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
                       <svg class="w-8 h-8" role="presentation">
                         <use xlink:href="#icon-arrow-down"/>
