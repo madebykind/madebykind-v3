@@ -1,6 +1,6 @@
 ---
 hidden: true
-title: Impacts
+title: Strengths
 _build:
   render: never
 cascade:

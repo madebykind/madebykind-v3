@@ -12,5 +12,33 @@
       </li>
     {{ end }}
   </ol>
+  <section class="container section--lg">
+    <div class="prose">
+      <h2>Empowering change from behind the scenes</h2>
+      <p>Since 2014, we’ve worked exclusively with organisations doing good. We haven’t got time to write case studies for them all.</p>
+    </div>
+    <ul>
+      {{ range (where site.RegularPages "Section" "projects" ) }}
+        <li class="py-10 border-b">
+          <article>
+
+            <button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+              <h4 class="font-normal h3">{{ .Title | markdownify }}</h4>
+              <div class="absolute sr-only right-24">Show hidden content</div>
+              <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+                <svg class="w-8 h-8" role="presentation">
+                  <use xlink:href="#icon-arrow-down"/>
+                </svg>
+              </div>
+            </button>
+            <div id="{{ .Title | anchorize }}_body" class="mt-10 prose">
+              <p>{{ .Summary }}</p>
+            </div>
+
+          </article>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
 </section>
 {{ end }}

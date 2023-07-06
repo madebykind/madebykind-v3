@@ -1,52 +1,157 @@
 {{ define "main" }}
-<section>
+<article>
   {{ partial "header__landing.html" . }}
-  <div class="container prose section">
-    {{ .Content }}
-  </div>
-  {{ range .Pages }}
-    <section id="{{ .Title | anchorize }}" class="container section">
-      <div class="grid grid-cols-12 gap-10">
-        {{ if .Params.cover_img }}
-          <div class="col-span-full md:col-span-6">
-            {{ partial "image__teaser-lg" . }}
-          </div>
-        {{ end }}
-        <div class="col-span-full md:col-span-6">
-          <div class="prose">
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Summary }}</p>
-            <div class="section">
-              <h3>Services</h3>
-              <ul class="font-sans">
-                {{ range .Pages }}
-                  <li>
-                    {{ .Title }}
-                  </li>
-                {{ end }}
-              </ul>
+  <section class="container section">
+    <div class="prose">
+      <h2 class="text-xl">How we work</h2>
+      <p>We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. By spending more time on discovery and analysis before jumping into production we gain a clear understanding of <em><strong>why</strong></em> a brief is necessary and <em><strong>what</strong></em> we need to deliver in order to achieve a successful outcome</p>
+    </div>
+    <div class="grid grid-cols-12 gap-10 lg:gap-20 section">
+      {{ if .Params.img_2 }}
+        <div class="col-span-6"></div>
+      {{ end }}
+      <div class="col-span-6">
+        <ul class="mt-5 list-none">
+          {{ range where site.RegularPages "Section" "strengths" }}
+            <li>
+              <article class="py-10 font-sans prose border-b">
+                <button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+                  <h3>{{ .Title }}</h3>
+                  <div class="absolute sr-only right-24">Show hidden content</div>
+                  <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+                    <svg class="w-8 h-8" role="presentation">
+                      <use xlink:href="#icon-arrow-down"/>
+                    </svg>
+                  </div>
+                </button>
+                <div id="{{ .Title | anchorize }}_body" class="mt-10 prose text-md">
+                  {{ .Content }}
+                </div>
+              </article>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="container section">
+    <div class="prose">
+      <h2 class="text-xl">Our offering</h2>
+      <p>We don’t do upselling or false promises, just honest and transparent advice to help your organisation do better.</p>
+    </div>
+    {{ range $i,$p := .Pages }}
+      {{ if not (modBool $i 2) }}
+        <section id="{{ .Title | anchorize }}" class="section">
+          <div class="grid grid-cols-12 gap-10 lg:gap-20">
+            {{ if .Params.cover_img }}
+              <div class="col-span-full md:col-span-6 md:order-1">
+                {{ partial "image__teaser-lg" . }}
+              </div>
+            {{ end }}
+            <div class="col-span-full md:col-span-6">
+              <div class="prose">
+                <h2>{{ .Title }}</h2>
+                <p>{{ .Summary }}</p>
+                <div class="section">
+                  <h3>Services</h3>
+                  <ul class="font-sans">
+                    {{ range .Pages }}
+                      <li>
+                        {{ .Title }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          {{ with .Params.related_work }}
-          <section class="section">
-            <h3 class="h--condensed">Example digital projects</h3>
-            <ul>
-              {{ range . }}
-                {{ with site.GetPage . }}
-                  <li class="py-10 border-b">
-                    <article>
-                      <h4 class="font-serif">{{ .Title }}</h4>
-                      <p>{{ .Summary }}</p>
-                    </article>
-                  </li>
+          {{ with .Params.related_projects }}
+            <section class="section">
+              <h3 class="h--condensed">Example digital projects</h3>
+              <ul>
+                {{ range . }}
+                  {{ with site.GetPage . }}
+                    <li class="py-10 border-b">
+                      <article>
+
+<button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+	<h4 class="font-normal h3">{{ .Title | markdownify }}</h4>
+	<div class="absolute sr-only right-24">Show hidden content</div>
+	<div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+		<svg class="w-8 h-8" role="presentation">
+			<use xlink:href="#icon-arrow-down"/>
+		</svg>
+	</div>
+</button>
+<div id="{{ .Title | anchorize }}_body" class="mt-10 prose">
+  <p>{{ .Summary }}</p>
+</div>
+                        
+                      </article>
+                    </li>
+                  {{ end }}
                 {{ end }}
-              {{ end }}
-            </ul>
-          </section>
+              </ul>
+            </section>
           {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
-</section>
+        </section>
+      {{ else }}
+        <section id="{{ .Title | anchorize }}" class="section">
+          <div class="grid grid-cols-12 gap-10 lg:gap-20">
+            {{ if .Params.cover_img }}
+              <div class="col-span-full md:col-span-6">
+                {{ partial "image__teaser-lg" . }}
+              </div>
+            {{ end }}
+            <div class="col-span-full md:col-span-6">
+              <div class="prose">
+                <h2>{{ .Title }}</h2>
+                <p>{{ .Summary }}</p>
+                <div class="section">
+                  <h3>Services</h3>
+                  <ul class="font-sans">
+                    {{ range .Pages }}
+                      <li>
+                        {{ .Title }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ with .Params.related_projects }}
+            <section class="section">
+              <h3 class="h--condensed">Example digital projects</h3>
+              <ul>
+                {{ range . }}
+                  {{ with site.GetPage . }}
+                    <li class="py-10 border-b">
+                      <article>
+                      
+<button class="flex items-center justify-between w-full" data-toggle data-target="#{{ .Title | anchorize }}_body">
+  <h4 class="font-normal h3">{{ .Title | markdownify }}</h4>
+	<div class="absolute sr-only right-24">Show hidden content</div>
+	<div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+		<svg class="w-8 h-8" role="presentation">
+			<use xlink:href="#icon-arrow-down"/>
+		</svg>
+	</div>
+</button>
+<div id="{{ .Title | anchorize }}_body" class="mt-10 prose">
+	<p>{{ .Summary }}</p>
+</div>
+
+                      </article>
+                    </li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </section>
+          {{ end }}
+        </section>
+      {{end}}
+    {{end}}
+  </section>
+</article>
 {{ end }}
