@@ -14,5 +14,5 @@ topics:
   - User-centred design
   - Mobile-first design
 ---
-NTU commissioned us to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of the University’s external and internal audiences, while still reflecting NTU strategy, key messages and unique position.
 
+NTU commissioned us to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of the University’s external and internal audiences, while still reflecting NTU strategy, key messages and unique position.

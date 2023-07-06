@@ -8,6 +8,10 @@ summary: Our team uses research and analysis techniques to fully understand what
   our clients are trying to achieve and why, before delivering high-level
   strategies and detailed plans of how to get there.
 hidden: false
+related_projects:
+  - jackson-crane
+  - henley-business-school
+  - tsl
 featured: true
 title: Strategy
 date: 2020-04-24T11:48:46+01:00

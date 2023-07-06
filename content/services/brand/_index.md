@@ -1,7 +1,8 @@
 ---
 cover_img_alt: A view of multiple poster mockups lined up on the street. The
   back end of the bicycle is visible on the right-hand side as it goes past.
-related_work:
+related_projects:
+  - crick
   - chapter
   - rivers-trust
 block_class: bg-yellow text-green

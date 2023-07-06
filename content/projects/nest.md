@@ -17,4 +17,5 @@ topics:
   - Mobile-first design
   - CMS integrations
 ---
+
 W﻿e delivered a clean and modern editorial website for Nest HQ, built on Nuxt.JS and Craft CMS, including an audio player and making use of immersive discovery techniques to increase the amount of time users spent on the site.
