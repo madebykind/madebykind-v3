@@ -28,6 +28,7 @@ services:
   - brand
   - digital
 ---
+
 {{< blockquote author="V&A mission statement">}}
 Our mission is to be recognised as the world's leading museum of art, design and performance, and to enrich people's lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ blockquote >}}
