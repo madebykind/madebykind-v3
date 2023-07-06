@@ -2,6 +2,7 @@
 hidden: false
 date: 2023-06-30T12:53:17.791Z
 title: "**Website and digital identity** for laboratory tackling global food security"
+name: The Sainsbury Laboratory
 image: images/tsl-project-1.jpg
 images:
   - image: images/tsl-project-1.jpg

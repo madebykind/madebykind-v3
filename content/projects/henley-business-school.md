@@ -1,8 +1,8 @@
 ---
 hidden: false
 date: 2023-07-05T11:05:41.413Z
-title: Transforming a business school’s online presence through **user-centred
-  design**
+title: Transforming a business school’s online presence through **user-centred design**
+name: Henley Business School
 images:
   - image: images/henley-project-1.jpg
     img_alt: A desktop mockup of the Henley Business School homepage
