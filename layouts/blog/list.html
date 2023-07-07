@@ -7,7 +7,7 @@
   <section class="container snap-start">
     <h2 class="sr-only">Featured posts</h2>
     <ol class="grid gap-10 lg:grid-cols-12 section lg:gap-20">
-      {{ range ( where .Pages "Params.featured" "==" true ) }}
+      {{ range ( where ( where .Pages "Params.featured" "==" true ) "Params.unlisted" "!=" true ) }}
         <li class="lg:col-span-6 xl:col-span-4"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
           {{ partial "card" . }}
         </li>
@@ -17,7 +17,7 @@
   <section class="container mt-10 section">
     <h2 class="h--condensed text-md">Insights</h2>
     <ol class="flex flex-wrap">
-      {{ range ( where .Pages "Params.featured" "!=" true ) }}
+      {{ range ( where ( where .Pages "Params.featured" "!=" true ) "Params.unlisted" "!=" true ) }}
         <li class="w-full"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
           {{ partial "teaser" . }}
         </li>
