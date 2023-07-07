@@ -19,5 +19,4 @@ topics:
   - CRM integrations
   - Digital archives
 ---
-
-K﻿ind we're appointed digital partners for a renewable energy research institute, creating a variety of tools and a website to communicate complex issues to the ETI’s stakeholders and preserving the legacy of that important work after the organisation's closure.
+K﻿ind were appointed digital partners for a renewable energy research institute, creating a variety of tools and a website to communicate complex issues to the ETI’s stakeholders and preserving the legacy of that important work after the organisation's closure.
