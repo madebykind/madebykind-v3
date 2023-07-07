@@ -1,22 +1,32 @@
 <header class="flex snap-start" data-hero-height="100vh">
-  <div class="container grid gap-10 md:grid-cols-12">
+  <div class="container grid gap-10 md:grid-cols-12{{ if not .Params.cover_img }} items-end{{ end }}">
     {{ if .Params.cover_img }}
       <div class="col-span-12 md:col-span-6 md:order-1">
         {{ partial "image__hero" . }}
       </div>
     {{ end }}
-    <div class="grid col-span-12 gap-10 pb-10 md:col-span-6 section--lg">
+    <div class="grid col-span-12 gap-10 pb-10 section--lg{{ if .Params.cover_img }} md:col-span-6 {{ else }} md:col-span-7{{ end }}">
       <h1>{{ .Page.Title|safeHTML }}</h1>
       {{ if .Params.intro }}
         <div class="prose lede cta_prose">
           {{ .Params.intro | markdownify }}
         </div>
       {{ end }}
-      {{ if .Params.author }}
-          {{ partial "author" . }}
+      {{ if .Params.cover_img }}
+        {{ if .Params.author }}
+            {{ partial "author" . }}
+        {{ end }}
       {{ end }}
     </div>
-    {{ if  .Params.toc }}
+    {{ if not .Params.cover_img }}
+      <div class="self-end col-span-12 pb-10 md:col-span-4 md:col-start-9">
+        {{ if .Params.author }}
+          {{ partial "author" . }}
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ if .Params.toc }}
       <div class="col-span-12">
         {{ .TableOfContents }}
       </div>
