@@ -8,8 +8,8 @@ date: 2020-04-30T17:28:36.948Z
 cover_img: images/work-rivers-trust-phone.jpg
 cover_img_alt: Team looking at devices
 related_projects:
-  - nest
-  - eti
+  - sheffield-hallam-university
+  - vanda
 block_class: bg-blue text-sky
 summary: We have long-term, successful digital partnerships that focus on
   meeting user needs and delivering on strategic objectives. Our team has

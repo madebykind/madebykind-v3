@@ -9,9 +9,9 @@ summary: Our team uses research and analysis techniques to fully understand what
   strategies and detailed plans of how to get there.
 hidden: false
 related_projects:
-  - jackson-crane
-  - henley-business-school
-  - tsl
+  - rewilding-britain
+  - cgapter
+  - garden-organic
 featured: true
 title: Strategy
 date: 2020-04-24T11:48:46+01:00
