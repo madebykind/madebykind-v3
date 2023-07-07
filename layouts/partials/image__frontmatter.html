@@ -1,0 +1,43 @@
+{{- $img := (.image ) -}}
+{{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
+
+{{- $actualImg := $src.Resize "640x jpg" -}}
+{{- $alt := ( .img_alt ) -}}
+{{- $dataSizes := "(min-width: 90em) 33vw, 98vw" -}}
+{{- $imgClass := "object-cover h-full" -}}
+{{- $respSizes := slice "320" "640" "960" "1280" -}}
+
+{{- with $img -}}
+  <picture>
+    <source 
+      sizes="{{ $dataSizes }}" 
+      srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}" 
+      type="image/webp">
+
+    <img
+      alt="{{ $alt }}"
+      class="{{ $imgClass }}"
+      loading=lazy
+      sizes="{{ $dataSizes }}"
+      src="{{ $actualImg.RelPermalink }}"
+      srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }},
+              {{ end -}}
+              {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
+              {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}"
+    >
+  </picture>
+{{ end }}
