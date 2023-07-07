@@ -22,7 +22,6 @@ intro: >
 
   That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
 related_stats:
-  - climate-positive
   - pay-gap
   - socially-reponsible
   - charity-donations
