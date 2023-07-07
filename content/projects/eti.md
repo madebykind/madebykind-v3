@@ -1,8 +1,9 @@
 ---
 hidden: false
 date: 2023-07-05T10:59:35.251Z
-title: "**Digital transformation** and legacy guardianship for UK’s first low-carbon energy institute"
-name: ETI
+title: "**Digital transformation** and legacy guardianship for UK’s first
+  low-carbon energy institute"
+name: The Energy Technologies Institute
 images:
   - image: images/eti-project-1.jpg
     img_alt: A desktop mockup of the ETI homepage
