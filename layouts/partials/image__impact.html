@@ -1,0 +1,27 @@
+{{ $alt := ( .Params.cover_img_alt ) }}
+{{ $img := (.Params.cover_img ) }}
+{{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+{{ with $img }}
+
+	{{- $xl := $image.Resize "x800" -}}
+	{{ $lg := $xl.Resize "x640" -}}
+	{{ $md := $lg.Resize "x480" -}}
+	{{ $sm := $md.Resize "x320" -}}
+
+	<picture>
+		<img 
+      alt="{{ $alt }}" 
+      class="object-cover"
+      height="{{ $image.Height }}"
+      loading=eager
+      sizes="(min-width: 100em) 48vw, 96vw"
+      src="{{ $sm.RelPermalink }}" 
+      srcset="
+        {{ $sm.RelPermalink }} 320w,
+        {{ $md.RelPermalink }} 480w,
+        {{ $lg.RelPermalink }} 640w,
+        {{ $xl.RelPermalink }} 800w"
+      width="{{ $image.Width }}"
+    >
+	</picture>
+{{ end }}

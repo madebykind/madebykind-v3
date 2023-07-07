@@ -1,6 +1,6 @@
 ---
 cover_img: images/true-to-who-we-are-v2.png
-cover_img_alt:
+cover_img_alt: A big watering can
 date: 2020-04-20T11:48:46+01:00
 description: Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else — and that means great results for you.
 intro: >
