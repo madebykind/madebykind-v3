@@ -2,9 +2,8 @@
 cover_img_alt: A view of multiple poster mockups lined up on the street. The
   back end of the bicycle is visible on the right-hand side as it goes past.
 related_projects:
-  - crick
   - chapter
-  - the-rivers-trust
+  - vanda
 block_class: bg-yellow text-green
 summary: We work from the ground up; from your brand foundations, personality,
   values all the way to the final output. A carefully crafted, cohesive, thought
