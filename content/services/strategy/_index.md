@@ -10,8 +10,7 @@ summary: Our team uses research and analysis techniques to fully understand what
 hidden: false
 related_projects:
   - rewilding-britain
-  - cgapter
-  - garden-organic
+  - jackson-crane
 featured: true
 title: Strategy
 date: 2020-04-24T11:48:46+01:00
