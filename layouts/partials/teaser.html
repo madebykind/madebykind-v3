@@ -1,14 +1,14 @@
 <article>
   <a aria-labelledby="{{ .Title | anchorize }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}">
     <div class="grid gap-10 py-10 border-b">
-      <div class="flex flex-wrap gap-10">
+      <div class="flex flex-wrap items-center gap-10">
         <div class="flex-grow w-2/3">
           <h3 class="font-light leading-tight underline text-md" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
           {{ with .Params.key_topic }}
             <span class="font-sans text-sm font-medium">{{ title . }}</span>
           {{end}}
         </div>
-        <svg class="w-12 h-4 flex-no-shrink mt-3 lg:mt-4" role="presentation">
+        <svg class="w-12 h-4 mt-3 flex-no-shrink lg:mt-4" role="presentation">
           <use xlink:href="#icon-arrow-hover"/>
         </svg>
       </div>
