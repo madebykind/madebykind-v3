@@ -13,7 +13,7 @@
       {{ if .Params.cover_img }}
         {{ partial "image__card" . }}
       {{ end }}
-      <div class="absolute z-10 grid content-center gap-5 lg:gap-10 inset-5 lg:inset-10">
+      <div class="absolute z-10 grid content-start gap-5 lg:gap-10 inset-5 lg:inset-10">
         {{ with .Params.key_topic }}
           <span class="text-sm font-bold">{{ title . }}</span>
         {{end}}
