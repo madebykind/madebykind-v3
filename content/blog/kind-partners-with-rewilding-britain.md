@@ -7,6 +7,7 @@ author: mat
 cover_img: images/tim-umphreys-s7zabnrg2bw-unsplash.jpg
 cover_img_alt: null
 draft: false
+text_colour: text-buff
 services: []
 description: Today, we’re pleased to announce that we have chosen to partner
   with Rewilding Britain as our long-term charity partner.
@@ -22,6 +23,7 @@ related_posts:
   - kind-certifies-a-b-corporation
   - who-gives-a-damn-well-we-do-actually
 ---
+
 After the **[1% for the Planet summit in 2018](https://madebykind.com/blog/1-for-the-planet-european-summit)**, we were inspired to find a long-term charity partner to amplify the positive impact our membership has. Today, we’re pleased to announce that we have chosen to partner with **[Rewilding Britain](https://www.rewildingbritain.org.uk/)** and will be offering our support by way of monetary donations and our time and expertise.
 
 Rewilding Britain is a charity that focuses on rewilding to help tackle climate breakdown and ecological collapse. There has been a catastrophic decline in wildlife in Britain over recent decades with many species struggling to survive or even crashing towards extinction. Climate change is making this situation even more precarious, and threatening the life support systems on which we all depend.
