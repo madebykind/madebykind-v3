@@ -13,7 +13,7 @@ function HeroHeight(el) {
     calcString += ` + ${el.offsetHeight}px`;
   });
 
-  el.style.setProperty('height', `calc(${calcString})`);
+  el.style.setProperty('min-height', `calc(${calcString})`);
 
 }
 
