@@ -29,7 +29,7 @@ services:
   - digital
 ---
 
-{{< blockquote author="V&A mission statement">}}
+{{< blockquote wrapperclass="min-h-screen grid content-center" author="V&A mission statement">}}
 Our mission is to be recognised as the world's leading museum of art, design and performance, and to enrich people's lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ blockquote >}}
 
@@ -47,7 +47,7 @@ The site needed its own brand identity different to the V&A, it had to be fast, 
 
 The portal has been well received by the cultural heritage community and has since had hundreds of projects added by The British Council, Historic England, Arcadia and many others.
 
-{{< blockquote author="Tristam Hunt" role="Director, V&A">}}
+{{< blockquote wrapperclass="min-h-screen grid content-center" author="Tristam Hunt" role="Director, V&A">}}
 This free digital resource and our Culture in Crisis programme is a demonstration of the V&A’s ongoing commitment to protecting the world’s cultural heritage and supporting communities that suffer cultural loss.
 {{</ blockquote >}}
 

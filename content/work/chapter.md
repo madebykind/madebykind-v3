@@ -34,7 +34,7 @@ description: "Chapter provides space for creativity in all its many forms. Art.
 
 {{< figure src="../images/work-chapter-header.jpg" alt="Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows." >}}
 
-{{< blockquote author="Chapter manifesto">}}
+{{< blockquote wrapperclass="min-h-screen grid content-center" author="Chapter manifesto">}}
 From world-class and emerging talent to the next generation, to our audiences and visitors. We’re here for all the things that bring us together, the things made to share, the things that make us.
 {{</ blockquote >}}
 

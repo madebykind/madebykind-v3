@@ -36,7 +36,7 @@ services:
   - digital
 ---
 
-{{< blockquote author="Rewilding Britian Manifesto" >}}
+{{< blockquote wrapperclass="min-h-screen grid content-center" author="Rewilding Britian Manifesto" >}}
 Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
 {{</ blockquote >}}
 

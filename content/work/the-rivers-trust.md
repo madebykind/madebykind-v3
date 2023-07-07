@@ -19,7 +19,7 @@ services:
   - digital
 ---
 
-{{< blockquote author="The Rivers Trust" >}}
+{{< blockquote wrapperclass="min-h-screen grid content-center" author="The Rivers Trust" >}}
 Rivers shape our landscapes and provide the foundations of our cities, towns and countryside. When they thrive, so do we.
 {{</ blockquote >}}
 

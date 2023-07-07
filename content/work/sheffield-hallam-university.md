@@ -32,7 +32,7 @@ services:
   - digital
 ---
 
-{{< blockquote author="Sheffield Hallam University Mission" >}}
+{{< blockquote wrapperclass="min-h-screen grid content-center" author="Sheffield Hallam University Mission" >}}
 We transform lives. We shape our students' futures, preparing them for whatever they choose to do, and create knowledge that provides practical solutions to real world challenges.
 {{</ blockquote >}}
 
