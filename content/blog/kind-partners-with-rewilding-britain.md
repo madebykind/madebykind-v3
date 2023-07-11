@@ -5,7 +5,7 @@ card_colour: bg-yellow text-blue
 date: 2020-01-30T11:37:00+0000
 author: mat
 cover_img: images/tim-umphreys-s7zabnrg2bw-unsplash.jpg
-cover_img_alt: null
+cover_img_alt: a beaver slipping into a river from the bank
 draft: false
 text_colour: text-buff
 services: []

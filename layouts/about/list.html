@@ -29,14 +29,44 @@
       </div>
     </div>
   </section>
-  <section class="section--lg bg-teal text-blue">
-    <div class="container grid gap-10 md:grid-cols-2">
-      <div class="grid gap-10">
+  <section class="bg-teal text-blue overflow-hidden">
+    <div class="container grid gap-10 xl:grid-cols-2">
+      <div class="grid gap-10 pt-10 lg:pt-20 xl:py-30">
         <h2 class="h1">Partnerships that deliver real impact</h2>
         <div class="max-w-5xl prose lede cta_prose">
           <p>Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else – and that means great results for you.</p>
           <p>Our client base is 100% socially responsible and purpose-driven. By using our skills and insights, we empower and lift up these organisations. A force for good behind the scenes.</p>
         </div>
+      </div>
+        {{ with .Params.related_work }}
+        <div class="bleed xl:ml-0">
+          {{ range . }}
+            {{ with site.GetPage . }}
+              <a aria-labelledby="{{ .Title | anchorize }}" class="block group no-underline xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
+                <div class="relative xl:flex-grow">
+                  {{ if isset .Params "impact_img" }}
+                    {{ partial "image__impact-project" . }}
+                  {{ end }}
+                  <div class="absolute z-10 text-buff bottom-10 left-10">
+                    <article>
+                      <h4 class="h1">149%</h4>
+                      <p class="mt-5">Increase in donations<br>for Rewilding Britain</p>
+                    </article>
+                  </div>
+                </div>
+                <div class="bg-sky text-green py-5 px-10 flex justify-between items-center transition-all duration-500 ease-in-out group-hover:bg-green group-hover:text-sky">
+                  <p>
+                    Read the <span class="sr-only">{{ .Params.client }}</span> case study
+                  </p>
+                  <svg class="w-8 h-3 flex-no-shrink" role="presentation">
+                    <use xlink:href="#icon-arrow"/>
+                  </svg>
+                </div>
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
     </div>
   </section>
