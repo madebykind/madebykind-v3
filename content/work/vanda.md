@@ -22,8 +22,7 @@ block_class: bg-blue text-sky
 cta_class: bg-sky text-blue
 featured: true
 icon: va-logo
-description: See how Kind have helped the leading museum of art and design share
-  their archive collections online.
+description: Preserving historical collections through engaging digital archives
 services:
   - strategy
   - brand
