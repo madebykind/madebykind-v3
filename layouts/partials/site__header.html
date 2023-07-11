@@ -1,7 +1,13 @@
 <header class="w-full bg-buff" data-hero-height-reduce>
   <div class="container flex flex-wrap justify-between gap-5 py-5 lg:gap-10 lg:flex-nowrap md:items-center">
     {{ partial "logo" . }}
-    <div class="flex flex-wrap items-center justify-between w-full gap-5 lg:gap-10 lg:flex-grow">
+    <button type="button" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="#mobile-navigation" class="h--condensed text-md inline-flex gap-2 items-center">
+      Menu
+      <svg class="w-6 h-6">
+        <use xlink:href="#icon-hamburger"/>
+      </svg>
+    </button>
+    <div class="hidden md:flex flex-wrap items-center justify-between w-full gap-5 lg:gap-10 lg:flex-grow">
       <nav class="inline-flex lg:justify-center lg:flex lg:flex-grow" aria-label="Main menu">
         <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:max-w-4xl lg:justify-between" role="list">
           {{ $currentPage := . }}
@@ -24,4 +30,35 @@
       </div>
     </div>
   </div>
+
+  {{/* Mobile */}}
+  <div class="fixed flex top-0 left-0 w-screen h-screen bg-indigo text-buff items-center z-20 md:hidden" id="mobile-navigation">
+    <button type="button" class="absolute top-7 right-5 text-buff" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="#mobile-navigation">
+      <svg class="w-6 h-6">
+        <use xlink:href="#icon-close"/>
+      </svg>
+    </button>
+
+    <div class="w-full flex flex-col gap-10">
+      <nav class="">
+        <ul class="flex flex-col items-center justify-center gap-10 m-0 list-none" role="list">
+          {{ range .Site.Menus.main }}
+          <li class="h--condensed leading-heading text-xl">
+            <a href="{{ .URL }}" class="no-underline">{{- .Name -}}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+      <div class="items-center justify-center gap-5 inline-flex">
+        <svg class="w-24 h-32" role="presentation">
+          <use xlink:href="#icon-bcorp"/>
+        </svg>
+        <svg class="w-32 h-24" role="presentation">
+          <use xlink:href="#icon-1fortheplanet"/>
+        </svg>
+      </div>
+    </div>
+
+  </div>
+
 </header>
