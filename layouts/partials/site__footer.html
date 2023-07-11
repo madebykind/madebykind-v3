@@ -1,5 +1,5 @@
 <footer id="contact">
-  {{ if .Params.cta_hidden }}
+  {{ if not .Params.cta_hidden }}
   <div class="grid {{ with .Params.footer_class }} {{ . }}{{ else }} bg-indigo text-buff{{ end }}">
     <div class="container grid gap-10 md:grid-cols-2">
       <div class="grid content-center section--lg">
