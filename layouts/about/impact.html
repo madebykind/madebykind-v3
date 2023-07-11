@@ -33,11 +33,13 @@
         </section> 
 */}}
         <section class="grid gap-10 lg:gap-20 md:grid-cols-2 section--lg">
-          {{ partial "image" (dict 
-            "alt" "Stat overlaying image of a plant growing in a pair of hands. The stat reads: 93.6 B Impact Assessment Score"
-            "class" ""
-            "src" "/images/stat-image-b-corp.png" 
-          ) }}
+          <div class="md:order-1">
+            {{ partial "image" (dict 
+              "alt" "Stat overlaying image of a plant growing in a pair of hands. The stat reads: 93.6 B Impact Assessment Score"
+              "class" ""
+              "src" "/images/stat-image-b-corp.png" 
+            ) }}
+          </div>
           <div>
             <div class="prose lede">
               <h2 class="mb-5 text-xl">Certified B Corporation</h2>
