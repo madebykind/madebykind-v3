@@ -28,7 +28,7 @@
       </div>
 
       {{ if .Params.cta_img }}
-        <div class="relative self-end col-span-1 max-h-illustration max-w-illustration justify-self-end">
+        <div class="relative self-end col-span-1 justify-self-center">
           {{ $alt := ( .Params.cta_img_alt ) }}
           {{ $img := (.Params.cta_img ) }}
           {{ $image := resources.GetMatch (printf "**%s" ($img)) }}
@@ -41,7 +41,7 @@
 
           <img 
             alt="{{ $alt }}" 
-            class="object-cover h-full" 
+            class="object-cover h-full max-w-xl" 
             height="{{ $image.Height }}" 
             loading=lazy 
             sizes="(min-width: 100em) 48vw, 96vw" 

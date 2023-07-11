@@ -1,7 +1,7 @@
 ---
 cover_img: images/true-to-who-we-are-v1.png
 cover_img_alt: A giant friendly hand, holding a small flower
-cta_img: images/true-to-who-we-are-v2.png
+cta_img: images/raise-expectations-broccoli.png
 cta_img_alt: A giant friendly hand, watering a small plant with a tiny watering can.
 cta: More about kind
 ctaLink: /about
