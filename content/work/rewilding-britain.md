@@ -12,6 +12,7 @@ title: A platform to inspire rewilding projects across the country
 cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
   mobile is on the ground in the woods
 block_class: bg-pink text-claret
+cta_class: bg-claret text-pink
 intro: Rewilding Britain are the first and only country-wide organisation in
   Britain focusing on rewilding – acting as a catalyst for debate and action,
   and demonstrating the power of working with nature to tackle the climate
@@ -21,8 +22,7 @@ date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-phone-4.jpg
 key_stat:
  - 149-percent
-description: Engaging and influencing audiences to support rewilding areas of
-  the country for the good of the environment
+description: "Big thinking for a cause we really care about"
 feature_content: "Rewilding Britain understood that they needed a digital
   partner to not only create a digital presence but to maintain it and evolve as
   their organisation does. We’ve been delighted to work with them for almost

@@ -20,14 +20,11 @@ topics:
   - CMS integration
   - Ticketing journey
 block_class: bg-teal text-blue
+cta_class: bg-blue text-teal
 featured: true
 external_link: https://chapter.org.uk
 icon: chapter-logo
-description: "Chapter provides space for creativity in all its many forms. Art.
-  Cinema. Theatre. Community. The stories unfolding in their centre, from their
-  creative spaces to their café. They believe art is what you make it. That’s
-  why they seek to nurture and embolden every artist, every creative, every
-  curious mind."
+description: "How we helped reposition a historic community force"
 ---
 
 {{< figure alt="Chapter brand statement set on a green background: ‘A World Of Creativity. A Place To Be You’" src="../images/work-chapter-positioning.jpg" >}}

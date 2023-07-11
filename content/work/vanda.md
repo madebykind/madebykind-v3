@@ -1,6 +1,6 @@
 ---
 title: Working with the world’s leading art and design museum
-date: 2023-06-28T11:49:55.811Z
+date: 2023-05-28T11:49:55.811Z
 cover_img: images/mansplaining.jpg
 cover_img_alt: A man and woman looking at a laptop screen together
 intro: The V&A is the world’s leading museum of art and design, housing a
@@ -19,6 +19,7 @@ topics:
   - CRM integration
   - Digital archives
 block_class: bg-blue text-sky
+cta_class: bg-sky text-blue
 featured: true
 icon: va-logo
 description: See how Kind have helped the leading museum of art and design share
