@@ -1,7 +1,7 @@
 
 <ul data-topic-filters class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
   <li>
-    <button class="active before:bg-orange relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter-clear>All</button>
+    <button class="underline active before:bg-orange relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter-clear>All</button>
   </li>
 	{{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
 		<li>
