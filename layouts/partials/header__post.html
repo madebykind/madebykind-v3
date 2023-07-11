@@ -2,7 +2,7 @@
   <div data-hero-height="100vh" class="container grid gap-10 md:grid-cols-12{{ if not .Params.cover_img }} items-end{{ end }}">
 
       {{ if .Params.cover_img }}
-        <div class="col-span-12 md:col-span-6 md:order-1">
+        <div class="col-span-12 md:col-span-6 md:order-1 bleed md:ml-0">
           {{ partial "image__hero" . }}
         </div>
       {{ end }}
