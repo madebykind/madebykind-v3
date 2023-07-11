@@ -10,8 +10,6 @@ intro: >
 
   Our work delivers faster, bigger, more effective results for our clients’ causes – in the charity sector, sustainability, research, the environment, and the arts.
 title: Well-worn paths are never going to lead to a better world.
-related_pages:
-  - kind-certifies-a-b-corporation
 ---
 
 <div class="grid gap-10 md:grid-cols-2 lg:gap-20 section--lg">
@@ -39,6 +37,14 @@ All our clients must have a mission that comes before profit. Using our skills a
   <svg class="w-48 h-24 flex-no-shrink" role="presentation">
     <use xlink:href="#icon-1fortheplanet"/>
   </svg>
+
+  <div class="w-32 shrink-0 grow-0">
+    {{< figure alt="Members of the Ocean Network" src="../images/logo-ocean-network.png" >}}
+  </div>
+
+  <div class="w-32 shrink-0 grow-0">
+    {{< figure alt="Kind are a Living Wage Employer" src="../images/logo-living-wage.png" >}}
+  </div>
 </div>
 </section>
 <section class="max-w-5xl mx-auto section--lg">
