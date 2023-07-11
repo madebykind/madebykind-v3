@@ -11,16 +11,10 @@ related_projects:
   - sheffield-hallam-university
   - the-rivers-trust
 block_class: bg-blue text-sky
-summary: We have long-term, successful digital partnerships that focus on
-  meeting user needs and delivering on strategic objectives. Our team has
-  decades of experience delivering digital strategies, integrated websites and
-  applications for large organisations.
+summary: We have long-term, successful digital partnerships.
 featured: true
 weight: 3
-description: We have long-term, successful digital partnerships that focus on
-  meeting user needs and delivering on strategic objectives. Our team has
-  decades of experience delivering digital strategies, integrated websites and
-  applications for large organisations.
+description: We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. Our team has decades of experience delivering digital strategies, integrated websites and applications for large organisations.
 related_posts:
   - communicating-to-reassure-your-audience
 _build:

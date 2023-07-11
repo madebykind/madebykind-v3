@@ -11,11 +11,11 @@
                 {{ partial "image__service" . }}
               </div>
             {{ end }}
-            <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 lg:pb-0 xl:pb-0 xl:p-16 transition duration-200 translate-y-full group-hover:translate-y-0 group-focus:translate-y-0 z-10">
+            <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 lg:pb-0 xl:pb-0 xl:p-16 transition duration-200 z-10">
             <h3 class="text-xl h--condensed" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
             </div>
             <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}relative">
-              <div class="flex gap-5 p-5 transition duration-500 opacity-0 group-hover:opacity-100 group-focus:opacity-100 lg:px-10 xl:px-16">
+              <div class="flex gap-5 p-5 transition duration-500  lg:px-10 xl:px-16">
                 <p>{{ .Summary }}</p>
                 <svg class="self-end w-16 h-16 flex-no-shrink" role="presentation">
                   <use xlink:href="#icon-arrow"/>
