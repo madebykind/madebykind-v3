@@ -1,7 +1,7 @@
-<ul class="flex flex-wrap justify-between gap-5 lg:gap-10">
+<ul class="flex flex-wrap lg:justify-between gap-5 lg:gap-10">
   {{ range . }}
     {{ with site.GetPage . }}
-      <li class="max-w-xs">
+      <li class="w-1/2 md:max-w-xs">
         <article>
           <h4 class="h1">{{ .Title }}</h4>
           <p class="mt-5">{{ .Content }}</p>

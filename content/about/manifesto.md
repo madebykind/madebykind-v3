@@ -51,7 +51,7 @@ That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
   
 </div>
 <div>
-  <a class="btn bg-buff text-indigo" href="/about/our-impact">
+  <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue  focus:bg-pink focus:text-blue" href="/about/our-impact">
     Our impact
     <svg class="w-12 h-4 flex-no-shrink" role="presentation">
       <use xlink:href="#icon-arrow"/>

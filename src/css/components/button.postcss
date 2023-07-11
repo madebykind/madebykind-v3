@@ -14,6 +14,7 @@
     no-underline
     p-2.5 lg:px-5
     min-h-[2em] lg:min-h-[3em]
+    transition-all duration-500 ease-in-out
   ;
 }
 
@@ -22,10 +23,25 @@
     bg-indigo 
     text-buff
   ;
+
+  &:hover,
+  &:focus {
+    @apply
+      bg-blue
+      text-pink
+      border-blue
+  }
 }
 
 .btn--secondary {
   @apply
     border-indigo
   ;
+
+  &:hover,
+  &:focus {
+    @apply
+      text-blue
+      border-blue
+  }
 }

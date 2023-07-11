@@ -1,27 +1,28 @@
 
 <section class="flex snap-start" data-hero-height="100vh">
   <h2 class="sr-only">Featured Services</h2>
-  <ul class="grid gap-0 list-none lg:grid-cols-3">
+  <ul class="w-full grid gap-0 list-none lg:grid-cols-3">
     {{ range (where (where site.Pages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
       <li>
         <article class="flex flex-col justify-end h-full overflow-hidden">
-          <a aria-labelledby="{{ .Title | anchorize }}" class="relative flex flex-col flex-grow overflow-hidden no-underline group text-currentColor" href="/services#{{ .Title | anchorize }}">
+          <a aria-labelledby="{{ .Title | anchorize }}" class="relative flex flex-row lg:flex-col flex-grow overflow-hidden no-underline group text-currentColor" href="/services#{{ .Title | anchorize }}">
+            <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 xl:p-16 z-10 flex  lg:order-2">
+              <h3 class="text-lg lg:text-xl h--condensed h--orientation-vertical lg:h--orientation-horizontal" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
+            </div>
             {{ if isset .Params "cover_img" }}
-              <div class="h-full">
+              <div class="h-full lg:order-1">
                 {{ partial "image__service" . }}
               </div>
             {{ end }}
-            <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 lg:pb-0 xl:pb-0 xl:p-16 transition duration-200 z-10">
-            <h3 class="text-xl h--condensed" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
-            </div>
+            {{/*
             <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}relative">
-              <div class="flex gap-5 p-5 transition duration-500  lg:px-10 xl:px-16">
-                <p>{{ .Summary }}</p>
+              <div class="flex gap-5 p-5 lg:px-10 xl:px-16">
                 <svg class="self-end w-16 h-16 flex-no-shrink" role="presentation">
                   <use xlink:href="#icon-arrow"/>
                 </svg>
               </div>
             </div>
+            */}}
           </a>
         </article>
       </li>

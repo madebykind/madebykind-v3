@@ -1,4 +1,4 @@
-<section class="flex items-center min-h-screen bg-teal text-blue section--lg snap-start">
+<section class="flex flex-col justify-center  gap-10 min-h-screen bg-teal text-blue section--lg snap-start">
 	<div class="container grid gap-10 lg:grid-cols-12">
     <div class="grid gap-10 lg:col-span-9 xl:col-span-7">
       <h2 class="h1 h--condensed">Sustainable isn’t what we do it’s who we are</h2>
@@ -6,24 +6,26 @@
         <p>We don’t leave our ethics at the agency door. We live our values round the clock, professionally and personally.</p>
       </div>
       <h3 class="sr-only">Our impact in numbers</h3>
-      {{ with .Params.related_stats }}
-        {{ partial "related-stats.html" . }}
-      {{ end }}
-      <div class="flex flex-wrap gap-5 lg:gap-10">
-        <a class="btn btn--primary" href="/about/manifesto">Our manifesto<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-            <use xlink:href="#icon-arrow"></use>
-          </svg>
-        </a>
-        <a class="btn btn--secondary text-indigo" href="/about/our-impact">Impact report<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-            <use xlink:href="#icon-arrow"></use>
-          </svg>
-        </a>
-      </div>
     </div>
-    <div class="lg:col-span-3 xl:col-span-5">
+    <div class="lg:col-span-3 xl:col-span-5 flex justify-center">
       <svg class="w-48 h-64 flex-no-shrink" role="presentation">
         <use xlink:href="#icon-bcorp"/>
       </svg>
     </div>
 	</div>
+  <div class="container flex flex-col gap-10">
+    {{ with .Params.related_stats }}
+      {{ partial "related-stats.html" . }}
+    {{ end }}
+    <div class="flex flex-wrap gap-5 lg:gap-10">
+      <a class="btn btn--primary" href="/about/manifesto">Our manifesto<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+          <use xlink:href="#icon-arrow"></use>
+        </svg>
+      </a>
+      <a class="btn btn--secondary text-indigo" href="/about/our-impact">Impact report<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+          <use xlink:href="#icon-arrow"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
 </section>
