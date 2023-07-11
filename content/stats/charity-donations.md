@@ -3,4 +3,4 @@ icon:
 title: 28%
 ---
 
-of profits donated to charities
+of profits<br>donated to charities

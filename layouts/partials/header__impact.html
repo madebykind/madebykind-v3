@@ -9,7 +9,7 @@
     <div class="col-span-full lg:col-span-8 xl:col-span-6">
       <h1>{{ .Page.Title|safeHTML }}</h1>
       {{ if .Params.intro }}
-        <div class="max-w-5xl mt-10 prose lede cta_prose">
+        <div class="lg:max-w-5xl mt-10 prose lede cta_prose">
           {{ .Params.intro | markdownify }}
         </div>
       {{ end }}

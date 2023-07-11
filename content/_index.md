@@ -25,4 +25,5 @@ related_stats:
   - pay-gap
   - socially-reponsible
   - charity-donations
+  - gender-neutral
 ---

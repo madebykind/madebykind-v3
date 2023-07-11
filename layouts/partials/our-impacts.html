@@ -4,14 +4,14 @@
       <h3 class="sr-only">Our impact in numbers</h3>
       {{ with .Params.related_stats }}
         <ul class="flex flex-wrap gap-5 lg:gap-10">
-          <li>
-            <svg class="w-auto h-full flex-no-shrink" role="presentation">
+          <li class="pr-5">
+            <svg class="w-24 h-32 flex-no-shrink" role="presentation">
               <use xlink:href="#icon-bcorp"/>
             </svg>
           </li>
           {{ range . }}
             {{ with site.GetPage . }}
-              <li class="max-w-xs">
+              <li class="md:max-w-xs">
                 <article>
                   <h3 class="h1">{{ .Title }}</h3>
                   <p class="mt-5">{{ .Content }}</p>
