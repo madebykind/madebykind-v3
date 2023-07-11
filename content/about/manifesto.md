@@ -43,11 +43,19 @@ All our clients must have a mission that comes before profit. Using our skills a
 </section>
 <section class="max-w-5xl mx-auto section--lg">
 <h2 class="h1">For the good folks</h2>
-<div class="mt-10 prose lede">
+<div class="mt-10 mb-16 prose lede">
 
 The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for good.
 
 That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
   
+</div>
+<div>
+  <a class="btn bg-buff text-indigo" href="/about/our-impact">
+    Our impact
+    <svg class="w-12 h-4 flex-no-shrink" role="presentation">
+      <use xlink:href="#icon-arrow"/>
+    </svg>
+  </a>
 </div>
 </section>
