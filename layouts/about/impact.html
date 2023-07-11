@@ -138,5 +138,12 @@
         </section>
 			</div>
 		</div>
+  
+    {{ with .Params.related_posts }}
+      <div class="container section">
+        <h2 class="h--condensed">You may also be interested in</h2>
+        {{ partial "related-posts.html" . }}
+      </div>
+    {{ end }}
 	</article>
 {{ end }}

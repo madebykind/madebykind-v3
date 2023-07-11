@@ -17,4 +17,8 @@ related_stats:
 extra_stats:
   - 23k-donated
   - 28-percent
+related_posts:
+  - who-gives-a-damn-well-we-do-actually
+  - building-a-more-sustainable-website-architecture
+  - creating-sustainable-and-ethical-digital-products
 ---
