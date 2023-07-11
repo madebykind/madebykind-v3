@@ -2,6 +2,7 @@
     CONTAINER
    ========================================================================== */
 
+@layer components {
 
   .container {
     @apply mx-auto;
@@ -10,18 +11,16 @@
     width: var(--width-container);
   }
 
-
-@layer components {
   .bleed {
     margin-left: -4vw;
     margin-right: -4vw;
   }
 
-  .bleed--right {
+  .bleed-right {
     margin-right: -4vw;
   }
   
-  .bleed--left {
+  .bleed-left {
     margin-left: -4vw;
   }
 }

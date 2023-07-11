@@ -1,7 +1,7 @@
 <article class="{{ .context.Params.block_class }}">
   <a aria-labelledby="{{ .context.Title | anchorize }}" class="no-underline group relative" href="{{ .context.Permalink }}">
-    <div class="container grid lg:grid-cols-2">
-      <div class="relative lg:col-span-1{{ if .odd }} lg:order-1{{ end }}">
+    <div class="w-screen grid lg:grid-cols-2 lg:container">
+      <div class="relative lg:col-span-1{{ if .odd }} lg:order-1 lg:bleed-right{{ else }} lg:bleed-left{{ end }}">
         {{ if isset .context.Params "cover_img" }}
           {{ partial "image__teaser-lg" .context }}
         {{ end }}
