@@ -3,15 +3,15 @@
 <section>
   {{ partial "header__about.html" . }}
   <section class="flex flex-col justify-center min-h-screen section--lg bg-indigo text-buff">
-    <div class="container grid content-center gap-10 xl:grid-cols-12">
-      <div class="grid gap-10 xl:col-span-8">
+    <div class="container grid content-center gap-10 xl:grid-cols-3">
+      <div class="grid gap-10 xl:col-span-2">
         <h2 class="h1">We do give a damn</h2>
         <div class="max-w-5xl prose lede cta_prose">
           <p>We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.</p>
           <p>We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</p>
         </div>
       </div>
-      <div class="flex flex-wrap items-center gap-10 xl:gap-20 xl:col-span-4 xl:justify-center">
+      <div class="flex flex-wrap items-center gap-10 xl:gap-20 xl:justify-center">
         <svg class="w-24 h-32 xl:w-36 xl:h-48 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-bcorp"/>
         </svg>
@@ -70,68 +70,124 @@
       </div>
     </div>
   </section>
-  <section class="section">
+  <section class="section relative">
     <div class="container grid gap-10">
       <h2 class="text-xl h--condensed">Our team of experts</h2>
       <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:gap-32">
         {{ range $.Site.Data.authors }}
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
-          <li>
-            <article itemscope itemtype="http://schema.org/Person">      
-              {{ $xl := $author_img.Fill "920x1360" }}
-              {{ $lg := $xl.Resize "640x" }}
-              {{ $md := $lg.Resize "480x" }}
-              {{ $sm := $md.Resize "320x" }}
+          <li id="toggle-{{ .name | anchorize }}">
+            <article itemscope itemtype="http://schema.org/Person">
+              <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="#team-{{ .name | anchorize }}" class="text-left">
 
-              <img  
-                alt="{{ .name }}" 
-                height="{{ $author_img.Height }}"
-                loading=lazy
-                sizes="
-                  (min-width: 90em) 920w,
-                  (min-width: 62em) 640w,
-                  (min-width: 48em) 480w,
-                  100vw" 
-                src="{{ $sm.RelPermalink }}" 
-                srcset="
-                  {{ $sm.RelPermalink }} 320w,
-                  {{ $md.RelPermalink }} 480w,
-                  {{ $lg.RelPermalink }} 680w,
-                  {{ $xl.RelPermalink }} 920w
-                " 
-                width="{{ $author_img.Width }}"
-              />
-              <div class="flex items-center justify-between gap-5 mt-5">
-                <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
-                <svg class="self-end w-12 h-6 flex-no-shrink" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </div>
+                {{ $xl := $author_img.Fill "920x1360" }}
+                {{ $lg := $xl.Resize "640x" }}
+                {{ $md := $lg.Resize "480x" }}
+                {{ $sm := $md.Resize "320x" }}
 
-              <p class="mt-2 h--condensed">{{ .role }}</p>
-              <div class="my-5">
-                {{ .bio | markdownify }}
+                <img  
+                  alt="{{ .name }}" 
+                  height="{{ $author_img.Height }}"
+                  loading=lazy
+                  sizes="
+                    (min-width: 90em) 920w,
+                    (min-width: 62em) 640w,
+                    (min-width: 48em) 480w,
+                    100vw" 
+                  src="{{ $sm.RelPermalink }}" 
+                  srcset="
+                    {{ $sm.RelPermalink }} 320w,
+                    {{ $md.RelPermalink }} 480w,
+                    {{ $lg.RelPermalink }} 680w,
+                    {{ $xl.RelPermalink }} 920w
+                  " 
+                  width="{{ $author_img.Width }}"
+                />
+                <div class="flex items-center justify-between gap-5 mt-5">
+                  <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
+                  <svg class="self-end w-12 h-6 flex-no-shrink" role="presentation">
+                    <use xlink:href="#icon-arrow"/>
+                  </svg>
+                </div>
+
+                <p class="mt-2 my-5 h--condensed">{{ .role }}</p>
+              </button>
+
+              <div class="team-member bg-indigo text-buff z-20 w-screen min-h-screen flex flex-col lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
+
+                <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-anchor="#toggle-{{ .name | anchorize }}" aria-controls="#team-{{ .name | anchorize }}">
+                  <svg class="self-end w-16 h-8 lg:w-24 lg:h-12 flex-no-shrink rotate-180 text-yellow" role="presentation">
+                    <use xlink:href="#icon-arrow"/>
+                  </svg>
+                </button>
+
+                <div class="w-full lg:w-5/12 grow-0 h-[50vh] lg:h-auto">
+
+                  <img  
+                    alt="{{ .name }}" 
+                    height="{{ $author_img.Height }}"
+                    loading=lazy
+                    sizes="
+                      (min-width: 90em) 920w,
+                      (min-width: 62em) 640w,
+                      (min-width: 48em) 480w,
+                      100vw" 
+                    src="{{ $sm.RelPermalink }}" 
+                    srcset="
+                      {{ $sm.RelPermalink }} 320w,
+                      {{ $md.RelPermalink }} 480w,
+                      {{ $lg.RelPermalink }} 680w,
+                      {{ $xl.RelPermalink }} 920w
+                    " 
+                    width="{{ $author_img.Width }}"
+                    class="object-cover w-full h-full"
+                  />
+                </div>
+
+                <div class="w-full lg:w-7/12 grow-0 grid grid-cols-1 gap-10 p-5 h-[50vh] lg:max-h-screen overflow-auto">
+                  <div>
+                    <h3 class="text-lg font-serif font-bold normal-case">{{ .name }}</h3>
+                    <p class="mt-2 my-5 h--condensed text-md">{{ .role }}</p>
+                  </div>
+                  <nav class="font-sans text-base font-bold">
+                    {{ with .email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+                    {{ with .social.linkedin }} / <a href="https://linkedin.com/in/{{ . }}">Linkedin</a>{{ end }}
+                    {{ with .social.instagram }} / <a href="https://instagram.com/{{ . }}">Instagram</a>{{ end }}
+                    {{ with .social.facebook }} / <a href="https://facebook.com/{{ . }}">Facebook</a>{{ end }}
+                    {{ with .social.github }} / <a href="https://github.com/{{ . }}">Github</a>{{ end }}
+                    {{ with .social.twitter }} / <a href="https://twitter.com/{{ . }}">Twitter</a>{{ end }}
+                    {{ with .social.threads }} / <a href="https://threads.net/{{ . }}">Threads</a>{{ end }}
+                  </nav>
+                  
+                  {{ with .related_posts }}
+                  <div class="xl:pt-12">
+                    <h4 class="mb-2">Insights</h4>
+                    <ul class="list-none">
+                    {{ range . }}
+                      {{ with site.GetPage . }}
+                      <li class="mb-2 font-sans">
+                        <a aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">{{ .Title }}</a>
+                      </li>
+                      {{ end }}
+                    {{ end }}
+                    </ul>
+                  </div>
+                  {{ end }}
+                  
+                  {{ with .cares }}
+                  <div class="xl:pt-12">
+                    <h4 class="mb-2">What I care about</h4>
+                    <p class="font-sans">
+                    {{ range . }}
+                      {{ . }}<span class="last:hidden">, </span>
+                    {{ end }}
+                    </p>
+                  </div>
+                  {{ end }}
+
+                </div>
+
               </div>
-              <ul>
-                {{ with .social.linkedin }}
-                  <li>Linkedin: <a href="https://linkedin.com/in/{{ . }}">{{ . }}</a></li>
-                {{ end }}
-                {{ with .social.instagram }}
-                  <li>Instagram: <a href="https://instagram.com/{{ . }}">{{ . }}</a></li>
-                {{ end }}
-                {{ with .social.facebook }}
-                  <li>Facebook: <a href="https://facebook.com/{{ . }}">{{ . }}</a></li>
-                {{ end }}
-                {{ with .social.github }}
-                  <li>Github: <a href="https://github.com/{{ . }}">{{ . }}</a></li>
-                {{ end }}
-                {{ with .social.twitter }}
-                  <li> Twitter:<a href="https://twitter.com/{{ . }}">@{{ . }}</a></li>
-                {{ end }}
-                {{ with .social.threads }}
-                  <li> Threads:<a href="https://threads.net/{{ . }}">{{ . }}</a></li>
-                {{ end }}
-              </ul>
   
             </article>
           </li>
