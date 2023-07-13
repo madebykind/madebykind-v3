@@ -1,4 +1,4 @@
-  {{ define "main" }}
+{{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
 <section>
   {{ partial "header__about.html" . }}
@@ -74,7 +74,7 @@
     <div class="container grid gap-10">
       <h2 class="text-xl h--condensed">Our team of experts</h2>
       <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:gap-32">
-        {{ range $.Site.Data.authors }}
+        {{ range sort $.Site.Data.authors "order" }}
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
           <li id="toggle-{{ .name | anchorize }}">
             <article itemscope itemtype="http://schema.org/Person">
