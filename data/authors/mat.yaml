@@ -3,6 +3,7 @@ image: Team-Mat.png
 name: Mat Hayward
 role: Founder and Partnerships Director
 email: mat@madebykind.com
+order: 1
 social:
   github: 
   instagram: mathaywarduk

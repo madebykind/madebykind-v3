@@ -3,6 +3,7 @@ headshot: Avatar-Seth.png
 image: Team-Seth.png
 name: Seth Warburton
 role: Technical Lead
+order: 4
 email: seth@madebykind.com
 social:
   github: nternetinspired
