@@ -5,7 +5,7 @@
         <h1>{{ .Page.Title|safeHTML }}</h1>
         {{ with .Params.Intro }}
           <div class="max-w-5xl prose cta_prose">
-            <p>{{ . | markdownify }}</p>
+            {{ . | markdownify }}
           </div>
         {{ end }}
         {{ if isset .Params "cta" }}
