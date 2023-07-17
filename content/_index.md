@@ -19,7 +19,7 @@ title: For the good folks
 hidden: false
 intro: >
 
-  The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for good.
+  The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for&nbsp;good.
 
 
   That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…

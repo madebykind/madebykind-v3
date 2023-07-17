@@ -29,6 +29,7 @@
  * override them.
  */
 @import 'components/accordion.postcss';
+@import 'components/animations.postcss';
 @import 'components/background.postcss';
 @import 'components/border.postcss';
 @import 'components/button.postcss';

@@ -22,7 +22,7 @@ block_class: bg-blue text-sky
 cta_class: bg-sky text-blue
 featured: true
 icon: va-logo
-description: Preserving historical collections through engaging digital archives
+description: Preserving historical collections through digital archives
 services:
   - strategy
   - brand

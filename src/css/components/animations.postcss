@@ -1,0 +1,73 @@
+.animate-emphasise strong {
+    background-image: linear-gradient(90deg, #08533c 0%, #08533c 50%,  #F1EBE8 50%,  #F1EBE8 100%);
+    background-size: 200% 6%;
+    background-position: 100% 90%;
+    background-repeat: no-repeat;
+    animation-fill-mode: forwards;
+
+    &:nth-child(1) {
+      animation: navy-to-blue 2s ease-in-out 0s forwards,
+         underline 2s ease-in-out 0s forwards,
+         out 500ms ease-in-out 6s forwards,
+         navy-to-blue 500ms ease-in-out 6s reverse forwards
+      ;
+    }
+
+    &:nth-child(2) {
+      animation: navy-to-blue 2s ease-in-out 1.5s forwards,
+         underline 2s ease-in-out 1.5s forwards,
+         out 500ms ease-in-out 6s forwards,
+         navy-to-blue 500ms ease-in-out 6s reverse forwards
+      ;
+    }
+
+    &:nth-child(3) {
+      animation: navy-to-blue 2s ease-in-out 3s forwards,
+         underline 2s ease-in-out 3s forwards,
+         out 500ms ease-in-out 6s forwards,
+         navy-to-blue 500ms ease-in-out 6s reverse forwards
+      ;
+    }
+  }
+
+  @keyframes navy-to-blue {
+    0% {
+      color: #084059;
+    }
+    20% {
+      color: #084059;
+    }
+    80% {
+      color: #08533c;
+    }
+    100% {
+      color: #08533c;
+    }
+  }
+
+  @keyframes underline {
+    0% {
+      background-position: 100% 90%;
+    }
+    20% {
+      background-position: 100% 90%;
+    }
+    80% {
+      background-position: 0% 90%;
+    }
+    100% {
+      background-position: 0% 90%;
+    }
+  }
+
+  @keyframes out {
+    0% {
+      background-size: 200% 6%;
+    }
+    50% {
+      background-size: 200% 12%;
+    }
+    100% {
+      background-size: 200% 0;
+    }
+  }
