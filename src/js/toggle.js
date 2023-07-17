@@ -24,6 +24,7 @@ function doToggle(el, toggleGroup, targetEl, focusEl, toggleParent, toggleFixed)
 
   if (toggleFixed) {
     document.querySelector("body").classList.toggle("overflow-hidden");
+    document.querySelector("body").classList.toggle("fixed");
   }
 
   if (toggleParent) {

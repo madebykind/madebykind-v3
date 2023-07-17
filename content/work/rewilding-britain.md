@@ -9,6 +9,7 @@ related_work:
   - chapter
   - the-rivers-trust
 title: A platform to inspire rewilding projects across the country
+client: Rewilding Britain
 cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
   mobile is on the ground in the woods
 block_class: bg-pink text-claret
@@ -20,6 +21,8 @@ intro: Rewilding Britain are the first and only country-wide organisation in
 featured: true
 date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-phone-4.jpg
+impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
+impact_img_alt: A misty forest
 key_stat:
  - 149-percent
 description: "Big thinking for a cause we really care about"

@@ -3,6 +3,8 @@ headshot: Avatar-Jess.png
 image: Team-Jess.png
 name: Jess Pollard
 role: Designer
+order: 5
+email: jess@madebykind.com
 social:
   github: 
   instagram:

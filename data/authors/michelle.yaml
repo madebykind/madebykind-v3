@@ -3,6 +3,8 @@ headshot: Avatar-Michelle.png
 image: Team-Michelle.png
 name: Michelle Pavey
 role: Strategy Director
+order: 2
+email: michelle@madebykind.com
 social:
   github: 
   instagram:

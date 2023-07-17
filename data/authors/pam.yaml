@@ -3,6 +3,8 @@ headshot: Avatar-Pam.png
 image: Team-Pam.png
 name: Pamela Holmes
 role: Brand Lead
+order: 3
+email: pam@madebykind.com
 social:
   github: 
   instagram:

@@ -1,7 +1,7 @@
 ---
 cover_img: images/true-to-who-we-are-v1.png
 cover_img_alt: A giant friendly hand, holding a small flower
-cta_img: images/true-to-who-we-are-v2.png
+cta_img: images/raise-expectations-broccoli.png
 cta_img_alt: A giant friendly hand, watering a small plant with a tiny watering can.
 cta: More about kind
 ctaLink: /about
@@ -18,7 +18,9 @@ description: The wildlife protectors, cultural contributors and green architects
 title: For the good folks
 hidden: false
 intro: >
+
   The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for good.
+
 
   That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
 related_stats:
