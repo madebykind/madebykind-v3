@@ -14,11 +14,11 @@ title: Well-worn paths are never going to lead to a better world.
 
 <div class="grid gap-10 md:grid-cols-2 lg:gap-20 section--lg">
 
-  {{< blockquote author="Mat Hayward" image="Avatar-Mat.png" class="leading-tight text-md text-teal" role="Founder & Partnership Director" avatar="mat" >}}
+  {{< blockquote author="Mat Hayward" image="Avatar-Mat.png" class="text-lg leading-tight text-teal" role="Founder & Partnership Director" avatar="mat" >}}
   Doing the right thing isn’t easy, but when we started Kind, we decided it was the only way we wanted to do business.
   {{</ blockquote >}}
 
-  {{< blockquote author="Michelle Pavey" image="Avatar-Michelle.png" class="leading-tight text-md text-teal" role="Co-owner & Strategy Director" avatar="michelle" >}}
+  {{< blockquote author="Michelle Pavey" image="Avatar-Michelle.png" class="text-lg leading-tight text-teal" role="Co-owner & Strategy Director" avatar="michelle" >}}
   Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out do.
   {{</ blockquote >}}
 
