@@ -11,7 +11,7 @@ intro: Backlit is a home to over 120 artists, collectives, and associate
   creat­ives at all stages of life to develop.
 key_stat: null
 description: Find out how Kind have helped Backlit Gallery
-summary: ""
+summary:
 topics:
   - Brand identity
   - User-centred Design
@@ -22,9 +22,10 @@ services:
   - brand
   - digital
 ---
-{{< blockquote wrapperclass="min-h-screen grid content-center" author="Backlit Gallery">}}
+
+{{< workquote source="Backlit Gallery" logo="backlit-logo" >}}
 Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.
-{{</ blockquote >}}
+{{</ workquote >}}
 
 {{< figure src="../images/work-backlit-header.jpg" alt="Interior of Backlit Gallery with Logo overlayed" >}}
 
