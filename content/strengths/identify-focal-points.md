@@ -1,7 +1,7 @@
 ---
 date: 2020-04-24T11:48:46+01:00
-icon:
 title: Identify focal points
+weight: 3
 ---
 
 As we already understand our clients’ strategy and goals, we can identify and focus on the user stories that will contribute towards these.

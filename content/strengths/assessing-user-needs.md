@@ -1,6 +1,7 @@
 ---
 date: 2020-04-24T11:48:46+01:00
 title: Assessing user needs
+weight: 2
 ---
 
 Our next step is to explore the audiences that will be using the finished product.
