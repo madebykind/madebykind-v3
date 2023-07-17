@@ -100,4 +100,5 @@ ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-acces
 [taxonomies]
   key_topic = "key_topic"
   rss = "rss"
+  services = "services"
   topic = "topics"
