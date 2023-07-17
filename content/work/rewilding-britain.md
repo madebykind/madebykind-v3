@@ -39,9 +39,9 @@ services:
   - digital
 ---
 
-{{< blockquote wrapperclass="min-h-screen grid content-center" author="Rewilding Britian Manifesto" >}}
+{{< workquote source="Rewilding Britian Manifesto" logo="rwb-logo" >}}
 Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
-{{</ blockquote >}}
+{{</ workquote >}}
 
 {{< figure src="../images/work-rewilding-britain-header.jpg" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
 

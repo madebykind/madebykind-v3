@@ -31,9 +31,9 @@ description: "How we helped reposition a historic community force"
 
 {{< figure src="../images/work-chapter-header.jpg" alt="Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows." >}}
 
-{{< blockquote wrapperclass="min-h-screen grid content-center" author="Chapter manifesto">}}
+{{< workquote source="Chapter manifesto" logo="chapter-logo" >}}
 From world-class and emerging talent to the next generation, to our audiences and visitors. We’re here for all the things that bring us together, the things made to share, the things that make us.
-{{</ blockquote >}}
+{{</ workquote >}}
 
 Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
 

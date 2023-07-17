@@ -32,9 +32,9 @@ services:
   - digital
 ---
 
-{{< blockquote wrapperclass="min-h-screen grid content-center" author="Sheffield Hallam University Mission" >}}
-We transform lives. We shape our students' futures, preparing them for whatever they choose to do, and create knowledge that provides practical solutions to real world challenges.
-{{</ blockquote >}}
+{{< workquote source="Sheffield Hallam University Mission" logo="shu-logo" >}}
+We transform lives. We shape our students’ futures, preparing them for whatever they choose to do, and create knowledge that provides practical solutions to real world challenges.
+{{</ workquote >}}
 
 {{< figure src="../images/work-shu-header.jpg" alt="A boy in a gymnasium wearing a VR headset. The Sheffield Hallam University logo is overlayed" >}}
 

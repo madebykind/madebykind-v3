@@ -29,9 +29,9 @@ services:
   - digital
 ---
 
-{{< blockquote wrapperclass="min-h-screen grid content-center" author="V&A mission statement">}}
-Our mission is to be recognised as the world's leading museum of art, design and performance, and to enrich people's lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
-{{</ blockquote >}}
+{{< workquote source="V&A mission statement" logo="va-logo" >}}
+Our mission is to be recognised as the world’s leading museum of art, design and performance, and to enrich people’s lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
+{{</ workquote >}}
 
 {{< figure src="../images/work-va-header.jpg" alt="A domed ceiling (or cupola) shot from below with the light coming through a circular hole in the top. The V&A logo is overlayed in white" >}}
 
