@@ -15,12 +15,12 @@
         <svg class="w-24 h-32 xl:w-36 xl:h-48 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-bcorp"/>
         </svg>
-        <svg class="h-24 w-48 xl:h-32 xl:w-72 flex-no-shrink" role="presentation">
+        <svg class="w-48 h-24 xl:h-32 xl:w-72 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-1fortheplanet"/>
         </svg>
       </div>
       <div>
-        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue  focus:bg-pink focus:text-blue" href="/about/our-impact">
+        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact">
           Our impact
           <svg class="w-12 h-4 flex-no-shrink" role="presentation">
             <use xlink:href="#icon-arrow"/>
@@ -29,9 +29,9 @@
       </div>
     </div>
   </section>
-  <section class="bg-teal text-blue overflow-hidden">
-    <div class="container grid gap-10 xl:grid-cols-2">
-      <div class="grid gap-10 pt-10 lg:pt-20 xl:py-30">
+  <section class="overflow-hidden bg-teal text-blue">
+    <div class="container grid grid-cols-2 gap-10">
+      <div class="grid gap-10 pt-10 xl:col-span-1 col-span-full lg:pt-20 xl:py-30">
         <h2 class="h1">Partnerships that deliver real impact</h2>
         <div class="max-w-5xl prose lede cta_prose">
           <p>Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else – and that means great results for you.</p>
@@ -39,10 +39,10 @@
         </div>
       </div>
         {{ with .Params.related_work }}
-        <div class="bleed xl:ml-0">
+        <div class="xl:col-span-1 col-span-full bleed xl:ml-0">
           {{ range . }}
             {{ with site.GetPage . }}
-              <a aria-labelledby="{{ .Title | anchorize }}" class="block group no-underline xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
+              <a aria-labelledby="{{ .Title | anchorize }}" class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
                 <div class="relative xl:flex-grow">
                   {{ if isset .Params "impact_img" }}
                     {{ partial "image__impact-project" . }}
@@ -54,7 +54,7 @@
                     </article>
                   </div>
                 </div>
-                <div class="bg-sky text-green py-5 px-10 flex justify-between items-center transition-all duration-500 ease-in-out group-hover:bg-green group-hover:text-sky">
+                <div class="flex items-center justify-between px-10 py-5 transition-all duration-500 ease-in-out bg-sky text-green group-hover:bg-green group-hover:text-sky">
                   <p>
                     Read the <span class="sr-only">{{ .Params.client }}</span> case study
                   </p>
@@ -70,7 +70,7 @@
       </div>
     </div>
   </section>
-  <section class="section relative">
+  <section class="relative section">
     <div class="container grid gap-10">
       <h2 class="text-xl h--condensed">Our team of experts</h2>
       <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:gap-32">
@@ -110,13 +110,13 @@
                   </svg>
                 </div>
 
-                <p class="mt-2 my-5 h--condensed">{{ .role }}</p>
+                <p class="my-5 mt-2 h--condensed">{{ .role }}</p>
               </button>
 
-              <div class="team-member bg-indigo text-buff z-20 w-screen min-h-screen flex flex-col lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
+              <div class="z-20 flex flex-col w-screen min-h-screen team-member bg-indigo text-buff lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
 
                 <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="#team-{{ .name | anchorize }}">
-                  <svg class="self-end w-16 h-8 lg:w-24 lg:h-12 flex-no-shrink rotate-180 text-yellow" role="presentation">
+                  <svg class="self-end w-16 h-8 rotate-180 lg:w-24 lg:h-12 flex-no-shrink text-yellow" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
                 </button>
@@ -146,8 +146,8 @@
 
                 <div class="w-full lg:w-7/12 grow-0 grid grid-cols-1 gap-10 p-5 h-[50vh] lg:h-auto lg:max-h-screen overflow-auto">
                   <div>
-                    <h3 class="text-lg font-serif font-bold normal-case">{{ .name }}</h3>
-                    <p class="mt-2 my-5 h--condensed text-md">{{ .role }}</p>
+                    <h3 class="font-serif text-lg font-bold normal-case">{{ .name }}</h3>
+                    <p class="my-5 mt-2 h--condensed text-md">{{ .role }}</p>
                   </div>
                   <nav class="font-sans text-base font-bold">
                     {{ with .email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}

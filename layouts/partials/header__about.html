@@ -1,5 +1,5 @@
-<header class="container grid items-center content-center section--lg  gap-10 md:grid-cols-12" data-hero-height="100vh">
-		<div class="grid max-w-5xl col-span-12 gap-10 md:col-span-8">
+<header class="container grid items-center content-center gap-10 section--lg md:grid-cols-12" data-hero-height="100vh">
+		<div class="grid max-w-5xl gap-10 col-span-full md:col-span-8">
 			<div id="content" class="grid col-span-1 gap-15">
 				<h1>{{ .Page.Title|safeHTML }}</h1>
 				{{ with .Params.Intro }}
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 		{{ if isset .Params "cover_img" }}
-			<div class="self-end col-span-4 max-h-illustration max-w-illustration justify-self-end">
+			<div class="self-end col-span-full md:col-span-4 max-h-illustration max-w-illustration justify-self-end">
 				{{ partial "image__illustration" . }}
 			</div>
 		{{ end }}

@@ -1,6 +1,6 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} grid section--lg snap-start">
-  <div class="container grid items-center gap-10 md:grid-cols-12">
-    <div class="grid max-w-5xl col-span-12 gap-10 md:col-span-8">
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} section--lg snap-start">
+  <div class="container flex flex-col items-center gap-10 md:grid md:grid-cols-12">
+    <div class="max-w-5xl col-span-12 gap-10 md:col-span-8">
       <div id="content" class="grid col-span-1 gap-15">
         <h1>{{ .Page.Title|safeHTML }}</h1>
         {{ with .Params.Intro }}
@@ -29,7 +29,7 @@
       </div>
     </div>
     {{ if isset .Params "cover_img" }}
-      <div class="self-end col-span-4 max-h-illustration max-w-illustration justify-self-end">
+      <div class="self-end col-span-12 md:col-span-4 max-h-illustration max-w-illustration justify-self-end">
         {{ partial "image__illustration" . }}
       </div>
     {{ end }}
