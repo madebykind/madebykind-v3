@@ -46,7 +46,7 @@
     <figcaption>{{ . }}</figcaption>
   </figure>
 {{ else }}
-  <picture>
+  <picture class="block">
     <source sizes="{{ $dataSizes }}" srcset="
             {{- with $respSizes -}}
               {{- range $i, $e := . -}}
