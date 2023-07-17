@@ -1,12 +1,12 @@
 <header class="snap-start{{ if .Params.cover_img }} overflow-hidden{{ end }}">
-  <div data-hero-height="100vh" class="container grid gap-10 lg:grid-cols-12{{ if not .Params.cover_img }} items-end{{ end }}">
+  <div data-hero-height="100vh" class="container grid gap-10 md:grid-cols-12{{ if not .Params.cover_img }} items-end{{ end }}">
 
       {{ if .Params.cover_img }}
-        <div class="col-span-12 lg:col-span-6 lg:order-1 bleed lg:ml-0">
+        <div class="col-span-full lg:col-span-6 lg:order-1 bleed lg:ml-0">
           {{ partial "image__hero" . }}
         </div>
       {{ end }}
-      <div class="grid items-end content-end col-span-12 gap-10 pb-10 section--lg{{ if .Params.cover_img }} lg:col-span-6 {{ else }} lg:col-span-7{{ end }}">
+      <div class="grid md:items-end md:content-end col-span-full gap-10 pb-10 section--lg{{ if .Params.cover_img }} lg:col-span-6 {{ else }} lg:col-span-7{{ end }}">
         <h1 style="word-break: break-word;">{{ .Page.Title|safeHTML }}</h1>
 
         {{ if .Params.cover_img }}
@@ -22,7 +22,7 @@
         {{ end }}
       </div>
       {{ if not .Params.cover_img }}
-        <div class="self-end col-span-12 pb-10 lg:col-span-4 lg:col-start-9">
+        <div class="pb-10 md:self-end col-span-full lg:col-span-4 lg:col-start-9">
           {{ if .Params.author }}
             {{ partial "author" . }}
           {{ end }}
@@ -32,14 +32,14 @@
     <div class="container grid gap-10 lg:grid-cols-12">
 {{/*
   {{ if .Params.toc }}
-    <div class="col-span-12">
+    <div class="col-span-full">
       {{ .TableOfContents }}
     </div>
   {{ end }}
 */}}
       {{ if .Params.cover_img }}
         {{ if .Params.intro }}
-        <div class="col-span-12{{ if .Params.cover_img }} lg:col-span-6 {{ else }} lg:col-span-7{{ end }}">
+        <div class="col-span-full{{ if .Params.cover_img }} lg:col-span-6 {{ else }} lg:col-span-7{{ end }}">
           <div class="prose lede cta_prose">
             {{ .Params.intro | markdownify }}
           </div>
