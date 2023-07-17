@@ -1,0 +1,18 @@
+  
+{{ if .Get "logo" }}
+  <figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="grid content-center min-h-screen">
+    <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
+      <p class="text-lg" itemprop="citation">&ldquo;{{ .Inner }}&rdquo;</p>
+    </blockquote>
+    <figcaption class="inline-flex items-center gap-5 mt-10">
+      <svg class="w-16 h-8 lg:w-24 lg:h-16" role="presentation">
+        <use xlink:href="#icon-{{ .Get "logo" }}"/>
+      </svg>
+      {{ with .Get "source" }}
+        <div class="h3 h--condensed">{{ . }}</div>
+      {{ end }}
+    </figcaption>
+  </figure>
+{{ else }}
+  <code class="text-claret">logo= is required!</code>
+{{ end }}
