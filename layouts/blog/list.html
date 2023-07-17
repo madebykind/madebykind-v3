@@ -2,13 +2,13 @@
   {{ partial "header__list.html" . }}
   <nav id="js--filters" class="container grid gap-5 section snap-start">
     <h2 class="h--condensed">Filter by topic</h2>
-    {{ partial "topic-filters" . }}
+    {{ partial "blog-filters" . }}
   </nav>
   <section class="container snap-start">
     <h2 class="sr-only">Featured posts</h2>
     <ol class="grid gap-10 md:grid-cols-12 section lg:gap-20">
       {{ range ( where ( where .Pages "Params.featured" "==" true ) "Params.unlisted" "!=" true ) }}
-        <li class="md:col-span-6 xl:col-span-4"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
+        <li class="md:col-span-6 xl:col-span-4" {{ with .Params.key_topic }}data-topics="{{ . | anchorize }}"{{ end }}>
           {{ partial "card" . }}
         </li>
       {{ end }}
@@ -18,7 +18,7 @@
     <h2 class="h--condensed text-md">Insights</h2>
     <ol class="flex flex-wrap">
       {{ range ( where ( where .Pages "Params.featured" "!=" true ) "Params.unlisted" "!=" true ) }}
-        <li class="w-full"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
+        <li class="w-full" {{ with .Params.topics }}data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
           {{ partial "teaser" . }}
         </li>
       {{ end }}
