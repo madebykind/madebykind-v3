@@ -1,4 +1,4 @@
-<article class="{{ .context.Params.block_class }}">
+<article class="{{ .context.Params.block_class }} overflow-hidden">
   <a aria-labelledby="{{ .context.Title | anchorize }}" class="no-underline group relative" href="{{ .context.Permalink }}">
     <div class="w-screen grid lg:grid-cols-2 lg:container">
       <div class="relative lg:col-span-1{{ if .odd }} lg:order-1 lg:bleed-right{{ else }} lg:bleed-left{{ end }}">
