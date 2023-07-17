@@ -18,9 +18,9 @@ services:
   - strategy
 ---
 
-{{< blockquote wrapperclass="min-h-screen grid content-center" author="Jackson-Crane Mission" >}}
+{{< workquote author="Jackson-Crane Mission" logo="jackson-crane-logo" source="Jackson-Crane Mission" >}}
 Our mission is to create sustainable, environmentally conscious and high performing architectural and interior design for like-minded, progressive clients and to exceed expectations on each project
-{{</ blockquote >}}
+{{</ workquote >}}
 
 {{< figure src="../images/work-jackson-crane-header.jpg" alt="Rendered image of a biophilic house with Jackson-Crane logo overlayed" >}}
 
