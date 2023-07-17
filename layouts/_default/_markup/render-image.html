@@ -4,7 +4,7 @@
 {{- $img = resources.Get $path -}}
 {{- end -}}
 {{- with $img -}}
-  {{- $2xl := $img.Resize "1920x jpg" -}}
+  {{- $2xl := $img.Resize "1920x" -}}
   {{- $xl := $2xl.Resize "1600x" -}}
   {{- $lg := $xl.Resize "1200x" -}}
   {{- $md := $lg.Resize "768x" -}}
