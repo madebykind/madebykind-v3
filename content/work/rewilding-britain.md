@@ -39,7 +39,7 @@ services:
   - digital
 ---
 
-{{< workquote source="Rewilding Britian Manifesto" logo="rwb-logo" >}}
+{{< workquote source="Rewilding Britian Manifesto" logo="logo-square-rewilding-britain" >}}
 Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
 {{</ workquote >}}
 

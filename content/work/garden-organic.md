@@ -24,7 +24,7 @@ topics:
 icon: garden-organic-logo
 ---
 
-{{< workquote source="Garden Organic Mission" logo="garden-organic-logo" >}}
+{{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" >}}
 We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
 {{</ workquote >}}
 

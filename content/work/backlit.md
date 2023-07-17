@@ -23,7 +23,7 @@ services:
   - digital
 ---
 
-{{< workquote source="Backlit Gallery" logo="backlit-logo" >}}
+{{< workquote source="Backlit Gallery" logo="logo-square-backlit" >}}
 Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.
 {{</ workquote >}}
 

@@ -29,7 +29,7 @@ services:
   - digital
 ---
 
-{{< workquote source="V&A mission statement" logo="va-logo" >}}
+{{< workquote source="V&A mission statement" logo="logo-square-vam" >}}
 Our mission is to be recognised as the world’s leading museum of art, design and performance, and to enrich people’s lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ workquote >}}
 
