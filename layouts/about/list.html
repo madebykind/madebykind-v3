@@ -113,7 +113,7 @@
                 <p class="mt-2 my-5 h--condensed">{{ .role }}</p>
               </button>
 
-              <div class="team-member bg-indigo text-buff z-20 w-screen min-h-screen flex flex-col lg:gap-10 lg:flex-row lg:items-center opacity-50 " id="team-{{ .name | anchorize }}">
+              <div class="team-member bg-indigo text-buff z-20 w-screen min-h-screen flex flex-col lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
 
                 <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="#team-{{ .name | anchorize }}">
                   <svg class="self-end w-16 h-8 lg:w-24 lg:h-12 flex-no-shrink rotate-180 text-yellow" role="presentation">
