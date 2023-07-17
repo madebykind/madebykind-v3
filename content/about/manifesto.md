@@ -39,11 +39,15 @@ All our clients must have a mission that comes before profit. Using our skills a
   </svg>
 
   <div class="w-32 shrink-0 grow-0">
-    {{< figure alt="Members of the Ocean Network" src="../images/logo-ocean-network.png" >}}
+
+![Members of the Ocean Network](../images/logo-ocean-network.png)
+  
   </div>
 
   <div class="w-32 shrink-0 grow-0">
-    {{< figure alt="Kind are a Living Wage Employer" src="../images/logo-living-wage.png" >}}
+
+![Kind are a Living Wage Employer](../images/logo-living-wage.png)
+
   </div>
 </div>
 </section>
@@ -57,7 +61,7 @@ That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
   
 </div>
 <div>
-  <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue  focus:bg-pink focus:text-blue" href="/about/our-impact">
+  <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact">
     Our impact
     <svg class="w-12 h-4 flex-no-shrink" role="presentation">
       <use xlink:href="#icon-arrow"/>
