@@ -1,63 +1,61 @@
 {{ if .Params.cta3Title }}
-<div class="flex flex-col justify-center min-h-screen snap-start section--lg">
-  <div class="container grid gap-10">
-    <div class="grid items-center gap-10 md:grid-cols-2">
-      <div id="content" class="grid col-span-1 gap-15">
-        <h2 class="h1">{{ .Params.cta3Title }}</h2>
-        {{ with .Params.cta3Copy }}
-          <div class="max-w-5xl prose cta_prose">
-            <p>{{ . | markdownify }}</p>
-          </div>
-        {{ end }}
-        <div class="flex flex-wrap gap-5 lg:gap-10">
-            <a class="btn btn--primary" href="{{ .Params.cta3Link }}">
-              {{ title .Params.cta3 }}
-              <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                <use xlink:href="#icon-arrow"/>
-              </svg>
-            </a>
-          {{ if isset .Params "cta4" }}
-            <a class="btn btn--secondary" href="{{ .Params.cta4Link }}">
-              {{ title .Params.cta4 }}
-              <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                <use xlink:href="#icon-arrow"/>
-              </svg>
-            </a>
-          {{ end }}
-        </div>
-      </div>
-
-      {{ if .Params.cta_img }}
-        <div class="relative self-end col-span-1 justify-self-center">
-          {{ $alt := ( .Params.cta_img_alt ) }}
-          {{ $img := (.Params.cta_img ) }}
-          {{ $image := resources.GetMatch (printf "**%s" ($img)) }}
-
-          {{- $2xl := $image.Resize "1280x" -}}
-          {{ $xl := $2xl.Resize "960x" -}}
-          {{ $lg := $xl.Resize "640x" -}}
-          {{ $md := $lg.Resize "480x" -}}
-          {{ $sm := $md.Resize "320x" -}}
-
-          <img 
-            alt="{{ $alt }}" 
-            class="object-cover h-full max-w-xl" 
-            height="{{ $image.Height }}" 
-            loading=lazy 
-            sizes="(min-width: 100em) 48vw, 96vw" 
-            src="{{ $sm.RelPermalink }}" 
-            srcset="
-              {{ $sm.RelPermalink }} 320w,
-              {{ $md.RelPermalink }} 480w,
-              {{ $lg.RelPermalink }} 640w,
-              {{ $xl.RelPermalink }} 960w,
-              {{ $2xl.RelPermalink }} 1280w" 
-            width="{{ $image.Width }}"
-          >
-
+<section class="flex flex-col justify-center min-h-screen snap-start section--lg">
+  <div class="container grid gap-10 md:grid-cols-12">
+    <div id="content" class="flex flex-col gap-10 col-span-full md:col-span-7 lg:gap-15">
+      <h2 class="h1">{{ .Params.cta3Title }}</h2>
+      {{ with .Params.cta3Copy }}
+        <div class="max-w-5xl prose cta_prose">
+          <p>{{ . | markdownify }}</p>
         </div>
       {{ end }}
+      <div class="flex flex-wrap gap-5 lg:gap-10">
+          <a class="btn btn--primary" href="{{ .Params.cta3Link }}">
+            {{ title .Params.cta3 }}
+            <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
+        {{ if isset .Params "cta4" }}
+          <a class="btn btn--secondary" href="{{ .Params.cta4Link }}">
+            {{ title .Params.cta4 }}
+            <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
+        {{ end }}
+      </div>
     </div>
+
+    {{ if .Params.cta_img }}
+      <div class="relative flex md:justify-center md:col-span-5 md:self-end col-span-full">
+        {{ $alt := ( .Params.cta_img_alt ) }}
+        {{ $img := (.Params.cta_img ) }}
+        {{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+
+        {{- $2xl := $image.Resize "1280x" -}}
+        {{ $xl := $2xl.Resize "960x" -}}
+        {{ $lg := $xl.Resize "640x" -}}
+        {{ $md := $lg.Resize "480x" -}}
+        {{ $sm := $md.Resize "320x" -}}
+
+        <img 
+          alt="{{ $alt }}" 
+          class="object-cover h-full" 
+          height="{{ $image.Height }}" 
+          loading=lazy 
+          sizes="(min-width: 100em) 32vw, 96vw" 
+          src="{{ $sm.RelPermalink }}" 
+          srcset="
+            {{ $sm.RelPermalink }} 320w,
+            {{ $md.RelPermalink }} 480w,
+            {{ $lg.RelPermalink }} 640w,
+            {{ $xl.RelPermalink }} 960w,
+            {{ $2xl.RelPermalink }} 1280w" 
+          width="320"
+        >
+
+      </div>
+    {{ end }}
   </div>
-</div>
+</section>
 {{ end }}
