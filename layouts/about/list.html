@@ -78,7 +78,7 @@
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
           <li id="toggle-{{ .name | anchorize }}">
             <article itemscope itemtype="http://schema.org/Person">
-              <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="#team-{{ .name | anchorize }}" class="text-left">
+              <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="team-{{ .name | anchorize }}" class="text-left">
 
                 {{ $xl := $author_img.Fill "920x1360" }}
                 {{ $lg := $xl.Resize "640x" }}
