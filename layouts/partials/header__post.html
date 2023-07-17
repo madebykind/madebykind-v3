@@ -7,7 +7,7 @@
         </div>
       {{ end }}
       <div class="grid items-end content-end col-span-12 gap-10 pb-10 section--lg{{ if .Params.cover_img }} md:col-span-6 {{ else }} md:col-span-7{{ end }}">
-        <h1>{{ .Page.Title|safeHTML }}</h1>
+        <h1 class="break-words">{{ .Page.Title|safeHTML }}</h1>
 
         {{ if .Params.cover_img }}
           {{ if .Params.author }}
