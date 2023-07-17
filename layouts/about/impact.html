@@ -16,7 +16,7 @@
             <p>Kind is a climate positive business and have taken the step to balance twice our greenhouse gas emissions since 2014 (when we were founded).</p>
             <button class="mt-5" data-toggle data-target="#climate-positive">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
+                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14 accordion-toggle-icon">
                   <svg class="w-8 h-8" role="presentation">
                     <use xlink:href="#icon-arrow-down"/>
                   </svg>
@@ -45,9 +45,9 @@
               <h2 class="mb-5 text-xl">Certified B Corporation</h2>
               <p><a href="/blog/kind-certifies-a-b-corporation">Kind certified as a B Corporation in 2022</a> - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
             </div>  
-            <button class="mt-5" data-toggle data-target="#bcorp">
+            <button class="mt-5 accordion-toggle" data-toggle data-target="#bcorp">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
+                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14 accordion-toggle-icon">
                   <svg class="w-8 h-8" role="presentation">
                     <use xlink:href="#icon-arrow-down"/>
                   </svg>
@@ -83,9 +83,9 @@
               <p>Kind have been <a href="https://directories.onepercentfortheplanet.org/profile/kind">members of 1% for the Planet since 2017</a> which requires us to donate a minimum of 1% of our turnover to environmental causes.</p>
               <p>In 2019 we selected Rewilding Britain as our environmental charity partner and pledged the majority of our 1% donations to their cause.</p>
             </div>
-            <button class="mt-5" data-toggle data-target="#charity-partnerships">
+            <button class="mt-5 accordion-toggle" data-toggle data-target="#charity-partnerships">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
+                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14 accordion-toggle-icon">
                   <svg class="w-8 h-8" role="presentation">
                     <use xlink:href="#icon-arrow-down"/>
                   </svg>
@@ -119,10 +119,10 @@
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
                 <article class="py-10 font-sans prose border-b">
-                  <button class="flex flex-wrap items-center justify-between w-full gap-5" data-toggle data-target="#{{ .Title | anchorize }}_body">
+                  <button class="flex flex-wrap items-center justify-between w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body">
                     <h3>{{ .Title }}</h3>
                     <div class="absolute sr-only right-24">{{ .Title }}: Read more about our  impact in this area</div>
-                    <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+                    <div class="flex items-center justify-center bg-white rounded-full w-14 h-14 accordion-toggle-icon">
                       <svg class="w-8 h-8" role="presentation">
                         <use xlink:href="#icon-arrow-down"/>
                       </svg>
