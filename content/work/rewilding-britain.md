@@ -8,30 +8,30 @@ topics:
 related_work:
   - chapter
   - the-rivers-trust
-title: A platform to inspire rewilding projects across the country
-client: Rewilding Britain
 cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
   mobile is on the ground in the woods
 block_class: bg-pink text-claret
 cta_class: bg-claret text-pink
+impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
+client: Rewilding Britain
 intro: Rewilding Britain are the first and only country-wide organisation in
   Britain focusing on rewilding – acting as a catalyst for debate and action,
   and demonstrating the power of working with nature to tackle the climate
   emergency and the extinction crisis.
 featured: true
+title: A platform to inspire rewilding projects across the country
 date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-phone-4.jpg
-impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
-impact_img_alt: A misty forest
 key_stat:
- - 149-percent
-description: "Big thinking for a cause we really care about"
+  - 149-percent
+description: Big thinking for a cause we really care about
 feature_content: "Rewilding Britain understood that they needed a digital
   partner to not only create a digital presence but to maintain it and evolve as
   their organisation does. We’ve been delighted to work with them for almost
   three years to constantly improve the performance and direction of their site
   as they continue to gain awareness and support on a national and international
   level. "
+impact_img_alt: A misty forest
 icon: rwb-logo
 feature_heading: Our partnership
 services:
@@ -46,8 +46,6 @@ Our vision is a world rich with the incredible hum and thrum of life, a world wh
 {{< figure src="../images/work-rewilding-britain-header.jpg" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
 
 One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
-
-{{< figure src="../images/work-rewilding-britain-laptop-mat-jess.jpg" alt="Over the shoulder view of a laptop with Rewilding Britain donation page on screen." >}}
 
 Through user needs testing, UX, and UI design we were able to develop a website that gave very different groups access to all of the information they needed to support and engage with the cause. Resulting in an increase of 149% in donations in the first six months from launch.
 
