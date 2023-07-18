@@ -5,8 +5,8 @@ cta_img: images/raise-expectations-broccoli.png
 cta_img_alt: A giant friendly hand, watering a small plant with a tiny watering can.
 cta: More about kind
 ctaLink: /about
-cta2: Our approach
-cta2Link: /about/approach
+cta2: 
+cta2Link: 
 cta3Title: Raise your expectations
 cta3Copy: Ethical work is excellent work. We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
 cta3: Our work
