@@ -59,10 +59,14 @@ module.exports = {
       },
       maxHeight: {
         'illustration': '55rem',
+        'iphone': '844px',
+        'ipad': '810px',
       },
       maxWidth: {
         'cta-copy': '45ch',
         'illustration': '55rem',
+        'iphone': '390px',
+        'ipad': '1080px',
       },
       minHeight: {
         '90vh': '90vh',
