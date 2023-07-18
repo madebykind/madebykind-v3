@@ -29,7 +29,7 @@ services:
   - digital
 related_work:
   - garden-organic
-  - vanda
+  - backlit
   - jackson-crane
 weight: 3
 ---
@@ -38,7 +38,7 @@ weight: 3
 Our mission is to be recognised as the world’s leading museum of art, design and performance, and to enrich people’s lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ workquote >}}
 
-{{< figure src="../images/work-va-header.jpg" alt="A domed ceiling (or cupola) shot from below with the light coming through a circular hole in the top. The V&A logo is overlayed in white" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-va-header.jpg" alt="A domed ceiling (or cupola) shot from below with the light coming through a circular hole in the top. The V&A logo is overlayed in white" >}}
 
 The primary V&A website is delivered and maintained in-house, but their digital team does not have the resource to deliver websites for programmes and specific projects. Kind have been appointed to deliver a number of digital design and development projects that fall outside of the remit of the V&A’s digital team.
 
@@ -59,11 +59,11 @@ This free digital resource and our Culture in Crisis programme is a demonstratio
 ## Performing Glastonbury
 
 Glastonbury Festival is the largest greenfield music and performing arts festival in the world. Glastonbury really sets itself aside from other live events and has become one of the most famous festivals in the world. Because of this, the V&A wanted to capture what has happened at the festival and how it continues to grow over the years.
-{{< figure src="../images/work-va-glastonbury-ipad.jpg" alt="" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-va-glastonbury-ipad.jpg" alt="" >}}
 
 In 2020, Glastonbury Festival reached a milestone anniversary of 50 years. During this time the festival has increased dramatically in size, attendance and reputation. The history of the festival has been captured over the years in different formats, but the V&A, in collaboration with the AHRC (Arts and Humanities Research Council), wanted to document the history of the event by building an online archive to host information such as programmes, posters, signage, maps, images, performances and the various stages.
 
-{{< figure src="../images/work-va-glastonbury.jpg" alt="" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-va-glastonbury.jpg" alt="" >}}
 
 We used AusStage and Algolia search to ensure data that was captured was refreshed every night to ensure the content was always up-to-date regardless of where that content had come from. Whilst it was a pilot project, we’re hopeful they continue to capture incredible memories from this incredible festival for years to come.
 
@@ -71,6 +71,6 @@ We used AusStage and Algolia search to ensure data that was captured was refresh
 
 We have been asked to build an online photographic archive for K.A.C Creswell who during his lifetime captured hundreds of images of important architectural sites in the middle east. The V&A is working in collaboration with a host of international universities and museums to bring the collection together for the first time. 
 
-{{< figure src="../images/work-va-creswell-laptop-michelle.jpg" alt="" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-va-creswell-laptop-michelle.jpg" alt="" >}}
 
 We will deliver a new brand identity for the archive and once again deliver fast search functionality for a sizeable photographic collection each with their own individual data sets, copyrights and information from the institution sharing the images.

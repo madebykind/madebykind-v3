@@ -41,19 +41,19 @@ weight: 4
 We transform lives. We shape our students’ futures, preparing them for whatever they choose to do, and create knowledge that provides practical solutions to real world challenges.
 {{</ workquote >}}
 
-{{< figure src="../images/work-shu-header.jpg" alt="A boy in a gymnasium wearing a VR headset. The Sheffield Hallam University logo is overlayed" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-shu-header.jpg" alt="A boy in a gymnasium wearing a VR headset. The Sheffield Hallam University logo is overlayed" >}}
 
 ## Design principles
 
 We started by working with the SHU team to understand the University’s strategy, brand and how we should reflect that through the visual language we would be creating with a design system. Based on this we came up with four design principles that ensure consistency during the design process of new components or when making improvements to existing ones.
 
-{{< figure src="../images/work-shu-protester-2.jpg" alt="A girl holding a cardboard placard stating 'The Time is Now'. There is a painted picture of the earth in the centre of the placard" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-shu-protester-2.jpg" alt="A girl holding a cardboard placard stating 'The Time is Now'. There is a painted picture of the earth in the centre of the placard" >}}
 
 ## Living pattern library
 
 To ensure everyone understands the design foundations and components we created, we provided a pattern library that is maintained as the single source of truth. Within this pattern library we detailed the functional specification for each component, examples of how they could and should be used and shared the HTML code for implementing them.
 
-{{< figure src="../images/work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
 
 ## User-centred design
 

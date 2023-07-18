@@ -33,33 +33,33 @@ weight: 7
 We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
 {{</ workquote >}}
 
-{{< figure src="../images/work-header-garden-organic.jpg" alt="A trowel on a garden bench with some flowers behind. The Garden Organic logo is overlayed" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-header-garden-organic.jpg" alt="A trowel on a garden bench with some flowers behind. The Garden Organic logo is overlayed" >}}
 
 ## Engaging new audiences
 
 Garden Organic had built a new offline brand and they worked with us to bring that to life digitally, attracting new and varied demographics and making the site even more appealing to audiences who were new to organic gardening.
 
-{{< figure src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
+{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
 
-{{< figure src="../images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden" >}}
 
 ## Communicating to broad demographics and being inclusive
 
 The new site needed to distill a lot of complex information in a way that was suitable for all ages, experiences, and digital literacy levels. It had to be easy to navigate and to find expert advice on growing the organic way.
 
 
-{{< figure src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
 
-{{< figure src="../images/work-garden-organic-phone-3.jpg" alt="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-phone-3.jpg" alt="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes" >}}
 
 ## Establishing different journeys
 
 Expanding their dedicated user base to welcome new gardeners and take them from generally interested to signing up for full membership.
 
-{{< figure src="../images/work-garden-organic-phone.jpg" alt="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-phone.jpg" alt="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
 
 ## Making payments easy
 
 Establishing e-commerce with integrated CRM to manage multiple membership types, donations, event bookings, and a seed shop.
 
-{{< figure src="../images/work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}

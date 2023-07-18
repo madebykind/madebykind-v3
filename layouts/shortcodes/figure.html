@@ -8,7 +8,7 @@
 {{- $actualImg := $src.Resize "640x jpg" -}}
 
 {{ with .Get "caption" }}
-  <figure>
+  <figure {{ with .Get "wrapperclass" }} class="{{ . }}"{{ end }}>
     <picture>
       <source
         sizes="{{ $dataSizes }}"
@@ -46,7 +46,7 @@
     <figcaption>{{ . }}</figcaption>
   </figure>
 {{ else }}
-  <picture class="block">
+  <picture class="block{{ with .Get "wrapperclass" }} {{ . }}{{ end }}">
     <source sizes="{{ $dataSizes }}" srcset="
             {{- with $respSizes -}}
               {{- range $i, $e := . -}}
