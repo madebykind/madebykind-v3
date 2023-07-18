@@ -14,6 +14,7 @@ featured: true
 key_topic: Insights
 topics:
   - Arts & Culture
+  - User-centred design
 intro: Since the pandemic, the willingness of audiences to collect tickets in
   person or visit a box office has dropped substantially, so the need to get the
   online ticket purchasing experience right is paramount.

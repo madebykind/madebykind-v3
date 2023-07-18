@@ -15,6 +15,8 @@ description: In the time-honoured tradition of businesses rebranding and
 toc: false
 featured: true
 key_topic: Our impact
+topics:
+  - Environment
 intro: In the time-honoured tradition of businesses rebranding and launching
   their own website and promoting it to high heaven, we’re doing that ourselves this week, and for what reason? Does anyone give a damn? probably not, which is fair, but we do, and here is why…
 related_posts:

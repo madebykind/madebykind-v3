@@ -49,7 +49,7 @@ Giving £30 to a charitable cause is unlikely to make a huge difference in the g
 
 Rewilding Britain, along with many other charities, clearly show the breakdown of where their income is spent, so we can get a clear idea of how our donation will help.
 
-Another approach to reassuring donors is to show them specific outcomes. With The Rivers Trust, for example, we used messaging such as *"£30 could help purchase trees and plants to support us in our fight to improve river habitats"* to show a clear beneficial outcome to donating a specific amount.
+Another approach to reassuring donors is to show them specific outcomes. With The Rivers Trust, for example, we used messaging such as *"£30 could help purchase trees and plants to support us in our fight to improve river habitats"* to show a clear beneficial outcome to donating a specific amount.
 
 ![The Rivers Trust online donation form, showing what your donation could be used toward](../images/rt-donate.png "The Rivers Trust online donation form, showing what your donation could be used toward")
 
@@ -77,7 +77,7 @@ Finally, a potential donor has got all the information they needed to make a dec
 
 Make it as easy as possible for your users to give the amount they want, decide whether it will be a one-off donation or a regular one, and fill in their details in full, including the Gift Aid box!
 
-This is where our expertise in User Experience Design come in useful. Making the donation form as clear as possible by stripping back distractions, breaking the form into stages so it doesn't feel overwhelming and only asking for the information you **really** need, are all great practice.
+This is where our expertise in User Experience Design come in useful. Making the donation form as clear as possible by stripping back distractions, breaking the form into stages so it doesn't feel overwhelming and only asking for the information you **really** need, are all great practice.
 
 ![The Rewilding Britain donation form](../images/rb-pay-now.png "Rewilding Britain reiterate your donation just before it is processed")
 

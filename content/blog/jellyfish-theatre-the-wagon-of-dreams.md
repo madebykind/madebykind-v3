@@ -52,4 +52,4 @@ One of the central ideas we discussed was around how they could utilise their di
 
 The team wanted to engage the local media in order to reach their target audience and create excitement around the show. We guided them on how to put together a press release in the right format for local media and gave them a list of outlets to reach out to.
 
-They've just completed their shows in Nottingham, we've loved seeing them promoting their work and getting lots of people involved across the city. Now they're taking their tour across the country, check out their [website](https://www.jellyfishtheatre.com/) to see if they are heading towards a park near you! We'd highly recommend it.
+They've just completed their shows in Nottingham, we've loved seeing them promoting their work and getting lots of people involved across the city. Now they're taking their tour across the country, check out their [website](https://www.jellyfishtheatre.com/) to see if they are heading towards a park near you! We'd highly recommend it.

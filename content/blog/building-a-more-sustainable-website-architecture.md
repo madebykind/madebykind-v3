@@ -14,6 +14,7 @@ toc: false
 topics:
   - Our impact
   - Digital sustainability
+  - Environment
 featured: true
 key_topic: Insights
 intro: There are many ways we can improve the efficiency of a website, many of

@@ -14,6 +14,8 @@ toc: false
 topics:
   - Our impact
   - Digital sustainability
+  - Environment
+  - Strategy
 featured: true
 key_topic: Insights
 intro: After attending New Adventures in January, we were inspired by talks from
