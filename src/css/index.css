@@ -34,6 +34,7 @@
 @import 'components/border.postcss';
 @import 'components/button.postcss';
 @import 'components/container.postcss';
+@import 'components/frame.postcss';
 @import 'components/headings.postcss';
 @import 'components/prose.postcss';
 @import 'components/section.postcss';
