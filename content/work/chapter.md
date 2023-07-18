@@ -43,6 +43,8 @@ Chapter needed a brand and website to represent the creative, diverse, community
 
 {{< figure wrapperclass="section--lg" alt="A split image showing Chapter's brand font (PP Supply Sans Semibold) and a mockup of signage running on stairs and by an elevator." src="../images/work-chapter-typography.png" >}}
 
+{{< figure wrapperclass="section--lg" alt="A mockup of a Chapter business card. The business card is duotone blue and is placed on a pink board" src="../images/work-chapter-business-card-2.jpg" >}}
+
 We created a brand strategy that developed a bold manifesto, values, and tone of voice. This enabled us to then create a full brand identity design language for use online, offline and in-venue. This included typography, iconography, colourways, digital and wayfinding signage, poster templates, and stationery.
 
 {{< figure wrapperclass="section--lg" alt="A POV mockup of floor-based directions around the Chapter venue" src="../images/work-chapter-floor-signage.jpg" >}}
