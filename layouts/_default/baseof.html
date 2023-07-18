@@ -24,11 +24,6 @@
     {{ block "footer" . }}
       {{ partialCached "site__footer" . .Params.footer_class .Params.cta_hidden }}
     {{ end }}
-    
-    <!-- Creepy tracking junk -->
-    {{ if .Site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
 
     <!-- Majic lock -->
     {{ if .IsHome }}
@@ -61,11 +56,6 @@
       "datePublished" .Params.date
       "dateModified" .Params.lastmod
     }}
-
-    <!-- Fathom Analytics -->
-    {{ if not .Site.IsServer }}
-      <script src="https://cdn.usefathom.com/script.js" data-site="BHVNLHCB" defer></script>
-    {{ end }}
 
     <script type="application/ld+json">
       {{ jsonify (dict "indent" "  ") $m | safeJS }}

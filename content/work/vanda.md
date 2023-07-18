@@ -27,6 +27,10 @@ services:
   - strategy
   - brand
   - digital
+related_work:
+  - garden-organic
+  - vanda
+  - jackson-crane
 ---
 
 {{< workquote source="V&A mission statement" logo="logo-square-vam" >}}

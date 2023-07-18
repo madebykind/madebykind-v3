@@ -22,6 +22,10 @@ topics:
   - CRM integration
   - Ticketing journey
 icon: garden-organic-logo
+related_work:
+  - rewilding-britain
+  - sheffield-hallam-university
+  - the-rivers-trust
 ---
 
 {{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" >}}
