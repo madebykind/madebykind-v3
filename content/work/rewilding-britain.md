@@ -37,6 +37,10 @@ feature_heading: Our partnership
 services:
   - strategy
   - digital
+related_work:
+  - chapter
+  - sheffield-hallam-university
+  - the-rivers-trust
 ---
 
 {{< workquote source="Rewilding Britian Manifesto" logo="logo-square-rewilding-britain" >}}

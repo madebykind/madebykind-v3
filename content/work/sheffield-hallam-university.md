@@ -30,6 +30,10 @@ topics:
 icon: shu-logo
 services:
   - digital
+related_work:
+  - chapter
+  - rewilding-britain
+  - the-rivers-trust
 ---
 
 {{< workquote source="Sheffield Hallam University Mission" logo="logo-square-shu" >}}

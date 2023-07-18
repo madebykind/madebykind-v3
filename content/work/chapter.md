@@ -25,6 +25,10 @@ featured: true
 external_link: https://chapter.org.uk
 icon: chapter-logo
 description: "How we helped reposition a historic community force"
+related_work:
+  - backlit
+  - vanda
+  - rewilding-britain
 ---
 
 {{< figure alt="Chapter brand statement set on a green background: ‘A World Of Creativity. A Place To Be You’" src="../images/work-chapter-positioning.jpg" >}}

@@ -21,6 +21,10 @@ icon: backlit-logo
 services:
   - brand
   - digital
+related_work:
+  - chapter
+  - vanda
+  - the-rivers-trust
 ---
 
 {{< workquote source="Backlit Gallery" logo="logo-square-backlit" >}}
