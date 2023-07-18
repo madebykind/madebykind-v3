@@ -13,7 +13,7 @@ featured: true
 title: Strategy
 date: 2020-04-24T11:48:46+01:00
 weight: 1
-cover_img: images/strategy-notes.jpg
+cover_img: images/strategy-image-kind-site.jpg
 description: Our team uses research and analysis techniques to fully understand what our clients are trying to achieve and why, before delivering high-level strategies and detailed plans of how to get there.
 _build:
   render: never
