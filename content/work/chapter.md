@@ -1,16 +1,4 @@
 ---
-title: Rebranding an international arts centre
-date: 2023-06-28T12:25:28.863Z
-cover_img: images/strategy-notes.jpg
-cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
-intro: "Chapter provides space for creativity in all its many forms. Art. Cinema.
-  Theatre. Community. The stories unfolding in their centre, from their creative
-  spaces to their café. They believe art is what you make it. That’s why they
-  seek to nurture and embolden every artist, every creative, every curious mind."
-key_stat: null
-services:
-  - brand
-  - digital
 topics:
   - Brand strategy
   - Brand identity
@@ -19,19 +7,30 @@ topics:
   - Mobile-first Design
   - CMS integration
   - Ticketing journey
-block_class: bg-teal text-blue
-cta_class: bg-blue text-teal
-featured: true
-external_link: https://chapter.org.uk
-icon: chapter-logo
-description: "How we helped reposition a historic community force"
 related_work:
   - backlit
   - vanda
   - rewilding-britain
+title: Rebranding an international arts centre
+cover_img: images/strategy-notes.jpg
+cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
+block_class: bg-teal text-blue
+cta_class: bg-blue text-teal
+intro: Chapter provides space for creativity in all its many forms. Art. Cinema.
+  Theatre. Community. The stories unfolding in their centre, from their creative
+  spaces to their café. They believe art is what you make it. That’s why they
+  seek to nurture and embolden every artist, every creative, every curious mind.
+featured: true
+date: 2023-06-28T12:25:28.863Z
+external_link: https://chapter.org.uk
+key_stat: null
 weight: 1
+icon: chapter-logo
+description: How we helped reposition a historic community force
+services:
+  - brand
+  - digital
 ---
-
 {{< figure wrapperclass="section--lg" alt="Chapter brand statement set on a green background: ‘A World Of Creativity. A Place To Be You’" src="../images/work-chapter-positioning.jpg" >}}
 
 {{< figure wrapperclass="section--lg" src="../images/work-chapter-header.jpg" alt="Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows." >}}
@@ -43,8 +42,6 @@ From world-class and emerging talent to the next generation, to our audiences an
 Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
 
 {{< figure wrapperclass="section--lg" alt="A split image showing Chapter's brand font (PP Supply Sans Semibold) and a mockup of signage running on stairs and by an elevator." src="../images/work-chapter-typography.png" >}}
-
-{{< figure wrapperclass="section--lg" alt="A mockup of a Chapter business card. The business card is duotone green and is placed on a yellow board" src="../images/work-chapter-business-card.jpg" >}}
 
 We created a brand strategy that developed a bold manifesto, values, and tone of voice. This enabled us to then create a full brand identity design language for use online, offline and in-venue. This included typography, iconography, colourways, digital and wayfinding signage, poster templates, and stationery.
 
