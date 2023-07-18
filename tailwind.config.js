@@ -50,7 +50,7 @@ module.exports = {
       },
       height: {
         '2px': '2px',
-        'iphone': '844px',
+        'iphone': '712px',
         'ipad': '810px',
       },
       lineHeight: {
@@ -58,13 +58,13 @@ module.exports = {
       },
       maxHeight: {
         'illustration': '55rem',
-        'iphone': '844px',
+        'iphone': '834px',
         'ipad': '810px',
       },
       maxWidth: {
         'cta-copy': '45ch',
         'illustration': '55rem',
-        'iphone': '390px',
+        'iphone': '404px',
         'ipad': '1080px',
       },
       minHeight: {
@@ -77,7 +77,7 @@ module.exports = {
         '30': '7.5rem',
       },
       width: {
-        'iphone': '390px',
+        'iphone': '400px',
         'ipad': '1080px',
       },
     },
