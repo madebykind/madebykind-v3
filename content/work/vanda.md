@@ -31,6 +31,7 @@ related_work:
   - garden-organic
   - vanda
   - jackson-crane
+weight: 3
 ---
 
 {{< workquote source="V&A mission statement" logo="logo-square-vam" >}}

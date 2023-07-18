@@ -29,6 +29,7 @@ related_work:
   - backlit
   - vanda
   - rewilding-britain
+weight: 1
 ---
 
 {{< figure alt="Chapter brand statement set on a green background: ‘A World Of Creativity. A Place To Be You’" src="../images/work-chapter-positioning.jpg" >}}

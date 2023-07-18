@@ -41,6 +41,7 @@ related_work:
   - chapter
   - sheffield-hallam-university
   - the-rivers-trust
+weight: 2
 ---
 
 {{< workquote source="Rewilding Britian Manifesto" logo="logo-square-rewilding-britain" >}}

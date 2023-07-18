@@ -21,6 +21,7 @@ related_work:
   - chapter
   - rewilding-britain
   - jackson-crane
+weight: 6
 ---
 
 {{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" >}}

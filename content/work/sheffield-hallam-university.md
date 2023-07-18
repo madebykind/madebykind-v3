@@ -34,6 +34,7 @@ related_work:
   - chapter
   - rewilding-britain
   - the-rivers-trust
+weight: 4
 ---
 
 {{< workquote source="Sheffield Hallam University Mission" logo="logo-square-shu" >}}

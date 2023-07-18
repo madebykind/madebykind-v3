@@ -26,6 +26,7 @@ related_work:
   - rewilding-britain
   - sheffield-hallam-university
   - the-rivers-trust
+weight: 7
 ---
 
 {{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" >}}
