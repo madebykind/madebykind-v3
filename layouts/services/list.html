@@ -6,7 +6,7 @@
       <h2 class="text-xl">How we work</h2>
       <p>We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. By spending more time on discovery and analysis before jumping into production we gain a clear understanding of <em><strong>why</strong></em> a brief is necessary and <em><strong>what</strong></em> we need to deliver in order to achieve a successful outcome</p>
     </div>
-    <div class="grid grid-cols-12 gap-10 lg:gap-20 section">
+    <div class="grid gap-10 lg:grid-cols-12 lg:gap-20 section">
       <div class="hidden col-span-6 md:block">
         {{ partial "image" (dict 
           "alt" "A young woman holding a lead, walking, and looking behind her"
@@ -14,7 +14,7 @@
           "src" "/images/take-the-reins.png" 
         ) }}
       </div>
-      <div class="col-span-12 lg:col-span-6">
+      <div class="col-span-full lg:col-span-6">
         <ul class="mt-5 list-none">
           {{ range where site.RegularPages "Section" "strengths" }}
             <li>
@@ -46,7 +46,7 @@
     {{ range $i,$p := .Pages }}
       {{ if not (modBool $i 2) }}
         <section id="{{ .Title | anchorize }}" class="section">
-          <div class="grid grid-cols-12 gap-10 lg:gap-20">
+          <div class="grid gap-10 lg:grid-cols-12 lg:gap-20">
             {{ if .Params.cover_img }}
               <div class="col-span-full md:col-span-6 md:order-1">
                 {{ partial "image__teaser-lg" . }}
@@ -86,7 +86,7 @@
         </section>
       {{ else }}
         <section id="{{ .Title | anchorize }}" class="section">
-          <div class="grid grid-cols-12 gap-10 lg:gap-20">
+          <div class="grid gap-10 lg:grid-cols-12 lg:gap-20">
             {{ if .Params.cover_img }}
               <div class="col-span-full md:col-span-6">
                 {{ partial "image__teaser-lg" . }}
