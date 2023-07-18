@@ -101,8 +101,8 @@ module.exports = {
       /* Step 3: 63.54px → 101.66px */
       xl: 'clamp(3.97rem, calc(3.07rem + 3.85vw), 6.35rem)',
 
-      /* Step 4: 102.80px → 164.48px */
-      '2xl': 'clamp(6.43rem, calc(4.97rem + 6.22vw), 10.28rem)',
+      /* Step 4: 86.88px → 164.48px */
+      '2xl': 'clamp(5.43rem, calc(4rem + 6.22vw), 10.28rem)',
 
       /* Step 5: 166.34px → 266.14px */
       '3xl': 'clamp(10.40rem, calc(8.04rem + 10.07vw), 16.63rem)',
