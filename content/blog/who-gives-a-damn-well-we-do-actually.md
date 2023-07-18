@@ -17,6 +17,7 @@ featured: true
 key_topic: Our impact
 topics:
   - Environment
+  - Non-profit
 intro: In the time-honoured tradition of businesses rebranding and launching
   their own website and promoting it to high heaven, we’re doing that ourselves this week, and for what reason? Does anyone give a damn? probably not, which is fair, but we do, and here is why…
 related_posts:
