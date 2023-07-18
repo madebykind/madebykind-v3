@@ -1,6 +1,6 @@
 <header{{ with .Params.header_class }} class="{{ . }}"{{ end }}>
 	<div class="container grid items-end content-end gap-10 section--lg">
-    <div class="grid max-w-6xl gap-10">
+    <div class="flex flex-col max-w-6xl gap-10 col-span-full">
 			<h1>{{ .Page.Title|safeHTML }}</h1>
       {{ if .Params.intro }}
         <div class="max-w-5xl prose lede cta_prose">
@@ -9,7 +9,7 @@
       {{ end }}
 		</div>
 		{{ if  .Params.toc }}
-			<div class="col-span-12">
+			<div class="col-span-full">
 				{{ .TableOfContents }}
 			</div>
 		{{ end }}
