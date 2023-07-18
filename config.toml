@@ -12,7 +12,7 @@ enableGitInfo = false
 enableRobotsTXT = false
 summarylength = 10
 paginate = 6
-ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [build]
   publishResources = true
@@ -46,7 +46,7 @@ ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-acces
   date_format = "January 2, 2006"
   description = "Fast, secure, and accessible by default."
   email = "hello@madebykind.com"
-  images = ["site-feature-image.jpg"]
+  images = ["/img/site-feature-image.png"]
   phone = "+441157270990"
   phonePretty = "0115 727 0990"
   since = 2009
