@@ -19,7 +19,7 @@ title: Well-worn paths are never going to lead to a better world.
   {{</ blockquote >}}
 
   {{< blockquote author="Michelle Pavey" image="Avatar-Michelle.png" class="text-lg leading-tight text-teal" role="Co-owner & Strategy Director" avatar="michelle" >}}
-  Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out do.
+  Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out to do.
   {{</ blockquote >}}
 
 </div>
