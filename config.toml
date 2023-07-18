@@ -55,7 +55,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   linkedin = "https://www.linkedin.com/company/madebykind/"
   #twitter = "https://twitter.com/madebykind"
   #facebook = "https://facebook.com/madebykind"
-  instagram = "https://instagram.com/imadebykind"
+  instagram = "https://instagram.com/madebykind"
 
   # Table of contents
   toc = "tocbot"
