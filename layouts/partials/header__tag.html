@@ -1,4 +1,4 @@
-<header class="{{ with .Params.cover_img }} flex flex-col justify-end min-h-screen pt-36 lg:pt-48 pb-12 relative{{ else }} border-ui border-t{{ end }}">
+<header class="{{ with .Params.cover_img }} flex flex-col justify-end min-h-dynamic-screen pt-36 lg:pt-48 pb-12 relative{{ else }} border-ui border-t{{ end }}">
   {{ if isset .Params "cover_img" }}
     {{ partial "image__hero" . }}
   {{ end }}

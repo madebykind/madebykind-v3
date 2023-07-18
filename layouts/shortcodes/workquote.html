@@ -1,6 +1,6 @@
   
 {{ if .Get "logo" }}
-  <figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="grid content-center min-h-screen">
+  <figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="grid content-center min-h-dynamic-screen">
     <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
       <p class="text-lg" itemprop="citation">&ldquo;{{ .Inner }}&rdquo;</p>
     </blockquote>

@@ -63,6 +63,7 @@ module.exports = {
       },
       minHeight: {
         '90vh': '90vh',
+        'dynamic-screen': '100dvh',
       },
       spacing: {
         '7.5': '1.875rem',
