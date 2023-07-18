@@ -52,6 +52,7 @@ module.exports = {
       height: {
         '2px': '2px',
         'iphone': '844px',
+        'ipad': '810px',
       },
       lineHeight: {
         'heading': '0.8',
@@ -73,6 +74,7 @@ module.exports = {
       },
       width: {
         'iphone': '390px',
+        'ipad': '1080px',
       },
     },
     fontSize: {
