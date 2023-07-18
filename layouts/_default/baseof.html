@@ -61,6 +61,9 @@
       "datePublished" .Params.date
       "dateModified" .Params.lastmod
     }}
+
+    <!-- Fathom Analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="BHVNLHCB" defer></script>
     
     <script type="application/ld+json">
       {{ jsonify (dict "indent" "  ") $m | safeJS }}
