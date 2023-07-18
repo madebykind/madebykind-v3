@@ -2,7 +2,7 @@
 {{ if .Get "author" }}
   <figure {{ with .Get "cite" }} cite="https://{{.}}" {{ end }}{{ with .Get "wrapperclass" }} class="{{ . }}"{{ end }}>
     <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
-      <p{{ with .Get "class" }} class="{{ . }}"{{ end }} itemprop="citation">&ldquo;{{ .Inner }}&rdquo;</p>    
+      <p{{ with .Get "class" }} class="{{ . }}"{{ end }} itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>    
     </blockquote>
     <figcaption class="mt-5 font-serif {{ if .Get "avatar" }} inline-flex {{ else }} border-l-4 border-orange -ml-[4px] pl-10{{ end }}">
       {{ if .Get "avatar" }}

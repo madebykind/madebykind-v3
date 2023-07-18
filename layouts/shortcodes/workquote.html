@@ -2,7 +2,7 @@
 {{ if .Get "logo" }}
   <figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="grid content-center min-h-dynamic-screen">
     <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
-      <p class="text-lg" itemprop="citation">&ldquo;{{ .Inner }}&rdquo;</p>
+      <p class="text-lg" itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>
     </blockquote>
     <figcaption class="inline-flex items-center gap-5 mt-10">
       <svg class="w-16 h-8 lg:w-24 lg:h-16 text-indigo" role="presentation">
