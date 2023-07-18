@@ -11,8 +11,8 @@ cta3Title: Raise your expectations
 cta3Copy: Ethical work is excellent work. We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
 cta3: Our work
 cta3Link: /work
-cta4: Our approach
-cta4Link: /services#how-we-work
+cta4: Services
+cta4Link: /services
 date: 2020-04-24T10:48:46.000Z
 description: The wildlife protectors, cultural contributors and green architects. We’re for everyone who’s making a change for good.
 title: For the good folks
