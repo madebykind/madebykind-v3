@@ -1,5 +1,5 @@
 
-<section class="flex snap-start" data-hero-height="100vh">
+<section class="flex snap-start" data-hero-height="100dvh">
   <h2 class="sr-only">Featured Services</h2>
   <ul class="w-full grid gap-0 list-none lg:grid-cols-3">
     {{ range (where (where site.Pages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
