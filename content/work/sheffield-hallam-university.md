@@ -58,7 +58,7 @@ As with all complex organisations, SHU has a varied audience, all of which have 
 
 SHU’s need for a highly-accessible web presence aligned with our team’s value of delivering for everyone.All of the components and templates meet the AAA of WCAG 2.1 and are designed following the principles of progressive enhancement; that means starting with the minimal, accessible design, and then improving the experience along with the capability of the user’s browser, technology or preferences.
 
-{{< figure src="../images/work-shu-homepage.png" alt="Mobile design for the Sheffield Hallam University homepage" >}}
+{{< iphone src="../images/work-shu-homepage.png" alt="Mobile design for the Sheffield Hallam University homepage" >}}
 
 ## Multi-platform usage
 

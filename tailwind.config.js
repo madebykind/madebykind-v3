@@ -39,6 +39,7 @@ module.exports = {
       aspectRatio: {
         '3/4': '3 / 4',
         '4/3': '4 / 3',
+        'iphone': '9 / 19.5',
       },
       borderWidth: {
         3: '3px',
@@ -50,6 +51,8 @@ module.exports = {
       },
       height: {
         '2px': '2px',
+        'iphone': '844px',
+        'ipad': '810px',
       },
       lineHeight: {
         'heading': '0.8',
@@ -69,6 +72,10 @@ module.exports = {
         '7.5': '1.875rem',
         '15': '3.75rem',
         '30': '7.5rem',
+      },
+      width: {
+        'iphone': '390px',
+        'ipad': '1080px',
       },
     },
     fontSize: {
