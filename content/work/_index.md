@@ -9,8 +9,9 @@ title: Ethical work is excellent work
 weight: 2
 intro: We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
 services: 
-  - brand
-  - digital 
+  - services/strategy
+  - services/brand
+  - services/digital
 layout: work
 hidden: true
 cascade:
