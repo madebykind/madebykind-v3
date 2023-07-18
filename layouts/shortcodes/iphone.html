@@ -7,24 +7,27 @@
 {{- $dataSizes := "98vw" -}}
 {{- $actualImg := $src.Resize "640x jpg" -}}
 
-<div class="relative overflow-scroll h-iphone w-iphone frame__iphone aspect-iphone">
-  <picture class="absolute inset-0">
-    <source sizes="{{ $dataSizes }}" srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+<div class="inline-flex px-12 py-20 frame__iphone">
+  <div class="relative overflow-scroll h-iphone w-iphone">
+    <picture class="absolute inset-0 aspect-iphone">
+
+      <source sizes="{{ $dataSizes }}" srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if ge $src.Width . -}}
+                    {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+                  {{- end -}}
                 {{- end -}}
-              {{- end -}}
-            {{- end -}}" type="image/webp">
-    <source sizes="{{ $dataSizes }}" srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+              {{- end -}}" type="image/webp">
+      <source sizes="{{ $dataSizes }}" srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if ge $src.Width . -}}
+                    {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+                  {{- end -}}
                 {{- end -}}
-              {{- end -}}
-            {{- end -}}" type="image/jpeg">
-    <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
-  </picture>
+              {{- end -}}" type="image/jpeg">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+    </picture>
+  </div>
 </div>
