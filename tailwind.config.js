@@ -39,7 +39,6 @@ module.exports = {
       aspectRatio: {
         '3/4': '3 / 4',
         '4/3': '4 / 3',
-        'iphone': '9 / 19.5',
       },
       borderWidth: {
         3: '3px',
@@ -59,10 +58,14 @@ module.exports = {
       },
       maxHeight: {
         'illustration': '55rem',
+        'iphone': '844px',
+        'ipad': '810px',
       },
       maxWidth: {
         'cta-copy': '45ch',
         'illustration': '55rem',
+        'iphone': '390px',
+        'ipad': '1080px',
       },
       minHeight: {
         '90vh': '90vh',
