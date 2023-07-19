@@ -53,7 +53,7 @@ This new brand enabled the team at Chapter to have a strong and inspiring new id
 
 {{< figure wrapperclass="section--lg" alt="A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image." src="../images/work-chapter-billboard.jpg" >}}
 
-{{< figure wrapperclass="section--lg" alt="A single poster mockup for the film Red Rocket. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image." src="../images/work-chapter-poster.jpg" >}}
+{{< figure wrapperclass="section--lg" alt="A single poster mockup for the performance 'Always Already'. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image." src="../images/work-chapter-poster-2.jpg" >}}
 
 Alongside their rebrand, we crafted a new website for them. This website needed to show Chapter as more than just a cinema or cafe. It had to give equal weight to Chapter’s full offering which incorporates much more across art, performance, community, and creative spaces and studios. The emphasis had to be on inviting guests into the venue and clearly helping them to access all of the events, screenings, performances, and services they had available.
 

@@ -20,7 +20,7 @@ related_work:
   - rewilding-britain
   - garden-organic
   - vanda
-weight: 5
+weight: 8
 ---
 
 {{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" >}}

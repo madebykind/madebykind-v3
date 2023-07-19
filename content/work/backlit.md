@@ -25,7 +25,7 @@ related_work:
   - chapter
   - vanda
   - the-rivers-trust
-weight: 8
+weight: 7
 ---
 
 {{< workquote source="Backlit Gallery" logo="logo-square-backlit" >}}

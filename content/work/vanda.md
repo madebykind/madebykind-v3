@@ -1,7 +1,7 @@
 ---
 title: Working with the world’s leading art and design museum
 date: 2023-05-28T11:49:55.811Z
-cover_img: images/mansplaining.jpg
+cover_img: images/work-va-teaser.jpg
 cover_img_alt: A man and woman looking at a laptop screen together
 intro: The V&A is the world’s leading museum of art and design, housing a
   permanent collection of over 2.8 million objects, books and archives that span
@@ -38,7 +38,7 @@ weight: 3
 Our mission is to be recognised as the world’s leading museum of art, design and performance, and to enrich people’s lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ workquote >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-va-header.jpg" alt="A domed ceiling (or cupola) shot from below with the light coming through a circular hole in the top. The V&A logo is overlayed in white" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-va-header-2.jpg" alt="A domed ceiling (or cupola) shot from below with the light coming through a circular hole in the top. The V&A logo is overlayed in white" >}}
 
 The primary V&A website is delivered and maintained in-house, but their digital team does not have the resource to deliver websites for programmes and specific projects. Kind have been appointed to deliver a number of digital design and development projects that fall outside of the remit of the V&A’s digital team.
 

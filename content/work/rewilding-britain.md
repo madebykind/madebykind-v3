@@ -21,7 +21,7 @@ intro: Rewilding Britain are the first and only country-wide organisation in
 featured: true
 title: A platform to inspire rewilding projects across the country
 date: 2023-06-28T11:07:38.606Z
-cover_img: images/work-rewilding-britain-phone-4.jpg
+cover_img: images/work-rewilding-britain-teaser.jpg
 key_stat:
   - 149-percent
 description: Big thinking for a cause we really care about
@@ -48,7 +48,7 @@ weight: 2
 Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
 {{</ workquote >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-header.jpg" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
+{{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-header-2.jpg" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
 
 One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
 
