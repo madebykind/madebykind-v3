@@ -37,14 +37,6 @@
 		<script type="module" src="/assets/app.js"></script>
 	{{ end }}
 
-	{{ if isset .Site.Params "webmentions" }}
-	  <!-- Webmention awesomes! -->
-		{{ if .Site.Params.webmentions.enable }}
-			<link rel="webmention" href="https://webmention.io/{{ .Site.Params.webmentions.username }}/webmention">
-			<link rel="pingback" href="https://webmention.io/{{ .Site.Params.webmentions.username }}/xmlrpc">
-		{{ end }}
-	{{ end }}
-
 	<!-- Hugo internal meta templates -->
 	{{ template "_internal/opengraph.html" . }}
 	{{ template "_internal/schema.html" . }}
