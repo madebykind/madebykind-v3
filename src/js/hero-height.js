@@ -27,9 +27,9 @@ function HeroHeight(el) {
     setCalcString(el, getCalcString(el, calcString));
   });
 
-  window.addEventListener("resize", function() {
-    setCalcString(el, getCalcString(el, calcString));
-  });
+  // window.addEventListener("resize", function() {
+  //   setCalcString(el, getCalcString(el, calcString));
+  // });
 
 }
 
