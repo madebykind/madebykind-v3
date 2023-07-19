@@ -4,9 +4,7 @@
 {{ $img := resources.GetMatch (printf "**%s" ($src)) }}
 
 {{ with $img }}
-  {{- $5xl := $img.Fill "2560x1920 jpg" -}}
-  {{- $4xl := $5xl.Resize "1920x" -}}
-  {{- $3xl := $4xl.Resize "1440x" -}}
+  {{- $3xl := $img.Fill "1440x810 jpg" -}}
   {{- $2xl := $3xl.Resize "1280x" -}}
   {{- $xl := $img.Resize "960x" -}}
   {{- $lg := $xl.Resize "640x" -}}
@@ -18,7 +16,7 @@
     class="absolute lg:static object-cover w-full h-full lg:transition-all lg:duration-300 lg:ease-in-out lg:group-hover:h-[110%] lg:group-focus:h-[110%]"
     height="{{ .Height }}"
     loading=eager
-    sizes="100vw"
+    sizes="(min-width: 64em) 34vw, 100vw"
     src="{{ $sm.RelPermalink }}"
     srcset="
     {{ $sm.RelPermalink }} 320w,
@@ -26,9 +24,7 @@
     {{ $lg.RelPermalink }} 640w,
     {{ $xl.RelPermalink }} 960w,
     {{ $2xl.RelPermalink }} 1280w,
-    {{ $3xl.RelPermalink }} 1440w,
-    {{ $4xl.RelPermalink }} 1920w,
-    {{ $5xl.RelPermalink }} 2560w"
+    {{ $3xl.RelPermalink }} 1440w"
     width="{{ .Width }}"
   >
 {{ end }}
