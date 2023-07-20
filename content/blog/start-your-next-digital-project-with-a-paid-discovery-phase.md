@@ -20,7 +20,7 @@ topics:
 intro: Anyone who has taken on a digital project before knows that, even with
   the best intentions, things can often go awry. Initial excitement slowly fades
   during the project and the final result can be underwhelming. Wires got
-  crossed somewhere and the final delivery is not quote what you imagined.
+  crossed somewhere and the final delivery is not quite what you imagined.
 related_posts:
   - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
   - how-to-get-your-colleagues-on-board-with-your-website-project
