@@ -1,5 +1,6 @@
 ---
-title: Bringing focus to a sustainable architecture and interior design practice
+heading: Bringing focus to a sustainable architecture and interior design practice
+title: Jackson-Crane - Strategy Case Study - Sustainable Architecture 
 draft: false
 date: 2023-06-28T13:51:18.140Z
 cover_img: images/work-jackson-crane-biophillic-house.jpg

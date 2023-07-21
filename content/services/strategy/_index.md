@@ -11,6 +11,7 @@ related_projects:
   - jackson-crane
 featured: true
 title: Strategy
+heading: Strategy
 date: 2020-04-24T11:48:46+01:00
 weight: 1
 cover_img: images/strategy-image-kind-site.jpg

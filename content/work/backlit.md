@@ -1,5 +1,6 @@
 ---
-title: Supporting an Internationally-Renowned Art Gallery
+heading: Supporting an Internationally-Renowned Art Gallery
+title: Backlit - Digital Case Study - Arts & Culture  
 draft: false
 date: 2023-06-28T10:52:34.342Z
 cover_img: images/work-backlit-kind-team-2.jpg

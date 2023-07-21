@@ -8,6 +8,7 @@ summary: We work from the ground up.
 hidden: false
 featured: true
 title: Brand
+heading: Brand
 date: 2020-04-30T17:28:36.948Z
 weight: 2
 cover_img: images/work-chapter-poster-bus-stop-2.jpg

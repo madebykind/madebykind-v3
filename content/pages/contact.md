@@ -2,6 +2,7 @@
 date: 2020-04-24T11:48:46+01:00
 description: Get in touch with Kind
 title: Contact us
+heading: Contact us
 url: /contact
 menu: main
 linktitle: Contact

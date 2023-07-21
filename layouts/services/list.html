@@ -45,7 +45,7 @@
     </div>
     {{ range $i,$p := .Pages }}
       {{ if not (modBool $i 2) }}
-        <section id="{{ .Title | anchorize }}" class="section">
+        <section id="{{ .Params.Heading | anchorize }}" class="section">
           <div class="grid gap-10 lg:grid-cols-12 lg:gap-20">
             {{ if .Params.cover_img }}
               <div class="col-span-full md:col-span-6 md:order-1">
@@ -54,14 +54,14 @@
             {{ end }}
             <div class="col-span-full md:col-span-6">
               <div class="prose">
-                <h2>{{ .Title }}</h2>
+                <h2>{{ .Params.Heading }}</h2>
                 <p>{{ .Description }}</p>
                 <div class="section">
                   <h3>Services</h3>
                   <ul class="font-sans">
                     {{ range .Pages }}
                       <li>
-                        {{ .Title }}
+                        {{ .Params.Heading }}
                       </li>
                     {{ end }}
                   </ul>
@@ -71,7 +71,7 @@
           </div>
           {{ if .Params.related_projects }}
             <section class="section">
-              <h3 class="h--condensed">Example {{ .Title }} projects</h3>
+              <h3 class="h--condensed">Example {{ .Params.Heading }} projects</h3>
               <ul>
                 {{ range .Params.related_projects }}
                   {{ with site.GetPage . }}
@@ -85,7 +85,7 @@
           {{ end }}
         </section>
       {{ else }}
-        <section id="{{ .Title | anchorize }}" class="section">
+        <section id="{{ .Params.Heading | anchorize }}" class="section">
           <div class="grid gap-10 lg:grid-cols-12 lg:gap-20">
             {{ if .Params.cover_img }}
               <div class="col-span-full md:col-span-6">
@@ -94,14 +94,14 @@
             {{ end }}
             <div class="col-span-full md:col-span-6">
               <div class="prose">
-                <h2>{{ .Title }}</h2>
+                <h2>{{ .Params.Heading }}</h2>
                 <p>{{ .Description }}</p>
                 <div class="section">
                   <h3>Services</h3>
                   <ul class="font-sans">
                     {{ range .Pages }}
                       <li>
-                        {{ .Title }}
+                        {{ .Params.Heading }}
                       </li>
                     {{ end }}
                   </ul>
@@ -111,7 +111,7 @@
           </div>
           {{ if .Params.related_projects }}
             <section class="section">
-              <h3 class="h--condensed">Example {{ .Title }} projects</h3>
+              <h3 class="h--condensed">Example {{ .Params.Heading }} projects</h3>
               <ul>
                 {{ range .Params.related_projects }}
                   {{ with site.GetPage . }}

@@ -19,7 +19,8 @@ intro: Rewilding Britain are the first and only country-wide organisation in
   and demonstrating the power of working with nature to tackle the climate
   emergency and the extinction crisis.
 featured: true
-title: A platform to inspire rewilding projects across the country
+heading: A platform to inspire rewilding projects across the country
+title: Rewilding Britain - Strategy and Digital Case Study - Environment
 date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-teaser.jpg
 key_stat:

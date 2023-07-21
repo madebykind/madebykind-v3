@@ -13,4 +13,5 @@ related_pages:
 related_posts:
 related_work:
 title: Design systems
+heading: Design systems
 ---

@@ -2,6 +2,7 @@
 date: 2020-04-24T11:48:46+01:00
 description: How we gather and process data
 title: Data Protection Policy
+heading: Data Protection Policy
 url: /about/legal/data-protection-policy
 ---
 

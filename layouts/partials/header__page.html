@@ -1,7 +1,7 @@
 <header{{ with .Params.header_class }} class="{{ . }}"{{ end }}>
 	<div class="container grid items-end content-end gap-10 section--lg">
     <div class="grid max-w-6xl gap-10">
-			<h1>{{ .Page.Title|safeHTML }}</h1>
+			<h1>{{ .Params.Heading }}</h1>
       {{ if .Params.intro }}
         <div class="max-w-5xl prose lede cta_prose">
           {{ .Params.intro | markdownify }}

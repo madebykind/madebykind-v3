@@ -1,6 +1,6 @@
 ---
-title: Creating a sustainable design system to improve the efficiency of digital
-  projects
+heading: Creating a sustainable design system to improve the efficiency of digital projects
+title: Sheffield Hallam University - Digital Case Study - Education
 draft: false
 date: 2023-06-28T13:59:11.952Z
 cover_img: images/work-shu-runner.jpg

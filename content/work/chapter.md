@@ -11,7 +11,8 @@ related_work:
   - backlit
   - vanda
   - rewilding-britain
-title: Rebranding an international arts centre
+heading: Rebranding an international arts centre
+title: Chapter - Brand and Digital Case Study - Arts & Culture  
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 block_class: bg-teal text-blue

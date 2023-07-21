@@ -2,7 +2,7 @@
   <div class="container flex flex-col items-center gap-10 md:grid md:grid-cols-12">
     <div class="max-w-5xl col-span-12 gap-10 md:col-span-8">
       <div id="content" class="grid col-span-1 gap-15">
-        <h1>{{ .Page.Title|safeHTML }}</h1>
+        <h1>{{ .Params.Heading|safeHTML }}</h1>
         {{ with .Params.Intro }}
           <div class="max-w-5xl prose cta_prose" data-class-on-view="animate-emphasise">
             {{ . | markdownify }}

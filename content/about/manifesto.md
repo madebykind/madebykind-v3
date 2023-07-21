@@ -9,7 +9,8 @@ intro: >
   That’s why we go our own way. We’re a small but powerful team of carefully selected senior professionals. People whose work packs a real punch. **Strategy, brand, digital** – we bring it all together and drive change in ways that really matter. 
 
   Our work delivers faster, bigger, more effective results for our clients’ causes – in the charity sector, sustainability, research, the environment, and the arts.
-title: Well-worn paths are never going to lead to a better world.
+title: Our manifesto
+heading: Well-worn paths are never going to lead to a better world.
 ---
 
 <div class="grid gap-10 md:grid-cols-2 lg:gap-20 section--lg">

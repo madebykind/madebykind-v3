@@ -13,4 +13,5 @@ related_pages:
 related_posts:
 related_work:
 title: Mobile-first design
+heading: Mobile-first design
 ---

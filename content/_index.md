@@ -14,13 +14,14 @@ cta3Link: /work
 cta4: Services
 cta4Link: /services
 date: 2020-04-24T10:48:46.000Z
-description: The wildlife protectors, cultural contributors and green architects. We’re for everyone who’s making a change for good.
-title: For the good folks
+description: Meta desc
+title: Strategy, Brand, Digital
 services:
   - brand
   - digital
   - strategy
 hidden: false
+heading: For the good folks
 intro: >
 
   The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for&nbsp;good.

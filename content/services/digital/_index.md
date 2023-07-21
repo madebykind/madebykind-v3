@@ -19,6 +19,7 @@ cascade:
     list: true
     publishResources: true
 title: Digital
+heading: Digital
 weight: 3
 cover_img: images/work-rivers-trust-phone.jpg
 description: Our team has decades of experience delivering digital strategies,
