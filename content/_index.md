@@ -14,7 +14,7 @@ cta3Link: /work
 cta4: Services
 cta4Link: /services
 date: 2020-04-24T10:48:46.000Z
-description: Meta desc
+description: We’re a small but powerful team of carefully selected senior professionals. Strategy, brand, digital – we bring it all together and drive change in ways that really matter.
 title: Strategy, Brand, Digital
 services:
   - brand
