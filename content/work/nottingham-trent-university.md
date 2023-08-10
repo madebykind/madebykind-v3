@@ -59,6 +59,9 @@ We continued to develop the user needs research by analysing the data we’d col
 
 NTU’s previous web project had been mostly conducted behind closed doors with the wider University having visibility into the project prior to launch. This led to frustration among the broader group of stakeholders, which the University were keen to avoid. With this in mind, we set out to run the project in an open and consultative manner, with extensive stakeholder involvement and regular progress updates through an internal project blog.
 
+{{< blockquote author="Adam Poole" role="Operations Manager and Product Owner, NTU" wrapperclass="py-48 lg:py-96">}}
+From initiation right through to production the guys were always open, friendly and helpful. They coached us to make the right decisions but accepted our constraints, quickly finding an alternative solution. Kind revitalised our stakeholders, the website and our team.
+{{</ blockquote >}}
 
 
 ## Feature recommendations and delivery
