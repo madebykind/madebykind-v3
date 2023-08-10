@@ -9,7 +9,7 @@ cover_img_alt: High-level view of three people around a wooden table, looking at
 intro: Backlit is a home to over 120 artists, collectives, and associate
   members. The free programme of exhibitions, events and workshops supports an
   essential framework for the public, local people, communities, students and
-  creat­ives at all stages of life to develop.
+  creatives at all stages of life to develop.
 key_stat: null
 description: Find out how Kind have helped Backlit Gallery
 summary:
