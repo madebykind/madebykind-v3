@@ -5,11 +5,19 @@
 			<div class="first:mt-10">
 {{/* 
         <section class="grid gap-10 md:grid-cols-2 section--lg">
+          <div class="relative">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "md:order-1"
-            "src" "/images/mat-and-michelle.jpg" 
+            "src" "/images/stat-image-bcorp.png" 
           ) }}
+            <div class="absolute z-10 text-buff bottom-10 left-10">
+              <article>
+                <h4 class="h1 text-3xl">&pound;23k</h4>
+                <p class="mt-5">Donated value since 2014</p>
+              </article>
+            </div>
+          </div>
           <div>
             <h2 class="mb-5 text-xl">We’re climate positive</h2>
             <p>Being certified as Climate Positive means an organisation has gone beyond achieving “Net Zero” and instead creates an environmental benefit by removing additional greenhouse gases from the atmosphere, not just those that it emits.</p>
@@ -22,7 +30,7 @@
                   </svg>
                 </div>
                 <p>Read more
-                <span class="sr-only">about We're climate positive</span>
+                <span class="sr-only">about how we're climate positive</span>
                 </p>
               </div>
             </button>
@@ -33,12 +41,18 @@
         </section> 
 */}}
         <section class="grid gap-10 lg:gap-20 md:grid-cols-2 section--lg">
-          <div class="md:order-1">
+          <div class="md:order-1 relative">
             {{ partial "image" (dict 
-              "alt" "Stat overlaying image of a plant growing in a pair of hands. The stat reads: 93.6 B Impact Assessment Score"
+              "alt" "A plant growing in a pair of hands"
               "class" ""
               "src" "/images/stat-image-b-corp.png" 
             ) }}
+            <div class="absolute z-10 text-buff bottom-10 right-10">
+              <article>
+                <h4 class="h1 text-3xl">93.6</h4>
+                <p class="mt-5">B Impact Assessment Score</p>
+              </article>
+            </div>
           </div>
           <div>
             <div class="prose lede">
@@ -57,7 +71,7 @@
                 </p>
               </div>
             </button>
-            <div id="bcorp" class="mt-10 prose lede">
+            <div id="bcorp" class="mt-10 prose">
             <p>B Corporation certification legally requires us to:</p>
             <ul>
               <li>create a material positive impact on society and the environment through our business operation</li>
@@ -72,11 +86,19 @@
           </div>
         </section>
         <section class="grid gap-10 lg:gap-20 md:grid-cols-2 section--lg">
-          {{ partial "image" (dict 
-            "alt" "Stat overlaying image of a mostly submerged beaver. The stat reads: £23,000 donated value since 2014"
-            "class" "md:order-1"
-            "src" "/images/stat-image-donations.png" 
-          ) }}
+          <div class="relative">
+            {{ partial "image" (dict 
+              "alt" "A mostly submerged beaver."
+              "class" "md:order-1"
+              "src" "/images/stat-image-donations.png" 
+            ) }}
+            <div class="absolute z-10 text-buff bottom-10 left-10">
+              <article>
+                <h4 class="h1 text-3xl">&pound;23k</h4>
+                <p class="mt-5">Donated value since 2014</p>
+              </article>
+            </div>
+          </div>
           <div>
             <div class="prose lede">
               <h2 class="mb-5 text-xl">Our charity partnerships</h2>
@@ -96,7 +118,7 @@
               </div>
             </button>
             <div id="charity-partnerships" class="mt-10">
-              <div class="prose lede">
+              <div class="prose">
                 <p>We've also been members of the
                   <a href="https://sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
                   since 2018, supporting their work to end sewage and plastic pollution in our oceans.</p>
