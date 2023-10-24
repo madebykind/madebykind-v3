@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article>
   {{ partial "header__landing.html" . }}
-  <section class="container section" id="how-we-work">
+  <section class="container section">
     <div class="prose">
       <h2 id="how-we-work" class="text-xl">How we work</h2>
       <p>We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. By spending more time on discovery and analysis before jumping into production we gain a clear understanding of <em><strong>why</strong></em> a brief is necessary and <em><strong>what</strong></em> we need to deliver in order to achieve a successful outcome</p>
@@ -22,7 +22,7 @@
                 <button class="flex items-start justify-between w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body">
                   <h3 class="text-left">{{ .Title }}</h3>
                   <div class="absolute sr-only right-24">{{ .Title }}: Read more about this part of our process</div>
-                  <div class="flex items-center justify-center flex-shrink-0 bg-white rounded-full w-10 h-10 accordion-toggle-icon">
+                  <div class="flex items-center justify-center flex-shrink-0 w-10 h-10 bg-white rounded-full accordion-toggle-icon">
                     <svg class="w-6 h-6" role="presentation">
                       <use xlink:href="#icon-arrow-down"/>
                     </svg>
