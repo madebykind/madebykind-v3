@@ -142,14 +142,14 @@
                     <p class="my-5 mt-2 h--condensed text-md">{{ .role }}</p>
                   </div>
                   <nav class="font-sans text-base font-bold" arial-label="Social links">
-                    <ul class="flex gap-6" role="list">
+                    <ul class="flex flex-wrap overflow-hidden gap-x-5" role="list">
                       {{ with .email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
-                      {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-4 before:absolute"><a href="https://linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
-                      {{ with .social.instagram }}<li class="relative before:content-['/'] before:-left-4 before:absolute"><a href="https://instagram.com/{{ . }}">Instagram</a></li>{{ end }}
-                      {{ with .social.facebook }}<li class="relative before:content-['/'] before:-left-4 before:absolute"><a href="https://facebook.com/{{ . }}">Facebook</a></li>{{ end }}
-                      {{ with .social.github }}<li class="relative before:content-['/'] before:-left-4 before:absolute"><a href="https://github.com/{{ . }}">Github</a></li>{{ end }}
-                      {{ with .social.twitter }}<li class="relative before:content-['/'] before:-left-4 before:absolute"><a href="https://twitter.com/{{ . }}">Twitter</a></li>{{ end }}
-                      {{ with .social.threads }}<li class="relative before:content-['/'] before:-left-4 before:absolute"><a href="https://threads.net/{{ . }}">Threads</a></li>{{ end }}
+                      {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
+                      {{ with .social.instagram }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://instagram.com/{{ . }}">Instagram</a></li>{{ end }}
+                      {{ with .social.facebook }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://facebook.com/{{ . }}">Facebook</a></li>{{ end }}
+                      {{ with .social.github }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://github.com/{{ . }}">Github</a></li>{{ end }}
+                      {{ with .social.twitter }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://twitter.com/{{ . }}">Twitter</a></li>{{ end }}
+                      {{ with .social.threads }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://threads.net/{{ . }}">Threads</a></li>{{ end }}
                     </ul>
                   </nav>  
                   {{ with .related_posts }}
