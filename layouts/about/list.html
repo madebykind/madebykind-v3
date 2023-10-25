@@ -100,13 +100,13 @@
                   " 
                   width="{{ $author_img.Width }}"
                 >
-                <div class="flex items-center justify-between gap-5 mt-5">
-                  <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
+                <span class="flex items-center justify-between gap-5 mt-5">
+                  <span class="block font-serif font-bold normal-case h3" itemprop="author">{{ .name }}</span>
                   <svg class="self-end w-12 h-6 flex-no-shrink" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
-                </div>
-                <p class="my-5 mt-2 h--condensed">{{ .role }}</p>
+                </span>
+                <span class="block my-5 mt-2 h--condensed">{{ .role }}</span>
               </button>
               <div class="z-20 flex flex-col w-screen min-h-dynamic-screen team-member bg-indigo text-buff lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
                 <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="team-{{ .name | anchorize }}">
