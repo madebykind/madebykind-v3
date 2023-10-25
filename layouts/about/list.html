@@ -41,7 +41,7 @@
         <div class="xl:col-span-1 col-span-full bleed xl:ml-0">
           {{ range . }}
             {{ with site.GetPage . }}
-              <a aria-labelledby="{{ .Title | anchorize }}" class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
+              <a class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
                 <div class="relative xl:flex-grow">
                   {{ if isset .Params "impact_img" }}
                     {{ partial "image__impact-project" . }}
