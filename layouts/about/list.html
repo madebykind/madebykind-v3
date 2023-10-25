@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
-<section>
+<article>
   {{ partial "header__about.html" . }}
   <section class="flex flex-col justify-center min-h-dynamic-screen section--lg bg-indigo text-buff">
     <div class="container grid content-center gap-10 xl:grid-cols-3">
@@ -107,20 +107,15 @@
                     <use xlink:href="#icon-arrow"/>
                   </svg>
                 </div>
-
                 <p class="my-5 mt-2 h--condensed">{{ .role }}</p>
               </button>
-
               <div class="z-20 flex flex-col w-screen min-h-dynamic-screen team-member bg-indigo text-buff lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
-
                 <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="#team-{{ .name | anchorize }}">
                   <svg class="self-end w-16 h-8 rotate-180 lg:w-24 lg:h-12 flex-no-shrink text-yellow" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
                 </button>
-
                 <div class="w-full lg:w-5/12 grow-0 h-[50vh] lg:h-auto">
-
                   <img  
                     alt="{{ .name }}" 
                     height="{{ $author_img.Height }}"
@@ -184,14 +179,12 @@
                   {{ end }}
 
                 </div>
-
               </div>
-  
             </article>
           </li>
         {{ end }}
       </ul>
     </div>
   </section>
-</section>
+</article>
 {{ end }}
