@@ -109,7 +109,7 @@
                 <span class="block my-5 mt-2 h--condensed">{{ .role }}</span>
               </button>
               <div class="z-20 flex flex-col w-screen min-h-dynamic-screen team-member bg-indigo text-buff lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
-                <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="team-{{ .name | anchorize }}">
+                <button aria-label="Learn more about {{ .name }}" type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="team-{{ .name | anchorize }}">
                   <svg class="self-end w-16 h-8 rotate-180 lg:w-24 lg:h-12 flex-no-shrink text-yellow" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
