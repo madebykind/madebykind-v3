@@ -19,15 +19,16 @@
           {{ range where site.RegularPages "Section" "strengths" }}
             <li>
               <article class="py-10 font-sans prose border-b">
-                <button class="flex items-start justify-between w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body">
-                  <h3 class="text-left">{{ .Title }}</h3>
-                  <div class="absolute sr-only right-24">{{ .Title }}: Read more about this part of our process</div>
-                  <div class="flex items-center justify-center flex-shrink-0 w-10 h-10 bg-white rounded-full accordion-toggle-icon">
-                    <svg class="w-6 h-6" role="presentation">
-                      <use xlink:href="#icon-arrow-down"/>
-                    </svg>
-                  </div>
-                </button>
+                <div class="relative flex">
+                  <h3 class="text-left mr-15">{{ .Title }}</h3>
+                  <button class="absolute flex items-center justify-end w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body" title="Read more about this part of our process">
+                    <span class="flex items-center justify-center flex-shrink-0 w-10 h-10 bg-white rounded-full accordion-toggle-icon">
+                      <svg class="w-6 h-6" role="presentation">
+                        <use xlink:href="#icon-arrow-down"/>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
                 <div id="{{ .Title | anchorize }}_body" class="mt-10 prose">
                   {{ .Content }}
                 </div>

@@ -1,12 +1,11 @@
-<article class="py-10 border-b">
-	<button class="flex items-center justify-between w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body">
-		<h4 class="font-normal text-left h3">{{ .Title | markdownify }}</h4>
-		<div class="absolute sr-only right-24">{{ .Title }}: Read more about this project</div>
-		<div class="flex items-center justify-center flex-shrink-0 bg-white rounded-full w-10 h-10 accordion-toggle-icon">
-			<svg class="w-6 h-6" role="presentation">
-				<use xlink:href="#icon-arrow-down"/>
+<article class="relative flex flex-col py-10 border-b">
+	<h4 class="font-normal text-left h3 mr-15">{{ .Title | markdownify }}</h4>
+  <button class="absolute flex items-center justify-end w-full gap-5 align-end accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body" title="Read more about this project">
+	  <span class="flex items-center justify-center flex-shrink-0 w-10 h-10 bg-white rounded-full accordion-toggle-icon">
+		  <svg class="w-6 h-6" role="presentation">	
+  		  <use xlink:href="#icon-arrow-down"/>
 			</svg>
-		</div>
+		</span>
 	</button>
 	<div id="{{ .Title | anchorize }}_body" class="mt-10">
     <div class="prose">

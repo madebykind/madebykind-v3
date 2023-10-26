@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
-<section>
+<article>
   {{ partial "header__about.html" . }}
   <section class="flex flex-col justify-center min-h-dynamic-screen section--lg bg-indigo text-buff">
     <div class="container grid content-center gap-10 xl:grid-cols-3">
@@ -41,7 +41,7 @@
         <div class="xl:col-span-1 col-span-full bleed xl:ml-0">
           {{ range . }}
             {{ with site.GetPage . }}
-              <a aria-labelledby="{{ .Title | anchorize }}" class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
+              <a class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
                 <div class="relative xl:flex-grow">
                   {{ if isset .Params "impact_img" }}
                     {{ partial "image__impact-project" . }}
@@ -88,9 +88,8 @@
                   height="{{ $author_img.Height }}"
                   loading=lazy
                   sizes="
-                    (min-width: 90em) 920w,
-                    (min-width: 62em) 640w,
-                    (min-width: 48em) 480w,
+                    (min-width: 64em) 30vw,
+                    (min-width: 48em) 48vw,
                     100vw" 
                   src="{{ $sm.RelPermalink }}" 
                   srcset="
@@ -100,35 +99,28 @@
                     {{ $xl.RelPermalink }} 920w
                   " 
                   width="{{ $author_img.Width }}"
-                />
-                <div class="flex items-center justify-between gap-5 mt-5">
-                  <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
+                >
+                <span class="flex items-center justify-between gap-5 mt-5">
+                  <span class="block font-serif font-bold normal-case h3" itemprop="author">{{ .name }}</span>
                   <svg class="self-end w-12 h-6 flex-no-shrink" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
-                </div>
-
-                <p class="my-5 mt-2 h--condensed">{{ .role }}</p>
+                </span>
+                <span class="block my-5 mt-2 h--condensed">{{ .role }}</span>
               </button>
-
               <div class="z-20 flex flex-col w-screen min-h-dynamic-screen team-member bg-indigo text-buff lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
-
-                <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="#team-{{ .name | anchorize }}">
+                <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="team-{{ .name | anchorize }}">
                   <svg class="self-end w-16 h-8 rotate-180 lg:w-24 lg:h-12 flex-no-shrink text-yellow" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
                 </button>
-
                 <div class="w-full lg:w-5/12 grow-0 h-[50vh] lg:h-auto">
-
                   <img  
                     alt="{{ .name }}" 
                     height="{{ $author_img.Height }}"
                     loading=lazy
                     sizes="
-                      (min-width: 90em) 920w,
-                      (min-width: 62em) 640w,
-                      (min-width: 48em) 480w,
+                      (min-width: 64em) 42vw,
                       100vw" 
                     src="{{ $sm.RelPermalink }}" 
                     srcset="
@@ -139,59 +131,56 @@
                     " 
                     width="{{ $author_img.Width }}"
                     class="object-cover w-full h-full"
-                  />
+                  >
                 </div>
-
                 <div class="w-full lg:w-7/12 grow-0 grid grid-cols-1 gap-10 p-5 h-[50vh] lg:h-auto lg:max-h-screen overflow-auto">
                   <div>
                     <h3 class="font-serif text-lg font-bold normal-case">{{ .name }}</h3>
                     <p class="my-5 mt-2 h--condensed text-md">{{ .role }}</p>
                   </div>
-                  <nav class="font-sans text-base font-bold">
-                    {{ with .email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
-                    {{ with .social.linkedin }} / <a href="https://linkedin.com/in/{{ . }}">Linkedin</a>{{ end }}
-                    {{ with .social.instagram }} / <a href="https://instagram.com/{{ . }}">Instagram</a>{{ end }}
-                    {{ with .social.facebook }} / <a href="https://facebook.com/{{ . }}">Facebook</a>{{ end }}
-                    {{ with .social.github }} / <a href="https://github.com/{{ . }}">Github</a>{{ end }}
-                    {{ with .social.twitter }} / <a href="https://twitter.com/{{ . }}">Twitter</a>{{ end }}
-                    {{ with .social.threads }} / <a href="https://threads.net/{{ . }}">Threads</a>{{ end }}
-                  </nav>
-                  
-                  {{ with .related_posts }}
-                  <div class="xl:pt-12">
-                    <h4 class="mb-2">Insights</h4>
-                    <ul class="list-none">
-                    {{ range . }}
-                      {{ with site.GetPage . }}
-                      <li class="mb-2 font-sans">
-                        <a aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">{{ .Title }}</a>
-                      </li>
-                      {{ end }}
-                    {{ end }}
+                  <nav class="font-sans text-base font-bold" aria-label="Social links">
+                    <ul class="flex flex-wrap overflow-hidden gap-x-5" role="list">
+                      {{ with .email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+                      {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
+                      {{ with .social.instagram }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://instagram.com/{{ . }}">Instagram</a></li>{{ end }}
+                      {{ with .social.facebook }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://facebook.com/{{ . }}">Facebook</a></li>{{ end }}
+                      {{ with .social.github }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://github.com/{{ . }}">Github</a></li>{{ end }}
+                      {{ with .social.twitter }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://twitter.com/{{ . }}">Twitter</a></li>{{ end }}
+                      {{ with .social.threads }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://threads.net/{{ . }}">Threads</a></li>{{ end }}
                     </ul>
-                  </div>
+                  </nav>  
+                  {{ with .related_posts }}
+                    <div class="xl:pt-12">
+                      <h4 class="mb-2">Insights</h4>
+                      <ul class="list-none">
+                      {{ range . }}
+                        {{ with site.GetPage . }}
+                        <li class="mb-2 font-sans">
+                          <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </li>
+                        {{ end }}
+                      {{ end }}
+                      </ul>
+                    </div>
                   {{ end }}
                   
                   {{ with .cares }}
-                  <div class="xl:pt-12">
-                    <h4 class="mb-2">What I care about</h4>
-                    <p class="font-sans">
-                    {{ range . }}
-                      {{ . }}<span class="last:hidden">, </span>
-                    {{ end }}
-                    </p>
-                  </div>
+                    <div class="xl:pt-12">
+                      <h4 class="mb-2">What I care about</h4>
+                      <p class="font-sans">
+                      {{ range . }}
+                        {{ . }}<span class="last:hidden">, </span>
+                      {{ end }}
+                      </p>
+                    </div>
                   {{ end }}
-
                 </div>
-
               </div>
-  
             </article>
           </li>
         {{ end }}
       </ul>
     </div>
   </section>
-</section>
+</article>
 {{ end }}
