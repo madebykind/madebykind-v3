@@ -1,5 +1,5 @@
 {{ define "main" }}
-	<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+  <article id="content" class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
 		{{ partial "header__impact" . }}
 		<div class="container">
 			<div class="first:mt-10">
@@ -13,7 +13,7 @@
           ) }}
             <div class="absolute z-10 text-buff bottom-10 left-10">
               <article>
-                <h4 class="h1 text-3xl">&pound;23k</h4>
+                <h3 class="text-3xl h1">&pound;23k</h3>
                 <p class="mt-5">Donated value since 2014</p>
               </article>
             </div>
@@ -24,13 +24,13 @@
             <p>Kind is a climate positive business and have taken the step to balance twice our greenhouse gas emissions since 2014 (when we were founded).</p>
             <button class="mt-5" data-toggle data-target="#climate-positive">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-10 h-10 accordion-toggle-icon">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
                   <svg class="w-6 h-6" role="presentation">
                     <use xlink:href="#icon-arrow-down"/>
                   </svg>
                 </div>
                 <p>Read more
-                <span class="sr-only">about how we're climate positive</span>
+                <span class="sr-only">about how we’re climate positive</span>
                 </p>
               </div>
             </button>
@@ -40,8 +40,8 @@
           </div>
         </section> 
 */}}
-        <section class="grid gap-10 lg:gap-20 md:grid-cols-2 section--lg items-start">
-          <div class="md:order-1 relative">
+        <section class="grid items-start gap-10 lg:gap-20 md:grid-cols-2 section--lg">
+          <div class="relative md:order-1">
             {{ partial "image" (dict 
               "alt" "A plant growing in a pair of hands"
               "class" ""
@@ -49,7 +49,7 @@
             ) }}
             <div class="absolute z-10 text-buff bottom-10 right-10">
               <article>
-                <h4 class="h1 text-3xl">93.6</h4>
+                <h3 class="text-3xl h1">93.6</h3>
                 <p class="mt-5">B Impact Assessment Score</p>
               </article>
             </div>
@@ -61,7 +61,7 @@
             </div>  
             <button class="mt-5 accordion-toggle" data-toggle data-target="#bcorp">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-10 h-10 accordion-toggle-icon">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
                   <svg class="w-6 h-6" role="presentation">
                     <use xlink:href="#icon-arrow-down"/>
                   </svg>
@@ -85,7 +85,7 @@
             </div>
           </div>
         </section>
-        <section class="grid gap-10 lg:gap-20 md:grid-cols-2 section--lg items-start">
+        <section class="grid items-start gap-10 lg:gap-20 md:grid-cols-2 section--lg">
           <div class="relative">
             {{ partial "image" (dict 
               "alt" "A mostly submerged beaver."
@@ -94,7 +94,7 @@
             ) }}
             <div class="absolute z-10 text-buff bottom-10 left-10">
               <article>
-                <h4 class="h1 text-3xl">&pound;23k</h4>
+                <h3 class="text-3xl h1">&pound;23k</h3>
                 <p class="mt-5">Donated value since 2014</p>
               </article>
             </div>
@@ -107,7 +107,7 @@
             </div>
             <button class="mt-5 accordion-toggle" data-toggle data-target="#charity-partnerships">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-10 h-10 accordion-toggle-icon">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
                   <svg class="w-6 h-6" role="presentation">
                     <use xlink:href="#icon-arrow-down"/>
                   </svg>
@@ -144,7 +144,7 @@
                   <button class="flex flex-wrap items-center justify-between w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body">
                     <h3>{{ .Title }}</h3>
                     <div class="absolute sr-only right-24">{{ .Title }}: Read more about our  impact in this area</div>
-                    <div class="flex items-center justify-center bg-white rounded-full w-10 h-10 accordion-toggle-icon">
+                    <div class="flex items-center justify-center w-10 h-10 bg-white rounded-full accordion-toggle-icon">
                       <svg class="w-6 h-6" role="presentation">
                         <use xlink:href="#icon-arrow-down"/>
                       </svg>
