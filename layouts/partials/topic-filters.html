@@ -1,5 +1,5 @@
 
-<nav data-topic-filters id="js--filters" class="container grid gap-5 section snap-start">
+<nav aria-label="Filter work by topic" data-topic-filters id="js--filters" class="container grid gap-5 section snap-start">
 	<h2 class="h--condensed">Filter by topic</h2>
   <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
     <li>
@@ -20,7 +20,6 @@
 
   </ul>
   <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
-
     {{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
       <li>
         <button class="underline relative flex hover:text-blue focus:text-blue before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5  before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter="{{ .Page.Title | anchorize }}">
