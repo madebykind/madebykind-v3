@@ -2,6 +2,7 @@
 <section>
   {{ partial "header__landing.html" . }}
   {{ partial "topic-filters" . }}
+  <h2 class="sr-only">Featured work</h2>
   <ol class="container grid gap-10 lg:grid-cols-12 section lg:gap-20">
 	  {{ range .Pages }}
     <li class="col-span-full lg:col-span-6 xl:col-span-4" data-topics="

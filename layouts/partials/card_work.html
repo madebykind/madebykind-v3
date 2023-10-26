@@ -15,7 +15,7 @@
     </div>
 
       <div class="grid content-center gap-8 py-5">
-        <h2 class="h--condensed group-hover:underline" id="{{ .Params.Heading | anchorize }}">{{ .Params.Heading}}</h2>
+        <h3 class="h2 h--condensed group-hover:underline" id="{{ .Params.Heading | anchorize }}">{{ .Params.Heading}}</h3>
         {{ with .Params.services }}
           <ul class="flex gap-5 list-none lg:gap-10">
             {{ range . }}
