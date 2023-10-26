@@ -138,7 +138,7 @@
                     <h3 class="font-serif text-lg font-bold normal-case">{{ .name }}</h3>
                     <p class="my-5 mt-2 h--condensed text-md">{{ .role }}</p>
                   </div>
-                  <nav class="font-sans text-base font-bold" aria-label="Social links">
+                  <nav class="font-sans text-base font-bold" aria-label="Social links for {{ .name }}">
                     <ul class="flex flex-wrap overflow-hidden gap-x-5" role="list">
                       {{ with .email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
                       {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
