@@ -1,12 +1,69 @@
 {{ define "main" }}
 <article class="pb-10 overflow-hidden{{ with .Params.page_class }} {{ . }}{{ end }}">
   {{ partial "header__work" . }}
+  {{ if isset .Params "cover_img" }}
+    {{- $img := (.Params.cover_img ) -}}
+    {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
+
+    {{- $actualImg := $src.Resize "640x jpg" -}}
+    {{- $alt := ( .Params.cover_img_alt ) -}}
+    {{- $dataSizes := "98vw" -}}
+    {{- $imgClass := "container" -}}
+    {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+
+    {{- with $img -}}
+      <picture>
+        <source 
+          sizes="{{ $dataSizes }}" 
+          srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}" 
+          type="image/webp">
+
+        <img
+          alt="{{ $alt }}"
+          class="{{ $imgClass }}"
+          loading=eager
+          sizes="{{ $dataSizes }}"
+          src="{{ $actualImg.RelPermalink }}"
+          srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }},
+                  {{ end -}}
+                  {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
+                  {{ . }}w
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}"
+        >
+      </picture>
+    {{ end }}
+  {{ end }}
   {{ if .Params.intro }}
-  <div class="container section--lg">
-    <div class="max-w-4xl prose lede cta_prose">
-      {{ .Params.intro | markdownify }}
+    <div class="container section--lg">
+      <div class="max-w-4xl prose lede cta_prose">
+        {{ .Params.intro | markdownify }}
+      </div>
     </div>
-  </div>
+  {{ end }}
+  {{ with .Params.key_stat }}
+    <aside class="p-5 bg-bright-green text-buff bleed-right sm:absolute sm:top-0 sm:right-0 sm:w-1/2 md:relative">
+      {{ range . }}
+        {{ with site.GetPage . }}
+          <div class="flex">
+            <h2 class="text-xl h--condensed">{{ .Title }}</h2>
+            <div class="font-sans font-medium">{{ .Content }}</div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </aside>
   {{ end }}
   {{ if .Params.feature_heading }}
     <section class="mb-10 bg-blue text-sky">
