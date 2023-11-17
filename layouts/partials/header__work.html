@@ -1,24 +1,18 @@
-<header class="container relative min-h-screen flex flex-col justify-between{{ with .Params.header_class }} {{ . }}{{ end }}" data-hero-height="100vh" >
+<header class="container min-h-screen flex flex-col pt-20 gap-20{{ with .Params.header_class }} {{ . }}{{ end }}" data-hero-height="90vh" >
+  
   {{ with .Params.icon }}
-    <div class="">
-      <svg class="w-36 h-18 flex-no-shrink" role="presentation">
-        <use xlink:href="#icon-{{ . }}"/>
-      </svg>
+    <svg class="self-start flex-shrink h-12" role="presentation">
+      <use xlink:href="#icon-{{ . }}"/>
+    </svg>
+  {{ end }}
+
+	<h1 class="max-w-6xl md:w-8/12">{{ .Params.Heading|safeHTML }}</h1>
+ 
+  {{ if .Params.toc }}
+    <div class="flex items-center gap-10">
+      <h2 class="font-sans text-base font-normal">Deliverables:</h2>
+      {{ .TableOfContents }}
     </div>
   {{ end }}
-	<div class=" grid items-center content-end gap-10 md:grid-cols-12 pb-12">
-    <div class="grid max-w-6xl gap-10 col-span-full md:col-span-8">
-			<h1>{{ .Params.Heading|safeHTML }}</h1>
-      {{ with .Params.key_stat }}
-        <aside class="p-5 bg-bright-green text-buff bleed-right sm:absolute sm:top-0 sm:right-0  sm:w-1/2 md:top-auto md:bottom-0 md:w-1/3">
-          {{ range . }}
-            {{ with site.GetPage . }}
-              <h2 class="text-xl h--condensed">{{ .Title }}</h2>
-              <div class="font-sans font-medium">{{ .Content }}</div>
-            {{ end }}
-          {{ end }}
-        </aside>
-      {{ end }}
-		</div>
-	</div>
+
 </header>
