@@ -33,6 +33,7 @@ related_work:
   - backlit
   - jackson-crane
 weight: 3
+toc: true
 ---
 
 {{< workquote source="V&A mission statement" logo="logo-square-vam" >}}
