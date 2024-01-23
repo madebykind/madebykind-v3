@@ -13,7 +13,7 @@
       {{ if .Params.toc }}
         <div class="flex items-center gap-10">
           <h2 class="font-sans text-base font-normal">Deliverables:</h2>
-          {{ .TableOfContents }}
+          {{ partial "toc" . }}
         </div>
       {{ end }}
      
