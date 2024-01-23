@@ -17,7 +17,7 @@
         </div>
       {{ end }}
      
-      {{ if .Params.external_link }}
+      {{ with .Params.external_link }}
         <a href="{{ . }}" class="font-sans inline-flex gap-2 items-center">
           Launch project
           <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
