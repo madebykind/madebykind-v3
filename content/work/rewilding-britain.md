@@ -41,13 +41,6 @@ icon: rwb-logo
 services:
   - strategy
   - digital
-sub_services:
-  - /services/strategy/content-strategy
-  - /services/strategy/user-research
-  - /services/digital/ux
-  - /services/digital/mobile-first-design
-  - /services/digital/cms-integration
-  - /services/digital/crm-integration
 related_work:
   - chapter
   - sheffield-hallam-university

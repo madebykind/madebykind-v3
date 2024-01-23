@@ -49,19 +49,17 @@
   </div>
 
 
-  {{ with .Params.sub_services }}
+  {{/* NEED TO CHANGE TOPICS TO ACTUAL PAGES WHEN WE HAVE CONTENT */}}
+  {{ with .Params.topics }}
     <section class="container mt-10 section">
       <nav class="flex flex-col gap-5">
         <h2 class="text-md h--condensed">Services:</h2>
         <ul class="flex flex-wrap gap-5 font-sans font-medium lg:gap-10" role="list">
           {{ range . }}
-            {{ with site.GetPage . }}
-              <li>
-                {{/* <a href="{{ .Permalink }}">{{ title .Title }}</a> NO URLS YET */}}
-                {{ title .Title }}
-              </li>
-            {{ end }}
-          {{ end }}
+            <li>
+              {{ title . }}
+            </li>
+        {{ end }}
         </ul>
       </nav>
     </section>
