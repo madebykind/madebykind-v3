@@ -12,6 +12,6 @@ intro: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure 
 related_pages:
 related_posts:
 related_work:
-title: CRM intergration
-heading: CRM intergration
+title: CRM integration
+heading: CRM integration
 ---

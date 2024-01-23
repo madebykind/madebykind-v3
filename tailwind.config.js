@@ -82,32 +82,45 @@ module.exports = {
       },
     },
     fontSize: {
-      /* @link https://utopia.fyi/type/calculator?c=375,15,1.618,1366,24,1.618,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-      /* Step -2: 5.73px → 9.17px */
-      xs: 'clamp(0.36rem, calc(0.28rem + 0.35vw), 0.57rem)',
-
-      /* Step -1: 9.27px → 14.83px */
-      sm: 'clamp(0.58rem, calc(0.45rem + 0.56vw), 0.93rem)',
-
-      /* Step 0: 15.00px → 24.00px */
-      base: 'clamp(0.94rem, calc(0.72rem + 0.91vw), 1.50rem)',
-
-      /* Step 1: 24.27px → 38.83px */
-      md: 'clamp(1.52rem, calc(1.17rem + 1.47vw), 2.43rem)',
-
-      /* Step 2: 39.27px → 62.83px */
-      lg: 'clamp(2.45rem, calc(1.90rem + 2.38vw), 3.93rem)',
-
-      /* Step 3: 63.54px → 101.66px */
-      xl: 'clamp(3.97rem, calc(3.07rem + 3.85vw), 6.35rem)',
-
-      /* Step 4: 86.88px → 164.48px */
-      '2xl': 'clamp(5.43rem, calc(4rem + 6.22vw), 10.28rem)',
-
-      /* Step 5: 166.34px → 266.14px */
-      '3xl': 'clamp(10.40rem, calc(8.04rem + 10.07vw), 16.63rem)',
-      },
+      /* @link https://utopia.fyi/type/calculator?c=375,18,1.333,1366,24,1.333,8,2,768-1024-1280&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+      
+      /* Step -2: 10.13px → 13.51px */
+      "xs": "clamp(0.6331rem, 0.5532rem + 0.3411vw, 0.8444rem)",
+      
+      /* Step -1: 13.50px → 18.00px */
+      "sm": "clamp(0.8438rem, 0.7373rem + 0.4541vw, 1.125rem)",
+      
+      /* Step 0: 18.00px → 24.00px */
+      "base": "clamp(1.125rem, 0.9831rem + 0.6054vw, 1.5rem)",
+      
+      /* Step 1: 23.99px → 31.99px */
+      "md": "clamp(1.4994rem, 1.3102rem + 0.8073vw, 1.9994rem)",
+      
+      /* Step 2: 31.98px → 42.65px */
+      "lg": "clamp(1.9988rem, 1.7464rem + 1.0767vw, 2.6656rem)",
+      
+      /* Step 3: 42.63px → 56.85px */
+      "xl": "clamp(2.6644rem, 2.3281rem + 1.4349vw, 3.5531rem)",
+      
+      /* Step 4: 56.83px → 75.78px */
+      "2xl": "clamp(3.5519rem, 3.1037rem + 1.9122vw, 4.7363rem)",
+      
+      /* Step 5: 75.76px → 101.01px */
+      "3xl": "clamp(4.735rem, 4.1378rem + 2.5479vw, 6.3131rem)",
+      
+      /* Step 6: 100.98px → 134.65px */
+      "4xl": "clamp(6.3113rem, 5.5149rem + 3.3976vw, 8.4156rem)",
+      
+      /* Step 7: 134.61px → 179.48px */
+      "5xl": "clamp(8.4131rem, 7.3519rem + 4.5277vw, 11.2175rem)",
+      
+      /* Step 8: 179.44px → 239.25px */
+      "6xl": "clamp(11.215rem, 9.8005rem + 6.0353vw, 14.9531rem)",
     },
+  },
+  safelist: [
+    'xl:col-start-5',
+  ],
   variants: {
     extend: {
       fontSmoothing: ['dark'],

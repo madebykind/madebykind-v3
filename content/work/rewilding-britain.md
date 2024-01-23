@@ -9,8 +9,6 @@ topics:
 related_work:
   - chapter
   - the-rivers-trust
-cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
-  mobile is on the ground in the woods
 block_class: bg-pink text-claret
 cta_class: bg-claret text-pink
 impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
@@ -24,9 +22,14 @@ heading: A platform to inspire rewilding projects across the country
 title: Rewilding Britain - Strategy and Digital Case Study - Environment
 date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-teaser.jpg
+cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
+  mobile is on the ground in the woods
+hero_img: images/work-rewilding-britain-header-2.jpg
+hero_img_alt: Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white
 key_stat:
   - 149-percent
 description: Big thinking for a cause we really care about
+feature_heading: Our partnership
 feature_content: "Rewilding Britain understood that they needed a digital
   partner to not only create a digital presence but to maintain it and evolve as
   their organisation does. We’ve been delighted to work with them for almost
@@ -35,33 +38,84 @@ feature_content: "Rewilding Britain understood that they needed a digital
   level. "
 impact_img_alt: A misty forest
 icon: rwb-logo
-feature_heading: Our partnership
 services:
   - strategy
   - digital
+sub_services:
+  - /services/strategy/content-strategy
+  - /services/strategy/user-research
+  - /services/digital/ux
+  - /services/digital/mobile-first-design
+  - /services/digital/cms-integration
+  - /services/digital/crm-integration
 related_work:
   - chapter
   - sheffield-hallam-university
   - the-rivers-trust
 weight: 2
+toc: true
+external_link: https://rewildingbritain.org.uk
 ---
 
-{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" >}}
+{{< textblock align="left" >}}
+
+  One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
+
+  Through user needs testing, UX, and UI design we were able to develop a website that gave very different groups access to all of the information they needed to support and engage with the cause. Resulting in an increase of 149% in donations in the first six months from launch.
+
+{{</ textblock >}}
+
+
+{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" img="images/work-rewilding-britain-header-2.jpg" img_alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
 Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
 {{</ workquote >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-header-2.jpg" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
+{{< textblock align="right" >}}
 
-One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
+  ## Design system
 
-Through user needs testing, UX, and UI design we were able to develop a website that gave very different groups access to all of the information they needed to support and engage with the cause. Resulting in an increase of 149% in donations in the first six months from launch.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet volutpat congue. Suspendisse id dapibus est, at hendrerit nulla. In aliquam massa eget tortor posuere, at commodo tellus malesuada. Nulla lacinia ex at arcu eleifend molestie. Praesent ultrices odio nec arcu pharetra vulputate. Vestibulum sed ex suscipit, sagittis nulla sed, interdum diam. Vestibulum nisi metus, lobortis ac lacus nec, cursus mollis leo. Duis porta, dui vel porttitor pulvinar, sem diam consectetur dolor, id dictum velit nibh nec odio. In id sapien purus. Praesent vestibulum lectus sed fringilla vehicula.
+
+{{</ textblock >}}
 
 {{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-ipad.jpg" alt="A phone with Rewilding Britain website on it." >}}
 
+{{< textblock align="left" >}}
+
+  ## Content strategy
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet volutpat congue. Suspendisse id dapibus est, at hendrerit nulla. In aliquam massa eget tortor posuere, at commodo tellus malesuada. Nulla lacinia ex at arcu eleifend molestie. Praesent ultrices odio nec arcu pharetra vulputate. Vestibulum sed ex suscipit, sagittis nulla sed, interdum diam. Vestibulum nisi metus, lobortis ac lacus nec, cursus mollis leo. Duis porta, dui vel porttitor pulvinar, sem diam consectetur dolor, id dictum velit nibh nec odio. In id sapien purus. Praesent vestibulum lectus sed fringilla vehicula.
+   
+{{</ textblock >}}
+
+{{< multi-image
+  src_1="../images/work-rewilding-britain-ipad.jpg" alt_1="A phone with Rewilding Britain website on it."
+  src_2="../images/work-rewilding-britain-ipad.jpg" alt_2="A phone with Rewilding Britain website on it." >}}
+
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
+
+{{< textblock align="right" >}}
+
+  ## Network strategy
+
 Rewilding Britain needed to build a strong network of rewilding projects and local organisations. To enable them to start conversations with these audiences, we created a ‘Networks’ area to enable information to be easily shared and for projects to prosper. Over 200 rewilding projects have signed up for this service.
+   
+{{</ textblock >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure align="right" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
 
-{{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="py-48 lg:py-96">}}
-We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
+{{< figure src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
+
+{{< textblock align="right" >}}
+
+  ## Accessibility
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet volutpat congue. Suspendisse id dapibus est, at hendrerit nulla. In aliquam massa eget tortor posuere, at commodo tellus malesuada. Nulla lacinia ex at arcu eleifend molestie. Praesent ultrices odio nec arcu pharetra vulputate. Vestibulum sed ex suscipit, sagittis nulla sed, interdum diam. Vestibulum nisi metus, lobortis ac lacus nec, cursus mollis leo. Duis porta, dui vel porttitor pulvinar, sem diam consectetur dolor, id dictum velit nibh nec odio. In id sapien purus. Praesent vestibulum lectus sed fringilla vehicula.
+   
+{{</ textblock >}}
+
+{{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="section--lg" align="left">}}
+  We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
 {{</ blockquote >}}
+
+{{< figure align="left" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}

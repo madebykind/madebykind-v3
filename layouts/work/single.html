@@ -1,85 +1,55 @@
 {{ define "main" }}
 <article class="pb-10 overflow-hidden{{ with .Params.page_class }} {{ . }}{{ end }}">
+  
   {{ partial "header__work" . }}
-  {{ if isset .Params "cover_img" }}
-    {{- $img := (.Params.cover_img ) -}}
-    {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
 
-    {{- $actualImg := $src.Resize "640x jpg" -}}
-    {{- $alt := ( .Params.cover_img_alt ) -}}
-    {{- $dataSizes := "98vw" -}}
-    {{- $imgClass := "container" -}}
-    {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
-
-    {{- with $img -}}
-      <picture>
-        <source 
-          sizes="{{ $dataSizes }}" 
-          srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}" 
-          type="image/webp">
-
-        <img
-          alt="{{ $alt }}"
-          class="{{ $imgClass }}"
-          loading=eager
-          sizes="{{ $dataSizes }}"
-          src="{{ $actualImg.RelPermalink }}"
-          srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }},
-                  {{ end -}}
-                  {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
-                  {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}"
-        >
-      </picture>
-    {{ end }}
-  {{ end }}
-  {{ if .Params.intro }}
-    <div class="container section--lg">
-      <div class="max-w-4xl prose lede cta_prose">
-        {{ .Params.intro | markdownify }}
-      </div>
-    </div>
-  {{ end }}
-  {{ with .Params.key_stat }}
-    <aside class="p-5 bg-bright-green text-buff bleed-right sm:absolute sm:top-0 sm:right-0 sm:w-1/2 md:relative">
-      {{ range . }}
-        {{ with site.GetPage . }}
-          <div class="flex">
-            <h2 class="text-xl h--condensed">{{ .Title }}</h2>
-            <div class="font-sans font-medium">{{ .Content }}</div>
-          </div>
-        {{ end }}
+  <div class="container">
+    <div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section--lg">
+      {{ with .Params.key_stat }}
+        <aside class="col-span-9 lg:col-span-3 xl:col-span-3 items-start">
+          {{ range . }}
+            {{ with site.GetPage . }}
+              <div class="flex flex-col gap-2">
+                <h2 class="text-5xl lg:text-6xl h--condensed inline-flex items-end">
+                  {{ if .Params.prefix }}<span class="text-4xl lg:text-5xl">{{ .Params.prefix }}</span>{{ end }}
+                  {{ .Title }}
+                  {{ if .Params.suffix }}<span class="text-4xl lg:text-5xl">{{ .Params.suffix }}</span>{{ end }}
+                </h2>
+                <div class="font-sans font-medium text-base leading-tight">{{ .Content }}</div>
+              </div>
+            {{ end }}
+          {{ end }}
+        </aside>
       {{ end }}
-    </aside>
-  {{ end }}
+      {{ if .Params.intro }}
+        <div class="col-span-full lg:col-span-5 lg:col-start-5">
+          <div class="max-w-4xl prose lede cta_prose flex flex-col gap-5 lg:gap-6">
+            <h2 class="h3">Overview</h2>
+            {{ .Params.intro | markdownify }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
   {{ if .Params.feature_heading }}
-    <section class="mb-10 bg-blue text-sky">
-      <div class="container section--lg">
-        <h2 class="h--condensed">{{ .Params.feature_heading }}</h2>
-        <div class="max-w-6xl mt-10 lede">{{ .Params.feature_content }}</div>
+    <section class="mb-10 bg-blue text-sky lg:bg-transparent">
+      <div class="container py-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:py-0">
+        <div class="col-span-full lg:col-span-8 lg:col-start-5 lg:bg-blue lg:py-10 lg:px-8">
+          <h2 class="h--condensed">{{ .Params.feature_heading }}</h2>
+          <div class="max-w-6xl mt-6 lede">{{ .Params.feature_content }}</div>
+        </div>
       </div>
     </section>
   {{ end }}
+
+
   <div class="container font-light prose prose-page first:mt-10">
     {{- .Content -}}
   </div>
 
-{{/* Disabled coz breaking builds
 
-  {{ with .Params.services }}
+  {{ with .Params.sub_services }}
     <section class="container mt-10 section">
       <nav class="flex flex-col gap-5">
         <h2 class="text-md h--condensed">Services:</h2>
@@ -87,7 +57,8 @@
           {{ range . }}
             {{ with site.GetPage . }}
               <li>
-                <a href="{{ .Permalink }}">{{ title .Title }}</a>
+                {{/* <a href="{{ .Permalink }}">{{ title .Title }}</a> NO URLS YET */}}
+                {{ title .Title }}
               </li>
             {{ end }}
           {{ end }}
@@ -96,7 +67,6 @@
     </section>
   {{ end }}
 
-*/}}
 
   {{ with .Params.related_work }}
     <aside class="container section--lg">
