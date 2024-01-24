@@ -9,16 +9,16 @@
 	<h1 class="max-w-6xl md:w-8/12">{{ .Params.Heading|safeHTML }}</h1>
  
   {{ if or (.Params.toc) (.Params.external_link) }}
-    <div class="flex flex-col gap-12 lg:gap-6 lg:justify-between lg:flex-row">
+    <div class="flex flex-col gap-12 lg:gap-6 lg:justify-between lg:flex-row w-full">
       {{ if .Params.toc }}
-        <div class="flex items-center gap-10">
+        <div class="flex flex-col lg:flex-row items-start lg:items-center gap-5 lg:gap-10">
           <h2 class="font-sans text-base font-normal">Deliverables:</h2>
           {{ partial "toc" . }}
         </div>
       {{ end }}
      
       {{ with .Params.external_link }}
-        <a href="{{ . }}" class="font-sans inline-flex gap-2 items-center">
+        <a href="{{ . }}" class="font-sans inline-flex gap-2 items-center shrink-0 justify-self-end">
           Launch project
           <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
             <use xlink:href="#icon-external"/>
@@ -28,49 +28,7 @@
     </div>
   {{ end }}
 
-  {{ if isset .Params "hero_img" }}
-    {{- $img := (.Params.hero_img ) -}}
-    {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
-
-    {{- $actualImg := $src.Resize "640x jpg" -}}
-    {{- $alt := ( .Params.hero_img_alt ) -}}
-    {{- $dataSizes := "98vw" -}}
-    {{- $imgClass := "w-full" -}}
-    {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
-
-    {{- with $img -}}
-      <picture class="bleed lg:bleed-none">
-        <source 
-          sizes="{{ $dataSizes }}" 
-          srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}" 
-          type="image/webp">
-
-        <img
-          alt="{{ $alt }}"
-          class="{{ $imgClass }}"
-          loading=eager
-          sizes="{{ $dataSizes }}"
-          src="{{ $actualImg.RelPermalink }}"
-          srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }},
-                  {{ end -}}
-                  {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
-                  {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}"
-        >
-      </picture>
-    {{ end }}
+  {{ if isset .Params "banner_type" }}
+    {{ partial "banner" . }}
   {{ end }}
 </header>

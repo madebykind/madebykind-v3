@@ -2,7 +2,7 @@
 
 {{ if .Get "author" }}
   {{ if $align }}<div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">{{ end }}
-    <figure {{ with .Get "cite" }} cite="https://{{.}}" {{ end }} class='{{ with .Get "wrapperclass" }} {{ . }} {{ end }}{{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg-col-start-4 {{ end }}'>
+    <figure {{ with .Get "cite" }} cite="https://{{.}}" {{ end }} class='{{ with .Get "wrapperclass" }} {{ . }} {{ end }}{{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg:col-start-5 {{ end }}'>
       <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
         <p{{ with .Get "class" }} class="{{ . }}"{{ end }} itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>    
       </blockquote>

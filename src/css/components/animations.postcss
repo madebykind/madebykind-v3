@@ -30,6 +30,11 @@
     }
   }
 
+  .animate-up > * {
+    animation: up 1s ease-in-out 0s forwards;
+  }
+
+
   @keyframes navy-to-blue {
     0% {
       color: #084059;
@@ -69,5 +74,16 @@
     }
     100% {
       background-size: 200% 0;
+    }
+  }
+
+  @keyframes up {
+    0% {
+      opacity: 0;
+      margin-top: 96px;
+    }
+    100% {
+      opacity: 1;
+      margin-bottom: 0;
     }
   }

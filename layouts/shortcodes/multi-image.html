@@ -37,7 +37,7 @@
     {{- $alt := .Get "alt_2" -}}
     {{- $actualImg := $src.Resize "640x jpg" -}}
 
-    <picture class="col-span-full lg:col-span-4">
+    <picture class="col-span-full lg:col-span-4 lg:col-start-5">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
@@ -62,7 +62,32 @@
     {{- $alt := .Get "alt_3" -}}
     {{- $actualImg := $src.Resize "640x jpg" -}}
 
-    <picture class="col-span-full lg:col-span-4">
+    <picture class="col-span-full lg:col-span-4 lg:col-start-9">
+      <source sizes="{{ $dataSizes }}" srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}" type="image/webp">
+      <source sizes="{{ $dataSizes }}" srcset="
+        {{- with $respSizes -}}
+          {{- range $i, $e := . -}}
+            {{- if ge $src.Width . -}}
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}" type="image/jpeg">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+    </picture>
+  {{ end }}
+  {{ if .Get "src_4" }}
+    {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src_4")) -}}
+    {{- $alt := .Get "alt_4" -}}
+    {{- $actualImg := $src.Resize "640x jpg" -}}
+
+    <picture class="col-span-full lg:col-span-8 lg:col-start-5">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}

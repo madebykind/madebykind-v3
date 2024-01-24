@@ -1,0 +1,66 @@
+{{ $colour := "text-white" }}
+{{ with .Params.banner_logo_class }}
+  {{ $colour = . }}
+{{ end }}
+
+{{ if isset .Params "banner_img" }}
+
+  {{- $type := (.Params.banner_type ) -}}
+  {{- $img := (.Params.banner_img ) -}}
+  {{- $icon := (.Params.icon ) -}}
+  {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
+
+  {{- $actualImg := $src.Resize "640x jpg" -}}
+  {{- $alt := ( .Params.banner_img_alt ) -}}
+  {{- $dataSizes := "98vw" -}}
+  {{- $imgClass := "w-full h-full object-cover" -}}
+  {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+
+  {{ if eq $type "standard" }}
+    {{- with $img -}}
+    <div class="bleed lg:bleed-none">
+      <div class="relative overflow-hidden aspect-3/4 lg:aspect-16/9">
+        <picture>
+          <source 
+            sizes="{{ $dataSizes }}" 
+            srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if ge $src.Width . -}}
+                    {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}" 
+            type="image/webp">
+
+          <img
+            alt="{{ $alt }}"
+            class="{{ $imgClass }}"
+            loading=eager
+            sizes="{{ $dataSizes }}"
+            src="{{ $actualImg.RelPermalink }}"
+            srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if ge $src.Width . -}}
+                    {{- if $i }},
+                    {{ end -}}
+                    {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
+                    {{ . }}w
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}"
+          >
+        </picture>
+        {{ if $icon }}
+          <div class="absolute inset-0 flex items-center justify-center" data-class-on-view="animate-up" data-class-on-view-once>
+            <svg class="w-48 h-24 lg:w-96 lg:h-48 flex-no-shrink opacity-0 {{ $colour }}" role="presentation">
+              <use xlink:href="#icon-{{ $icon }}"/>
+            </svg>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

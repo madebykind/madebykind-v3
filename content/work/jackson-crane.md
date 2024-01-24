@@ -22,27 +22,44 @@ related_work:
   - garden-organic
   - vanda
 weight: 8
+banner_type: standard
+banner_img: images/work-jackson-crane-p80-2.jpg
+banner_img_alt: Rendered image of a biophilic house
 ---
 
-{{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" >}}
+{{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" >}}
 Our mission is to create sustainable, environmentally conscious and high performing architectural and interior design for like-minded, progressive clients and to exceed expectations on each project
 {{</ workquote >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-jackson-crane-header.jpg" alt="Rendered image of a biophilic house with Jackson-Crane logo overlayed" >}}
 
-We ran workshops with the team at Jackson-Crane to really identify who they are, what they do, where they want to be, and who their key audiences are. We undertook market research on other practices in both the domestic and commercial markets and we also looked at sustainable, environmentally driven companies for future inspiration.
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
-{{< figure wrapperclass="section--lg" src="../images/work-jackson-crane-drawing.jpg" alt="Over the shoulder view of someone drawing" >}}
+  We ran workshops with the team at Jackson-Crane to really identify who they are, what they do, where they want to be, and who their key audiences are. We undertook market research on other practices in both the domestic and commercial markets and we also looked at sustainable, environmentally driven companies for future inspiration.
 
-![Jackson-Crane strategy document on a laptop screen](../images/work-jackson-crane-strategy-laptop.jpg)
+  </div>
+</div>
 
-![Jackson-Crane values on a tablet device](../images/work-jackson-crane-values.jpg)
 
-With all of the learnings and data we collected, we were able to create a short and long-term business plan for them, which gave them a vision, mission, values, organisational and financial goals and help to identify team roles to aid meaningful growth to the business.
+{{< multi-image
+  src_1="../images/work-jackson-crane-dave-2.jpg" alt_1="A man sat at a laptop with a coffee. A large glass window and a garden behind"
+  src_4="../images/work-jackson-crane-drawing.jpg" alt_4="Over the shoulder view of someone drawing" >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-jackson-crane-laptop-mission.jpg" alt="Jackson-Crane mission statement on a laptop screen" >}}
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+
+  With all of the learnings and data we collected, we were able to create a short and long-term business plan for them, which gave them a vision, mission, values, organisational and financial goals and help to identify team roles to aid meaningful growth to the business.
+
+  </div>
+</div>
+
+{{< multi-image
+  src_1="../images/work-jackson-crane-strategy-laptop.jpg" alt_1="Jackson-Crane strategy document on a laptop screen"
+  src_2="../images/work-jackson-crane-laptop-mission.jpg" alt_2="Jackson-Crane mission statement on a laptop screen" >}}
 
 
 The practice was able to take that work and grow its business to become an award-winning architectural practice. Since then we have worked with them to give advice on marketing, SEO and hope to continue working with them in the future.
 
-{{< figure wrapperclass="section--lg" src="../images/work-jackson-crane-dave-2.jpg" alt="A man sat at a laptop with a coffee. A large glass window and a garden behind" >}}
+{{< figure wrapperclass="" align="left" src="../images/work-jackson-crane-values.jpg" alt="Jackson-Crane values on a tablet device" >}}

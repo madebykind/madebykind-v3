@@ -5,11 +5,7 @@ draft: false
 date: 2023-06-28T12:58:42.437Z
 cover_img: images/work-garden-organic-laptop-3.jpg
 cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
-intro: Organic gardening can boost the environment and sustainability, and
-  improve health, well-being, and food security. It can build communities and
-  aid connection with nature and what you eat. Through campaigning, advice,
-  community work, and research, their aim is to get everyone growing ‘the
-  organic way’.
+intro: Organic gardening can boost the environment and sustainability, and improve health, well-being, and food security. It can build communities and aid connection with nature and what you eat. Through campaigning, advice, community work, and research, their aim is to get everyone growing ‘the organic way’.
 key_stat: null
 description: See how Kind helped Garden Organic launch their updated brand
   through a new website and CRM integration.
@@ -28,39 +24,68 @@ related_work:
   - sheffield-hallam-university
   - the-rivers-trust
 weight: 5
+banner_type: standard
+banner_img: images/test-image-landscape.jpg
+banner_img_alt: Test image
+toc: true
 ---
 
-{{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" >}}
+{{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden">}}
 We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
 {{</ workquote >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-header-garden-organic.jpg" alt="A trowel on a garden bench with some flowers behind. The Garden Organic logo is overlayed" >}}
 
-## Engaging new audiences
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
-Garden Organic had built a new offline brand and they worked with us to bring that to life digitally, attracting new and varied demographics and making the site even more appealing to audiences who were new to organic gardening.
+  ## Engaging new audiences
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
+  Garden Organic had built a new offline brand and they worked with us to bring that to life digitally, attracting new and varied demographics and making the site even more appealing to audiences who were new to organic gardening.
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden" >}}
+  </div>
+</div>
 
-## Communicating to broad demographics and being inclusive
+{{< figure wrapperclass="" align="left" src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
 
-The new site needed to distill a lot of complex information in a way that was suitable for all ages, experiences, and digital literacy levels. It had to be easy to navigate and to find expert advice on growing the organic way.
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+
+  ## Communicating to broad demographics and being inclusive
+
+  The new site needed to distill a lot of complex information in a way that was suitable for all ages, experiences, and digital literacy levels. It had to be easy to navigate and to find expert advice on growing the organic way.
+
+  </div>
+</div>
+
+{{< multi-image
+  src_2="../images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
+  src_3="../images/work-garden-organic-phone.jpg" alt_3="he Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
 
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-phone-3.jpg" alt="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes" >}}
+  ## Establishing different journeys
 
-## Establishing different journeys
+  Expanding their dedicated user base to welcome new gardeners and take them from generally interested to signing up for full membership.
 
-Expanding their dedicated user base to welcome new gardeners and take them from generally interested to signing up for full membership.
+  </div>
+</div>
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-phone.jpg" alt="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
+{{< figure wrapperclass="" align="left" src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
 
-## Making payments easy
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-Establishing e-commerce with integrated CRM to manage multiple membership types, donations, event bookings, and a seed shop.
+  ## Making payments easy
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}
+  Establishing e-commerce with integrated CRM to manage multiple membership types, donations, event bookings, and a seed shop.
+
+  </div>
+</div>
+
+{{< figure wrapperclass="" src="../images/work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}

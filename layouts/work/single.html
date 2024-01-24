@@ -23,8 +23,8 @@
       {{ end }}
       {{ if .Params.intro }}
         <div class="col-span-full lg:col-span-5 lg:col-start-5">
-          <div class="max-w-4xl prose lede cta_prose flex flex-col gap-5 lg:gap-6">
-            <h2 class="h3">Overview</h2>
+          <div class="max-w-4xl lede flex flex-col gap-5 lg:gap-6">
+            <h2 class="h3 h--condensed">Overview</h2>
             {{ .Params.intro | markdownify }}
           </div>
         </div>
@@ -54,7 +54,7 @@
     <section class="container mt-10 section">
       <nav class="flex flex-col gap-5">
         <h2 class="text-md h--condensed">Services:</h2>
-        <ul class="flex flex-wrap gap-5 font-sans font-medium lg:gap-10" role="list">
+        <ul class="flex flex-wrap gap-5 font-sans font-medium lg:gap-x-10" role="list">
           {{ range . }}
             <li>
               {{ title . }}

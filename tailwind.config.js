@@ -39,6 +39,7 @@ module.exports = {
       aspectRatio: {
         '3/4': '3 / 4',
         '4/3': '4 / 3',
+        '16/9': '16 / 9',
       },
       borderWidth: {
         3: '3px',

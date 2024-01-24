@@ -13,10 +13,7 @@ block_class: bg-pink text-claret
 cta_class: bg-claret text-pink
 impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
 client: Rewilding Britain
-intro: Rewilding Britain are the first and only country-wide organisation in
-  Britain focusing on rewilding – acting as a catalyst for debate and action,
-  and demonstrating the power of working with nature to tackle the climate
-  emergency and the extinction crisis.
+intro: "<p>Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.</p>"
 featured: true
 heading: A platform to inspire rewilding projects across the country
 title: Rewilding Britain - Strategy and Digital Case Study - Environment
@@ -24,18 +21,14 @@ date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-teaser.jpg
 cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
   mobile is on the ground in the woods
-hero_img: images/work-rewilding-britain-header-2.jpg
-hero_img_alt: Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white
+banner_type: standard
+banner_img: images/test-image-landscape.jpg
+banner_img_alt: Test image
 key_stat:
   - 149-percent
 description: Big thinking for a cause we really care about
 feature_heading: Our partnership
-feature_content: "Rewilding Britain understood that they needed a digital
-  partner to not only create a digital presence but to maintain it and evolve as
-  their organisation does. We’ve been delighted to work with them for almost
-  three years to constantly improve the performance and direction of their site
-  as they continue to gain awareness and support on a national and international
-  level. "
+feature_content: "Rewilding Britain understood that they needed a digital partner to not only create a digital presence but to maintain it and evolve as their organisation does. We’ve been delighted to work with them for almost three years to constantly improve the performance and direction of their site as they continue to gain awareness and support on a national and international level."
 impact_img_alt: A misty forest
 icon: rwb-logo
 services:
@@ -50,8 +43,9 @@ toc: true
 external_link: https://rewildingbritain.org.uk
 ---
 
+<!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 xl:col-span-4">
+  <div class="prose col-span-full lg:col-span-8">
 
   One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
 
@@ -61,12 +55,13 @@ external_link: https://rewildingbritain.org.uk
 </div>
 
 
-{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" img="images/work-rewilding-britain-header-2.jpg" img_alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
-Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
+{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" img="images/work-rewilding-britain-header-2.jpg" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
+  Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
 {{</ workquote >}}
 
+<!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5 xl:col-span-4 xl:col-start-5">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## Design system
 
@@ -77,8 +72,9 @@ Our vision is a world rich with the incredible hum and thrum of life, a world wh
 
 {{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-ipad.jpg" alt="A phone with Rewilding Britain website on it." >}}
 
+<!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 xl:col-span-4">
+  <div class="prose col-span-full lg:col-span-8">
 
   ## Content strategy
 
@@ -94,8 +90,9 @@ Our vision is a world rich with the incredible hum and thrum of life, a world wh
 {{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
 
 
+<!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5 xl:col-span-4 xl:col-start-5">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## Network strategy
 
@@ -108,8 +105,9 @@ Our vision is a world rich with the incredible hum and thrum of life, a world wh
 
 {{< figure src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
 
+<!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5 xl:col-span-4 xl:col-start-5">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## Accessibility
 
@@ -117,7 +115,6 @@ Our vision is a world rich with the incredible hum and thrum of life, a world wh
    
   </div>
 </div>
-
 
 {{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="section--lg" align="left">}}
   We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
