@@ -1,26 +1,87 @@
+
+{{- $type := (.Params.banner_type ) -}}
+{{- $icon := (.Params.icon ) -}}
+
 {{ $colour := "text-white" }}
 {{ with .Params.banner_logo_class }}
   {{ $colour = . }}
 {{ end }}
 
-{{ if isset .Params "banner_img" }}
+{{ if eq $type "standard" }}
+  {{ if isset .Params "banner_img" }}
 
-  {{- $type := (.Params.banner_type ) -}}
-  {{- $img := (.Params.banner_img ) -}}
-  {{- $icon := (.Params.icon ) -}}
-  {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
+    {{- $img := (.Params.banner_img ) -}}
+    {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
 
-  {{- $actualImg := $src.Resize "640x jpg" -}}
-  {{- $alt := ( .Params.banner_img_alt ) -}}
-  {{- $dataSizes := "98vw" -}}
-  {{- $imgClass := "w-full h-full object-cover" -}}
-  {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
-
-  {{ if eq $type "standard" }}
+    {{- $actualImg := $src.Resize "640x jpg" -}}
+    {{- $alt := ( .Params.banner_img_alt ) -}}
+    {{- $dataSizes := "98vw" -}}
+    {{- $imgClass := "w-full h-full object-cover" -}}
+    {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+    
     {{- with $img -}}
-    <div class="bleed lg:bleed-none">
-      <div class="relative overflow-hidden aspect-3/4 lg:aspect-16/9">
-        <picture>
+      <div class="bleed lg:bleed-none">
+        <div class="relative overflow-hidden aspect-3/4 lg:aspect-16/9">
+          <picture>
+            <source 
+              sizes="{{ $dataSizes }}" 
+              srcset="
+                {{- with $respSizes -}}
+                  {{- range $i, $e := . -}}
+                    {{- if ge $src.Width . -}}
+                      {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+                    {{- end -}}
+                  {{- end -}}
+                {{- end -}}" 
+              type="image/webp">
+
+            <img
+              alt="{{ $alt }}"
+              class="{{ $imgClass }}"
+              loading=eager
+              sizes="{{ $dataSizes }}"
+              src="{{ $actualImg.RelPermalink }}"
+              srcset="
+                {{- with $respSizes -}}
+                  {{- range $i, $e := . -}}
+                    {{- if ge $src.Width . -}}
+                      {{- if $i }},
+                      {{ end -}}
+                      {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
+                      {{ . }}w
+                    {{- end -}}
+                  {{- end -}}
+                {{- end -}}"
+            >
+          </picture>
+          {{ if $icon }}
+            <div class="absolute inset-0 flex items-center justify-center" data-class-on-view="animate-up" data-class-on-view-once>
+              <svg class="w-48 h-24 lg:w-96 lg:h-48 flex-no-shrink opacity-0 {{ $colour }}" role="presentation">
+                <use xlink:href="#icon-{{ $icon }}"/>
+              </svg>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if eq $type "slideshow" }}
+  <div class="relative container section">
+    <div class="relative overflow-hidden" data-slide-show>
+    {{ with .Params.banner_images }}
+      {{ range $index, $image := . }}
+
+        {{- $img := ( $image.img ) -}}
+        {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
+
+        {{- $actualImg := $src.Resize "640x jpg" -}}
+        {{- $alt := ( $image.alt ) -}}
+        {{- $dataSizes := "98vw" -}}
+        {{- $imgClass := "" -}}
+        {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+        <picture class="w-full h-auto max-h-75vh object-cover transition-all duration-500 ease-in-out {{ if $index }} opacity-0 absolute top-0 left-0 {{ end }}" data-slide-show-el>
           <source 
             sizes="{{ $dataSizes }}" 
             srcset="
@@ -52,15 +113,28 @@
               {{- end -}}"
           >
         </picture>
-        {{ if $icon }}
-          <div class="absolute inset-0 flex items-center justify-center" data-class-on-view="animate-up" data-class-on-view-once>
-            <svg class="w-48 h-24 lg:w-96 lg:h-48 flex-no-shrink opacity-0 {{ $colour }}" role="presentation">
-              <use xlink:href="#icon-{{ $icon }}"/>
-            </svg>
-          </div>
-        {{ end }}
-      </div>
-    </div>
+      {{ end }}
     {{ end }}
-  {{ end }}
+    </div>
+    {{ if $icon }}
+      <div class="absolute inset-0 flex items-center justify-center" data-class-on-view="animate-up" data-class-on-view-once>
+        <svg class="w-48 h-24 lg:w-96 lg:h-48 flex-no-shrink opacity-0 {{ $colour }}" role="presentation">
+          <use xlink:href="#icon-{{ $icon }}"/>
+        </svg>
+      </div>
+    {{ end }}
+  </div>
 {{ end }}
+
+
+  <!-- <div class="relative container section">
+    <div class="relative overflow-hidden" data-slide-show>
+      <img src="Work-VA-Header-BG.jpg" class="w-full h-auto max-h-75vh object-cover transition" />
+      <img src="Work-VA-Header-BG-1.jpg" class="w-full h-auto max-h-75vh object-cover transition opacity-0" />
+      <img src="Work-VA-Header-BG-2.jpg" class="w-full h-auto max-h-75vh object-cover transition opacity-0" />
+      <img src="Work-VA-Header-BG-3.jpg" class="w-full h-auto max-h-75vh object-cover transition opacity-0" />
+    </div>
+    <div class="absolute inset-0 flex items-center justify-center">
+      <img src="va-logo.svg" class="w-logo h-logo">
+    </div>
+  </div> -->

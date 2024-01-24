@@ -21,9 +21,16 @@ date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-teaser.jpg
 cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
   mobile is on the ground in the woods
-banner_type: standard
-banner_img: images/test-image-landscape.jpg
-banner_img_alt: Test image
+banner_type: slideshow
+banner_images:
+  - img: images/work-rewilding-britain-carousel-1.jpg
+    alt: 
+  - img: images/work-rewilding-britain-carousel-2.jpg
+    alt: 
+  - img: images/work-rewilding-britain-carousel-3.jpg
+    alt: 
+  - img: images/work-rewilding-britain-carousel-4.jpg
+    alt: 
 key_stat:
   - 149-percent
 description: Big thinking for a cause we really care about
