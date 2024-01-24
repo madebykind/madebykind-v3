@@ -7,19 +7,9 @@ function SlideShow(el) {
 
   slides.forEach(function(e, index) {
     if (index > 0) {
-      e.style.position = "absolute";
-      e.style.top = 0;
-      e.style.left = 0;
+      e.classList.remove('hidden');
     }
   });
-
-  bounding = slides[0].getBoundingClientRect()
-  width = bounding.width;
-  height = bounding.height;
-
-  el.style.width = width + "px";
-  el.style.height = height + "px";
-
 
   setInterval(function() {
     i++;
@@ -27,10 +17,10 @@ function SlideShow(el) {
       i = 0;
     }
     slides.forEach(function(e) {
-      e.style.opacity = 0;
+      e.classList.add('hidden');
     });
 
-    slides[i].style.opacity = 1;
+      slides[i].classList.remove('hidden');
 
   }, 2000);
 

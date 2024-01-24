@@ -33,9 +33,7 @@ description: How we helped reposition a historic community force
 services:
   - brand
   - digital
-banner_type: standard
-banner_img: images/test-image-landscape.jpg
-banner_img_alt: Test image
+banner_type: chapter
 toc: true
 ---
 

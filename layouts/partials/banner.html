@@ -68,8 +68,8 @@
 {{ end }}
 
 {{ if eq $type "slideshow" }}
-  <div class="relative container section">
-    <div class="relative overflow-hidden" data-slide-show>
+  <div class="bleed lg:bleed-none">
+    <div class="relative overflow-hidden aspect-3/4 lg:aspect-16/9" data-slide-show>
     {{ with .Params.banner_images }}
       {{ range $index, $image := . }}
 
@@ -79,9 +79,9 @@
         {{- $actualImg := $src.Resize "640x jpg" -}}
         {{- $alt := ( $image.alt ) -}}
         {{- $dataSizes := "98vw" -}}
-        {{- $imgClass := "" -}}
+        {{- $imgClass := "w-full h-full object-cover" -}}
         {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
-        <picture class="w-full h-auto max-h-75vh object-cover transition-all duration-500 ease-in-out {{ if $index }} opacity-0 absolute top-0 left-0 {{ end }}" data-slide-show-el>
+        <picture class="{{ if $index }} hidden {{ end }}" data-slide-show-el>
           <source 
             sizes="{{ $dataSizes }}" 
             srcset="
@@ -115,7 +115,6 @@
         </picture>
       {{ end }}
     {{ end }}
-    </div>
     {{ if $icon }}
       <div class="absolute inset-0 flex items-center justify-center" data-class-on-view="animate-up" data-class-on-view-once>
         <svg class="w-48 h-24 lg:w-96 lg:h-48 flex-no-shrink opacity-0 {{ $colour }}" role="presentation">
@@ -123,18 +122,10 @@
         </svg>
       </div>
     {{ end }}
+    </div>
   </div>
 {{ end }}
 
-
-  <!-- <div class="relative container section">
-    <div class="relative overflow-hidden" data-slide-show>
-      <img src="Work-VA-Header-BG.jpg" class="w-full h-auto max-h-75vh object-cover transition" />
-      <img src="Work-VA-Header-BG-1.jpg" class="w-full h-auto max-h-75vh object-cover transition opacity-0" />
-      <img src="Work-VA-Header-BG-2.jpg" class="w-full h-auto max-h-75vh object-cover transition opacity-0" />
-      <img src="Work-VA-Header-BG-3.jpg" class="w-full h-auto max-h-75vh object-cover transition opacity-0" />
-    </div>
-    <div class="absolute inset-0 flex items-center justify-center">
-      <img src="va-logo.svg" class="w-logo h-logo">
-    </div>
-  </div> -->
+{{ if eq $type "chapter" }}
+    {{ partial "banner__chapter" . }}
+{{ end }}
