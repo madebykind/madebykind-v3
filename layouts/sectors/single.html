@@ -1,10 +1,10 @@
 {{ define "header" }}
- <header class="w-full bg-indigo text-buff overflow-hidden">
+ <header class="w-full bg-indigo text-buff overflow-hidden xl:min-h-[20vh]">
   <div class="container flex flex-wrap justify-between gap-5">
     <div class="py-5 xl:py-16">
       {{ partial "logo" . }}
     </div>
-    <div class="bg-pink text-claret max-w-1/2 w-60 xl:w-96 h-28 lg:h-36 xl:h-52 flex justify-center bleed-right items-center">
+    <div class="bg-pink text-claret max-w-1/2 w-60 xl:w-96 h-28 lg:h-36 xl:h-48 xl:min-h-[20vh] flex justify-center bleed-right items-center">
       <svg class="w-12 h-16 xl:w-16 xl:h-20" role="presentation">
         <use xlink:href="#icon-bcorp"/>
       </svg>
@@ -14,11 +14,11 @@
 {{ end }}
 
 {{ define "main" }}
-<article class="w-full bg-indigo text-buff overflow-hidden">
+<article class="w-full bg-indigo text-buff overflow-hidden xl:min-h-[80vh]">
 
   {{/* Header text with image (two images on mobile) */}}
-  <div class="container flex flex-wrap items-end lg:items-stretch justify-end">
-    <div class="w-full pt-9 pb-4 lg:w-3/5 lg:pt-0 lg:pr-8 lg:pb-10 lg:flex lg:items-center">
+  <div class="container flex flex-wrap items-end lg:items-stretch justify-end xl:min-h-[60vh]">
+    <div class="w-full pt-9 pb-8 lg:w-3/5 lg:pt-0 lg:pr-8 lg:flex lg:items-center">
       <h1>{{ .Params.heading }}</h1>
     </div>
     <div class="bleed-left lg:hidden w-[54%] lg:w-[44%]">
@@ -43,11 +43,11 @@
 
 
   {{/* Images and logos */}}
-  <div class="lg:flex lg:flex-nowrap w-screen">
+  <div class="lg:flex lg:flex-nowrap w-screen xl:min-h-[20vh]">
     <div class="bg-sky grow shrink-0 order-2 flex items-center lg:px-8">
       <div class="container lg:w-auto lg:mx-0 py-8 lg:py-12 flex flex-col gap-2 items-start justify-between">
         <h2 class="text-base font-normal text-indigo">Trusted by</h2>
-        <ul class="list-none flex gap-2 text-indigo w-full justify-between">
+        <ul class="list-none flex gap-5 lg:gap-8 2xl:gap-16 text-indigo w-full justify-between">
           {{ with .Params.logos }}
             {{ range . }}
               <li class="">
@@ -63,7 +63,7 @@
     </div>
     {{ with .Params.banner_images }}
       {{ range $i, $image := . }}
-      <div class="{{ if not $i }}order-1{{ else }} order-last{{ end }} hidden lg:block aspect-4/3 lg:shrink-0 lg:max-h-60">
+      <div class="{{ if not $i }}order-1{{ else }} order-last{{ end }} hidden lg:block aspect-4/3 lg:shrink-0 lg:max-h-64">
         {{ partial "image" (dict 
           "alt" $image.alt
           "class" "h-full w-auto object-cover"
