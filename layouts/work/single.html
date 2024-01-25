@@ -56,7 +56,7 @@
         <h2 class="text-md h--condensed">Services:</h2>
         <ul class="flex flex-wrap gap-5 font-sans font-medium lg:gap-x-10" role="list">
           {{ range . }}
-            <li>
+            <li class="flex flex-nowrap items-center gap-2 before:text-orange before:h-1.5 before:w-1.5 lg:before:h-2.5 lg:before:w-2.5 before:bg-orange before:rounded-full">
               {{ title . }}
             </li>
         {{ end }}
