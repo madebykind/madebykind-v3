@@ -69,6 +69,14 @@ From world-class and emerging talent to the next generation, to our audiences an
   </div>
 </div>
 
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
+    {{< animation id="anim-chapter-type" >}}
+  </div>
+  {{< figure wrapperclass="col-span-full lg:col-span-4 aspect-square relative overflow-hidden" alt="A POV mockup of floor-based directions around the Chapter venue" src="../images/work-chapter-floor-signage.jpg" imgclass="object-cover" >}}
+</div>
+
 {{< multi-image
   src_1="../images/work-chapter-floor-signage.jpg" alt_1="A POV mockup of floor-based directions around the Chapter venue"
   src_2="../images/work-chapter-floor-signage.jpg" alt_2="A POV mockup of floor-based directions around the Chapter venue" >}}

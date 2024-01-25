@@ -21,7 +21,7 @@
     
     {{- with $img -}}
       <div class="bleed lg:bleed-none">
-        <div class="relative overflow-hidden aspect-3/4 lg:aspect-16/9">
+        <div class="relative overflow-hidden aspect-3/4 lg:aspect-video">
           <picture>
             <source 
               sizes="{{ $dataSizes }}" 
@@ -69,7 +69,7 @@
 
 {{ if eq $type "slideshow" }}
   <div class="bleed lg:bleed-none">
-    <div class="relative overflow-hidden aspect-3/4 lg:aspect-16/9" data-slide-show>
+    <div class="relative overflow-hidden aspect-3/4 lg:aspect-video" data-slide-show>
     {{ with .Params.banner_images }}
       {{ range $index, $image := . }}
 

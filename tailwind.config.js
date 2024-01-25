@@ -39,7 +39,6 @@ module.exports = {
       aspectRatio: {
         '3/4': '3 / 4',
         '4/3': '4 / 3',
-        '16/9': '16 / 9',
       },
       borderWidth: {
         3: '3px',
@@ -80,6 +79,9 @@ module.exports = {
       width: {
         'iphone': '400px',
         'ipad': '1080px',
+      },
+      transitionTimingFunction: {
+        'bounce': 'cubic-bezier(0.175, 0.885, 0.32, 1.275)',
       },
     },
     fontSize: {
