@@ -81,7 +81,7 @@
         {{- $dataSizes := "98vw" -}}
         {{- $imgClass := "w-full h-full object-cover" -}}
         {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
-        <picture class="{{ if $index }} hidden {{ end }}" data-slide-show-el>
+        <picture class="{{ if $index }}hidden{{ end }}" data-slide-show-el>
           <source 
             sizes="{{ $dataSizes }}" 
             srcset="
