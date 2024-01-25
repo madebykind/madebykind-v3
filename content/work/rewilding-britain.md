@@ -19,8 +19,7 @@ heading: A platform to inspire rewilding projects across the country
 title: Rewilding Britain - Strategy and Digital Case Study - Environment
 date: 2023-06-28T11:07:38.606Z
 cover_img: images/work-rewilding-britain-teaser.jpg
-cover_img_alt: Rewilding Britain blog article page on a mobile screen. The
-  mobile is on the ground in the woods
+cover_img_alt: Rewilding Britain blog article page on a mobile screen. The mobile is on the ground in the woods
 banner_type: slideshow
 banner_images:
   - img: images/work-rewilding-britain-carousel-1.jpg

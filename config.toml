@@ -101,3 +101,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   key_topic = "key_topic"
   rss = "rss"
   topic = "topics"
+
+[permalinks]
+  sectors = "/:slug/"
