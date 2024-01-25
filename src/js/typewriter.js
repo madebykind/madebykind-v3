@@ -1,9 +1,10 @@
 function TypeWriter(el) {
-  const letters = el.querySelectorAll("path");
-  let bounding = el.getBoundingClientRect();
+  const speed = 100;
+  const svg = el.querySelector("svg");
+  const letters = svg.querySelectorAll("path");
+  let bounding = svg.getBoundingClientRect();
   let animated = false;
   let i = 0;
-  const speed = 100;
 
   letters.forEach(function(e) {
     e.style.opacity = 0;
@@ -26,7 +27,7 @@ function TypeWriter(el) {
   }
 
   document.addEventListener("scroll", function() {
-    bounding = el.getBoundingClientRect();
+    bounding = svg.getBoundingClientRect();
 
     if (bounding.top >= 0  && bounding.bottom <= window.innerHeight) {
       if (!animated) {
