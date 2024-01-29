@@ -28,7 +28,7 @@ related_work:
 weight: 7
 banner_type: standard
 banner_img: images/work-backlit-interior.png
-banner_img_alt: High-level view of three people around a wooden table, looking at digital designs of Backlit Gallery website on a laptop and a tablet
+banner_img_alt: Interior of an old industrial building, now an art gallery
 banner_logo_class: text-black
 toc: true
 ---
