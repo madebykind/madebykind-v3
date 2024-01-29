@@ -1,8 +1,8 @@
 <footer id="contact">
   {{ if not .Params.cta_hidden }}
   <div class="grid overflow-hidden {{ with .Params.footer_class }} {{ . }}{{ else }} bg-indigo text-buff{{ end }}">
-    <div class="container grid gap-10 md:grid-cols-2">
-      <div class="grid content-center section--lg">
+    <div class="container grid md:gap-10 md:grid-cols-2">
+      <div class="grid content-center section--lg order-2 md:order-1">
         <h2 class="text-3xl h--condensed">Let’s make a difference, together</h2>
         <p class="mt-6 leading-tight text-md">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
         <p class="font-bold mt-15">Speak to Mat or Michelle</p>
@@ -15,7 +15,7 @@
           </li>
         </ul>
       </div>
-      <div class="relative bleed md:ml-0">
+      <div class="relative bleed md:ml-0 order-1 md:order-2">
         {{ partial "image" (dict 
           "alt" "Mat and Michelle, standing by the bureaux and smiling."
           "class" "object-cover h-full w-full"
