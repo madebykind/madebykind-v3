@@ -1,3 +1,5 @@
+let interval;
+
 function randomNum(a, b, x) {
   let num = Math.floor(Math.random() * (b - a + 1) ) + a;
   if (num != x) {
@@ -10,7 +12,7 @@ function randomNum(a, b, x) {
 function changeImage(images, speedMin, speedMax) {
 
   if (window.innerWidth > 767) {
-    const interval = setInterval(function() {
+    interval = setInterval(function() {
 
       // swap any two images at random
       let rand1 = randomNum(0, images.length-1, -1);
@@ -38,6 +40,7 @@ function ImageFlick(el) {
   changeImage(images, 250, 750);
 
   window.addEventListener("resize", function() {
+    clearInterval(interval);
     changeImage(images, 250, 750);
   });
 
