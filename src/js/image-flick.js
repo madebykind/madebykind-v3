@@ -1,3 +1,4 @@
+const isReduced = window.matchMedia(`(prefers-reduced-motion: reduce)`) === true || window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
 let interval;
 
 function randomNum(a, b, x) {
@@ -35,15 +36,16 @@ function changeImage(images, speedMin, speedMax) {
 }
 
 function ImageFlick(el) {
-  const images = el.querySelectorAll("[data-image-flick-item]");
+  if (!isReduced) {
+    const images = el.querySelectorAll("[data-image-flick-item]");
 
-  changeImage(images, 250, 750);
-
-  window.addEventListener("resize", function() {
-    clearInterval(interval);
     changeImage(images, 250, 750);
-  });
 
+    window.addEventListener("resize", function() {
+      clearInterval(interval);
+      changeImage(images, 250, 750);
+    });
+  }
 
 }
 
