@@ -1,7 +1,7 @@
 ---
 title: Arts & Culture
 slug: arts-and-culture
-heading: We help create cultural impact from behind the scenes
+heading: Creating cultural impact from behind the scenes
 cover_img: images/work-backlit-kind-team.jpg
 cover_img_alt: High-level view of three people around a wooden table, looking at digital designs of Backlit Gallery website on a laptop and a tablet
 banner_images:
