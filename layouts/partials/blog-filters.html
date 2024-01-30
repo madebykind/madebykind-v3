@@ -1,25 +1,29 @@
 <nav aria-label="Filter posts by topic" data-topic-filters id="js--filters" class="container grid gap-5 section snap-start">
 	<h2 class="h--condensed">Filter by topic</h2>
-  <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
-    <li>
-      <button class="hover:text-blue focus:text-blue underline active before:bg-orange relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter-clear>All</button>
-    </li>
-    {{ range (where .Site.Taxonomies.key_topic ".Page.Section" .Section ) }}
+  <div class="overflow-auto">
+    <ul class="flex lg:flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
       <li>
-        <button class="hover:text-blue focus:text-blue underline relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter="{{ .Page.Title | anchorize }}">
-          {{ title .Page.Title }} <sup class="sr-only">{{ .Count }}</sup>
-        </button>
+        <button class="hover:text-blue focus:text-blue underline active before:bg-orange relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5 whitespace-nowrap" type="button" data-topic-filter-clear>All</button>
       </li>
-    {{ end }}
-  </ul>
-  <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
-    {{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
-      <li>
-        <button class="hover:text-blue focus:text-blue underline relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5  before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter="{{ .Page.Title | anchorize }}">
-          {{ title .Page.Title }}
-          <sup class="sr-only">{{ .Count }}</sup>
-        </button>
-      </li>
-    {{ end }}
-  </ul>
+      {{ range (where .Site.Taxonomies.key_topic ".Page.Section" .Section ) }}
+        <li>
+          <button class="hover:text-blue focus:text-blue underline relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter="{{ .Page.Title | anchorize }}">
+            {{ title .Page.Title }} <sup class="sr-only">{{ .Count }}</sup>
+          </button>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="overflow-auto">
+    <ul class="flex lg:flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
+      {{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
+        <li>
+          <button class="hover:text-blue focus:text-blue underline relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5  before:rounded-full before:absolute before:-left-3 lg:before:-left-5 whitespace-nowrap" type="button" data-topic-filter="{{ .Page.Title | anchorize }}">
+            {{ title .Page.Title }}
+            <sup class="sr-only">{{ .Count }}</sup>
+          </button>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
 </nav>
