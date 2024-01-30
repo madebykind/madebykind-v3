@@ -9,9 +9,9 @@
 	<h1 class="max-w-6xl md:w-8/12">{{ .Params.Heading|safeHTML }}</h1>
  
   {{ if or (.Params.toc) (.Params.external_link) }}
-    <div class="flex flex-col gap-12 lg:gap-6 lg:justify-between lg:flex-row w-full">
+    <div class="flex flex-col lg:gap-6 lg:justify-between lg:flex-row w-full">
       {{ if .Params.toc }}
-        <div class="flex flex-col lg:flex-row items-start lg:items-center gap-5 lg:gap-10">
+        <div class="flex flex-col lg:flex-row items-start lg:items-center gap-5 lg:gap-10 my-12">
           <h2 class="font-sans text-base font-normal">Deliverables:</h2>
           {{ partial "toc" . }}
         </div>
