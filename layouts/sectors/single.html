@@ -16,7 +16,7 @@
 {{ define "main" }}
 <article class="w-full bg-indigo text-buff overflow-hidden">
 
-  <div class="lg:min-h-[80vh]">
+  <div class="lg:min-h-[80vh]" data-image-flick>
 
     {{/* Header text with image (two images on mobile) */}}
     <div class="container 2xl:no-container flex flex-wrap items-end lg:items-stretch justify-end lg:min-h-[60vh]">
@@ -32,7 +32,7 @@
             ) }}
         {{ end }}
       </div>
-      <div class="bleed-right w-[54%] aspect-3/4 lg:w-[34%] xl:w-[44%] lg:aspect-auto">
+      <div class="bleed-right w-[54%] aspect-3/4 lg:w-[34%] xl:w-[44%] lg:aspect-auto" data-image-flick-item>
         {{ if .Params.cover_img }}
           {{ partial "image" (dict 
             "alt" .Params.cover_img_alt
@@ -52,7 +52,7 @@
           <ul class="list-none flex gap-5 lg:gap-8 2xl:gap-16 text-indigo w-full justify-between">
             {{ with .Params.logos }}
               {{ range . }}
-                <li class="">
+                <li>
                   <span class="sr-only">{{ .name }}</span>
                   <svg class="w-24 h-12 lg:w-36 lg:h-18 flex-no-shrink" role="presentation">
                     <use xlink:href="#icon-{{ .icon }}"/>
@@ -65,7 +65,7 @@
       </div>
       {{ with .Params.banner_images }}
         {{ range $i, $image := . }}
-        <div class="{{ if not $i }}order-1{{ else }} order-last{{ end }} hidden lg:block aspect-4/3 lg:shrink-0 lg:max-h-[20vh]">
+        <div class="{{ if not $i }}order-1{{ else }} order-last{{ end }} hidden lg:block aspect-4/3 lg:shrink-0 lg:max-h-[20vh]" data-image-flick-item>
           {{ partial "image" (dict 
             "alt" $image.alt
             "class" "h-full w-full object-cover"

@@ -16,6 +16,10 @@ banner_images:
     alt: A beaver on a river bank
   - img: images/work-rewilding-britain-carousel-4.jpg
     alt: Landscape image of a large tree on farmland
+  - img: images/work-eti-offshore-wind.jpg
+    alt: Sunset photograph of the sea with a wind farm in the distance
+  - img: images/work-garden-organic-laptop-jess-seth.jpg
+    alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
 logo_hide_link: true
 logos:
