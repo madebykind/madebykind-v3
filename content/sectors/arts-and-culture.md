@@ -17,6 +17,14 @@ banner_images:
     alt: Bonnington Gallery
   - img: images/work-va-creswell-laptop-michelle.jpg
     alt: Over the shoulder view of laptop showing the Creswell Digital Photography Archive
+  - img: images/work-chapter-exterior.jpg
+    alt: An exterior photograph of Chapter Arts Centre, showing the community garden
+  - img: images/Work-VA-Header-BG.jpg
+    alt: The Ancient City of Petra, Jordan
+  - img: images/work-va-glasto-history.jpg
+    alt: A black and white photograph of a Glastonbury Festival, showing festival goers walking through mud
+  - img: images/work-lr-headset.jpg
+    alt: A woman in VR headset
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
 logo_hide_link: true
 logos:
@@ -34,59 +42,61 @@ projects:
     icon: va-logo
     indent_text: true
     images:
-        - img: images/work-rewilding-britain-carousel-2.jpg
-          alt: A beaver on a river bank
-        - img: images/work-rewilding-britain-phone-3.jpg
-          alt: The Rewilding Britain website shown on a device in the environment
-        - img: images/work-rewilding-britain-teaser.jpg
-          alt: A Blue Tit on a branch
+        - img: images/work-va-glasto-pyramid.jpg
+          alt: A photograph of the Glastonbury Festival Pyramid Stage in the day time taken from a high position, flags and and ticker tape are visible above a large crowd
+        - img: images/work-va-glastonbury-ipad.jpg
+          alt: The Glastonbury Digital Archive shown on a tablet device
+        - img: images/work-va-glasto-history.jpg
+          alt: A black and white photograph of a Glastonbury Festival, showing festival goers walking through mud
           stat:
             - 50-years
   - title: Rebranded an historic international arts centre
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
     icon: chapter-logo
     images:
-        - img: images/work-rivers-trust-phone-2.jpg
-          alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
-        - img: images/jack-anstey-unsplash.jpg
-          alt: A landscape image of a river taken from a drone
-        - img: images/jack-anstey-unsplash.jpg
-          alt: A landscape image of a river taken from a drone
-          stat:
-            - 800-mil
+        - img: images/work-chapter-exterior.jpg
+          alt: An exterior photograph of Chapter Arts Centre, showing the community garden
+        - img: images/work-chapter-business-card_2.jpg
+          alt: A mockup of a Chapter business card. The business card is duotone blue and is placed on a pink board
+        - img: images/work-chapter-laptop.jpg
+          alt: Chapter Arts Centre website on a laptop
+        - img: images/work-chapter-billboard.jpg
+          alt: A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.
+        - img: images/work-chapter-poster-underground.jpg
+          alt: A single poster mockup for the performance 'Dani Dinger - No Sense of Watching'. The poster is in a subway.
   - title: Culture in Crisis funding portal
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
     icon: va-logo
     indent_text: true
     images:
-        - img: images/work-garden-organic-laptop-jess-seth.jpg
-          alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
-        - img: images/work-garden-organic-tablet.jpg
-          alt: The Garden Organic website on a tablet device, on a garden bench
+        - img: images/Work-VA-Header-BG.jpg
+          alt: The Ancient City of Petra, Jordan
+        - img: images/work-va-teaser.jpg
+          alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
           stat:
-            - 18k
+            - 800-mil
   - title: The First third-party integration with Line-Up
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
     icon: lr-logo
     indent_images: true
     images:
-        - img: images/work-eti-laptop.jpg
-          alt: The ETI's searchable archive of low-carbon research shown on a laptop
-        - img: images/work-eti-offshore-wind.jpg
-          alt: Sunset photograph of the sea with a wind farm in the distance
+        - img: images/work-lr-mobile.jpg
+          alt: Layered Reality ticket booking flow shown on a mobile device
+        - img: images/work-lr-headset.jpg
+          alt: A woman in VR headset
           stat:
             - 19-percent
 testimonials:
-  - testimonials/rwb-short
-  - testimonials/eti
-help_intro: We partner with environmental, sustainable and positive impact organisations, helping them to realise their vision through brand strategies and digital activities.
+  - testimonials/cic-carolyn
+  - testimonials/lr
+help_intro: We partner with arts and cultural organisations, helping them to realise their audience and achieve their goals through brand strategies and digital activities.
 help_items:
-  - title: Raise awareness of your cause
+  - title: Improve your ticketing journey
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
-  - title: Increase support and donations
+  - title: Digitise your historical content
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
   - title: Strategic consultancy
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
-  - title: Engaging your audience
+  - title: Prototyping and user testing
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
 ---

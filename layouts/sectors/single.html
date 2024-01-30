@@ -106,10 +106,10 @@
       
         <div class="flex gap-3 -ml-8 lg:m-0 {{ if $e.indent_images }} justify-end {{ end }}">
           {{ range $i, $image := $e.images }}
-            <div class="relative aspect-4/3 shrink-0 h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem] {{ if $image.stat }} order-first xl:order-last {{ else }} order-{{ (add $i 1 ) }}{{ end }}">
+            <div class="relative aspect-4/3 shrink-0 h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem] {{ if $image.stat }} order-first xl:order-last {{ else }} order-[{{ (add $i 1 ) }}]{{ end }}">
               {{ partial "image" (dict 
                 "alt" $image.alt
-                "class" "h-full w-auto object-cover"
+                "class" "h-full w-full object-cover"
                 "src" $image.img 
               ) }}
               {{ range $image.stat }}
@@ -164,7 +164,7 @@
           {{ with site.GetPage . }}
             <figure class="lg:col-span-4 xl:col-span-6">
               <blockquote class="p-0 border-0 font-bold max-w-cta-copy" itemscope itemtype="http://schema.org/CreativeWork">
-                {{ .Content | markdownify }}
+                &ldquo;{{ .Content | markdownify }}&rdquo;
               </blockquote>
               <figcaption class="text-sm mt-5 font-serif border-l-3 border-orange pl-2.5">
                 <div>

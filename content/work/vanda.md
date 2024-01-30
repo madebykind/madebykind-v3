@@ -3,7 +3,7 @@ heading: Working with the world’s leading art and design museum
 title: The V&A - Brand and Digital Case Study - Arts & Culture 
 date: 2023-05-28T11:49:55.811Z
 cover_img: images/work-va-teaser.jpg
-cover_img_alt: A man and woman looking at a laptop screen together
+cover_img_alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
 intro: >
 
   The V&A is the world’s leading museum of art and design, housing a permanent collection of over 2.8 million objects, books and archives that span over 5,000 years of human creativity.
