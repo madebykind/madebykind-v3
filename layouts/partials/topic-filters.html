@@ -2,7 +2,7 @@
 <nav aria-label="Filter work by topic" data-topic-filters id="js--filters" class="container grid gap-5 section snap-start">
 	<h2 class="h--condensed">Filter by topic</h2>
   <div class="overflow-auto">
-    <ul class="flex items-center gap-5 font-sans font-medium lg:gap-x-10">
+    <ul class="flex lg:flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
       <li>
         <button class="underline active before:bg-orange relative flex hover:text-blue focus:text-blue before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter-clear>All</button>
       </li>
@@ -22,7 +22,7 @@
     </ul>
   </div>
   <div class="overflow-auto">
-    <ul class="flex items-center gap-5 font-sans font-medium lg:gap-x-10">
+    <ul class="flex lg:flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
       {{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
         <li>
           <button class="underline relative flex hover:text-blue focus:text-blue before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5  before:rounded-full before:absolute before:-left-3 lg:before:-left-5 whitespace-nowrap" type="button" data-topic-filter="{{ .Page.Title | anchorize }}">
