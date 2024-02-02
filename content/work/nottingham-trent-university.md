@@ -12,7 +12,7 @@ intro: >
 
     NTU commissioned us to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of the University’s external and internal audiences, while still reflecting NTU strategy, key messages and unique position.
 key_stat: null
-description: Find out how Kind helped NTU
+description: A user-centred realignment of the University of the Year’s website
 summary: null
 topics:
   - Digital Strategy
@@ -33,10 +33,12 @@ banner_img_alt: Bonnington Gallery
 toc: true
 teaser:
   title: A user-centred realignment of the University of the Year’s website
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  description: NTU asked Kind to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of their audiences.
   images:
     - img: images/work-ntu-open-space.jpg
       alt: 
+      stat:
+        - 100s
     - img: images/work-ntu-mobile-thread.jpg
       alt: 
     - img: images/work-ntu-bonnington.jpg

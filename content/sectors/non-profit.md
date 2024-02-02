@@ -25,71 +25,30 @@ logo_hide_link: true
 logos:
   - name: UNESCO
     icon: unesco-logo
-  - name: The Francis Crick Institute
-    icon: francis-crick-logo
+  - name: The Open Data Institute
+    icon: odi-logo
   - name: Rewilding Britain
     icon: rwb-logo
   - name: The Rivers Trust
     icon: rt-logo
-projects:
-  - title: Rewilding Britain Digital Partnership
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: rwb-logo
-    indent_text: true
-    images:
-        - img: images/work-rewilding-britain-carousel-2.jpg
-          alt: A beaver on a river bank
-        - img: images/work-rewilding-britain-phone-3.jpg
-          alt: The Rewilding Britain website shown on a device in the environment
-        - img: images/work-rewilding-britain-teaser.jpg
-          alt: A Blue Tit on a branch
-          stat:
-            - 149-percent
-  - title: Helping to build awareness of the state of rivers
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: rt-logo
-    images:
-        - img: images/work-rivers-trust-phone-2.jpg
-          alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
-        - img: images/jack-anstey-unsplash.jpg
-          alt: A landscape image of a river taken from a drone
-          stat:
-            - 1000s
-  - title: Website redesign and online member portal
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: garden-organic-logo
-    indent_text: true
-    images:
-        - img: images/work-garden-organic-laptop-jess-seth.jpg
-          alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
-        - img: images/work-garden-organic-tablet.jpg
-          alt: The Garden Organic website on a tablet device, on a garden bench
-          stat:
-            - 18k
-        - img: images/work-garden-organic-garden.jpg
-          alt: A photograph of a kitchen garden
-  - title: Digital transformation of low-carbon energy institute
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: eti-logo
+related_projects:
+  - slug: work/unesco
     indent_images: true
-    images:
-        - img: images/work-eti-laptop.jpg
-          alt: The ETI's searchable archive of low-carbon research shown on a laptop
-        - img: images/work-eti-offshore-wind.jpg
-          alt: Sunset photograph of the sea with a wind farm in the distance
-          stat:
-            - 10-years
+  - slug: work/rewilding-britain
+    indent_text: true
+  - slug: work/the-rivers-trust
+  - slug: projects/odi
 testimonials:
   - testimonials/rwb-short
-  - testimonials/eti
-help_intro: We partner with environmental, sustainable and positive impact organisations, helping them to realise their vision through brand strategies and digital activities.
+  - testimonials/odi
+help_intro: We partner with charities and non-profit organisations, helping them to create positive impacts and further their cause through digital strategies and online activities.
 help_items:
+  - title: Engaging your community
+    description: Unsure how digital deliveries can help to achieve your objectives? What your audiences want to see online? Or what it might cost to deliver these? A discovery phase project will allow you to explore your options, gather insight and obtain clarity before moving forward.
   - title: Raise awareness of your cause
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: In the busy landscape of organisations trying to embed real change, it can be difficult to clearly communicate the challenge being faced whilst engaging others to support the issues and take action. Simplifying content and creating clear user journeys help to clarify your work and gain backing from target audiences.
   - title: Increase support and donations
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: Whether through public fundraising or grant applications, in many cases none of the work you do can happen without securing funding or public support/donations.
   - title: Strategic consultancy
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
-  - title: Engaging your audience
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: A strategic approach should be central to every project because, if your project is not meeting organisational goals, it is not worth doing. Taking time to understand your objectives, audiences and opportunities will help to plan and deliver a highly effective end product.
 ---

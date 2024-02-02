@@ -45,11 +45,11 @@ testimonials:
 help_intro: We partner with environmental, sustainable and positive impact organisations, helping them to realise their vision through brand strategies and digital activities.
 help_items:
   - title: Raise awareness of your cause
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: In the busy landscape of organisations trying to embed real change, it can be difficult to clearly communicate the challenge being faced whilst engaging others to support the issues and take action. Simplifying content and creating clear user journeys help to clarify your work and gain backing from target audiences.
   - title: Increase support and donations
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: Whether through public fundraising or grant applications, in many cases none of the work you do can happen without securing funding or public support/donations.
   - title: Strategic consultancy
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: A strategic approach should be central to every project because, if your project is not meeting organisational goals, it is not worth doing. Taking time to understand your objectives, audiences and opportunities will help to plan and deliver a highly effective end product.
   - title: Engaging your audience
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: Nobody should be more important to your organisation than your audience. Our process endeavours to align the goals of your audience members with the objectives of your organisation.
 ---

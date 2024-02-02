@@ -1,9 +1,9 @@
 ---
 date: 2020-04-24
-image: images/clientfaces/rus_sellers.jpg
+image: 
 title: Hilary Cross
 role: Brand and Marketing Lead
-url: rewilding-britain.org.uk
+url: 
 hidden: false
 ---
 

@@ -18,6 +18,16 @@ topics:
   - CRM integrations
 services:
   - digital
+teaser:
+  title: Transforming a business school’s online presence through user-centred design
+  description: "Our team worked with Henley Business School for 6-years, culminating in a user-centred redesign of all of their public-facing websites"
+  images:
+    - img: images/work-henley-student.jpg
+      alt: 
+    - img: images/work-henley-student.jpg
+      alt: 
+    - img: images/work-henley-student.jpg
+      alt: 
 ---
 
 Creation of a fast and responsive website to meet the needs of domestic and international students looking to study business in the UK.

@@ -20,7 +20,7 @@ topics:
 icon: eti-logo
 teaser:
   title: Digital transformation of low-carbon energy institute
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  description: The Energy Technologies Institute (ETI) approached Kind initially to help them redesign their website but, as we began working with them, it became clear they needed help making an overall digital transformation to their organisation.
   images:
     - img: images/work-eti-laptop.jpg
       alt: The ETI's searchable archive of low-carbon research shown on a laptop

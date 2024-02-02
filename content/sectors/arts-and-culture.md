@@ -36,67 +36,25 @@ logos:
     icon: backlit-logo
   - name: The Tung Auditorium
     icon: tung-logo
-projects:
-  - title: The Glastonbury Digital Archive
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: va-logo
+related_projects:
+  - slug: projects/glastonbury
     indent_text: true
-    images:
-        - img: images/work-va-glasto-pyramid.jpg
-          alt: A photograph of the Glastonbury Festival Pyramid Stage in the day time taken from a high position, flags and and ticker tape are visible above a large crowd
-        - img: images/work-va-glastonbury-ipad.jpg
-          alt: The Glastonbury Digital Archive shown on a tablet device
-        - img: images/work-va-glasto-history.jpg
-          alt: A black and white photograph of a Glastonbury Festival, showing festival goers walking through mud
-          stat:
-            - 50-years
-  - title: Rebranded an historic international arts centre
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: chapter-logo
-    images:
-        - img: images/work-chapter-exterior.jpg
-          alt: An exterior photograph of Chapter Arts Centre, showing the community garden
-        - img: images/work-chapter-business-card_2.jpg
-          alt: A mockup of a Chapter business card. The business card is duotone blue and is placed on a pink board
-        - img: images/work-chapter-laptop.jpg
-          alt: Chapter Arts Centre website on a laptop
-        - img: images/work-chapter-billboard.jpg
-          alt: A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.
-        - img: images/work-chapter-poster-underground.jpg
-          alt: A single poster mockup for the performance 'Dani Dinger - No Sense of Watching'. The poster is in a subway.
-  - title: Culture in Crisis funding portal
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: va-logo
+  - slug: work/chapter
+  - slug: projects/cic
     indent_text: true
-    images:
-        - img: images/Work-VA-Header-BG.jpg
-          alt: The Ancient City of Petra, Jordan
-        - img: images/work-va-teaser.jpg
-          alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
-          stat:
-            - 800-mil
-  - title: The First third-party integration with Line-Up
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: lr-logo
+  - slug: projects/layered-reality
     indent_images: true
-    images:
-        - img: images/work-lr-mobile.jpg
-          alt: Layered Reality ticket booking flow shown on a mobile device
-        - img: images/work-lr-headset.jpg
-          alt: A woman in VR headset
-          stat:
-            - 19-percent
 testimonials:
-  - testimonials/cic-carolyn
+  - testimonials/glasto
   - testimonials/lr
-help_intro: We partner with arts and cultural organisations, helping them to realise their audience and achieve their goals through brand strategies and digital activities.
+help_intro: We partner with arts and cultural organisations, helping them to reach their audiences and achieve their goals through brand strategies and digital activities.
 help_items:
   - title: Improve your ticketing journey
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: Even the best digital marketing strategy can be let down by a ticket purchasing journey with a low conversion rate. Keeping things simple and concentrating on the user-experience are the keys to increased ticket sales.
   - title: Digitise your historical content
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: There's no substitute for seeing artworks or artefacts in person but sometimes that's just not possible. Whether it's because an exhibition has ended, the artefact is in a private collection or it's simply not a physical object, digital technology creates a lot of opportunities to share more and share further.
   - title: Strategic consultancy
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: A strategic approach should be central to every project because, if your project is not meeting organisational goals, it is not worth doing. Taking time to understand your objectives, audiences and opportunities will help to plan and deliver a highly effective end product.
   - title: Prototyping and user testing
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat justo sit amet sollicitudin.
+    description: Unsure whether your vision is feasible or what it might cost to realise? A discovery phase or proof-of-concept project will allow you to explore your options, gather insight and obtain clarity before moving to the next stage.
 ---

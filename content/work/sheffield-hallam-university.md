@@ -17,8 +17,7 @@ feature_heading: Our partnership
 feature_content: In 2018, SHU appointed Kind as a digital partner, tasking us
   with providing long-term support to improve and bring consistency to SHU’s
   digital platforms, as well as collaborating on all of their digital projects,
-  they asked us to lead in creating a sustainable design system for their online
-  properties.
+  they asked us to lead in creating a sustainable design system for their online properties.
 topics:
   - Research and analysis
   - Technical consultancy
@@ -38,6 +37,19 @@ banner_type: standard
 banner_img: images/test-image-landscape.jpg
 banner_img_alt: Test image
 toc: true
+teaser:
+  title: A sustainable design system to improve the efficiency of digital projects
+  description: "In 2018, Kind became SHU’s long-term digital partner, tasked
+    with providing support to improve and bring consistency to all their digital platforms"
+  images:
+    - img: images/work-shu-runner.jpg
+      alt: A woman looking over a view of Sheffield city centre at dawn.
+    - img: images/work-shu-laptop-2.jpg
+      alt: 
+    - img: images/work-shu-jackson.jpg
+      alt: 
+      stat:
+        - 40-percent
 ---
 
 <!-- Text left -->

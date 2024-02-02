@@ -18,7 +18,7 @@ topics:
 block_class: bg-blue text-sky
 external_link: https://theriverstrust.org.uk/
 icon: rt-logo
-description: meta
+description: A user-centred website to build awareness and gain public support
 services:
   - digital
 related_work:
@@ -31,7 +31,7 @@ banner_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 banner_img_alt: A river in the Scottish Higlands
 teaser:
   title: Helping to build awareness of the state of rivers
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  description: A clear online presence for the Rivers Trust which articulates their work and incites engagement and action.
   images:
     - img: images/work-rivers-trust-phone-2.jpg
       alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
@@ -41,7 +41,7 @@ teaser:
         - 1000s
 ---
 
-{{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" img="images/work-rivers-trust-sandals.jpg" alt="TFeet in a shallow river stream">}}
+{{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" img="images/work-rivers-trust-sandals.jpg" alt="Feet in a shallow river stream">}}
 Rivers shape our landscapes and provide the foundations of our cities, towns and countryside. When they thrive, so do we.
 {{</ workquote >}}
 
@@ -49,7 +49,7 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  We took a brand that had been designed by another agency and worked with Rivers Trust to expand it into a digital format that would translate dynamically online.  
+  We took a brand that had been designed by another agency and worked with Rivers Trust to expand it into a digital format that would translate dynamically online.
 
   Through a user-centred approach, we reviewed their organisational aims and took time to understand the needs of current and desired users and built a site that was tested with those real users from their key audiences to ensure it met the needs of those groups.
 
@@ -79,7 +79,7 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 
   The website needed to showcase content which was layered for multiple audiences, from top line messaging through to detailed reports. Through thoughtful design and creation of digestible content such as a sewage map showing overflows of raw sewage in the UK. We were able to help the Rivers Trust clearly articulate the huge challenge and threat to UK waters. 
 
-After the website launch, the Rivers Trust gained a significant amount of interest in its ‘State of the Rivers’ report, sewage map, and website which led to coverage on national TV and press.
+  After the website launch, the Rivers Trust gained a significant amount of interest in its ‘State of the Rivers’ report, sewage map, and website which led to coverage on national TV and press.
 
   </div>
 </div>

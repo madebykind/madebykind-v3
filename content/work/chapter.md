@@ -36,7 +36,7 @@ banner_type: chapter
 toc: true
 teaser:
   title: Brand development of an international arts centre
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  description: Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level.
   images:
     - img: images/work-chapter-exterior.jpg
       alt: An exterior photograph of Chapter Arts Centre, showing the community garden

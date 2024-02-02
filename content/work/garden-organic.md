@@ -29,7 +29,7 @@ banner_img_alt: Test image
 toc: true
 teaser:
   title: Website redesign and online member portal
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  description: Garden Organic worked with Kind to bring their new visual identity to life online, attracting new and varied demographics and appealing to new audiences.
   images:
     - img: images/work-garden-organic-laptop-jess-seth.jpg
       alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop

@@ -14,6 +14,14 @@ topics:
   - User-centred design
   - Design systems
   - CMS integrations
+teaser:
+  title: Open Standards for Data Guidebook
+  description: An easy-to-use online guidebook for organisations developing open standards for data.
+  images:
+    - img: images/work-eti-laptop.jpg
+      alt: The ETI's searchable archive of low-carbon research shown on a laptop
+    - img: images/work-eti-offshore-wind.jpg
+      alt: Sunset photograph of the sea with a wind farm in the distance
 services:
   - digital
 ---
