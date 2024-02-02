@@ -3,7 +3,8 @@ related_projects:
   - slug: work/nottingham-trent-university
   - slug: work/rewilding-britain
   - slug: work/jackson-crane
-block_class: bg-blue text-pink
+block_class: "bg-teal text-blue group-hover:bg-blue group-hover:text-teal"
+header_class: bg-blue text-pink
 hidden: false
 featured: true
 title: Strategy

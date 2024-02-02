@@ -3,15 +3,16 @@ related_projects:
   - slug: work/chapter
   - slug: work/backlit
   - slug: work/hispanists
-block_class: bg-blue text-pink
+block_class: "bg-yellow text-green group-hover:bg-green group-hover:text-yellow"
+header_class: bg-blue text-pink
 hidden: false
 featured: true
 title: Brand
 heading: Brands that capture attention and hearts
 date: 2020-04-30T17:28:36.948Z
 weight: 2
-cover_img: images/kind-team-meeting.jpg
-cover_img_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed aliquam nunc, quis condimentum eros.
+cover_img: images/work-chapter-poster-bus-stop-2-landscape.jpg
+cover_img_alt: A single poster mockup for the performance 'Always Already'. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image.
 description: >
 
   Crafting brands that not only stand out but also feel like something you can truly believe in, we ensure they become something you can truly be a part of.

@@ -1,7 +1,7 @@
-<header class="snap-start{{ if .Params.cover_img }} overflow-hidden{{ end }} {{ with .Params.block_class }} {{ . }} {{ else }} bg-buff text-indigo {{ end }}">
+<header class="snap-start{{ if .Params.cover_img }} overflow-hidden{{ end }} {{ with .Params.header_class }} {{ . }} {{ else }} bg-buff text-indigo {{ end }}">
   <div data-hero-height="100vh" class="container grid gap-10 md:grid-cols-12{{ if not .Params.cover_img }} items-end{{ end }}">
       {{ if .Params.cover_img }}
-        <div class="col-span-full lg:col-span-6 lg:order-1 bleed lg:ml-0">
+        <div class="col-span-full lg:col-span-6 lg:order-1 bleed lg:bleed-right lg:ml-0">
           {{ partial "image__hero" . }}
         </div>
       {{ end }}

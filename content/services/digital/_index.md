@@ -3,15 +3,16 @@ related_projects:
   - slug: work/rewilding-britain
   - slug: work/the-rivers-trust
   - slug: work/vanda
-block_class: bg-blue text-pink
+block_class: "bg-blue text-sky group-hover:bg-sky group-hover:text-blue"
+header_class: bg-blue text-pink
 hidden: false
 featured: true
 title: Digital
 heading: Digital
 date: 2020-04-30T17:28:36.948Z
 weight: 3
-cover_img: images/kind-team-meeting.jpg
-cover_img_alt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed aliquam nunc, quis condimentum eros.
+cover_img: images/work-rivers-trust-phone.jpg
+cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
 description: >
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed aliquam nunc, quis condimentum eros. Aliquam ornare pulvinar placerat. Cras pretium pretium dolor, vel sagittis diam mattis scelerisque.
