@@ -1,5 +1,5 @@
 function TypeWriter(el) {
-  const speed = 100;
+  const speed = 56;
   const svg = el.querySelector("svg");
   const letters = svg.querySelectorAll("path");
   let bounding = svg.getBoundingClientRect();

@@ -21,8 +21,6 @@ cover_img: images/work-rewilding-britain-teaser.jpg
 cover_img_alt: A Blue Tit on a branch
 banner_type: slideshow
 banner_images:
-  - img: images/work-rewilding-britain-carousel-1.jpg
-    alt: 
   - img: images/work-rewilding-britain-carousel-2.jpg
     alt: 
   - img: images/work-rewilding-britain-carousel-3.jpg
@@ -72,7 +70,7 @@ teaser:
 </div>
 
 
-{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" img="images/work-rewilding-britain-header-2.jpg" alt="Landscape image of Glen Affric, showing mountains, loch and trees. Rewilding Britain's logo is overlayed in white" >}}
+{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" img="images/work-rewilding-britain-homepage.jpg" alt="A large screen with the Rewilding Britain website homepage displayed on it" >}}
   Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
 {{</ workquote >}}
 
@@ -87,7 +85,7 @@ teaser:
   </div>
 </div>
 
-{{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-ipad.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-design-system.jpg" alt="Components of the Rewilding Britain design system" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -101,10 +99,10 @@ teaser:
 </div>
 
 {{< multi-image
-  src_1="../images/work-rewilding-britain-ipad.jpg" alt_1="A phone with Rewilding Britain website on it."
-  src_2="../images/work-rewilding-britain-ipad.jpg" alt_2="A phone with Rewilding Britain website on it." >}}
+  src_1="../images/work-rewilding-britain-topics.jpg" alt_1="A topic page on the Rewilding Britain website"
+  src_2="../images/work-rewilding-britain-mobile-scroll.jpg" alt_2="The Rewilding Britain homepage shown on a mobile phone" >}}
 
-{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="../images/work-rewilding-britain-mobiles.jpg" alt="A group of mobile mockups from different pages of the Rewilding Britain website" >}}
 
 
 <!-- Text right -->
@@ -118,9 +116,9 @@ teaser:
   </div>
 </div>
 
-{{< figure align="right" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure align="right" src="../images/work-rewilding-britain-laptop.jpg" alt="Over the shoulder photograph of a laptop with the Rewilding Britain website on it" >}}
 
-{{< figure src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure src="../images/work-rewilding-britain-map.jpg" alt="The Rewilding Britain network map" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -133,8 +131,7 @@ teaser:
   </div>
 </div>
 
-{{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="section--lg" align="left">}}
-  We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
+{{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="section--lg" align="left">}}We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
 {{</ blockquote >}}
 
-{{< figure align="left" src="../images/work-rewilding-britain-homepage.jpg" alt="A phone with Rewilding Britain website on it." >}}
+{{< figure align="left" src="../images/work-rewilding-britain-ipad.jpg" alt="Over the shoulder photograph of a man reading an article on the Rewilding Britain website on an iPad" >}}

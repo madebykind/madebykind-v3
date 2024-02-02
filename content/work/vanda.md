@@ -43,7 +43,7 @@ banner_img_alt: The Ancient City of Petra, Jordan
 
 
 
-{{< workquote source="V&A mission statement" logo="logo-square-vam" img="images/Work-VA-Header-BG.jpg" alt="The Ancient City of Petra, Jordan" >}}
+{{< workquote source="V&A mission statement" logo="logo-square-vam" img="images/work-va-cupola.jpg" alt="An interior view of an architectural dome / cupola" >}}
 Our mission is to be recognised as the world’s leading museum of art, design and performance, and to enrich people’s lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ workquote >}}
 
@@ -72,11 +72,9 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 <!-- Quote with image  (like workquote but without the logo) -->
 <div class="w-full my-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-center">
 
-  {{< figure wrapperclass="col-span-full bleed lg:bleed-none lg:col-span-8" src="../images/Work-VA-Header-BG.jpg" alt="The Ancient City of Petra, Jordan" >}}
+  {{< figure wrapperclass="col-span-full bleed lg:bleed-none lg:col-span-8" src="../images/work-va-cic-logo.jpg" alt="The Culture in Crisis logo layered over a image of Palmrya" >}}
 
-  {{< blockquote wrapperclass="col-span-full lg:col-span-4" author="Tristam Hunt" role="Director, V&A">}}
-    This free digital resource and our Culture in Crisis programme is a demonstration of the V&A’s ongoing commitment to protecting the world’s cultural heritage and supporting communities that suffer cultural loss.
-  {{</ blockquote >}}
+  {{< blockquote wrapperclass="col-span-full lg:col-span-4" author="Tristam Hunt" role="Director, V&A">}}This free digital resource and our Culture in Crisis programme is a demonstration of the V&A’s ongoing commitment to protecting the world’s cultural heritage and supporting communities that suffer cultural loss.{{</ blockquote >}}
 
 </div>
 
@@ -91,11 +89,11 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   </div>
 </div>
 
-{{< figure src="../images/Work-VA-Header-BG.jpg" alt="The Ancient City of Petra, Jordan" >}}
+{{< figure src="../images/work-va-cic-laptop.jpg" alt="The Culture in Crisis portal shown on a laptop" >}}
 
 {{< multi-image
-  src_2="../images/Work-VA-Header-BG.jpg" alt_2="The Ancient City of Petra, Jordan"
-  src_3="../images/Work-VA-Header-BG.jpg" alt_3="The Ancient City of Petra, Jordan" >}}
+  src_2="../images/work-va-cic-closeup.jpg" alt_2="The Culture in Crisis portal shown on a close up of a laptop screen"
+  src_3="../images/work-va-cic-mobiles.jpg" alt_3="The Culture in Crisis portal shown on multiple mobile screens" >}}
 
 
 <!-- Text left -->
@@ -117,9 +115,9 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 </div>
 
 
-{{< figure wrapperclass="" src="../images/work-va-glastonbury-ipad.jpg" alt="" >}}
+{{< figure wrapperclass="" src="../images/work-va-glastonbury-ipad.jpg" alt="The Glastonbury Digital Archive shown on a tablet device" >}}
 
-{{< figure wrapperclass="" src="../images/work-va-glastonbury.jpg" alt="" align="left">}}
+{{< figure wrapperclass="" src="../images/work-va-glastonbury.jpg" alt="A photograph from Glastonbury Festival - a large robot with two spider-like legs stands over a crowd in the dark. Fire is shooting from it's 'head' and it's 'eyes' light up the crowd with red beams" align="left">}}
 
 
 <!-- Text right -->
@@ -132,7 +130,7 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 </div>
 
 {{< multi-image
-  src_2="../images/Work-VA-Header-BG.jpg" alt_2="The Ancient City of Petra, Jordan" >}}
+  src_2="../images/work-va-glasto-mobile.jpg" alt_2="The Glastonbury Digital Archive shown on a mobile device" >}}
 
 
 <!-- Text right -->
@@ -145,7 +143,7 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 </div>
 
 
-{{< figure wrapperclass="" src="../images/work-va-glastonbury.jpg" alt="" align="right">}}
+{{< figure wrapperclass="" src="../images/work-va-glasto-laptop.jpg" alt="The Glastonbury Digital Archive shown on a laptop" align="right">}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -165,6 +163,6 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-va-glastonbury.jpg" alt="" align="left">}}
+{{< figure wrapperclass="" src="../images/work-va-creswell-components.jpg" alt="Components for the Creswell Digital Archive" align="left">}}
 
-{{< figure wrapperclass="" src="../images/work-va-creswell-laptop-michelle.jpg" alt="">}}
+{{< figure wrapperclass="" src="../images/work-va-creswell-laptop-michelle.jpg" alt="Designs for the Creswell Digital Archive shown on a laptop">}}
