@@ -131,7 +131,6 @@ teaser:
   </div>
 </div>
 
-{{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="section--lg" align="left">}}We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.
-{{</ blockquote >}}
+{{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="section--lg" align="left">}}We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.{{</ blockquote >}}
 
 {{< figure align="left" src="../images/work-rewilding-britain-ipad.jpg" alt="Over the shoulder photograph of a man reading an article on the Rewilding Britain website on an iPad" >}}
