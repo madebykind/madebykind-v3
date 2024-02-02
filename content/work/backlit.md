@@ -13,9 +13,8 @@ key_stat: null
 description: Find out how Kind have helped Backlit Gallery
 summary:
 topics:
-  - Brand identity
+  - Visual identity
   - User-centred Design
-  - Mobile-first Design
   - CMS integration
 icon: backlit-logo
 services:

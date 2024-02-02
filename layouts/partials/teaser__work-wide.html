@@ -1,0 +1,49 @@
+<div class="{{ $.wrapper_class }} snap-start overflow-hidden w-full">
+        
+  <div class="flex -ml-8 lg:m-0 {{ if $.indent_images }} justify-end {{ end }}">
+    {{ range $i, $image := $.context.Params.teaser.images }}
+      <div class="relative aspect-4/3 shrink-0 h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem] {{ if $image.stat }} order-first xl:order-last {{ else }} order-[{{ (add $i 1 ) }}]{{ end }}">
+        {{ partial "image" (dict 
+          "alt" $image.alt
+          "class" "h-full w-full object-cover"
+          "src" $image.img 
+        ) }}
+        {{ range $image.stat }}
+          {{ with site.GetPage . }}
+            <div class="absolute inset-0 flex flex-col gap-2 p-5 items-start justify-end text-white ml-8 lg:m-0">
+              <h4 class="h--condensed text-3xl 2xl:text-5xl">{{ if .Params.prefix }}<span class="text-2xl 2xl:text-3xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-2xl 2xl:text-3xl">{{ .Params.suffix }}</span>{{ end }}</h4>
+              <div class="max-w-xs lg:max-w-md font-bold">
+                {{ if .Params.short_text }}{{ .Params.short_text }} {{ else }}{{ .Content }}{{ end }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="container section--lg">
+    <div class="grid lg:grid-cols-8 xl:grid-cols-12 gap-y-8 lg:gap-y-24 lg:gap-y-6 xl:gap-8 lg:items-end">
+      <div class="lg:col-span-7 {{ if $.indent_text }} lg:col-start-2 xl:col-start-4 {{ end }} flex flex-col gap-4">
+        {{ with $.context.Params.icon }}
+          <svg class="w-24 h-12 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-{{ . }}"/>
+          </svg>
+        {{ end }}
+
+        <h3 class="text-2xl 2xl:text-3xl h--condensed">{{ $.context.Params.teaser.title }}</h3>
+        {{ $.context.Params.teaser.description }}
+      </div>
+      {{ if $.show_button }}
+        <div class="lg:col-span-full xl:col-span-4 xl:col-start-9">
+          <a class="btn btn--primary" href="{{ $.button_url }}">
+            {{ $.button_text }}
+            <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

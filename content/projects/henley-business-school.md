@@ -14,9 +14,10 @@ topics:
   - Research and analysis
   - User-centred design
   - Design systems
-  - Mobile-first design
   - CMS integrations
   - CRM integrations
+services:
+  - digital
 ---
 
 Creation of a fast and responsive website to meet the needs of domestic and international students looking to study business in the UK.

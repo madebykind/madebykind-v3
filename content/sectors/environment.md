@@ -31,54 +31,14 @@ logos:
     icon: garden-organic-logo
   - name: Energy Technologies Institute
     icon: eti-logo
-projects:
-  - title: Rewilding Britain Digital Partnership
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: rwb-logo
+related_projects:
+  - slug: work/rewilding-britain
     indent_text: true
-    images:
-        - img: images/work-rewilding-britain-carousel-2.jpg
-          alt: A beaver on a river bank
-        - img: images/work-rewilding-britain-phone-3.jpg
-          alt: The Rewilding Britain website shown on a device in the environment
-        - img: images/work-rewilding-britain-teaser.jpg
-          alt: A Blue Tit on a branch
-          stat:
-            - 149-percent
-  - title: Helping to build awareness of the state of rivers
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: rt-logo
-    images:
-        - img: images/work-rivers-trust-phone-2.jpg
-          alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
-        - img: images/jack-anstey-unsplash.jpg
-          alt: A landscape image of a river taken from a drone
-          stat:
-            - 1000s
-  - title: Website redesign and online member portal
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: garden-organic-logo
+  - slug: work/the-rivers-trust
+  - slug: work/garden-organic
     indent_text: true
-    images:
-        - img: images/work-garden-organic-laptop-jess-seth.jpg
-          alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
-        - img: images/work-garden-organic-tablet.jpg
-          alt: The Garden Organic website on a tablet device, on a garden bench
-          stat:
-            - 18k
-        - img: images/work-garden-organic-garden.jpg
-          alt: A photograph of a kitchen garden
-  - title: Digital transformation of low-carbon energy institute
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-    icon: eti-logo
+  - slug: projects/eti
     indent_images: true
-    images:
-        - img: images/work-eti-laptop.jpg
-          alt: The ETI's searchable archive of low-carbon research shown on a laptop
-        - img: images/work-eti-offshore-wind.jpg
-          alt: Sunset photograph of the sea with a wind farm in the distance
-          stat:
-            - 10-years
 testimonials:
   - testimonials/rwb-short
   - testimonials/eti

@@ -115,7 +115,7 @@ module.exports = {
       "4xl": "clamp(6.3113rem, 5.5149rem + 3.3976vw, 8.4156rem)",
       
       /* Step 7: 134.61px → 179.48px */
-      "5xl": "clamp(8.4131rem, 7.3519rem + 4.5277vw, 11.2175rem)",
+      "5xl": "clamp(8.4131rem, 6.3519rem + 4.5277vw, 10.7175rem)",
       
       /* Step 8: 179.44px → 239.25px */
       "6xl": "clamp(11.215rem, 9.8005rem + 6.0353vw, 14.9531rem)",

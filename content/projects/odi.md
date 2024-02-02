@@ -13,8 +13,9 @@ images:
 topics:
   - User-centred design
   - Design systems
-  - Mobile-first design
   - CMS integrations
+services:
+  - digital
 ---
 
 The Open Data Institute commissioned Kind to collaborate in creating two online guidebooks to support organisations and projects that have limited experience with the development of open standards and need support to understand how best to approach the subject.

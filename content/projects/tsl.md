@@ -13,8 +13,9 @@ images:
     img_alt: A desktop mockup of a news article on The Sainsbury Laboratory website
 topics:
   - User-centred design
-  - Mobile-first design
   - CMS integrations
+services:
+  - digital
 ---
 
 A new website and identity for our client who needed to appeal to future students, scientists, and researchers who wanted to make a difference to plant production.

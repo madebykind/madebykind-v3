@@ -23,7 +23,6 @@ topics:
   - Research and analysis
   - Technical consultancy
   - User-centred Design
-  - Mobile-first Design
   - Design Systems
   - CMS integration
   - CRM integration

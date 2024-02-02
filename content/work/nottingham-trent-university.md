@@ -1,5 +1,5 @@
 ---
-heading: A user-centred realignment of the University of the Year’s website structure and functionality.
+heading: A user-centred realignment of the University of the Year’s website
 title: Nottingham Trent University - Strategy and Digital Case Study - Education
 draft: false
 date: 2023-06-28T10:52:34.342Z
@@ -17,7 +17,6 @@ summary: null
 topics:
   - Digital Strategy
   - User-centred Design
-  - Mobile-first Design
   - Design Systems
 icon: ntu-logo
 services:
@@ -32,6 +31,16 @@ banner_type: standard
 banner_img: images/work-ntu-bonnington.jpg
 banner_img_alt: Bonnington Gallery
 toc: true
+teaser:
+  title: A user-centred realignment of the University of the Year’s website
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  images:
+    - img: images/work-ntu-open-space.jpg
+      alt: 
+    - img: images/work-ntu-mobile-thread.jpg
+      alt: 
+    - img: images/work-ntu-bonnington.jpg
+      alt: 
 ---
 
 {{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-brand-image.jpg" alt="Two students walk down a cobbled street" >}}

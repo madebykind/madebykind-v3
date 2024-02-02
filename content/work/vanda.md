@@ -13,11 +13,10 @@ intro: >
 key_stat:
   - 800-mil
 topics:
-  - Brand identity
+  - Visual identity
   - Research and analysis
   - Technical consultancy
   - User-centred Design
-  - Mobile-first Design
   - Design Systems
   - CMS integration
   - CRM integration

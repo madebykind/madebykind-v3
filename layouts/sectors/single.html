@@ -47,7 +47,7 @@
     {{/* Images and logos */}}
     <div class="lg:flex lg:flex-nowrap w-screen lg:min-h-[20vh]">
       <div class="bg-sky shrink-0 order-2 flex items-center lg:px-8">
-        <div class="container lg:w-auto lg:mx-0 py-8 lg:py-12 flex flex-col gap-4 items-start justify-between">
+        <div class="container lg:w-auto lg:mx-0 py-4 flex flex-col gap-4 items-start justify-between">
           <h2 class="text-base font-normal text-indigo">Trusted by</h2>
           <ul class="list-none flex gap-5 lg:gap-8 2xl:gap-16 text-indigo w-full justify-between">
             {{ with .Params.logos }}
@@ -95,62 +95,28 @@
   </div>
 
   {{/* Clients */}}
-  {{ if .Params.projects }}
+  {{ with .Params.related_projects }}
   <div class="bg-buff text-indigo" id="clients">
     <h2 class="sr-only">Examples of our work</h2>
-    {{ $projects := .Params.projects }}
+    {{ $projects := . }}
     {{ $count := len $projects }}
     
-      {{ range $i, $e := .Params.projects }}
-      <div class="min-h-screen snap-start overflow-hidden w-full">
-      
-        <div class="flex gap-3 -ml-8 lg:m-0 {{ if $e.indent_images }} justify-end {{ end }}">
-          {{ range $i, $image := $e.images }}
-            <div class="relative aspect-4/3 shrink-0 h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem] {{ if $image.stat }} order-first xl:order-last {{ else }} order-[{{ (add $i 1 ) }}]{{ end }}">
-              {{ partial "image" (dict 
-                "alt" $image.alt
-                "class" "h-full w-full object-cover"
-                "src" $image.img 
-              ) }}
-              {{ range $image.stat }}
-                {{ with site.GetPage . }}
-                <div class="absolute inset-0 flex flex-col gap-2 p-5 items-start justify-end text-white ml-8 lg:m-0">
-                  <h4 class="h--condensed text-3xl 2xl:text-5xl">{{ if .Params.prefix }}<span class="text-2xl 2xl:text-3xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-2xl 2xl:text-3xl">{{ .Params.suffix }}</span>{{ end }}</h4>
-                  <div class="max-w-xs lg:max-w-md font-bold">
-                    {{ if .Params.short_text }}{{ .Params.short_text }} {{ else }}{{ .Content }}{{ end }}
-                  </div>
-                </div>
-                {{ end }}
-              {{ end }}
-            </div>
-          {{ end }}
-        </div>
-
-        <div class="container section--lg">
-          <div class="grid lg:grid-cols-8 xl:grid-cols-12 gap-y-8 lg:gap-y-24 lg:gap-y-6 xl:gap-8 lg:items-end">
-            <div class="lg:col-span-7 {{ if $e.indent_text }} lg:col-start-2 xl:col-start-4 {{ end }} flex flex-col gap-4">
-              {{ with $e.icon}}
-              <svg class="w-24 h-12 flex-no-shrink" role="presentation">
-                <use xlink:href="#icon-{{ . }}"/>
-              </svg>
-              {{ end }}
-
-              <h3 class="text-2xl 2xl:text-3xl h--condensed">{{ $e.title }}</h3>
-              {{ $e.description }}
-            </div>
-            {{ if eq $i (sub $count 1) }}
-              <div class="lg:col-span-full xl:col-span-4 xl:col-start-9">
-                <a class="btn btn--primary" href="#testimonials">
-                  Happy clients though?
-                  <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                    <use xlink:href="#icon-arrow"/>
-                  </svg>
-                </a>
-              </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
+    {{ range $i, $e := . }}
+      {{ with $e.slug }}
+        {{ with site.GetPage . }}
+          {{ partial "teaser__work-wide" (dict 
+            "indent_images" $e.indent_images
+            "indent_text" $e.indent_text
+            "index" $i
+            "count" $count
+            "context" .
+            "show_button" (eq $i (sub $count 1))
+            "button_url" "#testimonials"
+            "button_text" "Happy clients though?"
+            "wrapper_class" "min-h-screen"
+          ) }}
+        {{ end }}
+      {{ end }}
     {{ end }}
   </div>
   {{ end }}
@@ -194,7 +160,7 @@
     <div class="container flex flex-col items-start gap-10">
       <div class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
         <div class="col-span-full xl:col-span-8 flex flex-col gap-8">
-          <h2 class="h--condensed">How Kind can help</h2>
+          <h2 class="h--condensed text-3xl">How Kind can help</h2>
           <p class="max-w-cta-copy">{{ .Params.help_intro }}</p>
         </div>
         <div class="hidden xl:col-span-3 xl:block">

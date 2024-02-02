@@ -14,7 +14,6 @@ services:
 topics:
   - Research and analysis
   - User-centred Design
-  - Mobile-first Design
   - CMS integration
   - CRM integration
   - Ticketing journey
@@ -28,6 +27,18 @@ banner_type: standard
 banner_img: images/test-image-landscape.jpg
 banner_img_alt: Test image
 toc: true
+teaser:
+  title: Website redesign and online member portal
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  images:
+    - img: images/work-garden-organic-laptop-jess-seth.jpg
+      alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
+    - img: images/work-garden-organic-tablet.jpg
+      alt: The Garden Organic website on a tablet device, on a garden bench
+      stat:
+        - 18k
+    - img: images/work-garden-organic-garden.jpg
+      alt: A photograph of a kitchen garden
 ---
 
 {{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden">}}

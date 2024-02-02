@@ -1,17 +1,16 @@
 ---
 topics:
   - Brand strategy
-  - Brand identity
+  - Visual identity
   - Research and analysis
   - User-centred Design
-  - Mobile-first Design
   - CMS integration
   - Ticketing journey
 related_work:
   - backlit
   - vanda
   - rewilding-britain
-heading: Rebranding an international arts centre
+heading: Brand development of an international arts centre
 title: Chapter - Brand and Digital Case Study - Arts & Culture  
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
@@ -35,6 +34,20 @@ services:
   - digital
 banner_type: chapter
 toc: true
+teaser:
+  title: Brand development of an international arts centre
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  images:
+    - img: images/work-chapter-exterior.jpg
+      alt: An exterior photograph of Chapter Arts Centre, showing the community garden
+    - img: images/work-chapter-business-card_2.jpg
+      alt: A mockup of a Chapter business card. The business card is duotone blue and is placed on a pink board
+    - img: images/work-chapter-laptop.jpg
+      alt: Chapter Arts Centre website on a laptop
+    - img: images/work-chapter-billboard.jpg
+      alt: A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.
+    - img: images/work-chapter-poster-underground.jpg
+      alt: A single poster mockup for the performance 'Dani Dinger - No Sense of Watching'. The poster is in a subway.
 ---
 
 

@@ -13,7 +13,6 @@ intro: >
 key_stat: null
 topics:
   - User-centred Design
-  - Mobile-first Design
   - CMS integration
   - CRM integration
 block_class: bg-blue text-sky
@@ -30,6 +29,16 @@ weight: 6
 banner_type: standard
 banner_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 banner_img_alt: A river in the Scottish Higlands
+teaser:
+  title: Helping to build awareness of the state of rivers
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  images:
+    - img: images/work-rivers-trust-phone-2.jpg
+      alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
+    - img: images/jack-anstey-unsplash.jpg
+      alt: A landscape image of a river taken from a drone
+      stat:
+        - 1000s
 ---
 
 {{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" img="images/work-rivers-trust-sandals.jpg" alt="TFeet in a shallow river stream">}}

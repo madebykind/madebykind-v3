@@ -2,7 +2,6 @@
 topics:
   - Research and analysis
   - User-centred Design
-  - Mobile-first Design
   - CMS integration
   - CRM integration
   - Digital Strategy
@@ -47,6 +46,18 @@ related_work:
 weight: 2
 toc: true
 external_link: https://rewildingbritain.org.uk
+teaser:
+  title: Rewilding Britain Digital Partnership
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  images:
+    - img: images/work-rewilding-britain-carousel-2.jpg
+      alt: A beaver on a river bank
+    - img: images/work-rewilding-britain-phone-3.jpg
+      alt: The Rewilding Britain website shown on a device in the environment
+    - img: images/work-rewilding-britain-teaser.jpg
+      alt: A Blue Tit on a branch
+      stat:
+        - 149-percent
 ---
 
 <!-- Text left -->

@@ -55,8 +55,14 @@
             {{ end }}
             <div class="col-span-full md:col-span-6">
               <div class="prose">
-                <h2>{{ .Params.Heading }}</h2>
-                <p>{{ .Description }}</p>
+                <h2>{{ .Params.Title }}</h2>
+                <p>{{ .Params.teaser_description }}</p>
+                <a href="{{ .Permalink }}" class="my-6 btn btn--primary">Read more <span class="sr-only"> about our {{ .Params.Title }} offering</span>
+                  <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                    <use xlink:href="#icon-arrow"></use>
+                  </svg>
+                </a>
+                {{/*
                 <div class="section">
                   <h3>Services</h3>
                   <ul class="font-sans">
@@ -67,15 +73,17 @@
                     {{ end }}
                   </ul>
                 </div>
+                */}}
               </div>
             </div>
           </div>
+          {{/*
           {{ if .Params.related_projects }}
             <section class="section">
               <h3 class="h--condensed">Example {{ .Params.Heading }} projects</h3>
               <ul>
                 {{ range .Params.related_projects }}
-                  {{ with site.GetPage . }}
+                  {{ with site.GetPage .slug }}
                     <li>
                       {{ partial "teaser" . }}
                     </li>
@@ -84,6 +92,7 @@
               </ul>
             </section>
           {{ end }}
+          */}}
         </section>
       {{ else }}
         <section id="{{ .Params.Heading | anchorize }}" class="section">
@@ -97,6 +106,12 @@
               <div class="prose">
                 <h2>{{ .Params.Heading }}</h2>
                 <p>{{ .Description }}</p>
+                <a href="{{ .Permalink }}" class="my-6 btn btn--primary">Read more <span class="sr-only"> about our {{ .Params.Title }} offering</span>
+                  <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                    <use xlink:href="#icon-arrow"></use>
+                  </svg>
+                </a>
+                {{/*
                 <div class="section">
                   <h3>Services</h3>
                   <ul class="font-sans">
@@ -107,15 +122,17 @@
                     {{ end }}
                   </ul>
                 </div>
+                */}}
               </div>
             </div>
           </div>
+          {{/*
           {{ if .Params.related_projects }}
             <section class="section">
               <h3 class="h--condensed">Example {{ .Params.Heading }} projects</h3>
               <ul>
                 {{ range .Params.related_projects }}
-                  {{ with site.GetPage . }}
+                  {{ with site.GetPage .slug }}
                     <li>
                       {{ partial "teaser" . }}
                     </li>
@@ -124,6 +141,7 @@
               </ul>
             </section>
           {{ end }}
+          */}}
         </section>
       {{end}}
     {{end}}
