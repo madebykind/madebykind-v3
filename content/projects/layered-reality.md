@@ -2,8 +2,8 @@
 hidden: true
 draft: false
 date: 2023-07-05T10:59:35.251Z
-title: Layered Reality ticketing journey
-name: Layered Reality ticketing journey
+title: "The first third-party **ticket purchasing** integration with Line-Up"
+name: Layered Reality
 icon: lr-logo
 teaser:
   title: The First third-party integration with Line-Up
@@ -18,3 +18,5 @@ teaser:
 _build:
   render: never
 ---
+
+Kind were asked to build the responsive ticketing journey for Layered Reality's immersive experiences and integrate it with their chosen box-office software, Line-Up.

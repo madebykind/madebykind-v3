@@ -17,4 +17,9 @@ teaser:
         - 800-mil
 _build:
   render: never
+cascade:
+  _build:
+    render: never
+    list: false
+    publishResources: true
 ---

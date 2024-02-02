@@ -19,4 +19,9 @@ teaser:
         - 50-years
 _build:
   render: never
+cascade:
+  _build:
+    render: never
+    list: false
+    publishResources: true
 ---
