@@ -1,6 +1,5 @@
 ---
 hidden: true
-draft: true
 date: 2023-07-05T10:59:35.251Z
 title: "The Glastonbury Digital Archive"
 name: Glastonbury Digital Archive
@@ -19,4 +18,6 @@ teaser:
         - 50-years
 _build:
   render: never
+  list: never
+  publishResources: true
 ---

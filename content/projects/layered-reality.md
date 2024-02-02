@@ -1,6 +1,5 @@
 ---
-hidden: true
-draft: false
+hidden: false
 date: 2023-07-05T10:59:35.251Z
 title: "The first third-party **ticket purchasing** integration with Line-Up"
 name: Layered Reality
