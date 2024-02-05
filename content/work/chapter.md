@@ -14,8 +14,8 @@ heading: Brand development of an international arts centre
 title: Chapter - Brand and Digital Case Study - Arts & Culture  
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
-block_class: bg-teal text-blue
-cta_class: bg-blue text-teal
+block_class: bg-pink text-claret
+cta_class: bg-claret text-pink
 intro: >
 
   Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.
@@ -26,7 +26,7 @@ featured: true
 date: 2023-06-28T12:25:28.863Z
 external_link: https://chapter.org.uk
 key_stat: null
-weight: 1
+weight: 2
 icon: chapter-logo
 description: How we helped reposition a historic community force
 services:

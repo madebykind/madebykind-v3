@@ -72,30 +72,46 @@
 
   {{/* Packages */}}
   {{ with .Params.packages }}
-    <div class="bg-teal text-blue">
-      <div class="container section--lg">
-        <div class="max-w-[57ch] mb-8">
-          <h2 class="h--condensed mb-4">{{ .title }}</h2>
-          <p class="font-bold">{{ .description }}</p>
-        </div>
+  <div class="container section--lg">
+    <h2 class="h--condensed mb-0 text-2xl 2xl:text-3xl text-center">{{ .title }}</h2>
+    {{ range $i, $e := .items }}
+      <div class="{{ if not (modBool $i 2) }}bg-pink {{ end }}p-24 -mx-12">
         <div class="grid grid-cols-4 lg:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
-          {{ range .items }}
-            <div class="col-span-full lg:col-span-4 p-4 {{ .block_class }}">
-              <h3 class="h--condensed mb-4">{{ .title }}</h3>
-              <p class="lg:text-sm mb-4">{{ .description }}</p>
-              {{ with .items }}
-              <p class="lg:text-sm font-bold font-sans mb-2">What’s included</p>
-              <ul class="lg:text-sm flex flex-col gap-1 font-sans">
-                {{ range . }}
-                  <li class="list-disc ml-4">{{ . }}</li>
-                {{ end }}
-              </ul>
+          <div class="col-span-full lg:col-span-7 p-6 xl:px-8 xl:py-12 text-buff {{ if (modBool $i 2) }}bg-indigo{{ else }}bg-claret{{ end }}">
+            <h3 class="h--condensed mb-4 h2">{{ $e.title }}</h3>
+            <p class="mb-4 max-w-cta-copy">{{ $e.description }}</p>
+            {{ if $e.cost }}
+              <span class="h--condensed h2">{{ $e.cost }}</span>
+            {{ end }}
+          </div>
+          <div class="col-span-full lg:col-span-5 flex flex-col gap-5 justify-between items-start pt-4">
+            {{ with .items }}
+            <h4>What’s included</h4>
+            <ul>
+              {{ range . }}
+              <li class="flex gap-2 items-start justify-start mb-2">
+                <svg class="w-8 h-3 grow-0 shrink-0 mt-2 lg:mt-3" role="presentation">
+                  <use xlink:href="#icon-tick"/>
+                </svg>{{ . }}</li>
               {{ end }}
+            </ul>
+            {{ end }}
+            {{ if $e.additional }}
+            <div class="bg-blue text-buff p-4 lg:py-6 lg:px-12">
+              <h4 class="h--condensed">{{ $e.additional.title }}</h4>
+              <a href="{{ .additional.link.url }}" class="inline-flex  items-center gap-2 font-serif font-bold text-sm hover:text-pink focus:text-pink transition duration-300">
+                {{ $e.additional.link.text }}
+                <svg class="w-8 h-3 flex-no-shrink" role="presentation">
+                  <use xlink:href="#icon-arrow"/>
+                </svg>
+              </a>
             </div>
-          {{ end }}
+            {{ end }}
+          </div>
         </div>
       </div>
-    </div>
+    {{ end }}
+  </div>
   {{ end }}
 
 

@@ -5,8 +5,8 @@ topics:
   - CMS integration
   - CRM integration
   - Digital Strategy
-block_class: bg-pink text-claret
-cta_class: bg-claret text-pink
+block_class: bg-teal text-blue
+cta_class: bg-blue text-teal
 impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
 client: Rewilding Britain
 intro: "<p>Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.</p>"
@@ -38,7 +38,7 @@ related_work:
   - chapter
   - sheffield-hallam-university
   - the-rivers-trust
-weight: 2
+weight: 1
 toc: true
 external_link: https://rewildingbritain.org.uk
 teaser:

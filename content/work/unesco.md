@@ -1,5 +1,6 @@
 ---
 draft: true
+featured: true
 heading: Digital Report and Knowledge Base
 title: UNESCO - Brand and Digital Case Study - Non-Profit
 date: 2023-06-28T12:26:29.707Z
@@ -15,9 +16,10 @@ key_stat: null
 topics:
   - User-centred Design
 block_class: bg-blue text-sky
+cta_class: bg-sky text-blue
 external_link: 
 icon: unesco-logo
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+description: Ensuring access to education for millions of children
 services:
   - brand
   - digital
@@ -25,7 +27,7 @@ related_work:
   - chapter
   - rewilding-britain
   - jackson-crane
-weight: 6
+weight: 3
 banner_type: standard
 banner_img: images/work-unesco-tablet.jpg
 banner_img_alt: 
