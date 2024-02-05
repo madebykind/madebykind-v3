@@ -5,9 +5,12 @@ function SlideShow(el) {
   let height;
   let i = 0;
 
+
+
   slides.forEach(function(e, index) {
+    console.log(e, index)
     if (index > 0) {
-      e.classList.remove('hidden');
+      e.classList.add('hidden');
     }
   });
 
@@ -20,7 +23,7 @@ function SlideShow(el) {
       e.classList.add('hidden');
     });
 
-      slides[i].classList.remove('hidden');
+    slides[i].classList.remove('hidden');
 
   }, 2000);
 

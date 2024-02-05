@@ -108,7 +108,14 @@ From world-class and emerging talent to the next generation, to our audiences an
   </div>
 </div>
 
-{{< figure align="right" alt="Chapter website components" src="../images/work-chapter-design-system.jpg" >}}
+{{< image-cycle
+  align="right"
+  src_1="../images/work-chapter-design-system.jpg"
+  alt_1="Chapter website components"
+  src_2="../images/work-chapter-design-system.jpg"
+  alt_2="Chapter website components"
+  src_3="../images/work-chapter-design-system.jpg"
+  alt_3="Chapter website components" >}}
 
 {{< figure wrapperclass="" alt="Chapter website shown on a laptop screen" src="../images/work-chapter-laptop.jpg" >}}
 

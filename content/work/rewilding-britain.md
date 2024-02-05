@@ -5,9 +5,6 @@ topics:
   - CMS integration
   - CRM integration
   - Digital Strategy
-# related_work:
-#   - chapter
-#   - the-rivers-trust
 block_class: bg-pink text-claret
 cta_class: bg-claret text-pink
 impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
@@ -31,7 +28,7 @@ key_stat:
   - 149-percent
 description: Big thinking for a cause we really care about
 feature_heading: Our partnership
-feature_content: "Rewilding Britain understood that they needed a digital partner to not only create a digital presence but to maintain it and evolve as their organisation does. We’ve been delighted to work with them for almost three years to constantly improve the performance and direction of their site as they continue to gain awareness and support on a national and international level."
+feature_content: "Rewilding Britain understood that they needed a digital partner to not only create a digital presence but to maintain it and evolve as their organisation does. We’ve been delighted to work with them for almost four years to constantly improve the performance and direction of their site as they continue to gain awareness and support on a national and international level."
 impact_img_alt: A misty forest
 icon: rwb-logo
 services:
@@ -46,7 +43,7 @@ toc: true
 external_link: https://rewildingbritain.org.uk
 teaser:
   title: Rewilding Britain Digital Partnership
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  description: Regularly improving the online performance and direction of the first and only country-wide organisation in Britain focusing on rewilding.
   images:
     - img: images/work-rewilding-britain-carousel-2.jpg
       alt: A beaver on a river bank
