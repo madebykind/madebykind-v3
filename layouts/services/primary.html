@@ -2,7 +2,7 @@
 
 {{ $title := .Title }}
 
-<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+<article class="pb-10 overflow-hidden {{ with .Params.page_class }} {{ . }}{{ end }}">
   {{ partial "header__service" . }}
   <div class="container py-12 lg:py-24 xl:min-h-screen snap-start grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end xl:items-center">
     <div class="col-span-full lg:col-span-5 xl:col-span-7 prose lede">

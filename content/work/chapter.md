@@ -139,6 +139,4 @@ From world-class and emerging talent to the next generation, to our audiences an
 <!-- {{< figure wrapperclass="section--lg" alt="A view of multiple poster mockups lined up on the street. The back end of the bicycle is visible on the right-hand side as it goes past." src="../images/work-chapter-poster-wall-2.jpg" >}} -->
 
 
-<!-- {{< figure wrapperclass="section--lg" alt="Chapter brand statement set on a green background: ‘A World Of Creativity. A Place To Be You’" src="../images/work-chapter-positioning.jpg" >}} -->
-
 <!-- {{< figure wrapperclass="section--lg" alt="A single poster mockup for the performance 'Always Already'. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image." src="../images/work-chapter-poster-2.jpg" >}} -->
