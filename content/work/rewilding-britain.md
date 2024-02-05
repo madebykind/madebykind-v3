@@ -5,9 +5,9 @@ topics:
   - CMS integration
   - CRM integration
   - Digital Strategy
-related_work:
-  - chapter
-  - the-rivers-trust
+# related_work:
+#   - chapter
+#   - the-rivers-trust
 block_class: bg-pink text-claret
 cta_class: bg-claret text-pink
 impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
