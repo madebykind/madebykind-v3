@@ -2,19 +2,49 @@
 <article>
   {{ partial "header__landing.html" . }}
   <section class="container section">
+    <div class="prose mb-12">
+      <h2 id="our-offering" class="text-xl">Our offering</h2>
+      <p>We don’t do upselling or false promises, just honest and transparent advice to help your organisation do better.</p>
+    </div>
+    <div class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
+      {{ range $i,$p := .Pages }}
+        <section id="{{ .Params.Heading | anchorize }}" class="col-span-full lg:col-span-4">
+          <div class="flex flex-col gap-10 h-full">
+            <div class="aspect-4/3">
+              {{ if .Params.cover_img }}
+                {{ partial "image__teaser-lg" . }}
+              {{ end }}
+            </div>
+            <div class="flex flex-col justify-between items-start">
+              <div class="prose">
+                <h2>{{ .Params.Title }}</h2>
+                <p>{{ .Params.teaser_description }}</p>
+              </div>
+              <a href="{{ .Permalink }}" class="mt-6 btn btn--primary">Read more <span class="sr-only"> about our {{ .Params.Title }} offering</span>
+                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                  <use xlink:href="#icon-arrow"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+      {{ end }}
+    </div>
+  </section>
+  <section class="container section">
     <div class="prose">
       <h2 id="how-we-work" class="text-xl">How we work</h2>
       <p>We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. By spending more time on discovery and analysis before jumping into production we gain a clear understanding of <em><strong>why</strong></em> a brief is necessary and <em><strong>what</strong></em> we need to deliver in order to achieve a successful outcome</p>
     </div>
-    <div class="grid gap-10 lg:grid-cols-12 lg:gap-20 section">
-      <div class="hidden col-span-6 md:block">
+    <div class="lg:grid lg:grid-cols-12 lg:gap-20 section">
+      <div class="hidden lg:col-span-4 md:block max-w-iphone lg:max-w-none">
         {{ partial "image" (dict 
           "alt" "A young woman holding a lead, walking, and looking behind her"
           "class" "object-cover w-full"
           "src" "/images/take-the-reins.png" 
         ) }}
       </div>
-      <div class="col-span-full lg:col-span-6">
+      <div class="col-span-full lg:col-span-8">
         <ul class="mt-5 list-none">
           {{ range where site.RegularPages "Section" "strengths" }}
             <li>
@@ -38,113 +68,6 @@
         </ul>
       </div>
     </div>
-  </section>
-  <section class="container section">
-    <div class="prose">
-      <h2 id="our-offering" class="text-xl">Our offering</h2>
-      <p>We don’t do upselling or false promises, just honest and transparent advice to help your organisation do better.</p>
-    </div>
-    {{ range $i,$p := .Pages }}
-      {{ if not (modBool $i 2) }}
-        <section id="{{ .Params.Heading | anchorize }}" class="section">
-          <div class="grid gap-10 lg:grid-cols-12 lg:gap-20">
-            {{ if .Params.cover_img }}
-              <div class="col-span-full md:col-span-6 md:order-1">
-                {{ partial "image__teaser-lg" . }}
-              </div>
-            {{ end }}
-            <div class="col-span-full md:col-span-6">
-              <div class="prose">
-                <h2>{{ .Params.Title }}</h2>
-                <p>{{ .Params.teaser_description }}</p>
-                <a href="{{ .Permalink }}" class="my-6 btn btn--primary">Read more <span class="sr-only"> about our {{ .Params.Title }} offering</span>
-                  <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                    <use xlink:href="#icon-arrow"></use>
-                  </svg>
-                </a>
-                {{/*
-                <div class="section">
-                  <h3>Services</h3>
-                  <ul class="font-sans">
-                    {{ range .Pages }}
-                      <li>
-                        {{ .Params.Heading }}
-                      </li>
-                    {{ end }}
-                  </ul>
-                </div>
-                */}}
-              </div>
-            </div>
-          </div>
-          {{/*
-          {{ if .Params.related_projects }}
-            <section class="section">
-              <h3 class="h--condensed">Example {{ .Params.Heading }} projects</h3>
-              <ul>
-                {{ range .Params.related_projects }}
-                  {{ with site.GetPage .slug }}
-                    <li>
-                      {{ partial "teaser" . }}
-                    </li>
-                  {{ end }}
-                {{ end }}
-              </ul>
-            </section>
-          {{ end }}
-          */}}
-        </section>
-      {{ else }}
-        <section id="{{ .Params.Heading | anchorize }}" class="section">
-          <div class="grid gap-10 lg:grid-cols-12 lg:gap-20">
-            {{ if .Params.cover_img }}
-              <div class="col-span-full md:col-span-6">
-                {{ partial "image__teaser-lg" . }}
-              </div>
-            {{ end }}
-            <div class="col-span-full md:col-span-6">
-              <div class="prose">
-                <h2>{{ .Params.Heading }}</h2>
-                <p>{{ .Description }}</p>
-                <a href="{{ .Permalink }}" class="my-6 btn btn--primary">Read more <span class="sr-only"> about our {{ .Params.Title }} offering</span>
-                  <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                    <use xlink:href="#icon-arrow"></use>
-                  </svg>
-                </a>
-                {{/*
-                <div class="section">
-                  <h3>Services</h3>
-                  <ul class="font-sans">
-                    {{ range .Pages }}
-                      <li>
-                        {{ .Params.Heading }}
-                      </li>
-                    {{ end }}
-                  </ul>
-                </div>
-                */}}
-              </div>
-            </div>
-          </div>
-          {{/*
-          {{ if .Params.related_projects }}
-            <section class="section">
-              <h3 class="h--condensed">Example {{ .Params.Heading }} projects</h3>
-              <ul>
-                {{ range .Params.related_projects }}
-                  {{ with site.GetPage .slug }}
-                    <li>
-                      {{ partial "teaser" . }}
-                    </li>
-                  {{ end }}
-                {{ end }}
-              </ul>
-            </section>
-          {{ end }}
-          */}}
-        </section>
-      {{end}}
-    {{end}}
   </section>
 </article>
 {{ end }}
