@@ -7,6 +7,7 @@ import { bindClassOnView } from "@/js/class-on-view";
 import { bindSlideShow } from "@/js/slideshow";
 import { bindTypeWriter } from "@/js/typewriter";
 import { bindImageFlick } from "@/js/image-flick";
+import { bindPhoneScroll } from "@/js/phone-scroll";
 
 bindFilters()
 bindToggles()
@@ -16,6 +17,7 @@ bindClassOnView()
 bindSlideShow()
 bindTypeWriter()
 bindImageFlick()
+bindPhoneScroll()
 
 export default {
 

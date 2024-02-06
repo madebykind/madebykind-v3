@@ -39,6 +39,8 @@ module.exports = {
       aspectRatio: {
         '3/4': '3 / 4',
         '4/3': '4 / 3',
+        'ipad': '3 / 4.5',
+        'iphone': '9 / 19.5',
       },
       borderWidth: {
         3: '3px',
