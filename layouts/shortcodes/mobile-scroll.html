@@ -10,29 +10,33 @@
 {{- $wrapper_class := .Get "wrapper_class" -}}
 
 {{ if $align }}<div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">{{ end }}
+  <div class="flex bg-white items-center p-12 h-full
+    {{ if $align }} lg:col-span-4 col-span-12 {{ end }}
+    {{ if eq $align "middle" }} lg:col-span-4 lg:col-start-5 {{ end }}
+    {{ if eq $align "right" }} lg:col-span-4 lg:col-start-9 {{ end }}">
+    <div class="w-full flex justify-center">
+      <div class="border-indigo border-3 rounded-2xl overflow-hidden drop-shadow-2xl {{ $wrapper_class }}" data-phone-scroll {{ with .Get "speed"}}data-scroll-speed="{{ . }}"{{ end }} {{ if .Get "loop"}}data-scroll-loop="true"{{ end }}>
+        <picture class="transition-all ease-linear relative top-0">
 
-  <div class="bg-white py-24 px-40 {{ if $align }} col-span-12 lg:col-span-4 {{ end }}{{ if eq $align "middle" }} lg:col-start-5 {{ end }}{{ if eq $align "right" }} lg:col-start-9 {{ end }}">
-    <div class="border-indigo border-4 rounded-3xl overflow-hidden drop-shadow-2xl {{ $wrapper_class }}" data-phone-scroll>
-      <picture class="transition-all ease-linear relative top-0">
-
-        <source sizes="{{ $dataSizes }}" srcset="
-          {{- with $respSizes -}}
-            {{- range $i, $e := . -}}
-              {{- if ge $src.Width . -}}
-                {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+          <source sizes="{{ $dataSizes }}" srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+                {{- end -}}
               {{- end -}}
-            {{- end -}}
-          {{- end -}}" type="image/webp">
-        <source sizes="{{ $dataSizes }}" srcset="
-          {{- with $respSizes -}}
-            {{- range $i, $e := . -}}
-              {{- if ge $src.Width . -}}
-                {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+            {{- end -}}" type="image/webp">
+          <source sizes="{{ $dataSizes }}" srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+                {{- end -}}
               {{- end -}}
-            {{- end -}}
-          {{- end -}}" type="image/jpeg">
-        <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
-      </picture>
+            {{- end -}}" type="image/jpeg">
+          <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+        </picture>
+      </div>
     </div>
   </div>
 
