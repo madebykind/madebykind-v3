@@ -96,6 +96,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
   </div>
 
 </div>
+
 {{< mobile-scroll align="left" src="../images/work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone" >}}
 
 {{< figure wrapperclass="" align="left" src="../images/work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}

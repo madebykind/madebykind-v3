@@ -128,8 +128,10 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   </div>
 </div>
 
-{{< multi-image
-  src_2="../images/work-va-glasto-mobile.jpg" alt_2="The Glastonbury Digital Archive shown on a mobile device" >}}
+<!-- {{< multi-image
+  src_2="../images/work-va-glasto-mobile.jpg" alt_2="The Glastonbury Digital Archive shown on a mobile device" >}} -->
+
+{{< mobile-scroll align="middle" src="../images/work-va-glastonbury-mobile-scroll.png" alt="a mockup of a performer record page on the Glastonbury digital archive" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
 
 
 <!-- Text right -->
@@ -165,3 +167,11 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 {{< figure wrapperclass="" src="../images/work-va-creswell-components.jpg" alt="Components for the Creswell Digital Archive" align="left">}}
 
 {{< figure wrapperclass="" src="../images/work-va-creswell-laptop-michelle.jpg" alt="Designs for the Creswell Digital Archive shown on a laptop">}}
+
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-va-creswell-mood.jpg" alt="Moodboard for the Creswell Digital Archive" >}}
+  
+  <div class="col-span-full lg:col-span-8">
+  {{< mobile-scroll src="../images/work-va-creswell-mobile-scroll.png" alt="a mockup of the search page on the Creswell digital archive" wrapper_class="aspect-ipad max-w-[16.5rem]" speed="1500" loop="true">}}</div>
+</div>

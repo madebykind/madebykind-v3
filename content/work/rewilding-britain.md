@@ -95,9 +95,13 @@ teaser:
   </div>
 </div>
 
-{{< multi-image
-  src_1="../images/work-rewilding-britain-topics.jpg" alt_1="A topic page on the Rewilding Britain website"
-  src_2="../images/work-rewilding-britain-mobile-scroll.jpg" alt_2="The Rewilding Britain homepage shown on a mobile phone" >}}
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-rewilding-britain-topics.jpg" alt="A topic page on the Rewilding Britain website" >}}
+  <div class="col-span-full lg:col-span-4">
+  {{< mobile-scroll src="../images/work-rewilding-britain-mobile-scroll.png" alt="a mockup of the Rewilding Britain website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="10000">}}
+  </div>
+</div>
 
 {{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="../images/work-rewilding-britain-mobiles.jpg" alt="A group of mobile mockups from different pages of the Rewilding Britain website" >}}
 
