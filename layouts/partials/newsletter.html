@@ -50,7 +50,7 @@
           <fieldset data-form>
             <label for="email" class="font-sans text-xs font-bold {{ with $.label_class }}{{ . }}{{ end }}">Your email address</label>
             <div class="relative w-full mb-2">
-              <input type="email" id="email" name="email" class="border-2 {{ $border_class }} bg-white block w-full p-3 pr-[6.5rem] text-sm focus:outline-none min-h-[3.625rem]">
+              <input type="email" id="email" name="email" class="border-2 {{ $border_class }} bg-white block w-full p-3 pr-[6.5rem] text-sm focus:outline-none min-h-[3.625rem]" required>
               <button type="submit" class="btn btn--small btn--primary absolute right-0 top-0 cursor-pointer min-h-[3.625rem] {{ with $.btn_class }}{{ . }}{{ end }}">
                 {{ $btn_text }}
                 <svg class="w-8 h-3 shrink-0" role="presentation">
@@ -61,6 +61,8 @@
             <input type="hidden" id="from" name="from" value="{{ $.url }}">
           </fieldset>
           <div class="hidden" data-message></div>
+          <label for="title" class="sr-only"></label>
+          <input type="text" class="h0n sr-only" name="title" id="title" tabindex="-1">
         </form>
 
         <p class="font-sans text-xs">Your data will be processed by Kind and Campaign Monitor for the purposes of sending you a quarterly update email. For more information, please read our <a href="/about/legal/privacy/">privacy policy</a></p>
