@@ -5,10 +5,7 @@ function SlideShow(el) {
   let height;
   let i = 0;
 
-
-
   slides.forEach(function(e, index) {
-    console.log(e, index)
     if (index > 0) {
       e.classList.add('hidden');
     }
