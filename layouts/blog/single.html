@@ -15,6 +15,10 @@
         {{ partial "newsletter" (dict 
           "url" .Permalink
           "style" "stacked"
+          "heading" "Join our mailing list"
+          "block_class" "bg-teal text-indigo p-6 pb-12"
+          "heading_class" "h3"
+          "text_class" "text-sm"
         ) }}
 
         {{ with .Params.related_pages }}

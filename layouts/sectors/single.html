@@ -157,7 +157,7 @@
 
   {{/* Services */}}
   <div class="snap-start min-h-screen flex items-center bg-teal text-blue" id="services">
-    <div class="container flex flex-col items-start gap-10">
+    <div class="container section--lg flex flex-col items-start gap-10">
       <div class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
         <div class="col-span-full xl:col-span-8 flex flex-col gap-8">
           <h2 class="h--condensed text-3xl">How Kind can help</h2>
@@ -177,16 +177,45 @@
           </div>
         {{ end }}
       </div>
-      <a class="btn btn--primary" href="#contact">
-        Talk to us
+      <a class="btn btn--primary" href="#newsletter">
+        Interested?
         <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
           <use xlink:href="#icon-arrow"/>
         </svg>
       </a>
     </div>
   </div>
+
+  {{/* Newsletter */}}
+  <div class="snap-start min-h-screen flex items-center bg-buff text-indigo" id="newsletter">
+    <div class="flex flex-col section--lg h-full pt-10 lg:pt-20 xl:pt-30 items-start justify-between gap-10 w-full">
+      {{ partial "newsletter" (dict 
+        "url" .Permalink
+        "style" "wide"
+        "heading" "Stay up-to-date with what we’re doing"
+        "description" "Because we’re busy delivering for our clients, we send no more than 4 emails per year, but when we do send them... boy are they interesting!"
+        "block_class" "container"
+        "heading_class" "text-3xl"
+        "text_class" "leading-tight text-md"
+        "btn_class" "btn--blue"
+        "btn_text" "Sign up"
+        "label_class" "text-blue"
+        "border_class" "border-blue focus:border-teal"
+      ) }}
+      <div class="container mt-24 lg:mt-48">
+        <a class="btn btn--primary" href="#contact">
+          Want to talk to use sooner?
+          <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
 </article>
 {{ end }}
+
+
 
 {{ define "footer" }}
 <footer id="contact" class="snap-start">
@@ -195,7 +224,7 @@
       <div class="section--lg order-2 md:order-1 2xl:pl-[4vw] 2xl:col-span-2">
         <div class="prose mb-8 lg:mb-16">
           <h2 class="text-3xl h--condensed">Arrange a chat with our founder</h2>
-          <p class="mt-6 leading-tight text-md">That's me! I founded Kind to be a force for good and would love to chat about how we might help you.</p>
+          <p class="mt-6 leading-tight text-md">That’s me! I founded Kind to be a force for good and would love to chat about how we might help you.</p>
         </div>
         <a class="btn btn--pink mb-2" href="https://calendly.com/madebykind/30-min-call-with-mat-at-kind">
           Book a chat
