@@ -83,6 +83,8 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
 
 
+
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
@@ -92,7 +94,9 @@ We transform lives. We shape our students’ futures, preparing them for whateve
   As with all complex organisations, SHU has a varied audience, all of which have differing needs and motivations for interacting with the university online. We ran a user-centred process throughout the project to ensure that design decisions and assumptions were validated with real members of SHU’s target audience. 
 
   </div>
+
 </div>
+{{< mobile-scroll align="left" src="../images/work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone" >}}
 
 {{< figure wrapperclass="" align="left" src="../images/work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
 

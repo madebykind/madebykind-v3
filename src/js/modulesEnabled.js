@@ -8,6 +8,7 @@ import { bindSlideShow } from "@/js/slideshow";
 import { bindTypeWriter } from "@/js/typewriter";
 import { bindImageFlick } from "@/js/image-flick";
 import { bindPhoneScroll } from "@/js/phone-scroll";
+import { bindSubscribeForm } from "@/js/subscribe-form";
 
 bindFilters()
 bindToggles()
@@ -18,6 +19,7 @@ bindSlideShow()
 bindTypeWriter()
 bindImageFlick()
 bindPhoneScroll()
+bindSubscribeForm()
 
 export default {
 

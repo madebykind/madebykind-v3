@@ -9,14 +9,20 @@
       </div>
     </div>
 
-    {{ with .Params.related_pages }}
       <aside class="mt-10 col-span-full lg:col-span-4">
-      <div class="sticky top-10 ">
-        <h2 class="font-sans text-sm font-bold">Related</h2>
-        {{ partial "related-pages.html" . }}
+      <div class="sticky top-10">
+
+        {{ partial "newsletter" (dict 
+          "url" .Permalink
+          "style" "stacked"
+        ) }}
+
+        {{ with .Params.related_pages }}
+          <h2 class="font-sans text-sm font-bold">Related</h2>
+          {{ partial "related-pages.html" . }}
+        {{ end }}
       </div>
       </aside>
-    {{ end }}
     
   </div>
 

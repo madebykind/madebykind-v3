@@ -11,8 +11,14 @@
       {{ end }}
     </ol>
   </section>
+
+  {{ partial "newsletter" (dict 
+    "url" .Permalink
+    "style" "wide"
+  ) }}
+
   <section class="container mt-10 section">
-    <h2 class="h--condensed text-md">Insights</h2>
+    <h2 class="h--condensed text-md">More insights</h2>
     <ol class="flex flex-wrap">
       {{ range ( where ( where .Pages "Params.featured" "!=" true ) "Params.unlisted" "!=" true ) }}
         <li class="w-full" data-topics="{{ with .Params.key_topic }}{{ . | anchorize }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
@@ -21,4 +27,5 @@
       {{ end }}
     </ol>
   </section>
+
 {{ end }}

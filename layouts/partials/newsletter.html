@@ -1,0 +1,58 @@
+{{ $img := "images/empowering-change.png" }}
+{{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+
+<div class="bg-teal text-indigo p-6 pb-12 flex flex-col gap-2">
+  <div {{ if eq $.style "wide" }}class="container section grid grid-cols-4 lg:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12 items-center"{{ end }}>
+    {{ with $img }}
+      {{- $2xl := $image.Resize "1280x" -}}
+      {{ $xl := $2xl.Resize "800x" -}}
+      {{ $lg := $xl.Resize "640x" -}}
+      {{ $md := $lg.Resize "480x" -}}
+      {{ $sm := $md.Resize "320x" -}}
+
+      <picture class="{{ if eq $.style "wide" }}order-1 col-span-2 lg:col-span-4 lg:col-start-9{{ else }}w-2/3{{ end }} block">
+        <img 
+          alt="two big friendly hands" 
+          class="w-full"
+          height="{{ $image.Height }}"
+          loading=eager
+          sizes="(min-width: 100em) 33vw, 96vw"
+          src="{{ $sm.RelPermalink }}" 
+          srcset="
+            {{ $sm.RelPermalink }} 320w,
+            {{ $md.RelPermalink }} 480w,
+            {{ $lg.RelPermalink }} 640w,
+            {{ $xl.RelPermalink }} 800w,
+            {{ $2xl.RelPermalink }} 1280w"
+          width="{{ $image.Width }}"
+        >
+      </picture>
+    {{ end }}
+
+    <div {{ if eq $.style "wide" }}class="col-span-full lg:col-span-7"{{ end }}>
+      <div class="max-w-[57ch]">
+        <h2 class="h--condensed h3 mb-4">Join our mailing list</h2>
+        <p class="text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta suscipit ante, eu mollis urna pulvinar sollicitudin. Praesent fringilla sed urna ac bibendum.</p>
+
+        <form method="post" action="https://hooks.zapier.com/hooks/catch/387239/3ltb1th/" data-subscribe-form>
+          <fieldset data-form>
+            <label for="email" class="font-sans text-xs font-bold">Your email address</label>
+            <div class="relative w-full mb-2">
+              <input type="email" id="email" name="email" class="border-2 border-indigo bg-white block w-full p-3 pr-[6.5rem] text-sm focus:outline-none focus:border-blue min-h-[3.625rem]">
+              <button type="submit" class="btn btn--small btn--primary absolute right-0 top-0 cursor-pointer">
+                Go
+                <svg class="w-8 h-3 shrink-0" role="presentation">
+                  <use xlink:href="#icon-arrow"/>
+                </svg>
+              </button>
+            </div>
+            <input type="hidden" id="from" name="from" value="{{ $.url }}">
+          </fieldset>
+          <div class="hidden" data-message></div>
+        </form>
+
+        <p class="font-sans text-xs">Your data will be processed by Kind and Campaign Monitor for the purposes of sending you a quarterly update email. For more information, please read our <a href="/about/legal/privacy/">privacy policy</a></p>
+      </div>
+    </div>
+  </div>
+</div>
