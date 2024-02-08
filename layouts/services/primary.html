@@ -75,7 +75,7 @@
   <div class="container section--lg">
     <h2 class="h--condensed mb-0 text-2xl 2xl:text-3xl text-center">{{ .title }}</h2>
     {{ range $i, $e := .items }}
-      <div class="{{ if not (modBool $i 2) }}bg-pink {{ end }}p-24 -mx-12">
+      <div class="{{ if not (modBool $i 2) }}bg-pink {{ end }} section--lg -mx-12 px-12">
         <div class="grid grid-cols-4 lg:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
           <div class="col-span-full lg:col-span-7 p-6 xl:px-8 xl:py-12 text-buff {{ if (modBool $i 2) }}bg-indigo{{ else }}bg-claret{{ end }}">
             <h3 class="h--condensed mb-4 h2">{{ $e.title }}</h3>

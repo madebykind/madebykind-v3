@@ -20,7 +20,7 @@
       {{ $md := $lg.Resize "480x" -}}
       {{ $sm := $md.Resize "320x" -}}
 
-      <picture class="{{ if eq $.style "wide" }}lg:order-1 col-span-2 lg:col-span-4{{ else }}w-2/3{{ end }} block">
+      <picture class="{{ if eq $.style "wide" }}lg:order-1 col-span-2 lg:col-span-4{{ else }}max-w-iphone{{ end }} block">
         <img 
           alt="two big friendly hands" 
           class="w-full {{ with $.image_class }}{{ . }}{{ end }}"

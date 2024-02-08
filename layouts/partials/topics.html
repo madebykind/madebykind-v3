@@ -1,9 +1,9 @@
 
-<div class="flex flex-wrap items-center gap-8">
+<div class="flex flex-wrap items-center gap-x-8 gap-y-4">
   <h2 class="font-sans text-sm font-bold normal-case">Related topics:</h2>
-  <ul class="flex flex-wrap gap-8 font-sans text-sm font-medium" role="list">
+  <ul class="flex flex-wrap gap-x-8 gap-y-4 font-sans text-sm font-medium" role="list">
     {{ range .Params.topics }}
-      <li class="relative flex items-center before:flex before:rounded-full before:-left-4 before:bg-orange before:h-2.5 before:w-2.5 before:absolute">
+      <li class="relative flex items-center before:flex before:rounded-full pl-4 before:left-0 before:bg-orange before:h-2.5 before:w-2.5 before:absolute">
         {{/* <a href="{{ "topics/" | absURL }}{{ . | anchorize }}">{{ title . }}</a> */}}
         {{ title . }}
       </li>

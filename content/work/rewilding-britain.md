@@ -59,7 +59,7 @@ teaser:
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network they are building and to encourage physical and financial support.
+  One of the key goals for Rewilding Britain is to incite action and participation. This meant that key goals for the website would be to drive engagement on all levels and increase support for rewilding in the UK, the Rewilding Network and to encourage physical and financial support.
 
   Through user needs testing, UX, and UI design we were able to develop a website that gave very different groups access to all of the information they needed to support and engage with the cause. Resulting in an increase of 149% in donations in the first six months from launch.
 
@@ -67,9 +67,7 @@ teaser:
 </div>
 
 
-{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" img="images/work-rewilding-britain-homepage.jpg" alt="A large screen with the Rewilding Britain website homepage displayed on it" >}}
-  Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse
-{{</ workquote >}}
+{{< workquote source="Rewilding Britain Manifesto" logo="logo-square-rewilding-britain" img="images/work-rewilding-britain-homepage.jpg" alt="A large screen with the Rewilding Britain website homepage displayed on it" >}}Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse{{</ workquote >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -77,7 +75,7 @@ teaser:
 
   ## Design system
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet volutpat congue. Suspendisse id dapibus est, at hendrerit nulla. In aliquam massa eget tortor posuere, at commodo tellus malesuada. Nulla lacinia ex at arcu eleifend molestie. Praesent ultrices odio nec arcu pharetra vulputate. Vestibulum sed ex suscipit, sagittis nulla sed, interdum diam. Vestibulum nisi metus, lobortis ac lacus nec, cursus mollis leo. Duis porta, dui vel porttitor pulvinar, sem diam consectetur dolor, id dictum velit nibh nec odio. In id sapien purus. Praesent vestibulum lectus sed fringilla vehicula.
+  As a growing and agile charity, Rewilding Britain from time-to-time will need change their strategic focus to better reflect the consensus on rewilding in the UK at the time. By delivering a component-based design system, our team reduced the design and development overhead of realising these changes in direction on the Rewilding Britain website.
 
   </div>
 </div>
@@ -90,8 +88,9 @@ teaser:
 
   ## Content strategy
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet volutpat congue. Suspendisse id dapibus est, at hendrerit nulla. In aliquam massa eget tortor posuere, at commodo tellus malesuada. Nulla lacinia ex at arcu eleifend molestie. Praesent ultrices odio nec arcu pharetra vulputate. Vestibulum sed ex suscipit, sagittis nulla sed, interdum diam. Vestibulum nisi metus, lobortis ac lacus nec, cursus mollis leo. Duis porta, dui vel porttitor pulvinar, sem diam consectetur dolor, id dictum velit nibh nec odio. In id sapien purus. Praesent vestibulum lectus sed fringilla vehicula.
-   
+  With an abundance of resources and content, it was important to deliver a content structure that allowed for ease of navigation and discovery, while providing clarity and inciting action.
+
+  Our team delivered and tested content wireframes for key journeys before producing templates that were structured for readability as well as adding visual interest through great imagery and differing content types, from stat-based infographics, through to video, blogs and clear calls to action.   
   </div>
 </div>
 
@@ -112,7 +111,8 @@ teaser:
 
   ## Network strategy
 
-  Rewilding Britain needed to build a strong network of rewilding projects and local organisations. To enable them to start conversations with these audiences, we created a ‘Networks’ area to enable information to be easily shared and for projects to prosper. Over 200 rewilding projects have signed up for this service.
+  Since 2015, Rewilding Britain have been building a network of rewilding projects and local organisations, offering expert advice and enabing action. To aid this work, we created a ‘Networks’ area where Rewilding Britain can share guidance and information on member-only events that helps rewilding projects to prosper. To date over 900 rewilding projects have been supported.
+
    
   </div>
 </div>
@@ -125,9 +125,9 @@ teaser:
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Accessibility
+  ## Digital sustainability
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet volutpat congue. Suspendisse id dapibus est, at hendrerit nulla. In aliquam massa eget tortor posuere, at commodo tellus malesuada. Nulla lacinia ex at arcu eleifend molestie. Praesent ultrices odio nec arcu pharetra vulputate. Vestibulum sed ex suscipit, sagittis nulla sed, interdum diam. Vestibulum nisi metus, lobortis ac lacus nec, cursus mollis leo. Duis porta, dui vel porttitor pulvinar, sem diam consectetur dolor, id dictum velit nibh nec odio. In id sapien purus. Praesent vestibulum lectus sed fringilla vehicula.
+  As part of our ongoing relationship with Rewilding Britain, we work to ensure that their website and content meets and exceeds accessibility standards and  performance and SEO best practices. Additionally to this, we continually work to reduce the environmental impact of their website through digital sustainability practices, culminating in the website being certified as a [Climate-Positive website](https://ecofriendlyweb.org/client/rewilding-britain/) by The Eco-Friendly Web Alliance.
    
   </div>
 </div>

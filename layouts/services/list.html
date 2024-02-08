@@ -10,7 +10,7 @@
       {{ range $i,$p := .Pages }}
         <section id="{{ .Params.Heading | anchorize }}" class="col-span-full xl:col-span-4">
           <a href="{{ .Permalink }}" class="group no-underline">
-            <div class="flex xl:flex-col gap-10 h-full">
+            <div class="flex flex-col md:flex-row xl:flex-col gap-10 h-full">
               <div class="aspect-3/4 lg:aspect-4/3">
                 {{ if .Params.cover_img }}
                   {{ partial "image__teaser-lg" . }}
