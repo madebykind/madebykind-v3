@@ -11,13 +11,12 @@ draft: false
 description: How can we adapt our process to create usable and useful products
   that are environmentally and ethically sound?
 toc: false
+key_topic: Our impact
 topics:
-  - Our impact
   - Digital sustainability
   - Environment
   - Strategy
 featured: true
-key_topic: Insights
 intro: After attending New Adventures in January, we were inspired by talks from
   Cennydd Bowles and Laura Kalbag.
 related_pages: []

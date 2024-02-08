@@ -1,6 +1,6 @@
 ---
 hidden: false
-title: Kind certifies as a B Corporation
+title: Kind certifies as a B Corp
 card_colour: bg-sky text-green
 date: 2022-03-22
 author: michelle
