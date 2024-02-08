@@ -45,9 +45,9 @@ teaser:
     - img: images/work-shu-runner.jpg
       alt: A woman looking over a view of Sheffield city centre at dawn.
     - img: images/work-shu-laptop-2.jpg
-      alt: 
+      alt: The Sheffield Hallam University website shown on a laptop on a wooden table
     - img: images/work-shu-jackson.jpg
-      alt: 
+      alt: A young boy with a VR headset
       stat:
         - 40-percent
 ---

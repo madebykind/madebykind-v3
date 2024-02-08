@@ -36,13 +36,13 @@ teaser:
   description: NTU asked Kind to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of their audiences.
   images:
     - img: images/work-ntu-open-space.jpg
-      alt: 
+      alt: A group of people sat at tables in groups
       stat:
         - 100s
     - img: images/work-ntu-mobile-thread.jpg
-      alt: 
+      alt: A page from the NTU website on a mobile device
     - img: images/work-ntu-bonnington.jpg
-      alt: 
+      alt: The Bonnington Gallery
 ---
 
 {{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-brand-image.jpg" alt="Two students walk down a cobbled street" >}}
@@ -67,8 +67,8 @@ We are driven by our determination to become the University of the future. By ad
 </div>
 
 {{< multi-image
-  src_1="../images/work-ntu-open-space.jpg" alt_1=""
-  src_4="../images/work-ntu-open-space-2.jpg" alt_4="" >}}
+  src_1="../images/work-ntu-open-space.jpg" alt_1="A group of people sat at tables in groups"
+  src_4="../images/work-ntu-open-space-2.jpg" alt_4="A group of people sat at a table having a discussion" >}}
 
 
 
@@ -85,7 +85,7 @@ We are driven by our determination to become the University of the future. By ad
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-ntu-wireframes.jpg" alt="" >}}
+{{< figure wrapperclass="" src="../images/work-ntu-wireframes.jpg" alt="An over the shoulder photograph of a computer screen. The screen has blue and white 'wireframe' style designs of web templates on it" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -115,7 +115,7 @@ From initiation right through to production the guys were always open, friendly 
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-ntu-mobile-thread.jpg" alt="" align="right" >}}
+{{< figure wrapperclass="" src="../images/work-ntu-mobile-thread.jpg" alt="A page from the NTU website on a mobile device" align="right" >}}
 
 
-{{< figure wrapperclass="" src="../images/work-ntu-desktop-screens.jpg" alt="" >}}
+{{< figure wrapperclass="" src="../images/work-ntu-desktop-screens.jpg" alt="A number of mockups of pages on the NTU website" >}}

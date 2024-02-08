@@ -19,11 +19,11 @@ cover_img_alt: A Blue Tit on a branch
 banner_type: slideshow
 banner_images:
   - img: images/work-rewilding-britain-carousel-2.jpg
-    alt: 
+    alt: A beaver on a river bank
   - img: images/work-rewilding-britain-carousel-3.jpg
-    alt: 
+    alt: A landscape with hills and mountains in the back
   - img: images/work-rewilding-britain-carousel-4.jpg
-    alt: 
+    alt: A rewilding meadow in late Summer. Grasses and wild flowers seeding. Oak tree and a rough Hazel hedge field boundary
 key_stat:
   - 149-percent
 description: Big thinking for a cause we really care about
