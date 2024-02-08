@@ -110,12 +110,14 @@ From world-class and emerging talent to the next generation, to our audiences an
 
 {{< image-cycle
   align="right"
-  src_1="../images/work-chapter-design-system.jpg"
+  src_1="../images/work-chapter-design-system-1.png"
   alt_1="Chapter website components"
-  src_2="../images/work-chapter-design-system.jpg"
+  src_2="../images/work-chapter-design-system-2.png"
   alt_2="Chapter website components"
-  src_3="../images/work-chapter-design-system.jpg"
-  alt_3="Chapter website components" >}}
+  src_3="../images/work-chapter-design-system-3.png"
+  alt_3="Chapter website components"
+  src_4="../images/work-chapter-design-system-4.png"
+  alt_4="Chapter website components" >}}
 
 {{< figure wrapperclass="" alt="Chapter website shown on a laptop screen" src="../images/work-chapter-laptop.jpg" >}}
 
