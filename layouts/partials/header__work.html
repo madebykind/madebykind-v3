@@ -11,16 +11,16 @@
   {{ if or (.Params.toc) (.Params.external_link) }}
     <div class="flex flex-col lg:gap-6 lg:justify-between lg:flex-row w-full">
       {{ if .Params.toc }}
-        <div class="flex flex-col lg:flex-row items-start lg:items-center gap-5 lg:gap-10 my-12">
+        <div class="flex flex-col lg:flex-row items-start gap-5 lg:gap-10 my-12 lg:my-0">
           <h2 class="font-sans text-base font-normal">Deliverables:</h2>
           {{ partial "toc" . }}
         </div>
       {{ end }}
      
       {{ with .Params.external_link }}
-        <a href="{{ . }}" class="font-sans inline-flex gap-2 items-center shrink-0 justify-self-end">
+        <a href="{{ . }}" class="font-sans inline-flex gap-2 items-start shrink-0 justify-self-end leading-none">
           Launch project
-          <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
+          <svg class="w-4 h-4 lg:w-5 lg:h-5 mt-1" role="presentation">
             <use xlink:href="#icon-external"/>
           </svg>
         </a>
