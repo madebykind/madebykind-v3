@@ -16,7 +16,7 @@ topics:
   - CMS integration
   - CRM integration
 block_class: bg-blue text-sky
-external_link: https://theriverstrust.org.uk/
+external_link: https://theriverstrust.org
 icon: rt-logo
 description: A user-centred website to build awareness and gain public support
 services:
