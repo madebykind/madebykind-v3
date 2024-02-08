@@ -1,11 +1,16 @@
 <div class="{{ $.wrapper_class }} snap-start overflow-hidden w-full">
         
   <div class="flex -ml-8 lg:m-0 {{ if $.indent_images }} justify-end {{ end }}">
-    {{ range $i, $image := $.context.Params.teaser.images }}
+    {{ range $i, $image := $.context.Params.teaser.images }} 
+      {{ $img_class := "h-full w-full object-cover" }}
+      {{ if $image.darken }}
+        {{ $img_class = "h-full w-full object-cover brightness-75" }}
+      {{ end }}
+
       <div class="relative aspect-4/3 shrink-0 h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem] {{ if $image.stat }} order-first xl:order-last {{ else }} order-[{{ (add $i 1 ) }}]{{ end }}">
         {{ partial "image" (dict 
           "alt" $image.alt
-          "class" "h-full w-full object-cover"
+          "class" $img_class
           "src" $image.img 
         ) }}
         {{ range $image.stat }}

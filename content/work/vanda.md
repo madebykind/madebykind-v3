@@ -168,8 +168,9 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-va-creswell-mood.jpg" alt="Moodboard for the Creswell Digital Archive" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="../images/work-va-creswell-mood.jpg" alt="Moodboard for the Creswell Digital Archive" >}}
   
-  <div class="col-span-full lg:col-span-8">
-  {{< mobile-scroll src="../images/work-va-creswell-mobile-scroll.png" alt="a mockup of the search page on the Creswell digital archive" wrapper_class="aspect-ipad max-w-[16.5rem]" speed="1500" loop="true">}}</div>
+  <div class="col-span-full lg:col-span-4">
+    {{< mobile-scroll src="../images/work-va-creswell-mobile-scroll.png" alt="a mockup of the search page on the Creswell digital archive" wrapper_class="aspect-ipad max-w-[16.5rem]" speed="1500" loop="true">}}
+  </div>
 </div>

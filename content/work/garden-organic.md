@@ -72,7 +72,7 @@ We want to inspire individuals, communities and the next generation to use innov
 
 {{< multi-image
   src_2="../images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
-  src_3="../images/work-garden-organic-phone.jpg" alt_3="he Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
+  src_3="../images/work-garden-organic-phone.jpg" alt_3="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
 
 
 <!-- Text left -->

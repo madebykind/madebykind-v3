@@ -7,10 +7,9 @@
 
 
 
+{{ if $align }}<div class="grid grid-cols-3 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">{{ end }}
 
-<div class="grid grid-cols-3 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-
-  <div class="col-span-full {{ if $align }} lg:col-span-2 {{ end }}{{ if eq $align "right" }} lg:col-start-2 {{ end }}" data-slide-show>
+<div class="{{ if $align }} col-span-full lg:col-span-2 {{ end }}{{ if eq $align "right" }} lg:col-start-2 {{ end }}" data-slide-show>
 
   {{ if .Get "src_1" }}
     {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src_1")) -}}
@@ -116,6 +115,6 @@
     </picture>
   {{ end }}
 
-  </div>
-
 </div>
+{{ if $align }}</div>{{ end }}
+

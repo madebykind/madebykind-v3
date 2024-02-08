@@ -18,10 +18,10 @@ teaser:
   title: Open Standards for Data Guidebook
   description: An easy-to-use online guidebook for organisations developing open standards for data.
   images:
-    - img: images/work-eti-laptop.jpg
-      alt: The ETI's searchable archive of low-carbon research shown on a laptop
-    - img: images/work-eti-offshore-wind.jpg
-      alt: Sunset photograph of the sea with a wind farm in the distance
+    - img: images/work-odi-circles.png
+      alt: 8 coloured circles overlapping in two rows
+    - img: images/work-odi-desktop.jpg
+      alt: The ODI patterns catalogue on a laptop
 services:
   - digital
 ---

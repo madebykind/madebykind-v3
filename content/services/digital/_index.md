@@ -1,8 +1,8 @@
 ---
 related_projects:
   - slug: work/rewilding-britain
-  - slug: work/the-rivers-trust
   - slug: work/vanda
+  - slug: work/the-rivers-trust
 block_class: "bg-blue text-sky group-hover:bg-sky group-hover:text-blue"
 header_class: bg-blue text-pink
 hidden: false
