@@ -128,8 +128,6 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   </div>
 </div>
 
-<!-- {{< multi-image
-  src_2="../images/work-va-glasto-mobile.jpg" alt_2="The Glastonbury Digital Archive shown on a mobile device" >}} -->
 
 {{< mobile-scroll align="middle" src="../images/work-va-glastonbury-mobile-scroll.png" alt="a mockup of a performer record page on the Glastonbury digital archive" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
 
