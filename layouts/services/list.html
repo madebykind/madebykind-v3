@@ -9,24 +9,26 @@
     <div class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-8 xl:gap-y-12">
       {{ range $i,$p := .Pages }}
         <section id="{{ .Params.Heading | anchorize }}" class="col-span-full xl:col-span-4">
-          <div class="flex xl:flex-col gap-10 h-full">
-            <div class="aspect-3/4 lg:aspect-4/3">
-              {{ if .Params.cover_img }}
-                {{ partial "image__teaser-lg" . }}
-              {{ end }}
-            </div>
-            <div class="flex flex-col justify-between items-start">
-              <div class="prose">
-                <h2>{{ .Params.Title }}</h2>
-                <p>{{ .Params.teaser_description }}</p>
+          <a href="{{ .Permalink }}" class="group no-underline">
+            <div class="flex xl:flex-col gap-10 h-full">
+              <div class="aspect-3/4 lg:aspect-4/3">
+                {{ if .Params.cover_img }}
+                  {{ partial "image__teaser-lg" . }}
+                {{ end }}
               </div>
-              <a href="{{ .Permalink }}" class="mt-6 btn btn--primary shrink-0">Read more <span class="sr-only"> about our {{ .Params.Title }} offering</span>
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"></use>
-                </svg>
-              </a>
+              <div class="flex flex-col justify-between items-start">
+                <div class="prose">
+                  <h2>{{ .Params.Title }}</h2>
+                  <p>{{ .Params.teaser_description }}</p>
+                </div>
+                <button class="mt-6 btn btn--primary shrink-0 group-hover:bg-blue group-hover:text-pink group-hover:border-blue group-focus:bg-blue group-focus:text-pink group-focus:border-blue">Read more <span class="sr-only"> about our {{ .Params.Title }} offering</span>
+                  <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+                    <use xlink:href="#icon-arrow"></use>
+                  </svg>
+                </button>
+              </div>
             </div>
-          </div>
+          </a>
         </section>
       {{ end }}
     </div>
