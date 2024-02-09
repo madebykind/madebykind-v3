@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Education
 heading: Strategy, Brand and Digital for the Education Sector
 cover_img: images/work-ntu-mobile-thread.jpg
