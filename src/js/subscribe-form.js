@@ -2,6 +2,7 @@ function SubscribeForm(el) {
   const action = el.getAttribute('action');
   const form = el.querySelector("[data-form]");
   const message = el.querySelector("[data-message]");
+  const successContent = message.dataset.messageSuccess;
   const honeypotField = el.querySelector("input.h0n")
 
 
@@ -18,7 +19,7 @@ function SubscribeForm(el) {
         xhr.send(JSON.stringify(
           Object.fromEntries(formData)
         ));
-        message.innerHTML = "Thanks, you're signed up!"
+        message.innerHTML = (successContent !== undefined) ? successContent : "Thanks, you're signed up!"
         form.remove();
         message.classList.remove('hidden');
       } catch(e) {

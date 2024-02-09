@@ -1,17 +1,24 @@
 <header{{ with .Params.header_class }} class="{{ . }}"{{ end }}>
-	<div class="container grid items-end content-end gap-10 section--lg">
+  <div class="container grid items-end content-end gap-10 section--lg">
     <div class="grid max-w-6xl gap-10">
-			<h1>{{ .Params.Heading }}</h1>
+      <h1>{{ .Params.Heading }}</h1>
       {{ if .Params.intro }}
         <div class="max-w-5xl prose lede cta_prose">
           {{ .Params.intro | markdownify }}
         </div>
       {{ end }}
-		</div>
-		{{ if  .Params.toc }}
-			<div class="col-span-12">
-				{{ .TableOfContents }}
-			</div>
-		{{ end }}
-	</div>
+      {{ if .Params.header_cta }}
+        <a href="{{ .Params.header_cta.url }}" class="btn btn--primary justify-self-start">{{ .Params.header_cta.text }}
+          <svg class="w-8 h-3 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+      {{ end }}
+    </div>
+    {{ if  .Params.toc }}
+      <div class="col-span-12">
+        {{ .TableOfContents }}
+      </div>
+    {{ end }}
+  </div>
 </header>
