@@ -53,49 +53,40 @@ We want to inspire individuals, communities and the next generation to use innov
 
   ## Engaging new audiences
 
-  Garden Organic had built a new offline brand and they worked with us to bring that to life digitally, attracting new and varied demographics and making the site even more appealing to audiences who were new to organic gardening.
+  Garden Organic's new offline brand was created to attract new audiences to organic gardening. Our team brought this to life digitally, integrating illustrative assets and the 'human-touch' the identity delivered.
+
+  To further engage these new demographics, we devised a digital content strategy that distilled the abundance of knowledge and varying degrees of complex information into a website that is suitable for all ages, experiences, and digital literacy levels, making it easy to navigate and find expert advice on growing the organic way.
 
   </div>
 </div>
 
 {{< figure wrapperclass="" align="left" src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
 
-<!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
-
-  ## Communicating to broad demographics and being inclusive
-
-  The new site needed to distill a lot of complex information in a way that was suitable for all ages, experiences, and digital literacy levels. It had to be easy to navigate and to find expert advice on growing the organic way.
-
-  </div>
-</div>
-
 {{< multi-image
   src_2="../images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
   src_3="../images/work-garden-organic-phone.jpg" alt_3="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
 
 
-<!-- Text left -->
+<!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Establishing different journeys
+  ## Ecommerce and CRM integration
 
-  Expanding their dedicated user base to welcome new gardeners and take them from generally interested to signing up for full membership.
+  We integrated the Garden Organic website directly with Opayo and their third-party CRM to handle online transactions such as donations and membership registrations, as well as taking orders from members of the Heritage Seed Library.
 
   </div>
 </div>
 
 {{< figure wrapperclass="" align="left" src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
 
-<!-- Text right -->
+<!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+  <div class="prose col-span-full lg:col-span-8">
 
-  ## Making payments easy
+  ## Membership portal
 
-  Establishing e-commerce with integrated CRM to manage multiple membership types, donations, event bookings, and a seed shop.
+  As well as allowing users to manage their membership online, for the first time, we gave Garden Organic the ability to offer exclusive content, offers and benefits to their members through a membership portal.
 
   </div>
 </div>

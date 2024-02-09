@@ -100,7 +100,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
 </div>
 
-{{< mobile-scroll align="left" src="../images/work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone" >}}
+{{< mobile-scroll align="left" src="../images/work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
 
 {{< figure wrapperclass="" align="left" src="../images/work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
 
