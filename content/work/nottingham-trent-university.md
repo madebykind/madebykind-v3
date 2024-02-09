@@ -28,8 +28,10 @@ related_work:
   - jackson-crane
 weight: 9
 banner_type: standard
-banner_img: images/work-ntu-bonnington.jpg
-banner_img_alt: Bonnington Gallery
+banner_img: images/work-ntu-brand-image.jpg
+banner_img_alt: Two students walk down a cobbled street
+banner_icon: ntu-logo
+banner_img_class: brightness-75
 toc: true
 teaser:
   title: A user-centred realignment of the University of the Year’s website
@@ -45,7 +47,7 @@ teaser:
       alt: The Bonnington Gallery
 ---
 
-{{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-brand-image.jpg" alt="Two students walk down a cobbled street" >}}
+{{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-bonnington.jpg" alt="Bonnington Gallery" >}}
 We are driven by our determination to become the University of the future. By addressing the themes within our current University strategy, University, reimagined, we are tackling social injustice, valuing ideas and creating opportunities.
 {{</ workquote >}}
 

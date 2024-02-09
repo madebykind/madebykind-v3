@@ -33,9 +33,12 @@ related_work:
   - rewilding-britain
   - the-rivers-trust
 weight: 4
+key_stat:
+    - 40-percent
 banner_type: standard
-banner_img: images/test-image-landscape.jpg
+banner_img: images/work-shu-header.jpg
 banner_img_alt: Test image
+banner_icon: shu-logo
 toc: true
 teaser:
   title: A sustainable design system to improve the efficiency of digital projects
@@ -91,7 +94,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
   ## User-centred design
 
-  As with all complex organisations, SHU has a varied audience, all of which have differing needs and motivations for interacting with the university online. We ran a user-centred process throughout the project to ensure that design decisions and assumptions were validated with real members of SHU’s target audience. 
+  As with all complex organisations, SHU has a varied audience, all of which have differing needs and motivations for interacting with the university online. We ran a user-centred process throughout to ensure that design decisions and assumptions were validated with real members of SHU’s target audience. 
 
   </div>
 
@@ -108,7 +111,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
   ## Accessible and performant
 
-  SHU’s need for a highly-accessible web presence aligned with our team’s value of delivering for everyone.All of the components and templates meet the AAA of WCAG 2.1 and are designed following the principles of progressive enhancement; that means starting with the minimal, accessible design, and then improving the experience along with the capability of the user’s browser, technology or preferences.
+  SHU’s need for a highly-accessible web presence aligned with our team’s value of delivering for everyone. All of the components and templates meet the AAA of WCAG 2.1 and are designed following the principles of progressive enhancement; starting with the minimal, accessible design, and then improving the experience along with the capability of the user’s browser, technology or preferences.
 
   </div>
 </div>
@@ -119,7 +122,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Multi-platform usage
+  ## Business-as-usual support
 
   As part of supporting the regular projects that SHU’s digital experiences team needed to deliver, we designed and created a hub for all of their Clearing content which was launched a few weeks before the clearing window opened in the UK. Together we devised useful components such as a “self-selection” feature which would help to surface more relevant content and a pre-application process which helped SHU to fill 40% of their places before clearing began.
 

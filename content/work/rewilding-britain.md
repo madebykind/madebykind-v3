@@ -24,6 +24,7 @@ banner_images:
     alt: A landscape with hills and mountains in the back
   - img: images/work-rewilding-britain-carousel-4.jpg
     alt: A rewilding meadow in late Summer. Grasses and wild flowers seeding. Oak tree and a rough Hazel hedge field boundary
+banner_icon: rwb-logo
 key_stat:
   - 149-percent
 description: Big thinking for a cause we really care about

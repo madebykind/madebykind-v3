@@ -25,6 +25,7 @@ weight: 8
 banner_type: standard
 banner_img: images/work-jackson-crane-p80-2.jpg
 banner_img_alt: Rendered image of a biophilic house
+banner_icon: jackson-crane-logo
 ---
 
 {{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" >}}

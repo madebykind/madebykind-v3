@@ -38,6 +38,7 @@ toc: true
 banner_type: standard
 banner_img: images/Work-VA-Header-BG.jpg
 banner_img_alt: The Ancient City of Petra, Jordan
+banner_icon: va-logo
 ---
 
 

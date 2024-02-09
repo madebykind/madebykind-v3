@@ -24,8 +24,9 @@ related_work:
   - the-rivers-trust
 weight: 5
 banner_type: standard
-banner_img: images/test-image-landscape.jpg
+banner_img: images/work-garden-organic-header.jpg
 banner_img_alt: Test image
+banner_icon: garden-organic-logo
 toc: true
 teaser:
   title: Website redesign and online member portal

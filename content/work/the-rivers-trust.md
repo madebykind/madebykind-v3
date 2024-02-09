@@ -29,6 +29,7 @@ weight: 6
 banner_type: standard
 banner_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 banner_img_alt: A river in the Scottish Higlands
+banner_icon: rt-logo
 teaser:
   title: Helping to build awareness of the state of rivers
   description: A clear online presence for the Rivers Trust which articulates their work and incites engagement and action.

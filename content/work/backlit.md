@@ -28,7 +28,8 @@ weight: 7
 banner_type: standard
 banner_img: images/work-backlit-interior.png
 banner_img_alt: Interior of an old industrial building, now an art gallery
-banner_logo_class: text-black
+banner_logo_class: text-indigo
+banner_icon: backlit-logo
 toc: true
 ---
 
@@ -60,7 +61,7 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
 
   Backlit is more than a gallery and is home to local artists to develop their skills. They hire out event space and sell studio memberships to enable them to fund the gallery. This was important to make clear on the new site to help them continue to run the organisation and guarantee the funding they need.
 
-  ## Historic Archive
+  ## Historic archive
 
   Backlit and Kind have an established partnership. Before their website redesign project, we worked collaboratively to build the Samuel Morley Archive, an interactive and immersive online exhibition.
 
