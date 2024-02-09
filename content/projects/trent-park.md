@@ -1,6 +1,6 @@
 ---
 hidden: false
-draft: false
+draft: true
 date: 2024-02-02T10:41:59.831Z
 title: "User-centred design to launch a **digital museum**"
 name: Trent Park House
