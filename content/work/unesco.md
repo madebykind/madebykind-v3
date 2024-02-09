@@ -67,7 +67,7 @@ Education is a fundamental human right. For children and youth caught up in emer
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-unesco-internal-page.jpg" alt="" >}}
 
-  <div class="col-span-full lg:col-span-4">
+  <div class="col-span-full lg:col-span-4 bg-white flex items-center">
 
   {{< image-cycle
     src_1="../images/work-unesco-character-1.jpg"
