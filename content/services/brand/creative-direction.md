@@ -2,11 +2,11 @@
 cover_img: 
 cover_img_alt:
 date: 2020-04-30T17:28:36.948Z
-description: It is essential for crafting a cohesive and memorable brand identity. It guides the visual and conceptual elements, ensuring consistency and resonance with the audience, ultimately differentiating the brand and creating a lasting impression. 
+description: Guiding visual and conceptual elements for a cohesive and memorable brand identity, ensuring consistency for lasting impressions.
 header_class: 
 toc: true
 hidden: false
-intro: It is essential for crafting a cohesive and memorable brand identity. It guides the visual and conceptual elements, ensuring consistency and resonance with the audience, ultimately differentiating the brand and creating a lasting impression.
+intro: Guiding visual and conceptual elements for a cohesive and memorable brand identity, ensuring consistency for lasting impressions.
 related_pages:
 related_posts:
 related_work:

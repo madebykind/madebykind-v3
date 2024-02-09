@@ -1,8 +1,8 @@
 ---
 related_projects:
   - slug: work/chapter
-  - slug: work/backlit
   - slug: work/hispanists
+  - slug: work/backlit
 block_class: "bg-yellow text-green group-hover:bg-green group-hover:text-yellow"
 header_class: bg-blue text-pink
 hidden: false
@@ -24,7 +24,7 @@ teaser_image:
     img: images/be-a-good-human.png
     alt: "Illustration: A person climbing a ladder towards a large hand"
 subservices_heading: Our skills
-subservices_description: We work from the ground up; your brand foundations, personality, values, design style all the way up to the final output of a carefully crafted brand identity
+subservices_description: We work from the ground up; your brand foundations, personality, values, design style all the way up to the final output of a carefully crafted brand identity.
 packages:
   title: Our packages
   items:

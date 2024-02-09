@@ -2,11 +2,11 @@
 cover_img: 
 cover_img_alt:
 date: 2020-04-30T17:28:36.948Z
-description: This plays a crucial role in shaping a cohesive visual narrative that aligns with the intended message and brand identity through photography and motion. It ensures visually compelling content that resonates with the audience, enhances brand recognition, and communicates a consistent and memorable visual identity across different executions, ultimately making the brand more impactful. 
+description: Shaping a cohesive visual narrative for enhanced recognition and a consistent, memorable visual identity through photography and motion.
 header_class: 
 toc: true
 hidden: false
-intro: This plays a crucial role in shaping a cohesive visual narrative that aligns with the intended message and brand identity through photography and motion. It ensures visually compelling content that resonates with the audience, enhances brand recognition, and communicates a consistent and memorable visual identity across different executions, ultimately making the brand more impactful.
+intro: Shaping a cohesive visual narrative for enhanced recognition and a consistent, memorable visual identity through photography and motion.
 related_pages:
 related_posts:
 related_work:
