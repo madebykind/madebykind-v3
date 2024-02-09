@@ -13,6 +13,7 @@ enableRobotsTXT = true
 summarylength = 10
 paginate = 6
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+timeout = "300s"
 
 [build]
   publishResources = true
