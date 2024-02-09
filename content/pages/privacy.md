@@ -18,6 +18,7 @@ We don’t use Google Analytics or any other in-depth analytics tool that captur
 Our website uses one cookie, which is set by Cloudflare and is called `_cfduid`. It is used to check whether you’re a bad egg and likely to try to hack or take down our website. It doesn’t track you in any way or store any of your personal details. More information can be found here: [Privacy and the _cfduid cookie](https://developers.cloudflare.com/fundamentals/get-started/reference/cloudflare-cookies/#12345682)
 
 ## Mailing list
+
 If you decide to sign up to our mailing list, we’ll send you an email to confirm this before your data is added.
 
 Your data will be processed by Kind and Campaign Monitor for the purposes of sending you updates. We will send a maximum of 6 updates per year.
