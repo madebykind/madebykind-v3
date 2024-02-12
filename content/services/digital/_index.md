@@ -21,7 +21,7 @@ description: >
   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum nec ligula a quam scelerisque consequat nec eget nunc. Morbi eu scelerisque lorem. In hac habitasse platea dictumst. In lorem nunc, accumsan vel nibh vel, pharetra condimentum ex.
 
 
-teaser_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed aliquam nunc, quis condimentum eros. Aliquam ornare pulvinar placerat. Cras pretium pretium dolor, vel sagittis diam mattis scelerisque.
+teaser_description: Our team has decades of experience delivering digital strategies, integrated websites and applications for large organisations.
 teaser_image:
     img: images/be-a-good-human.png
     alt: "Illustration: A person climbing a ladder towards a large hand"
