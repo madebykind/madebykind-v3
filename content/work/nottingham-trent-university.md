@@ -39,6 +39,7 @@ teaser:
   images:
     - img: images/work-ntu-open-space.jpg
       alt: A group of people sat at tables in groups
+      darken: true
       stat:
         - 100s
     - img: images/work-ntu-mobile-thread.jpg
