@@ -8,12 +8,14 @@ header_class: bg-blue text-pink
 hidden: false
 featured: true
 title: Digital
+seo_title: Digital services for purpose-driven organisations
 heading: A digital force for good
 date: 2020-04-30T17:28:36.948Z
 weight: 3
 cover_img: images/work-rivers-trust-phone.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
-description: >
+description: Through our collaborative user-centred process, focused on strategy, our digital experts help bring our clients’ purpose to life online.
+intro: >
 
   Through our collaborative user-centred process, focused on strategy, our digital experts help bring our clients’ purpose to life online.
 
