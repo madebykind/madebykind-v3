@@ -8,12 +8,14 @@ header_class: bg-blue text-pink
 hidden: false
 featured: true
 title: Brand
+seo_title: Brand strategy, visual identity for purpose-driven organisations
 heading: Brands that capture attention and hearts
 date: 2020-04-30T17:28:36.948Z
 weight: 2
 cover_img: images/work-chapter-poster-bus-stop-2-landscape.jpg
 cover_img_alt: A single poster mockup for the performance ‘Always Already’. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image.
-description: >
+description:  Crafting brands that not only stand out but also feel like something you can truly believe in, we ensure they become something you can truly be a part of.
+intro: >
 
   Crafting brands that not only stand out but also feel like something you can truly believe in, we ensure they become something you can truly be a part of.
 
@@ -34,12 +36,12 @@ packages:
         - Creative direction
         - One overarching design moodboard 
         - Logo 
-        - Fonts (on & off-line)
+        - Fonts for on-line and off-line use
         - Primary colour palette
         - Positioning statement
         - Tone of voice summary and guidance
-        - Key messages (x3)
-        - Digital guidance doc of approx 12 pages
+        - 3 key messages
+        - Digital guidance document
       block_class: bg-yellow text-indigo
       cost: £6,000
       additional:
@@ -53,13 +55,13 @@ packages:
         - One overarching design moodboard
         - Art Direction moodboard 
         - Logo 
-        - Fonts (on & off-line)
+        - Fonts for on-line and off-line use
         - Primary & secondary colour palettes
-        - Secondary branding, such as icons
+        - Secondary branding such as icons
         - Manifesto
         - Tone of voice summary and guidance
-        - Key messages (x4)
-        - Digital guidance doc of approx 16 pages
+        - 4 key messages
+        - Digital guidance document
       block_class: bg-pink text-indigo
       cost: £8,000
     - title: Premium
@@ -68,14 +70,14 @@ packages:
         - Two overarching design moodboards
         - Art Direction & motion moodboard 
         - Logo with variations 
-        - Fonts (on & off-line)
+        - Fonts for on-line and off-line use
         - Primary & secondary colour palettes
-        - Secondary branding, such as icons, illustrations and textures
+        - Secondary branding such as icons, illustrations and textures
         - Brand values
         - Manifesto
         - Tone of voice
-        - Key messages (x6)
-        - Digital guidance doc of approx 20 pages
+        - 6 key messages
+        - Digital guidance document
       block_class: bg-sky text-indigo
       cost: £11,000
       additional:
