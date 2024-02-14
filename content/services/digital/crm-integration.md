@@ -2,16 +2,14 @@
 cover_img: 
 cover_img_alt:
 date: 2020-04-30T17:28:36.948Z
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
-  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
-  euismod te qui. 
+description: We regularly integrate with CRM tools from Microsoft Dynamics to ThankQ and Spektrix, reducing our clients’ workload and giving them a joined up picture of their users.
 header_class: 
-toc: true
 hidden: false
-intro: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+intro: We regularly integrate with CRM tools from Microsoft Dynamics to ThankQ and Spektrix, reducing our clients’ workload and giving them a joined up picture of their users.
 related_pages:
 related_posts:
 related_work:
 title: CRM integration
 heading: CRM integration
+weight: 7
 ---

@@ -6,20 +6,17 @@ related_work:
 header_class: bg-pink text-claret
 toc: true
 hidden: false
-intro: The most successful digital projects are those that put the needs of
-  their users first. User-centred design is an approach that helps us to do just
-  that.
+intro: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that identifies the people who will use a digital product, explores their needs and works with them to deliver design solutions that meet those needs.
 title: User-centred design
 heading: User-centred design
 date: 2020-04-30T17:28:36.948Z
 cover_img: images/true-to-who-we-are-v2.png
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
-  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
-  euismod te qui.
+description: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that identifies the people who will use a digital product, explores their needs and works with them to deliver design solutions that meet those needs.
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
   - ethical-digital-projects
   - kind-certifies-a-b-corporation
+weight: 1
 ---
 
 {{% split heading="What is user-centred design?" %}}

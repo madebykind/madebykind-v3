@@ -8,25 +8,23 @@ header_class: bg-blue text-pink
 hidden: false
 featured: true
 title: Digital
-heading: Digital
+heading: A digital force for good
 date: 2020-04-30T17:28:36.948Z
 weight: 3
 cover_img: images/work-rivers-trust-phone.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
 description: >
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed aliquam nunc, quis condimentum eros. Aliquam ornare pulvinar placerat. Cras pretium pretium dolor, vel sagittis diam mattis scelerisque.
+  Through our collaborative user-centred process, focused on strategy, our digital experts help bring our clients’ purpose to life online.
 
 
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum nec ligula a quam scelerisque consequat nec eget nunc. Morbi eu scelerisque lorem. In hac habitasse platea dictumst. In lorem nunc, accumsan vel nibh vel, pharetra condimentum ex.
-
-
+  Delivering accessible, usable and sustainable digital projects that work for everyone and are better for the planet.
 teaser_description: Our team has decades of experience delivering digital strategies, integrated websites and applications for large organisations.
 teaser_image:
     img: images/be-a-good-human.png
     alt: "Illustration: A person climbing a ladder towards a large hand"
-subservices_heading: Our skills
-subservices_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed aliquam nunc, quis condimentum eros. Aliquam ornare pulvinar placerat.
+subservices_heading: Our digital services
+subservices_description: Our team has decades of experience delivering digital projects, integrated websites and applications for large organisations.
 related_posts:
     - start-your-next-digital-project-with-a-paid-discovery-phase
     - building-a-more-sustainable-website-architecture
