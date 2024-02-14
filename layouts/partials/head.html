@@ -1,3 +1,8 @@
+{{ $seo_title := .Params.Title }}
+{{ with .Params.seo_title }}
+  {{ $seo_title = . }}
+{{ end }}
+
 <head>
 	<!-- Ultra-turbo-features_v8. The best version. -->
 	<meta charset="utf-8">
@@ -6,10 +11,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Page title, if there is one. If not, site title. -->
-	<title>{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
+	<title>{{ with $seo_title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
 
 	<!-- Page description goes here, if there is one. If not, we'll summarize from page content. Failing that, fallback to global site description. -->
-	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
 	<!-- Yo! Assets list, right here. Pre-load em while they hot! -->
 	<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
