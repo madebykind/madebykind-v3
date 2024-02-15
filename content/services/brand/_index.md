@@ -3,7 +3,6 @@ related_projects:
   - slug: work/chapter
   - slug: work/hispanists
   - slug: work/backlit
-  - slug: work/vanda
 block_class: "bg-yellow text-green group-hover:bg-green group-hover:text-yellow"
 header_class: bg-blue text-pink
 hidden: false

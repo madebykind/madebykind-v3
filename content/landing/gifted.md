@@ -41,5 +41,6 @@ related_projects:
   - slug: work/chapter
   - slug: work/backlit
   - slug: work/hispanists
+  - slug: work/vanda
 ---
 
