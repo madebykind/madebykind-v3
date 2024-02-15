@@ -6,12 +6,12 @@ related_work:
 header_class: bg-pink text-claret
 toc: true
 hidden: false
-intro: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that identifies the people who will use a digital product, explores their needs and works with them to deliver design solutions that meet those needs.
+intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
 title: User-centred design
 heading: User-centred design
 date: 2020-04-30T17:28:36.948Z
 cover_img: images/true-to-who-we-are-v2.png
-description: The most successful digital projects are those that put the needs of their users first. User-centred design is an approach that identifies the people who will use a digital product, explores their needs and works with them to deliver design solutions that meet those needs.
+description: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
   - ethical-digital-projects
@@ -44,7 +44,7 @@ In its simplest form, a User-Centred Design process consists of identifying the 
 As a term coined in the 1970s, User-Centred Design was originally employed to design physical products that were intuitive to use, but more recently the process has been adopted by digital teams to great effect.
 
 Starting by understanding users, their needs and how they align with an organisations objectives, digital UX designers will devise a set of features that a digital product could comprise.
-      
+
 These features are then developed iteratively and evaluated with real users as they grow from a rough concept to a completed feature ready to be released into the wild.
 
 <h4 class="mt-10">Examples of user-centred digital products</h4>

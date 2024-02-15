@@ -37,6 +37,36 @@ toc: true
 Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.
 {{</ workquote >}}
 
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Online brand development
+
+  Backlit is located in an old Victorian textile factory and the existing logo reflected the ‘flying-wheel’ machines that were used in the building a century before Backlit was founded. We built on this nod to the building throughout the Backlit identity, devising brand assets based on the shape of the large windows in the gallery space.
+
+  </div>
+</div>
+
+{{< figure align="left" wrapperclass="" src="../images/work-backlit-font.jpg" alt="A page from a brand guidelines document on a tablet device, showing the choice of typeface for the Backlit website" >}}
+
+{{< figure wrapperclass="" src="../images/work-backlit-colours.jpg" alt="Colours of the Backlit online brand shown in stripes in a document. The colours are charcoal, blue-grey, green, orange and white" >}}
+
+
+
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+
+  Backlit is located in an old Victorian textile factory and the existing logo reflected the ‘flying-wheel’ machines that were used in the building a century before Backlit was founded. We built on this nod to the building throughout the Backlit identity, devising brand assets based on the shape of the large windows in the gallery space.
+
+  </div>
+</div>
+
+{{< figure align="right" wrapperclass="" src="../images/work-backlit-shapes.jpg" alt="A laptop with a part of a brand guidelines document showing window shapes" >}}
+
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">

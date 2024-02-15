@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
   {{ partial "header__page" . }}
-  <div class="container grid gap-10 lg:grid-cols-12">
+  <div class="container grid gap-y-10 lg:gap-10 lg:grid-cols-12">
     <div class="col-span-full lg:col-span-8">
       <div class="font-sans font-light prose prose-page first:mt-10">
         {{- .Content -}}
@@ -14,7 +14,7 @@
     {{ with .Params.process }}
       <div class="container flex flex-col gap-6 lg:gap-12">
         <h2 class="h--condensed">What we’re offering</h2>
-        <div class="grid grid-cols-12 gap-10">
+        <div class="grid grid-cols-12 gap-y-10 lg:gap-10">
           {{ range $index, $e := . }}
             <div class="col-span-full lg:col-span-6 xl:col-span-3 flex flex-col">
               {{ $src := ( $e.img ) }}
@@ -56,7 +56,7 @@
 
     {{/* Deliverables */}}
     {{ if .Params.deliverables }}
-      <div class="container flex flex-col gap-2 items-start">
+      <div class="container flex flex-col gap-2 items-start my-12">
         <h2 class="h3 h--condensed mb-4">What you’ll get</h2>
         <ul class="columns-2 lg:columns-3 max-w-7xl mb-6">
           {{ range .Params.deliverables }}
@@ -103,7 +103,7 @@
       {{ end }}
     {{ end }}
     
-    <div class="container grid grid-cols-12 gap-10 border-t border-black/[.35] pt-24">
+    <div class="container grid grid-cols-12 gap-y-10 lg:gap-10 border-t border-black/[.35] pt-24">
       {{ range $i, $e := $projects }}
         {{ with $e.slug }}
           {{ with site.GetPage . }}
@@ -123,7 +123,7 @@
   {{/* Form */}}
   <div class="bg-indigo text-buff section--lg" id="gifted-form">
     <div class="container">
-      <h2 class="h--condensed text-2xl 2xl:text-3xl mb-8">Enter now</h2>
+      <h2 class="h--condensed text-2xl 2xl:text-3xl mb-8">Register to win</h2>
       {{ partial "gifted-form" . }}
     </div>
   </div>

@@ -2,11 +2,11 @@
 cover_img: 
 cover_img_alt:
 date: 2020-04-30T17:28:36.948Z
-description: A design system is a great tool for bringing consistency to all of your brand's design outputs; a consolidation of an organisation’s visual identity, strategy, brand values, purpose and audiences into shared practices, principles, design patterns, templates and themes.
+description: A design system brings coherence to your brand's designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
 header_class: 
 toc: true
 hidden: false
-intro: A design system is a great tool for bringing consistency to all of your brand's design outputs; a consolidation of an organisation’s visual identity, strategy, brand values, purpose and audiences into shared practices, principles, design patterns, templates and themes.
+intro: A design system brings coherence to your brand's designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
 related_pages:
 related_posts:
 related_work:
