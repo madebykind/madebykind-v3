@@ -6,19 +6,19 @@ cover_img: images/work-ntu-mobile-thread.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
 banner_images:
   - img: images/work-shu-jackson.jpg
-    alt: 
+    alt: A young boy with a VR headset
   - img: images/work-ntu-bonnington.jpg
-    alt: 
+    alt: Bonnington Gallery
   - img: images/work-shu-protestor.jpg
-    alt: 
+    alt: A closeup of a smiling young woman, wearing a wooly hat. A colourful is visible in the background
   - img: images/work-ntu-desktop-screens.jpg
-    alt: 
+    alt: A number of mockups of pages on the NTU website
   - img: images/work-ntu-homepage-imac.jpg
-    alt: 
+    alt: A photograph of a man working on designs for a website on an iMac screen
   - img: images/work-ntu-wireframes.jpg
-    alt: 
+    alt: An over the shoulder photograph of a computer screen. The screen has blue and white 'wireframe' style designs of web templates on it
   - img: images/work-shu-runner.jpg
-    alt: 
+    alt: A woman looking over a view of Sheffield city centre at dawn
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
 logo_hide_link: true
 logos:
