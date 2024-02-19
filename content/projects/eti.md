@@ -14,9 +14,21 @@ images:
 topics:
   - Digital strategy
   - User-centred design
-  - Mobile-first design
   - CMS integrations
   - CRM integrations
   - Digital archives
+icon: eti-logo
+teaser:
+  title: Digital transformation of low-carbon energy institute
+  description: The Energy Technologies Institute (ETI) approached Kind initially to help them redesign their website but, as we began working with them, it became clear they needed help making an overall digital transformation to their organisation.
+  images:
+    - img: images/work-eti-laptop.jpg
+      alt: The ETI's searchable archive of low-carbon research shown on a laptop
+    - img: images/work-eti-offshore-wind.jpg
+      alt: Sunset photograph of the sea with a wind farm in the distance
+      stat:
+        - 10-years
+services:
+  - digital
 ---
 Kind were appointed digital partners for a renewable energy research institute, creating a variety of tools and a website to communicate complex issues to the ETI’s stakeholders and preserving the legacy of that important work after the organisation's closure.

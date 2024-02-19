@@ -6,6 +6,7 @@ description: Because we only do work we believe in, we bring a level of commitme
 intro: >
   All business activities have an impact on society and the environment, and Kind is no exception. 
   
+  
   This statement outlines the impacts our day-to-day activities have, how we are reducing or offsetting these and how we aim to further reduce them in the future.
 title: Our impact
 heading: We give a damn

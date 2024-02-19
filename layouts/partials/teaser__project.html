@@ -1,17 +1,27 @@
-<article class="relative flex flex-col py-10 border-b">
-	<h3 class="font-normal text-left mr-15">{{ .Title | markdownify }}</h3>
-  <button class="absolute flex items-center justify-end w-full gap-5 align-end accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body" title="Read more about this project">
+<article class="relative flex flex-col py-10 border-b group">
+	<h3 class="font-normal text-left mr-15 h4 group-hover:underline">
+    {{ with $.context.Params.Heading }}{{ . | markdownify }}{{ else }}{{ with $.context.Title }}{{ . | markdownify }}{{ end }}{{ end }}</h3>
+  {{ if $.link }}
+  <a href="{{ $.context.Permalink }}" class="absolute flex items-center justify-end w-full gap-5 align-end">
+    <span class="flex items-center justify-center flex-shrink-0">
+      <svg class="w-12 h-12" role="presentation"> 
+        <use xlink:href="#icon-arrow"/>
+      </svg>
+    </span>
+  </a>
+  {{ else }}
+  <button class="absolute flex items-center justify-end w-full gap-5 align-end accordion-toggle" data-toggle data-target="#{{ $.context.Title | anchorize }}_body" title="Read more about this project">
 	  <span class="flex items-center justify-center flex-shrink-0 w-10 h-10 bg-white rounded-full accordion-toggle-icon">
 		  <svg class="w-6 h-6" role="presentation">	
-  		  <use xlink:href="#icon-arrow-down"/>
+  		  <use xlink:href="#icon-chevron"/>
 			</svg>
 		</span>
 	</button>
-	<div id="{{ .Title | anchorize }}_body" class="mt-10">
+	<div id="{{ $.context.Title | anchorize }}_body" class="mt-10">
     <div class="prose">
-      <p>{{ .Summary }}</p>
+      <p>{{ $.context.Summary }}</p>
     </div>
-    {{ with .Params.images }}
+    {{ with $.context.Params.images }}
     <ul class="grid grid-cols-3 gap-10 mt-10 -mb-10" role="list">
       {{ range . }}
         <li class="col-span-full md:col-span-1">
@@ -21,4 +31,5 @@
     </ul>
     {{ end }}
 	</div>
+  {{ end }}
 </article>

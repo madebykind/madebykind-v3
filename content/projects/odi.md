@@ -13,8 +13,17 @@ images:
 topics:
   - User-centred design
   - Design systems
-  - Mobile-first design
   - CMS integrations
+teaser:
+  title: Open Standards for Data Guidebook
+  description: An easy-to-use online guidebook for organisations developing open standards for data.
+  images:
+    - img: images/work-odi-circles.png
+      alt: 8 coloured circles overlapping in two rows
+    - img: images/work-odi-desktop.jpg
+      alt: The ODI patterns catalogue on a laptop
+services:
+  - digital
 ---
 
 The Open Data Institute commissioned Kind to collaborate in creating two online guidebooks to support organisations and projects that have limited experience with the development of open standards and need support to understand how best to approach the subject.

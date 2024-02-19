@@ -2,16 +2,15 @@
 cover_img: 
 cover_img_alt:
 date: 2020-04-30T17:28:36.948Z
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
-  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
-  euismod te qui. 
+description: Design styling for recognition, conveying values, and establishing trust through consistent elements for a strong brand presence.
 header_class: 
 toc: true
 hidden: false
-intro: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+intro: Design styling for recognition, conveying values, and establishing trust through consistent elements for a strong brand presence.
 related_pages:
 related_posts:
 related_work:
 title: Visual identity
 heading: Visual identity
+weight: 5
 ---

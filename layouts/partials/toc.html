@@ -1,0 +1,16 @@
+<nav class="leading-none">
+  <ol class="flex flex-col sm:flex-row sm:flex-wrap font-sans gap-5 lg:gap-x-10">
+  {{ range .Fragments.Headings }}
+    {{ range .Headings }}
+      <li>
+        <a href="#{{ .ID }}" class="inline-flex gap-2 items-center">
+          {{ .Title }}
+          <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
+            <use xlink:href="#icon-arrow-down"/>
+          </svg>
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+  </ol>
+</nav>

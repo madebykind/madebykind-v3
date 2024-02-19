@@ -17,10 +17,20 @@ We don’t use Google Analytics or any other in-depth analytics tool that captur
 
 Our website uses one cookie, which is set by Cloudflare and is called `_cfduid`. It is used to check whether you’re a bad egg and likely to try to hack or take down our website. It doesn’t track you in any way or store any of your personal details. More information can be found here: [Privacy and the _cfduid cookie](https://developers.cloudflare.com/fundamentals/get-started/reference/cloudflare-cookies/#12345682)
 
+## Mailing list
+
+If you decide to sign up to our mailing list, we’ll send you an email to confirm this before your data is added.
+
+Your data will be processed by Kind and Campaign Monitor for the purposes of sending you updates. We will send a maximum of 6 updates per year.
+
+You’ll have the option to unsubscribe when receiving these emails, but if you’d like to do so at any time you can email [removemydata@madebykind.com](mailto:removemydata@madebykind.com) and we will delete your data within 2 working days.
+
+Every 12 months we’ll ask you to confirm your subscription. If you don’t confirm, we will remove all your data and you will need to subscribe again if you want to receive anything more. 
+
+
 ## How to complain
 
 We take complaints very seriously. If you’ve any reason to complain about the ways we handle your privacy, please contact [Mat Hayward] by email at <a href="mailto:mat@madebykind.com ">madebykind.com</a>.
-
 ## Changes to this policy
 
 If we change the contents of this policy, those changes will become effective the moment we publish them on our website.

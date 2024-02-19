@@ -14,7 +14,7 @@
         {{ end }}
       </div>
       <div class="relative grid content-center gap-5 p-10 lg:p-20 lg:col-span-1">
-        <h3 class="text-xl leading-heading h--condensed" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
+        <h3 class="text-2xl leading-heading h--condensed" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
         {{ with .context.Params.services }}
           <ul class="flex gap-5 list-none lg:gap-10">
             {{ range . }}

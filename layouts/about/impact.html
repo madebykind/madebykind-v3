@@ -19,14 +19,14 @@
             </div>
           </div>
           <div>
-            <h2 class="mb-5 text-xl">We’re climate positive</h2>
+            <h2 class="mb-5 text-2xl">We’re climate positive</h2>
             <p>Being certified as Climate Positive means an organisation has gone beyond achieving “Net Zero” and instead creates an environmental benefit by removing additional greenhouse gases from the atmosphere, not just those that it emits.</p>
             <p>Kind is a climate positive business and have taken the step to balance twice our greenhouse gas emissions since 2014 (when we were founded).</p>
             <button class="mt-5" data-toggle data-target="#climate-positive">
               <div class="flex items-center gap-2.5 font-sans">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
                   <svg class="w-6 h-6" role="presentation">
-                    <use xlink:href="#icon-arrow-down"/>
+                    <use xlink:href="#icon-chevron"/>
                   </svg>
                 </div>
                 <p>Read more
@@ -56,14 +56,14 @@
           </div>
           <div>
             <div class="prose lede">
-              <h2 class="mb-5 text-xl">Certified B Corporation</h2>
+              <h2 class="mb-5 text-2xl">Certified B Corporation</h2>
               <p><a href="/blog/kind-certifies-a-b-corporation">Kind certified as a B Corporation in 2022</a> - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
             </div>  
             <button class="mt-5 accordion-toggle" data-toggle data-target="#bcorp">
               <div class="flex items-center gap-2.5 font-sans">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
                   <svg class="w-6 h-6" role="presentation">
-                    <use xlink:href="#icon-arrow-down"/>
+                    <use xlink:href="#icon-chevron"/>
                   </svg>
                 </div>
                 <p>Read more
@@ -101,7 +101,7 @@
           </div>
           <div>
             <div class="prose lede">
-              <h2 class="mb-5 text-xl">Our charity partnerships</h2>
+              <h2 class="mb-5 text-2xl">Our charity partnerships</h2>
               <p>Kind have been <a href="https://directories.onepercentfortheplanet.org/profile/kind">members of 1% for the Planet since 2017</a> which requires us to donate a minimum of 1% of our turnover to environmental causes.</p>
               <p>In 2019 we selected Rewilding Britain as our environmental charity partner and pledged the majority of our 1% donations to their cause.</p>
             </div>
@@ -109,7 +109,7 @@
               <div class="flex items-center gap-2.5 font-sans">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
                   <svg class="w-6 h-6" role="presentation">
-                    <use xlink:href="#icon-arrow-down"/>
+                    <use xlink:href="#icon-chevron"/>
                   </svg>
                 </div>
                 <p>Read more
@@ -136,17 +136,17 @@
           </div>
         </section>
         <section>
-          <h2 class="text-xl h--condensed">The impact of our activity</h2>
+          <h2 class="text-2xl h--condensed">The impact of our activity</h2>
           <ul class="mt-5 list-none">
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
                 <article class="py-10 font-sans prose border-b">
                   <button class="flex flex-wrap items-center justify-between w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body">
-                    <h3>{{ .Title }}</h3>
+                    <h3 class="h4">{{ .Title }}</h3>
                     <div class="absolute sr-only right-24">{{ .Title }}: Read more about our  impact in this area</div>
                     <div class="flex items-center justify-center w-10 h-10 bg-white rounded-full accordion-toggle-icon">
                       <svg class="w-6 h-6" role="presentation">
-                        <use xlink:href="#icon-arrow-down"/>
+                        <use xlink:href="#icon-chevron"/>
                       </svg>
                     </div>
                   </button>

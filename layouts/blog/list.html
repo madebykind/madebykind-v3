@@ -11,8 +11,21 @@
       {{ end }}
     </ol>
   </section>
+
+  <section class="bg-teal text-indigo p-6 pb-12">
+    {{ partial "newsletter" (dict 
+      "url" .Permalink
+      "style" "wide"
+      "heading" "Join our mailing list"
+      "block_class" "container"
+      "heading_class" "h3"
+      "text_class" "text-sm"
+      "image_class" "max-w-[75%]"
+    ) }}
+  </section>
+
   <section class="container mt-10 section">
-    <h2 class="h--condensed text-md">Insights</h2>
+    <h2 class="h--condensed text-md">More insights</h2>
     <ol class="flex flex-wrap">
       {{ range ( where ( where .Pages "Params.featured" "!=" true ) "Params.unlisted" "!=" true ) }}
         <li class="w-full" data-topics="{{ with .Params.key_topic }}{{ . | anchorize }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
@@ -21,4 +34,5 @@
       {{ end }}
     </ol>
   </section>
+
 {{ end }}

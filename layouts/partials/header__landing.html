@@ -3,9 +3,14 @@
     <div class="max-w-5xl col-span-12 gap-10 md:col-span-8">
       <div class="grid col-span-1 gap-15">
         <h1>{{ .Params.Heading|safeHTML }}</h1>
-        {{ with .Params.Intro }}
-          <div class="max-w-5xl prose cta_prose" data-class-on-view="animate-emphasise">
-            {{ . | markdownify }}
+
+        {{ if .Params.intro_md }}
+          <div class="max-w-5xl prose cta_prose">
+            {{ .Params.Intro | markdownify }}
+          </div>
+        {{ else }}
+          <div class="max-w-5xl prose cta_prose">
+            <p>{{ .Params.Intro }}</p>
           </div>
         {{ end }}
         {{ if isset .Params "cta" }}

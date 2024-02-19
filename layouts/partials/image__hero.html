@@ -4,7 +4,7 @@
 {{- $actualImg := $src.Resize "640x jpg" -}}
 {{- $alt := ( .Params.cover_img_alt ) -}}
 {{- $dataSizes := "(min-width: 90em) 49vw, 98vw" -}}
-{{- $imgClass := "object-cover h-full" -}}
+{{- $imgClass := "object-cover h-full w-full" -}}
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
 
 {{- with $img -}}

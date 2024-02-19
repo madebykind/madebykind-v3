@@ -1,0 +1,21 @@
+<header class="snap-start{{ if .Params.cover_img }} overflow-hidden{{ end }} {{ with .Params.header_class }} {{ . }} {{ else }} bg-buff text-indigo {{ end }}">
+  <div data-hero-height="100vh" class="container grid gap-10 md:grid-cols-12{{ if not .Params.cover_img }} items-end{{ end }}">
+      {{ if .Params.cover_img }}
+        <div class="col-span-full lg:col-span-6 lg:order-1 bleed lg:bleed-right lg:ml-0">
+          {{ partial "image__hero" . }}
+        </div>
+      {{ end }}
+      <div class="grid md:items-end md:content-between col-span-full gap-10 py-10 {{ if .Params.cover_img }} lg:col-span-6 {{ else }} lg:col-span-7{{ end }}">
+        <ol class="inline-flex gap-10 font-sans list-none items-start" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="list">
+          <li class="relative after:absolute after:left-full after:ml-4 inline-flex items-center justify-between after:flex after:content-['/']" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a class="underline" href="/services/" itemprop="item"><span itemprop="name">Services</span></a>
+          </li>
+          <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <span aria-current="page" itemprop="name">{{ .Page.Title }}</span>
+          </li>
+        </ol>
+        <h1 style="word-break: break-word;">{{ with .Params.Heading }} {{ . | safeHTML }} {{ else }} {{ with .Page.Title }}{{ . | safeHTML }}{{ end }}{{ end }}</h1>
+      </div>
+    </div>
+  </div>
+</header>

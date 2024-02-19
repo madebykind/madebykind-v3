@@ -5,11 +5,7 @@ draft: false
 date: 2023-06-28T12:58:42.437Z
 cover_img: images/work-garden-organic-laptop-3.jpg
 cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
-intro: Organic gardening can boost the environment and sustainability, and
-  improve health, well-being, and food security. It can build communities and
-  aid connection with nature and what you eat. Through campaigning, advice,
-  community work, and research, their aim is to get everyone growing ‘the
-  organic way’.
+intro: Organic gardening can boost the environment and sustainability, and improve health, well-being, and food security. It can build communities and aid connection with nature and what you eat. Through campaigning, advice, community work, and research, their aim is to get everyone growing ‘the organic way’.
 key_stat: null
 description: See how Kind helped Garden Organic launch their updated brand
   through a new website and CRM integration.
@@ -18,7 +14,6 @@ services:
 topics:
   - Research and analysis
   - User-centred Design
-  - Mobile-first Design
   - CMS integration
   - CRM integration
   - Ticketing journey
@@ -28,39 +23,72 @@ related_work:
   - sheffield-hallam-university
   - the-rivers-trust
 weight: 5
+banner_type: standard
+banner_img: images/work-garden-organic-header.jpg
+banner_img_alt: Test image
+banner_icon: garden-organic-logo
+toc: true
+teaser:
+  title: Website redesign and online member portal
+  description: Garden Organic worked with Kind to bring their new visual identity to life online, attracting new and varied demographics and appealing to new audiences.
+  images:
+    - img: images/work-garden-organic-laptop-jess-seth.jpg
+      alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
+    - img: images/work-garden-organic-tablet.jpg
+      alt: The Garden Organic website on a tablet device, on a garden bench
+      stat:
+        - 18k
+    - img: images/work-garden-organic-garden.jpg
+      alt: A photograph of a kitchen garden
 ---
 
-{{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" >}}
+{{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden">}}
 We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
 {{</ workquote >}}
 
-{{< figure wrapperclass="section--lg" src="../images/work-header-garden-organic.jpg" alt="A trowel on a garden bench with some flowers behind. The Garden Organic logo is overlayed" >}}
 
-## Engaging new audiences
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
-Garden Organic had built a new offline brand and they worked with us to bring that to life digitally, attracting new and varied demographics and making the site even more appealing to audiences who were new to organic gardening.
+  ## Engaging new audiences
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
+  Garden Organic's new offline brand was created to attract new audiences to organic gardening. Our team brought this to life digitally, integrating illustrative assets and the 'human-touch' the identity delivered.
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden" >}}
+  To further engage these new demographics, we devised a digital content strategy that distilled the abundance of knowledge and varying degrees of complex information into a website that is suitable for all ages, experiences, and digital literacy levels, making it easy to navigate and find expert advice on growing the organic way.
 
-## Communicating to broad demographics and being inclusive
+  </div>
+</div>
 
-The new site needed to distill a lot of complex information in a way that was suitable for all ages, experiences, and digital literacy levels. It had to be easy to navigate and to find expert advice on growing the organic way.
+{{< figure wrapperclass="" align="left" src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
+
+{{< multi-image
+  src_2="../images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
+  src_3="../images/work-garden-organic-phone.jpg" alt_3="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
 
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-phone-3.jpg" alt="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes" >}}
+  ## Ecommerce and CRM integration
 
-## Establishing different journeys
+  We integrated the Garden Organic website directly with Opayo and their third-party CRM to handle online transactions such as donations and membership registrations, as well as taking orders from members of the Heritage Seed Library.
 
-Expanding their dedicated user base to welcome new gardeners and take them from generally interested to signing up for full membership.
+  </div>
+</div>
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-phone.jpg" alt="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
+{{< figure wrapperclass="" align="left" src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
 
-## Making payments easy
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
-Establishing e-commerce with integrated CRM to manage multiple membership types, donations, event bookings, and a seed shop.
+  ## Membership portal
 
-{{< figure wrapperclass="section--lg" src="../images/work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}
+  As well as allowing users to manage their membership online, for the first time, we gave Garden Organic the ability to offer exclusive content, offers and benefits to their members through a membership portal.
+
+  </div>
+</div>
+
+{{< figure wrapperclass="" src="../images/work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}

@@ -1,0 +1,40 @@
+
+<form method="post" action="https://hooks.zapier.com/hooks/catch/387239/3ltwr56/" data-subscribe-form>
+  <fieldset class="grid lg:grid-cols-12 gap-8 max-w-xl lg:max-w-none" data-form>
+    <div class="col-span-full lg:col-span-4 flex flex-col gap-2 w-full">
+      <label for="name" class="font-bold">Your name</label>
+      <input type="text" id="name" name="name" class="w-full bg-transparent text-base font-serif text-buff p-2 rounded-none focus:outline-none focus:border-teal border-b-2 border-buff" required>
+    </div>
+    <div class="col-span-full lg:col-span-4 flex flex-col gap-2 w-full">
+      <label for="email" class="font-bold">Your email address</label>
+      <input type="email" id="email" name="email" class="w-full bg-transparent text-base font-serif text-buff p-2 rounded-none focus:outline-none focus:border-teal border-b-2 border-buff" required>
+    </div>
+    <div class="col-span-full lg:col-span-4 flex flex-col gap-2 w-full">
+      <label for="company" class="font-bold">Your company</label>
+      <input type="text" id="company" name="company" class="w-full bg-transparent text-base font-serif text-buff p-2 rounded-none focus:outline-none focus:border-teal border-b-2 border-buff" required>
+    </div>
+    <div class="col-span-full lg:col-span-8 2xl:col-span-6 flex flex-col gap-2">
+      <label for="message" class="font-bold">Tell us how our free brand process would help your organisation deliver more positive&nbsp;impact</label>
+      <textarea id="message" name="message" class="w-full bg-transparent text-base font-serif text-buff p-2 rounded-none focus:outline-none focus:border-teal border-b-2 border-buff h-48 resize-none " required></textarea>
+    </div>
+    <label for="newsletter" class="col-span-full flex items-center gap-4 relative">
+      <input type="checkbox" id="newsletter" name="newsletter" value="Yes" class="rounded-none w-5 h-5 bg-buff appearance-none peer">
+      <svg class="w-4 h-5 text-orange opacity-0 absolute top-2 left-0.5 peer-checked:opacity-100" role="presentation">
+        <use xlink:href="#icon-tick"/>
+      </svg>
+      Also sign up for our quarterly newsletter?
+    </label>
+    <div class="col-span-full flex flex-col items-start gap-4">
+      <button type="submit" class="btn btn--primary btn--pink self-start">
+        Submit your entry
+        <svg class="w-8 h-3 shrink-0" role="presentation">
+          <use xlink:href="#icon-arrow"/>
+        </svg>
+      </button>
+      <a href="/gifted/terms" class="text-sm" target="_blank">Terms and privacy</a>
+    </div>
+  </fieldset>
+  <div class="hidden text-base font-bold" data-message data-message-success="Thanks, we’ve received your entry. Fingers crossed 🤞"></div>
+  <label for="title" class="sr-only"></label>
+  <input type="text" class="h0n sr-only" name="title" id="title" tabindex="-1">
+</form>

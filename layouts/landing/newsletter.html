@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+  {{ partial "header__page" . }}
+  {{ partial "newsletter" (dict 
+    "url" .Permalink
+    "style" "wide"
+    "block_class" "container"
+    "heading_class" "h3"
+    "text_class" "text-sm"
+    "image_class" "max-w-[75%]"
+  ) }}
+  </article>
+{{ end }}

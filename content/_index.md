@@ -28,6 +28,7 @@ intro: >
 
 
   That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
+intro_md: true
 related_stats:
   - pay-gap
   - socially-reponsible

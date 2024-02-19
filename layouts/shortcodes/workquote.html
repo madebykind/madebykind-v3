@@ -1,18 +1,66 @@
-  
-{{ if .Get "logo" }}
-  <figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="grid content-center min-h-dynamic-screen">
+
+<figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="my-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-center">
+  {{- $alt := ( .Get "alt" ) -}}
+  {{ with .Get "img" }}
+    {{- $img := ( . ) -}}
+    {{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
+
+    {{- $actualImg := $src.Resize "640x jpg" -}}
+    
+    {{- $dataSizes := "98vw" -}}
+    {{- $imgClass := "w-full" -}}
+    {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+
+    {{- with $img -}}
+      <picture class="col-span-full bleed lg:bleed-none lg:col-span-8">
+        <source 
+          sizes="{{ $dataSizes }}" 
+          srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}" 
+          type="image/webp">
+
+        <img
+          alt="{{ $alt }}"
+          class="{{ $imgClass }}"
+          loading=eager
+          sizes="{{ $dataSizes }}"
+          src="{{ $actualImg.RelPermalink }}"
+          srcset="
+            {{- with $respSizes -}}
+              {{- range $i, $e := . -}}
+                {{- if ge $src.Width . -}}
+                  {{- if $i }},
+                  {{ end -}}
+                  {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
+                  {{ . }}w
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}"
+        >
+      </picture>
+    {{ end }}
+  {{ end }}
+
+  <div class="col-span-full lg:col-span-4">
     <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
-      <p class="text-lg" itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>
+      <p class="text-md xl:text-lg" itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>
     </blockquote>
-    <figcaption class="inline-flex items-center gap-5 mt-10">
-      <svg class="w-16 h-8 lg:w-24 lg:h-16 text-indigo" role="presentation">
-        <use xlink:href="#icon-{{ .Get "logo" }}"/>
-      </svg>
-      {{ with .Get "source" }}
-        <div class="h3 h--condensed">{{ . }}</div>
-      {{ end }}
-    </figcaption>
-  </figure>
-{{ else }}
-  <code class="text-claret">logo= is required!</code>
-{{ end }}
+
+    {{ if .Get "logo" }}
+      <figcaption class="inline-flex items-center gap-5 mt-4">
+        <svg class="w-12 h-8 lg:w-24 lg:h-16 text-indigo" role="presentation">
+          <use xlink:href="#icon-{{ .Get "logo" }}"/>
+        </svg>
+        {{ with .Get "source" }}
+          <div class="h3 h--condensed">{{ . }}</div>
+        {{ end }}
+      </figcaption>
+    {{ end }}
+  </div>
+</figure>

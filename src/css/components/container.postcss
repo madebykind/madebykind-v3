@@ -11,6 +11,14 @@
     width: var(--width-container);
   }
 
+  .no-container {
+    @apply
+      max-w-none
+      w-auto
+      m-0
+    ;
+  }
+
   .bleed {
     margin-left: -4vw;
     margin-right: -4vw;
@@ -22,5 +30,9 @@
   
   .bleed-left {
     margin-left: -4vw;
+  }
+
+  .bleed-none {
+    @apply mx-0;
   }
 }

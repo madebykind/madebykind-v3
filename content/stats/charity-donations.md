@@ -1,6 +1,8 @@
 ---
 icon:
-title: 28%
+prefix:
+title: 28
+suffix: "%"
 ---
 
 of profits<br>donated to charities

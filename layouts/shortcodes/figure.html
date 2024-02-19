@@ -1,68 +1,78 @@
 
+{{ $imgClass := "object-fit" }}
+{{ with .Get "imgclass" }}
+  {{ $imgClass = . }}
+{{ end }}
+
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1800" "1920" "2240" -}}
 {{- $imgBase := "images/" -}}
 {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}
 {{- $alt := .Get "alt" -}}
-{{- $imgClass := "object-fit" -}}
 {{- $dataSizes := "98vw" -}}
 {{- $actualImg := $src.Resize "640x jpg" -}}
+{{- $align := .Get "align" -}}
 
-{{ with .Get "caption" }}
-  <figure {{ with .Get "wrapperclass" }} class="{{ . }}"{{ end }}>
-    <picture>
-      <source
-        sizes="{{ $dataSizes }}"
-        srcset="
-        {{- with $respSizes -}}
-          {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
+
+{{ if $align }}<div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">{{ end }}
+
+  {{ with .Get "caption" }}
+    <figure class='{{ with .Get "wrapperclass" }} {{ . }} {{ end }} {{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg:col-start-4 {{ end }}'>
+      <picture>
+        <source
+          sizes="{{ $dataSizes }}"
+          srcset="
+          {{- with $respSizes -}}
+            {{- range $i, $e := . -}}
+              {{- if ge $src.Width . -}}
+                {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
+              {{- end -}}
             {{- end -}}
-          {{- end -}}
-        {{- end -}}"
-        type="image/webp"
-      >
-      <source
-        sizes="{{ $dataSizes }}"
-        srcset="
-        {{- with $respSizes -}}
-          {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+          {{- end -}}"
+          type="image/webp"
+        >
+        <source
+          sizes="{{ $dataSizes }}"
+          srcset="
+          {{- with $respSizes -}}
+            {{- range $i, $e := . -}}
+              {{- if ge $src.Width . -}}
+                {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+              {{- end -}}
             {{- end -}}
-          {{- end -}}
-        {{- end -}}"
-        type="image/jpeg"
-      >
-      <img 
-        alt="{{ $alt }}"
-        class="{{ $imgClass }}"
-        src="{{ $actualImg.RelPermalink }}"
-        width="{{ $src.Width }}"
-        height="{{ $src.Height }}"
-        loading="lazy"
-      >
+          {{- end -}}"
+          type="image/jpeg"
+        >
+        <img 
+          alt="{{ $alt }}"
+          class="{{ $imgClass }}"
+          src="{{ $actualImg.RelPermalink }}"
+          width="{{ $src.Width }}"
+          height="{{ $src.Height }}"
+          loading="lazy"
+        >
+      </picture>
+      <figcaption>{{ . }}</figcaption>
+    </figure>
+  {{ else }}
+    <picture class='block {{ with .Get "wrapperclass" }} {{ . }} {{ end }}{{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg:col-start-5 {{ end }}'>
+      <source sizes="{{ $dataSizes }}" srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if ge $src.Width . -}}
+                    {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}" type="image/webp">
+      <source sizes="{{ $dataSizes }}" srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if ge $src.Width . -}}
+                    {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}" type="image/jpeg">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
     </picture>
-    <figcaption>{{ . }}</figcaption>
-  </figure>
-{{ else }}
-  <picture class="block{{ with .Get "wrapperclass" }} {{ . }}{{ end }}">
-    <source sizes="{{ $dataSizes }}" srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}" type="image/webp">
-    <source sizes="{{ $dataSizes }}" srcset="
-            {{- with $respSizes -}}
-              {{- range $i, $e := . -}}
-                {{- if ge $src.Width . -}}
-                  {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}" type="image/jpeg">
-    <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
-  </picture>
-{{ end }}
+  {{ end }}
+
+{{ if $align }}</div>{{ end }}

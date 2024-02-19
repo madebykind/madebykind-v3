@@ -2,16 +2,15 @@
 cover_img: 
 cover_img_alt:
 date: 2020-04-30T17:28:36.948Z
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
-  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
-  euismod te qui. 
+description: Using research and our understanding of client organisations, we are able to work through complicated content requirements and help our partners present, communicate and order this content to engage their users effectively.
 header_class: 
 toc: true
 hidden: false
-intro: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+intro: Using research and our understanding of client organisations, we are able to work through complicated content requirements and help our partners present, communicate and order this content to engage their users effectively.
 related_pages:
 related_posts:
 related_work:
-title: Content strategy
-heading: Content strategy
+title: Content strategy and planning
+heading: Content strategy and planning
+weight: 2
 ---

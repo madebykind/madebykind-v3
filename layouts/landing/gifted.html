@@ -1,0 +1,131 @@
+{{ define "main" }}
+<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+  {{ partial "header__page" . }}
+  <div class="container grid gap-y-10 lg:gap-10 lg:grid-cols-12">
+    <div class="col-span-full lg:col-span-8">
+      <div class="font-sans font-light prose prose-page first:mt-10">
+        {{- .Content -}}
+      </div>
+    </div>
+  </div>
+
+  {{/* Process */}}
+  <section class="mb-12 bg-teal text-indigo section--lg">
+    {{ with .Params.process }}
+      <div class="container flex flex-col gap-6 lg:gap-12">
+        <h2 class="h--condensed">What we’re offering</h2>
+        <div class="grid grid-cols-12 gap-y-10 lg:gap-10">
+          {{ range $index, $e := . }}
+            <div class="col-span-full lg:col-span-6 xl:col-span-3 flex flex-col">
+              {{ $src := ( $e.img ) }}
+              {{ $alt := ( $e.alt ) }}
+              {{ $img := resources.GetMatch (printf "**%s" ($src)) }}
+
+              {{ with $img }}
+                <div class="aspect-4/3 mb-10">
+                  {{ $2xl := $img.Fill "1200x900" }}
+                  {{ $xl := $2xl.Resize "800x" }}
+                  {{ $lg := $xl.Resize "600x" }}
+                  {{ $md := $lg.Resize "400x" }}
+                  {{ $sm := $md.Resize "300x" }}
+
+                  <img
+                    alt="{{ $alt }}"
+                    class="object-cover w-full h-full"
+                    height="{{ .Height }}"
+                    loading=lazy
+                    sizes="(min-width: 100em) 48vw, 96vw"
+                    src="{{ $sm.RelPermalink }}"
+                    srcset="
+                      {{ $sm.RelPermalink }} 300w,
+                      {{ $md.RelPermalink }} 400w,
+                      {{ $lg.RelPermalink }} 600w,
+                      {{ $xl.RelPermalink }} 800w,
+                      {{ $2xl.RelPermalink }} 1200w"
+                    width="{{ .Width }}"
+                  >
+                </div>
+              {{ end }}
+              <h3 class="h4 mb-2 leading-tight">{{ $e.title }}</h3>
+              {{ $e.description | markdownify }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+
+    {{/* Deliverables */}}
+    {{ if .Params.deliverables }}
+      <div class="container flex flex-col gap-2 items-start my-12">
+        <h2 class="h3 h--condensed mb-4">What you’ll get</h2>
+        <ul class="columns-2 lg:columns-3 max-w-7xl mb-6">
+          {{ range .Params.deliverables }}
+          <li class="flex gap-2 items-start justify-start mb-2">
+            <svg class="w-8 h-3 grow-0 shrink-0 mt-2 lg:mt-3" role="presentation">
+              <use xlink:href="#icon-tick"/>
+            </svg>{{ . }}</li>
+          {{ end }}
+        </ul>
+        <a href="{{ .Params.header_cta.url }}" class="btn btn--primary">{{ .Params.header_cta.text }}
+          <svg class="w-8 h-3 flex-no-shrink" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+    </div>
+    {{ end }}
+  </section>
+
+  {{/* Clients */}}
+  {{ if .Params.related_projects }}
+  <section class="mb-12">
+    <div class="container section">
+      <h2 class="h--condensed">Our brand experience</h2>
+    </div>
+    {{ $projects := .Params.related_projects }}
+    {{ $count := len $projects }}
+    
+    {{ range $i, $e := $projects }}
+      {{ with $e.slug }}
+        {{ with site.GetPage . }}
+          {{ if eq $i 0 }}
+            {{ partial "teaser__work-wide" (dict 
+              "indent_images" $e.indent_images
+              "indent_text" $e.indent_text
+              "index" $i
+              "count" $count
+              "context" .
+              "show_button" true
+              "button_url" .Permalink
+              "button_text" "Read case study"
+            ) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    
+    <div class="container grid grid-cols-12 gap-y-10 lg:gap-10 border-t border-black/[.35] pt-24">
+      {{ range $i, $e := $projects }}
+        {{ with $e.slug }}
+          {{ with site.GetPage . }}
+            {{ if not (eq $i 0) }}
+              <div class="col-span-full lg:col-span-4">
+                {{ partial "card_work" . }}
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+
+  {{/* Form */}}
+  <div class="bg-indigo text-buff section--lg" id="gifted-form">
+    <div class="container">
+      <h2 class="h--condensed text-2xl 2xl:text-3xl mb-8">Register to win</h2>
+      {{ partial "gifted-form" . }}
+    </div>
+  </div>
+</article>
+{{ end }}

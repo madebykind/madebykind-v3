@@ -1,6 +1,8 @@
 ---
 icon:
-title: 50%
+prefix:
+title: 50
+suffix: "%"
 ---
 
 Female-owned business

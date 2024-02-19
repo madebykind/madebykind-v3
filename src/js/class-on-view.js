@@ -1,10 +1,11 @@
 function ClassOnView(el) {
   const toggleClass = el.dataset.classOnView;
+  const animateOnce = el.dataset.classOnViewOnce !== undefined;
   let bounding = el.getBoundingClientRect();
 
   if (bounding.top >= 0  && bounding.bottom <= window.innerHeight) {
     el.classList.add(toggleClass);
-  } else {
+  } else if (!animateOnce) {
     el.classList.remove(toggleClass);
   }
 
@@ -13,7 +14,7 @@ function ClassOnView(el) {
 
     if (bounding.top >= 0  && bounding.bottom <= window.innerHeight) {
       el.classList.add(toggleClass);
-    } else {
+    } else if (!animateOnce) {
       el.classList.remove(toggleClass);
     }
 

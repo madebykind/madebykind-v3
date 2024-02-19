@@ -14,7 +14,10 @@ description: A key challenge for charities and non-profit organisations is
 toc: false
 featured: false
 key_topic: Insights
-topics: []
+topics:
+  - Non-profit
+  - Environment
+  - Strategy
 intro: A key challenge for charities and non-profit organisations is clearly
   communicating their work and the issues they are attempting to tackle.
 related_posts:

@@ -37,7 +37,10 @@
             {{ end -}}
           {{- end -}}
         "> 
-          {{ partial "teaser__project" . }}
+          {{ partial "teaser__project" (dict
+            "context" .
+            "link" false
+          ) }}
         </li>
       {{ end }}
     </ul>

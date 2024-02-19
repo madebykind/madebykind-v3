@@ -14,6 +14,8 @@ topics:
   - Digital strategy
   - Technical consultancy
   - Digital archives
+services:
+  - digital
 ---
 
 We were asked by OWSLA to put together a proof of concept web application that allowed content producers to browse, download and license their entire back catalogue.
