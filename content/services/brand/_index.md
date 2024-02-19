@@ -25,7 +25,7 @@ teaser_description: We work from the ground up; from your brand foundations, per
 teaser_image:
     img: images/be-a-good-human.png
     alt: "Illustration: A person climbing a ladder towards a large hand"
-subservices_heading: Our skills
+subservices_heading: Our brand services
 subservices_description: We work from the ground up; your brand foundations, personality, values, design style all the way up to the final output of a carefully crafted brand identity.
 packages:
   title: Our packages
