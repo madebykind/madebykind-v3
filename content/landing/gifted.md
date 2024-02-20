@@ -17,15 +17,15 @@ process:
   - title: Strategy
     description: Our experts will then develop a clear plan of action for your brand project, grounded in research and insights into your organisation and your audiences.
     img: images/mansplaining.jpg
-    alt:
+    alt: Seth and Jess looking at a laptop together
   - title: Define and create
     description: We bring clarity to your organisation by defining your brand strategy and create the foundations for future by outlining your brand vision and personality.
     img: images/work-backlit-shapes.jpg
-    alt:
+    alt: A laptop with a part of a brand guidelines document showing window shapes
   - title: Design and develop
     description: We deliver impactful, considered and well-crafted design routes before developing a comprehensive visual identity. This is shared through a guidelines document, giving you the tools you need to take control of your brand.
-    img: images/work-hispanists-flags.jpg
-    alt:
+    img: images/work-ahgbi-poster-1-wide.jpg
+    alt: Two red flags showing the AHGBI logo
 deliverables:
   - Creative direction
   - One overarching design moodboard 
