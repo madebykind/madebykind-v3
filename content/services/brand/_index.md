@@ -36,7 +36,7 @@ packages:
         - Creative direction
         - One overarching design moodboard 
         - Logo 
-        - Fonts for on-line and off-line use
+        - Fonts for online and offline use
         - Primary colour palette
         - Positioning statement
         - Tone of voice summary and guidance
@@ -55,7 +55,7 @@ packages:
         - One overarching design moodboard
         - Art Direction moodboard 
         - Logo 
-        - Fonts for on-line and off-line use
+        - Fonts for online and offline use
         - Primary & secondary colour palettes
         - Secondary branding such as icons
         - Manifesto
@@ -70,7 +70,7 @@ packages:
         - Two overarching design moodboards
         - Art Direction & motion moodboard 
         - Logo with variations 
-        - Fonts for on-line and off-line use
+        - Fonts for online and offline use
         - Primary & secondary colour palettes
         - Secondary branding such as icons, illustrations and textures
         - Brand values

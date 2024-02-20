@@ -19,7 +19,7 @@ process:
     img: images/mansplaining.jpg
     alt: Seth and Jess looking at a laptop together
   - title: Define and create
-    description: We bring clarity to your organisation by defining your brand strategy and create the foundations for future by outlining your brand vision and personality.
+    description: We bring clarity to your organisation by defining your brand strategy and create the foundations for the future by outlining your brand vision and personality.
     img: images/work-backlit-shapes.jpg
     alt: A laptop with a part of a brand guidelines document showing window shapes
   - title: Design and develop
@@ -30,7 +30,7 @@ deliverables:
   - Creative direction
   - One overarching design moodboard 
   - Logo 
-  - Fonts for on-line and off-line use
+  - Fonts for online and offline use
   - Primary colour palette
   - Positioning statement
   - Tone of voice summary and guidance
