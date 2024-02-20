@@ -25,7 +25,7 @@ related_work:
 weight: 3
 banner_type: standard
 banner_img: images/work-hispanists-logo.jpg
-banner_img_alt: 
+banner_img_alt: The AHGBI logo on a red background
 banner_logo_class: text-black
 ---
 
@@ -42,24 +42,24 @@ banner_logo_class: text-black
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-hispanists-people.jpg" alt="" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-hispanists-people.jpg" alt="A woman smiling in a meeting" >}}
 
   <div class="col-span-full lg:col-span-4">
 
   {{< image-cycle
     src_1="../images/work-hispanists-logo-1.jpg"
-    alt_1=""
+    alt_1="AHGBI logo in red on maroon"
     src_2="../images/work-hispanists-logo-2.jpg"
-    alt_2=""
+    alt_2="AHGBI logo in maroon on red"
     src_3="../images/work-hispanists-logo-4.jpg"
-    alt_3=""
+    alt_3="A tilde shape in red on maroon"
     src_4="../images/work-hispanists-logo-7.jpg"
-    alt_4="" >}}
+    alt_4="The AHGBI logo, showing the tilde cut out as an overlay" >}}
 
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-hispanists-flags.jpg" alt="" >}}
+{{< figure wrapperclass="" src="../images/work-hispanists-flags.jpg" alt="Two red flags showing the AHGBI logo" >}}
 
 
 <!-- Text right -->
@@ -72,8 +72,8 @@ banner_logo_class: text-black
 </div>
 
 {{< multi-image
-  src_2="../images/work-hispanists-badges.jpg" alt_2=""
-  src_3="../images/work-hispanists-poster-2-portrait.jpg" alt_3="" >}}
+  src_2="../images/work-hispanists-badges.jpg" alt_2="A mockup of 3 badges with AHGBI logo on them"
+  src_3="../images/work-hispanists-poster-2-portrait.jpg" alt_3="A mockup of a AHGBI poster for Funding and Support" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -86,7 +86,7 @@ banner_logo_class: text-black
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="../images/work-hispanists-guidelines.jpg" alt="" >}}
+{{< figure align="left" wrapperclass="Pages from AHGBI brand guidelines document" src="../images/work-hispanists-guidelines.jpg" alt="" >}}
 
 
-{{< figure wrapperclass="" src="../images/work-hispanists-mobile.jpg" alt="" >}}
+{{< figure wrapperclass="" src="../images/work-hispanists-mobile.jpg" alt="A mockup of the AHGBI website on a mobile device" >}}
