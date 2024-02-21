@@ -5,8 +5,6 @@ card_colour: bg-teal text-blue
 date: 2024-02-21T13:30:20.852Z
 author: michelle
 illustration: ""
-text_colour: text-white
-cover_img_alt: Kind team sat around a wooden table having a laugh!
 draft: false
 description: We’ve been helping purpose-driven clients for nearly 10 years now, but we always want to do more. That lead us to brand strategy and the complimentary services around it.
 toc: false
@@ -34,6 +32,6 @@ To help in this evolution of our offering, we have appointed Pam as Brand Lead a
 
 And, with brand and digital being so intangibly interlinked, our team have always had a strong understanding of what makes a successful brand and how to translate a visual identity into tangible assets.
 
-We’re excited for what we can achieve and are already working on brand projects with [Chapter Arts Centre](/work/chapter) and [the AHGBI](/work/hispanists).
+We’re excited for what we can achieve and are already working on brand projects with [Chapter Arts Centre](/work/chapter) and [AHGBI](/work/hispanists).
 
 [Get in touch](/contact) to find out how we can help you.
