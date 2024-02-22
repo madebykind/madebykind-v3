@@ -30,9 +30,9 @@ banner_logo_class: text-black
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  AHGBI had outgrown their former identity and digital platform. Our collaborative efforts focused on creating a brand that not only accommodates their diverse initiatives but also possesses the resilience to evolve alongside their continued growth.
-
   ## Brand identity
+
+  AHGBI had outgrown their former identity and digital platform. Our collaborative efforts focused on creating a brand that not only accommodates their diverse initiatives but also possesses the resilience to evolve alongside their continued growth.
 
   We crafted a brand strategy and identity that subtly honours heritage and culture, while anchoring in the association's values, beliefs, and future initiatives. Introducing a bold and impactful design, the new brand identity stands out, appealing to a new generation of academics, and offers flexibility to evolve with the association's growth.
 
