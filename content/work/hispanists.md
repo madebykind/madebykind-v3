@@ -7,9 +7,6 @@ cover_img: images/work-hispanists-flags.jpg
 cover_img_alt: 
 intro: >
   AHGBI (Association of Hispanists of Great Britain and Ireland) represents a dynamic collective of skilled researchers and educators spanning Hispanic and Lusophone Studies. Grounded in a commitment to research, knowledge production, and dissemination, it became evident that their passion, vibrancy, and sense of community deserved expression through a revitalised brand identity and forthcoming website.
-
-
-  AHGBI had outgrown their former identity and digital platform. Our collaborative efforts focused on creating a brand that not only accommodates their diverse initiatives but also possesses the resilience to evolve alongside their continued growth.
 key_stat: null
 description: Find out how Kind have helped the Association of Hispanists
 summary:
@@ -33,6 +30,8 @@ banner_logo_class: text-black
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
+  AHGBI had outgrown their former identity and digital platform. Our collaborative efforts focused on creating a brand that not only accommodates their diverse initiatives but also possesses the resilience to evolve alongside their continued growth.
+
   ## Brand identity
 
   We crafted a brand strategy and identity that subtly honours heritage and culture, while anchoring in the association's values, beliefs, and future initiatives. Introducing a bold and impactful design, the new brand identity stands out, appealing to a new generation of academics, and offers flexibility to evolve with the association's growth.
@@ -53,7 +52,7 @@ banner_logo_class: text-black
     alt_2="AHGBI logo in maroon on red"
     src_3="../images/work-hispanists-logo-4.jpg"
     alt_3="A tilde shape in red on maroon"
-    src_4="../images/work-hispanists-logo-7.jpg"
+    src_4="../images/work-hispanists-logo-9.jpg"
     alt_4="The AHGBI logo, showing the tilde cut out as an overlay" >}}
 
   </div>

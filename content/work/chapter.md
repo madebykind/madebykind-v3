@@ -135,10 +135,3 @@ From world-class and emerging talent to the next generation, to our audiences an
 </div>
 
 {{< figure wrapperclass="" alt="Pages of the Chapter website" src="../images/work-chapter-pages.jpg" >}}
-
-
-
-<!-- {{< figure wrapperclass="section--lg" alt="A view of multiple poster mockups lined up on the street. The back end of the bicycle is visible on the right-hand side as it goes past." src="../images/work-chapter-poster-wall-2.jpg" >}} -->
-
-
-<!-- {{< figure wrapperclass="section--lg" alt="A single poster mockup for the performance 'Always Already'. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image." src="../images/work-chapter-poster-2.jpg" >}} -->
