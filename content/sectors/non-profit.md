@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Non-profit
 heading: We help charities and non-profits advance their cause
 cover_img: images/work-rivers-trust-phone.jpg
@@ -38,6 +38,8 @@ related_projects:
   - slug: work/rewilding-britain
     indent_text: true
   - slug: work/the-rivers-trust
+    indent_images: true
+    indent_text: true
   - slug: projects/odi
 testimonials:
   - testimonials/rwb-short
