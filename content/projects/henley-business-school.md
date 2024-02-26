@@ -22,12 +22,12 @@ teaser:
   title: Transforming a business school’s online presence through user-centred design
   description: "Our team worked with Henley Business School for 6-years, culminating in a user-centred redesign of all of their public-facing websites"
   images:
-    - img: images/work-henley-student.jpg
-      alt: 
-    - img: images/work-henley-student.jpg
-      alt: 
-    - img: images/work-henley-student.jpg
-      alt: 
+    - img: images/work-henley-mobile.jpg
+      alt: Over the shoulder photograph of someone using a mobile phone to view the Henley Business School website
+    - img: images/work-henley-classroom.jpg
+      alt: A classroom setting with mature students
+    - img: images/work-henley-desktop.jpg
+      alt: Photograph of someone using a laptop to view the Henley Business School website
 ---
 
 Creation of a fast and responsive website to meet the needs of domestic and international students looking to study business in the UK.

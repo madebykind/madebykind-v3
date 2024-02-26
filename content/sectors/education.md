@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Education
 heading: Strategy, Brand and Digital for the Education Sector
 cover_img: images/work-ntu-mobile-thread.jpg
@@ -36,6 +36,8 @@ related_projects:
   - slug: work/nottingham-trent-university
     indent_text: true
   - slug: projects/henley-business-school
+    indent_images: true
+    indent_text: true
   - slug: projects/nottingham-college
 testimonials:
   - testimonials/henley
