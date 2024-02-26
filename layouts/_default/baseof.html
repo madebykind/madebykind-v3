@@ -60,6 +60,12 @@
     <script type="application/ld+json">
       {{ jsonify (dict "indent" "  ") $m | safeJS }}
     </script>
+
+    <script src="https://getinsights.io/js/insights.js"></script>
+    <script>
+      insights.init('N96lhlRPan5nwYhX');
+      insights.trackPages();
+    </script>
     
   </body>
 </html>
