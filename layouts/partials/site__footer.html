@@ -25,13 +25,13 @@
     </div>
   </div>
   {{ end }}
-  <div class="container section">
+  <div class="container section flex justify-between">
     <nav aria-label="{{ i18n "socialTitle" }}">
       <ul class="flex flex-wrap items-center gap-5 list-none" role=list>
         
         {{ if isset .Site.Params "facebook" }}
         <li>
-          <a href="{{ .Site.Params.Facebook }}" title="Facebook">
+          <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out">
             <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
               <use xlink:href="#icon-facebook"/>
             </svg>
@@ -41,7 +41,7 @@
 
         {{ if isset .Site.Params "instagram" }}
           <li>
-            <a href="{{ .Site.Params.Instagram }}" title="Instagram">
+            <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-instagram"/>
               </svg>
@@ -51,7 +51,7 @@
 
         {{ if isset .Site.Params "twitter" }}
           <li>
-            <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter">
+            <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-twitter"/>
               </svg>
@@ -61,7 +61,7 @@
 
         {{ if isset .Site.Params "linkedin" }}
           <li>
-            <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn">
+            <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
               </svg>
@@ -71,7 +71,7 @@
 
         {{ if isset .Site.Params "github" }}
           <li>
-            <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github">
+            <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-github"/>
               </svg>
@@ -89,6 +89,11 @@
 
       </ul>
     </nav>
+    <a href="https://ecofriendlyweb.org/client/kind/" target="_blank" title="This website is certified as Climate Positive" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out">
+      <svg class="w-48 h-14" viewbox="0 0 200 60" role="presentation">
+        <use xlink:href="#icon-efwa"/>
+      </svg>
+    </a>
   </div>
   <div class="container flex flex-wrap justify-between gap-5 py-5 font-sans font-light border-t">
     <address class="w-full text-xs md:w-auto">
