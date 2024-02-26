@@ -6,12 +6,7 @@ title: UNESCO - Brand and Digital Case Study - Non-Profit
 date: 2023-06-28T12:26:29.707Z
 cover_img: images/work-unesco-school.jpg
 cover_img_alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera
-intro: >
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+intro: UNESCO, the United Nations Educational, Scientific and Cultural Organization, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
 key_stat: null
 topics:
   - User-centred Design
@@ -48,24 +43,39 @@ teaser:
       alt: 
 ---
 
-{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="">}}
-Education is a fundamental human right. For children and youth caught up in emergency situations, education not only means the continuity of learning, but it also provides a sense of normalcy and the key to a different future.
-{{</ workquote >}}
-
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Lorem
+  They partnered with Kind for their Education in Emergencies (EiE) project, a five-year initiative collecting data from countries experiencing crises, whether natural disasters or conflicts. The project's aim is to gather, understand, and share knowledge, identify best practices, improve data systems, and facilitate learning from affected countries to prepare for and assist future crises.
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  UNESCO required assistance in handling a vast range of complex information, including reports, data systems, workshops, user profiles, guidebooks, and partner projects. The goal was to develop a user-centered digital platform that not only hosted this information but presented it in a user-friendly way to support their work.
+
+  </div>
+</div>
+
+{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="">}}
+Education is a fundamental human right. For children and youth caught up in emergency situations, education not only means the continuity of learning, but it also provides a sense of normalcy and the key to a different future.
+{{</ workquote >}}
+
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+
+  ## Desk-based research
+
+  Utilising all of the rich content UNESCO had collected, we worked with these documents to understand the complexities of the subject matter, we also looked at related work through partner organisations. This provided us with the foundational knowledge to ask the right questions to potential users and to start structuring the digital platform in an intuitive format.
+
+  ## User-centric strategic discussions
+
+  We hosted group and 1-1 calls with UNESCO staff, practitioners, partners and future users of the digital platform. This enabled us to fully understand the needs of these users and make assumptions about typical user journeys and functionality that would be really important to users.
 
   </div>
 </div>
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-unesco-internal-page.jpg" alt="" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4 lg:col-start-5" src="../images/work-unesco-internal-page.jpg" alt="" >}}
 
   <div class="col-span-full lg:col-span-4 bg-white flex items-center">
 
@@ -84,17 +94,30 @@ Education is a fundamental human right. For children and youth caught up in emer
 
 {{< figure wrapperclass="" src="../images/work-unesco-illustration-wide.jpg" alt="" >}}
 
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Prototypes and user testing
+
+  With the same working groups and individuals we’d spoken to directly, we built templates to test our IA, wireframes and content structure. These prototypes allowed users to test our thinking and to provide critical feedback across multiple rounds to allow us to create the most effective product for the people who would be using it.
+
+  ## User-friendly design
+
+  Working with UNESCO's existing brand and website design system. We created user-friendly design templates for their digital platform which was complimentary to their existing style and formatting but still engagingly communicated their complex information. 
+
+  </div>
+</div>
+
+{{< figure wrapperclass="" src="../images/work-unesco-online.jpg" alt="" align="left" >}}
+
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Ipsum
+  ## Illustrated PDF report
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
-
-  ## Dolor
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  Kind also helped UNESCO condense a detailed 100-page report into a concise, visually engaging summary report. The report was enhanced with illustrations, clear content breakdown, interactive elements, and links to additional support material. The illustrations, featuring diverse characters, aimed to express the report's findings and solutions while respecting the seriousness of the events in crisis areas.
 
   </div>
 </div>
