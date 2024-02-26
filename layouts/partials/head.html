@@ -55,6 +55,10 @@
 
   <!-- Fathom Analytics -->
   {{ if not .Site.IsServer }}
-    <script src="https://cdn.usefathom.com/script.js" data-site="BHVNLHCB" defer></script>
+    <script src="https://getinsights.io/js/insights.js"></script>
+    <script>
+      insights.init('N96lhlRPan5nwYhX');
+      insights.trackPages();
+    </script>
   {{ end }}
 </head>
