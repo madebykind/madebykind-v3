@@ -1,15 +1,15 @@
 {
-  "name": "inspired",
-  "short_name": "inspired",
+  "name": "Kind",
+  "short_name": "Kind",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "180x180"
     }
   ],
   "display": "standalone",
-  "start_url": "https://hugo.internet-inspired.com/",
-  "background_color": "#000000",
-  "theme_color": "#000000"
+  "start_url": "https://madebykind.com.com/",
+  "background_color": "#084059",
+  "theme_color": "#084059"
 }
