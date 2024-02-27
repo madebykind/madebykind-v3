@@ -9,7 +9,7 @@
     <div class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-8 xl:gap-y-12">
       {{ range $i,$p := .Pages }}
         <section id="{{ .Params.Heading | anchorize }}" class="col-span-full xl:col-span-4">
-          <a href="{{ .Permalink }}" class="group no-underline">
+          <a href="{{ .Permalink }}" class="group no-underline" onclick="javascript:insights.track({id: 'services-offering-{{ .Params.Heading | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
             <div class="flex flex-col md:flex-row xl:flex-col gap-10 h-full">
               <div class="aspect-3/4 lg:aspect-4/3">
                 {{ if .Params.cover_img }}

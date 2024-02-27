@@ -9,14 +9,14 @@
         </div>
       {{ end }}
       <div class="flex flex-wrap gap-5 lg:gap-10">
-          <a class="btn btn--primary" href="{{ .Params.cta3Link }}">
+          <a class="btn btn--primary" href="{{ .Params.cta3Link }}" onclick="javascript:insights.track({id: 'home-cta-button-1',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
             {{ title .Params.cta3 }}
             <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
               <use xlink:href="#icon-arrow"/>
             </svg>
           </a>
         {{ if isset .Params "cta4" }}
-          <a class="btn btn--secondary" href="{{ .Params.cta4Link }}">
+          <a class="btn btn--secondary" href="{{ .Params.cta4Link }}" onclick="javascript:insights.track({id: 'home-cta-button-2',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
             {{ title .Params.cta4 }}
             <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
               <use xlink:href="#icon-arrow"/>

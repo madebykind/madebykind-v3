@@ -20,7 +20,7 @@
         </svg>
       </div>
       <div>
-        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact">
+        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact" onclick="javascript:insights.track({id: 'about-impact',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
           Our impact
           <svg class="w-12 h-4 flex-no-shrink" role="presentation">
             <use xlink:href="#icon-arrow"/>
@@ -41,7 +41,7 @@
         <div class="xl:col-span-1 col-span-full bleed xl:ml-0">
           {{ range . }}
             {{ with site.GetPage . }}
-              <a class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
+              <a class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'impact-project',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
                 <div class="relative xl:flex-grow">
                   {{ if isset .Params "impact_img" }}
                     {{ partial "image__impact-project" . }}
@@ -76,7 +76,7 @@
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
           <li id="toggle-{{ .name | anchorize }}">
             <article itemscope itemtype="http://schema.org/Person">
-              <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="team-{{ .name | anchorize }}" data-toggle-set-scroll class="text-left">
+              <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="team-{{ .name | anchorize }}" data-toggle-set-scroll class="text-left" onclick="javascript:insights.track({id: 'team--topn-{{ .name | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
 
                 {{ $xl := $author_img.Fill "920x1360" }}
                 {{ $lg := $xl.Resize "640x" }}
