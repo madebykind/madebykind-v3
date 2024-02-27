@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 featured: true
-heading: Digital Report and Knowledge Base
+heading: Ensuring access to education for millions of children
 title: UNESCO - Brand and Digital Case Study - Non-Profit
 date: 2023-06-28T12:26:29.707Z
 cover_img: images/work-unesco-school.jpg
@@ -14,7 +14,7 @@ block_class: bg-blue text-sky
 cta_class: bg-sky text-blue
 external_link: 
 icon: unesco-logo
-description: Ensuring access to education for millions of children
+description: A digital report and knowledge base
 services:
   - brand
   - digital
@@ -22,15 +22,15 @@ related_work:
   - chapter
   - rewilding-britain
   - jackson-crane
-weight: 3
+weight: 1
 banner_type: standard
 banner_icon: unesco-logo
 banner_img: images/work-unesco-school.jpg
 banner_img_alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera
 toc: true
 teaser:
-  title: Digital report and knowledge base supporting education in emergencies
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia consequat rhoncus.
+  title: Ensuring access to education for millions of children
+  description: A digital report and knowledge base supporting education in emergencies
   images:
     - img: images/work-unesco-flat.jpg
       alt: Flat images of pages from a report document

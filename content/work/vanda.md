@@ -1,5 +1,4 @@
 ---
-featured: true
 heading: Working with the world’s leading art and design museum
 title: The V&A - Brand and Digital Case Study - Arts & Culture 
 date: 2023-05-28T11:49:55.811Z
