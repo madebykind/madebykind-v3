@@ -1,5 +1,5 @@
 <article class="h-full">
-  <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'card-{{ .Title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
+  <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'card-{{ .Title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
     <div class="relative aspect-4/3 xl:aspect-3/4 2xl:aspect-4/3
       
       {{ if .Params.cover_img }}

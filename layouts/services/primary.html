@@ -99,7 +99,7 @@
             {{ if $e.additional }}
             <div class="bg-blue text-buff p-4 lg:py-6 lg:px-12">
               <h4 class="h--condensed">{{ $e.additional.title }}</h4>
-              <a href="{{ .additional.link.url }}" class="inline-flex  items-center gap-2 font-serif font-bold text-sm hover:text-pink focus:text-pink transition duration-300" onclick="javascript:insights.track({id: 'service-package-button-{{ $e.additional.title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
+              <a href="{{ .additional.link.url }}" class="inline-flex  items-center gap-2 font-serif font-bold text-sm hover:text-pink focus:text-pink transition duration-300" onclick="javascript:insights.track({id: 'service-package-button-{{ $e.additional.title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
                 {{ $e.additional.link.text }}
                 <svg class="w-8 h-3 flex-no-shrink" role="presentation">
                   <use xlink:href="#icon-arrow"/>
