@@ -4,17 +4,19 @@ featured: true
 heading: Ensuring access to education for millions of children
 title: UNESCO - Brand and Digital Case Study - Non-Profit
 date: 2023-06-28T12:26:29.707Z
-cover_img: images/work-unesco-school.jpg
-cover_img_alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera
+cover_img: images/work-unesco-refugees.jpg
+cover_img_alt: Three child refugees in a tent Kabul
 intro: UNESCO, the United Nations Educational, Scientific and Cultural Organization, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
 key_stat: null
 topics:
+  - Illustration
+  - Research and analysis
   - User-centred Design
 block_class: bg-blue text-sky
 cta_class: bg-sky text-blue
 external_link: 
 icon: unesco-logo
-description: A digital report and knowledge base
+description: A global user-centred design process
 services:
   - brand
   - digital
@@ -30,17 +32,17 @@ banner_img_alt: Children at desks in a school, working with blue pens. One child
 toc: true
 teaser:
   title: Ensuring access to education for millions of children
-  description: A digital report and knowledge base supporting education in emergencies
+  description: A global user-centred design process that resulted in the delivery of a digital report and knowledge base to supporting governments in strengthen the systems that provide education, in preparation for emergencies such as conflict or natural disaster
   images:
     - img: images/work-unesco-flat.jpg
       alt: Flat images of pages from a report document
     - img: images/work-unesco-refugees.jpg
-      alt: 
+      alt: Three child refugees in a tent Kabul
       darken: true
       stat:
         - 224-unesco
     - img: images/work-unesco-internal-page.jpg
-      alt: 
+      alt: A tablet device with a page from the Digital PDF report
 ---
 
 <!-- Text left -->
@@ -54,7 +56,7 @@ teaser:
   </div>
 </div>
 
-{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="">}}
+{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="Three child refugees in a tent Kabul">}}
 Education is a fundamental human right. For children and youth caught up in emergency situations, education not only means the continuity of learning, but it also provides a sense of normalcy and the key to a different future.
 {{</ workquote >}}
 
@@ -75,24 +77,24 @@ Education is a fundamental human right. For children and youth caught up in emer
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4 lg:col-start-5" src="../images/work-unesco-internal-page.jpg" alt="" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4 lg:col-start-5" src="../images/work-unesco-internal-page.jpg" alt="A tablet device with a page from the Digital PDF report" >}}
 
   <div class="col-span-full lg:col-span-4 bg-white flex items-center">
 
   {{< image-cycle
     src_1="../images/work-unesco-character-1.jpg"
-    alt_1=""
+    alt_1="An illustrated character from the digital PDF report"
     src_2="../images/work-unesco-character-2.jpg"
-    alt_2=""
+    alt_2="An illustrated character from the digital PDF report"
     src_3="../images/work-unesco-character-3.jpg"
-    alt_3=""
+    alt_3="An illustrated character from the digital PDF report"
     src_4="../images/work-unesco-character-4.jpg"
-    alt_4="" >}}
+    alt_4="An illustrated character from the digital PDF report" >}}
 
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-unesco-illustration-wide.jpg" alt="" >}}
+{{< figure wrapperclass="" src="../images/work-unesco-illustration-wide.jpg" alt="A large illustration from the digital PDF report" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -109,7 +111,7 @@ Education is a fundamental human right. For children and youth caught up in emer
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-unesco-online.jpg" alt="" align="left" >}}
+{{< figure wrapperclass="" src="../images/work-unesco-online.jpg" alt="The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building" align="left" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -122,4 +124,4 @@ Education is a fundamental human right. For children and youth caught up in emer
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="../images/work-unesco-flat.jpg" alt="" >}}
+{{< figure align="right" wrapperclass="" src="../images/work-unesco-flat.jpg" alt="Flat images of pages from a report document" >}}
