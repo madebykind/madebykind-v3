@@ -84,7 +84,7 @@
       <div class="section--lg flex flex-col items-start gap-5 lg:gap-10 lg:col-span-6 xl:col-span-8">
         <h2 class="h1">Let’s be clear &mdash; we’re not for everyone</h2>
         <p class="max-w-4xl">All our clients must have a mission that comes before profit. If that sounds like you, maybe we could work together.</p>
-        <a class="btn btn--teal mb-2" href="#clients">
+        <a class="btn btn--teal mb-2" href="#clients" onclick="javascript:insights.track({id: 'sector-what-clients',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
           What clients?
           <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
             <use xlink:href="#icon-arrow"/>
@@ -146,7 +146,7 @@
           {{ end }}
         {{ end }}
       </div>
-      <a class="btn btn--pink" href="#services">
+      <a class="btn btn--pink" href="#services" onclick="javascript:insights.track({id: 'sector-how-can-you-help-me',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
         Ok, so how can you help me?
         <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
           <use xlink:href="#icon-arrow"/>
@@ -177,7 +177,7 @@
           </div>
         {{ end }}
       </div>
-      <a class="btn btn--primary" href="#newsletter">
+      <a class="btn btn--primary" href="#newsletter" onclick="javascript:insights.track({id: 'sector-interested',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
         Interested?
         <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
           <use xlink:href="#icon-arrow"/>
@@ -203,7 +203,7 @@
         "border_class" "border-blue focus:border-teal"
       ) }}
       <div class="container mt-24 lg:mt-48">
-        <a class="btn btn--primary" href="#contact">
+        <a class="btn btn--primary" href="#contact" onclick="javascript:insights.track({id: 'sector-talk-sooner',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
           Want to talk to use sooner?
           <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
             <use xlink:href="#icon-arrow"/>
@@ -226,7 +226,7 @@
           <h2 class="text-3xl h--condensed">Arrange a chat with our founder</h2>
           <p class="mt-6 leading-tight text-md">That’s me! I founded Kind to be a force for good and would love to chat about how we might help you.</p>
         </div>
-        <a class="btn btn--pink mb-2" href="https://calendly.com/madebykind/30-min-call-with-mat-at-kind">
+        <a class="btn btn--pink mb-2" href="https://calendly.com/madebykind/30-min-call-with-mat-at-kind" onclick="javascript:insights.track({id: 'sector-book-chat',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
           Book a chat
           <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
             <use xlink:href="#icon-arrow"/>

@@ -41,7 +41,7 @@
       </div>
       {{ if $.show_button }}
         <div class="lg:col-span-full xl:col-span-4 xl:col-start-9">
-          <a class="btn btn--primary" href="{{ $.button_url }}">
+          <a class="btn btn--primary" href="{{ $.button_url }}" onclick="javascript:insights.track({id: 'project-teaser-wide-{{ $.button_text | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
             {{ $.button_text }}
             <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
               <use xlink:href="#icon-arrow"/>

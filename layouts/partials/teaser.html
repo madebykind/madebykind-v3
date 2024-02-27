@@ -1,5 +1,5 @@
 <article>
-  <a aria-labelledby="{{ .Params.Heading | anchorize }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}">
+  <a aria-labelledby="{{ .Params.Heading | anchorize }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'teaser-{{ .Params.Heading | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
     <div class="grid gap-10 py-10 border-b">
       <div class="flex flex-wrap gap-10">
         <div class="flex-grow w-2/3">
