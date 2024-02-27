@@ -8,10 +8,10 @@
         <p class="font-bold mt-15">Speak to Mat or Michelle</p>
         <ul class="inline-flex gap-5 mt-2 list-none" role="list">
           <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
-            <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:track({id: 'footer-email',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">{{.Site.Params.Email}}</a>
+            <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:insights.track({id: 'footer-email',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">{{.Site.Params.Email}}</a>
           </li>
           <li>
-            <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}"onclick="javascript:track({id: 'footer-telephone',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">{{.Site.Params.PhonePretty}}</a>
+            <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}"onclick="javascript:insights.track({id: 'footer-telephone',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">{{.Site.Params.PhonePretty}}</a>
           </li>
         </ul>
       </div>
@@ -31,7 +31,7 @@
         
         {{ if isset .Site.Params "facebook" }}
         <li>
-          <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:track({id: 'footer-social-facebook',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
+          <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-facebook',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
             <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
               <use xlink:href="#icon-facebook"/>
             </svg>
@@ -41,7 +41,7 @@
 
         {{ if isset .Site.Params "instagram" }}
           <li>
-            <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:track({id: 'footer-social-instagram',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
+            <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-instagram"/>
               </svg>
@@ -51,7 +51,7 @@
 
         {{ if isset .Site.Params "twitter" }}
           <li>
-            <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:track({id: 'footer-social-twitter',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
+            <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-twitter',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-twitter"/>
               </svg>
@@ -61,7 +61,7 @@
 
         {{ if isset .Site.Params "linkedin" }}
           <li>
-            <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:track({id: 'footer-social-linkedin',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
+            <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
               </svg>
@@ -71,7 +71,7 @@
 
         {{ if isset .Site.Params "github" }}
           <li>
-            <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:track({id: 'footer-social-github',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
+            <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-github',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-github"/>
               </svg>
@@ -89,7 +89,7 @@
 
       </ul>
     </nav>
-    <a href="https://ecofriendlyweb.org/client/kind/" target="_blank" title="This website is certified as Climate Positive" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:track({id: 'footer-efwa',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
+    <a href="https://ecofriendlyweb.org/client/kind/" target="_blank" title="This website is certified as Climate Positive" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-efwa',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
       <svg class="w-48 h-14" viewbox="0 0 200 60" role="presentation">
         <use xlink:href="#icon-efwa"/>
       </svg>
