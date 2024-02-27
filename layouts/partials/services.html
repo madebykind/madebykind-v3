@@ -5,7 +5,7 @@
     {{ range (where (where site.Pages "Section" "eq" "services" ) ".Params.featured" "eq" true ) }}
       <li>
         <article class="flex flex-col justify-end h-full overflow-hidden">
-          <a aria-labelledby="{{ .Title | anchorize }}" class="relative flex flex-row lg:flex-col flex-grow overflow-hidden no-underline group text-currentColor" href="/services/{{ .Title | anchorize }}" onclick="javascript:insights.track({id: 'home-service-{{ .Title | anchorize }}',parameters: {locale: parameters.locale(),screenSize: parameters.screenType(),referrer: parameters.referrer(),path: parameters.path}});">
+          <a aria-labelledby="{{ .Title | anchorize }}" class="relative flex flex-row lg:flex-col flex-grow overflow-hidden no-underline group text-currentColor" href="/services/{{ .Title | anchorize }}" onclick="javascript:insights.track({id: 'home-service-{{ .Title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path}});">
             <div class="{{ if isset .Params "block_class" }} {{ .Params.block_class }} {{ end }}p-5 lg:p-10 xl:p-16 z-10 flex lg:order-2 transition-all duration-300 ease-in-out">
               <h3 class="text-2xl lg:text-3xl h--condensed h--orientation-vertical lg:h--orientation-horizontal" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
             </div>
