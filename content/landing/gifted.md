@@ -1,7 +1,7 @@
 ---
 layout: gifted
 title: Gifted
-heading: A free brand for your purpose-driven organisation
+heading: Win a free brand for your purpose-driven organisation
 intro: To help create even more positive impact, we're giving away our Essential brand package to one charity, non-profit or impact-based business.
 header_cta:
   url: "#gifted-form"
