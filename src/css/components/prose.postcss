@@ -91,4 +91,28 @@
       @apply lede;
     }
   }
+
+  .prose--sans {
+    @apply
+      font-sans
+      text-base
+    ;
+    
+    > * + * {
+      @apply
+        mt-4
+      ;
+    }
+
+    p {
+      + p {
+        @apply mt-4;
+      }
+    }
+
+    ol,
+    ul {
+      @apply mt-4;
+    }
+  }
 }

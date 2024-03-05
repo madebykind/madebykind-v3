@@ -105,3 +105,4 @@ timeout = "300s"
 
 [permalinks]
   sectors = "/:slug/"
+  impact-reports = "/about/our-impact/:slug/"
