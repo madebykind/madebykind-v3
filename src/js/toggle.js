@@ -63,6 +63,7 @@ function Toggler(el) {
   }
 
   el.addEventListener("click", function(e) {
+    e.preventDefault();
     doToggle(this, toggleGroup, targetEl, focusEl, toggleParent, toggleFixed);
   });
 }

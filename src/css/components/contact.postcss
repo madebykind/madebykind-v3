@@ -1,0 +1,21 @@
+.contact-details {
+  @apply
+    fixed
+    left-0
+    right-0
+    -top-[200%]
+    h-1
+    overflow-hidden
+    transition-all
+    duration-300
+    ease-in-out
+    z-10
+  ;
+}
+
+.contact-details.active {
+  @apply
+    top-0
+    h-screen
+  ;
+}

@@ -6,7 +6,12 @@
 
   {{/* Intro */}}
   <section class="bg-indigo text-buff section--lg">
-    {{- .Content -}}
+    <div class="container">
+      <h2 class="h--condensed text-3xl mb-10">A note from our leaders</h2>
+      <div class="font-sans font-serif prose prose--tight flex flex-col gap-10">
+        {{ .Content }}
+      </div>
+    </div>
   </section>
 
 
