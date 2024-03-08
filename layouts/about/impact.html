@@ -47,7 +47,7 @@
               "class" ""
               "src" "/images/stat-image-b-corp.png" 
             ) }}
-            <div class="absolute z-10 text-buff bottom-10 right-10">
+            <div class="absolute z-10 text-buff bottom-10 left-10">
               <article>
                 <h3 class="text-3xl h1">93.6</h3>
                 <p class="mt-5">B Impact Assessment Score</p>
@@ -134,6 +134,21 @@
               </div>
             </div>
           </div>
+        </section>
+        <section class="section--lg">
+          <h2 class="text-2xl h--condensed mb-10">Impact reports</h2>
+          <div class="prose">
+            <p>As part of our B Corp certification, every year we publish an impact report outlining our activities and plans for the future.</p>
+          </div>
+
+          <ul class="mt-10 list-none" role="list">
+            {{ range where site.RegularPages "Section" "impact-reports" }}
+              <li>
+                {{ partial "teaser" . }}
+              </li>
+            {{ end }}
+          </ul>
+
         </section>
         <section>
           <h2 class="text-2xl h--condensed">The impact of our activity</h2>

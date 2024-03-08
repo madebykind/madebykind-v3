@@ -1,0 +1,21 @@
+<header class="flex grid gap-10 items-between">
+  <div class="container grid grid-cols-12 pt-10 pb-24">
+
+    <div class="col-span-full lg:col-span-8 flex flex-col gap-10 lg:gap-24">
+
+      <ol class="inline-flex gap-10 font-sans list-none items-start" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="list">
+        <li class="relative after:absolute after:left-full after:ml-4 inline-flex items-center justify-between after:flex after:content-['/']" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a class="underline" href="/about/" itemprop="item"><span itemprop="name">About</span></a>
+        </li>
+        <li class="relative after:absolute after:left-full after:ml-4 inline-flex items-center justify-between after:flex after:content-['/']" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a class="underline" href="/about/our-impact" itemprop="item"><span itemprop="name">Our impact</span></a>
+        </li>
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <span aria-current="page" itemprop="name">{{ .Page.Title }}</span>
+        </li>
+      </ol>
+
+      <h1 class="flex flex-col gap-4"><span class="h3 h--condensed">{{ .Title }}</span>Impact Report</h1>
+    </div>
+  </div>
+</header>

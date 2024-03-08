@@ -6,7 +6,8 @@ function ToggleClass(el) {
   const resetScroll = el.dataset.toggleResetScroll;
   let scrollPosition;
   
-  el.addEventListener("click", function() {
+  el.addEventListener("click", function(e) {
+    e.preventDefault();
 
     classes.forEach(function(x) {
       target.classList.toggle(x);
