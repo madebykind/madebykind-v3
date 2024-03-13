@@ -10,9 +10,11 @@
         <ol class="inline-flex gap-10 font-sans list-none items-start" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="list">
           <li class="relative after:absolute after:left-full after:ml-4 inline-flex items-center justify-between" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
             <a class="underline" href="/blog/" itemprop="item"><span itemprop="name">Insights</span></a>
+          <meta itemprop="position" content="1" />
           </li>
           <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="sr-only">
             <span aria-current="page" itemprop="name">{{ .Page.Title }}</span>
+          <meta itemprop="position" content="2" />
           </li>
         </ol>
         <div class="grid gap-10">
