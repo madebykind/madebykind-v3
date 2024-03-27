@@ -10,4 +10,4 @@ __This site does not use cookies__, none. If you'd like to learn about cookies, 
 
 Rest assured __this site does not track you__! No cookies, no trackers, no ads.
 
-We have the utmost respect for your privacy. Everything you need to know about our handling of your personal data is detailed in our [Privacy Policy](/legal/privacy).
+We have the utmost respect for your privacy. Everything you need to know about our handling of your personal data is detailed in our [Privacy Policy](/about/legal/privacy).
