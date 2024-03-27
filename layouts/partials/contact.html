@@ -3,7 +3,11 @@
   <header>
     <div class="container grid items-end content-end gap-10 section--lg">
       <div class="grid max-w-6xl gap-10">
-        <h1>{{ .Params.Heading }}</h1>
+        {{ if $.is_page }}
+          <h1>{{ .Params.Heading }}</h1>
+        {{ else }}
+          <h2 class="h1">{{ .Params.Heading }}</h2>
+        {{ end }}
         {{ if .Params.intro }}
           <div class="max-w-3xl prose cta_prose">
             {{ .Params.intro | markdownify }}

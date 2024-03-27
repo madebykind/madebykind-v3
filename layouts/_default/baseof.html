@@ -31,7 +31,9 @@
           <use xlink:href="#icon-close"/>
         </svg>
       </button>
-      {{ partialCached "contact" .  }}
+      {{ partialCached "contact" (dict 
+        "is_page" false
+      ) }}) }}
     </div>
 
     <!-- Majic lock -->
