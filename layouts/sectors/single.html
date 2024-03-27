@@ -95,9 +95,10 @@
   </div>
 
   {{/* Clients */}}
+  {{ $sector := .Title }}
   {{ with .Params.related_projects }}
   <div class="bg-buff text-indigo" id="clients">
-    <h2 class="sr-only">Examples of our work</h2>
+    <h2 class="sr-only">Examples of our work in the {{ $sector }} sector</h2>
     {{ $projects := . }}
     {{ $count := len $projects }}
     
