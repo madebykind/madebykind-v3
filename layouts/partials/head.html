@@ -16,6 +16,9 @@
 	<!-- Page description goes here, if there is one. If not, we'll summarize from page content. Failing that, fallback to global site description. -->
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
+	<!-- Is this the OG content? -->
+	<link rel="canonical" href="{{ .Permalink }}" />
+
 	<!-- Yo! Assets list, right here. Pre-load em while they hot! -->
 	<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
 

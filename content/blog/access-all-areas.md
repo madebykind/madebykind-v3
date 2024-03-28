@@ -116,7 +116,7 @@ At Kind we have years of experience with implementing accessible solutions for p
 
 Generally we first design for accessibility, considering user requirements, form elements, document semantics and interactivity before we write a single line of code. Throughout the build phase of a project we then test every aspect using automated tools and user testing, revising and iterating in response to feedback.
 
-Just some of the things [the team at Kind](https://madebykind.com/team#entry:51@1:url) can help you with:
+Just some of the things [the team at Kind](https://madebykind.com/about/#team) can help you with:
 
 * Auditing your website to identify accessibility issues
 * Detailing the impacts of any accessibility issues

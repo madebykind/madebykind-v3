@@ -24,17 +24,17 @@ related_posts:
 ---
 In short, it means we choose to work with a client base that sets out to do good. Whether that’s good things for people, culture, animals or the planet, as long as it leaves a positive footprint for future generations we can truly get behind it. We are lucky to have a host of wonderful clients from renewable energy institutes, universities through to online stores which sell socially conscious and environmentally friendly products and many more!
 
-However, for us it was not enough to just have sustainable clients, we wanted to do as much as we could to ​‘be green’ and live by the values that are important to us. So we had a look at our own office and lifestyles and tried to make some small and a few big changes. Here is what we did… 
+However, for us it was not enough to just have sustainable clients, we wanted to do as much as we could to ‘be green’ and live by the values that are important to us. So we had a look at our own office and lifestyles and tried to make some small and a few big changes. Here is what we did… 
 
 ### 1% for the planet
 
-We knew climate change was a serious issue and one which as people we could no longer ignore. We wanted to do something to help and put our money where our mouth is so in 2017 we joined the **[1% for the planet](http://www.onepercentfortheplanet.org/)** movement and now donate at least 1% of our turnover to environmental non-profits. In 2018 we continue to be an active member and will be sponsoring and attending their European Summit in November in the Netherlands. 
+We knew climate change was a serious issue and one which as people we could no longer ignore. We wanted to do something to help and put our money where our mouth is so in 2017 we joined the **[1% for the planet](https://www.onepercentfortheplanet.org/)** movement and now donate at least 1% of our turnover to environmental non-profits. In 2018 we continue to be an active member and will be sponsoring and attending their European Summit in November in the Netherlands. 
 
 {{< youtube rZ0Stj6MWNU >}}
 
 ### Surfers Against Sewage
 
-To further our commitment to cleaning up the planet we wanted to get out there and understand the effects plastic consumption has on UK waters. As a team we decided to [take a team building trip to Wales](https://madebykind.com/blog/kind-go-wild-in-wales) and meet up with the rep from [Surfers Against Sewage](https://www.sas.org.uk/) and do a beach clean. It was an eye opening experience and really made us think more about how we use plastic. We continue to support Surfers Against Sewage and hope to plan another trip in the future.
+To further our commitment to cleaning up the planet we wanted to get out there and understand the effects plastic consumption has on UK waters. As a team we decided to [take a team building trip to Wales](https://madebykind.com/blog/kind-go-wild-in-wales/) and meet up with the rep from [Surfers Against Sewage](https://www.sas.org.uk/) and do a beach clean. It was an eye opening experience and really made us think more about how we use plastic. We continue to support Surfers Against Sewage and hope to plan another trip in the future.
 
 ![Man on a beach with a bucket and a litter picker](../images/img_8048.jpg)
 
@@ -48,7 +48,7 @@ With a city centre office, a team living across Nottinghamshire and a list of cl
 
 ## Keeping the lights on
 
-We have to power an office full of tech and also keep our staff warm during those lovely (cold) british winters. We decided it would be worthwhile looking at where we could reduce energy use and also where that energy comes from. We found Good Energy and switched over to them to ensure 100% of our energy supply comes from green/​renewable energy.
+We have to power an office full of tech and also keep our staff warm during those lovely (cold) british winters. We decided it would be worthwhile looking at where we could reduce energy use and also where that energy comes from. We found Good Energy and switched over to them to ensure 100% of our energy supply comes from green/renewable energy.
 
 We do not claim to be the greenest company around, nor would we say as people everything we do or use is recyclable and eco friendly. But we are trying, we are changing what we do in the workplace and at home and hoping that each small change we make eventually has a bigger impact.
 
