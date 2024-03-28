@@ -39,7 +39,8 @@
 		<script type="module" src="http://localhost:5173/@vite/client"></script>
 		<script type="module" src="http://localhost:5173/src/main.js"></script>
 	{{ else }}
-		<link rel="stylesheet" href="/assets/main.css"/>
+		<link rel="preload" href="/assets/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="/assets/main.css"></noscript>
 		<script type="module" src="/assets/app.js"></script>
 	{{ end }}
 
@@ -53,9 +54,9 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
-  <!-- Fathom Analytics -->
+  <!-- Analytics -->
   {{ if not .Site.IsServer }}
-    <script src="https://getinsights.io/js/insights.js"></script>
+    <script src="https://getinsights.io/js/insights.js" async></script>
     <script>
       insights.init('N96lhlRPan5nwYhX');
       insights.trackPages();
