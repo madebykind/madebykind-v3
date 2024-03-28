@@ -4,7 +4,7 @@ description: We respect your privacy. This policy desribes what you need to know
 title: How we use your data
 heading: How we use your data
 toc: false
-url: /about/legal/privacy
+url: /about/legal/privacy/
 ---
 
 We’re firm believers in transparency when it comes to how we store and use personal data. Here’s our (very short) privacy policy.
@@ -15,7 +15,7 @@ We don’t use Google Analytics or any other in-depth analytics tool that captur
 
 ## Cookies
 
-Our website uses one cookie, which is set by Cloudflare and is called `_cfduid`. It is used to check whether you’re a bad egg and likely to try to hack or take down our website. It doesn’t track you in any way or store any of your personal details. More information can be found here: [Privacy and the _cfduid cookie](https://developers.cloudflare.com/fundamentals/get-started/reference/cloudflare-cookies/#12345682)
+Our website uses one cookie, which is set by Cloudflare and is called `_cfduid`. It is used to check whether you’re a bad egg and likely to try to hack or take down our website. It doesn’t track you in any way or store any of your personal details. More information can be found here: [Privacy and the _cfduid cookie](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/)
 
 ## Mailing list
 

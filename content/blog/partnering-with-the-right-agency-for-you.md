@@ -38,7 +38,7 @@ Now you have done your research you have likely stumbled across who they have wo
 
 ## Questions
 
-It is important to ask many, many, many questions. Do not be afraid to ask ​‘silly’ questions, no question is silly and if you get a response that makes you feel it is, they are perhaps not the best agency to work with. 
+It is important to ask many, many, many questions. Do not be afraid to ask ‘silly’ questions, no question is silly and if you get a response that makes you feel it is, they are perhaps not the best agency to work with. 
 
 Some useful questions to ask: 
 

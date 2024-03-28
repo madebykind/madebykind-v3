@@ -22,7 +22,7 @@ At Kind we endeavour to be a responsible business, whether that be working with 
 
 Everyone in their right mind understands the seriousness of climate change and after reading about [Patagonia giving 100% of its Black Friday turnover to environmental nonprofits](http://www.patagonia.com/100-percent-for-the-planet.html), we were inspired to join in the cause.
 
-So, for 2017 we’ll be joining the [1% for the planet](http://www.onepercentfortheplanet.org/) movement and donating at least 1% of our ex VAT turnover.
+So, for 2017 we’ll be joining the [1% for the planet](https://www.onepercentfortheplanet.org/) movement and donating at least 1% of our ex VAT turnover.
 
 It’s a tiny number and an amount we probably won’t notice but, as more and more businesses become members, we can start to make a positive impact, together.
 

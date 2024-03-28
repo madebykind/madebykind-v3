@@ -45,9 +45,9 @@ Here’s a quick rundown of how we do that at Kind.
 
 When there isn’t enough time allocated to analysis and discovery, it could be acceptable to simply read the objectives as stated in the project brief or whatever strategy documents exist. However, it is also necessary to ensure that the documented objectives and strategy are fully embedded throughout the organisation and aren’t just public-facing content pieces aimed at altering the perception of the brand.
 
-[Speaking directly to key stakeholders](https://madebykind.com/blog/how-to-get-your-colleagues-on-board-with-your-website-project) about how they view the long-term objectives, both in their department and the wider organisation, and how this project could help support these, helps us to build a picture of what a successful end-product looks like and whether there is internal consensus on how the project brief aligns with the strategy. If at all.
+[Speaking directly to key stakeholders](https://madebykind.com/blog/how-to-get-your-colleagues-on-board-with-your-website-project/) about how they view the long-term objectives, both in their department and the wider organisation, and how this project could help support these, helps us to build a picture of what a successful end-product looks like and whether there is internal consensus on how the project brief aligns with the strategy. If at all.
 
-These conversations could take the form of one-to-one interviews, with analysts bringing all the information together to attempt to form a ​‘big picture’. But this would then need to be shared again with stakeholders, leading to a high probability of an open-ended feedback cycle.
+These conversations could take the form of one-to-one interviews, with analysts bringing all the information together to attempt to form a ‘big picture’. But this would then need to be shared again with stakeholders, leading to a high probability of an open-ended feedback cycle.
 
 Instead, and especially for larger organisations, it is useful to carry out open sessions or workshops where all stakeholders work together to make decisions quickly and understand whether their opinions are personal or shared (it’s not uncommon for people to be so passionate about their area of work that they believe it should trump all others). Being able to clearly see that a large organisation has multiple priorities, and where their’s might fit within those, can help to prevent resentment or animosity toward a project when it is launched.
 
@@ -61,7 +61,7 @@ To begin to understand an organisation’s users, we work with internal teams to
 
 While it would be easier to organise a workshop of this kind with the project team alone, we get much better results when we include front-line staff and people from under-represented areas of the organisation.
 
-These theories about users are then translated into user stories — a short description of what a user wants to achieve and why, written from their point of view.
+These theories about users are then translated into user stories—a short description of what a user wants to achieve and why, written from their point of view.
 
 But, at this stage, these stories are simply a group of nicely structured assumptions. We need to validate these with real users.
 
@@ -73,7 +73,7 @@ Example of a user story and how we structure them
 
 As we have worked to gain a clear idea of the goals of the organisation, we can easily identify the user stories that will contribute towards these.
 
-Even better, we can locate the ​“sweet spot”, where prevalent user stories align with the organisation’s goals, and plan to focus the majority of our future effort there.
+Even better, we can locate the “sweet spot”, where prevalent user stories align with the organisation’s goals, and plan to focus the majority of our future effort there.
 
 The user stories that we’ve found in this sweet spot can then be used as a foundation in planning the component features of the product, i.e. the scope.
 
@@ -93,4 +93,4 @@ As we already have the ***Strategy*** and the ***Scope***, we begin to work on p
 
 Since we’ve taken the time find the strategic sweet spot for the project, it only makes sense to then consider at all stages whether the outputs we are producing align with this. The UCD framework helps us to do just that.
 
-We’ve found this process invaluable when working on large, complex websites with seemingly endless user and organisational needs. If you think it could be useful for your next digital project, why not [chat to us about how we could help](https://madebykind.com/contact)?
+We’ve found this process invaluable when working on large, complex websites with seemingly endless user and organisational needs. If you think it could be useful for your next digital project, why not [chat to us about how we could help](https://madebykind.com/contact/)?

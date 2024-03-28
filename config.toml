@@ -56,7 +56,7 @@ timeout = "300s"
   linkedin = "https://www.linkedin.com/company/madebykind/"
   #twitter = "https://twitter.com/madebykind"
   #facebook = "https://facebook.com/madebykind"
-  instagram = "https://instagram.com/madebykind"
+  instagram = "https://www.instagram.com/madebykind/"
 
   # Table of contents
   toc = "tocbot"

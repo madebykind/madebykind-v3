@@ -6,7 +6,7 @@ heading: Accessibility Statement
 related_pages:
   - kind-certifies-a-b-corporation
   - kind-partners-with-rewilding-britain
-url: /about/legal/accessibility
+url: /about/legal/accessibility/
 ---
 
 Accessibility is extremely important to us. We want as many people as possible to be able to use this website. You should be able to:
@@ -35,6 +35,6 @@ This website is compliant with the <a href="https://www.w3.org/TR/WCAG21/">Web C
 
 This website was last tested in February 2020 by our developers, using a combination of automated and manual tests. When testing this site, we:
 
-* Used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to audit each page for accessibility, and performance, issues.
+* Used [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to audit each page for accessibility, and performance, issues.
 * Used [Webhints](https://webhint.io/) to audit each page for accessibility, and performance, issues.
 * Used WebAim’s [WAVE](https://wave.webaim.org/) tool to audit each page for accessibility issues.

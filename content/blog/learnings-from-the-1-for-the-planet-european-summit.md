@@ -20,13 +20,13 @@ related_posts:
   - who-gives-a-damn-well-we-do-actually
   - kind-certifies-a-b-corporation
 ---
-Held at the awesome [Patagonia](https://eu.patagonia.com/) headquarters in central Amsterdam, we were pleased to sponsor the event and be a part of the 100 strong delegation of members in attendance.
+Held at the awesome [Patagonia](https://eu.patagonia.com/gb/en/home/) headquarters in central Amsterdam, we were pleased to sponsor the event and be a part of the 100 strong delegation of members in attendance.
 
 The summit aimed to provide insightful talks and debate around the subject of environmental giving and what more we can be doing to make a meaningful change to the state of the climate change crisis which is facing us. After being thoroughly inspired by the members we met and the subject matter discussed, we wanted to share the key themes debated for the attendees and for those who couldn’t make it.
 
 ## Who are 1% for the Planet?
 
-[1% For The Planet](https://www.onepercentfortheplanet.org/index.php) is a global network of businesses, nonprofits and individuals working together for a healthy planet. More than $175m has been given back to the environment to date. They work to directly connect businesses with approved non-profit organisations to ensure donations go straight to where it is needed.
+[1% For The Planet](https://www.onepercentfortheplanet.org/) is a global network of businesses, nonprofits and individuals working together for a healthy planet. More than $175m has been given back to the environment to date. They work to directly connect businesses with approved non-profit organisations to ensure donations go straight to where it is needed.
 
 Creative giving for the greatest impact - the reality
 
@@ -42,7 +42,7 @@ The panel session, chaired by Georgia Phillips from Pukka Herbs, and including H
 
 ## Authentic storytelling
 
-This concept was not only the subject of the second-panel session but also a key theme which ran throughout the whole day. It is not simply about a business putting money into an environmental organisation to meet its corporate social responsibility plans or becoming more environmentally friendly because it is ​‘on trend’ but, to be authentic and engage with your own staff, clients and consumers, you must really believe in the cause and partner with an organisation that aligns with your brand in order for it not only to be authentic but to be a real basis for a long-term commitment to making a difference. The panel, chaired by [Steph Pomphey](https://twitter.com/pomph) (co-founder Huck magazine), Natasha Hurden ([Rebel Kitchen](https://twitter.com/rebel_kitchen)), [Matt Pycroft](https://twitter.com/MattPycroft) (Coldhouse Collective), Ana Rodrigo (Biolage, L’Oréal) [Jari Salo](https://www.jarisalo.com/) (Jari Salo Design) and [Madelyn Postman ](https://twitter.com/MadelynPostman)(Leidar) debated these key points and reiterated the message that to be remembered and make a difference we must tell a compelling story which engages with people on all levels, because the power of the collective is critical and if we continue to work together, then we can make a real change. 
+This concept was not only the subject of the second-panel session but also a key theme which ran throughout the whole day. It is not simply about a business putting money into an environmental organisation to meet its corporate social responsibility plans or becoming more environmentally friendly because it is ‘on trend’ but, to be authentic and engage with your own staff, clients and consumers, you must really believe in the cause and partner with an organisation that aligns with your brand in order for it not only to be authentic but to be a real basis for a long-term commitment to making a difference. The panel, chaired by [Steph Pomphey](https://twitter.com/pomph) (co-founder Huck magazine), Natasha Hurden ([Rebel Kitchen](https://twitter.com/rebel_kitchen)), [Matt Pycroft](https://twitter.com/MattPycroft) (Coldhouse Collective), Ana Rodrigo (Biolage, L’Oréal) [Jari Salo](https://jarisalo.com/) (Jari Salo Design) and [Madelyn Postman ](https://twitter.com/MadelynPostman)(Leidar) debated these key points and reiterated the message that to be remembered and make a difference we must tell a compelling story which engages with people on all levels, because the power of the collective is critical and if we continue to work together, then we can make a real change. 
 
 ## No challenge is too big
 
@@ -56,7 +56,7 @@ Mihela outlined the work Patagonia continues to do in this area and how they emb
 Build the best product, cause no unnecessary harm, use business to inspire and implement solutions to the environmental crisis.
 {{</ blockquote >}}
 
-Finally, Mihela outlined the value businesses could add if they put change at the heart of their work and built a safe place where users/​followers/​customers can learn about the issues and advocate a progressive long-term movement rather than just to use the opportunity as a short-term transactional campaign.
+Finally, Mihela outlined the value businesses could add if they put change at the heart of their work and built a safe place where users/followers/customers can learn about the issues and advocate a progressive long-term movement rather than just to use the opportunity as a short-term transactional campaign.
 
 We thoroughly enjoyed listening to all of the thought-provoking and stimulating sessions at the summit and would encourage you to find out more about the work being done by [1% for the Planet](https://www.onepercentfortheplanet.org/) and its members. The threat of an environmental crisis is real and daunting, but being part of a movement such as this and hearing from organisations on how they are combating this challenge really filled us with a hope that collectively we can make a change.
 

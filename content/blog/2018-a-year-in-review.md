@@ -14,7 +14,7 @@ intro: With the year almost over, I thought I'd take a look at some of my
 ---
 We started 2018 working with the ODI to launch their [Open Standards for Data](https://standards.theodi.org/) guidebook. This is one of my personal favourite projects as it not only satisfied the UX-geek in me who appreciates the simplicity of design and ease of navigation, but it came in on time and slightly under budget!
 
-In May, we were [appointed as digital consultancy for Sheffield Hallam University](https://madebykind.com/blog/sheffield-hallam-university-appoint-kind-as-digital-consultancy) and have since been working with them to enhance the user-experience of their digital properties through creating a holistic design system and a standardised front-end. 
+In May, we were appointed as digital consultancy for Sheffield Hallam University and have since been working with them to enhance the user-experience of their digital properties through creating a holistic design system and a standardised front-end. 
 
 In the meantime, we’ve also helped them with short-term projects such as their Clearing hub, which achieved great results, and the first phase of their student intranet refresh. We’re looking forward to sharing more of this work with you in 2019. 
 
@@ -24,11 +24,11 @@ One of the key reasons Tom and I had for starting Kind was that we wanted to be 
 
 This year we've continued to ensure we're always focusing on that by reducing and offsetting our carbon footprint (not perfect, but progress nonetheless) and becoming a [Living Wage Employer](https://www.livingwage.org.uk/). Not for our permanent staff who quite rightly earn more than the living wage, but for [interns like Sophie](https://madebykind.com/blog/rounding-up-my-internship-at-kind).
 
-In November, we sponsored the [1% for the Planet European Summit](http://www.onepercentfortheplanet.org/what-we-do/our-stories/14-our-stories/350-european-summit-2018-recap) in Amsterdam and took most of the team over to the Netherlands for a well earned break from the day-to-day grind.
+In November, we sponsored the [1% for the Planet European Summit](https://www.onepercentfortheplanet.org/what-we-do/our-stories/14-our-stories/350-european-summit-2018-recap) in Amsterdam and took most of the team over to the Netherlands for a well earned break from the day-to-day grind.
 
 We have been so inspired by that one day at Patagonia's European Headquarters, that we're looking at ways we can help promote the message in the UK and how we can change the nature of our business to create a bigger impact.
 
-**[Our learnings from the 1% Summit](https://madebykind.com/blog/1-for-the-planet-european-summit)**
+**[Our learnings from the 1% Summit](https://madebykind.com/blog/learnings-from-the-1-for-the-planet-european-summit/)**
 
 ## New faces
 

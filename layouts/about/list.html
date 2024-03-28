@@ -20,7 +20,7 @@
         </svg>
       </div>
       <div>
-        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact" onclick="javascript:insights.track({id: 'about-impact',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact/" onclick="javascript:insights.track({id: 'about-impact',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
           Our impact
           <svg class="w-12 h-4 flex-no-shrink" role="presentation">
             <use xlink:href="#icon-arrow"/>
@@ -68,7 +68,7 @@
       {{ end }}
     </div>
   </section>
-  <section class="relative section">
+  <section class="relative section" id="team">
     <div class="container grid gap-10">
       <h2 class="text-xl h--condensed">Our team of experts</h2>
       <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:gap-32">
@@ -141,8 +141,8 @@
                   <nav class="font-sans text-base font-bold" aria-label="Social links for {{ .name }}">
                     <ul class="flex flex-wrap overflow-hidden gap-x-5" role="list">
                       {{ with .email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
-                      {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
-                      {{ with .social.instagram }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://instagram.com/{{ . }}">Instagram</a></li>{{ end }}
+                      {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://www.linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
+                      {{ with .social.instagram }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://www.instagram.com/{{ . }}/">Instagram</a></li>{{ end }}
                       {{ with .social.facebook }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://facebook.com/{{ . }}">Facebook</a></li>{{ end }}
                       {{ with .social.github }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://github.com/{{ . }}">Github</a></li>{{ end }}
                       {{ with .social.twitter }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://twitter.com/{{ . }}">Twitter</a></li>{{ end }}

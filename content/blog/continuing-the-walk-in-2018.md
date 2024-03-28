@@ -14,11 +14,11 @@ Last year we decided to make [some resolutions](https://madebykind.com/blog/a-ye
 
 ## How did we get on?
 
-For 2017 we planned to be a better employer, achieve carbon neutrality and join the [1% for the Planet](http://www.onepercentfortheplanet.org/) movement.
+For 2017 we planned to be a better employer, achieve carbon neutrality and join the [1% for the Planet](https://www.onepercentfortheplanet.org/) movement.
 
 All-in-all we’ve achieved what we set out to do. We have an employee representative on the board, training and conference budgets, a profit-based bonus scheme and a new review process which includes help with personal and professional aspirations. We joined 1% for the Planet in early January and, despite some difficulty, have calculated our carbon footprint for the year and will be offsetting twice that, just to be sure!
 
-On the environmental side, we spent our [summer getaway in Wales](https://madebykind.com/blog/kind-go-wild-in-wales), carrying out a beach clean on Newborough Beach and this Christmas, instead of gifts for our clients, we had trees planted for them in a wildfire regeneration project in Portugal.
+On the environmental side, we spent our [summer getaway in Wales](https://madebykind.com/blog/kind-go-wild-in-wales/), carrying out a beach clean on Newborough Beach and this Christmas, instead of gifts for our clients, we had trees planted for them in a wildfire regeneration project in Portugal.
 
 Two things we didn’t manage were finding local suppliers for our kitchen supplies and finding greener hosting for our websites and applications. Feel free to [get in touch](https://madebykind.com/contact) if you think you can help with this!
 

@@ -5,7 +5,7 @@ date: 2019-07-11T15:52:34.943Z
 author: mat
 draft: false
 unlisted: true
-description: ​This month marks our 5th anniversary and we'll be celebrating with
+description: This month marks our 5th anniversary and we'll be celebrating with
   our colleagues, clients, friends and family this evening.
 toc: false
 featured: false
@@ -24,7 +24,7 @@ Before Kind, we had spent a long time building up our skills and knowledge and w
 
 Our first group of clients took a chance on us and we’re very glad they did. [The ETI](https://madebykind.com/case-studies/energy-technologies-institute), for instance, have been our client for 5 years and while their funding is, sadly, ending soon and the organisation closing they are entrusting us to maintain their legacy through their website and searchable research database. 
 
-We’ve gone on to work with higher education clients such as [Nottingham Trent University](https://madebykind.com/case-studies/nottingham-trent-university), [Sheffield Hallam](https://madebykind.com/blog/sheffield-hallam-university-appoint-kind-as-digital-consultancy) and [Henley Business School](https://madebykind.com/case-studies/henley-business-school) as well as cultural institutions such as the [V&A](https://madebykind.com/blog/working-with-the-v-a) and [UK Young Artists](https://madebykind.com/blog/uk-young-artists-partnership-with-kind).
+We’ve gone on to work with higher education clients such as [Nottingham Trent University](https://madebykind.com/work/nottingham-trent-university/), [Sheffield Hallam](https://madebykind.com/work/sheffield-hallam-university/) and [Henley Business School](https://madebykind.com/case-studies/henley-business-school) as well as cultural institutions such as the [V&A](https://madebykind.com/blog/working-with-the-v-a) and [UK Young Artists](https://madebykind.com/blog/uk-young-artists-partnership-with-kind).
 
 This array of work has made it easy to motivate ourselves to do a good job, knowing that the end goal is more than just increasing conversion and profit. 
 
@@ -36,7 +36,7 @@ As a team, we all share the same values, which can all be summed up as 'giving a
 
 To make it official, we joined 1% For The Planet in 2017 and are still Nottingham's only member. The human race, and businesses in particular, have a huge impact on the environment. We use its resources to build our offices and to create the products we sell and use daily. We owe it everything and so we believe that 1% of our turnover is the least we should be giving back.
 
-We've enjoyed the activities that membership has led us to, including the [beach clean in Anglesey](https://madebykind.com/blog/kind-go-wild-in-wales) and our sponsorship of the extremely [inspiring European Summit](https://madebykind.com/blog/1-for-the-planet-european-summit) last year.
+We've enjoyed the activities that membership has led us to, including the [beach clean in Anglesey](https://madebykind.com/blog/kind-go-wild-in-wales/) and our sponsorship of the extremely [inspiring European Summit](https://madebykind.com/blog/learnings-from-the-1-for-the-planet-european-summit/) last year.
 
 ## Looking to the future
 

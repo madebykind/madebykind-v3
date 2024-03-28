@@ -83,7 +83,7 @@ We are driven by our determination to become the University of the future. By ad
 
   The structure of NTU’s existing website reflected the organisation’s internal structure rather than the needs of its users and focused heavily on student recruitment, neglecting the institution’s other activities, such as research and business services. Our approach was to explore the University’s key audience groups and how the website should serve them first, which would, in-turn, help NTU meet its strategic objectives.
 
-  We continued to develop the user needs research by analysing the data we’d collected and looking for key themes and patterns. Using this analysis and the University’s strategy, we devised a user-centred [Information Architecture (IA)](http://www.iainstitute.org/what-is-ia) candidate which we then tested on real-world users using [Treejack](https://www.optimalworkshop.com/treejack).
+  We continued to develop the user needs research by analysing the data we’d collected and looking for key themes and patterns. Using this analysis and the University’s strategy, we devised a user-centred [Information Architecture (IA)](https://en.wikipedia.org/wiki/Information_architecture) candidate which we then tested on real-world users using [Treejack](https://www.optimalworkshop.com/treejack).
 
   </div>
 </div>

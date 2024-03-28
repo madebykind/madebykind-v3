@@ -16,6 +16,9 @@
 	<!-- Page description goes here, if there is one. If not, we'll summarize from page content. Failing that, fallback to global site description. -->
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
+	<!-- Is this the OG content? -->
+	<link rel="canonical" href="{{ .Permalink }}" />
+
 	<!-- Yo! Assets list, right here. Pre-load em while they hot! -->
 	<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
 
@@ -39,8 +42,8 @@
 		<script type="module" src="http://localhost:5173/@vite/client"></script>
 		<script type="module" src="http://localhost:5173/src/main.js"></script>
 	{{ else }}
-		<link rel="stylesheet" href="/assets/main.css"/>
-		<script type="module" src="/assets/app.js"></script>
+		<link rel="stylesheet" href="/assets/main.css" media="screen">
+		<script type="module" src="/assets/app.js" async></script>
 	{{ end }}
 
 	<!-- Hugo internal meta templates -->
@@ -53,9 +56,9 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
-  <!-- Fathom Analytics -->
+  <!-- Analytics -->
   {{ if not .Site.IsServer }}
-    <script src="https://getinsights.io/js/insights.js"></script>
+    <script src="https://getinsights.io/js/insights.js" async></script>
     <script>
       insights.init('N96lhlRPan5nwYhX');
       insights.trackPages();
