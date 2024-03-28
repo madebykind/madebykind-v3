@@ -60,7 +60,7 @@
         {{ end }}
 
         {{ if isset .Site.Params "linkedin" }}
-          <li>
+          <li class="mb-1">
             <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
