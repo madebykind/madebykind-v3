@@ -16,7 +16,7 @@ related_posts:
   - building-a-more-sustainable-website-architecture
   - finding-the-common-ground-between-your-organisation-and-its-audience
 ---
-It's been just over a year since we started working with [Sheffield Hallam University](https://madebykind.com/blog/sheffield-hallam-university-appoint-kind-as-digital-consultancy) to create a design system for their website and other online properties.
+It's been just over a year since we started working with [Sheffield Hallam University](https://madebykind.com/work/sheffield-hallam-university/) to create a design system for their website and other online properties.
 
 During the transition period between the legacy websites' design and front-end, we've also supported building new content for clearing, SHU's online prospectus and their student intranet, MyHallam.
 

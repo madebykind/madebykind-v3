@@ -24,7 +24,7 @@ Before Kind, we had spent a long time building up our skills and knowledge and w
 
 Our first group of clients took a chance on us and we’re very glad they did. [The ETI](https://madebykind.com/case-studies/energy-technologies-institute), for instance, have been our client for 5 years and while their funding is, sadly, ending soon and the organisation closing they are entrusting us to maintain their legacy through their website and searchable research database. 
 
-We’ve gone on to work with higher education clients such as [Nottingham Trent University](https://madebykind.com/case-studies/nottingham-trent-university), [Sheffield Hallam](https://madebykind.com/blog/sheffield-hallam-university-appoint-kind-as-digital-consultancy) and [Henley Business School](https://madebykind.com/case-studies/henley-business-school) as well as cultural institutions such as the [V&A](https://madebykind.com/blog/working-with-the-v-a) and [UK Young Artists](https://madebykind.com/blog/uk-young-artists-partnership-with-kind).
+We’ve gone on to work with higher education clients such as [Nottingham Trent University](https://madebykind.com/work/nottingham-trent-university/), [Sheffield Hallam](https://madebykind.com/work/sheffield-hallam-university/) and [Henley Business School](https://madebykind.com/case-studies/henley-business-school) as well as cultural institutions such as the [V&A](https://madebykind.com/blog/working-with-the-v-a) and [UK Young Artists](https://madebykind.com/blog/uk-young-artists-partnership-with-kind).
 
 This array of work has made it easy to motivate ourselves to do a good job, knowing that the end goal is more than just increasing conversion and profit. 
 
