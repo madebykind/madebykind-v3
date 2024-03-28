@@ -39,4 +39,4 @@ In the five years since we started Kind we have donated over £7,000 to environm
 
 We hope they can make a real difference.
 
-<small>Photo credit: <a href="http://www.scotlandbigpicture.com/" target="_blank">scotlandbigpicture.com</a>, <a href="https://www.benporterwildlife.co.uk/" target="_blank">Ben Porter</a></small>
+<small>Photo credit: <a href="https://www.scotlandbigpicture.com/" target="_blank">scotlandbigpicture.com</a>, <a href="https://www.benporterwildlife.co.uk/" target="_blank">Ben Porter</a></small>

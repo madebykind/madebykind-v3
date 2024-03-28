@@ -20,7 +20,7 @@ related_posts:
   - who-gives-a-damn-well-we-do-actually
   - kind-certifies-a-b-corporation
 ---
-Held at the awesome [Patagonia](https://eu.patagonia.com/) headquarters in central Amsterdam, we were pleased to sponsor the event and be a part of the 100 strong delegation of members in attendance.
+Held at the awesome [Patagonia](https://eu.patagonia.com/gb/en/home/) headquarters in central Amsterdam, we were pleased to sponsor the event and be a part of the 100 strong delegation of members in attendance.
 
 The summit aimed to provide insightful talks and debate around the subject of environmental giving and what more we can be doing to make a meaningful change to the state of the climate change crisis which is facing us. After being thoroughly inspired by the members we met and the subject matter discussed, we wanted to share the key themes debated for the attendees and for those who couldn’t make it.
 

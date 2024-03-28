@@ -28,7 +28,7 @@ However, for us it was not enough to just have sustainable clients, we wanted to
 
 ### 1% for the planet
 
-We knew climate change was a serious issue and one which as people we could no longer ignore. We wanted to do something to help and put our money where our mouth is so in 2017 we joined the **[1% for the planet](http://www.onepercentfortheplanet.org/)** movement and now donate at least 1% of our turnover to environmental non-profits. In 2018 we continue to be an active member and will be sponsoring and attending their European Summit in November in the Netherlands. 
+We knew climate change was a serious issue and one which as people we could no longer ignore. We wanted to do something to help and put our money where our mouth is so in 2017 we joined the **[1% for the planet](https://www.onepercentfortheplanet.org/)** movement and now donate at least 1% of our turnover to environmental non-profits. In 2018 we continue to be an active member and will be sponsoring and attending their European Summit in November in the Netherlands. 
 
 {{< youtube rZ0Stj6MWNU >}}
 

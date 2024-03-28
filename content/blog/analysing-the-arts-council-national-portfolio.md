@@ -30,7 +30,7 @@ Of course, some will fall into two or more of these categories and, even conside
 
 The Arts Council appears to understand this challenge, noting that there are *“no Black and minority ethnic or disability led organisations receiving funding at Band 3 level (the largest), and only a single Black and minority ethnic led Sector Support Organisation”*, before going on to state that their future efforts should include *“holding organisations to account for their implementation of the Creative Case for Diversity.”*
 
-The good news for Kind was that our friends, and two of those diverse-led organisations, [UK Young Artists](http://www.uknewartists.co.uk/) and [Backlit Gallery](https://backlit.org.uk/) have both become National Portfolio Organisations for the next 4 years, joining other locals like [Nottingham Contemporary](https://www.nottinghamcontemporary.org/), [Broadway](https://www.broadway.org.uk/) and [New Art Exchange](https://www.nae.org.uk/).
+The good news for Kind was that our friends, and two of those diverse-led organisations, [UK Young Artists](https://uknewartists.co.uk/) and [Backlit Gallery](https://backlit.org.uk/) have both become National Portfolio Organisations for the next 4 years, joining other locals like [Nottingham Contemporary](https://www.nottinghamcontemporary.org/), [Broadway](https://www.broadway.org.uk/) and [New Art Exchange](https://www.nae.org.uk/).
 
 And, looking further at local investment, the East Midlands is set to receive an additional £5m per year this funding cycle, with Nottingham picking up an extra £1.8m of that, which is great news for our city.
 

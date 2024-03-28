@@ -14,7 +14,7 @@ Last year we decided to make [some resolutions](https://madebykind.com/blog/a-ye
 
 ## How did we get on?
 
-For 2017 we planned to be a better employer, achieve carbon neutrality and join the [1% for the Planet](http://www.onepercentfortheplanet.org/) movement.
+For 2017 we planned to be a better employer, achieve carbon neutrality and join the [1% for the Planet](https://www.onepercentfortheplanet.org/) movement.
 
 All-in-all we’ve achieved what we set out to do. We have an employee representative on the board, training and conference budgets, a profit-based bonus scheme and a new review process which includes help with personal and professional aspirations. We joined 1% for the Planet in early January and, despite some difficulty, have calculated our carbon footprint for the year and will be offsetting twice that, just to be sure!
 

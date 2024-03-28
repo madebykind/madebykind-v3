@@ -52,7 +52,7 @@ Simply pulling both style files into a template would lead to an increase in pag
 
 This got our development team thinking. Would it make sense for the design system we were creating to be separated from the primary website and consumed, as a service, by all of the University’s online properties? 
 
-After all, while [shu.ac.uk](https://shu.ac.uk/) runs on the Sitecore platform, just like any other organisation of this size, the University is responsible for websites, intranets and API systems on many other platforms too. 
+After all, while [shu.ac.uk](https://www.shu.ac.uk/) runs on the Sitecore platform, just like any other organisation of this size, the University is responsible for websites, intranets and API systems on many other platforms too. 
 
 Abstracting the design system into a service means that all of those platforms can consume the same CSS and use the same HTML, ensuring consistency and speed of development. 
 
