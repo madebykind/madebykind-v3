@@ -25,7 +25,7 @@ related_posts:
   - who-gives-a-damn-well-we-do-actually
 ---
 
-After the **[1% for the Planet summit in 2018](https://madebykind.com/blog/1-for-the-planet-european-summit)**, we were inspired to find a long-term charity partner to amplify the positive impact our membership has. Today, we’re pleased to announce that we have chosen to partner with **[Rewilding Britain](https://www.rewildingbritain.org.uk/)** and will be offering our support by way of monetary donations and our time and expertise.
+After the **[1% for the Planet summit in 2018](https://madebykind.com/blog/learnings-from-the-1-for-the-planet-european-summit/)**, we were inspired to find a long-term charity partner to amplify the positive impact our membership has. Today, we’re pleased to announce that we have chosen to partner with **[Rewilding Britain](https://www.rewildingbritain.org.uk/)** and will be offering our support by way of monetary donations and our time and expertise.
 
 Rewilding Britain is a charity that focuses on rewilding to help tackle climate breakdown and ecological collapse. There has been a catastrophic decline in wildlife in Britain over recent decades with many species struggling to survive or even crashing towards extinction. Climate change is making this situation even more precarious, and threatening the life support systems on which we all depend.
 
@@ -39,4 +39,4 @@ In the five years since we started Kind we have donated over £7,000 to environm
 
 We hope they can make a real difference.
 
-<small>Photo credit: <a href="https://scotlandbigpicture.com/" target="_blank">scotlandbigpicture.com</a>, <a href="https://www.benporterwildlife.co.uk/" target="_blank">Ben Porter</a></small>
+<small>Photo credit: <a href="http://www.scotlandbigpicture.com/" target="_blank">scotlandbigpicture.com</a>, <a href="https://www.benporterwildlife.co.uk/" target="_blank">Ben Porter</a></small>
