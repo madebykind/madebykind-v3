@@ -1,0 +1,20 @@
+.mobile-navigation {
+  @apply
+    fixed
+    -top-[200%]
+    left-0
+    z-20
+    w-screen
+    transition-all
+    duration-300
+    ease-in-out
+  ;
+}
+
+.mobile-navigation.active {
+  @apply
+    top-0
+    h-auto
+    min-h-dynamic-screen
+  ;
+}

@@ -14,8 +14,8 @@ heading: Strategic thinking to make a difference
 date: 2020-04-30T17:28:36.948Z
 weight: 1
 cover_img: images/strategy-image-kind-site.jpg
-cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
-description:   Strategy and research are the foundations of every project. We uncover insights and find opportunities that will focus activities, create a deeper understanding of our clients unique position and help them to meet their goals. 
+cover_img_alt: Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs
+description: Strategy and research are the foundations of every project. We uncover insights and find opportunities that will focus activities, create a deeper understanding of our clients unique position and help them to meet their goals. 
 intro: >
   
   Strategy and research are the foundations of every project. We uncover insights and find opportunities that will focus activities, create a deeper understanding of our clients unique position and help them to meet their goals. 
