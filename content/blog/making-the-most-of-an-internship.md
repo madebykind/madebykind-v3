@@ -39,4 +39,4 @@ It doesn’t matter whether an intern joins you for a week, a month or a year, k
 
 Thank you to Curtis for being a brilliant intern, inspiring our team to continue to invest time in helping others and for celebrating your achievements with us. We cannot wait to follow your design journey and wish you every success going forward!
 
-You can follow Curtis’s work on [Instagram](https://www.instagram.com/that_boy_curt/), [Dribbble](https://dribbble.com/Curtis_A_Lee) or [Twitter](https://twitter.com/CurtisLee97)
+You can follow Curtis’s work on [Instagram](https://www.instagram.com/that_boy_curt/), [Dribbble](https://dribbble.com/Curtis_A_Lee) or [Twitter](https://x.com/CurtisLee97)
