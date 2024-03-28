@@ -6,7 +6,7 @@ heading: Accessibility Statement
 related_pages:
   - kind-certifies-a-b-corporation
   - kind-partners-with-rewilding-britain
-url: /about/legal/accessibility
+url: /about/legal/accessibility/
 ---
 
 Accessibility is extremely important to us. We want as many people as possible to be able to use this website. You should be able to:

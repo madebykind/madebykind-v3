@@ -19,7 +19,7 @@ related_posts:
   - kind-partners-with-rewilding-britain
 ---
 
-Positive impacts like [Rewilding Britain](/work/rewilding-britain) growing from a small, niche charity to leading the conversation on one of the key solutions to the climate crisis.
+Positive impacts like [Rewilding Britain](/work/rewilding-britain/) growing from a small, niche charity to leading the conversation on one of the key solutions to the climate crisis.
 
 But we always want to do more. So last year, we started looking at our offering as an agency and the ways in which we could have more influence on the final outputs that help to deliver those headline impacts. That increased influence can help us to ensure that what we deliver is based on strong foundations and nothing is diluted or lost in translation between service providers.
 
@@ -40,6 +40,6 @@ And, with brand and digital being so intangibly interlinked, our team have alway
   src_2="../images/work-hispanists-flags.jpg" alt_2="Two red flags showing the AHGBI logo" >}}
 
 
-We’re excited for what we can achieve and are already working on brand projects with [Chapter Arts Centre](/work/chapter) and [AHGBI](/work/hispanists).
+We’re excited for what we can achieve and are already working on brand projects with [Chapter Arts Centre](/work/chapter/) and [AHGBI](/work/hispanists/).
 
-[Get in touch](/contact) to find out how we can help you.
+[Get in touch](/contact/) to find out how we can help you.

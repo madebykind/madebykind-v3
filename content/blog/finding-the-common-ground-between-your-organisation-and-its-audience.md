@@ -45,7 +45,7 @@ Here’s a quick rundown of how we do that at Kind.
 
 When there isn’t enough time allocated to analysis and discovery, it could be acceptable to simply read the objectives as stated in the project brief or whatever strategy documents exist. However, it is also necessary to ensure that the documented objectives and strategy are fully embedded throughout the organisation and aren’t just public-facing content pieces aimed at altering the perception of the brand.
 
-[Speaking directly to key stakeholders](https://madebykind.com/blog/how-to-get-your-colleagues-on-board-with-your-website-project) about how they view the long-term objectives, both in their department and the wider organisation, and how this project could help support these, helps us to build a picture of what a successful end-product looks like and whether there is internal consensus on how the project brief aligns with the strategy. If at all.
+[Speaking directly to key stakeholders](https://madebykind.com/blog/how-to-get-your-colleagues-on-board-with-your-website-project/) about how they view the long-term objectives, both in their department and the wider organisation, and how this project could help support these, helps us to build a picture of what a successful end-product looks like and whether there is internal consensus on how the project brief aligns with the strategy. If at all.
 
 These conversations could take the form of one-to-one interviews, with analysts bringing all the information together to attempt to form a ​‘big picture’. But this would then need to be shared again with stakeholders, leading to a high probability of an open-ended feedback cycle.
 
@@ -93,4 +93,4 @@ As we already have the ***Strategy*** and the ***Scope***, we begin to work on p
 
 Since we’ve taken the time find the strategic sweet spot for the project, it only makes sense to then consider at all stages whether the outputs we are producing align with this. The UCD framework helps us to do just that.
 
-We’ve found this process invaluable when working on large, complex websites with seemingly endless user and organisational needs. If you think it could be useful for your next digital project, why not [chat to us about how we could help](https://madebykind.com/contact)?
+We’ve found this process invaluable when working on large, complex websites with seemingly endless user and organisational needs. If you think it could be useful for your next digital project, why not [chat to us about how we could help](https://madebykind.com/contact/)?

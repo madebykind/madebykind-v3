@@ -4,7 +4,7 @@ description: We respect your privacy. This policy desribes what you need to know
 title: How we use your data
 heading: How we use your data
 toc: false
-url: /about/legal/privacy
+url: /about/legal/privacy/
 ---
 
 We’re firm believers in transparency when it comes to how we store and use personal data. Here’s our (very short) privacy policy.

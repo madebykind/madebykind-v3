@@ -47,7 +47,7 @@ packages:
       additional:
         title: My budget isn’t that big
         link:
-          url: "/contact"
+          url: "/contact/"
           text: Get in touch, we could still help
     - title: Standard
       description: Deepening the scope of your brand strategy, establishing robust messaging foundations, and crafting supportive design elements for future marketing and communication needs. A cohesive approach to shaping your new brand.
@@ -83,7 +83,7 @@ packages:
       additional:
         title: Want something more tailored?
         link:
-          url: "/contact"
+          url: "/contact/"
           text: Get in touch
 layout: primary
 _build:

@@ -35,7 +35,7 @@ For us, structure is a key part of a user-centred design and the only way to bui
 
 When devising an IA, rather than think ***​“where does this content fit?”***, we prefer to consider ***​“where will our audience look for this?”***.
 
-For [our work with Central College Nottingham](https://madebykind.com/case-studies/central-college-nottingham) we carried out user needs workshops to better understand the array of audiences that use the Central website and the tasks they might be attempting to carry out.
+For [our work with Central College Nottingham](https://madebykind.com/case-studies/central-college-nottingham/) we carried out user needs workshops to better understand the array of audiences that use the Central website and the tasks they might be attempting to carry out.
 
 With this knowledge, we devised a navigation structure divided into audience segments, helping the college’s users to quickly grasp where the content they are looking for is likely to be located, without the confusion that previously arose from the sheer volume of content presented at the top level of the website.
 

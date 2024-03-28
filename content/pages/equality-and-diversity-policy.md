@@ -3,7 +3,7 @@ date: 2020-04-24T11:48:46+01:00
 description: Our policy on equality, diversity and inclusion
 title: Equality & Diversity policy
 heading: Equality & Diversity policy
-url: /about/legal/equality-and-diversity-policy
+url: /about/legal/equality-and-diversity-policy/
 ---
 
 Future Friendly Ltd is committed to encouraging equality and diversity among our workforce, and eliminating unlawful discrimination.

@@ -36,7 +36,7 @@ As a team, we all share the same values, which can all be summed up as 'giving a
 
 To make it official, we joined 1% For The Planet in 2017 and are still Nottingham's only member. The human race, and businesses in particular, have a huge impact on the environment. We use its resources to build our offices and to create the products we sell and use daily. We owe it everything and so we believe that 1% of our turnover is the least we should be giving back.
 
-We've enjoyed the activities that membership has led us to, including the [beach clean in Anglesey](https://madebykind.com/blog/kind-go-wild-in-wales) and our sponsorship of the extremely [inspiring European Summit](https://madebykind.com/blog/1-for-the-planet-european-summit) last year.
+We've enjoyed the activities that membership has led us to, including the [beach clean in Anglesey](https://madebykind.com/blog/kind-go-wild-in-wales/) and our sponsorship of the extremely [inspiring European Summit](https://madebykind.com/blog/1-for-the-planet-european-summit) last year.
 
 ## Looking to the future
 
