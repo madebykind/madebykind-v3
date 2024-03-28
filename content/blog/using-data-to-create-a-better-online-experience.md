@@ -27,7 +27,7 @@ Spoiler: We can.
 
 When creating any data-rich website, such as for a venue that runs lots of events or a college with hundreds of courses, there will undoubtedly be a search feature included.
 
-In order to make the search feature more useful we often use services like [Algolia](https://algolia.com/) to collect granular information (metadata) about each content type (event, course etc.) and serve more relevant search results which can be easily filtered by the user.
+In order to make the search feature more useful we often use services like [Algolia](https://www.algolia.com/) to collect granular information (metadata) about each content type (event, course etc.) and serve more relevant search results which can be easily filtered by the user.
 
 A secondary benefit of indexing website content in this way is that it’s possible to ascertain which content entries are similar, how they are similar and then pre-empt the search a user might be about to make.
 
@@ -37,19 +37,19 @@ Confused? Here are a couple of example approaches that might make things clearer
 
 It’s not difficult or ground-breaking to track how a user interacts with a website and what content they have viewed as they navigate through it.
 
-But as well as linking back to the same content through ​“recently viewed items” inferences can be made about what their interests are, based on the metadata attached to the content they have viewed. More weight could then be given to interests relating to pages they have spent the most time on.
+But as well as linking back to the same content through “recently viewed items” inferences can be made about what their interests are, based on the metadata attached to the content they have viewed. More weight could then be given to interests relating to pages they have spent the most time on.
 
-Using these assumptions, relevant content they haven’t yet seen is then promoted to the user and they hopefully are sent ​‘down the rabbit-hole’ of discovery!
+Using these assumptions, relevant content they haven’t yet seen is then promoted to the user and they hopefully are sent ‘down the rabbit-hole’ of discovery!
 
 ## 2. Surfacing content based on referrer
 
 If a user arrives on a website via an email campaign or online advert then, providing the material that bought them here was targeted enough, assumptions can be made about the type of user they are.
 
-For example, an online magazine sends out a newsletter every week with it’s latest articles. A user clicks an article titled: ​“Using data to create a better online experience”. Not only can is it assumed that this user is interested in ​‘data’, ​‘online’, ​‘user experience’, ​‘articles by Mat Hayward’, but also that their interest in these topics is likely to be greater than the whatever other topics were available within the same email.
+For example, an online magazine sends out a newsletter every week with it’s latest articles. A user clicks an article titled: “Using data to create a better online experience”. Not only can is it assumed that this user is interested in ‘data’, ‘online’, ‘user experience’, ‘articles by Mat Hayward’, but also that their interest in these topics is likely to be greater than the whatever other topics were available within the same email.
 
 ## 3. Surfacing content based on similar users
 
-We’ve all seen online cross-selling on Amazon et al, usually via a ​“customers who bought this item also bought” panel, but that promoted content is only based on what content entry the user is viewing right now.
+We’ve all seen online cross-selling on Amazon et al, usually via a “customers who bought this item also bought” panel, but that promoted content is only based on what content entry the user is viewing right now.
 
 Using the interaction tracking mentioned earlier it’s possible to build up a group of personas for a website’s userbase and promote content based on a) what the current user has been viewing and b) what users just like them enjoyed.
 

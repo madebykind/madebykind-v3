@@ -49,13 +49,13 @@ Although there’s a strong desire to get back to live events, fewer people are 
 
 ## Hardcore revellers want their live events back
 
-Although many who would have attended live events monthly or 3 – 4 times a year would now only consider 1 – 2 times a year, the majority of those who said they attended weekly live shows want to continue at this frequency post-lockdown (only a 17% decline).
+Although many who would have attended live events monthly or 3–4 times a year would now only consider 1–2 times a year, the majority of those who said they attended weekly live shows want to continue at this frequency post-lockdown (only a 17% decline).
 
 ![Illustration: Post-lockdown people feel they will attend in-person events less frequently](../images/4-frequency.jpg)
 
 ## Digital ticketing FTW
 
-With online sales and digital tickets already the preferred method of buying/​receiving tickets, people’s willingness to deal with face-to-face sales and physical tickets has declined significantly following the pandemic.
+With online sales and digital tickets already the preferred method of buying/receiving tickets, people’s willingness to deal with face-to-face sales and physical tickets has declined significantly following the pandemic.
 
 * Willingness to collect in person **\-57%**.
 * Willingness to use box office **\-34%**.
@@ -102,6 +102,6 @@ If you would like to see the full results, please find the [report here](https:/
 
 If you want to see more data there are a number of insightful and detailed reports which focus on specific areas of the sector which have been running since summer 2020.
 
-* [The Insights Alliance — Culture restart audience visitor tracker — February update](https://www.indigo-ltd.com/blog/culture-restart-audience-visitor-tracker-february-update)
-* [The Audience Agency — Covid-19 Audience Insights](https://www.theaudienceagency.org/bounce-forwards-insights-audiences)
-* [ALVA’s Audience Recovery Trackers](https://decisionhouse.co.uk/case-studies/alva-attractions-recovery-tracker/)
+* [The Insights Alliance—Culture restart audience visitor tracker—February update](https://www.indigo-ltd.com/blog/culture-restart-audience-visitor-tracker-february-update)
+* [The Audience Agency—Covid-19 Audience Insights](https://www.theaudienceagency.org/evidence/profiles)
+* [ALVA’s Audience Recovery Trackers](https://decisionhouse.co.uk/alva-attractions-recovery-tracker/)

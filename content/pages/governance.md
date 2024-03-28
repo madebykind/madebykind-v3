@@ -8,7 +8,7 @@ url: /about/legal/governance/
 
 The following members of our team make up our board and are responsible for the success of our business.
 
-**Mat Hayward** — Partnerships Director
-**Michelle Pavey** — Strategy Director
+**Mat Hayward**—Partnerships Director
+**Michelle Pavey**—Strategy Director
 
 The legal and beneficial owners of Future Friendly Ltd are Matthew Hayward and Michelle Pavey, who each carry a 50% shareholding.

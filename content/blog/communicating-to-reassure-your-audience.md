@@ -45,6 +45,6 @@ With this in mind, it is crucial to use your platforms for repeated messaging to
 
 ## Get creative
 
-Using different forms of media will work well in helping share your output and maximise engagement. Depending on your audience, consider using ​‘behind the scenes’ style photos and video which includes the venue, safety measures, and what to expect alongside the more traditional event promo. The focus here is regular updates with helpful/​interesting information rather than expensive and slick campaigns.
+Using different forms of media will work well in helping share your output and maximise engagement. Depending on your audience, consider using ‘behind the scenes’ style photos and video which includes the venue, safety measures, and what to expect alongside the more traditional event promo. The focus here is regular updates with helpful/interesting information rather than expensive and slick campaigns.
 
-Once your event is up and running, encourage attendees to share their (hopefully positive) experiences via reviews and images/​video taken at the time. Others are far more likely to feel confident attending when they see people like them having a good time.
+Once your event is up and running, encourage attendees to share their (hopefully positive) experiences via reviews and images/video taken at the time. Others are far more likely to feel confident attending when they see people like them having a good time.

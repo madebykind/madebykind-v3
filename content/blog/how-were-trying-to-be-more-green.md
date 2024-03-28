@@ -24,7 +24,7 @@ related_posts:
 ---
 In short, it means we choose to work with a client base that sets out to do good. Whether that’s good things for people, culture, animals or the planet, as long as it leaves a positive footprint for future generations we can truly get behind it. We are lucky to have a host of wonderful clients from renewable energy institutes, universities through to online stores which sell socially conscious and environmentally friendly products and many more!
 
-However, for us it was not enough to just have sustainable clients, we wanted to do as much as we could to ​‘be green’ and live by the values that are important to us. So we had a look at our own office and lifestyles and tried to make some small and a few big changes. Here is what we did… 
+However, for us it was not enough to just have sustainable clients, we wanted to do as much as we could to ‘be green’ and live by the values that are important to us. So we had a look at our own office and lifestyles and tried to make some small and a few big changes. Here is what we did… 
 
 ### 1% for the planet
 
@@ -48,7 +48,7 @@ With a city centre office, a team living across Nottinghamshire and a list of cl
 
 ## Keeping the lights on
 
-We have to power an office full of tech and also keep our staff warm during those lovely (cold) british winters. We decided it would be worthwhile looking at where we could reduce energy use and also where that energy comes from. We found Good Energy and switched over to them to ensure 100% of our energy supply comes from green/​renewable energy.
+We have to power an office full of tech and also keep our staff warm during those lovely (cold) british winters. We decided it would be worthwhile looking at where we could reduce energy use and also where that energy comes from. We found Good Energy and switched over to them to ensure 100% of our energy supply comes from green/renewable energy.
 
 We do not claim to be the greenest company around, nor would we say as people everything we do or use is recyclable and eco friendly. But we are trying, we are changing what we do in the workplace and at home and hoping that each small change we make eventually has a bigger impact.
 

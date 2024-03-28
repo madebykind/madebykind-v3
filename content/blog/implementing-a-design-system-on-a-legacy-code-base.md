@@ -32,13 +32,13 @@ We also found that there wasn’t very much in the way of component reuse or con
 
 ![Examples of call to action styles found on the Sheffield Hallam University website](../images/cta-audit.jpg)
 
-At this point, the scale of the task was becoming clear, but it’s just not possible to fix this in one fell swoop without rebuilding all online properties and releasing in one ​“big-bang” launch. 
+At this point, the scale of the task was becoming clear, but it’s just not possible to fix this in one fell swoop without rebuilding all online properties and releasing in one “big-bang” launch. 
 
 And that’s never a good idea. 
 
 ## Creating a hybrid
 
-Since that initial audit, it has been necessary to carry out a lot of ​“Business as Usual” work to keep the primary website up-to-date and release new features. 
+Since that initial audit, it has been necessary to carry out a lot of “Business as Usual” work to keep the primary website up-to-date and release new features. 
 
 As part of this work we have built and evolved the principles and foundations of SHU’s design system but, for valid reasons, not all parts of this website could be updated at the same time. 
 
@@ -52,7 +52,7 @@ Simply pulling both style files into a template would lead to an increase in pag
 
 This got our development team thinking. Would it make sense for the design system we were creating to be separated from the primary website and consumed, as a service, by all of the University’s online properties? 
 
-After all, while [shu​.ac​.uk](http://shu.ac.uk/) runs on the Sitecore platform, just like any other organisation of this size, the University is responsible for websites, intranets and API systems on many other platforms too. 
+After all, while [shu.ac.uk](https://shu.ac.uk/) runs on the Sitecore platform, just like any other organisation of this size, the University is responsible for websites, intranets and API systems on many other platforms too. 
 
 Abstracting the design system into a service means that all of those platforms can consume the same CSS and use the same HTML, ensuring consistency and speed of development. 
 
@@ -60,7 +60,7 @@ Abstracting the design system into a service means that all of those platforms c
 
 Due to legacy issues, SHU don’t yet have the ability to regularly update their primary website’s code and so are often working to hard deployment deadlines which can be months apart. 
 
-With more rigid time constraints, there is often a tendency to ​“get things done” and here is were we have encountered issues with consistency. 
+With more rigid time constraints, there is often a tendency to “get things done” and here is were we have encountered issues with consistency. 
 
 These consistency issues then live in the wild for a relatively long time, while we wait for the next deployment date. 
 
@@ -78,7 +78,7 @@ While we love collaborating with other teams, this has previously thrown up some
 
 ![Screenshots of Sheffield Hallam University component library in Fractal](../images/shu-design-system.jpg)
 
-To combat this, we are introducing component specifications in [Fractal](http://fractal.build/), the tool we use to document our component libraries, helping everyone working with design system code to understand each components’ intended behaviour and thus implement it correctly. 
+To combat this, we are introducing component specifications in [Fractal](https://fractal.build/), the tool we use to document our component libraries, helping everyone working with design system code to understand each components’ intended behaviour and thus implement it correctly. 
 
 ## What next?
 

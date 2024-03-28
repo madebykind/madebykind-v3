@@ -33,9 +33,9 @@ We’ve found that the process of devising an IA is often overlooked, when it’
 
 For us, structure is a key part of a user-centred design and the only way to build a user-centred end product is to understand the audience that will interact with it and assist them to achieve their own objectives through using it.
 
-When devising an IA, rather than think ***​“where does this content fit?”***, we prefer to consider ***​“where will our audience look for this?”***.
+When devising an IA, rather than think ***“where does this content fit?”***, we prefer to consider ***“where will our audience look for this?”***.
 
-For [our work with Central College Nottingham](https://madebykind.com/case-studies/central-college-nottingham/) we carried out user needs workshops to better understand the array of audiences that use the Central website and the tasks they might be attempting to carry out.
+For [our work with Central College Nottingham](https://madebykind.com/case-studies/central-college-nottingham) we carried out user needs workshops to better understand the array of audiences that use the Central website and the tasks they might be attempting to carry out.
 
 With this knowledge, we devised a navigation structure divided into audience segments, helping the college’s users to quickly grasp where the content they are looking for is likely to be located, without the confusion that previously arose from the sheer volume of content presented at the top level of the website.
 
@@ -51,7 +51,7 @@ On larger sites, navigation can be further supported with integrated search func
 
 We know from our experience and the collective analysis of the digital projects we have worked on that no two users are the same, and that the numerous ways users navigate a website can be surprising. Based on this knowledge, another approach for larger sites is to to support the primary audience-based architecture with an alternative, yet simultaneous, architecture based on some other classification scheme.
 
-We’re currently working with the digital team at [Nottingham Trent University](http://ntu.ac.uk/) to not only organise their content based on audience groups but also by the key content themes found throughout the site. This will allow their users to discover related or complimentary content without the need to know it’s place within the primary structure.
+We’re currently working with the digital team at [Nottingham Trent University](https://ntu.ac.uk/) to not only organise their content based on audience groups but also by the key content themes found throughout the site. This will allow their users to discover related or complimentary content without the need to know it’s place within the primary structure.
 
 ## Reducing the risk of assumption
 
@@ -63,7 +63,7 @@ From this analysis we can spot issues with our candidate IA and alter as necessa
 
 Creating an IA without visualising how a user will physically navigate it can prove difficult so it’s often useful to start creating some high-level wireframes to illustrate how the IA might work in practice.
 
-This is particularly useful when certain elements of an IA are not defined as individual ​‘pages’. For instance when a landing page is broken into sections, we might want to reflect this in the IA but those sections won’t exist as pages themselves.
+This is particularly useful when certain elements of an IA are not defined as individual ‘pages’. For instance when a landing page is broken into sections, we might want to reflect this in the IA but those sections won’t exist as pages themselves.
 
 Again, wherever we’ve made assumptions it is beneficial to test with real users and so for wireframes and prototypes we use [Chalkmark](https://www.optimalworkshop.com/chalkmark), another part of Optimal Workshop’s testing suite, to analyse users’ first clicks when attempting to complete a task.
 

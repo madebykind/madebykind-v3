@@ -10,7 +10,7 @@ Future Friendly Ltd needs to gather and use certain information about individual
 
 These can include customers, suppliers, business contacts, employees and other people the organisation has a relationship with or may need to contact.
 
-This policy describes how this personal data must be collected, handled and stored to meet the company’s data protection standards — and to comply with the General Data Protection Regulation (2016÷679) as a Data Processor.
+This policy describes how this personal data must be collected, handled and stored to meet the company’s data protection standards—and to comply with the General Data Protection Regulation (2016÷679) as a Data Processor.
 
 ## Why this policy exists
 
@@ -23,13 +23,13 @@ This data protection policy ensures Future Friendly Ltd:
 
 ## Definitions
 
-* The ​“Company” refers to Future Friendly Ltd, a Company registered in England and Wales and trading as ​“Kind”
-* A ​“Data subject” is a reference to any individual who may be a customer, client, prospective customer or client, or anyone who works part-time or full-time for the company under a contract of employment, whether oral or written, express or implied, and has recognised rights and duties. This includes past employees, temporary employees and independent contractors. This also includes anyone who can be identified, directly or indirectly, by reference to an identifier defined under ​“Personal Data” in the ​‘Definitions’ section of this policy.
+* The “Company” refers to Future Friendly Ltd, a Company registered in England and Wales and trading as “Kind”
+* A “Data subject” is a reference to any individual who may be a customer, client, prospective customer or client, or anyone who works part-time or full-time for the company under a contract of employment, whether oral or written, express or implied, and has recognised rights and duties. This includes past employees, temporary employees and independent contractors. This also includes anyone who can be identified, directly or indirectly, by reference to an identifier defined under “Personal Data” in the ‘Definitions’ section of this policy.
 * “Personal data” is defined as any information (including opinions and intentions) relating to an identified or identifiable natural person. It can reference, but is not limited to, the following identifiers: a name, an identification number, location data, an online identifier or one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
-* “Processing” of personal data may include ​“collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction and any may be by automated or manual means.”
-* A ​“Client” is a reference to past, current or prospective Future Friendly Ltd. clients.
-* A ​“Customer” is a reference to past, current or prospective Future Friendly Ltd. customers.
-* A ​“Supplier”, is a third party, vendor, subprocessor company, contractor or organisation that is either a data processor or data controller and in a business relationship with Future Friendly Ltd.
+* “Processing” of personal data may include “collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction and any may be by automated or manual means.”
+* A “Client” is a reference to past, current or prospective Future Friendly Ltd. clients.
+* A “Customer” is a reference to past, current or prospective Future Friendly Ltd. customers.
+* A “Supplier”, is a third party, vendor, subprocessor company, contractor or organisation that is either a data processor or data controller and in a business relationship with Future Friendly Ltd.
 
 ## Business purposes
 
@@ -119,4 +119,4 @@ Future Friendly Ltd
 Nottingham
 NG1 1HS
 
-[data@​madebykind.​com](mailto:data@​madebykind.​com)
+[data@madebykind.com](mailto:data@madebykind.com)

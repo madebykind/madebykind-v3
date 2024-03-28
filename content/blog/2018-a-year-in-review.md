@@ -24,7 +24,7 @@ One of the key reasons Tom and I had for starting Kind was that we wanted to be 
 
 This year we've continued to ensure we're always focusing on that by reducing and offsetting our carbon footprint (not perfect, but progress nonetheless) and becoming a [Living Wage Employer](https://www.livingwage.org.uk/). Not for our permanent staff who quite rightly earn more than the living wage, but for [interns like Sophie](https://madebykind.com/blog/rounding-up-my-internship-at-kind).
 
-In November, we sponsored the [1% for the Planet European Summit](http://www.onepercentfortheplanet.org/what-we-do/our-stories/14-our-stories/350-european-summit-2018-recap) in Amsterdam and took most of the team over to the Netherlands for a well earned break from the day-to-day grind.
+In November, we sponsored the [1% for the Planet European Summit](https://www.onepercentfortheplanet.org/what-we-do/our-stories/14-our-stories/350-european-summit-2018-recap) in Amsterdam and took most of the team over to the Netherlands for a well earned break from the day-to-day grind.
 
 We have been so inspired by that one day at Patagonia's European Headquarters, that we're looking at ways we can help promote the message in the UK and how we can change the nature of our business to create a bigger impact.
 

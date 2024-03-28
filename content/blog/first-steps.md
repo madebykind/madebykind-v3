@@ -5,11 +5,11 @@ date: 2017-01-23T17:20:16.842Z
 author: mat
 draft: false
 unlisted: true
-description: In my previous post ​I announced Kind's resolutions for 2017 and
+description: In my previous post I announced Kind's resolutions for 2017 and
   we're already making progress.
 toc: false
 featured: false
-intro: In my previous post ​I announced Kind's resolutions for 2017 and we're
+intro: In my previous post I announced Kind's resolutions for 2017 and we're
   already making progress.
 ---
 As for our other resolutions, we’ve been working hard on calculating our carbon footprint (the first step towards carbon neutrality) and implemented training and conference budgets for our team.

@@ -41,7 +41,7 @@ related_work:
   - the-rivers-trust
 weight: 1
 toc: true
-external_link: https://rewildingbritain.org.uk
+external_link: https://www.rewildingbritain.org.uk
 teaser:
   title: Rewilding Britain Digital Partnership
   description: Regularly improving the online performance and direction of the first and only country-wide organisation in Britain focusing on rewilding.
