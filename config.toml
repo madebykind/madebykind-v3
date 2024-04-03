@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "/"
+baseurl = "https://madebykind.com/"
 languageCode = "en-gb"
 languageLang = "en"
 title = "Kind"
