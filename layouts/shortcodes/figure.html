@@ -11,11 +11,12 @@
 {{- $dataSizes := "98vw" -}}
 {{- $actualImg := $src.Resize "640x jpg" -}}
 {{- $align := .Get "align" -}}
+{{- $caption := .Get "caption" -}}
 
 
 {{ if $align }}<div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">{{ end }}
 
-  {{ with .Get "caption" }}
+  {{ if $caption }}
     <figure class='{{ with .Get "wrapperclass" }} {{ . }} {{ end }} {{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg:col-start-4 {{ end }}'>
       <picture>
         <source
@@ -51,7 +52,7 @@
           loading="lazy"
         >
       </picture>
-      <figcaption>{{ . }}</figcaption>
+      <figcaption class="text-sm">{{ $caption }}</figcaption>
     </figure>
   {{ else }}
     <picture class='block {{ with .Get "wrapperclass" }} {{ . }} {{ end }}{{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg:col-start-5 {{ end }}'>
