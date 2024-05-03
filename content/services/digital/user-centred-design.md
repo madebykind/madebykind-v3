@@ -14,7 +14,7 @@ cover_img: images/true-to-who-we-are-v2.png
 description: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
-  - ethical-digital-projects
+  - creating-sustainable-and-ethical-digital-products
   - kind-certifies-a-b-corporation
 weight: 1
 ---

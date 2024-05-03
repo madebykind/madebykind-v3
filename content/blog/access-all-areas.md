@@ -20,7 +20,7 @@ intro: Experienced web developers ensure that accessibility is baked into
   it. The web is accessible to start with, it was designed to be, and it is our
   responsibility to ensure we don’t break that.
 related_posts:
-  - ethical-digital-projects
+  - creating-sustainable-and-ethical-digital-products
   - how-to-get-your-colleagues-on-board-with-your-website-project
 ---
 ## Accessibility is misunderstood

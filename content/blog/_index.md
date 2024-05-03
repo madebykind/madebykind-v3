@@ -1,6 +1,6 @@
 ---
 date: 2020-04-24T10:48:46.000Z
-description: The latest from our weblog…
+description: Brand, Digital and Strategy insights from the Kind team
 menu: main
 title: Insights
 heading: Insights from our expert team

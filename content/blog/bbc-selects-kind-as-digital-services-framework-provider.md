@@ -12,7 +12,7 @@ featured: false
 topics:
   - Arts & Culture
 related_posts:
-  - ethical-digital-projects
+  - creating-sustainable-and-ethical-digital-products
   - partnering-with-the-right-agency-for-you
   - implementing-a-design-system-on-a-legacy-code-base
 ---

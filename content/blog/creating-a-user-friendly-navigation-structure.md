@@ -21,7 +21,7 @@ intro: One of the initial and most important tasks on a digital project of any
 related_posts:
   - finding-the-common-ground-between-your-organisation-and-its-audience
   - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
-  - ethical-digital-projects
+  - creating-sustainable-and-ethical-digital-products
 ---
 Unfortunately, to those critically important end-users, this type of navigation structure can be confusing and obscure and lead them to become frustrated, give up on their task and (worse) go elsewhere.
 

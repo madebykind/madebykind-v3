@@ -20,7 +20,7 @@ intro: There are many ways we can improve the efficiency of a website, many of
   which Kind already includes as standard practice.
 related_pages: []
 related_posts:
-  - ethical-digital-projects
+  - creating-sustainable-and-ethical-digital-products
   - learnings-from-the-1-for-the-planet-european-summit
   - who-gives-a-damn-well-we-do-actually
 ---
