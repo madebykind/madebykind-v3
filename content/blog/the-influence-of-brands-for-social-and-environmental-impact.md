@@ -7,6 +7,8 @@ author: michelle
 draft: false
 description: Brands have the potential to be powerful agents of change, driving social and environmental impact.
 toc: false
+featured: false
+unlisted: true
 key_topic: Insights
 topics:
   - Brand
