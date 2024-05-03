@@ -21,7 +21,6 @@ banner_images:
   - img: images/work-garden-organic-laptop-jess-seth.jpg
     alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
-logo_hide_link: true
 logos:
   - name: Rewilding Britain
     icon: rwb-logo

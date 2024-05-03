@@ -26,7 +26,6 @@ banner_images:
   - img: images/work-lr-headset.jpg
     alt: A woman in VR headset
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
-logo_hide_link: true
 logos:
   - name: The V&A
     icon: va-logo

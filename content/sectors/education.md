@@ -20,7 +20,6 @@ banner_images:
   - img: images/work-shu-runner.jpg
     alt: A woman looking over a view of Sheffield city centre at dawn
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
-logo_hide_link: true
 logos:
   - name: Sheffield Hallam University
     icon: shu-logo
