@@ -15,7 +15,6 @@ key_topic: Our impact
 topics:
   - Digital sustainability
   - Environment
-featured: true
 intro: There are many ways we can improve the efficiency of a website, many of
   which Kind already includes as standard practice.
 related_pages: []

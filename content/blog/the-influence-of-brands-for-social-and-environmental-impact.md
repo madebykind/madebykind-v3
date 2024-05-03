@@ -4,8 +4,12 @@ card_colour: bg-yellow text-blue
 date: 2024-05-02T13:21:16.220Z
 author: michelle
 draft: false
+featured: true
 description: Brands have the potential to be powerful agents of change, driving social and environmental impact.
 toc: false
+cover_img: images/patagonia-thrawn.jpg
+text_colour: text-white
+cover_img_alt: A still from a Patagonia produced video, Thrawn. A snowboarding stands on snow, looking down at snow-less peaks.
 key_topic: Insights
 topics:
   - Brand
@@ -26,7 +30,7 @@ Brands have a unique ability to influence and shape societal norms and behaviors
 
 Brands can also be powerful advocates for environmental sustainability. By integrating eco-friendly practices into their operations and products, they can demonstrate to consumers and competitors alike that profitability and environmental responsibility can go hand in hand. Brands like [Who Gives a Crap](https://uk.whogivesacrap.org/pages/our-impact) and [Patagonia](https://eu.patagonia.com/gb/en/activism/) are perfect examples of this. Their proactive environmental stances have not only benefited the planet but also their bottom line, showing that 'going green' is good for business and the planet. And most importantly, they give back, setting a benchmark for how companies can behave when they have good intentions central to everything they do. 
 
-{{< figure wrapperclass="" align="" src="../images/patagonia-fashion.jpg" alt="A still from a video advertisement for Patagonia. Two men sit on a bench, reading magazines. They are dressed in odd clothing, one is wearing a helmet and sunglasses. Text overlayed on top reads 'Fashion is none of our business'" caption="A still from a recent Patagonia advert">}}
+{{< figure wrapperclass="" align="" src="../images/whogives.jpg" alt="A man and a woman fill jerry cans with clean water from an outdoor tap." caption="Who Gives a Crap donate 50% of their profits to help build toilets and provide safe drinking water around the world.">}}
 
 ## Harnessing the Power of Storytelling
 

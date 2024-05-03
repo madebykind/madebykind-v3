@@ -12,7 +12,6 @@ description: With the impermanence and speed of change of the internet and how
   it is used, how can you collect and retain pieces of history that may
   disappear the next day?
 toc: false
-featured: true
 summary: null
 key_topic: Insights
 topics:
