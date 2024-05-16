@@ -6,7 +6,7 @@ title: UNESCO - Brand and Digital Case Study - Non-Profit
 date: 2023-06-28T12:26:29.707Z
 cover_img: images/work-unesco-refugees.jpg
 cover_img_alt: Three child refugees in a tent Kabul
-intro: UNESCO, the United Nations Educational, Scientific and Cultural Organization, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
+intro: UNESCO, the United Nations Educational, Scientific and Cultural Organisation, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
 key_stat: null
 topics:
   - Illustration
@@ -79,7 +79,7 @@ Education is a fundamental human right. For children and youth caught up in emer
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   {{< figure wrapperclass="col-span-full lg:col-span-4 lg:col-start-5" src="../images/work-unesco-internal-page.jpg" alt="A tablet device with a page from the Digital PDF report" >}}
 
-  <div class="col-span-full lg:col-span-4 bg-white flex items-center">
+  <div class="flex items-center bg-white col-span-full lg:col-span-4">
 
   {{< image-cycle
     src_1="../images/work-unesco-character-1.jpg"
