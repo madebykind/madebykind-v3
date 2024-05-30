@@ -1,0 +1,12 @@
+
+<section class="bg-teal text-indigo p-6 pb-12">
+  {{ partial "newsletter" (dict 
+    "url" .Permalink
+    "style" "wide"
+    "heading" "Join our mailing list"
+    "block_class" "container"
+    "heading_class" "h3"
+    "text_class" "text-sm"
+    "image_class" "max-w-[75%]"
+  ) }}
+</section>
