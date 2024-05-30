@@ -7,7 +7,7 @@ author: mat
 draft: false
 description: We’ve been helping purpose-driven clients for nearly 10 years now, but we always want to do more. That lead us to brand strategy and the complimentary services around it.
 toc: false
-featured: true
+featured: false
 key_topic: How we work
 topics:
   - Strategy
