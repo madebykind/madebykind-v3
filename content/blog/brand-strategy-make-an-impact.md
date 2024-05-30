@@ -5,7 +5,7 @@ date: 2024-05-30T09:13:09.110Z
 author: pam
 draft: false
 featured: true
-unlisted: true
+unlisted: false
 description: For organisations that give a damn, a strong brand is crucial for making an impact. Whether you’re a small non-profit or a well-established organisation, having a clear brand strategy is essential. 
 toc: false
 cover_img: images/pam-brand.jpg
@@ -18,8 +18,9 @@ topics:
   - Non-profit
 intro: For organisations that give a damn (we’re talking to those of you who are fighting against injustice, supporting communities and working towards improving and protecting our natural environment), a strong brand is crucial for making an impact. Whether you’re a small non-profit or a well-established organisation, having a clear brand strategy is essential. 
 related_posts:
-  - more-impact-why-offering-brand-strategy-is-the-right-step-forward
   - the-influence-of-brands-for-social-and-environmental-impact
+  - creativity-is-a-responsibility
+  - more-impact-why-offering-brand-strategy-is-the-right-step-forward
 ---
 
 ## What even is a brand strategy?
