@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Start your next digital project with a paid discovery phase
-card_colour: bg-yellow text-blue
+card_colour: bg-teal text-blue
 date: 2021-06-16T15:20:00+0100
 author: mat
 cover_img: null

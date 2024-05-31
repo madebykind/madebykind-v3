@@ -10,6 +10,7 @@ toc: false
 featured: true
 summary: null
 key_topic: Our Impact
+illustration: images/empower-change-v2.png
 topics:
   - Accessibility
   - Digital sustainability

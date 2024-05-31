@@ -1,0 +1,19 @@
+
+{{ $src := (.Params.illustration ) }}
+{{ $img := resources.GetMatch (printf "**%s" ($src)) }}
+
+{{ with $img }}
+  {{- $xl := $img.Resize "624x" -}}
+  {{ $sm := $xl.Resize "312x" -}}
+
+  <img
+    class="object-cover h-full"
+    loading=lazy
+    sizes="(min-width: 100em) 33vw, 96vw"
+    src="{{ $sm.RelPermalink }}"
+    srcset="{{ $sm.RelPermalink }} 300w,{{ $xl.RelPermalink }} 600w,{{ $xl.RelPermalink }} 800w"
+    height="156"
+    width="156"
+    role="presentation"
+  >
+{{ end }}

@@ -12,6 +12,7 @@ description: Experienced web developers ensure that accessibility is baked into
 toc: false
 featured: true
 key_topic: Insights
+illustration: "images/be-a-good-human.png"
 topics:
   - Our impact
   - Accessibility

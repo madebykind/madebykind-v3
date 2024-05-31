@@ -13,11 +13,17 @@
       {{ if .Params.cover_img }}
         {{ partial "image__card" . }}
       {{ end }}
-      <div class="absolute z-10 grid content-start gap-5 lg:gap-10 inset-5 lg:inset-10 2xl:inset-5">
+      <div class="absolute z-10 flex flex-col items-start gap-3 lg:gap-6 inset-5 lg:inset-10 2xl:inset-5">
         {{ with .Params.key_topic }}
           <span class="text-sm font-bold">{{ title . }}</span>
         {{end}}
         <h2 class="h--condensed group-hover:underline" id="{{ .Title | anchorize }}">{{ .Title }}</h2>
+
+        {{ if .Params.illustration }}
+          <div class="self-end mt-auto">
+            {{ partial "image__blog-illustration" . }}
+          </div>
+        {{ end }}
       </div>
     </div>
     <div aria-hidden=true class="flex items-center gap-5 px-5 mt-5">
