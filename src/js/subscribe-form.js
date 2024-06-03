@@ -19,7 +19,7 @@ function SubscribeForm(el) {
         xhr.send(JSON.stringify(
           Object.fromEntries(formData)
         ));
-        message.innerHTML = (successContent !== undefined) ? successContent : "Thanks, you're signed up!"
+        message.innerHTML = (successContent !== undefined) ? successContent : "Almost there... we've sent you an email to confirm your subscription."
         form.remove();
         message.classList.remove('hidden');
       } catch(e) {
