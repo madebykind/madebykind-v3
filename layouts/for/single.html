@@ -1,0 +1,185 @@
+{{ define "header" }}
+ <header class="w-full bg-indigo text-buff overflow-hidden lg:min-h-[20vh] snap-start">
+  <div class="container flex flex-wrap justify-between gap-5 2xl:no-container 2xl:w-screen">
+    <div class="pt-5 xl:pt-16 2xl:pl-[4vw]">
+      {{ partial "logo" . }}
+    </div>
+    <div class="bg-pink text-claret max-w-1/2 w-60 xl:w-96 h-28 lg:h-auto lg:min-h-[20vh] flex justify-center bleed-right items-center 2xl:bleed-none">
+      <svg class="w-12 h-16 xl:w-16 xl:h-20" role="presentation">
+        <use xlink:href="#icon-bcorp"/>
+      </svg>
+    </div>
+  </div>
+ </header>
+{{ end }}
+
+{{ define "main" }}
+<article class="w-full overflow-hidden">
+  <div class="bg-indigo text-buff lg:min-h-[80vh]">
+    <div class="container 2xl:no-container flex flex-wrap items-end justify-between lg:items-stretch justify-end lg:min-h-[60vh]">
+      <div class="w-full pt-9 pb-8 lg:w-1/2 lg:pt-0 lg:pr-8 gap-8 lg:gap-12 lg:flex flex-col lg:justify-center 2xl:pl-[4vw]">
+        {{ with .Params.logo }}
+          {{ range . }}
+              <span class="sr-only">{{ .name }}</span>
+              <svg class="w-24 h-12 lg:w-36 lg:h-18 flex-no-shrink" role="presentation">
+                <use xlink:href="#icon-{{ .icon }}"/>
+              </svg>
+          {{ end }}
+        {{ end }}
+        
+        <h1>{{ .Params.heading }}</h1>
+        <p class="text-md">{{ .Params.subheading }}</p>
+      </div>
+      <div class="w-1/2 bleed-left lg:hidden">
+        {{ with index (.Params.banner_images) 0 }}
+            {{ partial "image" (dict 
+              "alt" .alt
+              "class" ""
+              "src" .img 
+            ) }}
+        {{ end }}
+      </div>
+      <div class="bleed-right w-[54%] aspect-3/4 lg:w-[34%] xl:w-[44%] lg:aspect-4/3" data-image-flick-item>
+        {{ if .Params.cover_img }}
+          {{ partial "image" (dict 
+            "alt" .Params.cover_img_alt
+            "class" "h-full object-cover"
+            "src" .Params.cover_img 
+          ) }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="container flex items-center min-h-screen snap-start">
+    <div class="lg:grid lg:grid-cols-12">
+      <div class="flex flex-col items-start gap-5 section--lg lg:gap-10 lg:col-span-8">
+        <h2 class="h1">Let’s be clear &mdash; we’re not for everyone</h2>
+        <p class="max-w-4xl">All our clients must have a mission that comes before profit. If that sounds like you, maybe we could work together.</p>
+      </div>
+    </div>
+  </div>
+
+  {{ partial "our-impacts" . }}
+
+  {{/* Services */}}
+  <div class="flex items-center min-h-screen snap-start bg-sky text-indigo" id="services">
+    <div class="container flex flex-col items-start gap-10 section--lg">
+      <div class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
+        <div class="flex flex-col gap-8 col-span-full xl:col-span-8">
+          <h2 class="text-3xl h--condensed">So how can we help you?</h2>
+          <p class="text-md max-w-cta-copy">{{ .Params.help_intro }}</p>
+        </div>
+        <div class="hidden xl:col-span-3 xl:block">
+          {{ partial "image" (dict 
+            "alt" "Illustration: two big friendly hands making a heart shape"
+            "class" "object-cover w-full"
+            "src" "/images/big-heart-huge-results.png" 
+          ) }}
+        </div>
+        {{ range .Params.help_items }}
+          <div class="col-span-full sm:col-span-3 lg:col-span-3">
+            <h3 class="mb-2 h4">{{ .title }}</h3>
+            <p class="font-sans text-sm ">{{ .description }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  {{/* Clients  */}}
+  {{ $sector := .Title }}
+  {{ with .Params.related_projects }}
+  <div class="bg-buff text-indigo" id="clients">
+    <div class="container scetion--lg">
+      <h2 class="text-3xl h--condensed">Some of our client work</h2>
+    </div>
+    {{ $projects := . }}
+    {{ $count := len $projects }}
+    
+    {{ range $i, $e := . }}
+      {{ with $e.slug }}
+        {{ with site.GetPage . }}
+          {{ partial "teaser__work-wide" (dict 
+            "indent_images" $e.indent_images
+            "indent_text" $e.indent_text
+            "index" $i
+            "count" $count
+            "context" .
+            "button_url" "#testimonials"
+            "button_text" "Happy clients though?"
+            "wrapper_class" "min-h-screen"
+          ) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Selected insights */}}
+  {{ with .Params.related_posts }}
+    <div class="container section--lg">
+      <h2 class="h--condensed">Insights we think you will find usefull</h2>
+      {{ partial "related-teasers.html" . }}
+    </div>
+  {{ end }}
+
+  {{/* Testimonials */}}
+  <div class="text-buff bg-indigo">
+    <div class="container flex items-center section--lg snap-start" id="testimonials">
+      <div class="flex flex-col items-start w-full gap-10">
+        <h2 class="h--condensed">What our clients say</h2>
+        <div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-6 xl:gap-12">
+          {{ range .Params.testimonials }}
+            {{ with site.GetPage . }}
+              <figure class="lg:col-span-6">
+                <blockquote class="p-0 font-bold border-0 text-md max-w-cta-copy" itemscope itemtype="http://schema.org/CreativeWork">
+                  &ldquo;{{ .Content | markdownify }}&rdquo;
+                </blockquote>
+                <figcaption class="text-sm mt-5 font-serif border-l-3 border-orange pl-2.5">
+                  <div>
+                    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                      <span class="font-bold" itemprop="name">{{ .Params.Title }}</span>
+                    </div>
+                    {{ if .Params.Role }}
+                      <span itemprop="jobTitle">{{ .Params.Role }}</span>
+                    {{ end }}
+                  </div>
+                </figcaption>
+              </figure>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}
+
+{{ define "footer" }}
+<footer id="contact" class="snap-start">
+  <div class="grid overflow-hidden bg-blue text-buff">
+    <div class="container grid items-center md:gap-10 md:grid-cols-2 2xl:grid-cols-3 2xl:no-container 2xl:w-screen">
+      <div class="section--lg order-2 md:order-1 2xl:pl-[4vw] 2xl:col-span-2">
+        <div class="mb-8 prose lg:mb-16">
+          <h2 class="text-3xl h--condensed">Arrange a chat with our founder</h2>
+          <p class="mt-6 leading-tight text-md">That’s me! I founded Kind to be a force for good and would love to chat about how we might help you.</p>
+        </div>
+        <a class="mb-2 btn btn--pink" href="https://calendly.com/madebykind/30-min-call-with-mat-at-kind" onclick="javascript:insights.track({id: 'personal-book-chat',parameters: {locale: personal.parameters.locale(),screenSize: personal.parameters.screenType(),referrer: personal.parameters.referrer(),path: personal.parameters.path()}});">
+          <span class="whitespace-nowrap">Book a chat</span>
+          <svg class="w-8 h-8 shrink-0" viewbox="0 0 77 63" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
+        <p class="max-w-[20rem] leading-none font-sans"><small>No fee. No obligation. Just a friendly conversation about your goals and your challenges.</small></p>
+      </div>
+      <div class="relative order-1 bleed md:ml-0 md:order-2 aspect-4/3 md:aspect-3/4">
+        {{ partial "image" (dict 
+          "alt" "Mat Hayward, founder of Kind"
+          "class" "object-cover h-full w-full"
+          "src" "/images/Team-Mat.jpg" 
+        ) }}
+      </div>
+    </div>
+  </div>
+</footer>
+{{ end }}
