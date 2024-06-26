@@ -1,0 +1,33 @@
+<div class="w-full overflow-hidden section snap-start">   
+  <div class="flex gap-5 {{ if .odd }} lg:flex-row-reverse{{ end }}">
+    {{ range $i, $image := $.context.Params.teaser.images }} 
+      {{ $img_class := "h-full w-full object-cover" }}
+      
+      {{ if $image.darken }}
+        {{ $img_class = "h-full w-full object-cover brightness-75" }}
+      {{ end }}
+
+      <div class="w-full lg:w-auto shrink relative h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem]">
+        {{ partial "image" (dict 
+          "alt" $image.alt
+          "class" $img_class
+          "src" $image.img 
+        ) }}
+      </div>
+    {{ end }}
+    <div class="w-full px-5 lg:w-1/2 grow">
+      <div class="">
+        <div class="flex flex-col gap-4">
+          {{ with $.context.Params.icon }}
+            <svg class="w-24 h-12 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-{{ . }}"/>
+            </svg>
+          {{ end }}
+
+          <h3 class="text-2xl 2xl:text-3xl h--condensed">{{ $.context.Params.teaser.title }}</h3>
+          {{ $.context.Params.teaser.description }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
