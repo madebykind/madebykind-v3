@@ -87,32 +87,30 @@
   </div>
 
   {{/* Clients  */}}
-  {{ $sector := .Title }}
   {{ with .Params.related_projects }}
-  <div class="bg-buff text-indigo" id="clients">
-    <div class="container scetion--lg">
-      <h2 class="text-3xl h--condensed">Some of our client work</h2>
-    </div>
     {{ $projects := . }}
-    {{ $count := len $projects }}
-    
-    {{ range $i, $e := . }}
-      {{ with $e.slug }}
-        {{ with site.GetPage . }}
-          {{ partial "teaser__work-wide" (dict 
-            "indent_images" $e.indent_images
-            "indent_text" $e.indent_text
-            "index" $i
-            "count" $count
-            "context" .
-            "button_url" "#testimonials"
-            "button_text" "Happy clients though?"
-            "wrapper_class" "min-h-screen"
-          ) }}
+    <section id="clients">
+      <div class="container section--lg">
+        <h2 class="text-3xl h--condensed">Some of our client work</h2>
+      </div>
+      {{ range $i, $e := . }}
+
+        {{ $odd := false }}
+        {{ if not (modBool $i 2)}}
+          {{ $odd = true }}
+        {{ end }}
+
+        {{ with $e.slug }}
+          {{ with site.GetPage . }}
+            {{ partial "teaser__client" (dict 
+              "index" $i
+              "context" .
+              "odd" $odd
+            ) }}
+          {{ end }}
         {{ end }}
       {{ end }}
-    {{ end }}
-  </div>
+    </div>
   {{ end }}
 
   {{/* Selected insights */}}
