@@ -2,7 +2,7 @@
   {{ if not .Params.cta_hidden }}
   <div class="grid overflow-hidden {{ with .Params.footer_class }} {{ . }}{{ else }} bg-indigo text-buff{{ end }}">
     <div class="container grid md:gap-10 md:grid-cols-2">
-      <div class="grid content-center section--lg order-2 md:order-1">
+      <div class="grid content-center order-2 section--lg md:order-1">
         <h2 class="text-3xl h--condensed">Let’s make a difference, together</h2>
         <p class="mt-6 leading-tight text-md">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
         <p class="font-bold mt-15">Speak to Mat or Michelle</p>
@@ -15,7 +15,7 @@
           </li>
         </ul>
       </div>
-      <div class="relative bleed md:ml-0 order-1 md:order-2">
+      <div class="relative order-1 bleed md:ml-0 md:order-2">
         {{ partial "image" (dict 
           "alt" "Mat and Michelle, standing by the bureaux and smiling."
           "class" "object-cover h-full w-full"
@@ -25,13 +25,13 @@
     </div>
   </div>
   {{ end }}
-  <div class="container section flex justify-between">
+  <div class="container flex justify-between section">
     <nav aria-label="{{ i18n "socialTitle" }}">
       <ul class="flex flex-wrap items-center gap-5 list-none" role=list>
         
         {{ if isset .Site.Params "facebook" }}
         <li>
-          <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-facebook',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+          <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-facebook',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
             <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
               <use xlink:href="#icon-facebook"/>
             </svg>
@@ -41,7 +41,7 @@
 
         {{ if isset .Site.Params "instagram" }}
           <li>
-            <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-instagram"/>
               </svg>
@@ -51,7 +51,7 @@
 
         {{ if isset .Site.Params "twitter" }}
           <li>
-            <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-twitter',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-twitter',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-twitter"/>
               </svg>
@@ -61,7 +61,7 @@
 
         {{ if isset .Site.Params "linkedin" }}
           <li class="mb-1">
-            <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
               </svg>
@@ -71,7 +71,7 @@
 
         {{ if isset .Site.Params "github" }}
           <li>
-            <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-github',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-github',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-github"/>
               </svg>
@@ -89,7 +89,7 @@
 
       </ul>
     </nav>
-    <a href="https://ecofriendlyweb.org/client/kind/" target="_blank" title="This website is certified as Climate Positive" class="text-indigo hover:text-blue focus:text-blue transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-efwa',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+    <a href="https://ecofriendlyweb.org/client/kind/" target="_blank" title="This website is certified as Climate Positive" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-efwa',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
       <svg class="w-48 h-14" viewbox="0 0 200 60" role="presentation">
         <use xlink:href="#icon-efwa"/>
       </svg>
@@ -108,4 +108,9 @@
       </small>
     </p>
   </div>
+  {{ if .Site.IsServer }}
+  <div class="container py-4">
+  <code><a href="http://gohugo.io">Hugo</a>, v.{{ hugo.Version }}, environment {{ hugo.Environment }}</code>
+  </div>
+  {{ end }}
 </footer>
