@@ -11,6 +11,12 @@
   HUGO_ENV = "production"
   NODE_ENV = "production"
 
+[context.deploy-preview.environment]
+  HUGO_ENV = "staging"
+
+[context.branch-deploy.environment]
+  HUGO_ENV = "staging"
+
 [[headers]]
   for = "/*"
   [headers.values]

@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://madebykind.com/"
+baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en"
 title = "Kind"
@@ -14,10 +14,6 @@ summarylength = 10
 paginate = 6
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 timeout = "300s"
-
-[build]
-  publishResources = true
-  #writeStats = true
 
 [imaging]
   anchor = "smart"
