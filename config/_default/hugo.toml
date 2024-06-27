@@ -1,23 +1,19 @@
 ## Basic Configuration
-baseurl = "https://madebykind.com/"
+baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en"
-title = "Kind"
-disableHugoGeneratorInject = true
+title = "Staging Kind"
+disableHugoGeneratorInject = false
 author = "Future Friendly Ltd."
 copyright = "Future Friendly Ltd."
 canonifyURLs = true
 enableEmoji = true
 enableGitInfo = false
-enableRobotsTXT = true
+enableRobotsTXT = false
 summarylength = 10
 paginate = 6
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 timeout = "300s"
-
-[build]
-  publishResources = true
-  #writeStats = true
 
 [imaging]
   anchor = "smart"
