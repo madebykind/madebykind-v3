@@ -69,13 +69,15 @@
     Content-Type = "text/javascript; charset=utf-8"
 
 [[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/font-woff2"
+
+[[headers]]
   for = "/*.webmanifest"
   [headers.values]
     Content-Type = "application/manifest+json; charset=utf-8"
-
-# [[headers]]
-#   for = "/*.html"
-#   [headers.values]
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
