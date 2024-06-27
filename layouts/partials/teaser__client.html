@@ -1,7 +1,7 @@
 <div class="w-full overflow-hidden section snap-start">   
   <div class="flex gap-5 {{ if .odd }} lg:flex-row-reverse{{ end }}">
     {{ range $index, $image := first 2 $.context.Params.teaser.images }} 
-      {{ $img_class := "h-full w-full object-cover" }}s
+      {{ $img_class := "h-full w-full object-cover" }}
       {{ if $image.darken }}
         {{ $img_class = "h-full w-full object-cover brightness-75" }}
       {{ end }}
