@@ -93,17 +93,17 @@
       <div class="container section--lg">
         <h2 class="text-3xl h--condensed">Some of our client work</h2>
       </div>
-      {{ range $i, $e := . }}
+      {{ range $index, $element := . }}
 
         {{ $odd := false }}
-        {{ if not (modBool $i 2)}}
+        {{ if not (modBool $index 2)}}
           {{ $odd = true }}
         {{ end }}
 
-        {{ with $e.slug }}
+        {{ with $element.slug }}
           {{ with site.GetPage . }}
             {{ partial "teaser__client" (dict 
-              "index" $i
+              "index" $index
               "context" .
               "odd" $odd
             ) }}
