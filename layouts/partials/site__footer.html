@@ -108,9 +108,9 @@
       </small>
     </p>
   </div>
-  {{ if .Site.IsServer }}
-  <div class="container py-4">
-  <code><a href="http://gohugo.io">Hugo</a>, v.{{ hugo.Version }}, environment {{ hugo.Environment }}</code>
-  </div>
+  {{ if ne "production" hugo.Environment }}
+    <div class="container py-4">
+      <code><a href="http://gohugo.io">Hugo</a> v.{{ hugo.Version }}, environment: “{{ hugo.Environment }}”</code>
+    </div>
   {{ end }}
 </footer>
