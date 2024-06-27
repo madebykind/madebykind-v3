@@ -17,6 +17,7 @@
     "lint": "eslint src",
     "clean": "rimraf ./node_modules && yarn && npm run prebuild",
     "prebuild": "rimraf ./dist",
+    "project:release": "./scripts/deploy/release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "postcss-preset-env": "^7.7.1",
     "rimraf": "^3.0.2",
     "rollup-plugin-copy": "^3.4.0",
+    "shelljs": "^0.8.5",
     "tailwindcss": "^3.0.11",
     "utility-opentype": "^0.1.4",
     "vite": "^4.1.3",
