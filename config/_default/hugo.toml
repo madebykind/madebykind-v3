@@ -2,14 +2,14 @@
 baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en"
-title = "Develop Kind"
-disableHugoGeneratorInject = false
+title = "Kind"
+disableHugoGeneratorInject = true
 author = "Future Friendly Ltd."
 copyright = "Future Friendly Ltd."
 canonifyURLs = true
 enableEmoji = true
 enableGitInfo = false
-enableRobotsTXT = false
+enableRobotsTXT = true
 summarylength = 10
 paginate = 6
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
