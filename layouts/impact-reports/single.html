@@ -1,0 +1,125 @@
+{{ define "main" }}
+<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+
+  {{ partial "header__impact-report" . }}
+  
+
+  {{/* Intro */}}
+  <section class="bg-indigo text-buff section--lg">
+    <div class="container">
+      <h2 class="h--condensed text-3xl mb-10">A note from our leaders</h2>
+      <div class="font-sans font-serif prose prose--tight flex flex-col gap-10">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+
+
+  {{/* Score */}}
+  <section class="bg-teal text-blue section--lg">
+    <div class="container">
+      <h2 class="font-light">B Impact Assessment</h2>
+      <div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+        <div class="col-span-full md:col-span-3 xl:col-span-2">
+          <h3 class="font-normal leading-none ">
+            <span class="text-5xl h--condensed leading-none inline-block">93.6</span>
+            <span class="text-sm inline-block">B Impact Assessment Score</span>
+          </h3>
+        </div>
+        <div class="col-span-full md:col-span-3 xl:col-span-4">
+          <h3 class="font-normal text-md mt-10 mb-4">Breakdown</h3>
+          <ul class="flex flex-col gap-2">
+            {{ with .Params.score  }}
+              {{ range .breakdown }}
+              <li class="flex gap-2 items-center">
+                <span class="font-sans w-32 shrink-0 grow-0 inline-block text-sm">{{ .title }}</span>
+                <span class="font-sans w-auto grow inline-flex gap-1 text-sm items-center">
+                  <span class="bg-currentColor h-6" style="width: {{ mul .score 2 }}%"></span>
+                  {{ .score }}
+                </span>
+              </li>
+              {{ end }}
+            {{ end }}
+        </div>
+        <div class="col-span-full md:col-span-6 xl:col-span-4 xl:col-start-8 text-md">
+          {{ .Params.score.description }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* Goals */}}
+  <section class="section--lg container">
+
+    <h2 class="h--condensed text-4xl">{{ .Params.report.title }}</h2>
+    {{ with .Params.report.intro }}
+      {{ . }}
+    {{ end }}
+
+    {{ with .Params.report.sections }}
+      <div class="section--lg">
+        {{ range $i, $e := .  }}
+          <div class="section grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+            {{ $section := $e.title }}
+
+            {{ with $e.image }}
+              <div class="col-span-full md:col-span-6 items-start md:mb-12 {{ if not (modBool $i 2) }} md:order-last {{ end }}">
+                <div class="aspect-square w-full">
+
+                  {{ partial "image" (dict 
+                    "alt" .alt
+                    "class" "object-cover h-full w-full"
+                    "src" .url 
+                  ) }}
+                </div>
+              </div>
+            {{ end }}
+            {{ with $e.key_goals }}
+              <div class="col-span-full md:col-span-6" id="{{ $section | anchorize }}">
+                {{ range $i, $e := . }}
+                  {{ if eq $i 0 }}
+                    {{ partial "impact-goal" (dict 
+                      "section" $section
+                      "title" .title
+                      "status" .status
+                      "description" .description
+                      "now" .now
+                      "next" .next
+                    ) }}
+                  {{ else }}
+                    {{ partial "impact-goal" (dict 
+                      "title" .title
+                      "status" .status
+                      "description" .description
+                      "now" .now
+                      "next" .next
+                    ) }}
+                  {{ end }}
+
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+          {{ with $e.sub_goals }}
+            <div class="section grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+              {{ range . }}
+                <div class="col-span-full md:col-span-6">
+                  {{ partial "impact-goal" (dict 
+                    "title" .title
+                    "status" .status
+                    "description" .description
+                    "now" .now
+                    "next" .next
+                  ) }}
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </section>
+
+
+</article>
+{{ end }}

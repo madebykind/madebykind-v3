@@ -1,3 +1,8 @@
+{{ $seo_title := .Params.Title }}
+{{ with .Params.seo_title }}
+  {{ $seo_title = . }}
+{{ end }}
+
 <head>
 	<!-- Ultra-turbo-features_v8. The best version. -->
 	<meta charset="utf-8">
@@ -6,23 +11,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Page title, if there is one. If not, site title. -->
-	<title>{{ if .IsHome }}{{ .Site.Title }}{{ else}}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+	<title>{{ with $seo_title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
 
 	<!-- Page description goes here, if there is one. If not, we'll summarize from page content. Failing that, fallback to global site description. -->
-	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+
+	<!-- Is this the OG content? -->
+	<link rel="canonical" href="{{ .Permalink }}" />
 
 	<!-- Yo! Assets list, right here. Pre-load em while they hot! -->
 	<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
+
+  <!-- Fonto rapido pronto! -->
+  <link rel="preload" href="/assets/052645fc8673.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/a4a12545291c.woff2" as="font" type="font/woff2" crossorigin>
   
-  <!--
-  <link rel="preload" href="/assets/052645fc8673" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/a4a12545291c" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/inter-roman" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/inter-italic" as="font" type="font/woff2" crossorigin>
+  <!-- Not require on initial load. Min fout.
+  <link rel="preload" href="/assets/inter-roman.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/inter-italic.woff2" as="font" type="font/woff2" crossorigin>
   -->
 
 	<!-- Favicone bologne -->
-	<link rel="apple-touch-icon" href="{{ "icon.png" | absURL }}">
+	<link rel="apple-touch-icon" href="{{ "favicon.png" | absURL }}">
+	<link rel="icon" href="{{ "favicon.svg" | absURL }}" type="image/svg+xml">
 	<!-- Place favicon.ico in the root directory -->
 
 	<!-- Scripts entry point -->
@@ -31,16 +42,8 @@
 		<script type="module" src="http://localhost:5173/@vite/client"></script>
 		<script type="module" src="http://localhost:5173/src/main.js"></script>
 	{{ else }}
-		<link rel="stylesheet" href="/assets/main.css"/>
-		<script type="module" src="/assets/app.js"></script>
-	{{ end }}
-
-	{{ if isset .Site.Params "webmentions" }}
-	  <!-- Webmention awesomes! -->
-		{{ if .Site.Params.webmentions.enable }}
-			<link rel="webmention" href="https://webmention.io/{{ .Site.Params.webmentions.username }}/webmention">
-			<link rel="pingback" href="https://webmention.io/{{ .Site.Params.webmentions.username }}/xmlrpc">
-		{{ end }}
+		<link rel="stylesheet" href="/assets/main.css" media="screen">
+		<script type="module" src="/assets/app.js" async></script>
 	{{ end }}
 
 	<!-- Hugo internal meta templates -->
@@ -52,4 +55,13 @@
 	{{ range .AlternativeOutputFormats -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
+
+  <!-- Analytics -->
+  {{ if not .Site.IsServer }}
+    <script src="https://getinsights.io/js/insights.js" async></script>
+    <script>
+      insights.init('N96lhlRPan5nwYhX');
+      insights.trackPages();
+    </script>
+  {{ end }}
 </head>

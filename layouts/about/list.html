@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
-<section>
+<article>
   {{ partial "header__about.html" . }}
-  <section class="flex flex-col justify-center min-h-screen section--lg bg-indigo text-buff">
+  <section class="flex flex-col justify-center min-h-dynamic-screen section--lg bg-indigo text-buff">
     <div class="container grid content-center gap-10 xl:grid-cols-3">
       <div class="grid gap-10 xl:col-span-2">
         <h2 class="h1">We do give a damn</h2>
@@ -15,12 +15,12 @@
         <svg class="w-24 h-32 xl:w-36 xl:h-48 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-bcorp"/>
         </svg>
-        <svg class="h-24 w-48 xl:h-32 xl:w-72 flex-no-shrink" role="presentation">
+        <svg class="w-48 h-24 xl:h-32 xl:w-72 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-1fortheplanet"/>
         </svg>
       </div>
       <div>
-        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue  focus:bg-pink focus:text-blue" href="/about/our-impact">
+        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact/" onclick="javascript:insights.track({id: 'about-impact',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
           Our impact
           <svg class="w-12 h-4 flex-no-shrink" role="presentation">
             <use xlink:href="#icon-arrow"/>
@@ -29,32 +29,31 @@
       </div>
     </div>
   </section>
-  <section class="bg-teal text-blue overflow-hidden">
-    <div class="container grid gap-10 xl:grid-cols-2">
-      <div class="grid gap-10 pt-10 lg:pt-20 xl:py-30">
+  <section class="overflow-hidden bg-teal text-blue">
+    <div class="container grid grid-cols-2 gap-10">
+      <div class="grid gap-10 pt-10 xl:col-span-1 col-span-full lg:pt-20 xl:py-30">
         <h2 class="h1">Partnerships that deliver real impact</h2>
         <div class="max-w-5xl prose lede cta_prose">
-          <p>Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else – and that means great results for you.</p>
           <p>Our client base is 100% socially responsible and purpose-driven. By using our skills and insights, we empower and lift up these organisations. A force for good behind the scenes.</p>
         </div>
       </div>
-        {{ with .Params.related_work }}
-        <div class="bleed xl:ml-0">
+      {{ with .Params.related_work }}
+        <div class="xl:col-span-1 col-span-full bleed xl:ml-0">
           {{ range . }}
             {{ with site.GetPage . }}
-              <a aria-labelledby="{{ .Title | anchorize }}" class="block group no-underline xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}">
+              <a class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'impact-project',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
                 <div class="relative xl:flex-grow">
                   {{ if isset .Params "impact_img" }}
                     {{ partial "image__impact-project" . }}
                   {{ end }}
                   <div class="absolute z-10 text-buff bottom-10 left-10">
                     <article>
-                      <h4 class="h1">149%</h4>
+                      <h3 class="h1">149<span class="text-3xl lg:text-4xl">%</span></h3>
                       <p class="mt-5">Increase in donations<br>for Rewilding Britain</p>
                     </article>
                   </div>
                 </div>
-                <div class="bg-sky text-green py-5 px-10 flex justify-between items-center transition-all duration-500 ease-in-out group-hover:bg-green group-hover:text-sky">
+                <div class="flex items-center justify-between px-10 py-5 transition-all duration-500 ease-in-out bg-sky text-green group-hover:bg-green group-hover:text-sky">
                   <p>
                     Read the <span class="sr-only">{{ .Params.client }}</span> case study
                   </p>
@@ -66,19 +65,18 @@
             {{ end }}
           {{ end }}
         </div>
-        {{ end }}
-      </div>
+      {{ end }}
     </div>
   </section>
-  <section class="section relative">
+  <section class="relative section" id="team">
     <div class="container grid gap-10">
       <h2 class="text-xl h--condensed">Our team of experts</h2>
       <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:gap-32">
-        {{ range sort $.Site.Data.authors "order" }}
+        {{ range sort $.Site.Data.authors "weight" }}
         {{ $author_img := resources.GetMatch (printf "**%s" (.image)) }}
           <li id="toggle-{{ .name | anchorize }}">
             <article itemscope itemtype="http://schema.org/Person">
-              <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="#team-{{ .name | anchorize }}" class="text-left">
+              <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="team-{{ .name | anchorize }}" data-toggle-set-scroll class="text-left" onclick="javascript:insights.track({id: 'team--topn-{{ .name | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
 
                 {{ $xl := $author_img.Fill "920x1360" }}
                 {{ $lg := $xl.Resize "640x" }}
@@ -90,9 +88,8 @@
                   height="{{ $author_img.Height }}"
                   loading=lazy
                   sizes="
-                    (min-width: 90em) 920w,
-                    (min-width: 62em) 640w,
-                    (min-width: 48em) 480w,
+                    (min-width: 64em) 30vw,
+                    (min-width: 48em) 48vw,
                     100vw" 
                   src="{{ $sm.RelPermalink }}" 
                   srcset="
@@ -102,35 +99,28 @@
                     {{ $xl.RelPermalink }} 920w
                   " 
                   width="{{ $author_img.Width }}"
-                />
-                <div class="flex items-center justify-between gap-5 mt-5">
-                  <h3 class="font-serif font-bold normal-case" itemprop="author">{{ .name }}</h3>
+                >
+                <span class="flex items-center justify-between gap-5 mt-5">
+                  <span class="block font-serif font-bold normal-case h3" itemprop="author">{{ .name }}</span>
                   <svg class="self-end w-12 h-6 flex-no-shrink" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
-                </div>
-
-                <p class="mt-2 my-5 h--condensed">{{ .role }}</p>
+                </span>
+                <span class="block my-5 mt-2 h--condensed">{{ .role }}</span>
               </button>
-
-              <div class="team-member bg-indigo text-buff z-20 w-screen min-h-screen flex flex-col lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
-
-                <button type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-anchor="#toggle-{{ .name | anchorize }}" aria-controls="#team-{{ .name | anchorize }}">
-                  <svg class="self-end w-16 h-8 lg:w-24 lg:h-12 flex-no-shrink rotate-180 text-yellow" role="presentation">
+              <div class="z-20 flex flex-col w-screen min-h-dynamic-screen team-member bg-indigo text-buff lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
+                <button aria-label="Learn more about {{ .name }}" type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="team-{{ .name | anchorize }}">
+                  <svg class="self-end w-16 h-8 rotate-180 lg:w-24 lg:h-12 flex-no-shrink text-yellow" role="presentation">
                     <use xlink:href="#icon-arrow"/>
                   </svg>
                 </button>
-
                 <div class="w-full lg:w-5/12 grow-0 h-[50vh] lg:h-auto">
-
                   <img  
                     alt="{{ .name }}" 
                     height="{{ $author_img.Height }}"
                     loading=lazy
                     sizes="
-                      (min-width: 90em) 920w,
-                      (min-width: 62em) 640w,
-                      (min-width: 48em) 480w,
+                      (min-width: 64em) 42vw,
                       100vw" 
                     src="{{ $sm.RelPermalink }}" 
                     srcset="
@@ -141,59 +131,56 @@
                     " 
                     width="{{ $author_img.Width }}"
                     class="object-cover w-full h-full"
-                  />
+                  >
                 </div>
-
-                <div class="w-full lg:w-7/12 grow-0 grid grid-cols-1 gap-10 p-5 h-[50vh] lg:max-h-screen overflow-auto">
+                <div class="w-full lg:w-7/12 grow-0 grid grid-cols-1 gap-10 p-5 h-[50vh] lg:h-auto lg:max-h-screen overflow-auto">
                   <div>
-                    <h3 class="text-lg font-serif font-bold normal-case">{{ .name }}</h3>
-                    <p class="mt-2 my-5 h--condensed text-md">{{ .role }}</p>
+                    <h3 class="font-serif text-lg font-bold normal-case">{{ .name }}</h3>
+                    <p class="my-5 mt-2 h--condensed text-md">{{ .role }}</p>
                   </div>
-                  <nav class="font-sans text-base font-bold">
-                    {{ with .email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
-                    {{ with .social.linkedin }} / <a href="https://linkedin.com/in/{{ . }}">Linkedin</a>{{ end }}
-                    {{ with .social.instagram }} / <a href="https://instagram.com/{{ . }}">Instagram</a>{{ end }}
-                    {{ with .social.facebook }} / <a href="https://facebook.com/{{ . }}">Facebook</a>{{ end }}
-                    {{ with .social.github }} / <a href="https://github.com/{{ . }}">Github</a>{{ end }}
-                    {{ with .social.twitter }} / <a href="https://twitter.com/{{ . }}">Twitter</a>{{ end }}
-                    {{ with .social.threads }} / <a href="https://threads.net/{{ . }}">Threads</a>{{ end }}
-                  </nav>
-                  
-                  {{ with .related_posts }}
-                  <div class="xl:pt-12">
-                    <h4 class="mb-2">Insights</h4>
-                    <ul class="list-none">
-                    {{ range . }}
-                      {{ with site.GetPage . }}
-                      <li class="mb-2 font-sans">
-                        <a aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">{{ .Title }}</a>
-                      </li>
-                      {{ end }}
-                    {{ end }}
+                  <nav class="font-sans text-base font-bold" aria-label="Social links for {{ .name }}">
+                    <ul class="flex flex-wrap overflow-hidden gap-x-5" role="list">
+                      {{ with .email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+                      {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://www.linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
+                      {{ with .social.instagram }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://www.instagram.com/{{ . }}/">Instagram</a></li>{{ end }}
+                      {{ with .social.facebook }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://facebook.com/{{ . }}">Facebook</a></li>{{ end }}
+                      {{ with .social.github }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://github.com/{{ . }}">Github</a></li>{{ end }}
+                      {{ with .social.twitter }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://twitter.com/{{ . }}">Twitter</a></li>{{ end }}
+                      {{ with .social.threads }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://threads.net/{{ . }}">Threads</a></li>{{ end }}
                     </ul>
-                  </div>
+                  </nav>  
+                  {{ with .related_posts }}
+                    <div class="xl:pt-12">
+                      <h4 class="mb-2">Insights</h4>
+                      <ul class="list-none">
+                      {{ range . }}
+                        {{ with site.GetPage . }}
+                        <li class="mb-2 font-sans">
+                          <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </li>
+                        {{ end }}
+                      {{ end }}
+                      </ul>
+                    </div>
                   {{ end }}
                   
                   {{ with .cares }}
-                  <div class="xl:pt-12">
-                    <h4 class="mb-2">What I care about</h4>
-                    <p class="font-sans">
-                    {{ range . }}
-                      {{ . }}<span class="last:hidden">, </span>
-                    {{ end }}
-                    </p>
-                  </div>
+                    <div class="xl:pt-12">
+                      <h4 class="mb-2">What I care about</h4>
+                      <p class="font-sans">
+                      {{ range . }}
+                        {{ . }}<span class="last:hidden">, </span>
+                      {{ end }}
+                      </p>
+                    </div>
                   {{ end }}
-
                 </div>
-
               </div>
-  
             </article>
           </li>
         {{ end }}
       </ul>
     </div>
   </section>
-</section>
+</article>
 {{ end }}

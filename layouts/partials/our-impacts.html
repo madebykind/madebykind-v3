@@ -1,10 +1,10 @@
 <section class="flex items-center bg-blue text-teal snap-start section">
 	<div class="container grid gap-10 lg:grid-cols-12">
     <div class="lg:col-span-full">
-      <h3 class="sr-only">Our impact in numbers</h3>
+      <h2 class="sr-only">Our impact in numbers</h2>
       {{ with .Params.related_stats }}
-        <ul class="flex flex-wrap gap-5 lg:gap-10">
-          <li class="pr-5">
+        <ul class="flex flex-wrap gap-5 lg:gap-10 lg:justify-between">
+          <li class="pt-4 pr-5">
             <svg class="w-24 h-32 flex-no-shrink" role="presentation">
               <use xlink:href="#icon-bcorp"/>
             </svg>
@@ -13,8 +13,10 @@
             {{ with site.GetPage . }}
               <li class="md:max-w-xs">
                 <article>
-                  <h3 class="h1">{{ .Title }}</h3>
-                  <p class="mt-5">{{ .Content }}</p>
+                  <h4 class="h1">
+                    {{ if .Params.prefix }}<span class="text-3xl lg:text-4xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-3xl lg:text-4xl">{{ .Params.suffix }}</span>{{ end }}
+                  </h4>
+                  <div class="mt-5">{{ .Content }}</div>
                 </article>
               </li>
             {{ end }}

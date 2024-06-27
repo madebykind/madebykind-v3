@@ -1,6 +1,8 @@
 ---
 icon:
-title: 0%
+prefix:
+title: 0
+suffix: "%"
 ---
 
 Gender pay gap

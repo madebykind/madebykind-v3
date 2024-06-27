@@ -27,8 +27,10 @@ h1,
 h2,
 .h2,
 h3,
-.h3 {    
+.h3 {   
+  orphans: 3;
   text-wrap: balance;
+  widows: 3; 
 }
 
 /* Default h sizing */
@@ -37,28 +39,29 @@ h1,
   @apply
     h--condensed
     leading-heading
-    text-2xl
+    text-4xl
+    xl:text-5xl
   ;
 }
 
 h2,
 .h2 {
   @apply
-    text-lg
+    text-xl
   ;
 }
 
 h3,
 .h3 {
   @apply
-    text-md
+    text-lg
   ;
 }
 
 h4,
 .h4 {
   @apply
-    text-base
+    text-md
   ;
 }
 

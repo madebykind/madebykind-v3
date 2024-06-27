@@ -1,14 +1,23 @@
 bio: 
-headshot: Avatar-Pam.png
-image: Team-Pam.png
+headshot: Avatar-Pam.jpg
+image: Team-Pam.jpg
 name: Pamela Holmes
 role: Brand Lead
-order: 3
+weight: 3
 email: pam@madebykind.com
 social:
   github: 
-  instagram:
+  instagram: pagelooker_studio
   facebook: 
   twitter: 
   youtube: 
+  linkedin: pamela-holmes
+  threads: 
 url: 
+cares:
+  - Environment
+  - Protection of water ecosystems
+  - Sustainable and affordable housing
+  - Preservation of the countryside
+related_posts:
+  - brand-strategy-make-an-impact

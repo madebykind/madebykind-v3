@@ -4,7 +4,6 @@ title: Who gives a damn? Well we do actually
 card_colour: bg-pink text-blue
 date: 2023-07-05T13:30:20.852Z
 author: michelle
-illustration: ""
 cover_img: images/work-shu-kind-team.jpg
 text_colour: text-white
 cover_img_alt: Kind team sat around a wooden table having a laugh!
@@ -15,8 +14,11 @@ description: In the time-honoured tradition of businesses rebranding and
 toc: false
 featured: true
 key_topic: Our impact
+topics:
+  - Environment
+  - Non-profit
 intro: In the time-honoured tradition of businesses rebranding and launching
-  their own website and promoting it to high heaven, we’re doing that ourselves this week, and for what reason? Does anyone give a damn? probably not, which is fair, but we do, and here is why…
+  their own website and promoting it to high heaven, we’re doing that ourselves this week, and for what reason? Does anyone give a damn? Probably not, which is fair, but we do, and here is why…
 related_posts:
   - kind-certifies-a-b-corporation
   - learnings-from-the-1-for-the-planet-european-summit

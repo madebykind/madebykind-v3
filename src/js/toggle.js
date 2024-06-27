@@ -13,6 +13,7 @@ function doToggle(el, toggleGroup, targetEl, focusEl, toggleParent, toggleFixed)
 
   el.classList.toggle("active");
   targetEl.classList.toggle("hidden");
+  targetEl.classList.toggle("active");
 
   if (focusEl) {
     if (focusEl === document.activeElement) {
@@ -63,6 +64,7 @@ function Toggler(el) {
   }
 
   el.addEventListener("click", function(e) {
+    e.preventDefault();
     doToggle(this, toggleGroup, targetEl, focusEl, toggleParent, toggleFixed);
   });
 }

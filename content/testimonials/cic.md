@@ -1,9 +1,8 @@
 ---
 date: 2020-04-24
-image: images/clientfaces/stefan_proudfoot.jpg
+image: 
 title: Tristram Hunt
 role: Director
-url: spiffingcovers.com
 hidden: false
 ---
 

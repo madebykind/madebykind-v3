@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "/"
+baseurl = "https://madebykind.com/"
 languageCode = "en-gb"
 languageLang = "en"
 title = "Kind"
@@ -9,10 +9,11 @@ copyright = "Future Friendly Ltd."
 canonifyURLs = true
 enableEmoji = true
 enableGitInfo = false
-enableRobotsTXT = false
+enableRobotsTXT = true
 summarylength = 10
 paginate = 6
-ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+timeout = "300s"
 
 [build]
   publishResources = true
@@ -46,7 +47,7 @@ ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-acces
   date_format = "January 2, 2006"
   description = "Fast, secure, and accessible by default."
   email = "hello@madebykind.com"
-  images = ["site-feature-image.jpg"]
+  images = ["/img/site-feature-image.png"]
   phone = "+441157270990"
   phonePretty = "0115 727 0990"
   since = 2009
@@ -55,7 +56,7 @@ ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-acces
   linkedin = "https://www.linkedin.com/company/madebykind/"
   #twitter = "https://twitter.com/madebykind"
   #facebook = "https://facebook.com/madebykind"
-  instagram = "https://instagram.com/imadebykind"
+  instagram = "https://www.instagram.com/madebykind/"
 
   # Table of contents
   toc = "tocbot"
@@ -101,3 +102,7 @@ ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-acces
   key_topic = "key_topic"
   rss = "rss"
   topic = "topics"
+
+[permalinks]
+  sectors = "/:slug/"
+  impact-reports = "/about/our-impact/:slug/"

@@ -2,21 +2,31 @@
 
 <article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
   {{ partial "header__post" . }}
-  <div class="container grid grid-cols-12 gap-10 ">
+  <div class="container grid gap-10 md:grid-cols-12 ">
     <div class="col-span-full lg:col-span-8">
       <div class="font-sans font-light prose prose-page first:mt-10">
         {{- .Content -}}
       </div>
     </div>
 
-    {{ with .Params.related_pages }}
       <aside class="mt-10 col-span-full lg:col-span-4">
-      <div class="sticky top-10 ">
-        <h2 class="font-sans text-sm font-bold">Related</h2>
-        {{ partial "related-pages.html" . }}
+      <div class="sticky top-10">
+
+        {{ partial "newsletter" (dict 
+          "url" .Permalink
+          "style" "stacked"
+          "heading" "Stay in the loop"
+          "block_class" "bg-teal text-indigo p-6 pb-12"
+          "heading_class" "h3"
+          "text_class" "text-sm"
+        ) }}
+
+        {{ with .Params.related_pages }}
+          <h2 class="font-sans text-sm font-bold">Related</h2>
+          {{ partial "related-pages.html" . }}
+        {{ end }}
       </div>
       </aside>
-    {{ end }}
     
   </div>
 
@@ -27,7 +37,7 @@
   {{ end }}
   
   {{ with .Params.related_posts }}
-    <div class="container section">
+    <div class="container section--lg">
       <h2 class="h--condensed">You may also be interested in</h2>
       {{ partial "related-posts.html" . }}
     </div>

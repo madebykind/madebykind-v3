@@ -1,0 +1,41 @@
+<div class="mb-12 flex flex-col gap-4">
+  {{ with $.section }}
+    <h3 class="uppercase h--condensed pb-2 text-xl">{{ . }}</h3>
+  {{ end }}
+  <h4>{{ $.title }}</h4>
+
+  {{ if eq $.status "Completed" }}
+    <span class="bg-green text-sky px-2 py-1 text-sm font-bold font-serif self-start">{{ $.status }}</span>
+  {{ else if eq $.status "In progress" }}
+    <span class="bg-orange text-buff px-2 py-1 text-sm font-bold font-serif self-start">{{ $.status }}</span>
+  {{ else if eq $.status "Not started" }}
+    <span class="bg-claret text-pink px-2 py-1 text-sm font-bold font-serif self-start">{{ $.status }}</span>
+  {{ end }}
+
+  <div class="prose prose--sans">
+    {{ $.description | markdownify }}
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 mt-6">
+    {{ with $.now }}
+    <div>
+      <h5 class="mb-2">This year</h5>
+      <ul class="flex flex-col gap-2 font-sans text-sm">
+        {{ range . }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    {{ with $.next }}
+    <div>
+      <h5 class="mb-2">Next year</h5>
+      <ul class="flex flex-col gap-2 font-sans text-sm">
+        {{ range . }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+</div>

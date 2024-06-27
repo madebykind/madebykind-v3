@@ -1,14 +1,22 @@
 bio: 
-headshot: Avatar-Jess.png
-image: Team-Jess.png
+headshot: Avatar-Jess.jpg
+image: Team-Jess.jpg
 name: Jess Pollard
 role: Designer
-order: 5
+weight: 5
 email: jess@madebykind.com
 social:
   github: 
-  instagram:
+  instagram: 
   facebook: 
   twitter: 
   youtube: 
+  linkedin: jessica-pollard-fullcircle-healing
+  threads: 
 url: 
+cares: 
+  - Mental health
+  - Well-being
+  - Environment
+  - Equality
+  - Education

@@ -6,10 +6,13 @@ description: Because we only do work we believe in, we bring a level of commitme
 footer_class: bg-teal text-blue
 page_class: bg-indigo text-buff
 intro: >
+
   That’s why we go our own way. We’re a small but powerful team of carefully selected senior professionals. People whose work packs a real punch. **Strategy, brand, digital** – we bring it all together and drive change in ways that really matter. 
 
+
   Our work delivers faster, bigger, more effective results for our clients’ causes – in the charity sector, sustainability, research, the environment, and the arts.
-title: Well-worn paths are never going to lead to a better world.
+title: Our manifesto
+heading: Well-worn paths are never going to lead to a better world.
 ---
 
 <div class="grid gap-10 md:grid-cols-2 lg:gap-20 section--lg">
@@ -19,7 +22,7 @@ title: Well-worn paths are never going to lead to a better world.
   {{</ blockquote >}}
 
   {{< blockquote author="Michelle Pavey" image="Avatar-Michelle.png" class="text-lg leading-tight text-teal" role="Co-owner & Strategy Director" avatar="michelle" >}}
-  Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out do.
+  Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out to do.
   {{</ blockquote >}}
 
 </div>
@@ -39,11 +42,15 @@ All our clients must have a mission that comes before profit. Using our skills a
   </svg>
 
   <div class="w-32 shrink-0 grow-0">
-    {{< figure alt="Members of the Ocean Network" src="../images/logo-ocean-network.png" >}}
+
+![Members of the Ocean Network](../images/logo-ocean-network.png)
+  
   </div>
 
   <div class="w-32 shrink-0 grow-0">
-    {{< figure alt="Kind are a Living Wage Employer" src="../images/logo-living-wage.png" >}}
+
+![Kind are a Living Wage Employer](../images/logo-living-wage.png)
+
   </div>
 </div>
 </section>
@@ -57,7 +64,7 @@ That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
   
 </div>
 <div>
-  <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue  focus:bg-pink focus:text-blue" href="/about/our-impact">
+  <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact/">
     Our impact
     <svg class="w-12 h-4 flex-no-shrink" role="presentation">
       <use xlink:href="#icon-arrow"/>

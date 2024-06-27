@@ -12,8 +12,9 @@ images:
     img_alt: A desktop mockup of the Tung Auditorium homepage
 topics:
   - User-centred design
-  - Mobile-first design
   - Ticketing journeys
+services:
+  - digital
 ---
 
 A bespoke website design and Spektrix ticketing integration for Liverpool’s newest music venue aiming to bring orchestral music to the masses.

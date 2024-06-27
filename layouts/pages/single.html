@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
   {{ partial "header__page" . }}
-  <div class="container grid grid-cols-12 gap-10">
+  <div class="container grid gap-10 lg:grid-cols-12">
     <div class="col-span-full lg:col-span-8">
       <div class="font-sans font-light prose prose-page first:mt-10">
         {{- .Content -}}

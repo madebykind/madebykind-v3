@@ -1,0 +1,100 @@
+.animate-emphasise strong {
+    background-image: linear-gradient(90deg, #08533c 0%, #08533c 50%,  #F1EBE8 50%,  #F1EBE8 100%);
+    background-size: 200% 6%;
+    background-position: 100% 90%;
+    background-repeat: no-repeat;
+    animation-fill-mode: forwards;
+
+    &:nth-child(1) {
+      animation: navy-to-blue 2s ease-in-out 0s forwards,
+         underline 2s ease-in-out 0s forwards,
+         out 500ms ease-in-out 6s forwards,
+         navy-to-blue 500ms ease-in-out 6s reverse forwards
+      ;
+    }
+
+    &:nth-child(2) {
+      animation: navy-to-blue 2s ease-in-out 1.5s forwards,
+         underline 2s ease-in-out 1.5s forwards,
+         out 500ms ease-in-out 6s forwards,
+         navy-to-blue 500ms ease-in-out 6s reverse forwards
+      ;
+    }
+
+    &:nth-child(3) {
+      animation: navy-to-blue 2s ease-in-out 3s forwards,
+         underline 2s ease-in-out 3s forwards,
+         out 500ms ease-in-out 6s forwards,
+         navy-to-blue 500ms ease-in-out 6s reverse forwards
+      ;
+    }
+  }
+
+  .animate-up > * {
+    animation: up 1s ease-in-out 0s forwards;
+  }
+
+
+  .animate-side > svg:nth-child(1) {
+    margin-left: 8%;
+  }
+  .animate-side > svg:nth-child(2) {
+    margin-left: 41%;
+  }
+  .animate-side > svg:nth-child(3) {
+    margin-left: 20%;
+  }
+
+
+  @keyframes navy-to-blue {
+    0% {
+      color: #084059;
+    }
+    20% {
+      color: #084059;
+    }
+    80% {
+      color: #08533c;
+    }
+    100% {
+      color: #08533c;
+    }
+  }
+
+  @keyframes underline {
+    0% {
+      background-position: 100% 90%;
+    }
+    20% {
+      background-position: 100% 90%;
+    }
+    80% {
+      background-position: 0% 90%;
+    }
+    100% {
+      background-position: 0% 90%;
+    }
+  }
+
+  @keyframes out {
+    0% {
+      background-size: 200% 6%;
+    }
+    50% {
+      background-size: 200% 12%;
+    }
+    100% {
+      background-size: 200% 0;
+    }
+  }
+
+  @keyframes up {
+    0% {
+      opacity: 0;
+      margin-top: 96px;
+    }
+    100% {
+      opacity: 1;
+      margin-bottom: 0;
+    }
+  }

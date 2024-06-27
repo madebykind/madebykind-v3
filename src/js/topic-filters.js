@@ -2,7 +2,7 @@ let filters;
 let filterableItems;
 let clearButton;
 let hiddenClasses = ["hidden"];
-let activeClasses = ["active", "before:bg-orange"];
+let activeClasses = ["active", "before:bg-orange", "text-blue"];
 let filterContainerId = "js--filters";
 
 function initFilter(el, filter) {

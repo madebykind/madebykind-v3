@@ -6,7 +6,7 @@
     {{ partial "head" . }}
   {{ end }}
   
-  <body class="{{ if .Site.IsServer }}border-debug {{ end }}antialiased min-h-screen font-serif text-base leading-normal bg-buff text-indigo auto-rows-auto liga kern">
+  <body class="{{ if .Site.IsServer }}border-debug {{ end }}antialiased min-h-screen font-serif text-base leading-normal bg-buff text-indigo auto-rows-auto liga kern w-full">
     <!-- The Bush Kangaroo -->
     <a href="#content" class="sr-only focus:not-sr-only">Skip to content</a>
 
@@ -16,7 +16,7 @@
     {{ end }}
 
     <!-- The part of the page that begins to differ between templates -->
-    <main class="snap-y snap-mandatory">
+    <main id="content" class="snap-y snap-mandatory">
       {{ block "main" . }}{{ end }}
     </main>
 
@@ -24,11 +24,17 @@
     {{ block "footer" . }}
       {{ partialCached "site__footer" . .Params.footer_class .Params.cta_hidden }}
     {{ end }}
-    
-    <!-- Creepy tracking junk -->
-    {{ if .Site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
+
+    <div class="contact-details" id="contact-details">
+      <button data-toggle-class="active" data-toggle-fixed data-target="#contact-details" data-toggle-reset-scroll aria-controls="contact-details" class="absolute top-10 right-10 text-buff">
+        <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+          <use xlink:href="#icon-close"/>
+        </svg>
+      </button>
+      {{ partialCached "contact" (dict 
+        "is_page" false
+      ) }}) }}
+    </div>
 
     <!-- Majic lock -->
     {{ if .IsHome }}
@@ -61,7 +67,7 @@
       "datePublished" .Params.date
       "dateModified" .Params.lastmod
     }}
-    
+
     <script type="application/ld+json">
       {{ jsonify (dict "indent" "  ") $m | safeJS }}
     </script>

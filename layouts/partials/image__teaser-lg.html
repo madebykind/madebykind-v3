@@ -4,7 +4,7 @@
 {{ $img := resources.GetMatch (printf "**%s" ($src)) }}
 
 {{ with $img }}
-  {{ $2xl := $img.Fill "1200x900 jpg" }}
+  {{ $2xl := $img.Fill "1200x900" }}
   {{ $xl := $2xl.Resize "800x" }}
   {{ $lg := $xl.Resize "600x" }}
   {{ $md := $lg.Resize "400x" }}

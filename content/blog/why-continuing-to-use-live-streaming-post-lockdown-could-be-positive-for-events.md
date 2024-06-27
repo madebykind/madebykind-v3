@@ -25,9 +25,9 @@ related_posts:
   - communicating-to-reassure-your-audience
   - cultural-recovery-audience-insights
 ---
-In March we [carried out a survey](https://madebykind.com/blog/cultural-recovery-audience-insights) asking people how they felt about going back to live events. One interesting thing we found is that audiences are open to attending events online with 27% willing to attend despite never having done so previously and 40% happy to continue streaming.
+In March we [carried out a survey](https://madebykind.com/blog/cultural-recovery-audience-insights/) asking people how they felt about going back to live events. One interesting thing we found is that audiences are open to attending events online with 27% willing to attend despite never having done so previously and 40% happy to continue streaming.
 
-This is backed up by other surveys, including [Indigo's Cultural Restart Survey](https://www.baker-richards.com/updates/culture-restart-update-april-2021/) with 33% of recent respondents saying they would continue to engage online even when they can attend in-person, and a further 59% saying they would still consider it.
+This is backed up by other surveys, including [Indigo's Cultural Restart Survey](https://www.indigo-ltd.com/culture-restart-toolkit/take-part/culture-restart-experience-surveys) with 33% of recent respondents saying they would continue to engage online even when they can attend in-person, and a further 59% saying they would still consider it.
 
 It seems online events and live streaming have the potential to support and contribute to the output of cultural organisations. So what are the benefits?
 

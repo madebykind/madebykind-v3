@@ -1,6 +1,6 @@
 
 <section class="snap-start">
-  <h2 class="sr-only">Cases studies</h2>
+  <h2 class="sr-only">Case studies</h2>
   <ul class="list-none" role="list">
     {{ range $index,$p := ( where (where site.RegularPages "Section" "work" ) ".Params.featured" "eq" true ) }}
 

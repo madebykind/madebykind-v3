@@ -28,11 +28,16 @@
  * *before* the utilities so that the utilities can still
  * override them.
  */
+@import 'components/accordion.postcss';
+@import 'components/animations.postcss';
 @import 'components/background.postcss';
 @import 'components/border.postcss';
 @import 'components/button.postcss';
 @import 'components/container.postcss';
+@import 'components/contact.postcss';
+/*@import 'components/frame.postcss';*/
 @import 'components/headings.postcss';
+@import 'components/mobile-navigation.postcss';
 @import 'components/prose.postcss';
 @import 'components/section.postcss';
 @import 'components/typography.postcss';

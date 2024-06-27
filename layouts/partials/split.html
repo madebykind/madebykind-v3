@@ -7,7 +7,7 @@
 {{- $image := index (findRE `(?s)<p><img.*?p>` $inner 1) 0 -}}
 {{- $inner = replace $inner $image "" 1 -}}
 
-<div class="grid grid-cols-12 gap-10 lg:gap-20 section--lg">
+<div class="grid gap-10 lg:grid-cols-12 lg:gap-20 section--lg">
   <div class="col-span-full md:col-span-6 lg:col-span-5">
     {{- $image | safeHTML -}}
   </div>

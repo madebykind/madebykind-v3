@@ -2,15 +2,15 @@
 cover_img: 
 cover_img_alt:
 date: 2020-04-30T17:28:36.948Z
-description: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas
-  iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo
-  euismod te qui. 
+description: To meet our partners online objectives and goals, we utilise user research to create digital strategies and platforms which meaningfully engage with users. We provide support, planning and guidance on how to implement long-term digital transformations which add real value to our clients causes.
 header_class: 
 toc: true
 hidden: false
-intro: Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.
+intro: To meet our partners online objectives and goals, we utilise user research to create digital strategies and platforms which meaningfully engage with users. We provide support, planning and guidance on how to implement long-term digital transformations which add real value to our clients causes. 
 related_pages:
 related_posts:
 related_work:
-title: Digital strategy
+title: Digital strategy and transformation
+heading: Digital strategy and transformation
+weight: 3
 ---

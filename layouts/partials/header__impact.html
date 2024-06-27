@@ -1,18 +1,32 @@
-<header class="flex grid min-h-screen gap-10 items-between bg-teal text-blue">
-  <div class="container grid lg:grid-cols-12 section--lg">
+<header class="flex grid min-h-dynamic-screen gap-10 items-between bg-teal text-blue">
+  <div class="container grid grid-cols-12 py-10 ">
 {{ if .Params.cover_img }}
-	<div class="col-span-12 md:col-span-4 md:col-start-9 md:row-start-1">
+	<div class="col-span-full md:col-span-4 md:col-start-9 md:row-start-1">
 		{{ partial "image__impact" . }}
 	</div>
 {{ end }}
 
-    <div class="col-span-full lg:col-span-8 xl:col-span-6">
-      <h1>{{ .Page.Title|safeHTML }}</h1>
-      {{ if .Params.intro }}
-        <div class="lg:max-w-5xl mt-10 prose lede cta_prose">
-          {{ .Params.intro | markdownify }}
-        </div>
-      {{ end }}
+    <div class="col-span-full lg:col-span-8 xl:col-span-6 flex flex-col gap-10 lg:gap-24">
+
+      <ol class="inline-flex gap-10 font-sans list-none items-start" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="list">
+        <li class="relative after:absolute after:left-full after:ml-4 inline-flex items-center justify-between after:flex after:content-['/']" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a class="underline" href="/about/" itemprop="item"><span itemprop="name">About</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <span aria-current="page" itemprop="name">{{ .Page.Title }}</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+
+      <div>
+        <h1>{{ .Params.Heading|safeHTML }}</h1>
+        {{ if .Params.intro }}
+          <div class="lg:max-w-5xl mt-10 prose lede cta_prose">
+            {{ .Params.intro | markdownify }}
+          </div>
+        {{ end }}
+      </div>
     </div>
   </div>
   {{ partial "our-impacts" . }}

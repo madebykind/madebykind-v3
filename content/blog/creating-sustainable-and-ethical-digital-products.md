@@ -11,11 +11,12 @@ draft: false
 description: How can we adapt our process to create usable and useful products
   that are environmentally and ethically sound?
 toc: false
+key_topic: Our impact
 topics:
-  - Our impact
   - Digital sustainability
+  - Environment
+  - Strategy
 featured: true
-key_topic: Insights
 intro: After attending New Adventures in January, we were inspired by talks from
   Cennydd Bowles and Laura Kalbag.
 related_pages: []
@@ -55,7 +56,7 @@ As an example, it would make little difference to most people using broadband or
 
 ## Can it work in practice?
 
-This is all a very considerate way to think about our work, but can it work in a practice in a capitalist society that, like it or not, requires us to ​‘make money’ to survive?
+This is all a very considerate way to think about our work, but can it work in a practice in a capitalist society that, like it or not, requires us to ‘make money’ to survive?
 
 When we attended the 1% for the Planet European Summit in 2018, one phrase stood out and has stuck with me ever since:
 

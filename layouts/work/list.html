@@ -1,13 +1,19 @@
 {{ define "main" }}
 <section>
   {{ partial "header__landing.html" . }}
-  <nav id="js--filters" class="container grid gap-5 section">
-    <h2 class="h--condensed">Filter by topic</h2>
-    {{ partial "topic-filters" . }}
-  </nav>
+  {{ partial "topic-filters" . }}
+  <h2 class="sr-only">Featured work</h2>
   <ol class="container grid gap-10 lg:grid-cols-12 section lg:gap-20">
 	  {{ range .Pages }}
-      <li class="col-span-full lg:col-span-6 xl:col-span-4"{{ with .Params.topics }} data-topics="{{ range . }}{{ . | anchorize }} {{ end }}"{{ end }}>
+    <li class="col-span-full lg:col-span-6 xl:col-span-4" data-topics="
+      {{- with .Params.topics -}}
+        {{- range . -}}{{ . | anchorize }} {{ end -}}
+      {{- end -}}
+
+      {{- with .Params.services -}}
+        {{- range . -}}{{ . | anchorize }} {{ end -}}
+      {{- end -}}"
+    >
         {{ partial "card_work" . }}
       </li>
     {{ end }}
@@ -19,8 +25,22 @@
     </div>
     <ul>
       {{ range (where site.RegularPages "Section" "projects" ) }}
-        <li> 
-          {{ partial "teaser__project" . }}
+        <li data-topics="
+          {{- with .Params.topics -}}
+            {{- range . -}}
+              {{ . | anchorize }}
+            {{ end -}}
+          {{- end -}}
+          {{- with .Params.services -}}
+            {{- range . -}}
+              {{ . | anchorize }}
+            {{ end -}}
+          {{- end -}}
+        "> 
+          {{ partial "teaser__project" (dict
+            "context" .
+            "link" false
+          ) }}
         </li>
       {{ end }}
     </ul>

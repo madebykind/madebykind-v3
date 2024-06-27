@@ -1,7 +1,7 @@
 ---
 hidden: false
 title: Start your next digital project with a paid discovery phase
-card_colour: bg-yellow text-blue
+card_colour: bg-teal text-blue
 date: 2021-06-16T15:20:00+0100
 author: mat
 cover_img: null
@@ -16,10 +16,11 @@ featured: true
 key_topic: How we work
 topics:
   - Research and analysis
+  - Strategy
 intro: Anyone who has taken on a digital project before knows that, even with
   the best intentions, things can often go awry. Initial excitement slowly fades
   during the project and the final result can be underwhelming. Wires got
-  crossed somewhere and the final delivery is not quote what you imagined.
+  crossed somewhere and the final delivery is not quite what you imagined.
 related_posts:
   - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
   - how-to-get-your-colleagues-on-board-with-your-website-project
@@ -33,7 +34,7 @@ The simple answer is, because we don't spend long enough on discovery. The rush 
 
 ## What is a discovery phase?
 
-Simply put a discovery phase is a period of collaborative research and analysis **before** the build phase of a project that explores the needs of your users, your organisations strategic objectives, the competitive landscape and any constraints/considerations that should be taken into account during the project.
+Simply put a discovery phase is a period of collaborative research and analysis **before** the build phase of a project that explores the needs of your users, your organisations strategic objectives, the competitive landscape and any constraints/considerations that should be taken into account during the project.
 
 The aim is to develop a high-level understanding and a sense of the direction your project will head in, as well as what skills, assets and tools you or your partners will need in order to succeed.
 
@@ -73,7 +74,7 @@ Bringing together your expert knowledge of your organisation and sector with you
 
 ### Have a hand in the research you're paying for
 
-During the tendering process, if a client opts to forego paying for discovery, agencies will often still conduct pre-contract research (in order to win the work) ***but they then factor in the cost of the work already done into their proposal*.**
+During the tendering process, if a client opts to forego paying for discovery, agencies will often still conduct pre-contract research (in order to win the work) ***but they then factor in the cost of the work already done into their proposal*.**
 
 This way, you end up paying for research that is nowhere near as accurate as if it were conducted together, as the agency only has limited access to your organisation and data when the research is carried out.
 

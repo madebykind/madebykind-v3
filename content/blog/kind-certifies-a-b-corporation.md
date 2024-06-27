@@ -1,6 +1,6 @@
 ---
 hidden: false
-title: Kind certifies as a B Corporation
+title: Kind certifies as a B Corp
 card_colour: bg-sky text-green
 date: 2022-03-22
 author: michelle
@@ -12,7 +12,8 @@ description: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation
 featured: false
 key_topic: Our impact
-topics: []
+topics:
+  - Non-profit
 intro: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation, joining 4,600 businesses globally who are
   committed to purpose beyond profit.

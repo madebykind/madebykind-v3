@@ -1,28 +1,36 @@
 {{ define "main" }}
-	<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+  <article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
 		{{ partial "header__impact" . }}
 		<div class="container">
 			<div class="first:mt-10">
 {{/* 
         <section class="grid gap-10 md:grid-cols-2 section--lg">
+          <div class="relative">
           {{ partial "image" (dict 
             "alt" "Mat and Michelle, standing by the bureaux and smiling."
             "class" "md:order-1"
-            "src" "/images/mat-and-michelle.jpg" 
+            "src" "/images/stat-image-bcorp.png" 
           ) }}
+            <div class="absolute z-10 text-buff bottom-10 left-10">
+              <article>
+                <h3 class="text-3xl h1">&pound;23k</h3>
+                <p class="mt-5">Donated value since 2014</p>
+              </article>
+            </div>
+          </div>
           <div>
-            <h2 class="mb-5 text-xl">We’re climate positive</h2>
+            <h2 class="mb-5 text-2xl">We’re climate positive</h2>
             <p>Being certified as Climate Positive means an organisation has gone beyond achieving “Net Zero” and instead creates an environmental benefit by removing additional greenhouse gases from the atmosphere, not just those that it emits.</p>
             <p>Kind is a climate positive business and have taken the step to balance twice our greenhouse gas emissions since 2014 (when we were founded).</p>
             <button class="mt-5" data-toggle data-target="#climate-positive">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
-                  <svg class="w-8 h-8" role="presentation">
-                    <use xlink:href="#icon-arrow-down"/>
+                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
+                  <svg class="w-6 h-6" role="presentation">
+                    <use xlink:href="#icon-chevron"/>
                   </svg>
                 </div>
                 <p>Read more
-                <span class="sr-only">about We're climate positive</span>
+                <span class="sr-only">about how we’re climate positive</span>
                 </p>
               </div>
             </button>
@@ -32,24 +40,30 @@
           </div>
         </section> 
 */}}
-        <section class="grid gap-10 lg:gap-20 md:grid-cols-2 section--lg">
-          <div class="md:order-1">
+        <section class="grid items-start gap-10 lg:gap-20 md:grid-cols-2 section--lg">
+          <div class="relative md:order-1">
             {{ partial "image" (dict 
-              "alt" "Stat overlaying image of a plant growing in a pair of hands. The stat reads: 93.6 B Impact Assessment Score"
+              "alt" "A plant growing in a pair of hands"
               "class" ""
               "src" "/images/stat-image-b-corp.png" 
             ) }}
+            <div class="absolute z-10 text-buff bottom-10 left-10">
+              <article>
+                <h3 class="text-3xl h1">93.6</h3>
+                <p class="mt-5">B Impact Assessment Score</p>
+              </article>
+            </div>
           </div>
           <div>
             <div class="prose lede">
-              <h2 class="mb-5 text-xl">Certified B Corporation</h2>
-              <p><a href="/blog/kind-certifies-a-b-corporation">Kind certified as a B Corporation in 2022</a> - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
+              <h2 class="mb-5 text-2xl">Certified B Corporation</h2>
+              <p><a href="/blog/kind-certifies-a-b-corporation/">Kind certified as a B Corporation in 2022</a> - joining over 5,000 organisations who are transforming the global economy to benefit all people, communities and the planet. Organisations like The Guardian, innocent, Patagonia, and Abel & Cole.</p>
             </div>  
-            <button class="mt-5" data-toggle data-target="#bcorp">
+            <button class="mt-5 accordion-toggle" data-toggle data-target="#bcorp">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
-                  <svg class="w-8 h-8" role="presentation">
-                    <use xlink:href="#icon-arrow-down"/>
+                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
+                  <svg class="w-6 h-6" role="presentation">
+                    <use xlink:href="#icon-chevron"/>
                   </svg>
                 </div>
                 <p>Read more
@@ -57,37 +71,45 @@
                 </p>
               </div>
             </button>
-            <div id="bcorp" class="mt-10 prose lede">
+            <div id="bcorp" class="mt-10 prose">
             <p>B Corporation certification legally requires us to:</p>
             <ul>
               <li>create a material positive impact on society and the environment through our business operation</li>
               <li>consider all stakeholders (not just shareholders) when making business decisions. These stakeholders include our team, our suppliers, the environment and society as a whole.</li>
             </ul>
             <p>To certify, B Corporations are required to go through a “B Impact Assessment” and gain a score of over 80 points, verified by B Lab analysts.
-	          <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a>.</p>
+	          <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind/" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a>.</p>
             <p>Additionally, B Lab found that Kind has an Impact Business Model due to our support for purpose-driven enterprises. A company with an Impact Business Model is intentionally designed to create a specific positive outcome for one its stakeholders.</p>
             <h3>What else can we do?</h3>
             <p>B Impact Assessments happen every 3 years, and we’re in the process of making improvements to our business that will hopefully increase our score and, more importantly, increase our positive impact.</p>
             </div>
           </div>
         </section>
-        <section class="grid gap-10 lg:gap-20 md:grid-cols-2 section--lg">
-          {{ partial "image" (dict 
-            "alt" "Stat overlaying image of a mostly submerged beaver. The stat reads: £23,000 donated value since 2014"
-            "class" "md:order-1"
-            "src" "/images/stat-image-donations.png" 
-          ) }}
+        <section class="grid items-start gap-10 lg:gap-20 md:grid-cols-2 section--lg">
+          <div class="relative">
+            {{ partial "image" (dict 
+              "alt" "A mostly submerged beaver."
+              "class" "md:order-1"
+              "src" "/images/stat-image-donations.png" 
+            ) }}
+            <div class="absolute z-10 text-buff bottom-10 left-10">
+              <article>
+                <h3 class="text-3xl h1">&pound;23k</h3>
+                <p class="mt-5">Donated value since 2014</p>
+              </article>
+            </div>
+          </div>
           <div>
             <div class="prose lede">
-              <h2 class="mb-5 text-xl">Our charity partnerships</h2>
+              <h2 class="mb-5 text-2xl">Our charity partnerships</h2>
               <p>Kind have been <a href="https://directories.onepercentfortheplanet.org/profile/kind">members of 1% for the Planet since 2017</a> which requires us to donate a minimum of 1% of our turnover to environmental causes.</p>
               <p>In 2019 we selected Rewilding Britain as our environmental charity partner and pledged the majority of our 1% donations to their cause.</p>
             </div>
-            <button class="mt-5" data-toggle data-target="#charity-partnerships">
+            <button class="mt-5 accordion-toggle" data-toggle data-target="#charity-partnerships">
               <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center rounded-full bg-indigo text-buff w-14 h-14">
-                  <svg class="w-8 h-8" role="presentation">
-                    <use xlink:href="#icon-arrow-down"/>
+                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
+                  <svg class="w-6 h-6" role="presentation">
+                    <use xlink:href="#icon-chevron"/>
                   </svg>
                 </div>
                 <p>Read more
@@ -96,9 +118,9 @@
               </div>
             </button>
             <div id="charity-partnerships" class="mt-10">
-              <div class="prose lede">
+              <div class="prose">
                 <p>We've also been members of the
-                  <a href="https://sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
+                  <a href="https://www.sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
                   since 2018, supporting their work to end sewage and plastic pollution in our oceans.</p>
                 <p>Over the last three financial years, we have donated 28% of our profits and 136 hours of our times to charitable causes. That equates to a donated value of more than £15,000.</p>
                 <p>Since 2014, our donated value is more than £23,000.</p>
@@ -113,18 +135,33 @@
             </div>
           </div>
         </section>
+        <section class="section--lg">
+          <h2 class="text-2xl h--condensed mb-10">Impact reports</h2>
+          <div class="prose">
+            <p>As part of our B Corp certification, every year we publish an impact report outlining our activities and plans for the future.</p>
+          </div>
+
+          <ul class="mt-10 list-none" role="list">
+            {{ range where site.RegularPages "Section" "impact-reports" }}
+              <li>
+                {{ partial "teaser" . }}
+              </li>
+            {{ end }}
+          </ul>
+
+        </section>
         <section>
-          <h2 class="text-xl h--condensed">The impact of our activity</h2>
+          <h2 class="text-2xl h--condensed">The impact of our activity</h2>
           <ul class="mt-5 list-none">
             {{ range where site.RegularPages "Section" "impacts" }}
               <li>
                 <article class="py-10 font-sans prose border-b">
-                  <button class="flex flex-wrap items-center justify-between w-full gap-5" data-toggle data-target="#{{ .Title | anchorize }}_body">
-                    <h3>{{ .Title }}</h3>
+                  <button class="flex flex-wrap items-center justify-between w-full gap-5 accordion-toggle" data-toggle data-target="#{{ .Title | anchorize }}_body">
+                    <h3 class="h4">{{ .Title }}</h3>
                     <div class="absolute sr-only right-24">{{ .Title }}: Read more about our  impact in this area</div>
-                    <div class="flex items-center justify-center bg-white rounded-full w-14 h-14">
-                      <svg class="w-8 h-8" role="presentation">
-                        <use xlink:href="#icon-arrow-down"/>
+                    <div class="flex items-center justify-center w-10 h-10 bg-white rounded-full accordion-toggle-icon">
+                      <svg class="w-6 h-6" role="presentation">
+                        <use xlink:href="#icon-chevron"/>
                       </svg>
                     </div>
                   </button>
@@ -140,7 +177,7 @@
 		</div>
   
     {{ with .Params.related_posts }}
-      <div class="container section">
+      <div class="container section--lg">
         <h2 class="h--condensed">You may also be interested in</h2>
         {{ partial "related-posts.html" . }}
       </div>

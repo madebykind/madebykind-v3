@@ -1,6 +1,6 @@
-<article class="{{ .context.Params.block_class }}">
-  <a aria-labelledby="{{ .context.Title | anchorize }}" class="no-underline group relative" href="{{ .context.Permalink }}">
-    <div class="w-screen grid lg:grid-cols-2 lg:container">
+<article class="{{ .context.Params.block_class }} overflow-hidden">
+  <a aria-labelledby="{{ .context.Params.Heading | anchorize }}" class="relative no-underline group" href="{{ .context.Permalink }}" onclick="javascript:insights.track({id: 'work-teaser-{{ .context.Params.Heading | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+    <div class="grid w-screen lg:grid-cols-2 lg:container">
       <div class="relative lg:col-span-1{{ if .odd }} lg:order-1 lg:bleed-right{{ else }} lg:bleed-left{{ end }}">
         {{ if isset .context.Params "cover_img" }}
           {{ partial "image__teaser-lg" .context }}
@@ -8,18 +8,18 @@
         {{ if .context.Params.icon }}
         <div class="absolute bottom-0 p-5 bg-buff{{ if .odd }} left-0{{ else }} right-0{{ end }}">
           <svg class="w-24 h-24 text-black flex-no-shrink" role="presentation">
-          <use xlink:href="#icon-{{ .context.Params.icon }}"/>
+            <use xlink:href="#icon-{{ .context.Params.icon }}"/>
           </svg>
         </div>
         {{ end }}
       </div>
       <div class="relative grid content-center gap-5 p-10 lg:p-20 lg:col-span-1">
-        <h3 class="text-xl leading-heading h--condensed" id="{{ .context.Title | anchorize }}">{{ .context.Title }}</h3>
+        <h3 class="text-2xl leading-heading h--condensed" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
         {{ with .context.Params.services }}
           <ul class="flex gap-5 list-none lg:gap-10">
             {{ range . }}
               <li class="relative flex items-center">
-                <span class="underline">{{ title . }}</span>
+                {{ title . }}
               </li>
             {{ end }}
           </ul>
@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="{{ .context.Params.cta_class }} transition-all duration-300 ease-in-out lg:w-1/2 lg:h-0 lg:overflow-hidden lg:absolute lg:bottom-0 {{ if .odd }} lg:left-0 {{ else }} lg:right-0 {{ end }} lg:group-hover:h-16">
-      <p class="flex items-center gap-5 justify-between p-5 lg:py-0 h-full max-w-none">
+      <p class="flex items-center justify-between h-full gap-5 p-5 lg:py-0 max-w-none leading-[1.1]">
         {{ .context.Params.Description }}
         <svg class="w-12 h-4 flex-no-shrink" role="presentation">
           <use xlink:href="#icon-arrow"/>

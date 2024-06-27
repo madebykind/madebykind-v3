@@ -1,45 +1,57 @@
-<header class="snap-start">
+<header class="snap-start{{ if .Params.cover_img }} overflow-hidden{{ end }}">
   <div data-hero-height="100vh" class="container grid gap-10 md:grid-cols-12{{ if not .Params.cover_img }} items-end{{ end }}">
 
       {{ if .Params.cover_img }}
-        <div class="col-span-12 md:col-span-6 md:order-1 bleed md:ml-0">
+        <div class="col-span-full lg:col-span-6 lg:order-1 bleed lg:ml-0">
           {{ partial "image__hero" . }}
         </div>
       {{ end }}
-      <div class="grid items-end content-end col-span-12 gap-10 pb-10 section--lg{{ if .Params.cover_img }} md:col-span-6 {{ else }} md:col-span-7{{ end }}">
-        <h1>{{ .Page.Title|safeHTML }}</h1>
+      <div class="grid h-full md:items-end md:content-between col-span-full gap-10 py-10 {{ if .Params.cover_img }} lg:col-span-6 {{ else }} lg:col-span-7{{ end }}">
+        <ol class="inline-flex gap-10 font-sans list-none items-start" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="list">
+          <li class="relative after:absolute after:left-full after:ml-4 inline-flex items-center justify-between" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a class="underline" href="/blog/" itemprop="item"><span itemprop="name">Insights</span></a>
+          <meta itemprop="position" content="1" />
+          </li>
+          <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="sr-only">
+            <span aria-current="page" itemprop="name">{{ .Page.Title }}</span>
+          <meta itemprop="position" content="2" />
+          </li>
+        </ol>
+        <div class="grid gap-10">
+          <h1 style="word-break: break-word;">{{ with .Params.Heading }} {{ . | safeHTML }} {{ else }} {{ with .Page.Title }}{{ . | safeHTML }}{{ end }}{{ end }}</h1>
 
-        {{ if .Params.cover_img }}
-          {{ if .Params.author }}
-              {{ partial "author" . }}
+          {{ if .Params.cover_img }}
+            {{ if .Params.author }}
+                {{ partial "author" . }}
+            {{ end }}
+          {{ else }}
+            {{ if .Params.intro }}
+              <div class="prose lede cta_prose">
+                {{ .Params.intro | markdownify }}
+              </div>
+            {{ end }}
           {{ end }}
-        {{ else }}
-          {{ if .Params.intro }}
-            <div class="prose lede cta_prose">
-              {{ .Params.intro | markdownify }}
-            </div>
-          {{ end }}
-        {{ end }}
+        </div>
       </div>
       {{ if not .Params.cover_img }}
-        <div class="self-end col-span-12 pb-10 md:col-span-4 md:col-start-9">
+        <div class="pb-10 md:self-end col-span-full lg:col-span-4 lg:col-start-9">
           {{ if .Params.author }}
             {{ partial "author" . }}
           {{ end }}
         </div>
       {{ end }}
     </div>
-    <div class="container grid gap-10 md:grid-cols-12">
+    <div class="container grid gap-10 lg:grid-cols-12">
 {{/*
   {{ if .Params.toc }}
-    <div class="col-span-12">
+    <div class="col-span-full">
       {{ .TableOfContents }}
     </div>
   {{ end }}
 */}}
       {{ if .Params.cover_img }}
         {{ if .Params.intro }}
-        <div class="col-span-12{{ if .Params.cover_img }} md:col-span-6 {{ else }} md:col-span-7{{ end }}">
+        <div class="col-span-full{{ if .Params.cover_img }} lg:col-span-6 {{ else }} lg:col-span-7{{ end }}">
           <div class="prose lede cta_prose">
             {{ .Params.intro | markdownify }}
           </div>

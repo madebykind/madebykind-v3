@@ -1,6 +1,8 @@
 ---
 icon:
-title: 100%
+prefix:
+title: 100
+suffix: "%"
 ---
 
 Socially-responsible<br>client base

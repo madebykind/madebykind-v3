@@ -1,19 +1,19 @@
 <header class="w-full bg-buff" data-hero-height-reduce>
   <div class="container flex flex-wrap justify-between gap-5 py-5 lg:gap-10 lg:flex-nowrap md:items-center">
     {{ partial "logo" . }}
-    <button type="button" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="#mobile-navigation" class="h--condensed text-md inline-flex gap-2 items-center md:hidden">
+    <button type="button" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="mobile-navigation" class="inline-flex items-center gap-2 h--condensed text-md md:hidden">
       Menu
       <svg class="w-6 h-6">
         <use xlink:href="#icon-hamburger"/>
       </svg>
     </button>
-    <div class="hidden md:flex flex-wrap items-center justify-between w-full gap-5 lg:gap-10 lg:flex-grow">
+    <div class="flex-wrap items-center justify-between hidden w-full gap-5 md:flex lg:gap-10 lg:flex-grow">
       <nav class="inline-flex lg:justify-center lg:flex lg:flex-grow" aria-label="Main menu">
         <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:max-w-4xl lg:justify-between" role="list">
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
           <li class="relative {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} flex before:text-orange items-center before:flex before:h-2.5 before:w-2.5 before:bg-orange before:rounded-full before:absolute before:left-0 lg:before:left-2 {{ end }}">
-            <a class="{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}text-blue {{ end }} btn group" {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page" {{ end }} href="{{ .URL }}">
+            <a class="{{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}text-blue {{ end }} btn group" {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page" {{ end }} href="{{ .URL }}" {{ if eq .Name "Contact" }}data-toggle-class="active" data-toggle-fixed data-target="#contact-details" aria-controls="contact-details" data-toggle-set-scroll{{ end }}>
               <span class="relative inline-flex after:h-2px after:w-full after:opacity-0 group-hover:after:opacity-100 group-focus:after:opacity-100 after:absolute after:bg-orange after:left-0 after:-bottom-1">{{- .Name -}}</span>
             </a>
           </li>
@@ -32,24 +32,23 @@
   </div>
 
   {{/* Mobile */}}
-  <div class="fixed flex top-0 left-0 w-screen h-screen bg-indigo text-buff items-center z-20 md:hidden" id="mobile-navigation">
-    <button type="button" class="absolute top-7 right-5 text-buff" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="#mobile-navigation">
+  <div id="mobile-navigation" class="mobile-navigation flex items-center bg-indigo text-buff md:hidden">
+    <button type="button" class="absolute top-7 right-5 text-buff" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="mobile-navigation">
       <svg class="w-6 h-6">
         <use xlink:href="#icon-close"/>
       </svg>
     </button>
-
-    <div class="w-full flex flex-col gap-10">
-      <nav class="">
+    <div class="flex flex-col w-full gap-10">
+      <nav aria-label="Main menu">
         <ul class="flex flex-col items-center justify-center gap-10 m-0 list-none" role="list">
           {{ range .Site.Menus.main }}
-          <li class="h--condensed leading-heading text-xl">
+          <li class="text-xl h--condensed leading-heading">
             <a href="{{ .URL }}" class="no-underline">{{- .Name -}}</a>
           </li>
           {{ end }}
         </ul>
       </nav>
-      <div class="items-center justify-center gap-5 inline-flex">
+      <div class="inline-flex items-center justify-center gap-5">
         <svg class="w-24 h-32" role="presentation">
           <use xlink:href="#icon-bcorp"/>
         </svg>
@@ -58,7 +57,5 @@
         </svg>
       </div>
     </div>
-
   </div>
-
 </header>

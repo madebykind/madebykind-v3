@@ -1,12 +1,12 @@
 <article>
-  <a aria-labelledby="{{ .Title | anchorize }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}">
+  <a aria-labelledby="{{ .Params.Heading | anchorize }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'teaser-{{ .Params.Heading | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
     <div class="grid gap-10 py-10 border-b">
       <div class="flex flex-wrap gap-10">
         <div class="flex-grow w-2/3">
-          <h3 class="font-light leading-tight underline text-md" id="{{ .Title | anchorize }}">{{ .Title }}</h3>
-          {{ with .Params.key_topic }}
+          <h3 class="font-light leading-tight underline text-md" id="{{ with .Params.Heading }}{{ . | anchorize }}{{ else }}{{ with .Title }}{{ . | anchorize }}{{ end }}{{ end }}">{{ with .Params.Heading }}{{ . }}{{ else }}{{ with .Title }}{{ . }}{{ end }}{{ end }}</h3>
+         <!--  {{ with .Params.key_topic }}
             <span class="font-sans text-sm font-medium">{{ title . }}</span>
-          {{end}}
+          {{ end }} -->
         </div>
         <svg class="w-12 h-4 mt-3 flex-no-shrink lg:mt-4" role="presentation">
           <use xlink:href="#icon-arrow-hover"/>

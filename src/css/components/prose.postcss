@@ -29,9 +29,10 @@
     }
 
     p {
+      max-width: var(--max-width-copy);
       + p {
         @apply
-          mt-15
+          mt-6 lg:mt-12
         ;
       }
     }
@@ -68,7 +69,7 @@
     ul {
 
       @apply
-        list-outside 
+        list-inside 
         marker:text-orange
         mt-5 lg:mt-10
       ;
@@ -88,6 +89,49 @@
   .cta_prose {
     p:first-of-type {
       @apply lede;
+    }
+  }
+
+  .prose--tight {
+    
+    > * + * {
+      @apply
+        mt-4
+      ;
+    }
+
+    p {
+      @apply leading-tight;
+      + p {
+        @apply
+          mt-4
+        ;
+      }
+    }
+
+  }
+
+  .prose--sans {
+    @apply
+      font-sans
+      text-base
+    ;
+    
+    > * + * {
+      @apply
+        mt-4
+      ;
+    }
+
+    p {
+      + p {
+        @apply mt-4;
+      }
+    }
+
+    ol,
+    ul {
+      @apply mt-4;
     }
   }
 }

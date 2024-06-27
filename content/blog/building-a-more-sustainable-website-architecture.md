@@ -11,16 +11,15 @@ draft: false
 description: There are many ways we can improve the efficiency of a website,
   many of which Kind already includes as standard practice.
 toc: false
+key_topic: Our impact
 topics:
-  - Our impact
   - Digital sustainability
-featured: true
-key_topic: Insights
+  - Environment
 intro: There are many ways we can improve the efficiency of a website, many of
   which Kind already includes as standard practice.
 related_pages: []
 related_posts:
-  - ethical-digital-projects
+  - creating-sustainable-and-ethical-digital-products
   - learnings-from-the-1-for-the-planet-european-summit
   - who-gives-a-damn-well-we-do-actually
 ---
@@ -72,7 +71,7 @@ Often a goal set by our clients is to increase the number of pageviews on their 
 
 Instead, we should be aiming for website users to find what they are looking for as quickly as possible, not only to reduce our consumption, but to help our users complete the task in hand and move on to the next step.
 
-With well-balanced SEO and intuitive navigation systems we should be able to ensure this happens within the first one or two pages loaded. It should be noted though that this is not the same as the old ​‘3‑click rule’ which is shown to be false. Instead we work to ensure that your users land on (or around) the right content straight away.
+With well-balanced SEO and intuitive navigation systems we should be able to ensure this happens within the first one or two pages loaded. It should be noted though that this is not the same as the old ‘3‑click rule’ which is shown to be false. Instead we work to ensure that your users land on (or around) the right content straight away.
 
 This will lead to a reduction in energy consumption and will make it easier to differentiate highly engaged users from frustrated ones.
 
@@ -92,7 +91,7 @@ Obviously, it’s important to use the right typeface for any website, however, 
 
 If your design includes multiple fonts in multiple weights and styles, we’ll be requiring a huge amount of data downloading to each users’ device.
 
-Ensure that the typographic system you employ uses the optimum number of font styles and weights and every time you add a new style or weight, ask ​“is this really needed?”
+Ensure that the typographic system you employ uses the optimum number of font styles and weights and every time you add a new style or weight, ask “is this really needed?”
 
 ## Utilise caching
 
