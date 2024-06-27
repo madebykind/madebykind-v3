@@ -1,8 +1,8 @@
 ## Basic Configuration
-baseurl = "/"
+baseurl = "https://develop--wonderful-bonbon-d48e44.netlify.app/"
 languageCode = "en-gb"
 languageLang = "en"
-title = "Develop Kind"
+title = "Staging Kind"
 disableHugoGeneratorInject = false
 author = "Future Friendly Ltd."
 copyright = "Future Friendly Ltd."
