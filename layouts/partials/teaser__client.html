@@ -1,12 +1,10 @@
 <div class="w-full overflow-hidden section snap-start">   
   <div class="flex gap-5 {{ if .odd }} lg:flex-row-reverse{{ end }}">
     {{ range $index, $image := first 2 $.context.Params.teaser.images }} 
-      {{ $img_class := "h-full w-full object-cover" }}
-      
+      {{ $img_class := "h-full w-full object-cover" }}s
       {{ if $image.darken }}
         {{ $img_class = "h-full w-full object-cover brightness-75" }}
       {{ end }}
-
       <div class="w-full lg:w-auto shrink relative h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem]">
         {{ partial "image" (dict 
           "alt" $image.alt
@@ -22,7 +20,6 @@
             <use xlink:href="#icon-{{ . }}"/>
           </svg>
         {{ end }}
-
         <h3 class="text-2xl 2xl:text-3xl h--condensed">{{ $.context.Params.teaser.title }}</h3>
         {{ $.context.Params.teaser.description }}
       </div>
