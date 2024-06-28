@@ -1,28 +1,30 @@
-<div class="w-full overflow-hidden section snap-start">   
-  <div class="flex gap-5 {{ if .odd }} lg:flex-row-reverse{{ end }}">
-    {{ range $index, $image := first 2 $.context.Params.teaser.images }} 
-      {{ $img_class := "h-full w-full object-cover" }}
-      {{ if $image.darken }}
-        {{ $img_class = "h-full w-full object-cover brightness-75" }}
-      {{ end }}
-      <div class="w-full lg:w-auto shrink relative h-60 lg:h-[18rem] xl:h-[24rem] 2xl:h-[28rem]">
-        {{ partial "image" (dict 
-          "alt" $image.alt
-          "class" $img_class
-          "src" $image.img 
-        ) }}
-      </div>
-    {{ end }}
-    <div class="w-full lg:w-1/2 grow flex justify-center flex-col gap-4 {{ if .odd }}lg:pl-8 lg:pr-4{{ else }}lg:pr-8 lg:pl-4{{ end }}">
-        {{ with $.context.Params.icon }}
-          <svg class="w-24 h-12 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-{{ . }}"/>
-          </svg>
+<div class="w-full snap-start">   
+  <div class="flex flex-col lg:flex-row {{ if .odd }} lg:flex-row-reverse{{ end }}">
+    <div class="flex w-full gap-5 lg:w-3/5">
+      {{ range $index, $image := first 2 $.context.Params.teaser.images }}
+        {{ $odd := false }}
+        {{ if not (modBool $index 2)}}
+          {{ $odd = true }}
         {{ end }}
-        <h3 class="text-2xl text-balance 2xl:text-3xl h--condensed">{{ $.context.Params.teaser.title }}</h3>
-        <div class="text-balance">
-          {{ $.context.Params.teaser.description }}
+        <div class="relative grow {{ if $odd }} aspect-video  {{ else }} aspect-square {{ end }}">
+          {{ partial "image" (dict 
+            "alt" $image.alt
+            "class" "absolute h-full w-full object-cover"
+            "src" $image.img 
+          ) }}
         </div>
+      {{ end }}
+    </div>
+    <div class="flex flex-col justify-center w-full gap-4 p-4 lg:w-2/5 lg:p-8">
+      {{ with $.context.Params.icon }}
+        <svg class="w-24 h-12 flex-no-shrink" role="presentation">
+          <use xlink:href="#icon-{{ . }}"/>
+        </svg>
+      {{ end }}
+      <h3 class="text-2xl text-balance 2xl:text-3xl h--condensed">{{ $.context.Params.teaser.title }}</h3>
+      <div class="max-w-xl text-balance">
+        {{ $.context.Params.teaser.description }}
+      </div>
     </div>
   </div>
 </div>
