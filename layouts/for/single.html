@@ -17,16 +17,15 @@
 <article class="w-full overflow-hidden">
   <div class="bg-indigo text-buff lg:min-h-[80vh]">
     <div class="container 2xl:no-container flex flex-wrap items-end justify-between lg:items-stretch justify-end lg:min-h-[60vh]">
-      <div class="w-full pt-9 pb-8 lg:w-1/2 lg:pt-0 lg:pr-8 gap-8 lg:gap-12 lg:flex flex-col lg:justify-center 2xl:pl-[4vw]">
+      <div class="section w-full pt-9 pb-8 lg:w-1/2 lg:pt-0 lg:pr-8 gap-8 lg:gap-12 lg:flex flex-col lg:justify-center 2xl:pl-[4vw]">
         {{ with .Params.logo }}
           {{ range . }}
-              <span class="sr-only">{{ .name }}</span>
-              <svg class="w-24 h-12 lg:w-36 lg:h-18 flex-no-shrink" role="presentation">
-                <use xlink:href="#icon-{{ .icon }}"/>
-              </svg>
+            <span class="sr-only">{{ .name }}</span>
+            <svg class="w-24 h-12 lg:w-36 lg:h-18 xl:h-24 xl:w-48 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-{{ .icon }}"/>
+            </svg>
           {{ end }}
         {{ end }}
-        
         <h1>{{ .Params.heading }}</h1>
         <p class="text-md">{{ .Params.subheading }}</p>
       </div>
@@ -53,20 +52,27 @@
   <div class="container snap-start">
     <div class="lg:grid lg:grid-cols-12">
       <div class="flex flex-col items-start gap-5 section--lg lg:gap-10 lg:col-span-8">
-        <h2 class="h1">Let’s be clear &mdash; we’re not for everyone</h2>
-        <p class="max-w-4xl text-md">All our clients must have a mission that comes before profit. If that sounds like you, maybe we could work together.</p>
+        <h2 class="text-4xl h--condensed">Let’s be clear &mdash; we’re not for everyone</h2>
+        <div class="leading-normal text-md">
+          <p>All our clients must have a mission that comes before profit.</p> 
+          <p>If that sounds like you, maybe we could work together.</p>
+        </div>
       </div>
     </div>
-    <div class="flex flex-col gap-10 lg:flex-row">
-      {{ partial "image" (dict 
-        "alt" "Mat Hayward, founder of Kind"
-        "class" "object-cover  w-full"
-        "src" "/images/work-backlit-kind-team.jpg" 
-      ) }}
-      <div class="flex flex-col items-start gap-5 lg:gap-10 section">
-        <h2 class="h1">We give a damn</h2>
-        <p class="max-w-4xl text-md">We’re committed to building <strong>an ethical and responsible business</strong>. So we’re proud to be a certified B Corporation,
-        members of 1% for the planet, have a 100% socially-responsible client base, and have donated 28% of our profits to charitable causes.</p>
+    <div class="flex flex-col gap-10 lg:gap-0 lg:flex-row">
+      <div class="w-full lg:w-1/2">
+        {{ partial "image" (dict 
+          "alt" "The Kind team working on the Garden Organic project."
+          "class" "object-cover w-full"
+          "src" "/images/work-garden-organic-kind-team.jpg" 
+        ) }}
+      </div>
+      <div class="flex justify-center w-full lg:w-1/2 section">
+        <div class="flex flex-col max-w-xl gap-5">
+        <h2 class="text-4xl h--condensed">We give a damn</h2>
+          <p class="text-balance">We’re committed to building <strong>an ethical and responsible business</strong>. So we’re proud to be a certified B Corporation,
+          members of 1% for the planet, have a 100% socially-responsible client base, and have donated 28% of our profits to charitable causes.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -74,26 +80,42 @@
   {{ partial "our-impacts" . }}
 
   {{/* Services */}}
-  <div class="flex items-center min-h-screen snap-start bg-sky text-indigo" id="services">
-    <div class="container flex flex-col items-start gap-10 section--lg">
-      <div class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
-        <div class="flex flex-col gap-8 col-span-full xl:col-span-8">
-          <h2 class="text-3xl h--condensed">So how can we help you?</h2>
-          <p class="text-md max-w-cta-copy">{{ .Params.help_intro }}</p>
+  <div class="min-h-screen snap-start bg-sky text-indigo section--lg" id="services">
+    <div class="container flex flex-col items-start gap-10 xl:gap-20">
+      <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
+        <div class="flex flex-col gap-8">
+          <h2 class="h1">So how can we help you?</h2>
+          <p class="max-w-3xl text-md">{{ .Params.help_intro }}</p>
         </div>
-        <div class="hidden xl:col-span-3 xl:block">
+        <div class="hidden xl:block">
           {{ partial "image" (dict 
             "alt" "Illustration: two big friendly hands making a heart shape"
             "class" "object-cover w-full"
             "src" "/images/big-heart-huge-results.png" 
           ) }}
         </div>
+      </div>
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
         {{ range .Params.help_items }}
-          <div class="col-span-full sm:col-span-3 lg:col-span-3">
+          <div class="flex flex-col gap-5">
             <h3 class="mb-2 h4">{{ .title }}</h3>
             <p class="font-sans text-sm ">{{ .description }}</p>
           </div>
         {{ end }}
+      </div>
+      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-0">
+        <div class="lg:order-1">
+        {{ partial "image" (dict 
+          "alt" "Team Kind!"
+          "class" "object-cover  w-full"
+          "src" "/images/strategy-notes.jpg" 
+        ) }}
+        </div>
+        <div class="flex items-center justify-center gap-5 lg:flex-wrap lg:gap-10">
+          <div class="max-w-lg">
+            <p class="text-md max-w-cta-copy">{{ .Params.help_intro_2 }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -128,7 +150,7 @@
   {{/* Selected insights */}}
   {{ with .Params.related_posts }}
     <div class="container section--lg">
-      <h2 class="h--condensed">Insights we think you will find usefull</h2>
+      <h2 class="h--condensed">Insights we think you will find useful</h2>
       {{ partial "related-teasers.html" . }}
     </div>
   {{ end }}
