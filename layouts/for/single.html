@@ -29,23 +29,31 @@
         <h1>{{ .Params.heading }}</h1>
         <p class="text-md">{{ .Params.subheading }}</p>
       </div>
-      <div class="w-1/2 bleed-left lg:hidden">
-        {{ with index (.Params.banner_images) 0 }}
-            {{ partial "image" (dict 
-              "alt" .alt
-              "class" ""
-              "src" .img 
-            ) }}
-        {{ end }}
-      </div>
-      <div class="bleed-right w-[54%] aspect-3/4 lg:w-[34%] xl:w-[44%] lg:aspect-4/3" data-image-flick-item>
+      <div class="flex flex-wrap w-full lg:w-1/2 bleed-right ">
         {{ if .Params.cover_img }}
           {{ partial "image" (dict 
             "alt" .Params.cover_img_alt
-            "class" "h-full object-cover"
+            "class" "w-full object-cover"
             "src" .Params.cover_img 
           ) }}
         {{ end }}
+
+        <div class="flex w-full" data-image-flick-item>
+          {{ with index (.Params.banner_images) 0 }}
+            {{ partial "image" (dict 
+              "alt" .alt
+              "class" "h-full object-cover"
+              "src" .img 
+            ) }}
+          {{ end }}
+          {{ with index (.Params.banner_images) 1 }}
+            {{ partial "image" (dict 
+              "alt" .alt
+              "class" "h-full object-cover"
+              "src" .img 
+            ) }}
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
@@ -122,28 +130,28 @@
 
   {{/* Clients  */}}
   {{ with .Params.related_projects }}
-    {{ $projects := . }}
     <section id="clients">
       <div class="container section--lg">
         <h2 class="text-3xl h--condensed">Some of our client work</h2>
       </div>
-      {{ range $index, $element := . }}
+      <div class="flex flex-col gap-5 lg:gap-10 2xl:gap-15">
+        {{ range $index, $element := . }}
+          {{ $odd := false }}
+          {{ if not (modBool $index 2)}}
+            {{ $odd = true }}
+          {{ end }}
 
-        {{ $odd := false }}
-        {{ if not (modBool $index 2)}}
-          {{ $odd = true }}
-        {{ end }}
-
-        {{ with $element.slug }}
-          {{ with site.GetPage . }}
-            {{ partial "teaser__client" (dict 
-              "index" $index
-              "context" .
-              "odd" $odd
-            ) }}
+          {{ with $element.slug }}
+            {{ with site.GetPage . }}
+              {{ partial "teaser__client" (dict 
+                "index" $index
+                "context" .
+                "odd" $odd
+              ) }}
+            {{ end }}
           {{ end }}
         {{ end }}
-      {{ end }}
+      </div>
     </div>
   {{ end }}
 
@@ -160,11 +168,11 @@
     <div class="container flex items-center section--lg snap-start" id="testimonials">
       <div class="flex flex-col items-start w-full gap-10">
         <h2 class="h--condensed">What our clients say</h2>
-        <div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-6 xl:gap-12">
+        <div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-5 xl:gap-10">
           {{ range .Params.testimonials }}
             {{ with site.GetPage . }}
-              <figure class="lg:col-span-6">
-                <blockquote class="p-0 font-bold border-0 text-md max-w-cta-copy" itemscope itemtype="http://schema.org/CreativeWork">
+              <figure>
+                <blockquote class="p-0 text-lg font-bold leading-tight border-0" itemscope itemtype="http://schema.org/CreativeWork">
                   &ldquo;{{ .Content | markdownify }}&rdquo;
                 </blockquote>
                 <figcaption class="text-sm mt-5 font-serif border-l-3 border-orange pl-2.5">
@@ -194,7 +202,9 @@
       <div class="section--lg order-2 md:order-1 2xl:pl-[4vw] 2xl:col-span-2">
         <div class="mb-8 prose lg:mb-16">
           <h2 class="text-3xl h--condensed">Arrange a chat with our founder</h2>
-          <p class="mt-6 leading-tight text-md">That’s me! I founded Kind to be a force for good and would love to chat about how we might help you.</p>
+          <div class="max-w-2xl mt-6">
+            <p class="leading-tight text-md">That’s me! I founded Kind to be a force for good and would love to chat about how we might help you.</p>
+          </div>
         </div>
         <a class="mb-2 btn btn--pink" href="https://calendly.com/madebykind/30-min-call-with-mat-at-kind" onclick="javascript:insights.track({id: 'personal-book-chat',parameters: {locale: personal.parameters.locale(),screenSize: personal.parameters.screenType(),referrer: personal.parameters.referrer(),path: personal.parameters.path()}});">
           <span class="whitespace-nowrap">Book a chat</span>
