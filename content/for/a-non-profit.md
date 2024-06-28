@@ -10,6 +10,8 @@ banner_images:
     alt: A Blue Tit on a branch
   - img: images/work-garden-organic-laptop-3.jpg
     alt: Garden Organic website on a laptop, situated on a garden table.
+  - img: images/work-rewilding-britain-carousel-2.jpg
+    alt: A beaver on a river bank
 logo_wrapperclass: "w-12 lg:w-24 xl:w-36"
 logo:
   - name: Rewilding Britain
