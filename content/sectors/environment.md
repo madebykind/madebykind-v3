@@ -28,15 +28,15 @@ logos:
     icon: rt-logo
   - name: Garden Organic
     icon: garden-organic-logo
-  - name: Energy Technologies Institute
-    icon: eti-logo
+  - name: Love and Rage
+    icon: logo-landr
 related_projects:
   - slug: work/rewilding-britain
     indent_text: true
   - slug: work/the-rivers-trust
   - slug: work/garden-organic
     indent_text: true
-  - slug: projects/eti
+  - slug: projects/loveandrage
     indent_images: true
 testimonials:
   - testimonials/rwb-short
