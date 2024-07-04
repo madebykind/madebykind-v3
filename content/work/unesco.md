@@ -32,7 +32,7 @@ banner_img_alt: Children at desks in a school, working with blue pens. One child
 toc: true
 teaser:
   title: Ensuring access to education for millions of children
-  description: A global user-centred design process that resulted in the delivery of a digital report and knowledge base to supporting governments in strengthen the systems that provide education, in preparation for emergencies such as conflict or natural disaster
+  description: A global user-centred design process that resulted in the delivery of a digital report and knowledge base to support governments in strengthening the systems that provide education, in preparation for emergencies such as conflict or natural disaster
   images:
     - img: images/work-unesco-flat.jpg
       alt: Flat images of pages from a report document
