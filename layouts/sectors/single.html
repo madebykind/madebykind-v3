@@ -1,6 +1,6 @@
 {{ define "header" }}
- <header class="w-full bg-indigo text-buff overflow-hidden lg:min-h-[20vh] snap-start">
-  <div class="container flex flex-wrap justify-between gap-5 2xl:no-container 2xl:w-screen">
+ <header class="w-full bg-indigo text-buff overflow-hidden lg:min-h-screen snap-start">
+  <div class="container flex flex-wrap justify-between gap-5 lg:min-h-[20vh] 2xl:no-container 2xl:w-screen">
     <div class="pt-5 xl:pt-16 2xl:pl-[4vw]">
       {{ partial "logo" . }}
     </div>
@@ -10,11 +10,6 @@
       </svg>
     </div>
   </div>
- </header>
-{{ end }}
-
-{{ define "main" }}
-<article class="w-full overflow-hidden bg-indigo text-buff">
 
   <div class="lg:min-h-[80vh]" data-image-flick>
 
@@ -76,20 +71,26 @@
       {{ end }}
     </div>
   </div>
+ </header>
+{{ end }}
+
+{{ define "main" }}
 
 
   {{/* Intro */}}
-  <div class="container flex items-center min-h-screen snap-start">
-    <div class="lg:grid lg:grid-cols-8 xl:grid-cols-12">
-      <div class="flex flex-col items-start gap-5 section--lg lg:gap-10 lg:col-span-6 xl:col-span-8">
-        <h2 class="h1">Let’s be clear &mdash; we’re not for everyone</h2>
-        <p class="max-w-4xl">All our clients must have a mission that comes before profit. If that sounds like you, maybe we could work together.</p>
-        <a class="mb-2 btn btn--teal" href="#clients" onclick="javascript:insights.track({id: 'sector-what-clients',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-          What clients?
-          <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
-        </a>
+  <div class="bg-indigo text-buff snap-start">
+    <div class="container flex items-center min-h-screen">
+      <div class="lg:grid lg:grid-cols-8 xl:grid-cols-12">
+        <div class="flex flex-col items-start gap-5 section--lg lg:gap-10 lg:col-span-6 xl:col-span-8">
+          <h2 class="h1">Let’s be clear &mdash; we’re not for everyone</h2>
+          <p class="max-w-4xl">All our clients must have a mission that comes before profit. If that sounds like you, maybe we could work together.</p>
+          <a class="mb-2 btn btn--teal" href="#clients" onclick="javascript:insights.track({id: 'sector-what-clients',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            What clients?
+            <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -123,36 +124,38 @@
   {{ end }}
 
   {{/* Testimonials */}}
-  <div class="container flex items-center min-h-screen snap-start" id="testimonials">
-    <div class="flex flex-col items-start w-full gap-10 section--lg">
-      <h2 class="h--condensed">What our clients say</h2>
-      <div class="w-full grid grid-cols-1 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-        {{ range .Params.testimonials }}
-          {{ with site.GetPage . }}
-            <figure class="lg:col-span-4 xl:col-span-6">
-              <blockquote class="p-0 font-bold border-0 max-w-cta-copy" itemscope itemtype="http://schema.org/CreativeWork">
-                &ldquo;{{ .Content | markdownify }}&rdquo;
-              </blockquote>
-              <figcaption class="text-sm mt-5 font-serif border-l-3 border-orange pl-2.5">
-                <div>
-                  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-                    <span class="font-bold" itemprop="name">{{ .Params.Title }}</span>
+  <div class="bg-indigo text-buff snap-start" id="testimonials">
+    <div class="container flex items-center min-h-screen">
+      <div class="flex flex-col items-start w-full gap-10 section--lg">
+        <h2 class="h--condensed">What our clients say</h2>
+        <div class="w-full grid grid-cols-1 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+          {{ range .Params.testimonials }}
+            {{ with site.GetPage . }}
+              <figure class="lg:col-span-4 xl:col-span-6">
+                <blockquote class="p-0 font-bold border-0 max-w-cta-copy" itemscope itemtype="http://schema.org/CreativeWork">
+                  &ldquo;{{ .Content | markdownify }}&rdquo;
+                </blockquote>
+                <figcaption class="text-sm mt-5 font-serif border-l-3 border-orange pl-2.5">
+                  <div>
+                    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                      <span class="font-bold" itemprop="name">{{ .Params.Title }}</span>
+                    </div>
+                    {{ if .Params.Role }}
+                      <span itemprop="jobTitle">{{ .Params.Role }}</span>
+                    {{ end }}
                   </div>
-                  {{ if .Params.Role }}
-                    <span itemprop="jobTitle">{{ .Params.Role }}</span>
-                  {{ end }}
-                </div>
-              </figcaption>
-            </figure>
+                </figcaption>
+              </figure>
+            {{ end }}
           {{ end }}
-        {{ end }}
+        </div>
+        <a class="btn btn--pink" href="#services" onclick="javascript:insights.track({id: 'sector-how-can-you-help-me',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+          Ok, so how can you help me?
+          <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
       </div>
-      <a class="btn btn--pink" href="#services" onclick="javascript:insights.track({id: 'sector-how-can-you-help-me',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-        Ok, so how can you help me?
-        <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-          <use xlink:href="#icon-arrow"/>
-        </svg>
-      </a>
     </div>
   </div>
 
@@ -213,7 +216,6 @@
       </div>
     </div>
   </div>
-</article>
 {{ end }}
 
 
