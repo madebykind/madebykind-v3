@@ -1,4 +1,4 @@
-<div class="w-full snap-start">   
+ 
   <div class="flex flex-col lg:flex-row {{ if .odd }} lg:flex-row-reverse{{ end }}">
     <div class="flex w-full gap-5 lg:w-3/5">
       {{ range $index, $image := first 2 $.context.Params.teaser.images }}
@@ -6,10 +6,10 @@
         {{ if not (modBool $index 2)}}
           {{ $odd = true }}
         {{ end }}
-        <div class="relative grow {{ if $odd }} aspect-video  {{ else }} aspect-square {{ end }}">
+        <div class="{{ if $odd }}w-2/3{{ else }}w-1/3{{ end }}">
           {{ partial "image" (dict 
             "alt" $image.alt
-            "class" "absolute h-full w-full object-cover"
+            "class" "h-full object-cover"
             "src" $image.img 
           ) }}
         </div>
@@ -27,4 +27,3 @@
       </div>
     </div>
   </div>
-</div>
