@@ -29,31 +29,33 @@
         <h1>{{ .Params.heading }}</h1>
         <p class="text-md">{{ .Params.subheading }}</p>
       </div>
-      <div class="flex flex-wrap w-full lg:w-1/2 bleed-right ">
+      <div class="flex flex-wrap w-full lg:w-1/2 bleed-right">
         {{ if .Params.cover_img }}
           {{ partial "image" (dict 
             "alt" .Params.cover_img_alt
-            "class" "w-full object-cover"
+            "class" "w-full h-full object-cover"
             "src" .Params.cover_img 
           ) }}
         {{ end }}
 
-        <div class="flex w-full" data-image-flick-item>
-          {{ with index (.Params.banner_images) 0 }}
+        {{ with index (.Params.banner_images) 0 }}
+          <div class="w-1/2">
             {{ partial "image" (dict 
               "alt" .alt
-              "class" "h-full object-cover"
+              "class" "w-full h-full object-cover"
               "src" .img 
             ) }}
-          {{ end }}
-          {{ with index (.Params.banner_images) 1 }}
+          </div>
+        {{ end }}
+        {{ with index (.Params.banner_images) 1 }}
+          <div class="w-1/2">
             {{ partial "image" (dict 
               "alt" .alt
-              "class" "h-full object-cover"
+              "class" "w-full h-full object-cover"
               "src" .img 
             ) }}
-          {{ end }}
-        </div>
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>
