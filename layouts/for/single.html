@@ -70,10 +70,10 @@
       </div>
     </div>
     <div class="flex flex-col gap-10 lg:gap-0 lg:flex-row">
-      <div class="w-full lg:w-1/2">
+      <div class="w-full lg:w-1/2 bleed-left">
         {{ partial "image" (dict 
           "alt" "The Kind team working on the Garden Organic project."
-          "class" "object-cover w-full"
+          "class" "object-cover h-full"
           "src" "/images/work-garden-organic-kind-team.jpg" 
         ) }}
       </div>
@@ -114,10 +114,10 @@
         {{ end }}
       </div>
       <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-0">
-        <div class="lg:order-1">
+        <div class="lg:order-1 bleed-right">
         {{ partial "image" (dict 
           "alt" "Team Kind!"
-          "class" "object-cover  w-full"
+          "class" "object-cover h-full"
           "src" "/images/strategy-notes.jpg" 
         ) }}
         </div>
