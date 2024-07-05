@@ -12,6 +12,8 @@ banner_images:
     alt: Garden Organic website on a laptop, situated on a garden table.
   - img: images/work-rewilding-britain-carousel-2.jpg
     alt: A beaver on a river bank
+  - img: images/work-rewilding-britain-carousel-4.jpg
+    alt: Landscape image of a large tree on farmland
 logo_wrapperclass: "w-12 lg:w-24 xl:w-36"
 logo:
   - name: Rewilding Britain

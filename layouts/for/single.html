@@ -47,15 +47,22 @@
             ) }}
           </div>
         {{ end }}
-        {{ with index (.Params.banner_images) 1 }}
-          <div class="w-1/2">
+        <div class="w-1/2">
+          {{ with index (.Params.banner_images) 1 }}
+              {{ partial "image" (dict 
+                "alt" .alt
+                "class" "w-full h-1/2 object-cover"
+                "src" .img 
+              ) }}
+          {{ end }}
+          {{ with index (.Params.banner_images) 2 }}
             {{ partial "image" (dict 
               "alt" .alt
-              "class" "w-full h-full object-cover"
+              "class" "w-full h-1/2 object-cover"
               "src" .img 
             ) }}
-          </div>
-        {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
