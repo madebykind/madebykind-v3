@@ -29,25 +29,26 @@
         <h1>{{ .Params.heading }}</h1>
         <p class="text-md">{{ .Params.subheading }}</p>
       </div>
-      <div class="flex flex-wrap w-full lg:w-1/2 bleed-right">
-        {{ if .Params.cover_img }}
-          {{ partial "image" (dict 
-            "alt" .Params.cover_img_alt
-            "class" "w-full h-full object-cover"
-            "src" .Params.cover_img 
-          ) }}
-        {{ end }}
-
+      <div class="flex flex-wrap items-end justify-end w-full lg:w-1/2 bleed-right">
+        <div class="lg:w-5/6">
+          {{ if .Params.cover_img }}
+            {{ partial "image" (dict 
+              "alt" .Params.cover_img_alt
+              "class" "h-full object-cover"
+              "src" .Params.cover_img 
+            ) }}
+          {{ end }}
+        </div>
         {{ with index (.Params.banner_images) 0 }}
-          <div class="w-1/2">
+          <div class="w-1/2 aspect-square ">
             {{ partial "image" (dict 
               "alt" .alt
-              "class" "w-full h-full object-cover"
+              "class" "h-full object-cover"
               "src" .img 
             ) }}
           </div>
         {{ end }}
-        <div class="w-1/2">
+        <div class="w-1/2 aspect-square">
           {{ with index (.Params.banner_images) 1 }}
               {{ partial "image" (dict 
                 "alt" .alt
