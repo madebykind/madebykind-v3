@@ -69,15 +69,15 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col gap-10 lg:gap-0 lg:flex-row">
-      <div class="w-full lg:w-1/2">
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
+    <div class="lg:bleed-left ">
         {{ partial "image" (dict 
           "alt" "The Kind team working on the Garden Organic project."
-          "class" "object-cover lg:bleed-left h-full"
+          "class" "object-cover w-full h-full"
           "src" "/images/work-garden-organic-kind-team.jpg" 
         ) }}
-      </div>
-      <div class="flex justify-center w-full lg:w-1/2 section">
+    </div>
+      <div class="flex justify-center section">
         <div class="flex flex-col max-w-xl gap-5">
         <h2 class="text-4xl h--condensed">We give a damn</h2>
           <p class="text-balance">We’re committed to building <strong>an ethical and responsible business</strong>. So we’re proud to be a certified B Corporation,
@@ -113,8 +113,8 @@
           </div>
         {{ end }}
       </div>
-      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-0">
-        <div class="lg:order-1 lg:bleed-right ">
+      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
+        <div class="lg:order-1 lg:bleed-right">
         {{ partial "image" (dict 
           "alt" "Team Kind!"
           "class" "w-full object-cover h-full"
