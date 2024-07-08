@@ -1,9 +1,9 @@
 {
-  "name": "inspired",
+  "name": "madebykind",
   "version": "1.0.2",
   "description": "Hugo, Tailwind and Netlify. Oh my!",
   "main": "index.js",
-  "repository": "https://github.com/nternetinspired/inspired",
+  "repository": "https://github.com/madebykind/madebykind-v3",
   "author": "Seth Warburton",
   "license": "MIT",
   "private": true,

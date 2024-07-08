@@ -1,0 +1,10 @@
+
+<ul class="">
+  {{ range . }}
+    {{ with site.GetPage . }}
+    <li>
+      {{ partial "teaser" . }}
+    </li>
+    {{ end }}
+  {{ end }}
+</ul>
