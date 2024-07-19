@@ -17,6 +17,7 @@ related_posts:
   - who-gives-a-damn-well-we-do-actually
   - start-your-next-digital-project-with-a-paid-discovery-phase
   - kind-partners-with-rewilding-britain
+hide_newsletter: true
 ---
 
 Positive impacts like [Rewilding Britain](/work/rewilding-britain/) growing from a small, niche charity to leading the conversation on one of the key solutions to the climate crisis.
@@ -34,6 +35,13 @@ To help in this evolution of our offering, we have appointed Pam as Brand Lead a
 
 And, with brand and digital being so intangibly interlinked, our team have always had a strong understanding of what makes a successful brand and how to translate a visual identity into tangible assets.
 
+{{< tit-for-tat
+    resource_file="Kind_Support_and_Maintenance.pdf"
+    resource_title="Kind Brand Strategy Guide"
+    title="Brand strategy guide"
+    description="Join our mailing list to receive our free guide to giving your brand the best platform for success."
+    interest="Brand strategy"
+    image="images/empowering-change.png" >}}
 
 {{< multi-image
   src_1="../images/work-backlit-font.jpg" alt_1="A page from a brand guidelines document on a tablet device, showing the choice of typeface for the Backlit website"
