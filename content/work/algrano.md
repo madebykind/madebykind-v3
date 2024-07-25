@@ -80,6 +80,19 @@ We create change with technology to enable independent producers and roasters to
   ## Creating user-friendly journeys for multiple users
 
   We designed user-friendly online journeys by understanding the needs of Algrano’s diverse user groups. By mapping out different user paths, we created smooth and intuitive experiences, optimising navigation and simplifying processes to enhance user engagement and enable them to meet their desired goals online.
+  </div>
+</div>
+
+{{< image-cycle
+  align="left"
+  src_1="../images/work-algrano-wireframe.jpg"
+  alt_1="Algrano website wireframes"
+  src_2="../images/work-algrano-UI.jpg"
+  alt_2="Algrano website user interface" >}}
+
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## Capturing the heart of Algrano
 
