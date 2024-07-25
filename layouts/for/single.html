@@ -15,9 +15,9 @@
 
 {{ define "main" }}
 <article class="w-full overflow-hidden">
-  <div class="bg-indigo text-buff lg:min-h-[80vh]">
+  <div class="bg-indigo text-buff lg:min-h-[80vh] flex items-end">
     <div class="container 2xl:no-container flex flex-wrap items-end justify-between lg:items-stretch justify-end lg:min-h-[60vh]">
-      <div class="section w-full pt-9 pb-8 lg:w-1/2 lg:pt-0 lg:pr-8 gap-8 lg:gap-12 lg:flex flex-col lg:justify-center 2xl:pl-[4vw]">
+      <div class="section w-full pt-9 pb-8 lg:w-1/2 lg:pt-0 lg:pr-8 gap-8 lg:gap-12 flex flex-col lg:justify-center 2xl:pl-[4vw]">
         {{ with .Params.logo }}
           {{ range . }}
             <span class="sr-only">{{ .name }}</span>
@@ -29,7 +29,7 @@
         <h1>{{ .Params.heading }}</h1>
         <p class="text-md">{{ .Params.subheading }}</p>
       </div>
-      <div class="flex flex-wrap items-end justify-end w-full lg:w-1/2 bleed-right">
+      <div class="flex flex-col items-end justify-end w-full lg:w-1/2 bleed-right">
         <div class="lg:w-5/6">
           {{ if .Params.cover_img }}
             {{ partial "image" (dict 
@@ -39,30 +39,32 @@
             ) }}
           {{ end }}
         </div>
-        {{ with index (.Params.banner_images) 0 }}
-          <div class="w-1/2 aspect-square ">
-            {{ partial "image" (dict 
-              "alt" .alt
-              "class" "h-full object-cover"
-              "src" .img 
-            ) }}
-          </div>
-        {{ end }}
-        <div class="w-1/2 aspect-square">
-          {{ with index (.Params.banner_images) 1 }}
+        <div class="w-full flex">
+          {{ with index (.Params.banner_images) 0 }}
+            <div class="w-1/2 aspect-square ">
+              {{ partial "image" (dict 
+                "alt" .alt
+                "class" "h-full object-cover"
+                "src" .img 
+              ) }}
+            </div>
+          {{ end }}
+          <div class="w-1/2 aspect-square">
+            {{ with index (.Params.banner_images) 1 }}
+                {{ partial "image" (dict 
+                  "alt" .alt
+                  "class" "w-full h-1/2 object-cover"
+                  "src" .img 
+                ) }}
+            {{ end }}
+            {{ with index (.Params.banner_images) 2 }}
               {{ partial "image" (dict 
                 "alt" .alt
                 "class" "w-full h-1/2 object-cover"
                 "src" .img 
               ) }}
-          {{ end }}
-          {{ with index (.Params.banner_images) 2 }}
-            {{ partial "image" (dict 
-              "alt" .alt
-              "class" "w-full h-1/2 object-cover"
-              "src" .img 
-            ) }}
-          {{ end }}
+            {{ end }}
+          </div>
         </div>
       </div>
     </div>
@@ -72,8 +74,7 @@
       <div class="flex flex-col items-start gap-5 section--lg lg:gap-10 lg:col-span-8">
         <h2 class="text-4xl h--condensed">Let’s be clear &mdash; we’re not for everyone</h2>
         <div class="leading-normal text-md">
-          <p>All our clients must have a mission that comes before profit.</p> 
-          <p>If that sounds like you, maybe we could work together.</p>
+          <p>All our clients must have a mission that comes before profit. If that sounds like you, maybe we could work together.</p>
         </div>
       </div>
     </div>
@@ -113,11 +114,28 @@
           ) }}
         </div>
       </div>
-      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
-        {{ range .Params.help_items }}
+      <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
+        {{ range $index, $element := .Params.help_items }}
           <div class="flex flex-col gap-5">
-            <h3 class="mb-2 h4">{{ .title }}</h3>
-            <p class="font-sans text-sm ">{{ .description }}</p>
+            <h3 class="mb-2 h4">{{ $element.title }}</h3>
+            <div class="flex flex-col gap-5 font-sans text-sm">
+              {{ $element.description | markdownify  }}
+            </div>
+            {{ if $element.readmore }}
+              <div id="help-{{ $index }}" class="flex flex-col gap-5 font-sans text-sm">{{ $element.readmore | markdownify  }}</div>
+              <button class="accordion-toggle" data-toggle data-target="#help-{{ $index }}">
+                <div class="flex items-center gap-2.5 font-sans">
+                  <div class="flex items-center justify-center w-5 h-5 rounded-full bg-indigo text-buff accordion-toggle-icon">
+                    <svg class="w-3 h-3" role="presentation">
+                      <use xlink:href="#icon-chevron"/>
+                    </svg>
+                  </div>
+                  <p class="text-sm">Read more
+                    <span class="sr-only">about {{ $element.title }}</span>
+                  </p>
+                </div>
+              </button>
+            {{ end }}
           </div>
         {{ end }}
       </div>
@@ -130,9 +148,7 @@
         ) }}
         </div>
         <div class="flex items-center justify-center gap-5 lg:flex-wrap lg:gap-10">
-          <div class="max-w-lg">
-            <p class="text-md max-w-cta-copy">{{ .Params.help_intro_2 }}</p>
-          </div>
+          <p class="text-md max-w-cta-copy">{{ .Params.help_intro_2 }}</p>
         </div>
       </div>
     </div>
@@ -175,7 +191,7 @@
 
   {{/* Testimonials */}}
   <div class="text-buff bg-indigo">
-    <div class="container flex items-center section--lg snap-start" id="testimonials">
+    <div class="container flex items-center section--lg snap-start min-h-[80vh]" id="testimonials">
       <div class="flex flex-col items-start w-full gap-10">
         <h2 class="h--condensed">What our clients say</h2>
         <div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-5 xl:gap-10">
