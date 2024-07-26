@@ -37,6 +37,9 @@ module.exports = {
       yellow: '#fdb515',
     },
     extend: {
+      screens: {
+        '3xl': '1800px',
+      },
       aspectRatio: {
         '3/4': '3 / 4',
         '4/3': '4 / 3',
