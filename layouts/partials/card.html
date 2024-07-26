@@ -20,7 +20,7 @@
         <h2 class="h--condensed group-hover:underline" id="{{ .Title | anchorize }}">{{ .Title }}</h2>
 
         {{ if .Params.illustration }}
-          <div class="self-end mt-auto md:hidden xl:block">
+          <div class="self-end mt-auto">
             {{ partial "image__blog-illustration" . }}
           </div>
         {{ end }}
