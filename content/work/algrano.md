@@ -23,10 +23,14 @@ related_work:
   - vanda
   - the-rivers-trust
 weight: 4
-banner_type: standard
-banner_img: images/work-algrano-harvest.jpg
-banner_img_alt: A man empties a harvest of coffee from an orange pallette box into a machine
-banner_logo_class: text-white
+banner_type: slideshow
+banner_images: 
+  - img: images/work-algrano-drinkers.jpg
+    alt: Two men drinking coffee outside a blue building
+  - img: images/work-algrano-harvest.jpg
+    alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
+  - img: images/work-algrano-coffee-hands.jpg
+    alt: A man holding raw coffee beans in his hands
 banner_icon: algrano-logo
 toc: true
 ---

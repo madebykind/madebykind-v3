@@ -24,7 +24,7 @@ banner_images:
     alt: A landscape with hills and mountains in the back
   - img: images/work-rewilding-britain-carousel-4.jpg
     alt: A rewilding meadow in late Summer. Grasses and wild flowers seeding. Oak tree and a rough Hazel hedge field boundary
-banner_icon: rwb-logoc
+banner_icon: rwb-logo
 description: Big thinking for a cause we really care about
 feature_heading: Our partnership
 feature_content: "Rewilding Britain understood that they needed a digital partner to not only create a digital presence but to maintain it and evolve as their organisation does. We’ve been delighted to work with them for almost four years to constantly improve the performance and direction of their site as they continue to gain awareness and support on a national and international level."

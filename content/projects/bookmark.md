@@ -10,8 +10,6 @@ teaser:
   images:
     - img: images/work-bookmark-laptop-child.jpg
       alt: 
-    - img: images/work-bookmark-help-centre-laptop.jpg
-      alt: 
     - img: images/work-bookmark-readers.jpg
       alt: 
 _build:

@@ -18,9 +18,9 @@ topics:
   - Non-profit
 intro: For organisations that give a damn (we’re talking to those of you who are fighting against injustice, supporting communities and working towards improving and protecting our natural environment), a strong brand is crucial for making an impact. Whether you’re a small non-profit or a well-established organisation, having a clear brand strategy is essential. 
 related_posts:
+  - brand-values-hold-tight
   - the-influence-of-brands-for-social-and-environmental-impact
   - creativity-is-a-responsibility
-  - more-impact-why-offering-brand-strategy-is-the-right-step-forward
 ---
 
 <h2 class="h3">What even is a brand strategy?</h2>

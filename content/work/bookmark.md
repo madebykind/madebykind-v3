@@ -23,10 +23,14 @@ related_work:
   - vanda
   - the-rivers-trust
 weight: 1
-banner_type: standard
-banner_img: images/work-bookmark-reading-mentor.jpg
-banner_img_alt: A child and a woman reading together
-banner_logo_class: text-white
+banner_type: slideshow
+banner_images:
+  - img: images/work-bookmark-reading-mentor.jpg
+    alt: A child and a woman reading together
+  - img: images/work-bookmark-laptop-child.jpg
+    alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
+  - img: images/work-bookmark-readers.jpg
+    alt:  A child and a woman read together
 banner_icon: logo-bookmark
 toc: true
 teaser:
@@ -34,7 +38,7 @@ teaser:
   description: Improving digital user journeys for volunteers and schools working with Bookmark to develop whole-school reading cultures and provide one-to-one reading support.
   images:
     - img: images/work-bookmark-laptop-child.jpg
-      alt: A child withyellow headphones in a library. He is sitting at an open laptop and smiling
+      alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
     - img: images/work-bookmark-help-centre-laptop.jpg
       alt: The Bookmark Reading help centre on a laptop device
     - img: images/work-bookmark-readers.jpg
