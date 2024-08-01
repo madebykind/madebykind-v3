@@ -39,7 +39,7 @@ related_projects:
   - slug: work/the-rivers-trust
     indent_images: true
     indent_text: true
-  - slug: work/bookmark
+  - slug: projects/bookmark
 testimonials:
   - testimonials/rwb-short
   - testimonials/odi
