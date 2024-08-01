@@ -9,7 +9,7 @@ related_work:
   - kind-certifies-a-b-corporation
 hidden: false
 title: Finding the common ground between your organisation and its audience
-card_colour: bg-pink text-blue
+card_colour: bg-sky text-green
 date: 2019-01-23T16:40:38.551Z
 author: mat
 cover_img: ""

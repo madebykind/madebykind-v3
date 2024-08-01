@@ -1,6 +1,6 @@
 ---
 heading: Growing organically for a healthy and sustainable world
-title: Garden Organic - Digital Case Study - Non-Profit 
+title: Garden Organic - Digital Case Study - Charity
 draft: false
 date: 2023-06-28T12:58:42.437Z
 cover_img: images/work-garden-organic-laptop-3.jpg

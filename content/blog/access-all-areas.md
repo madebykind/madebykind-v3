@@ -10,7 +10,7 @@ description: Experienced web developers ensure that accessibility is baked into
   it. The web is accessible to start with, it was designed to be, and it is our
   responsibility to ensure we don’t break that.
 toc: false
-featured: true
+featured: false
 key_topic: Insights
 illustration: "images/be-a-good-human.png"
 topics:

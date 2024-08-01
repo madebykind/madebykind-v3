@@ -5,9 +5,11 @@ function SlideShow(el) {
   let height;
   let i = 0;
 
+  el.classList.add('relative');
+
   slides.forEach(function(e, index) {
     if (index > 0) {
-      e.classList.add('hidden');
+      e.classList.add(...['absolute','inset-0','opacity-0', 'transition-all', 'duration-500', 'ease-in-out']);
     }
   });
 
@@ -17,10 +19,10 @@ function SlideShow(el) {
       i = 0;
     }
     slides.forEach(function(e) {
-      e.classList.add('hidden');
+      e.classList.add('opacity-0');
     });
 
-    slides[i].classList.remove('hidden');
+    slides[i].classList.remove('opacity-0');
 
   }, 2000);
 

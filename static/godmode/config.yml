@@ -5,9 +5,9 @@ backend:
 media_folder: assets/images
 local_backend: true
 public_folder: images
-logo_url: https://next.madebykind.com/img/logo.svg
+logo_url: https://madebykind.com/img/logo.svg
 # publish_mode: editorial_workflow
-site_url: https://next.madebykind.com/
+site_url: https://madebykind.com/
 collections:
   
   - name: 'blog'
