@@ -25,7 +25,7 @@ related_posts:
 
 <h2 class="h3">What even is a brand strategy?</h2>
 
-It is a plan that outlines how your organisation will build, shape, and communicate your brand to create a distinct and consistent identity. It encompasses your mission, values, messaging, and visual elements to establish a strong emotional connection with your supporters, differentiate from other organisations, and drive loyalty and engagement. A solid brand strategy matters and it can make a big difference for your cause. Here’s why...
+It is a plan that outlines how your organisation will build, shape, and communicate your [brand](/services/brand/) to create a distinct and consistent identity. It encompasses your mission, values, messaging, and visual elements to establish a strong emotional connection with your supporters, differentiate from other organisations, and drive loyalty and engagement. A solid brand strategy matters and it can make a big difference for your cause. Here’s why...
 
 <h2 class="h3">1. Stand Out </h2>
 

@@ -34,7 +34,7 @@ We care greatly about the positive impact that our work helps to create, so thes
 
 ## User-first, but not last
 
-User-centred design is an excellent approach to creating digital products that are usable, accessible and well-received. It is an approach that is adopted by the majority of high-performing digital teams, including Kind.
+User-centred design is an excellent approach to creating digital products that are usable, accessible and well-received. It is an approach that is adopted by the majority of high-performing [digital](/services/digital/) teams, including Kind.
 
 It’s clear that social platforms like Facebook and Twitter have historically concentrated on creating positive impacts for their audiences (whether that be advertisers or users). We would expect and accept that as the right way to do things but, since these platforms have reached the huge scale they are now at, the negative effects of wider society become similarly huge.
 
@@ -44,7 +44,7 @@ Even with good intentions, concentrating only on making things easier for users 
 
 ## Considering collateral effects
 
-During the analysis phase of a project, where we usually concentrate all of our efforts on uncovering user needs and understanding organisational objectives, we can take some time to consider and theorise as to what the future impact our design decisions might have, not just on that user but, on wider society and the environment too.
+During the analysis phase of a project, where we usually concentrate all of our efforts on uncovering user needs and understanding organisational objectives, we can take some time to consider and theorise as to what the future impact our design decisions might have, not just on that user but, on wider society and the [environment](/environment/) too.
 
 How we do this is important. It will be easy for us to make assumptions based on our understanding and views of the world but those views are most definitely skewed and biased toward our own experiences.
 

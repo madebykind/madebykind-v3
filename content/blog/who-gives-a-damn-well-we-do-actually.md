@@ -37,7 +37,7 @@ This has led us to our new brand and new service offering (more on that another 
 
 ![Poster mockups of Kind brand values](../images/brand-values.jpg)
 
-And now we can finally show up, with no modesty or over-inflated claims, and truthfully share how we make a difference and how that is backed up by real commitments to our people, the environment, the clients we work with, and the sustainability and performance organisations who hold us accountable. Just as we should be.
+And now we can finally show up, with no modesty or over-inflated claims, and truthfully share how we make a difference and how that is backed up by real commitments to our people, the [environment](/environment/), the clients we work with, and the sustainability and performance organisations who hold us accountable. Just as we should be.
 
 So I’d like to introduce you to Kind 👋
 
@@ -45,7 +45,7 @@ So I’d like to introduce you to Kind 👋
 
 We’re an independent creative agency For the Good Folks. The wildlife protectors, the green architects, and social innovators. We’re for everyone who’s making a change for good.
 
-We combine expertise in digital, branding and strategy with an unwavering commitment to social change. By using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes.
+We combine expertise in [digital](/services/digital/), [brand](/services/brand/) and [strategy](/services/strategy/) with an unwavering commitment to social change. By using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes.
 
 ![Mockups of the new Kind website on mobile devices](../images/7.3-website-launch-linkedin-instagram-1080x1080.png)
 
@@ -66,4 +66,4 @@ Don’t buy it? You can check us out, we’re legit.
 <li>🟢 Signed up for the World Land Trust Carbon Balanced programme with a pledge to offset twice our emissions since we started in 2014</li>
 </ul>
 
-Fancy seeing more? Dig around on our website, review our impact report, or better than that, have a look at our amazing clients and see all of the great work they are doing too.
+Fancy seeing more? Dig around on our website, review [our impact](/about/our-impact/) report, or better than that, have a look at [our amazing clients](/work/) and see all of the great work they are doing too.

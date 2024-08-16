@@ -43,7 +43,7 @@ Here’s a quick rundown of how we do that at Kind.
 
 ## Start with strategy
 
-When there isn’t enough time allocated to analysis and discovery, it could be acceptable to simply read the objectives as stated in the project brief or whatever strategy documents exist. However, it is also necessary to ensure that the documented objectives and strategy are fully embedded throughout the organisation and aren’t just public-facing content pieces aimed at altering the perception of the brand.
+When there isn’t enough time allocated to analysis and discovery, it could be acceptable to simply read the objectives as stated in the project brief or whatever strategy documents exist. However, it is also necessary to ensure that the documented objectives and [strategy](/services/strategy/) are fully embedded throughout the organisation and aren’t just public-facing content pieces aimed at altering the perception of the [brand](/services/brand).
 
 [Speaking directly to key stakeholders](https://madebykind.com/blog/how-to-get-your-colleagues-on-board-with-your-website-project/) about how they view the long-term objectives, both in their department and the wider organisation, and how this project could help support these, helps us to build a picture of what a successful end-product looks like and whether there is internal consensus on how the project brief aligns with the strategy. If at all.
 
@@ -93,4 +93,4 @@ As we already have the ***Strategy*** and the ***Scope***, we begin to work on p
 
 Since we’ve taken the time find the strategic sweet spot for the project, it only makes sense to then consider at all stages whether the outputs we are producing align with this. The UCD framework helps us to do just that.
 
-We’ve found this process invaluable when working on large, complex websites with seemingly endless user and organisational needs. If you think it could be useful for your next digital project, why not [chat to us about how we could help](https://madebykind.com/contact/)?
+We’ve found this process invaluable when working on large, complex websites with seemingly endless user and organisational needs. If you think it could be useful for your next [digital](/services/digital/) project, why not [chat to us about how we could help](https://madebykind.com/contact/)?
