@@ -31,7 +31,7 @@ Many people see a Design System as a set of components that can be used as "buil
 
 While this is one of the key constituent parts of a design system, it alone does not represent the entire system. In fact, this could be better described as a pattern library. If anything, a pattern library is an output of the design system itself, made for internal users, such as interface designers and developers to work with.
 
-A design system is more than that. It is a consolidation of an organisation's visual identity, strategy, brand values, purpose and audiences into shared practices, design principles and finally a pattern library, templates, themes and digital properties such as websites and applications.
+A design system is more than that. It is a consolidation of an organisation's visual identity, [strategy](/services/strategy/), brand values, purpose and audiences into shared practices, design principles and finally a pattern library, templates, themes and digital properties such as websites and applications.
 
 ![An illustrated diagram of how a design system works](../images/design-systems-diagram.png)
 
@@ -47,7 +47,8 @@ As with all systems integrated into an organisation, the overhead to create a de
 
 ### Consistency
 
-The most obvious benefit of using a design system is the visual consistency achieved across a suite of online properties. However, it's not just visual consistency a design system helps to deliver. There will also be consistency in terms of accessibility, tone of voice and functionality, meaning your organisation's brand can live and breathe online just as well as it does offline.
+The most obvious benefit of using a design system is the visual consistency achieved across a suite of online properties. However, it's not just visual consistency a design system helps to deliver. There will also be consistency in terms of accessibility, tone of voice and functionality, meaning your organisation's [brand](/services/brand/
+) can live and breathe online just as well as it does offline.
 
 ### Increased Speed, Quality and Creativity
 

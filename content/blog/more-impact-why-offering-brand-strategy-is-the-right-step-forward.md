@@ -24,7 +24,7 @@ Positive impacts like [Rewilding Britain](/work/rewilding-britain/) growing from
 
 But we always want to do more. So last year, we started looking at our offering as an agency and the ways in which we could have more influence on the final outputs that help to deliver those headline impacts. That increased influence can help us to ensure that what we deliver is based on strong foundations and nothing is diluted or lost in translation between service providers.
 
-That lead us to brand strategy and the complimentary services around it.
+That lead us to [brand strategy](blog/brand-strategy-make-an-impact/) and the complimentary services around it.
 
 Being involved at this stage in an organisation’s formation, or evolution, means we can help to shape the way they will be perceived based on their strategic objectives and follow that through when delivering brand outputs, such as a website.
 
