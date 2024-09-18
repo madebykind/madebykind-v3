@@ -28,7 +28,7 @@ related_posts:
 ---
 Perhaps, when you launch, results are positive, but nowhere near what you expected or hoped for. Maybe your users aren't as delighted as you'd like them to be. Maybe they complain or go elsewhere.
 
-So where might things have gone wrong? And why is this a far too familiar story in the digital industry?
+So where might things have gone wrong? And why is this a far too familiar story in the [digital](/services/digital/) industry?
 
 The simple answer is, because we don't spend long enough on discovery. The rush to meet deadlines, means this important part of the process is often squeezed or even skipped entirely.
 
@@ -98,7 +98,7 @@ A discovery phase consists of a range of activities that together build up a ful
 
 #### Refining your goals & objectives
 
-This is the key to making sure the project delivers on your investment. Your digital partner will work with you to examine where the project fits into your broader strategy, understand your proposed budget & timescales and review your sector landscape.
+This is the key to making sure the project delivers on your investment. Your digital partner will work with you to examine where the project fits into your broader [strategy](/services/strategy), understand your proposed budget & timescales and review your sector landscape.
 
 Using that analysis you can then define objectives for the project that are both achievable and which provide maximum value. You then devise reliable ways to measure that those goals have been met.
 
@@ -125,7 +125,7 @@ At Kind, we use a variety of techniques to do this, including:
 
 #### Conducting an audit of existing content for suitability
 
-Content is frequently neglected on digital projects, but is vital to a successful outcome. No doubt, you already have content, but is it up-to-date? does it follow your tone of voice guidelines? does the imagery fit your brand? is it suitable to be used on all devices?
+Content is frequently neglected on digital projects, but is vital to a successful outcome. No doubt, you already have content, but is it up-to-date? does it follow your tone of voice guidelines? does the imagery fit your [brand](/services/brand)? is it suitable to be used on all devices?
 
 #### Performing due diligence on technology options
 

@@ -30,7 +30,7 @@ Your brand values are the core beliefs that guide you. Consistently reflecting t
 
 <h2 class="h3">Be you and only you</h2>
 
-In a sea of options, your brand values ground you and help you stand out. They give your brand a unique personality that resonates with your audience. This isn't about being different for the sake of it but about being different in ways that genuinely matter to your audience.
+In a sea of options, your brand values ground you and help you stand out. They give your [brand](/services/brand/) a unique personality that resonates with your audience. This isn't about being different for the sake of it but about being different in ways that genuinely matter to your audience.
 
 <h2 class="h3">Always the right thing</h2>
 
