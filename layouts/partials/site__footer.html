@@ -25,14 +25,14 @@
     </div>
   </div>
   {{ end }}
-  <div class="container flex justify-between section">
+  <div class="container flex items-center justify-between section--sm">
     <nav aria-label="{{ i18n "socialTitle" }}">
       <ul class="flex flex-wrap items-center gap-5 list-none" role=list>
         
         {{ if isset .Site.Params "facebook" }}
         <li>
           <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-facebook',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-            <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+            <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
               <use xlink:href="#icon-facebook"/>
             </svg>
           </a>
@@ -42,7 +42,7 @@
         {{ if isset .Site.Params "instagram" }}
           <li>
             <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-              <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+              <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-instagram"/>
               </svg>
             </a>
@@ -52,7 +52,7 @@
         {{ if isset .Site.Params "twitter" }}
           <li>
             <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-twitter',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-              <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+              <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-twitter"/>
               </svg>
             </a>
@@ -62,7 +62,7 @@
         {{ if isset .Site.Params "linkedin" }}
           <li class="mb-1">
             <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-              <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+              <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
               </svg>
             </a>
@@ -72,7 +72,7 @@
         {{ if isset .Site.Params "github" }}
           <li>
             <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-social-github',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-              <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+              <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-github"/>
               </svg>
             </a>
@@ -81,7 +81,7 @@
 
         <li class="sr-only">
           <a href="/index.xml" rel="me" title="RSS feed">
-            <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+            <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
               <use xlink:href="#icon-rss"/>
             </svg>
           </a>
@@ -90,7 +90,7 @@
       </ul>
     </nav>
     <a href="https://ecofriendlyweb.org/client/kind/" target="_blank" title="This website is certified as Climate Positive" class="transition duration-500 ease-in-out text-indigo hover:text-blue focus:text-blue" onclick="javascript:insights.track({id: 'footer-efwa',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-      <svg class="w-48 h-14" viewbox="0 0 200 60" role="presentation">
+      <svg class="w-20 h-6 lg:w-48 lg:h-14" viewbox="0 0 200 60" role="presentation">
         <use xlink:href="#icon-efwa"/>
       </svg>
     </a>
@@ -108,9 +108,4 @@
       </small>
     </p>
   </div>
-  {{ if ne "production" hugo.Environment }}
-    <div class="container py-4">
-      <code><a href="http://gohugo.io">Hugo</a> v.{{ hugo.Version }}, environment: “{{ hugo.Environment }}”</code>
-    </div>
-  {{ end }}
 </footer>

@@ -9,6 +9,7 @@ import { bindTypeWriter } from "@/js/typewriter";
 import { bindImageFlick } from "@/js/image-flick";
 import { bindPhoneScroll } from "@/js/phone-scroll";
 import { bindSubscribeForm } from "@/js/subscribe-form";
+import { bindReturnLink } from "@/js/return-link";
 
 bindFilters()
 bindToggles()
@@ -20,6 +21,7 @@ bindTypeWriter()
 bindImageFlick()
 bindPhoneScroll()
 bindSubscribeForm()
+bindReturnLink()
 
 export default {
 
