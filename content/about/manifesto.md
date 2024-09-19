@@ -46,12 +46,6 @@ All our clients must have a mission that comes before profit. Using our skills a
 ![Members of the Ocean Network](../images/logo-ocean-network.png)
   
   </div>
-
-  <div class="w-32 shrink-0 grow-0">
-
-![Kind are a Living Wage Employer](../images/logo-living-wage.png)
-
-  </div>
 </div>
 </section>
 <section class="max-w-5xl mx-auto section--lg">
