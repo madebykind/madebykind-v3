@@ -18,7 +18,7 @@ timeout = "300s"
 [imaging]
   anchor = "smart"
   filter = "Lanczos"
-  quality = 90
+  quality = 100
 
 [imaging.exif]
   excludeFields = ".*"
@@ -39,7 +39,7 @@ timeout = "300s"
 
 ## Site Settings
 [params]
-  author = "Seth Warburton"
+  author = "Kind"
   date_format = "January 2, 2006"
   description = "Fast, secure, and accessible by default."
   email = "hello@madebykind.com"
