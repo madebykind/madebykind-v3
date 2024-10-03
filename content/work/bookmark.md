@@ -1,7 +1,7 @@
 ---
 heading: Raising awareness of the childhood literacy gap in the UK 
 title: Bookmark Reading - Digital Case Study - Charity
-draft: true
+draft: false
 date: 2024-07-25T10:52:34.342Z
 cover_img: images/work-bookmark-reading-mentor.jpg
 cover_img_alt: A child and a woman reading together

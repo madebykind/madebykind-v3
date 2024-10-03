@@ -1,7 +1,7 @@
 ---
 heading: Ensuring a fair deal across the global coffee community
 title: Algrano - Brand Case Study - Ethical Business
-draft: true
+draft: false
 date: 2024-07-25T10:52:34.342Z
 cover_img: images/work-algrano-harvest.jpg
 cover_img_alt: A man empties a harvest of coffee from an orange pallette box into a machine
