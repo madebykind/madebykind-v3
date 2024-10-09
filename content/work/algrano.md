@@ -53,7 +53,7 @@ We create change with technology to enable independent producers and roasters to
 
 {{< figure align="left" wrapperclass="" src="../images/work-algrano-laptop.jpg" alt="Over the shoulder photograph of the Algrano website on a laptop" >}}
 
-{{< figure wrapperclass="" src="../images/work-algrano-design-system-v2.png" alt="Algrano design system components" >}}
+{{< figure wrapperclass="" src="../images/work-algrano-design-system-x2.jpg" alt="Algrano design system components" >}}
 
 
 
