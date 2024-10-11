@@ -49,9 +49,9 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="../images/work-backlit-font.jpg" alt="A page from a brand guidelines document on a tablet device, showing the choice of typeface for the Backlit website" >}}
+{{< figure align="left" wrapperclass="" src="work-backlit-font.jpg" alt="A page from a brand guidelines document on a tablet device, showing the choice of typeface for the Backlit website" >}}
 
-{{< figure wrapperclass="" src="../images/work-backlit-colours.jpg" alt="Colours of the Backlit online brand shown in stripes in a document. The colours are charcoal, blue-grey, green, orange and white" >}}
+{{< figure wrapperclass="" src="work-backlit-colours.jpg" alt="Colours of the Backlit online brand shown in stripes in a document. The colours are charcoal, blue-grey, green, orange and white" >}}
 
 
 
@@ -64,7 +64,7 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="../images/work-backlit-shapes.jpg" alt="A laptop with a part of a brand guidelines document showing window shapes" >}}
+{{< figure align="right" wrapperclass="" src="work-backlit-shapes.jpg" alt="A laptop with a part of a brand guidelines document showing window shapes" >}}
 
 
 <!-- Text left -->
@@ -78,9 +78,9 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="../images/work-backlit-ipad-pages.jpg" alt="Mockups of the Backlit Gallery website on multiple tablet devices" >}}
+{{< figure align="left" wrapperclass="" src="work-backlit-ipad-pages.jpg" alt="Mockups of the Backlit Gallery website on multiple tablet devices" >}}
 
-{{< figure wrapperclass="" src="../images/work-backlit-kind-team.jpg" alt="Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs" >}}
+{{< figure wrapperclass="" src="work-backlit-kind-team.jpg" alt="Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs" >}}
 
 
 <!-- Text right -->
@@ -98,4 +98,4 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="../images/work-backlit-ipad-archives-2.jpg" alt="Backlit Gallery archive page on a tablet screen" >}}
+{{< figure align="right" wrapperclass="" src="work-backlit-ipad-archives-2.jpg" alt="Backlit Gallery archive page on a tablet screen" >}}

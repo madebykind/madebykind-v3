@@ -60,11 +60,11 @@ We want to inspire individuals, communities and the next generation to use innov
   </div>
 </div>
 
-{{< figure wrapperclass="" align="left" src="../images/work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
+{{< figure wrapperclass="" align="left" src="work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
 
 {{< multi-image
-  src_2="../images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
-  src_3="../images/work-garden-organic-phone.jpg" alt_3="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
+  src_2="images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
+  src_3="images/work-garden-organic-phone.jpg" alt_3="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
 
 
 <!-- Text right -->
@@ -78,7 +78,7 @@ We want to inspire individuals, communities and the next generation to use innov
   </div>
 </div>
 
-{{< figure wrapperclass="" align="left" src="../images/work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
+{{< figure wrapperclass="" align="left" src="work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -91,4 +91,4 @@ We want to inspire individuals, communities and the next generation to use innov
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}
+{{< figure wrapperclass="" src="work-garden-organic-tablet-2.jpg" alt="The Garden Organic website on a tablet device, on a garden bench" >}}

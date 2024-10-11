@@ -31,13 +31,13 @@ Here are the headline results of the survey.
 
 98% of people want to get back to live events. Although preferences have changed among post-pandemic-would-be-event-goers, the desire to get back to live venues is an overwhelming YES.
 
-![Illustration: 98% of people want to see live events come back](../images/1-bring-back-live-events.jpg)
+![Illustration: 98% of people want to see live events come back](https://madebykind.imgix.net/1-bring-back-live-events.jpg)
 
 ## Large music tours take the biggest hit
 
 Although there’s a strong desire to get back to live events, fewer people are willing to attend large music tours, whereas the appetite for smaller music gigs remains largely unchanged.
 
-![Illustration: Post-lockdown people are less willing attend in-person events overall](../images/2-large-music-tours.jpg)
+![Illustration: Post-lockdown people are less willing attend in-person events overall](https://madebykind.imgix.net/2-large-music-tours.jpg)
 
 ## More openness to online events
 
@@ -45,13 +45,13 @@ Although there’s a strong desire to get back to live events, fewer people are 
 
 40% of people say they’d still be up for online events alongside in-person/live events.
 
-![Illustration: Post-lockdown 40% of people are happy to continue streaming events online](../images/3-more-openness-to-online-events.jpg)
+![Illustration: Post-lockdown 40% of people are happy to continue streaming events online](https://madebykind.imgix.net/3-more-openness-to-online-events.jpg)
 
 ## Hardcore revellers want their live events back
 
 Although many who would have attended live events monthly or 3–4 times a year would now only consider 1–2 times a year, the majority of those who said they attended weekly live shows want to continue at this frequency post-lockdown (only a 17% decline).
 
-![Illustration: Post-lockdown people feel they will attend in-person events less frequently](../images/4-frequency.jpg)
+![Illustration: Post-lockdown people feel they will attend in-person events less frequently](https://madebykind.imgix.net/4-frequency.jpg)
 
 ## Digital ticketing FTW
 
@@ -60,7 +60,7 @@ With online sales and digital tickets already the preferred method of buying/rec
 * Willingness to collect in person **\-57%**.
 * Willingness to use box office **\-34%**.
 
-![Illustration: Post-lockdown event attendees are less willing to use physical box-offices](../images/5-digital-tickets.jpg)
+![Illustration: Post-lockdown event attendees are less willing to use physical box-offices](https://madebykind.imgix.net/5-digital-tickets.jpg)
 
 - - -
 
@@ -72,25 +72,25 @@ Post-pandemic event-goers will be looking for information about your events acro
 
 Where previously, most people would’ve checked for event updates a few times leading up to the event itself, attendees will be checking-in more frequently, even daily, in the run-up to the event.
 
-![Illustration: Post-lockdown event attendees check daily for event updates prior to attending](../images/6-over-communicating.jpg)
+![Illustration: Post-lockdown event attendees check daily for event updates prior to attending](https://madebykind.imgix.net/6-over-communicating.jpg)
 
 ## The need to know
 
 Audiences rated show times, venue and seating information as the most useful things to know ahead of attending, this remains the same in 2021. Predictably health and safety advice has gone from 7th to 4th with a 50% increase in importance to ticket holders. Proving there is a real demand to know how the venue will operate and the safety measures in place.
 
-![Illustration: Post-lockdown attendees are much more interested in health and safety information](../images/2-large-music-tours.jpg)
+![Illustration: Post-lockdown attendees are much more interested in health and safety information](https://madebykind.imgix.net/2-large-music-tours.jpg)
 
 ## Safety is a paramount
 
 Event-goers were not overly concerned about all attendees being vaccinated before returning with only a third of respondents stating this as critical to them. By contrast, 77% answered that safety measures must be followed by the venue and that virus cases have to be extremely low. Additionally half of the survey-takers want adequate staffing and reduced capacity to begin attending events again.
 
-![Illustration: Post-lockdown 77% of attendees expect venues to have social distancing measure in place](../images/8-safety-is-paramount.jpg)
+![Illustration: Post-lockdown 77% of attendees expect venues to have social distancing measure in place](https://madebykind.imgix.net/8-safety-is-paramount.jpg)
 
 ## **Technology providing access**
 
 The majority of people responded positively to the adoption of existing or new technologies in order to access events. Around 80% of attendees would accept only using digital tickets and card payments when attending. With three-quarters of people also stating they would agree to rapid testing and track and trace. But 38% of people would not accept having to have a vaccine passport to attend.
 
-![Illustration: Post-lockdown 62% of attendees were open to using a vaccine passport to attend an event](../images/9-tech-providing-access.jpg)
+![Illustration: Post-lockdown 62% of attendees were open to using a vaccine passport to attend an event](https://madebykind.imgix.net/9-tech-providing-access.jpg)
 
 Overall the survey highlights that safety is of utmost importance to attendees, they want it to be clear how the event will run and what measures are in place. In an uncertain world, ticket-holders need to feel trust and confidence in the venues to run the shows safely and keep them updated.
 

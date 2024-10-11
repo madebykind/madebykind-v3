@@ -33,7 +33,7 @@ While this is one of the key constituent parts of a design system, it alone does
 
 A design system is more than that. It is a consolidation of an organisation's visual identity, [strategy](/services/strategy/), brand values, purpose and audiences into shared practices, design principles and finally a pattern library, templates, themes and digital properties such as websites and applications.
 
-![An illustrated diagram of how a design system works](../images/design-systems-diagram.png)
+![An illustrated diagram of how a design system works](https://madebykind.imgix.net/design-systems-diagram.png)
 
 ## Ok, so do I need one?
 
@@ -68,7 +68,7 @@ Having a single overarching project that underpins everything you deliver online
 
 And, educating new members of the team is much easier as there's clear documentation and a focal point for training.
 
-![Mat and Seth discuss design systems, while Michelle watches on](../images/kind-team-meeting.jpg)
+![Mat and Seth discuss design systems, while Michelle watches on](https://madebykind.imgix.net/kind-team-meeting.jpg)
 
 ### Ready for anything!
 

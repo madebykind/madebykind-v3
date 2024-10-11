@@ -1,28 +1,22 @@
-{{- $img := .Page.Resources.GetMatch .Destination -}}
-{{- if and (not $img) .Page.File -}}
-{{- $path := path.Join .Page.File.Dir .Destination -}}
-{{- $img = resources.Get $path -}}
-{{- end -}}
-{{- with $img -}}
-  {{- $2xl := $img.Resize "1920x" -}}
-  {{- $xl := $2xl.Resize "1600x" -}}
-  {{- $lg := $xl.Resize "1200x" -}}
-  {{- $md := $lg.Resize "768x" -}}
-  {{- $sm := $md.Resize "320x" -}}
+{{ $src := replace .Destination "images" "https://madebykind.imgix.net" }}
+
+{{- with $src -}}
   {{- if $.Text -}}
     <img
       alt="{{ $.Text }}"
       class="object-fit"
-      height="{{ $img.Height }}"
       loading=lazy
       sizes="100vw"
-      src="{{ $sm.RelPermalink }}"
-      srcset="{{ $sm.RelPermalink }} 320w,
-        {{ $md.RelPermalink }} 768w,
-        {{ $lg.RelPermalink }} 1200w,
-        {{ $xl.RelPermalink }} 1600w,
-        {{ $2xl.RelPermalink }} 1920w"
-      width="{{ $img.Width }}"
+      src="{{ (printf "%s?w=320&auto=format" .) }}"
+      srcset="
+    {{ (printf "%s?w=320&auto=format" .) }} 320w,
+    {{ (printf "%s?w=480&auto=format" .) }} 480w,
+    {{ (printf "%s?w=640&auto=format" .) }} 640w,
+    {{ (printf "%s?w=768&auto=format" .) }} 768w,
+    {{ (printf "%s?w=1280&auto=format" .) }} 1280w,
+    {{ (printf "%s?w=1440&auto=format" .) }} 1440w,
+    {{ (printf "%s?w=1920&auto=format" .) }} 1920w"
+      width="1024"
       {{- with $.Title | safeHTML -}}
         title="{{ . }}"
       {{- end -}}

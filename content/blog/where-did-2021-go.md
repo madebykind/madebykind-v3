@@ -29,15 +29,15 @@ However, here we are in December, wondering where 2021 went and reminding oursel
 
 We're so lucky to have a truly brilliant bunch of clients, many of whom have been with us for quite some time too. For us, it's these people that have helped bring a strong sense of purpose to our working days during the madness of the year. Whether it be through video calls, emails, Slack and, now very rarely, in-person meetings, we are always immensely grateful to have the clients we do (old and new) and the creative projects they bring with them. The ethos which drives Kind is to do good things for good people and we certainly have stuck to that, helping these people have a positive impact in the world gives us real meaning to our work which we are incredibly proud of. We look forward to continuing these partnerships in the coming years.
 
-## P﻿rojects
+## Projects
 
 Over the last year, we've been so excited to work on some really wonderful projects, some of which are still in production and others that have successfully launched throughout the year. Highlights include working with the team at The Rivers Trust to build them a new web presence. We were thrilled when we were asked to partner with them as we've long admired their work and really believe in the positive impact they are trying to make. The project was a resounding success with the site receiving a 50% increase in users, 57% increase in page views and 189% increase in visits from social media platforms. 🎉
 
-![The Rivers Trust website homepage](../images/rivers-trust-homepage.png)
+![The Rivers Trust website homepage](https://madebykind.imgix.net/rivers-trust-homepage.png)
 
 Alongside this, we've really loved working with the Victoria and Albert Museum (V&A) again on their digital archive celebrating 50 years of the Glastonbury Festival. Despite the festival not being able to run for the past two years, we've really enjoyed going through the artefacts from across the decades and creating a pilot site that is ready to collate more memories in the future.
 
-![The Glastonbury Digital Archive shown on a iMac screen, over the shoulder](../images/glastonbury-mockup.png)
+![The Glastonbury Digital Archive shown on a iMac screen, over the shoulder](https://madebykind.imgix.net/glastonbury-mockup.png)
 
 We've also been working on excellent creative projects with the teams at the Backlit Gallery in Nottingham and the Tung Auditorium in Liverpool which are both due to launch early next year. We're really excited to get these sites live!
 
@@ -57,7 +57,7 @@ On collaborations, we've continued to develop our extended network of trusted fr
 
 Alongside working, we've been pleased to get together as a team in the great outdoors. We all love to be outside, even more so than ever before, so we found ourselves on more walks around the Peak District and in the summer we camped at Kielder Forest. Rain and midges aside it was lovely to reconnect as a team and we look forward to (hopefully) ending the year together with a celebratory meal this week.
 
-![Selfie picture of the Kind team on a walk in Derbyshire](../images/kind-in-derbyshire.jpg)
+![Selfie picture of the Kind team on a walk in Derbyshire](https://madebykind.imgix.net/kind-in-derbyshire.jpg)
 
 2021 may not have been exactly what we all hoped for, but we've definitely managed to be resilient, support each other, our clients and remain as positive as possible throughout. Which is no small feat in the current climate.
 

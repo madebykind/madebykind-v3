@@ -63,7 +63,7 @@ By inspiring the joy of reading we can provide the motivation to read to every c
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="../images/work-bookmark-design-system.jpg" alt="Design system components for Bookmark website" >}}
+{{< figure align="right" wrapperclass="" src="work-bookmark-design-system.jpg" alt="Design system components for Bookmark website" >}}
 
 
 
@@ -78,9 +78,9 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 </div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-8" src="../images/work-bookmark-mobile.jpg" alt="Bookmark website designs on mobile screens" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-bookmark-mobile.jpg" alt="Bookmark website designs on mobile screens" >}}
   <div class="col-span-full lg:col-span-4">
-  {{< mobile-scroll src="../images/work-bookmark-homepage-mobile.png" alt="a mockup of the Bookmark website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="50000">}}
+  {{< mobile-scroll src="work-bookmark-homepage-mobile.png" alt="a mockup of the Bookmark website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="50000">}}
   </div>
 </div>
 
@@ -96,6 +96,6 @@ By inspiring the joy of reading we can provide the motivation to read to every c
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="../images/work-bookmark-help-centre-UIs.jpg" alt="User interface designs for the Bookmark Reading help centre" >}}
+{{< figure align="left" wrapperclass="" src="work-bookmark-help-centre-UIs.jpg" alt="User interface designs for the Bookmark Reading help centre" >}}
 
-{{< figure wrapperclass="" src="../images/work-bookmark-help-centre-laptop.jpg" alt="The Bookmark Reading help centre on a laptop device" >}}
+{{< figure wrapperclass="" src="work-bookmark-help-centre-laptop.jpg" alt="The Bookmark Reading help centre on a laptop device" >}}

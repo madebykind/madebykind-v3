@@ -28,31 +28,27 @@
 
     {{ if .Params.cta_img }}
       <div class="relative flex md:justify-center md:col-span-5 md:self-end col-span-full">
+
+        {{ $src := (.Params.cta_img ) }}
         {{ $alt := ( .Params.cta_img_alt ) }}
-        {{ $img := (.Params.cta_img ) }}
-        {{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+        {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
 
-        {{- $2xl := $image.Resize "1280x" -}}
-        {{ $xl := $2xl.Resize "960x" -}}
-        {{ $lg := $xl.Resize "640x" -}}
-        {{ $md := $lg.Resize "480x" -}}
-        {{ $sm := $md.Resize "320x" -}}
-
-        <img 
-          alt="{{ $alt }}" 
-          class="object-cover h-full" 
-          height="{{ $image.Height }}" 
-          loading=lazy 
-          sizes="(min-width: 100em) 32vw, 96vw" 
-          src="{{ $sm.RelPermalink }}" 
-          srcset="
-            {{ $sm.RelPermalink }} 320w,
-            {{ $md.RelPermalink }} 480w,
-            {{ $lg.RelPermalink }} 640w,
-            {{ $xl.RelPermalink }} 960w,
-            {{ $2xl.RelPermalink }} 1280w" 
+        {{ with $src }}
+          <img 
+            alt="{{ $alt }}" 
+            class="object-cover h-full" 
+            loading=lazy 
+            sizes="(min-width: 100em) 32vw, 96vw" 
+            src="{{ (printf "%s?w=320&auto=format" .) }}" 
+            srcset="
+          {{ (printf "%s?w=320&auto=format" .) }} 320w,
+          {{ (printf "%s?w=480&auto=format" .) }} 480w,
+          {{ (printf "%s?w=640&auto=format" .) }} 640w,
+          {{ (printf "%s?w=960&auto=format" .) }} 960w,
+          {{ (printf "%s?w=1280&auto=format" .) }} 1280w"
           width="320"
-        >
+          >
+        {{ end }}
 
       </div>
     {{ end }}

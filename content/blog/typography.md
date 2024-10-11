@@ -52,7 +52,7 @@ The Semantic Web isn't inherently complex. The Semantic Web language, at its hea
 
 It’s probably important that images look okay here by default as well…
 
-![A smiling female scientist](../images/thisisengineering.jpg "Science is great, the computers are the bestest!")
+![A smiling female scientist](https://madebykind.imgix.net/thisisengineering.jpg "Science is great, the computers are the bestest!")
 
 Markdown does not provide a way to create figures, with captions, so that requires a shortcode, eg: 
 

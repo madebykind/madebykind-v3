@@ -33,7 +33,7 @@ Rewilding offers hope in bringing an abundance of life back to land and sea – 
 
 Rewilding Britain is working with local people, landowners, local authorities and experts to influence and change policy, practice and legislation; enable and support collaborative large-scale rewilding projects; and help and guide smaller-scale rewilding. It campaigns to raise awareness of rewilding and its benefits.
 
-![A great tit in an autumnal oak tree](../images/rwb_greattit.jpg)
+![A great tit in an autumnal oak tree](https://madebykind.imgix.net/rwb_greattit.jpg)
 
 In the five years since we started Kind we have donated over £7,000 to environmental charities, but for the next 5 years we’re planning to go further. We’re aiming to donate over £20,000 and our strategic digital services to help Rewilding Britain through what promises to be a challenging and crucially important period in the battle against climate breakdown and the extinction crisis.
 

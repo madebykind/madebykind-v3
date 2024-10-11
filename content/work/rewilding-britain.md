@@ -79,7 +79,7 @@ teaser:
   </div>
 </div>
 
-{{< figure wrapperclass="section--lg" src="../images/work-rewilding-britain-design-system.jpg" alt="Components of the Rewilding Britain design system" >}}
+{{< figure wrapperclass="section--lg" src="work-rewilding-britain-design-system.jpg" alt="Components of the Rewilding Britain design system" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -95,13 +95,13 @@ teaser:
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="../images/work-rewilding-britain-topics.jpg" alt="A topic page on the Rewilding Britain website" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-rewilding-britain-topics.jpg" alt="A topic page on the Rewilding Britain website" >}}
   <div class="col-span-full lg:col-span-4">
-  {{< mobile-scroll src="../images/work-rewilding-britain-mobile-scroll.png" alt="a mockup of the Rewilding Britain website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="10000">}}
+  {{< mobile-scroll src="work-rewilding-britain-mobile-scroll.png" alt="a mockup of the Rewilding Britain website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="10000">}}
   </div>
 </div>
 
-{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="../images/work-rewilding-britain-mobiles.jpg" alt="A group of mobile mockups from different pages of the Rewilding Britain website" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-rewilding-britain-mobiles.jpg" alt="A group of mobile mockups from different pages of the Rewilding Britain website" >}}
 
 
 <!-- Text right -->
@@ -116,9 +116,9 @@ teaser:
   </div>
 </div>
 
-{{< figure align="right" src="../images/work-rewilding-britain-laptop.jpg" alt="Over the shoulder photograph of a laptop with the Rewilding Britain website on it" >}}
+{{< figure align="right" src="work-rewilding-britain-laptop.jpg" alt="Over the shoulder photograph of a laptop with the Rewilding Britain website on it" >}}
 
-{{< figure src="../images/work-rewilding-britain-map.jpg" alt="The Rewilding Britain network map" >}}
+{{< figure src="work-rewilding-britain-map.jpg" alt="The Rewilding Britain network map" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -133,4 +133,4 @@ teaser:
 
 {{< blockquote author="Hilary Cross" role="Brand and Marketing Lead, Rewilding Britain" wrapperclass="section--lg" align="left">}}We chose Kind because we wanted to work with an agency who not only listened to and delivered our brief, but also shared our values, passion and vision.{{</ blockquote >}}
 
-{{< figure align="left" src="../images/work-rewilding-britain-ipad.jpg" alt="Over the shoulder photograph of a man reading an article on the Rewilding Britain website on an iPad" >}}
+{{< figure align="left" src="work-rewilding-britain-ipad.jpg" alt="Over the shoulder photograph of a man reading an article on the Rewilding Britain website on an iPad" >}}

@@ -24,13 +24,13 @@ related_posts:
 
 Brands have a unique ability to influence and shape societal norms and behaviors. As they are often viewed as leaders in their respective industries, they can set the tone for how businesses should operate and interact with society. For instance, brands like [Tony’s Chocolonely](https://tonyschocolonely.com/uk/en/our-mission/tonys-impact) and [Ben & Jerry's](https://www.benjerry.co.uk/values) have long used their platforms to advocate for social issues such as income inequality and climate change. By taking a stance on these matters, they not only enhance their [brand](/services/brand/) image but also raise awareness and inspire action among their consumers and the broader public.
 
-{{< figure wrapperclass="" align="right" src="../images/tonys.jpg" alt="An unwrapped Tony's Chocolonely bar. The bar is on top of the inside of the flattened wrapper. The wrapper has details about how Tony's are aiming to make all chocolate slave-free." caption="Tony's Chocolonely use their strong brand presence to advocate for an end to slavery and forced labour." >}}
+{{< figure wrapperclass="" align="right" src="tonys.jpg" alt="An unwrapped Tony's Chocolonely bar. The bar is on top of the inside of the flattened wrapper. The wrapper has details about how Tony's are aiming to make all chocolate slave-free." caption="Tony's Chocolonely use their strong brand presence to advocate for an end to slavery and forced labour." >}}
 
 ## Brands and environmental stewardship
 
 Brands can also be powerful advocates for environmental sustainability. By integrating eco-friendly practices into their operations and products, they can demonstrate to consumers and competitors alike that profitability and environmental responsibility can go hand in hand. Brands like [Who Gives a Crap](https://uk.whogivesacrap.org/pages/our-impact) and [Patagonia](https://eu.patagonia.com/gb/en/activism/) are perfect examples of this. Their proactive environmental stances have not only benefited the planet but also their bottom line, showing that 'going green' is good for business and the planet. And most importantly, they give back, setting a benchmark for how companies can behave when they have good intentions central to everything they do. 
 
-{{< figure wrapperclass="" align="" src="../images/whogives.jpg" alt="A man and a woman fill jerry cans with clean water from an outdoor tap." caption="Who Gives a Crap donate 50% of their profits to help build toilets and provide safe drinking water around the world.">}}
+{{< figure wrapperclass="" align="" src="whogives.jpg" alt="A man and a woman fill jerry cans with clean water from an outdoor tap." caption="Who Gives a Crap donate 50% of their profits to help build toilets and provide safe drinking water around the world.">}}
 
 ## Harnessing the Power of Storytelling
 
@@ -40,14 +40,14 @@ Brands are master storytellers. They create narratives that resonate with their 
 
 Brands also have the power to build and nurture communities. These communities are often made up of like-minded individuals who share the brand's values and are driven to support the causes it champions. Through these communities, brands can mobilise a large group of individuals to contribute to social and environmental causes, amplifying their impact.
 
-{{< figure wrapperclass="" align="" src="../images/greenpeace.jpg" alt="Greenpeace protesters in the street, most have placard and some hold a large banner. The placards and banner all read: 'Listen to the people, not polluters'" caption="Greenpeace bring communities together to take action" >}}
+{{< figure wrapperclass="" align="" src="greenpeace.jpg" alt="Greenpeace protesters in the street, most have placard and some hold a large banner. The placards and banner all read: 'Listen to the people, not polluters'" caption="Greenpeace bring communities together to take action" >}}
 
 ## Influencing Policies
 
 Brands, especially those with significant influence, can use their platforms to lobby for policy changes that support social and environmental causes. By leveraging their resources and influence, they can advocate for legal and regulatory changes that could have far-reaching impacts.
 
 
-{{< figure wrapperclass="" align="" src="../images/stonewall-marriage.png" alt="Two brides positioned on the right of an image, both looking left and smiling. One is leaning on the others shoulder. Some crossed out text reads 'Marriage is explicity defined as being between a male and female'. Underneath the text a red star highlights the words 'repealed 2014'." caption="Since 1989, Stonewall have campaigned for freedom and equity for LGBTQ+ people in the UK with real impacts such as the repealing of Section 28 and the 2014 Marriage Act" >}}
+{{< figure wrapperclass="" align="" src="stonewall-marriage.png" alt="Two brides positioned on the right of an image, both looking left and smiling. One is leaning on the others shoulder. Some crossed out text reads 'Marriage is explicity defined as being between a male and female'. Underneath the text a red star highlights the words 'repealed 2014'." caption="Since 1989, Stonewall have campaigned for freedom and equity for LGBTQ+ people in the UK with real impacts such as the repealing of Section 28 and the 2014 Marriage Act" >}}
 
 ## The future of brands: beyond profit
 

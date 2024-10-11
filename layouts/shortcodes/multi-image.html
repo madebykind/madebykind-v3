@@ -1,6 +1,5 @@
 
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1800" "1920" "2240" -}}
-{{- $imgBase := "images/" -}}
 {{- $imgClass := "object-fit" -}}
 {{- $dataSizes := "98vw" -}}
 
@@ -8,104 +7,93 @@
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   {{ if .Get "src_1" }}
-    {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src_1")) -}}
+    {{- $src := replace (.Get "src_1") "images" "https://madebykind.imgix.net" -}}
     {{- $alt := .Get "alt_1" -}}
-    {{- $actualImg := $src.Resize "640x jpg" -}}
 
     <picture class="col-span-full lg:col-span-4">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }}, {{ end -}}
+            {{ $src }}?w={{ . }}&fm=webp {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/webp">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }},{{ end -}}
+            {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
   {{ if .Get "src_2" }}
-    {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src_2")) -}}
+    {{- $src := replace (.Get "src_2") "images" "https://madebykind.imgix.net" -}}
     {{- $alt := .Get "alt_2" -}}
-    {{- $actualImg := $src.Resize "640x jpg" -}}
 
     <picture class="col-span-full lg:col-span-4 lg:col-start-5">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }}, {{ end -}}
+            {{ $src }}?w={{ . }}&fm=webp {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/webp">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }},{{ end -}}
+            {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
   {{ if .Get "src_3" }}
-    {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src_3")) -}}
+    {{- $src := replace (.Get "src_3") "images" "https://madebykind.imgix.net" -}}
     {{- $alt := .Get "alt_3" -}}
-    {{- $actualImg := $src.Resize "640x jpg" -}}
 
     <picture class="col-span-full lg:col-span-4 lg:col-start-9">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }}, {{ end -}}
+            {{ $src }}?w={{ . }}&fm=webp {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/webp">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }},{{ end -}}
+            {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
   {{ if .Get "src_4" }}
-    {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src_4")) -}}
+    {{- $src := replace (.Get "src_4") "images" "https://madebykind.imgix.net" -}}
     {{- $alt := .Get "alt_4" -}}
-    {{- $actualImg := $src.Resize "640x jpg" -}}
 
     <picture class="col-span-full lg:col-span-8 lg:col-start-5">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }}, {{ end -}}
+            {{ $src }}?w={{ . }}&fm=webp {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/webp">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }},{{ end -}}
+            {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
+  
 </div>
 

@@ -25,7 +25,7 @@ weight: 1
 
 ### Putting users at the centre of the design process
 
-![Rendered image of a biophilic house with Jackson-Crane logo overlayed](../images/work-jackson-crane-header.jpg)
+![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
 
 User-Centred Design works around the principle that a product built around the needs of its users will be more successful and that the only way to deliver this is to fully understand the variety of users and their needs.
 
@@ -39,7 +39,7 @@ In its simplest form, a User-Centred Design process consists of identifying the 
 
 ### User-Centred Design for Digital Projects
 
-![Rendered image of a biophilic house with Jackson-Crane logo overlayed](../images/work-jackson-crane-header.jpg)
+![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
 
 As a term coined in the 1970s, User-Centred Design was originally employed to design physical products that were intuitive to use, but more recently the process has been adopted by digital teams to great effect.
 

@@ -35,19 +35,19 @@ Mat and I are not people who typically shout out or put ourselves in the spotlig
 
 This has led us to our new brand and new service offering (more on that another time) that we are so proud of, as we really believe it encapsulates who we are, what we do, and what we are trying to achieve. As a small team who have continually ‘punched above our weight’, we’ve been truly dedicated to putting purpose, people, and the planet over profit, even when as a business it's really challenging to do so.
 
-![Poster mockups of Kind brand values](../images/brand-values.jpg)
+![Poster mockups of Kind brand values](images/brand-values.jpg)
 
 And now we can finally show up, with no modesty or over-inflated claims, and truthfully share how we make a difference and how that is backed up by real commitments to our people, the [environment](/environment/), the clients we work with, and the sustainability and performance organisations who hold us accountable. Just as we should be.
 
 So I’d like to introduce you to Kind 👋
 
-![Our manifesto page - mobile mockup](../images/manifesto-1.jpg)
+![Our manifesto page - mobile mockup](images/manifesto-1.jpg)
 
 We’re an independent creative agency For the Good Folks. The wildlife protectors, the green architects, and social innovators. We’re for everyone who’s making a change for good.
 
 We combine expertise in [digital](/services/digital/), [brand](/services/brand/) and [strategy](/services/strategy/) with an unwavering commitment to social change. By using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes.
 
-![Mockups of the new Kind website on mobile devices](../images/7.3-website-launch-linkedin-instagram-1080x1080.png)
+![Mockups of the new Kind website on mobile devices](images/7.3-website-launch-linkedin-instagram-1080x1080.png)
 
 We’re genuine, caring human beings who’ve chosen to use our experience to make the world a bit better. We understand that we can’t save the world with a brand or a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.
 

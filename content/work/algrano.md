@@ -51,9 +51,9 @@ We create change with technology to enable independent producers and roasters to
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="../images/work-algrano-laptop.jpg" alt="Over the shoulder photograph of the Algrano website on a laptop" >}}
+{{< figure align="left" wrapperclass="" src="work-algrano-laptop.jpg" alt="Over the shoulder photograph of the Algrano website on a laptop" >}}
 
-{{< figure wrapperclass="" src="../images/work-algrano-design-system-x2.jpg" alt="Algrano design system components" >}}
+{{< figure wrapperclass="" src="work-algrano-design-system-x2.jpg" alt="Algrano design system components" >}}
 
 
 
@@ -72,7 +72,7 @@ We create change with technology to enable independent producers and roasters to
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="../images/work-algrano-storyboard-v2.png" alt="Storyboard screens from Algrano explainer video" >}}
+{{< figure align="right" wrapperclass="" src="work-algrano-storyboard-v2.png" alt="Storyboard screens from Algrano explainer video" >}}
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/961065909?h=9721d21e6f&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -89,9 +89,9 @@ We create change with technology to enable independent producers and roasters to
 
 {{< image-cycle
   align="left"
-  src_1="../images/work-algrano-uis-image-v2-1.png"
+  src_1="images/work-algrano-uis-image-v2-1.png"
   alt_1="Algrano website wireframes"
-  src_2="../images/work-algrano-uis-image-v2-2.png"
+  src_2="images/work-algrano-uis-image-v2-2.png"
   alt_2="Algrano website user interface" >}}
 
 <!-- Text right -->
@@ -106,8 +106,8 @@ We create change with technology to enable independent producers and roasters to
 </div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-8" src="../images/work-algrano-tablet.jpg" alt="Algrano website designs on tablet screens" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-algrano-tablet.jpg" alt="Algrano website designs on tablet screens" >}}
   <div class="col-span-full lg:col-span-4">
-  {{< mobile-scroll src="../images/work-algrano-homepage-mobile-full.png" alt="a mockup of the Algrano website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="20000">}}
+  {{< mobile-scroll src="work-algrano-homepage-mobile-full.png" alt="a mockup of the Algrano website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="20000">}}
   </div>
 </div>

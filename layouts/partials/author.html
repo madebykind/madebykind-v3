@@ -1,23 +1,23 @@
 
 
 {{ $author := index .Site.Data.authors .Params.author }}
-{{ $author_img := resources.GetMatch (printf "**%s" ($author.headshot)) }}
+{{ $author_img := printf "https://madebykind.imgix.net/%s" ($author.headshot)}}
 
 <article class="flex items-center gap-5" itemscope itemtype="http://schema.org/Person">
   {{ with $author_img }}
-    {{ $lg := $author_img.Fill "240x240 jpg" }}
-    {{ $md := $lg.Resize "180x" }}
-    {{ $sm := $md.Resize "120x" }}
 
     <img 
       alt="{{ $author.name }}" 
       class="w-16 rounded-full md:w-24" 
-      height="{{ .Height }}" 
+      height="120" 
       loading="lazy" 
       sizes="(min-width: 90em) 240px,(min-width: 62em) 180px,120px"
-      src="{{ $sm.RelPermalink }}" 
-      srcset="{{ $sm.RelPermalink }} 120w,{{ $md.RelPermalink }} 180w,{{ $lg.RelPermalink }} 240w" 
-      width="{{ .Width }}"
+      src="{{ (printf "%s?w=240&auto=format" .) }}" 
+      srcset="
+        {{ (printf "%s?w=120&auto=format" .) }} 120w,
+        {{ (printf "%s?w=180&auto=format" .) }} 180w,
+        {{ (printf "%s?w=240&auto=format" .) }} 240w" 
+      width="120"
     >
   {{ end }}
   <div>
