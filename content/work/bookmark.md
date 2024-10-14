@@ -45,6 +45,13 @@ teaser:
       alt: A child and a woman read together
       stat: 
         - 1in4
+toc_replacements:
+  - long: Creating clear user journeys
+    short: Clear user journeys
+  - long: Helping Bookmark to stand out
+    short: Stand out digital design
+  - long: A simple user-friendly, help centre
+    short: User-centred help-centre
 ---
 
 {{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn 'Thank you' signs">}}

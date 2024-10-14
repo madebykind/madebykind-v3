@@ -33,6 +33,14 @@ banner_images:
     alt: A man holding raw coffee beans in his hands
 banner_icon: algrano-logo
 toc: true
+toc_replacements:
+  - long: Bringing a brand to life online
+    short: Online brand launch
+  - long: Clear, concise messaging
+  - long: Visual storytelling
+  - long: User-journey creation
+  - long: Capturing the heart of Algrano
+    short: Engaging digital design
 ---
 
 {{< workquote logo="algrano-logo" img="images/work-algrano-growers.jpg" alt="A woman and a man inspect a coffee plant">}}
@@ -46,7 +54,7 @@ We create change with technology to enable independent producers and roasters to
 
   ## Bringing a brand to life online
 
-  With their refreshed brand identity, we created an impactful, interactive, and engaging online presence. By capturing their values, mission, and vision through compelling stories and consistent visuals, we ensured their brand stood out and made a strong impression.
+  Using Algrano's recently refreshed brand identity, we created an impactful, interactive, and engaging online presence, by capturing their values, mission, and vision through compelling stories and consistent visuals, ensuring their brand will continue to set them apart and make a strong impression.
 
   </div>
 </div>
@@ -63,11 +71,11 @@ We create change with technology to enable independent producers and roasters to
 
   ## Clear, concise messaging
 
-  Algrano’s brand personality is to be direct, open and friendly. We embraced their changemaker attitude and used straightforward language for the animations and website, making their message engaging and easy to remember, and building trust with potential service users. With a clear balance for both roasters and growers – we focused on showing the relationships that are encourage, built and nurtured. 
+  Algrano’s brand personality is to be direct, open and friendly. We embraced their changemaker attitude and used straightforward language for their video and website content, making their message engaging and easy to remember, and building trust with potential service users. With a clear balance for both roasters and growers – we focused on showing the relationships that are encouraged, built and nurtured by the Algrano platform. 
 
   ## Visual storytelling
 
-  To capture attention and maintain engagement we developed an energetic brand explainer video, ensuring to capture key nuggets of information that can be used as short edits We created the video to be repurposable, creating multiple short edits maximising budget so it can used across the web, social media, presentations, and events.
+  To capture attention and maintain engagement we developed an energetic brand explainer video. We created the video to be repurposable, creating multiple short edits that maximised the clients budget and allowed them to use video content across web, social media, presentations and events.
 
   </div>
 </div>
@@ -81,9 +89,9 @@ We create change with technology to enable independent producers and roasters to
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Creating user-friendly journeys for multiple users
+  ## User-journey creation
 
-  We designed user-friendly online journeys by understanding the needs of Algrano’s diverse user groups. By mapping out different user paths, we created smooth and intuitive experiences, optimising navigation and simplifying processes to enhance user engagement and enable them to meet their desired goals online.
+  We designed user-friendly online journeys by delving into and understanding the needs of Algrano’s diverse user groups. By mapping out different user paths, we created smooth and intuitive experiences, optimising navigation and simplifying processes to enhance user engagement and enable them to meet their desired goals online.
   </div>
 </div>
 
