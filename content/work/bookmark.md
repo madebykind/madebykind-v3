@@ -1,7 +1,7 @@
 ---
 heading: Raising awareness of the childhood literacy gap in the UK 
 title: Bookmark Reading - Digital Case Study - Charity
-draft: true
+draft: false
 date: 2024-07-25T10:52:34.342Z
 cover_img: images/work-bookmark-reading-mentor.jpg
 cover_img_alt: A child and a woman reading together
@@ -45,6 +45,13 @@ teaser:
       alt: A child and a woman read together
       stat: 
         - 1in4
+toc_replacements:
+  - long: Creating clear user journeys
+    short: Clear user journeys
+  - long: Helping Bookmark to stand out
+    short: Stand out digital design
+  - long: A simple user-friendly, help centre
+    short: User-centred help-centre
 ---
 
 {{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn 'Thank you' signs">}}
@@ -63,7 +70,7 @@ By inspiring the joy of reading we can provide the motivation to read to every c
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="../images/work-bookmark-design-system.jpg" alt="Design system components for Bookmark website" >}}
+{{< figure align="right" wrapperclass="" src="work-bookmark-design-system.jpg" alt="Design system components for Bookmark website" >}}
 
 
 
@@ -78,9 +85,9 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 </div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-8" src="../images/work-bookmark-mobile.jpg" alt="Bookmark website designs on mobile screens" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-bookmark-mobile.jpg" alt="Bookmark website designs on mobile screens" >}}
   <div class="col-span-full lg:col-span-4">
-  {{< mobile-scroll src="../images/work-bookmark-homepage-mobile.png" alt="a mockup of the Bookmark website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="10000">}}
+  {{< mobile-scroll src="work-bookmark-homepage-mobile.png" alt="a mockup of the Bookmark website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="50000">}}
   </div>
 </div>
 
@@ -91,11 +98,11 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 
   ## A simple user-friendly, help centre
 
-  Instead of a chatbot, which didn’t feel like it suited the user's needs. We created a user-friendly help center with clear categories, concise language, and an intuitive search function. Including FAQs and multimedia resources like video tutorials made information easily accessible. Curated content and internal feedback loops ensured the help center was relevant and based on previous enquiries, aiming to improve user satisfaction and reduce support requests.
+  We recognised that a chatbot didn’t fully meet the user’s needs, so we designed a user-friendly help centre with clear categories, concise language, and an intuitive search function. Including FAQs and multimedia resources like video tutorials made information easily accessible. Curated content and internal feedback loops ensured the help center was relevant and based on previous enquiries, aiming to improve user satisfaction and reduce support requests.
 
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="../images/work-bookmark-help-centre-UIs.jpg" alt="User interface designs for the Bookmark Reading help centre" >}}
+{{< figure align="left" wrapperclass="" src="work-bookmark-help-centre-UIs.jpg" alt="User interface designs for the Bookmark Reading help centre" >}}
 
-{{< figure wrapperclass="" src="../images/work-bookmark-help-centre-laptop.jpg" alt="The Bookmark Reading help centre on a laptop device" >}}
+{{< figure wrapperclass="" src="work-bookmark-help-centre-laptop.jpg" alt="The Bookmark Reading help centre on a laptop device" >}}

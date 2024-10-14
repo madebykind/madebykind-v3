@@ -1,5 +1,5 @@
-{{ $img := "images/empowering-change.png" }}
-{{ $image := resources.GetMatch (printf "**%s" ($img)) }}
+{{ $src := "images/empowering-change.png" }}
+{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
 {{ $btn_text := "Go" }}
 {{ $border_class := "border-indigo focus:border-blue" }}
 
@@ -13,28 +13,21 @@
 
 <div class="{{ with $.block_class }}{{ . }}{{ end }}">
   <div {{ if eq $.style "wide" }}class="section grid grid-cols-4 lg:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12 items-center"{{ end }}>
-    {{ with $img }}
-      {{- $2xl := $image.Resize "1280x" -}}
-      {{ $xl := $2xl.Resize "800x" -}}
-      {{ $lg := $xl.Resize "640x" -}}
-      {{ $md := $lg.Resize "480x" -}}
-      {{ $sm := $md.Resize "320x" -}}
+    {{ with $src }}
 
       <picture class="{{ if eq $.style "wide" }}lg:order-1 col-span-2 lg:col-span-4{{ else }}max-w-iphone{{ end }} block">
         <img 
-          alt="two big friendly hands" 
+          alt="Illustration of a person holding a watering can that waters many plants" 
           class="w-full {{ with $.image_class }}{{ . }}{{ end }}"
-          height="{{ $image.Height }}"
           loading=eager
           sizes="(min-width: 100em) 33vw, 96vw"
-          src="{{ $sm.RelPermalink }}" 
+          src="{{ (printf "%s?w=320&auto=format" .) }}" 
           srcset="
-            {{ $sm.RelPermalink }} 320w,
-            {{ $md.RelPermalink }} 480w,
-            {{ $lg.RelPermalink }} 640w,
-            {{ $xl.RelPermalink }} 800w,
-            {{ $2xl.RelPermalink }} 1280w"
-          width="{{ $image.Width }}"
+        {{ (printf "%s?w=320&auto=format" .) }} 320w,
+        {{ (printf "%s?w=480&auto=format" .) }} 480w,
+        {{ (printf "%s?w=640&auto=format" .) }} 640w,
+        {{ (printf "%s?w=800&auto=format" .) }} 800w,
+        {{ (printf "%s?w=1280&auto=format" .) }} 1280w"
         >
       </picture>
     {{ end }}

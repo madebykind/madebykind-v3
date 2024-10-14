@@ -17,11 +17,11 @@ heading: Well-worn paths are never going to lead to a better world.
 
 <div class="grid gap-10 md:grid-cols-2 lg:gap-20 section--lg">
 
-  {{< blockquote author="Mat Hayward" image="Avatar-Mat.png" class="text-lg leading-tight text-teal" role="Founder & Partnership Director" avatar="mat" >}}
+  {{< blockquote author="Mat Hayward" image="avatar-mat.png" class="text-lg leading-tight text-teal" role="Founder & Partnership Director" avatar="mat" >}}
   Doing the right thing isn’t easy, but when we started Kind, we decided it was the only way we wanted to do business.
   {{</ blockquote >}}
 
-  {{< blockquote author="Michelle Pavey" image="Avatar-Michelle.png" class="text-lg leading-tight text-teal" role="Co-owner & Strategy Director" avatar="michelle" >}}
+  {{< blockquote author="Michelle Pavey" image="avatar-michelle.png" class="text-lg leading-tight text-teal" role="Co-owner & Strategy Director" avatar="michelle" >}}
   Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out to do.
   {{</ blockquote >}}
 
@@ -40,11 +40,8 @@ All our clients must have a mission that comes before profit. Using our skills a
   <svg class="w-48 h-24 flex-no-shrink" role="presentation">
     <use xlink:href="#icon-1fortheplanet"/>
   </svg>
-
   <div class="w-32 shrink-0 grow-0">
-
-![Members of the Ocean Network](../images/logo-ocean-network.png)
-  
+    <img alt="Members of the Ocean Network" class="object-fit" height="126" loading="lazy" sizes="100vw" src="https://madebykind.imgix.net/logo-ocean-network.png?auto=format" width="122"><p></p>
   </div>
 </div>
 </section>

@@ -1,11 +1,8 @@
-
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1800" "1920" "2240" -}}
-{{- $imgBase := "images/" -}}
-{{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}
+{{- $src := replace (.Get "src") "images" "https://madebykind.imgix.net" -}}
 {{- $alt := .Get "alt" -}}
 {{- $imgClass := "object-fit" -}}
 {{- $dataSizes := "98vw" -}}
-{{- $actualImg := $src.Resize "640x jpg" -}}
 
 <div class="inline-flex max-w-full max-h-full frame py-15 frame__iphone">
   <div class="relative overflow-scroll h-iphone w-iphone">
@@ -14,20 +11,18 @@
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }}, {{ end -}}
+            {{ $src }}?w={{ . }}&fm=webp {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/webp">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }}, {{ end -}}
+            {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy">
+      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=format" $src) }}" loading="lazy">
     </picture>
   </div>
 </div>

@@ -82,7 +82,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 </div>
 
 
-{{< figure wrapperclass="" align="right" src="../images/work-shu-protester-2.jpg" alt="A girl holding a cardboard placard stating 'The Time is Now'. There is a painted picture of the earth in the centre of the placard" >}}
+{{< figure wrapperclass="" align="right" src="work-shu-protester-2.jpg" alt="A girl holding a cardboard placard stating 'The Time is Now'. There is a painted picture of the earth in the centre of the placard" >}}
 
 
 
@@ -100,9 +100,9 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
 </div>
 
-{{< mobile-scroll align="left" src="../images/work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
+{{< mobile-scroll align="left" src="work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
 
-{{< figure wrapperclass="" align="left" src="../images/work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
+{{< figure wrapperclass="" align="left" src="work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
 
 
 <!-- Text right -->
@@ -117,7 +117,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 </div>
 
 
-{{< figure wrapperclass="" src="../images/work-shu-design-system-components.jpg" alt="SHU Design system components" >}}
+{{< figure wrapperclass="" src="work-shu-design-system-components.jpg" alt="SHU Design system components" >}}
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">

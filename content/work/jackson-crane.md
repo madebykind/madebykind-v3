@@ -44,8 +44,8 @@ Our mission is to create sustainable, environmentally conscious and high perform
 
 
 {{< multi-image
-  src_1="../images/work-jackson-crane-dave-2.jpg" alt_1="A man sat at a laptop with a coffee. A large glass window and a garden behind"
-  src_4="../images/work-jackson-crane-drawing.jpg" alt_4="Over the shoulder view of someone drawing" >}}
+  src_1="images/work-jackson-crane-dave-2.jpg" alt_1="A man sat at a laptop with a coffee. A large glass window and a garden behind"
+  src_4="images/work-jackson-crane-drawing.jpg" alt_4="Over the shoulder view of someone drawing" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -57,10 +57,10 @@ Our mission is to create sustainable, environmentally conscious and high perform
 </div>
 
 {{< multi-image
-  src_1="../images/work-jackson-crane-strategy-laptop.jpg" alt_1="Jackson-Crane strategy document on a laptop screen"
-  src_2="../images/work-jackson-crane-laptop-mission.jpg" alt_2="Jackson-Crane mission statement on a laptop screen" >}}
+  src_1="images/work-jackson-crane-strategy-laptop.jpg" alt_1="Jackson-Crane strategy document on a laptop screen"
+  src_2="images/work-jackson-crane-laptop-mission.jpg" alt_2="Jackson-Crane mission statement on a laptop screen" >}}
 
 
 The practice was able to take that work and grow its business to become an award-winning architectural practice. Since then we have worked with them to give advice on marketing, SEO and hope to continue working with them in the future.
 
-{{< figure wrapperclass="" align="left" src="../images/work-jackson-crane-values.jpg" alt="Jackson-Crane values on a tablet device" >}}
+{{< figure wrapperclass="" align="left" src="work-jackson-crane-values.jpg" alt="Jackson-Crane values on a tablet device" >}}

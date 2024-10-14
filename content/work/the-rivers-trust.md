@@ -57,9 +57,9 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="../images/work-rivers-trust-ipad.jpg" alt="The Rivers Trust website on a tablet device" >}}
+{{< figure align="left" wrapperclass="" src="work-rivers-trust-ipad.jpg" alt="The Rivers Trust website on a tablet device" >}}
 
-{{< figure wrapperclass="" src="../images/work-rivers-trust-laptop.jpg" alt="The Rivers Trust website on a laptop" >}}
+{{< figure wrapperclass="" src="work-rivers-trust-laptop.jpg" alt="The Rivers Trust website on a laptop" >}}
 
 
 
@@ -72,7 +72,7 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
   </div>
 </div>
 
-{{< figure wrapperclass="" align="right" src="../images/work-rivers-trust-components-2.png" alt="Components of the Rivers Trust website" >}}
+{{< figure wrapperclass="" align="right" src="work-rivers-trust-components-2.png" alt="Components of the Rivers Trust website" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -86,4 +86,4 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 </div>
 
 
-{{< figure wrapperclass="" align="left" src="../images/work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}
+{{< figure wrapperclass="" align="left" src="work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}

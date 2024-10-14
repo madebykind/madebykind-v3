@@ -22,7 +22,7 @@ related_posts:
   - cultural-recovery-audience-insights
   - why-continuing-to-use-live-streaming-post-lockdown-could-be-positive-for-events
 ---
-![Illustration showing ticket buying preferences between digital and box office.](../images/5-digital-tickets.jpg)
+![Illustration showing ticket buying preferences between digital and box office.](https://madebykind.imgix.net/5-digital-tickets.jpg)
 
 From a user point of view, booking tickets for an event is often a long-winded and frustrating experience. If you're using a mobile device (as the majority of web users are) the experience can be particularly awkward and clunky.
 

@@ -36,4 +36,4 @@ And, looking further at local investment, the East Midlands is set to receive an
 
 Based on the Arts Council’s National Portfolio data, we’ve created an infographic illustrating the change in funding since 2015. We think there’s still a long way to go.
 
-![An infographic showing our analysis of the Arts Council NPO data](../images/arts-council-portfolio-analysis-2018.png)
+![An infographic showing our analysis of the Arts Council NPO data](https://madebykind.imgix.net/arts-council-portfolio-analysis-2018.png)

@@ -67,7 +67,7 @@ From world-class and emerging talent to the next generation, to our audiences an
   </div>
 </div>
 
-{{< figure align="right" alt="Pages from Chapter brand guidelines document" src="../images/work-chapter-guidelines.jpg" >}}
+{{< figure align="right" alt="Pages from Chapter brand guidelines document" src="work-chapter-guidelines.jpg" >}}
 
 
 
@@ -87,13 +87,13 @@ From world-class and emerging talent to the next generation, to our audiences an
   <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
     {{< animation id="anim-chapter-type" >}}
   </div>
-  {{< figure wrapperclass="col-span-full lg:col-span-4 aspect-square relative overflow-hidden" alt="A POV mockup of floor-based directions around the Chapter venue" src="../images/work-chapter-wayfinding.png" imgclass="object-cover" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4 aspect-square relative overflow-hidden" alt="A POV mockup of floor-based directions around the Chapter venue" src="work-chapter-wayfinding.png" imgclass="object-cover" >}}
 </div>
 
-{{< figure align="right" alt="A mockup of a Chapter business card. The business card is duotone blue and is placed on a pink board" src="../images/work-chapter-business-card_2.jpg" >}}
+{{< figure align="right" alt="A mockup of a Chapter business card. The business card is duotone blue and is placed on a pink board" src="work-chapter-business-card_2.jpg" >}}
 
 
-{{< figure wrapperclass="" alt="A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image." src="../images/work-chapter-billboard.jpg" >}}
+{{< figure wrapperclass="" alt="A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image." src="work-chapter-billboard.jpg" >}}
 
 
 
@@ -110,16 +110,16 @@ From world-class and emerging talent to the next generation, to our audiences an
 
 {{< image-cycle
   align="right"
-  src_1="../images/work-chapter-design-system-1.png"
+  src_1="images/work-chapter-design-system-1.png"
   alt_1="Chapter website components"
-  src_2="../images/work-chapter-design-system-2.png"
+  src_2="images/work-chapter-design-system-2.png"
   alt_2="Chapter website components"
-  src_3="../images/work-chapter-design-system-3.png"
+  src_3="images/work-chapter-design-system-3.png"
   alt_3="Chapter website components"
-  src_4="../images/work-chapter-design-system-4.png"
+  src_4="images/work-chapter-design-system-4.png"
   alt_4="Chapter website components" >}}
 
-{{< figure wrapperclass="" alt="Chapter website shown on a laptop screen" src="../images/work-chapter-laptop.jpg" >}}
+{{< figure wrapperclass="" alt="Chapter website shown on a laptop screen" src="work-chapter-laptop.jpg" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -134,4 +134,4 @@ From world-class and emerging talent to the next generation, to our audiences an
   </div>
 </div>
 
-{{< figure wrapperclass="" alt="Pages of the Chapter website" src="../images/work-chapter-pages.jpg" >}}
+{{< figure wrapperclass="" alt="Pages of the Chapter website" src="work-chapter-pages.jpg" >}}

@@ -1,29 +1,22 @@
+{{ $src := (.Params.cover_img ) }}
 {{ $alt := ( .Params.cover_img_alt ) }}
-{{ $img := (.Params.cover_img ) }}
-{{ $image := resources.GetMatch (printf "**%s" ($img)) }}
-{{ with $img }}
+{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
 
-	{{- $2xl := $image.Resize "1280x" -}}
-	{{ $xl := $2xl.Resize "800x" -}}
-	{{ $lg := $xl.Resize "640x" -}}
-	{{ $md := $lg.Resize "480x" -}}
-	{{ $sm := $md.Resize "320x" -}}
+{{ with $src }}
 
 	<picture>
 		<img 
       alt="{{ $alt }}" 
       class="object-cover"
-      height="{{ $image.Height }}"
       loading=eager
       sizes="(min-width: 100em) 33vw, 96vw"
-      src="{{ $sm.RelPermalink }}" 
+      src="{{ (printf "%s?w=320&auto=format" .) }}" 
       srcset="
-        {{ $sm.RelPermalink }} 320w,
-        {{ $md.RelPermalink }} 480w,
-        {{ $lg.RelPermalink }} 640w,
-        {{ $xl.RelPermalink }} 800w,
-        {{ $2xl.RelPermalink }} 1280w"
-      width="{{ $image.Width }}"
+    {{ (printf "%s?w=320&auto=format" .) }} 320w,
+    {{ (printf "%s?w=480&auto=format" .) }} 480w,
+    {{ (printf "%s?w=640&auto=format" .) }} 640w,
+    {{ (printf "%s?w=800&auto=format" .) }} 800w,
+    {{ (printf "%s?w=1280&auto=format" .) }} 1280w"
     >
 	</picture>
 {{ end }}

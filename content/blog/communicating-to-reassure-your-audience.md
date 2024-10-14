@@ -27,7 +27,7 @@ We recently undertook a survey asking event-goers across the UK their thoughts o
 
 As expected, 79% of customers told us that they would look for information and updates on the events through the host's website. This remained the same after lockdown, however, there was an increase in respondents stating that they would also look at the confirmation email (+10%) and social media (+6%). These statistics prove the importance of having platforms that are easy to access and well-maintained as viewers will be looking across multiple places to remain informed. A website or social media presence that is not regularly updated or is difficult to use, will not provide a smooth experience for the user and could possibly result in poor ticket sales or lower customer satisfaction.
 
-![Table showing importance of information to audiences](../images/7-the-need-to-know.jpg)
+![Table showing importance of information to audiences](https://madebykind.imgix.net/7-the-need-to-know.jpg)
 
 ## Everyone is confused and cautious right now
 
@@ -41,7 +41,7 @@ Given the rate of cancelled shows, gigs, games and gatherings we’ve endured ov
 
 With this in mind, it is crucial to use your platforms for repeated messaging to meet this need for current information, including being explicit about the event still going ahead. This instils confidence in you and helps to avoid your website, social platforms and box office being bombarded with the same easily answered questions. Alongside that, it gives those considering a last-minute ticket purchase a push in the right direction.
 
-![Illustration showing how event attendees are more likely to check regularly for event updates since the COVID pandemic.](../images/6-over-communicating.jpg)
+![Illustration showing how event attendees are more likely to check regularly for event updates since the COVID pandemic.](https://madebykind.imgix.net/6-over-communicating.jpg)
 
 ## Get creative
 

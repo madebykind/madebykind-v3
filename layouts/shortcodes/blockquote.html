@@ -9,11 +9,9 @@
       <figcaption class="mt-5 font-serif {{ if .Get "avatar" }} inline-flex {{ else }} border-l-4 border-orange pl-10{{ end }}">
         {{ if .Get "avatar" }}
           {{ $author := index .Site.Data.authors (.Get "avatar") }}
-          {{ $avatar_img := resources.GetMatch (printf "**%s" ($author.headshot)) }}
+          {{ $src := printf "https://madebykind.imgix.net/%s" $author.headshot }}
 
-          {{ with $avatar_img }}
-            {{ $lg := $avatar_img.Fill "180x180 jpg" }}
-            {{ $sm := $lg.Resize "120x" -}}
+          {{ with $src }}
 
             <img
               alt="{{ $author.name }}"
@@ -21,8 +19,10 @@
               height="180"
               loading=lazy
               sizes="(min-width: 62em) 180px, 120px"
-              src="{{ $sm.RelPermalink }}"
-              srcset="{{ $sm.RelPermalink }} 120w,{{ $lg.RelPermalink }} 180w,"
+              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }}"
+              srcset="
+              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=format" .) }} 120w,
+              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }} 180w,"
               width="180"
             >
           {{ end }}

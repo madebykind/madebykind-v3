@@ -1,22 +1,21 @@
-{{- $img := (.Params.cover_img ) -}}
-{{- $src := resources.GetMatch (printf "**%s" ($img)) -}}
 
-{{- $actualImg := $src.Resize "640x jpg" -}}
-{{- $alt := ( .Params.cover_img_alt ) -}}
+{{ $src := (.Params.cover_img ) }}
+{{ $alt := ( .Params.cover_img_alt ) }}
+{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+
 {{- $dataSizes := "(min-width: 90em) 49vw, 98vw" -}}
 {{- $imgClass := "object-cover h-full w-full" -}}
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
 
-{{- with $img -}}
+{{- with $src -}}
   <picture>
     <source 
       sizes="{{ $dataSizes }}" 
       srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp") ).RelPermalink }} {{ . }}w
-            {{- end -}}
+            {{- if $i }},{{ end -}}
+            {{ $src }}?w={{ . }}&fm=webp {{ . }}w
           {{- end -}}
         {{- end -}}" 
       type="image/webp">
@@ -26,16 +25,12 @@
       class="{{ $imgClass }}"
       loading=eager
       sizes="{{ $dataSizes }}"
-      src="{{ $actualImg.RelPermalink }}"
+      src="{{ (printf "%s?w=640&auto=format" .) }}"
       srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
-            {{- if ge $src.Width . -}}
-              {{- if $i }},
-              {{ end -}}
-              {{- ($src.Resize (printf " %sx%s" . " jpg") ).RelPermalink }}
-              {{ . }}w
-            {{- end -}}
+            {{- if $i }},{{ end -}}
+            {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}"
     >

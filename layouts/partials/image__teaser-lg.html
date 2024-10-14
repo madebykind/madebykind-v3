@@ -1,28 +1,20 @@
-
 {{ $src := (.Params.cover_img ) }}
 {{ $alt := ( .Params.cover_img_alt ) }}
-{{ $img := resources.GetMatch (printf "**%s" ($src)) }}
+{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
 
-{{ with $img }}
-  {{ $2xl := $img.Fill "1200x900" }}
-  {{ $xl := $2xl.Resize "800x" }}
-  {{ $lg := $xl.Resize "600x" }}
-  {{ $md := $lg.Resize "400x" }}
-  {{ $sm := $md.Resize "300x" }}
+{{ with $src }}
 
-  <img
-    alt="{{ $alt }}"
-    class="object-cover w-full h-full"
-    height="{{ .Height }}"
-    loading=lazy
-    sizes="(min-width: 100em) 48vw, 96vw"
-    src="{{ $sm.RelPermalink }}"
-    srcset="
-      {{ $sm.RelPermalink }} 300w,
-      {{ $md.RelPermalink }} 400w,
-      {{ $lg.RelPermalink }} 600w,
-      {{ $xl.RelPermalink }} 800w,
-      {{ $2xl.RelPermalink }} 1200w"
-    width="{{ .Width }}"
-  >
+    <img 
+      alt="{{ $alt }}"
+      class="object-cover w-full h-full"
+      loading=lazy
+      sizes="(min-width: 100em) 48vw, 96vw"
+      src="{{ (printf "%s?w=300&ar=1:1&fit=crop&auto=format" .) }}" 
+      srcset="
+        {{ (printf "%s?w=300&ar=4:3&fit=crop&auto=format" .) }} 300w,
+        {{ (printf "%s?w=400&ar=4:3&fit=crop&auto=format" .) }} 400w,
+        {{ (printf "%s?w=600&ar=4:3&fit=crop&auto=format" .) }} 600w,
+        {{ (printf "%s?w=800&ar=4:3&fit=crop&auto=format" .) }} 800w,
+        {{ (printf "%s?w=1200&ar=4:3&fit=crop&auto=format" .) }} 1200w"
+    >
 {{ end }}

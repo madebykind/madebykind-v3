@@ -77,24 +77,24 @@ Education is a fundamental human right. For children and youth caught up in emer
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4 lg:col-start-5" src="../images/work-unesco-internal-page.jpg" alt="A tablet device with a page from the Digital PDF report" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4 lg:col-start-5" src="work-unesco-internal-page.jpg" alt="A tablet device with a page from the Digital PDF report" >}}
 
   <div class="flex items-center bg-white col-span-full lg:col-span-4">
 
   {{< image-cycle
-    src_1="../images/work-unesco-character-1.jpg"
+    src_1="images/work-unesco-character-1.jpg"
     alt_1="An illustrated character from the digital PDF report"
-    src_2="../images/work-unesco-character-2.jpg"
+    src_2="images/work-unesco-character-2.jpg"
     alt_2="An illustrated character from the digital PDF report"
-    src_3="../images/work-unesco-character-3.jpg"
+    src_3="images/work-unesco-character-3.jpg"
     alt_3="An illustrated character from the digital PDF report"
-    src_4="../images/work-unesco-character-4.jpg"
+    src_4="images/work-unesco-character-4.jpg"
     alt_4="An illustrated character from the digital PDF report" >}}
 
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-unesco-illustration-wide.jpg" alt="A large illustration from the digital PDF report" >}}
+{{< figure wrapperclass="" src="work-unesco-illustration-wide.jpg" alt="A large illustration from the digital PDF report" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -111,7 +111,7 @@ Education is a fundamental human right. For children and youth caught up in emer
   </div>
 </div>
 
-{{< figure wrapperclass="" src="../images/work-unesco-online.jpg" alt="The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building" align="left" >}}
+{{< figure wrapperclass="" src="work-unesco-online.jpg" alt="The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building" align="left" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -124,4 +124,4 @@ Education is a fundamental human right. For children and youth caught up in emer
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="../images/work-unesco-flat.jpg" alt="Flat images of pages from a report document" >}}
+{{< figure align="right" wrapperclass="" src="work-unesco-flat.jpg" alt="Flat images of pages from a report document" >}}

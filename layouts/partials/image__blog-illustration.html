@@ -1,17 +1,17 @@
 
 {{ $src := (.Params.illustration ) }}
-{{ $img := resources.GetMatch (printf "**%s" ($src)) }}
+{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
 
-{{ with $img }}
-  {{- $xl := $img.Resize "624x" -}}
-  {{ $sm := $xl.Resize "312x" -}}
+{{ with $src }}
 
   <img
     class="object-cover h-40 sm:h-64 md:h-24 lg:h-36 xl:h-64 w-auto"
     loading=lazy
     sizes="(min-width: 100em) 33vw, 96vw"
-    src="{{ $sm.RelPermalink }}"
-    srcset="{{ $sm.RelPermalink }} 300w,{{ $xl.RelPermalink }} 600w,{{ $xl.RelPermalink }} 800w"
+    src="{{ (printf "%s?w=624&auto=format" .) }}"
+    srcset="
+    {{ (printf "%s?w=312&auto=format" .) }} 300w,
+    {{ (printf "%s?w=624&auto=format" .) }} 600w"
     height="156"
     width="156"
     role="presentation"
