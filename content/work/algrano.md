@@ -80,7 +80,7 @@ We create change with technology to enable independent producers and roasters to
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="work-algrano-storyboard-v2.png" alt="Storyboard screens from Algrano explainer video" >}}
+{{< figure align="right" wrapperclass="" src="work-algrano-storyboard-2x.jpg" alt="Storyboard screens from Algrano explainer video" >}}
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/961065909?h=9721d21e6f&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -97,9 +97,9 @@ We create change with technology to enable independent producers and roasters to
 
 {{< image-cycle
   align="left"
-  src_1="images/work-algrano-uis-image-v2-1.png"
+  src_1="images/work-algrano-wireframe-2x.jpg"
   alt_1="Algrano website wireframes"
-  src_2="images/work-algrano-uis-image-v2-2.png"
+  src_2="images/work-algrano-ui-2x.jpg"
   alt_2="Algrano website user interface" >}}
 
 <!-- Text right -->
