@@ -71,6 +71,15 @@
     <script type="application/ld+json">
       {{ jsonify (dict "indent" "  ") $m | safeJS }}
     </script>
+
+    <!-- Analytics -->
+    {{ if not .Site.IsServer }}
+      <script src="https://getinsights.io/js/insights.js" async></script>
+      <script>
+        insights.init('N96lhlRPan5nwYhX');
+        insights.trackPages();
+      </script>
+    {{ end }}
     
   </body>
 </html>
