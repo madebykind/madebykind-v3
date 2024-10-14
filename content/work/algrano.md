@@ -1,4 +1,4 @@
-![work-algrano-ui-2x](https://github.com/user-attachments/assets/2adf60af-5abd-4e3c-8f0d-d6821a55c849)---
+---
 heading: Ensuring a fair deal across the global coffee community
 title: Algrano - Brand Case Study - Ethical Business
 draft: false
