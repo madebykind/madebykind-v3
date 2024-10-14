@@ -55,13 +55,4 @@
 	{{ range .AlternativeOutputFormats -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
-
-  <!-- Analytics -->
-  {{ if not .Site.IsServer }}
-    <script src="https://getinsights.io/js/insights.js" async></script>
-    <script>
-      insights.init('N96lhlRPan5nwYhX');
-      insights.trackPages();
-    </script>
-  {{ end }}
 </head>
