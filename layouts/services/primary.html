@@ -26,7 +26,13 @@
       </div>
       {{ range $index, $e := .Pages }}
         <div class="col-span-full md:col-span-2 lg:col-span-4 2xl:col-span-3 flex flex-col gap-5  {{ if (modBool $index 3) }} 2xl:col-start-1 {{ else }} 2xl:col-start-auto {{ end }}">
-          <h3 class="h4">{{ $e.Params.Heading }}</h3>
+          <h3 class="h4">
+            {{ if $e.Params.Draft }}
+              {{ $e.Params.Heading }}
+            {{ else }}
+              <a href="$e.Permalink">{{ $e.Params.Heading }}</a>
+            {{ end }}
+          </h3>
           {{ $e.Params.intro | markdownify }}
         </div>
       {{ end }}

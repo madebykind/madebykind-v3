@@ -32,11 +32,4 @@ related_posts:
     - building-a-more-sustainable-website-architecture
     - finding-the-common-ground-between-your-organisation-and-its-audience
 layout: primary
-_build:
-  render: always
-cascade:
-  _build:
-    render: never
-    list: true
-    publishResources: true
 ---

@@ -6,6 +6,7 @@ description: Guiding visual and conceptual elements for a cohesive and memorable
 header_class: 
 toc: true
 hidden: false
+draft: true
 intro: Guiding visual and conceptual elements for a cohesive and memorable brand identity, ensuring consistency for lasting impressions.
 related_pages:
 related_posts:

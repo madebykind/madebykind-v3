@@ -86,11 +86,4 @@ packages:
           url: "/contact/"
           text: Get in touch
 layout: primary
-_build:
-  render: always
-cascade:
-  _build:
-    render: never
-    list: true
-    publishResources: true
 ---

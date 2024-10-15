@@ -5,6 +5,7 @@ date: 2020-04-30T17:28:36.948Z
 description: We regularly integrate with CRM tools from Microsoft Dynamics to ThankQ and Spektrix, reducing our clients’ workload and giving them a joined up picture of their users.
 header_class: 
 hidden: false
+draft: true
 intro: We regularly integrate with CRM tools from Microsoft Dynamics to ThankQ and Spektrix, reducing our clients’ workload and giving them a joined up picture of their users.
 related_pages:
 related_posts:

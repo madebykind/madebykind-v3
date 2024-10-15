@@ -19,7 +19,7 @@
     {{ end }}
     {{ if .Params.related_posts }}
       <div class="mt-10 lg:mt-20">
-        <h2 class="h3">Insights on {{ .Page.Heading }}</h2>
+        <h2 class="h3">Insights on {{ .Params.Heading }}</h2>
         <ul class="flex flex-wrap gap-10 mt-5 lg:gap-20">
           {{ range .Params.related_posts }}
             {{ with site.GetPage . }}

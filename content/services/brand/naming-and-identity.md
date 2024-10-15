@@ -6,6 +6,7 @@ description: Creating impactful brand and product names that define a distinct i
 header_class: 
 toc: true
 hidden: false
+draft: true
 intro: Creating impactful brand and product names that define a distinct identity based on core beliefs.
 related_pages:
 related_posts:

@@ -6,6 +6,7 @@ description: Shaping a cohesive visual narrative for enhanced recognition and a 
 header_class: 
 toc: true
 hidden: false
+draft: true
 intro: Shaping a cohesive visual narrative for enhanced recognition and a consistent, memorable visual identity through photography and motion.
 related_pages:
 related_posts:
