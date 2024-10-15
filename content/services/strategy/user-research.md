@@ -6,6 +6,7 @@ description: Using quantitative and qualitative research methods, we run worksho
 header_class: 
 toc: true
 hidden: false
+draft: true
 intro: Using quantitative and qualitative research methods, we run workshops, online testing and undertake desk-based research to fully understand our partners audiences and to efficiently plan their near and long-term goals.
 related_pages:
 related_posts:

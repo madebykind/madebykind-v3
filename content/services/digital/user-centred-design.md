@@ -6,6 +6,7 @@ related_work:
 header_class: bg-pink text-claret
 toc: true
 hidden: false
+draft: true
 intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
 title: User-centred design
 heading: User-centred design
@@ -48,7 +49,7 @@ Starting by understanding users, their needs and how they align with an organisa
 These features are then developed iteratively and evaluated with real users as they grow from a rough concept to a completed feature ready to be released into the wild.
 
 <h4 class="mt-10">Examples of user-centred digital products</h4>
-    <ul>
+    <ul class="list-none">
       <li class="mt-5">
         <a class="flex justify-between gap-5 py-2.5 leading-tight font-serif" href="https://airbnb.com">Airbnb
           <svg class="w-12 h-4 flex-no-shrink" role="presentation">
@@ -97,7 +98,7 @@ These features are then developed iteratively and evaluated with real users as t
     </div>
     <div class="col-span-full md:col-span-6">
     
-![Mocks of RWB branding on a laptop](../../images/empowering-change.png )
+![Mocks of RWB branding on a laptop](https://madebykind.imgix.net/empowering-change.png )
 
   </div>
 </section>

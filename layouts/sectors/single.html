@@ -100,26 +100,25 @@
   {{ with .Params.related_projects }}
   <div class="bg-buff text-indigo" id="clients">
     <h2 class="sr-only">Examples of our work in the {{ $sector }} sector</h2>
-    {{ $projects := . }}
-    {{ $count := len $projects }}
     
-    {{ range $i, $e := . }}
-      {{ with $e.slug }}
-        {{ with site.GetPage . }}
-          {{ partial "teaser__work-wide" (dict 
-            "indent_images" $e.indent_images
-            "indent_text" $e.indent_text
-            "index" $i
-            "count" $count
-            "context" .
-            "show_button" (eq $i (sub $count 1))
-            "button_url" "#testimonials"
-            "button_text" "Happy clients though?"
-            "wrapper_class" "min-h-screen"
-          ) }}
+    <div class="flex flex-col gap-20 lg:gap-40 2xl:gap-60 my-20 lg:my-40 2xl:my-60">
+      {{ range $index, $element := . }}
+        {{ $odd := false }}
+        {{ if not (modBool $index 2)}}
+          {{ $odd = true }}
+        {{ end }}
+
+        {{ with $element.slug }}
+          {{ with site.GetPage . }}
+            {{ partial "teaser__client" (dict 
+              "index" $index
+              "context" .
+              "odd" $odd
+            ) }}
+          {{ end }}
         {{ end }}
       {{ end }}
-    {{ end }}
+    </div>
   </div>
   {{ end }}
 

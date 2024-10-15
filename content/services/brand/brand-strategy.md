@@ -6,6 +6,7 @@ description: Crafting a plan for a distinctive brand by defining vision, values,
 header_class: 
 toc: true
 hidden: false
+draft: true
 intro: Crafting a plan for a distinctive brand by defining vision, values, and manifesto, identifying audiences, and setting clear objectives for loyalty and differentiation.
 related_pages:
 related_posts:
