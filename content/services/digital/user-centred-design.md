@@ -5,8 +5,7 @@ related_work:
   - the-rivers-trust
 header_class: bg-pink text-claret
 toc: true
-hidden: false
-draft: true
+hidden: true
 intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
 title: User-centred design
 heading: User-centred design
