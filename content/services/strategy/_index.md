@@ -33,4 +33,11 @@ related_posts:
     - start-your-next-digital-project-with-a-paid-discovery-phase
     - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
 layout: primary
+_build:
+  render: always
+cascade:
+  _build:
+    render: never
+    list: true
+    publishResources: true
 ---
