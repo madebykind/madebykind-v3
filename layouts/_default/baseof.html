@@ -1,3 +1,4 @@
+{{ block "fullPage" . }}
 <!doctype html>
 <html class="min-h-full js-loading {{ if eq "sectors" .Section  }}snap-y snap-proximity overflow-y-auto h-screen{{ end }}" lang="{{ $.Site.Language.Lang }}" itemscope itemtype="http://schema.org/WebPage">
 
@@ -83,3 +84,4 @@
     
   </body>
 </html>
+{{ end }}
