@@ -5,6 +5,8 @@ title: How we use your data
 heading: How we use your data
 toc: false
 url: /about/legal/privacy/
+social_img_txt: "How we use your data"
+social_img_color: "navy"
 ---
 
 We’re firm believers in transparency when it comes to how we store and use personal data. Here’s our (very short) privacy policy.

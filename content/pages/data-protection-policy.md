@@ -4,6 +4,8 @@ description: How we gather and process data
 title: Data Protection Policy
 heading: Data Protection Policy
 url: /about/legal/data-protection-policy/
+social_img_txt: "Data Protection Policy"
+social_img_color: "navy"
 ---
 
 Future Friendly Ltd needs to gather and use certain information about individuals.

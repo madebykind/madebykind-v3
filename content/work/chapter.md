@@ -48,6 +48,7 @@ teaser:
       alt: A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.
     - img: images/work-chapter-poster-underground.jpg
       alt: A single poster mockup for the performance 'Dani Dinger - No Sense of Watching'. The poster is in a subway.
+social_img_txt: "Brand development of an international arts centre"
 ---
 
 

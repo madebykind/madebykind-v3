@@ -4,6 +4,8 @@ description: How we use cookies and what it means to you.
 title: Cookie Policy
 heading: Cookie Policy
 url: /about/legal/cookies/
+social_img_txt: "Cookie Policy"
+social_img_color: "navy"
 ---
 
 __This site does not use cookies__, none. If you'd like to learn about cookies, how they are used by some other websites, and what that means to you [Cookiesandyou.com](https://www.cookiesandyou.com/) is a great place to start.

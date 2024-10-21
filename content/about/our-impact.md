@@ -23,4 +23,6 @@ related_posts:
   - who-gives-a-damn-well-we-do-actually
   - building-a-more-sustainable-website-architecture
   - creating-sustainable-and-ethical-digital-products
+social_img_txt: "We give a damn"
+social_img_color: "teal"
 ---

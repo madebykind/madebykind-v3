@@ -39,6 +39,7 @@ banner_type: standard
 banner_img: images/Work-VA-Header-BG.jpg
 banner_img_alt: The Ancient City of Petra, Jordan
 banner_icon: va-logo
+social_img_txt: "Working with the world’s leading art and design museum"
 ---
 
 

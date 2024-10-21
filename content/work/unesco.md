@@ -43,6 +43,7 @@ teaser:
         - 224-unesco
     - img: images/work-unesco-internal-page.jpg
       alt: A tablet device with a page from the Digital PDF report
+social_img_txt: "Ensuring access to education for millions of children"
 ---
 
 <!-- Text left -->

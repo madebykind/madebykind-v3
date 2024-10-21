@@ -40,6 +40,7 @@ teaser:
         - 18k
     - img: images/work-garden-organic-garden.jpg
       alt: A photograph of a kitchen garden
+social_img_txt: "Growing organically for a healthy and sustainable world"
 ---
 
 {{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden">}}

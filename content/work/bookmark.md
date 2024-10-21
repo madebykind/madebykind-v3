@@ -52,6 +52,8 @@ toc_replacements:
     short: Stand out digital design
   - long: A simple user-friendly, help centre
     short: User-centred help-centre
+social_img: images/work-bookmark-laptop-child.jpg
+social_img_txt: "Raising awareness of the childhood literacy gap in the UK"
 ---
 
 {{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn 'Thank you' signs">}}

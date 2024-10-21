@@ -13,6 +13,8 @@ intro: >
   Our work delivers faster, bigger, more effective results for our clients’ causes – in the charity sector, sustainability, research, the environment, and the arts.
 title: Our manifesto
 heading: Well-worn paths are never going to lead to a better world.
+social_img_txt: "Well-worn paths are never going to lead to a better world."
+social_img_color: "navy"
 ---
 
 <div class="grid gap-10 md:grid-cols-2 lg:gap-20 section--lg">

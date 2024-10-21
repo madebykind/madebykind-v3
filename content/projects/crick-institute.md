@@ -6,7 +6,7 @@ name: The Francis Crick Institute
 images:
   - image: images/crick-project-1.jpg
     img_alt: A desktop mockup of an event page
-  - image: images/crick-project-2.png
+  - image: images/Crick-Project-2.png
     img_alt: mobile mockups of an web pages
   - image: images/crick-project-3.jpg
     img_alt: A desktop mockup of a landing page

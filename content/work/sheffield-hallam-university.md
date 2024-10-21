@@ -53,6 +53,7 @@ teaser:
       alt: A young boy with a VR headset
       stat:
         - 40-percent
+social_img_txt: "Creating a sustainable design system to improve the efficiency of digital projects"
 ---
 
 <!-- Text left -->

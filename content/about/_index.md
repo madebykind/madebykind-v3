@@ -13,4 +13,6 @@ title: About us
 heading: Big heart, huge results
 related_work:
     - rewilding-britain
+social_img_txt: Big heart, huge results
+social_img_color: "pink"
 ---

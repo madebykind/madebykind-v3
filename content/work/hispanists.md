@@ -24,6 +24,7 @@ banner_type: standard
 banner_img: images/work-hispanists-logo.jpg
 banner_img_alt: The AHGBI logo on a red background
 banner_logo_class: text-black
+social_img_txt: "Connecting global Iberian academia"
 ---
 
 <!-- Text left -->

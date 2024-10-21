@@ -9,6 +9,7 @@ hidden: false
 featured: true
 title: Brand
 seo_title: Brand strategy, visual identity for purpose-driven organisations
+social_img_txt: Brands that capture attention and hearts
 heading: Brands that capture attention and hearts
 date: 2020-04-30T17:28:36.948Z
 weight: 2

@@ -47,9 +47,9 @@
 	{{ end }}
 
 	<!-- Hugo internal meta templates -->
-	{{ template "_internal/opengraph.html" . }}
-	{{ template "_internal/schema.html" . }}
-	{{ template "_internal/twitter_cards.html" . }}
+	{{ partial "opengraph.html" . }}
+	{{ partial "schema.html" . }}
+	{{ partial "twitter_cards.html" . }}
 
 	<!-- Maybe we're not doing html! -->
 	{{ range .AlternativeOutputFormats -}}

@@ -10,4 +10,6 @@ page_class: bg-indigo text-buff min-h-dynamic-screen snap-start section
 cta_hidden: true
 intro: If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.
 layout: contact
+social_img_txt: "Contact Kind"
+social_img_color: "navy"
 ---

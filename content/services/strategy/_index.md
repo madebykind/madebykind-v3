@@ -10,6 +10,7 @@ hidden: false
 featured: true
 title: Strategy
 seo_title: Digital strategy, user research and technical consultancy for purpose-driven organisations
+social_img_txt: Strategic thinking to make a difference
 heading: Strategic thinking to make a difference
 date: 2020-04-30T17:28:36.948Z
 weight: 1

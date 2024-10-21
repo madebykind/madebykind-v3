@@ -7,7 +7,7 @@ name: Nest
 images:
   - image: images/nest-project-1.jpg
     img_alt: A desktop mockup of the Nest HQ homepage
-  - image: images/nest-project-2.png
+  - image: images/Nest-Project-2.png
     img_alt: Mobile mockups of the Nest HQ website
   - image: images/nest-project-3.jpg
     img_alt: A desktop mockup of an article on Nest HQ

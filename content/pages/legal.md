@@ -4,6 +4,8 @@ description: We respect your privacy. This policy desribes what you need to know
 title: Legal policies
 heading: Legal policies
 url: /about/legal/
+social_img_txt: "Legal policies"
+social_img_color: "navy"
 ---
 
 Kind is a trading name of Future Friendly Ltd, a company registered in England and Wales.
