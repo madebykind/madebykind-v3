@@ -9,6 +9,7 @@ hidden: false
 featured: true
 title: Digital
 seo_title: Digital services for purpose-driven organisations
+social_img_txt: A digital force for good
 heading: A digital force for good
 date: 2020-04-30T17:28:36.948Z
 weight: 3

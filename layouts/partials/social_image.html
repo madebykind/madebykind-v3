@@ -1,0 +1,60 @@
+{{ $title64 := "" }}
+{{ $imgAttr := "" }}
+{{ $imgUrl := "" }}
+{{ $logoWhite := "aHR0cHM6Ly9tYWRlYnlraW5kLmltZ2l4Lm5ldC9raW5kLWxvZ28td2hpdGUucG5n" }}
+{{ $logoBuff := "aHR0cHM6Ly9tYWRlYnlraW5kLmltZ2l4Lm5ldC9raW5kLWxvZ28tYnVmZi5wbmc=" }}
+{{ $logoBlue := "aHR0cHM6Ly9tYWRlYnlraW5kLmltZ2l4Lm5ldC9raW5kLWxvZ28tYmx1ZS5wbmc=" }}
+{{ $logoGreen := "aHR0cHM6Ly9tYWRlYnlraW5kLmltZ2l4Lm5ldC9raW5kLWxvZ28tZ3JlZW4ucG5n" }}
+
+{{- with .context.Params.social_img_txt | plainify }}
+  {{ $title64 = upper . }}
+  {{ $title64 = $title64 | base64Encode }}
+  {{ $title64 = replace $title64 "==" "" }}
+{{- end }}
+
+{{ $mark64 := "https://assets.imgix.net/~text?txt-track=-2&txt-font=HelveticaNeue-CondensedBlack&txt-pad=50&txt-color=[TXTCOLOUR]&txt64=[TITLE64]&txt-size=180&h=960&w=1280&txt-lead=-50&txt-align=bottom%2Cleft" }}
+{{ $mark64 = (replace $mark64 "[TITLE64]" $title64) }}
+
+{{ $imgixAttrImg := "mark-align=bottom,left&mark-pad=0&mark64=[MARK64]&w=1920&ar=2%3A1&fit=crop&crop=entropy&blend64=[LOGOIMG]&blend-mode=normal&blend-w=160&blend-x=50&blend-y=50[DARKEN]" }}
+
+
+{{- with or .context.Params.social_img .context.Params.cover_img }}
+  {{ $mark64 = (replace $mark64 "[TXTCOLOUR]" "FFFFFF") | base64Encode }}
+  {{ $mark64 = replace $mark64 "==" "" }}
+  {{ $imgixAttrImg = (replace $imgixAttrImg "[LOGOIMG]" $logoWhite) }}
+  {{ $imgixAttrImg = (replace $imgixAttrImg "[DARKEN]" "&bri=-10&sat=-20&con=-15") }}
+  {{ $imgAttr = (replace $imgixAttrImg "[MARK64]" $mark64) }}
+  {{ $imgUrl = replace . "images" "https://madebykind.imgix.net" }}
+  {{ $imgUrl = printf "%s" $imgAttr | printf "%s%s" "?" | printf "%s%s" $imgUrl | printf "%s" }}
+
+{{- else }}
+  {{ $colors := slice "yellow" "sky" "pink" "teal" "navy" }}
+  {{ $shuffled := shuffle $colors }}
+  {{ $random := index $shuffled 0 }}
+
+  {{ if eq $random "yellow" }}
+    {{ $imgixAttrImg = (replace $imgixAttrImg "[LOGOIMG]" $logoBlue) }}
+    {{ $mark64 = (replace $mark64 "[TXTCOLOUR]" "265494") | base64Encode }}
+  {{ else if eq $random "sky" }}
+    {{ $imgixAttrImg = (replace $imgixAttrImg "[LOGOIMG]" $logoBlue) }}
+    {{ $mark64 = (replace $mark64 "[TXTCOLOUR]" "265494") | base64Encode }}
+  {{ else if eq $random "pink" }}
+    {{ $imgixAttrImg = (replace $imgixAttrImg "[LOGOIMG]" $logoGreen) }}
+    {{ $mark64 = (replace $mark64 "[TXTCOLOUR]" "08533C") | base64Encode }}
+  {{ else if eq $random "teal" }}
+    {{ $imgixAttrImg = (replace $imgixAttrImg "[LOGOIMG]" $logoBlue) }}
+    {{ $mark64 = (replace $mark64 "[TXTCOLOUR]" "265494") | base64Encode }}
+  {{ else if eq $random "navy" }}
+    {{ $imgixAttrImg = (replace $imgixAttrImg "[LOGOIMG]" $logoBuff) }}
+    {{ $mark64 = (replace $mark64 "[TXTCOLOUR]" "F1EBE8") | base64Encode }}
+  {{ end }}
+
+  {{ $mark64 = replace $mark64 "==" "" }}
+  {{ $imgixAttrImg = (replace $imgixAttrImg "[DARKEN]" "") }}
+  {{ $imgAttr = (replace $imgixAttrImg "[MARK64]" $mark64) }}
+  {{ $imgUrl = printf "https://madebykind.imgix.net/%s.png" $random }}
+  {{ $imgUrl = printf "%s" $imgAttr | printf "%s%s" "?" | printf "%s%s" $imgUrl | printf "%s" }}
+
+{{- end }}
+
+<meta {{ $.paramType }}="{{ $.property }}" content="{{ htmlUnescape $imgUrl | safeHTML }}">
