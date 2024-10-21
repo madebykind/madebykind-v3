@@ -26,7 +26,7 @@ banner_type: standard
 banner_img: images/work-jackson-crane-p80-2.jpg
 banner_img_alt: Rendered image of a biophilic house
 banner_icon: jackson-crane-logo
-social_img_txt: " "
+social_img_txt: "Bringing focus to a sustainable architecture and interior design practice"
 ---
 
 {{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" img="images/Work-Jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" >}}

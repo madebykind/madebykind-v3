@@ -31,7 +31,7 @@ banner_img_alt: Interior of an old industrial building, now an art gallery
 banner_logo_class: text-indigo
 banner_icon: backlit-logo
 toc: true
-social_img_txt: " "
+social_img_txt: "Supporting an Internationally Renowned Art Gallery"
 ---
 
 {{< workquote source="Backlit Gallery" logo="logo-square-backlit" img="images/Work-Backlit-Exhibition.jpg" alt="An exhibition at Backlit Gallery">}}

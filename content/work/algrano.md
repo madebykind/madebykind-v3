@@ -41,7 +41,8 @@ toc_replacements:
   - long: User-journey creation
   - long: Capturing the heart of Algrano
     short: Engaging digital design
-social_img_txt: " "
+social_img: images/work-algrano-growers.jpg
+social_img_txt: "Ensuring a fair deal across the global coffee community"
 ---
 
 {{< workquote logo="algrano-logo" img="images/work-algrano-growers.jpg" alt="A woman and a man inspect a coffee plant">}}

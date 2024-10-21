@@ -40,7 +40,7 @@ teaser:
       alt: A landscape image of a river taken from a drone
       stat:
         - 1000s
-social_img_txt: " "
+social_img_txt: "A user-centred website to build awareness and gain public support"
 ---
 
 {{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" img="images/work-rivers-trust-sandals.jpg" alt="Feet in a shallow river stream">}}

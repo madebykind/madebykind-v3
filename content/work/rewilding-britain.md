@@ -52,7 +52,7 @@ teaser:
         - 149-percent
     - img: images/work-rewilding-britain-teaser.jpg
       alt: A Blue Tit on a branch
-social_img_txt: " "
+social_img_txt: "A platform to inspire rewilding projects across the country"
 ---
 
 <!-- Text left -->
