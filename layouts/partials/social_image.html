@@ -31,7 +31,7 @@
     {{ $mark64 = (replace $mark64 "[TXTCOLOUR]" "FFFFFF") | base64Encode }}
     {{ $mark64 = replace $mark64 "==" "" }}
     {{ $imgixAttrImg = (replace $imgixAttrImg "[LOGOIMG]" $logoWhite) }}
-    {{ $imgixAttrImg = (replace $imgixAttrImg "[DARKEN]" "&bri=-10&sat=-20&con=-15") }}
+    {{ $imgixAttrImg = (replace $imgixAttrImg "[DARKEN]" "&bri=-15&sat=-30&con=-25") }}
     {{ $imgAttr = (replace $imgixAttrImg "[MARK64]" $mark64) }}
     {{ $imgUrl = replace . "images" "https://madebykind.imgix.net" }}
     {{ $imgUrl = printf "%s" $imgAttr | printf "%s%s" "?" | printf "%s%s" $imgUrl | printf "%s" }}
