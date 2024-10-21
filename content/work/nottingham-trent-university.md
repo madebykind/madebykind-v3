@@ -46,6 +46,7 @@ teaser:
       alt: A page from the NTU website on a mobile device
     - img: images/work-ntu-bonnington.jpg
       alt: The Bonnington Gallery
+social_img_txt: " "
 ---
 
 {{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-bonnington.jpg" alt="Bonnington Gallery" >}}

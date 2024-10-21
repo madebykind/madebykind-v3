@@ -4,6 +4,8 @@ description: How we ensure we deliver a quality product
 title: Quality assurance policy
 heading: Quality assurance policy
 url: /about/legal/quality-assurance-policy/
+social_img_txt: "Quality assurance Policy"
+social_img_color: "navy"
 ---
 
 Future Friendly Ltd (“The company”) is wholly committed to our quality policy which is in place to ensure our services fully meet the requirements of our customers at all times. The company’s goal is to be the go-to digital agency for socially responsible organisations. To achieve this goal we are committed to implementing, maintaining and continually assessing operational systems and processes.

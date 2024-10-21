@@ -34,4 +34,5 @@ related_stats:
   - socially-reponsible
   - charity-donations
   - gender-neutral
+social_img: images/mat-and-michelle.jpg
 ---

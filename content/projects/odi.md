@@ -6,7 +6,7 @@ name: The Open Data Institute
 images:
   - image: images/odi-project-1.jpg
     img_alt: A desktop mockup of the ODI Open Standards for Data guidebook
-  - image: images/odi-project-2.png
+  - image: images/ODI-Project-2.png
     img_alt: Mobile mockups of the ODI Open Standards for Data guidebook
   - image: images/odi-project-3.jpg
     img_alt: A desktop mockup of the ODI Patterns Catalogue website

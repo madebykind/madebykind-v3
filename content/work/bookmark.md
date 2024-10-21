@@ -52,6 +52,7 @@ toc_replacements:
     short: Stand out digital design
   - long: A simple user-friendly, help centre
     short: User-centred help-centre
+social_img_txt: " "
 ---
 
 {{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn 'Thank you' signs">}}

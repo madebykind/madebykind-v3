@@ -15,6 +15,8 @@ services:
   - services/digital
 layout: work
 hidden: true
+social_img_txt: Ethical work is excellent work
+social_img_color: "teal"
 cascade:
   _build:
     publishResources: true

@@ -13,4 +13,6 @@ hidden: true
 intro: Our expertise in digital and brand strategy supports organisations that are doing good.
 img_2: images/take-the-reigns.png
 img_2_alt: A young lady, looking behind her and taking a lead for a walk.
+social_img_txt: "We drive change from our own lane."
+social_img_color: "pink"
 ---

@@ -25,23 +25,25 @@
     </div>
     <ul>
       {{ range (where site.RegularPages "Section" "projects" ) }}
-        <li data-topics="
-          {{- with .Params.topics -}}
-            {{- range . -}}
-              {{ . | anchorize }}
-            {{ end -}}
-          {{- end -}}
-          {{- with .Params.services -}}
-            {{- range . -}}
-              {{ . | anchorize }}
-            {{ end -}}
-          {{- end -}}
-        "> 
-          {{ partial "teaser__project" (dict
-            "context" .
-            "link" false
-          ) }}
-        </li>
+        {{ if .Params.images }}
+          <li data-topics="
+            {{- with .Params.topics -}}
+              {{- range . -}}
+                {{ . | anchorize }}
+              {{ end -}}
+            {{- end -}}
+            {{- with .Params.services -}}
+              {{- range . -}}
+                {{ . | anchorize }}
+              {{ end -}}
+            {{- end -}}
+          "> 
+            {{ partial "teaser__project" (dict
+              "context" .
+              "link" false
+            ) }}
+          </li>
+        {{ end }}
       {{ end }}
     </ul>
   </section>

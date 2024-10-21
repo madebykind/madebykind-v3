@@ -4,6 +4,8 @@ description: Details of who owns and manages our company
 title: Governance
 heading: Governance
 url: /about/legal/governance/
+social_img_txt: "Governance"
+social_img_color: "navy"
 ---
 
 The following members of our team make up our board and are responsible for the success of our business.

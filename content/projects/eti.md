@@ -7,7 +7,7 @@ name: The Energy Technologies Institute
 images:
   - image: images/eti-project-1.jpg
     img_alt: A desktop mockup of the ETI homepage
-  - image: images/eti-project-2.png
+  - image: images/ETI-Project-2.png
     img_alt: Mobile mockups of the ETI website
   - image: images/eti-project-3.jpg
     img_alt: A desktop mockup of a publication on the ETI website
