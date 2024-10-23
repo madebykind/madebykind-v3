@@ -7,7 +7,7 @@
         <use xlink:href="#icon-hamburger"/>
       </svg>
     </button>
-    <div class="flex-wrap items-center justify-between hidden w-full gap-5 md:flex lg:gap-10 lg:flex-grow">
+    <div class="flex-wrap items-center justify-between lg:flex-grow w-full hidden gap-5 md:flex lg:gap-10 ">
       <nav class="inline-flex lg:justify-center lg:flex lg:flex-grow" aria-label="Main menu">
         <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:max-w-4xl lg:justify-between" role="list">
           {{ $currentPage := . }}
@@ -32,30 +32,5 @@
   </div>
 
   {{/* Mobile */}}
-  <div id="mobile-navigation" class="mobile-navigation flex items-center bg-indigo text-buff md:hidden">
-    <button type="button" class="absolute top-7 right-5 text-buff" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="mobile-navigation">
-      <svg class="w-6 h-6">
-        <use xlink:href="#icon-close"/>
-      </svg>
-    </button>
-    <div class="flex flex-col w-full gap-10">
-      <nav aria-label="Main menu">
-        <ul class="flex flex-col items-center justify-center gap-10 m-0 list-none" role="list">
-          {{ range .Site.Menus.main }}
-          <li class="text-xl h--condensed leading-heading">
-            <a href="{{ .URL }}" class="no-underline">{{- .Name -}}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </nav>
-      <div class="inline-flex items-center justify-center gap-5">
-        <svg class="w-24 h-32" role="presentation">
-          <use xlink:href="#icon-bcorp"/>
-        </svg>
-        <svg class="w-32 h-24" role="presentation">
-          <use xlink:href="#icon-1fortheplanet"/>
-        </svg>
-      </div>
-    </div>
-  </div>
+  {{ partial "mobile-navigation" . }}  
 </header>

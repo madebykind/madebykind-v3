@@ -6,7 +6,10 @@
     <ol class="grid gap-10 md:grid-cols-12 section ">
       {{ range ( where ( where .Pages "Params.featured" "==" true ) "Params.unlisted" "!=" true ) }}
         <li class="md:col-span-6 xl:col-span-4" data-topics="{{ with .Params.key_topic }}{{ . | anchorize }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
-          {{ partial "card" . }}
+          {{ partial "card" (dict 
+            "context" .
+            "tall" false
+          ) }}
         </li>
       {{ end }}
     </ol>

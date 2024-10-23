@@ -1,0 +1,30 @@
+<section class="snap-start pt-[15vw] relative z-10 bg-indigo">
+  <div class="container flex items-end justify-between">
+    <div class="max-w-5xl prose">
+      <h2 class="h1">{{ .Params.work_heading }}</h2>
+      <p class="lede">{{ .Params.work_intro }}</p>
+    </div>
+    <a class="btn btn--teal" href="/work/" onclick="javascript:insights.track({id: 'home-work-button-main',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">Our work<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+          <use xlink:href="#icon-arrow"></use>
+        </svg>
+      </a>
+  </div>
+    
+  <ul class="list-none flex flex-col gap-20 lg:gap-40 2xl:gap-60 py-20 lg:py-40 2xl:py-60" role="list">
+      {{ range $index, $element := ( where (where site.RegularPages "Section" "work" ) ".Params.featured" "eq" true ) }}
+
+        {{ $odd := false }}
+        {{ if not (modBool $index 2)}}
+          {{ $odd = true }}
+        {{ end }}
+        <li>
+          {{ partial "teaser__client" (dict 
+            "index" $index
+            "context" .
+            "odd" $odd
+            "button" true
+            ) }}
+          {{ end }}
+        </li>
+    </ul>
+  </section>

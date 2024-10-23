@@ -22,7 +22,6 @@ intro: >
 
 
   Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
-featured: true
 date: 2023-06-28T12:25:28.863Z
 external_link: https://chapter.org.uk
 key_stat: null

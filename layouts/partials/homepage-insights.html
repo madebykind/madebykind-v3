@@ -1,0 +1,14 @@
+<section class="bg-buff text-indigo py-24 lg:py-48 xl:py-56 mb-[100dvh] relative z-10">
+	<div class="container">
+		<div class="flex gap-10 justify-between items-end mb-12 lg:mb-24">
+			<h2 class="text-3xl h--condensed">Insights from our strategic, creative and technical experts.</h2>
+			<a class="btn btn--secondary shrink-0" href="/blog/" onclick="javascript:insights.track({id: 'home-insights-more',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+				More insights
+				<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+					<use xlink:href="#icon-arrow"/>
+				</svg>
+			</a>
+		</div>
+		{{ partial "latest_posts.html" . }}
+	</div>
+</section>

@@ -31,8 +31,8 @@ banner_img: images/work-unesco-school.jpg
 banner_img_alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera
 toc: true
 teaser:
-  title: Ensuring access to education for millions of children
-  description: A global user-centred design process that resulted in the delivery of a digital report and knowledge base to support governments in strengthening the systems that provide education, in preparation for emergencies such as conflict or natural disaster
+  title: Access to education for millions of children
+  description: A user-centred design process delivering a digital report to help governments strengthen education systems for emergencies.
   images:
     - img: images/work-unesco-flat.jpg
       alt: Flat images of pages from a report document
@@ -44,6 +44,7 @@ teaser:
     - img: images/work-unesco-internal-page.jpg
       alt: A tablet device with a page from the Digital PDF report
 social_img_txt: "Ensuring access to education for millions of children"
+client: UNESCO
 ---
 
 <!-- Text left -->

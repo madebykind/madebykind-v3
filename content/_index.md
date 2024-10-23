@@ -1,38 +1,42 @@
 ---
-cover_img: images/true-to-who-we-are-v1.png
-cover_img_alt: A giant friendly hand, holding a small flower
-cta_img: images/raise-expectations-broccoli.png
-cta_img_alt: A giant friendly hand, watering a small plant with a tiny watering can.
-cta: More about kind
-ctaLink: /about/
-cta2: Our approach
-cta2Link: /services/#how-we-work
 cta3Title: Raise your expectations
 cta3Copy: Ethical work is excellent work. We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
 cta3: Our work
 cta3Link: /work/
 cta4: Services
 cta4Link: /services/
+cover_img: images/true-to-who-we-are-v1.png
+cover_img_alt: A giant friendly hand, holding a small flower
 date: 2020-04-24T10:48:46.000Z
 description: We’re a small but powerful team of carefully selected senior professionals. Strategy, brand, digital – we bring it all together and drive change in ways that really matter.
-title: Strategy, Brand, Digital
+title: Ethical creative agency
 services:
   - brand
   - digital
   - strategy
 hidden: false
+preheading: Ethical creative agency
 heading: For the good folks
+work_heading: Partnerships that deliver real impact
+work_intro: Our client base is 100% socially responsible and purpose-driven. By using our skills and insights, we empower and lift up these organisations. A force for good behind the scenes.
 intro: >
 
-  The **wildlife protectors**, **cultural contributors** and **green architects**. We’re for everyone who’s making a change for&nbsp;good.
-
-
-  That’s not you ~~BP~~, ~~Amazon~~, ~~Shell~~…
-intro_md: true
+  The **wildlife protectors**, **cultural contributors** and **social innovators**. We’re for everyone who’s making a change for&nbsp;good.
 related_stats:
   - pay-gap
   - socially-reponsible
   - charity-donations
   - gender-neutral
 social_img: images/mat-and-michelle.jpg
+banner_images:
+  - img: images/strategy-image-kind-site.jpg
+    alt: Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs
+  - img: images/work-chapter-poster-bus-stop-2-landscape.jpg
+    alt: A single poster mockup for the performance ‘Always Already’. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image.
+  - img: images/work-rewilding-britain-teaser.jpg
+    alt: A Blue Tit on a branch
+  - img: images/mat-and-michelle.jpg
+    alt: Kind owners, Mat Hayward and Michelle Pavey
+  - img: images/strategy-notes.jpg
+    alt: Pam, brand strategist and Michelle, strategy director planning a project
 ---
