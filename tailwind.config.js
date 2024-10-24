@@ -76,6 +76,7 @@ module.exports = {
       minHeight: {
         '90vh': '90vh',
         'dynamic-screen': '100dvh',
+        'home-dynamic-screen': 'calc(100dvh - 70px)',
       },
       spacing: {
         '7.5': '1.875rem',
@@ -85,6 +86,7 @@ module.exports = {
       width: {
         'iphone': '400px',
         'ipad': '1080px',
+        '7/10': '70%',
       },
       transitionTimingFunction: {
         'bounce': 'cubic-bezier(0.175, 0.885, 0.32, 1.275)',

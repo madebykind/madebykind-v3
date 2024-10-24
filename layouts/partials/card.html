@@ -1,36 +1,38 @@
-<article class="h-full">
-  <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'card-{{ .Title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-    <div class="relative aspect-4/3 xl:aspect-3/4 3xl:aspect-4/3
-      
-      {{ if .Params.cover_img }}
-        {{ .Params.text_colour }} after:bg-black after:block after:inset-0 after:absolute after:h-full after:w-full after:opacity-50 
-      {{ else }}
-        {{ with .Params.card_colour }}
-          {{ . }}
+{{ with $.context }}
+  <article class="h-full">
+    <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'card-{{ .Title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+      <div class="relative {{ if $.tall }} aspect-3/4 {{ else }} aspect-4/3 xl:aspect-3/4 3xl:aspect-4/3 {{ end }}
+        
+        {{ if .Params.cover_img }}
+          {{ .Params.text_colour }} after:bg-black after:block after:inset-0 after:absolute after:h-full after:w-full after:opacity-50 
+        {{ else }}
+          {{ with .Params.card_colour }}
+            {{ . }}
+          {{ end }}
         {{ end }}
-      {{ end }}
-    ">
-      {{ if .Params.cover_img }}
-        {{ partial "image__card" . }}
-      {{ end }}
-      <div class="absolute z-10 flex flex-col items-start gap-3 lg:gap-6 inset-5 lg:inset-10 2xl:inset-5">
-        {{ with .Params.key_topic }}
-          <span class="text-sm font-bold">{{ title . }}</span>
-        {{end}}
-        <h2 class="h--condensed group-hover:underline" id="{{ .Title | anchorize }}">{{ .Title }}</h2>
+      ">
+        {{ if .Params.cover_img }}
+          {{ partial "image__card" . }}
+        {{ end }}
+        <div class="absolute z-10 flex flex-col items-start gap-3 lg:gap-6 inset-5 lg:inset-10 2xl:inset-5">
+          {{ with .Params.key_topic }}
+            <span class="text-sm font-bold">{{ title . }}</span>
+          {{end}}
+          <h2 class="h--condensed group-hover:underline" id="{{ .Title | anchorize }}">{{ .Title }}</h2>
 
-        {{ if .Params.illustration }}
-          <div class="self-end mt-auto">
-            {{ partial "image__blog-illustration" . }}
-          </div>
-        {{ end }}
+          {{ if .Params.illustration }}
+            <div class="self-end mt-auto">
+              {{ partial "image__blog-illustration" . }}
+            </div>
+          {{ end }}
+        </div>
       </div>
-    </div>
-    <div aria-hidden=true class="flex items-center gap-5 px-5 mt-5">
-      <p class="text-sm font-bold">Read the article</p>
-      <svg class="h-6 w-7" role="presentation">
-        <use xlink:href="#icon-arrow"/>
-      </svg>
-    </div>
-  </a>
-</article>
+      <div aria-hidden=true class="flex items-center gap-5 px-5 mt-5">
+        <p class="text-sm font-bold">Read the article</p>
+        <svg class="h-6 w-7" role="presentation">
+          <use xlink:href="#icon-arrow"/>
+        </svg>
+      </div>
+    </a>
+  </article>
+{{ end }}

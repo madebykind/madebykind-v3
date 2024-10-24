@@ -7,7 +7,7 @@
     {{ partial "head" . }}
   {{ end }}
   
-  <body class="antialiased min-h-screen font-serif text-base leading-normal bg-buff text-indigo auto-rows-auto liga kern w-full">
+  <body class="antialiased min-h-screen font-serif text-base leading-normal auto-rows-auto liga kern w-full {{ if .IsHome }} bg-indigo text-buff {{ else }} bg-buff text-indigo {{ end }} overflow-x-hidden">
     <!-- The Bush Kangaroo -->
     <a href="#content" class="sr-only focus:not-sr-only">Skip to content</a>
 

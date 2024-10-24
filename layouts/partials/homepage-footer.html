@@ -1,0 +1,121 @@
+<footer class="bg-navy text-buff h-[100dvh] fixed bottom-0 w-full z-0 flex flex-col gap-10">
+  <div class="container flex flex-wrap grow">
+    <div class="flex flex-col gap-15 w-3/5 shrink-0 pt-6">
+      <h1 class="text-4xl lg:text-5xl 2xl:text-6xl">Let’s make&nbsp;a difference, together</h1>
+    </div>
+    <div class="flex flex-col gap-5 self-end w-2/5">
+      {{ partial "logo" . }}
+      <p class="mt-6 leading-tight text-md">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
+      <ul class="inline-flex gap-5 mt-2 list-none" role="list">
+        <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
+          <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:insights.track({id: 'footer-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.Email}}</a>
+        </li>
+        <li>
+          <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}"onclick="javascript:insights.track({id: 'footer-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.PhonePretty}}</a>
+        </li>
+      </ul>
+      <div class="mt-24">
+          {{ partial "newsletter" (dict 
+            "url" .Permalink
+            "block_class" ""
+            "btn_text" "Subscribe"
+            "btn_class" "btn--pink-claret"
+            "border_class" "border-white focus:border-teal text-indigo"
+            "heading" "Stay in the loop"
+            "heading_class" "h3 h--condensed"
+            "description" "Because we’re busy delivering for our clients, we send no more than 4 emails per year, but when we do send them... boy are they interesting!"
+            "text_class" "font-sans leading-tight text-base"
+            "hide_img" true
+          ) }}
+        </div>
+    </div>
+
+
+  </div>
+
+  <div class="container flex flex-col self-end">
+    <div class="flex items-center justify-between section--sm">
+      <nav aria-label="{{ i18n "socialTitle" }}">
+        <ul class="flex flex-wrap items-center gap-5 list-none" role=list>
+          
+          {{ if isset .Site.Params "facebook" }}
+          <li>
+            <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="transition duration-500 ease-in-out text-buff hover:text-claret focus:text-claret" onclick="javascript:insights.track({id: 'footer-social-facebook',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+              <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
+                <use xlink:href="#icon-facebook"/>
+              </svg>
+            </a>
+          </li>
+          {{ end }}
+
+          {{ if isset .Site.Params "instagram" }}
+            <li>
+              <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="transition duration-500 ease-in-out text-buff hover:text-claret focus:text-claret" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+                <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
+                  <use xlink:href="#icon-instagram"/>
+                </svg>
+              </a>
+            </li>
+          {{ end }}
+
+          {{ if isset .Site.Params "twitter" }}
+            <li>
+              <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="transition duration-500 ease-in-out text-buff hover:text-claret focus:text-claret" onclick="javascript:insights.track({id: 'footer-social-twitter',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+                <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
+                  <use xlink:href="#icon-twitter"/>
+                </svg>
+              </a>
+            </li>
+          {{ end }}
+
+          {{ if isset .Site.Params "linkedin" }}
+            <li class="mb-1">
+              <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="transition duration-500 ease-in-out text-buff hover:text-claret focus:text-claret" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+                <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
+                  <use xlink:href="#icon-linkedin"/>
+                </svg>
+              </a>
+            </li>
+          {{ end }}
+
+          {{ if isset .Site.Params "github" }}
+            <li>
+              <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="transition duration-500 ease-in-out text-buff hover:text-claret focus:text-claret" onclick="javascript:insights.track({id: 'footer-social-github',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+                <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
+                  <use xlink:href="#icon-github"/>
+                </svg>
+              </a>
+            </li>
+          {{ end }}
+
+          <li class="sr-only">
+            <a href="/index.xml" rel="me" title="RSS feed">
+              <svg class="w-4 h-4 md:w-8 md:h-8" viewbox="0 0 36 36" role="presentation">
+                <use xlink:href="#icon-rss"/>
+              </svg>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <a href="https://ecofriendlyweb.org/client/kind/" target="_blank" title="This website is certified as Climate Positive" class="transition duration-500 ease-in-out text-buff hover:text-claret focus:text-claret" onclick="javascript:insights.track({id: 'footer-efwa',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+        <svg class="w-20 h-6 lg:w-48 lg:h-14" viewbox="0 0 200 60" role="presentation">
+          <use xlink:href="#icon-efwa"/>
+        </svg>
+      </a>
+    </div>
+    <div class="flex flex-wrap justify-between gap-5 py-5 font-sans font-light border-t">
+      <address class="w-full text-xs md:w-auto">
+        16 Commerce Square, Nottingham, NG1 1HS
+      </address>
+      <p class="flex flex-wrap w-full gap-5 md:w-auto">
+        <small class="w-full md:w-auto">
+          <a href="/about/legal/">Policies and legal information</a>
+        </small>
+        <small class="w-full md:w-auto">
+          &copy;{{ .Site.Copyright }}
+        </small>
+      </p>
+    </div>
+  </div>
+</footer>

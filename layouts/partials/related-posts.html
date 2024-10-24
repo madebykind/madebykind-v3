@@ -3,7 +3,10 @@
   {{ range . }}
     {{ with site.GetPage . }}
     <li class="col-span-full lg:col-span-6 xl:col-span-4">
-      {{ partial "card" . }}
+      {{ partial "card" (dict 
+        "context" .
+        "tall" false
+      ) }}
     </li>
     {{ end }}
   {{ end }}

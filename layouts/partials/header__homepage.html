@@ -1,0 +1,89 @@
+<header class="bg-indigo text-buff snap-start min-h-[80vh] md:min-h-home-dynamic-screen flex flex-col justify-between relative z-40">
+ <div class="container flex flex-wrap justify-between gap-5 py-5 lg:gap-10 lg:flex-nowrap md:items-center">
+    {{ partial "logo" . }}
+    <button type="button" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="mobile-navigation" class="inline-flex items-center gap-2 h--condensed text-md md:hidden">
+      Menu
+      <svg class="w-6 h-6">
+        <use xlink:href="#icon-hamburger"/>
+      </svg>
+    </button>
+    <div class="flex-wrap items-center justify-end lg:flex-grow hidden gap-5 md:flex lg:gap-10 ">
+      <div class="items-center hidden gap-5 xl:gap-10 md:inline-flex">
+        <svg class="w-12 h-16 lg:w-16 lg:h-20" role="presentation">
+          <use xlink:href="#icon-bcorp"/>
+        </svg>
+        <svg class="w-16 h-8 lg:w-24 lg:h-14" role="presentation">
+          <use xlink:href="#icon-1fortheplanet"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="container flex flex-col items-center md:flex">
+    <div class="flex items-end">
+      <div class="flex flex-col gap-15 pb-6 md:pb-24 w-1/2">
+        <h1 class="block text-teal font-bold font-serif normal-case text-base">{{ .Params.preheading }}</span>
+        <h2 class="text-5xl lg:text-6xl h--condensed leading-heading">{{ .Params.Heading|safeHTML }}</h2>
+
+          <div class="max-w-xl lede">
+            {{ .Params.Intro | markdownify }}
+          </div>
+      </div>
+      <div class="w-1/2 relative z-40">
+        {{ with .Params.banner_images }}
+          {{ range $i, $image := . }}
+            {{ if eq $i 0 }}
+              <div class="aspect-4/3 ml-12 2xl:ml-20 bleed-right">
+                {{ partial "image" (dict 
+                  "alt" $image.alt
+                  "class" "h-full w-full object-cover"
+                  "src" $image.img 
+                ) }}
+              </div>
+            {{ else if eq $i 1 }}
+              <div class="flex items-start">
+                <div class="aspect-4/3 w-1/3 shrink-0">
+                  {{ partial "image" (dict 
+                    "alt" $image.alt
+                    "class" "h-full w-full object-cover"
+                    "src" $image.img 
+                  ) }}
+                </div>
+            {{ else if eq $i 2 }}
+                <div class="aspect-4/3 w-auto bleed-right -mb-[15vw]">
+                  {{ partial "image" (dict 
+                    "alt" $image.alt
+                    "class" "h-full w-full object-cover"
+                    "src" $image.img 
+                  ) }}
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "mobile-navigation" . }} 
+</header>
+
+  {{/* Sticky desktop (homepage) */}}
+  {{ if .IsHome }}
+    <div class="hidden md:flex sticky top-0 z-30 bg-pink">
+      <div class="container">
+        <nav class="flex w-7/10" aria-label="Main menu">
+          <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:max-w-4xl lg:justify-between" role="list">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <li class="relative flex before:text-orange items-center">
+              <a class="text-indigo btn group hover:text-orange focus:text-orange" href="{{ .URL }}">
+                <span class="relative inline-flex after:h-2px after:w-full group-hover:after:bg-orange group-focus:after:bg-orange after:transition-all after:duration-500 after:ease-in after:absolute after:bg-indigo after:left-0 after:-bottom-1">{{- .Name -}}</span>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  {{ end }}

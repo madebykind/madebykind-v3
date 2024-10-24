@@ -13,23 +13,25 @@
 
 <div class="{{ with $.block_class }}{{ . }}{{ end }}">
   <div {{ if eq $.style "wide" }}class="section grid grid-cols-4 lg:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12 items-center"{{ end }}>
-    {{ with $src }}
+    {{ if not $.hide_img }}
+      {{ with $src }}
 
-      <picture class="{{ if eq $.style "wide" }}lg:order-1 col-span-2 lg:col-span-4{{ else }}max-w-iphone{{ end }} block">
-        <img 
-          alt="Illustration of a person holding a watering can that waters many plants" 
-          class="w-full {{ with $.image_class }}{{ . }}{{ end }}"
-          loading=eager
-          sizes="(min-width: 100em) 33vw, 96vw"
-          src="{{ (printf "%s?w=320&auto=format" .) }}" 
-          srcset="
-        {{ (printf "%s?w=320&auto=format" .) }} 320w,
-        {{ (printf "%s?w=480&auto=format" .) }} 480w,
-        {{ (printf "%s?w=640&auto=format" .) }} 640w,
-        {{ (printf "%s?w=800&auto=format" .) }} 800w,
-        {{ (printf "%s?w=1280&auto=format" .) }} 1280w"
-        >
-      </picture>
+        <picture class="{{ if eq $.style "wide" }}lg:order-1 col-span-2 lg:col-span-4{{ else }}max-w-iphone{{ end }} block">
+          <img 
+            alt="Illustration of a person holding a watering can that waters many plants" 
+            class="w-full {{ with $.image_class }}{{ . }}{{ end }}"
+            loading=eager
+            sizes="(min-width: 100em) 33vw, 96vw"
+            src="{{ (printf "%s?w=320&auto=format" .) }}" 
+            srcset="
+          {{ (printf "%s?w=320&auto=format" .) }} 320w,
+          {{ (printf "%s?w=480&auto=format" .) }} 480w,
+          {{ (printf "%s?w=640&auto=format" .) }} 640w,
+          {{ (printf "%s?w=800&auto=format" .) }} 800w,
+          {{ (printf "%s?w=1280&auto=format" .) }} 1280w"
+          >
+        </picture>
+      {{ end }}
     {{ end }}
 
     <div {{ if eq $.style "wide" }}class="col-span-full lg:col-span-7"{{ end }}>
