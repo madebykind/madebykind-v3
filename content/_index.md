@@ -39,4 +39,18 @@ banner_images:
     alt: Kind owners, Mat Hayward and Michelle Pavey
   - img: images/strategy-notes.jpg
     alt: Pam, brand strategist and Michelle, strategy director planning a project
+  - img: images/work-garden-organic-laptop-3.jpg
+    alt: Garden Organic website on a laptop, situated on a garden table.
+  - img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
+    alt: A river in the Scottish Higlands
+  - img: images/work-jackson-crane-biophillic-house.jpg
+    alt: Rendered image of a biophilic house
+  - img: images/work-rewilding-britain-carousel-2.jpg
+    alt: A beaver on a river bank
+  - img: images/work-rewilding-britain-carousel-4.jpg
+    alt: Landscape image of a large tree on farmland
+  - img: images/work-eti-offshore-wind.jpg
+    alt: Sunset photograph of the sea with a wind farm in the distance
+  - img: images/work-garden-organic-laptop-jess-seth.jpg
+    alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
 ---
