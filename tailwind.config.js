@@ -39,6 +39,9 @@ module.exports = {
     extend: {
       screens: {
         '3xl': '1800px',
+        'fix': {
+          raw: '(min-height: 58.125rem) and (min-width: 64rem)',
+        }
       },
       aspectRatio: {
         '3/4': '3 / 4',
@@ -76,7 +79,7 @@ module.exports = {
       minHeight: {
         '90vh': '90vh',
         'dynamic-screen': '100dvh',
-        'home-dynamic-screen': 'calc(100dvh - 70px)',
+        'home-dynamic-screen': 'calc(100dvh - 80px)',
       },
       spacing: {
         '7.5': '1.875rem',

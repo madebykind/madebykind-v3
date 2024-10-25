@@ -1,7 +1,7 @@
-<header class="bg-indigo text-buff snap-start min-h-[80vh] md:min-h-home-dynamic-screen flex flex-col justify-between relative z-40">
+<header class="bg-indigo text-buff snap-start min-h-[80vh] md:min-h-home-dynamic-screen flex flex-col justify-between relative z-50">
  <div class="container flex flex-wrap justify-between gap-5 py-5 lg:gap-10 lg:flex-nowrap md:items-center">
     {{ partial "logo" . }}
-    <button type="button" data-toggle data-target="#mobile-navigation" data-toggle-fixed aria-controls="mobile-navigation" class="inline-flex items-center gap-2 h--condensed text-md md:hidden">
+    <button type="button" data-toggle-class="active" data-target="#mobile-navigation" data-toggle-fixed aria-controls="mobile-navigation" class="inline-flex items-center gap-2 h--condensed text-md md:hidden">
       Menu
       <svg class="w-6 h-6">
         <use xlink:href="#icon-hamburger"/>
@@ -19,21 +19,21 @@
     </div>
   </div>
 
-  <div class="container flex flex-col items-center md:flex">
-    <div class="flex items-end" data-image-flick>
-      <div class="flex flex-col gap-15 pb-6 md:pb-24 w-1/2">
-        <h1 class="block text-teal font-bold font-serif normal-case text-base">{{ .Params.preheading }}</span>
-        <h2 class="text-5xl lg:text-6xl h--condensed leading-heading">{{ .Params.Heading|safeHTML }}</h2>
+  <div class="container flex flex-col items-center lg:flex">
+    <div class="flex flex-col lg:flex-row md:items-end" data-image-flick>
+      <div class="flex flex-col gap-5 md:gap-10 lg:gap-15 pb-6 md:pb-24 w-full lg:w-1/2">
+        <h1 class="block text-teal font-bold font-serif normal-case text-base mt-6 md:mt-0">{{ .Params.preheading }}</span>
+        <h2 class="text-4xl lg:text-5xl xl:text-6xl h--condensed leading-heading">{{ .Params.Heading|safeHTML }}</h2>
 
-          <div class="max-w-xl lede">
-            {{ .Params.Intro | markdownify }}
-          </div>
+        <div class="max-w-xl lede">
+          {{ .Params.Intro | markdownify }}
+        </div>
       </div>
-      <div class="w-1/2 relative z-40">
+      <div class="w-full flex lg:block lg:w-1/2 relative z-50">
         {{ with .Params.banner_images }}
           {{ range $i, $image := . }}
             {{ if eq $i 0 }}
-              <div class="aspect-4/3 ml-12 2xl:ml-20 bleed-right" data-image-flick-item>
+              <div class="aspect-4/3 w-auto 2xl:ml-20 bleed-left lg:ml-12 lg:bleed-right" data-image-flick-item>
                 {{ partial "image" (dict 
                   "alt" $image.alt
                   "class" "h-full w-full object-cover"
@@ -41,8 +41,8 @@
                 ) }}
               </div>
             {{ else if eq $i 1 }}
-              <div class="flex items-start">
-                <div class="aspect-4/3 w-1/3 shrink-0" data-image-flick-item>
+              <div class="flex flex-col lg:flex-row justify-end lg:items-start w-1/3 lg:w-auto">
+                <div class="aspect-4/3 w-full lg:w-1/3 shrink-0" data-image-flick-item>
                   {{ partial "image" (dict 
                     "alt" $image.alt
                     "class" "h-full w-full object-cover"
@@ -50,7 +50,7 @@
                   ) }}
                 </div>
             {{ else if eq $i 2 }}
-                <div class="aspect-4/3 w-auto bleed-right -mb-[15vw]" data-image-flick-item>
+                <div class="aspect-4/3 w-auto bleed-right lg:-mb-[15vw]" data-image-flick-item>
                   {{ partial "image" (dict 
                     "alt" $image.alt
                     "class" "h-full w-full object-cover"
@@ -78,15 +78,15 @@
 
   {{/* Sticky desktop (homepage) */}}
   {{ if .IsHome }}
-    <div class="hidden md:flex sticky top-0 z-30 bg-pink">
-      <div class="container">
-        <nav class="flex w-7/10" aria-label="Main menu">
-          <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:max-w-4xl lg:justify-between" role="list">
+    <div class="hidden md:flex sticky top-0 z-40 bg-pink h-20">
+      <div class="container flex items-center">
+        <nav class="flex w-full lg:w-7/10" aria-label="Main menu">
+          <ul class="flex items-center gap-5 m-0 font-bold list-none lg:w-[58vw] xl:w-auto lg:max-w-4xl lg:justify-between xl:grow" role="list">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
             <li class="relative flex before:text-orange items-center">
-              <a class="text-indigo btn group hover:text-orange focus:text-orange" href="{{ .URL }}" {{ if eq .Name "Contact" }}data-toggle-class="active" data-toggle-fixed data-target="#contact-details" aria-controls="contact-details" data-toggle-set-scroll data-toggle-delay-callback="500"{{ end }}>
-                <span class="relative inline-flex after:h-2px after:w-full group-hover:after:bg-orange group-focus:after:bg-orange after:transition-all after:duration-500 after:ease-in after:absolute after:bg-indigo after:left-0 after:-bottom-1">{{- .Name -}}</span>
+              <a class="text-indigo group hover:text-orange focus:text-orange transition-all duration-500 ease-in" href="{{ .URL }}" {{ if eq .Name "Contact" }}data-toggle-class="active" data-toggle-fixed data-target="#contact-details" aria-controls="contact-details" data-toggle-set-scroll data-toggle-delay-callback="500"{{ end }}>
+                <span class="relative inline-flex after:h-2px after:w-full group-hover:after:bg-orange group-focus:after:bg-orange after:transition-all after:duration-500 after:ease-in after:absolute after:bg-indigo after:left-0 after:bottom-0.5">{{- .Name -}}</span>
               </a>
             </li>
             {{ end }}

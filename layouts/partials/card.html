@@ -1,7 +1,7 @@
 {{ with $.context }}
   <article class="h-full">
     <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'card-{{ .Title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-      <div class="relative {{ if $.tall }} aspect-3/4 {{ else }} aspect-4/3 xl:aspect-3/4 3xl:aspect-4/3 {{ end }}
+      <div class="relative {{ if $.tall }} aspect-4/3 lg:aspect-3/4 {{ else }} aspect-4/3 xl:aspect-3/4 3xl:aspect-4/3 {{ end }}
         
         {{ if .Params.cover_img }}
           {{ .Params.text_colour }} after:bg-black after:block after:inset-0 after:absolute after:h-full after:w-full after:opacity-50 

@@ -1,20 +1,25 @@
-<footer class="bg-navy text-buff h-[100dvh] fixed bottom-0 w-full z-0 flex flex-col gap-10">
-  <div class="container flex flex-wrap grow">
-    <div class="flex flex-col gap-15 w-3/5 shrink-0 pt-6">
+<footer class="bg-navy text-buff pt-12 fix:pt-0 fix:h-[100dvh] fix:fixed fix:bottom-0 w-full z-0 flex flex-col gap-10">
+  <div class="container flex flex-col gap-10 lg:gap-0 lg:flex-row grow">
+    <div class="flex flex-col gap-15 lg:w-3/5 max-w-4xl shrink-0 pt-6">
+      <div class="lg:hidden">
+        {{ partial "logo" . }}
+      </div>
       <h1 class="text-4xl lg:text-5xl 2xl:text-6xl">Let’s make&nbsp;a difference, together</h1>
     </div>
-    <div class="flex flex-col gap-5 self-end w-2/5">
-      {{ partial "logo" . }}
-      <p class="mt-6 leading-tight text-md">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
-      <ul class="inline-flex gap-5 mt-2 list-none" role="list">
+    <div class="flex flex-col gap-5 lg:self-end lg:w-2/5">
+      <div class="hidden lg:block">
+        {{ partial "logo" . }}
+      </div>
+      <p class="mt-6 leading-tight text-md max-w-3xl">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
+      <ul class="inline-flex flex-wrap gap-x-5 mt-2 list-none" role="list">
         <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
           <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:insights.track({id: 'footer-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.Email}}</a>
         </li>
-        <li>
+        <li class="whitespace-nowrap">
           <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}"onclick="javascript:insights.track({id: 'footer-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.PhonePretty}}</a>
         </li>
       </ul>
-      <div class="mt-24">
+      <div class="mt-0 lg:mt-12 2xl:mt-24">
           {{ partial "newsletter" (dict 
             "url" .Permalink
             "block_class" ""
@@ -23,7 +28,6 @@
             "border_class" "border-white focus:border-teal text-indigo"
             "heading" "Stay in the loop"
             "heading_class" "h3 h--condensed"
-            "description" "Because we’re busy delivering for our clients, we send no more than 4 emails per year, but when we do send them... boy are they interesting!"
             "text_class" "font-sans leading-tight text-base"
             "hide_img" true
           ) }}

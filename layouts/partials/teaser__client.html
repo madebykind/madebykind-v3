@@ -30,7 +30,7 @@
         ) }}
         {{ range $image.stat }}
           {{ with site.GetPage . }}
-            <div class="absolute inset-0 flex flex-col items-start justify-end gap-2 p-5 ml-8 text-white lg:m-0">
+            <div class="absolute inset-0 flex flex-col items-start justify-end gap-2 p-5 text-white">
               <h4 class="text-3xl h--condensed 2xl:text-5xl">{{ if .Params.prefix }}<span class="text-2xl 2xl:text-3xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-2xl 2xl:text-3xl">{{ .Params.suffix }}</span>{{ end }}</h4>
               <div class="max-w-xs font-bold lg:max-w-md">
                 {{ if .Params.short_text }}{{ .Params.short_text }} {{ else }}{{ .Content }}{{ end }}

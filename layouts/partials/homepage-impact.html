@@ -1,8 +1,8 @@
-<section class="bg-buff pt-32 relative z-10">
-  <div class="flex flex-col justify-between min-h-dynamic-screen lg:min-h-home-dynamic-screen gap-10 snap-start bg-teal text-blue container">
-  	<div class="flex flex-col lg:flex-row gap-10 px-16 py-32">
+<section class="bg-buff lg:pt-32 relative z-10">
+  <div class="flex flex-col lg:justify-between lg:min-h-dynamic-screen lg:min-h-home-dynamic-screen gap-10 snap-start bg-teal text-blue md:container  snap-start">
+  	<div class="flex flex-col lg:flex-row gap-10 px-8 pt-16 lg:px-16 lg:py-16 xl:pt-32 items-center">
       <div class="md:w-3/4 xl:w-3/5 flex flex-col gap-12">
-        <h2 class="h1 h--condensed">Let’s be clear &ndash; we’re not for everyone</h2>
+        <h2 class="h--condensed leading-heading text-3xl sm:text-4xl xl:text-5xl">Let’s be clear &ndash; we’re not for everyone</h2>
         <div class="prose col-span-full md:col-span-9 xl:col-span-7 lede max-w-xl">
           <p>We don’t leave our ethics at the agency door. We live our values round the clock, professionally and personally.</p>
         </div>
@@ -17,26 +17,26 @@
           </a>
         </div>
       </div>
-      <div class="flex w-full md:w-1/4 md:justify-center xl:w-2/5 px-12">
+      <div class="hidden lg:flex w-full md:w-1/2 md:justify-center xl:w-2/5 px-12">
         <div class="self-end max-h-illustration max-w-illustration justify-self-end">
           {{ partial "image__illustration" . }}
         </div>
       </div>
   	</div>
-    <div class="flex items-center">
-      <svg class="w-24 h-32 lg:w-48 lg:h-52 shrink-0 ml-12 mr-24" role="presentation">
+    <div class="flex flex-col md:flex-row gap-5 md:items-center">
+      <svg class="w-24 h-32 xl:w-48 xl:h-52 shrink-0 mx-5 md:mx-10 xl:ml-12 xl:mr-24" role="presentation">
         <use xlink:href="#icon-bcorp"/>
       </svg>
-      <div class="bg-blue grow bleed-right pr-[4vw] text-teal">
+      <div class="bg-blue grow md:bleed-right md:pr-[4vw] text-teal">
         <h3 class="sr-only">Our impact in numbers</h3>
         {{ with .Params.related_stats }}
-          <ul class="flex flex-wrap gap-5 lg:gap-10 justify-between px-24 py-6">
+          <ul class="flex flex-wrap gap-5 lg:gap-10 xl:justify-between p-6 lg:px-12 xl:px-24">
             {{ range . }}
               {{ with site.GetPage . }}
-                <li class="w-1/2 -mr-5 md:max-w-xs md:m-0 md:w-auto">
+                <li class="w-1/2 -mr-5 xl:max-w-xs xl:m-0 xl:w-auto">
                   <article>
-                    <h4 class="h1">
-                      {{ if .Params.prefix }}<span class="text-3xl lg:text-4xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-3xl lg:text-4xl">{{ .Params.suffix }}</span>{{ end }}
+                    <h4 class="h--condensed leading-heading text-3xl sm:text-4xl xl:text-5xl">
+                      {{ if .Params.prefix }}<span class="text-2xl sm:text-3xl xl:text-4xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-2xl sm:text-3xl xl:text-4xl">{{ .Params.suffix }}</span>{{ end }}
                     </h4>
                     <div class="mt-5">{{ .Content }}</div>
                   </article>

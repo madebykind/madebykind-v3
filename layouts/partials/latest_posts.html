@@ -1,6 +1,6 @@
-<ul class="grid gap-10 lg:grid-cols-12 section">
+<ul class="grid gap-10 md:grid-cols-12 section">
   {{ range first 3 ( where (where site.RegularPages "Section" "blog" ) "Params.featured" "==" true ) }}
-    <li class="col-span-full lg:col-span-6 xl:col-span-4">
+    <li class="col-span-full md:col-span-6 lg:col-span-4">
     {{ partial "card" (dict 
       "context" .
       "tall" true
