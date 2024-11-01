@@ -6,6 +6,7 @@
 @import 'tailwindcss/base';
 
 /* Elements */
+@import 'elements/font-weight.postcss';
 @import 'elements/address.postcss';
 @import 'elements/anchor.postcss';
 @import 'elements/blockquote.postcss';
