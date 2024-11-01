@@ -51,7 +51,7 @@ module.exports = {
       },
       fontFamily: {
         display: ['Smithee'],
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Kumbh-Sans', ...defaultTheme.fontFamily.sans],
         serif: ['Marselis', ...defaultTheme.fontFamily.serif],
       },
       height: {
