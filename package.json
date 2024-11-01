@@ -4,7 +4,7 @@
   "description": "Hugo, Tailwind and Netlify. Oh my!",
   "main": "index.js",
   "repository": "https://github.com/madebykind/madebykind-v3",
-  "author": "Seth Warburton",
+  "author": "Kind",
   "license": "MIT",
   "private": true,
   "scripts": {

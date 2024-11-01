@@ -4,7 +4,7 @@
   publish = "dist"
 
 [build.environment]
-  HUGO_VERSION = "0.111.2"
+  HUGO_VERSION = "0.136.5"
   NODE_VERSION = "19.5.0"
 
 [context.production.environment]
