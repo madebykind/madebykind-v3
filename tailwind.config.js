@@ -39,6 +39,9 @@ module.exports = {
     extend: {
       screens: {
         '3xl': '1800px',
+        'fix': {
+          raw: '(min-height: 58.125rem) and (min-width: 64rem)',
+        }
       },
       aspectRatio: {
         '3/4': '3 / 4',
@@ -76,6 +79,7 @@ module.exports = {
       minHeight: {
         '90vh': '90vh',
         'dynamic-screen': '100dvh',
+        'home-dynamic-screen': 'calc(100dvh - 80px)',
       },
       spacing: {
         '7.5': '1.875rem',
@@ -85,6 +89,7 @@ module.exports = {
       width: {
         'iphone': '400px',
         'ipad': '1080px',
+        '7/10': '70%',
       },
       transitionTimingFunction: {
         'bounce': 'cubic-bezier(0.175, 0.885, 0.32, 1.275)',

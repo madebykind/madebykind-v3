@@ -1,9 +1,13 @@
+{{ define "header" }}
+  {{ partial "header__homepage.html" . }}
+{{ end }}
+
 {{ define "main" }}
-  {{ partial "services.html" . }}
-  {{ partial "header__landing.html" . }}
-  {{ partial "featured_work.html" . }}
-  {{ partial "cta.html" . }}
-  {{ partial "our-stats.html" . }}
-  {{ partial "our-insights.html" . }}
-  {{ partial "mailing-list.html" . }}
+  {{ partial "homepage-work.html" . }}
+  {{ partial "homepage-impact.html" . }}
+  {{ partial "homepage-insights.html" . }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "homepage-footer.html" . }}
 {{ end }}
