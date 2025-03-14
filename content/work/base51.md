@@ -49,7 +49,7 @@ A safe place where change begins.
 
   Base51 have been running in Nottingham city for over 30 years and have helped thousands of young people during that time. However, in recent times, they have found it harder to secure funding and support from the government and businesses due to national cuts. It is critical, that they are able to stand out in the crowded charity space, as a progressive and important charity in 2025, and secure funding for their vital services for young people in the city and beyond. 
 
-  The rebranding of BASE51 was approached with careful research, strategy, and input from key stakeholders, including young people who were beneficiaries of the charity. Here’s an outline of the process.
+  The rebranding of Base51 was approached with careful research, strategy, and input from key stakeholders, including young people who were beneficiaries of the charity. Here’s an outline of the process.
 
   </div>
 </div>
@@ -73,7 +73,7 @@ A safe place where change begins.
 
   ## Research and engagement
 
-  We ran a workshop with BASE51 which incorporated a focus group with young people to understand their needs, interests, and perceptions of the charity. Additionally, insight from staff and volunteers helped identify the charity's strengths, weaknesses, and opportunities.
+  We ran a workshop with Base51 which incorporated a focus group with young people to understand their needs, interests, and perceptions of the charity. Additionally, insight from staff and volunteers helped identify the charity's strengths, weaknesses, and opportunities.
 
   </div>
 </div>
