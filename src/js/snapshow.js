@@ -1,0 +1,34 @@
+function SnapShow(el) {
+  const slides = el.querySelectorAll("[data-snap-show-el]");
+  let bounding;
+  let width;
+  let height;
+  let i = 0;
+
+  el.classList.add('relative');
+
+  slides.forEach(function(e, index) {
+    if (index > 0) {
+      e.classList.add(...['absolute','inset-0','hidden', 'transition-all', 'duration-500', 'ease-in-out']);
+    }
+  });
+
+  setInterval(function() {
+    i++;
+    if (i == slides.length) {
+      i = 0;
+    }
+    slides.forEach(function(e) {
+      e.classList.add('hidden');
+    });
+
+    slides[i].classList.remove('hidden');
+
+  }, 500);
+
+}
+
+
+export function bindSnapShow() {
+  return [...document.querySelectorAll("[data-snap-show]")].map((el) => SnapShow(el));
+}
