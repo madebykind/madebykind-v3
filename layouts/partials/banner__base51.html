@@ -1,6 +1,6 @@
 
   <div class="bleed lg:bleed-none">
-    <div class="relative overflow-hidden aspect-3/4 lg:aspect-video bg-white" data-snap-show>
+    <div class="relative overflow-hidden aspect-3/4 lg:aspect-video" data-snap-show>
     {{ with .Params.banner_images }}
       {{ range $index, $image := . }}
         {{- $src := ( $image.img ) -}}
@@ -10,7 +10,7 @@
         {{- $dataSizes := "98vw" -}}
         {{- $imgClass := "w-80 md:w-160 lg:w-240" -}}
         {{- $respSizes := slice "640" "1280" "1920" -}}
-        <picture class="w-full h-full flex items-center justify-center" data-snap-show-el>
+        <picture class="w-full h-full flex items-center justify-center bg-white" data-snap-show-el>
           <source 
             sizes="{{ $dataSizes }}" 
             srcset="

@@ -51,7 +51,7 @@ toc_replacements:
     short: Logo design
   - long: Revamping social media
     short: Social media design
-social_img: images/work-bookmark-laptop-child.jpg
+social_img: images/work-base51-imagery-1.jpg
 social_img_txt: "Creating an inclusive and safe brand to support young people"
 ---
 
