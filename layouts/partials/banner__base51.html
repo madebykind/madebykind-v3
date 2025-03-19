@@ -8,8 +8,8 @@
 
         {{- $alt := ( $image.alt ) -}}
         {{- $dataSizes := "98vw" -}}
-        {{- $imgClass := "w-80 md:w-160" -}}
-        {{- $respSizes := slice "640" "1280" -}}
+        {{- $imgClass := "w-80 md:w-160 lg:w-240" -}}
+        {{- $respSizes := slice "640" "1280" "1920" -}}
         <picture class="w-full h-full flex items-center justify-center" data-snap-show-el>
           <source 
             sizes="{{ $dataSizes }}" 

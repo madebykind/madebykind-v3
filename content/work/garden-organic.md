@@ -16,18 +16,20 @@ topics:
   - User-centred Design
   - CMS integration
   - CRM integration
-  - Ticketing journey
 icon: garden-organic-logo
 related_work:
   - rewilding-britain
   - sheffield-hallam-university
   - the-rivers-trust
 weight: 5
+external_link: https://www.gardenorganic.org.uk/
 banner_type: standard
 banner_img: images/work-garden-organic-header.jpg
 banner_img_alt: Test image
 banner_icon: garden-organic-logo
 toc: true
+key_stat:
+  - 18k
 teaser:
   title: Website redesign and online member portal
   description: Garden Organic worked with Kind to bring their new visual identity to life online, attracting new and varied demographics and appealing to new audiences.

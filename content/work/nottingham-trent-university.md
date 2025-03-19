@@ -33,6 +33,8 @@ banner_img_alt: Two students walk down a cobbled street
 banner_icon: ntu-logo
 banner_img_class: brightness-75
 toc: true
+key_stat:
+  - 100s
 teaser:
   title: A user-centred realignment of the University of the Year’s website
   description: NTU asked Kind to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of their audiences.

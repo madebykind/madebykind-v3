@@ -25,6 +25,8 @@ related_work:
   - rewilding-britain
   - jackson-crane
 weight: 1
+key_stat:
+  - 224-unesco
 banner_type: standard
 banner_icon: unesco-logo
 banner_img: images/work-unesco-school.jpg

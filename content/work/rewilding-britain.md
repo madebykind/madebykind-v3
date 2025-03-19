@@ -30,6 +30,8 @@ feature_heading: Our partnership
 feature_content: "Rewilding Britain understood that they needed a digital partner to not only create a digital presence but to maintain it and evolve as their organisation does. We’ve been delighted to work with them for almost four years to constantly improve the performance and direction of their site as they continue to gain awareness and support on a national and international level."
 impact_img_alt: A misty forest
 icon: rwb-logo
+key_stat:
+  - 149-percent
 services:
   - strategy
   - digital

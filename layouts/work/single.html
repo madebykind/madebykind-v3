@@ -22,7 +22,7 @@
         </aside>
       {{ end }}
       {{ if .Params.intro }}
-        <div class="col-span-full lg:col-span-5 lg:col-start-5">
+        <div class="col-span-full {{ if .Params.key_stat }} lg:col-span-6 lg:col-start-5 2xl:col-span-5 {{ else }} lg:col-span-8 lg:col-start-3 2xl:col-span-5 2xl:col-start-5 {{ end }}}">
           <div class="max-w-4xl lede flex flex-col gap-5 lg:gap-6">
             <h2 class="h3 h--condensed">Overview</h2>
             {{ .Params.intro | markdownify }}

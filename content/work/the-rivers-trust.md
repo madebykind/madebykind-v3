@@ -26,6 +26,8 @@ related_work:
   - rewilding-britain
   - jackson-crane
 weight: 6
+key_stat:
+  - 0-percent
 banner_type: standard
 banner_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 banner_img_alt: A river in the Scottish Higlands
@@ -39,7 +41,7 @@ teaser:
     - img: images/jack-anstey-unsplash.jpg
       alt: A landscape image of a river taken from a drone
       stat:
-        - 1000s
+        - 0-percent
 social_img_txt: "A user-centred website to build awareness and gain public support"
 ---
 

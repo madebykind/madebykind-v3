@@ -1,14 +1,16 @@
 ---
 heading: Creating an inclusive and safe brand to support young people
-title: Base51 - Brand Case Study - Charity
+title: Base 51 - Brand Case Study - Charity
 draft: false
 date: 2025-03-14T10:52:34.342Z
 cover_img: images/work-base51-lightbox.jpg
 cover_img_alt: 
 intro: >
-  Nottingham is the WORST place to be a young person (Youth Opportunities Index 2018) with 17,500 children living in poverty which is only getting worse due to the cost of living crisis and recent council funding cuts. Supporting over 1000 young people a year, Base 51 seeks to provide safe, inclusive, and supportive spaces that offer young people access to counselling, specialist trauma support, and youth clubs including groups specifically for LGBTQIA+ and refugees. Through their academy, they provide accredited training in counselling and youth work.
-key_stat: null
-description: Find out how Kind have helped Base51
+  Nottingham is the worst place in the UK to be young, with 17,500 children living in poverty and the crisis is worsening due to rising living costs and council funding cuts.
+
+
+  Base 51 supports over 1,000 young people annually, providing safe, inclusive spaces with access to counselling, trauma support, and youth clubs – including for LGBTQIA+ and refugee communities. Their academy also offers accredited training in counselling and youth work.
+description: Find out how Kind delivered a brand strategy and visual identity for youth support charity, Base 51
 summary:
 topics:
   - Brand strategy
@@ -23,18 +25,34 @@ related_work:
 weight: 1
 toc: true
 banner_type: base51
+key_stat: 
+  - yoi
 banner_images:
   - img: images/work-base51-logo-1.png
-    alt: Base51 Logo
+    alt: Base 51 Logo
   - img: images/work-base51-logo-2.png
-    alt: Base51 Logo
+    alt: Base 51 Logo
   - img: images/work-base51-logo-3.png
-    alt: Base51 Logo
+    alt: Base 51 Logo
   - img: images/work-base51-logo-4.png
-    alt: Base51 Logo
+    alt: Base 51 Logo
   - img: images/work-base51-logo-5.png
-    alt: Base51 Logo
-social_img_txt: "Creating an inclusive and safe brand to support young people "
+    alt: Base 51 Logo
+toc_replacements:
+  - long: Rebranding a 30 year old youth charity
+    short: Brand strategy
+  - long: Research and engagement
+    short: Research and engagement
+  - long: Brand audit
+    short: Brand audit
+  - long: Defining a new brand identity
+    short: Visual identity
+  - long: Modernising the visuals
+    short: Logo design
+  - long: Revamping social media
+    short: Social media design
+social_img: images/work-bookmark-laptop-child.jpg
+social_img_txt: "Creating an inclusive and safe brand to support young people"
 ---
 
 {{< workquote logo="base51-logo" img="images/work-base51-imagery-2.jpg" alt="A young woman sitting against a brick wall. She has a rainbow painted across her face, below her eyes.">}}
@@ -47,9 +65,7 @@ A safe place where change begins.
 
   ## Rebranding a 30 year old youth charity
 
-  Base51 have been running in Nottingham city for over 30 years and have helped thousands of young people during that time. However, in recent times, they have found it harder to secure funding and support from the government and businesses due to national cuts. It is critical, that they are able to stand out in the crowded charity space, as a progressive and important charity in 2025, and secure funding for their vital services for young people in the city and beyond. 
-
-  The rebranding of Base51 was approached with careful research, strategy, and input from key stakeholders, including young people who were beneficiaries of the charity. Here’s an outline of the process.
+  With national funding cuts and increasing competition for support, it is essential that Base 51 remained visible and relevant to young people. A fresh visual identity was key to maintaining engagement, ensuring their brand continues to connect with those who need them most.
 
   </div>
 </div>
@@ -59,12 +75,12 @@ A safe place where change begins.
   {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-logo-sign.jpg" alt="Base 51 Logo on a black sign" >}}
 
   <div class="col-span-full lg:col-span-4 self-end">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-outburst-tee.jpg" alt="Mockup of a t-shirt for a Base51 sub-branded event called 'Outburst'" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-outburst-tee.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called 'Outburst'" >}}
 
   </div>
 </div>
 
-{{< figure wrapperclass="" src="work-base51-lanyard.jpg" alt="Mockup of lanyards for Base51" >}}
+{{< figure wrapperclass="" src="work-base51-lanyard.jpg" alt="Mockup of lanyards for Base 51" >}}
 
 
 <!-- Text right -->
@@ -73,14 +89,18 @@ A safe place where change begins.
 
   ## Research and engagement
 
-  We ran a workshop with Base51 which incorporated a focus group with young people to understand their needs, interests, and perceptions of the charity. Additionally, insight from staff and volunteers helped identify the charity's strengths, weaknesses, and opportunities.
+  A discovery phase brought together young people, staff, stakeholders and volunteers through workshops and focus groups. This process helped uncover their needs, perceptions, and how Base 51 could better communicate its impact.
+
+  ## Brand audit
+
+  An in-depth review of Base 51’s existing identity highlighted opportunities to create a more engaging, cohesive brand presence. The goal was to refine their logo, colours, online platforms, and messaging to better reflect their energy and purpose.
 
   </div>
 </div>
 
 {{< multi-image
-  src_2="images/work-base51-hoody.jpg" alt_2="A young man wearing a white hoody with black sleeves. The logo on the hoody reads 'Base51'"
-  src_3="images/work-base51-poster-2.jpg" alt_3="A mockup of a Base51 poster for their Youth Club events" >}}
+  src_2="images/work-base51-hoody.jpg" alt_2="A young man wearing a white hoody with black sleeves. The logo on the hoody reads 'Base 51'"
+  src_3="images/work-base51-poster-2.jpg" alt_3="A mockup of a Base 51 poster for their Youth Club events" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -88,21 +108,38 @@ A safe place where change begins.
 
   ## Defining a new brand identity
 
-  The new brand identity focused on repositioning Base51 as a modern, inclusive, deeply caring and trusted organisation that empowers young people and provides high quality training services for future counsellors. The brand embodies:
+  The refreshed identity repositions Base 51 as a modern, inclusive, and trusted organisation that empowers young people while delivering high-quality training for future counsellors. It embodies:
 
-  - **Inclusivity**: Ensuring that the charity was seen as accessible and welcoming for all young people, regardless of background.
-  - **Empowerment**: Highlighting how Base51 helps young people get support and take charge of their futures.
-  - **Community**: Fostering a sense of belonging, togetherness, and local pride among the youth in Nottingham.
-  - **Trust:** Base51 offers a non-judgemental safe space for young people to feel seen, heard and supported.
-  - **Professional support**: Whether that be the support the young people have access to or the professional training academy
+  <div class="flex flex-wrap ">
+    <div class="w-full lg:w-1/2 py-6 lg:pr-6 xl:pr-8 shrink-0">
+      <p><strong>Inclusivity</strong><br>
+      A welcoming space for all young people, regardless of background..</p>
+    </div>
+    <div class="w-full lg:w-1/2 py-6 lg:pl-6 xl:pl-8 shrink-0">
+      <p><strong>Empowerment</strong><br>
+      Encouraging youth to seek support and take control of their future.</p>
+    </div>
+    <div class="w-full lg:w-1/2 py-6 lg:pr-6 xl:pr-8 shrink-0">
+      <p><strong>Community</strong><br>
+      Fostering belonging, togetherness, and local pride.</p>
+    </div>
+    <div class="w-full lg:w-1/2 py-6 lg:pl-6 xl:pl-8 shrink-0">
+      <p><strong>Trust</strong><br>
+      A safe, judgment-free space where young people feel heard and supported.</p>
+    </div>
+    <div class="w-full lg:w-1/2 py-6 lg:pr-6 xl:pr-8 shrink-0">
+      <p><strong>Professional support</strong><br>
+      Elevating both their youth services and training academy.</p>
+    </div>
+  </div>
 
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="work-base51-fundraising-1.jpg" alt="Mockup of Base51 fundraising document on a tablet screen" >}}
+{{< figure align="left" wrapperclass="" src="work-base51-fundraising-1.jpg" alt="Mockup of Base 51 fundraising document on a tablet screen" >}}
 
 
-{{< figure wrapperclass="" src="work-base51-fundraising-2.jpg" alt="Mockup of Base51 fundraising document on a tablet screen" >}}
+{{< figure wrapperclass="" src="work-base51-fundraising-2.jpg" alt="Mockup of Base 51 fundraising document on a tablet screen" >}}
 
 
 <!-- Text right -->
@@ -111,7 +148,9 @@ A safe place where change begins.
 
   ## Modernising the visuals
 
-  A new logo was created to be contemporary, bold, and easily recognisable. It incorporated elements that conveyed a sense of flexibility, movement and growth, symbolising the charity’s mission of helping young people progress. A new colour palette was chosen to be vibrant and energetic, appealing to the core audience of 11-25 year olds, whilst maintaining a professional feel.
+  The refreshed branding introduces a bold, purposefully imperfect logo, representing movement, inclusivity, and progression. A vibrant colour palette speaks to their core 11-25 age group, balancing youthful energy with professional tones for their academy. We included gradients to bring fluidity and symbolise growth.
+
+  To enhance clarity, custom ‘stickers’ were designed to define each service area. These elements introduce hierarchy and structure, helping young people quickly identify the support available to them.
 
   </div>
 </div>
@@ -120,23 +159,34 @@ A safe place where change begins.
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Social media revamp
+  ## Revamping Social Media
 
-  The charity’s social media presence was refreshed with vibrant branding, including new visuals, imagery and content that represented and resonated better with young people. Focussing on elevating the content the team was already creating into a more consistent look and feel that would really make Base51 stand out on the timeline. 
+  A core part of the project has been to strengthen Base 51's connection with young people. Their social media presence has been revitalised with dynamic visuals, engaging content, and a cohesive aesthetic. The focus was on enhancing existing content, making it instantly recognisable and compelling on digital platforms. 
 
   </div>
 </div>
 
-{{< figure wrapperclass="" src="work-base51-social-post.jpg" alt="Mockup of a Base51 social media post on a smartphone" >}}
+{{< figure wrapperclass="" src="work-base51-social-post.jpg" alt="Mockup of a Base 51 social media post on a smartphone" >}}
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-social-post-2.jpg" alt="Mockup of a Base51 social media post on a smartphone" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-social-post-2.jpg" alt="Mockup of a Base 51 social media post on a smartphone" >}}
 
   <div class="col-span-full lg:col-span-4 self-start">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-social-post-3.jpg" alt="Mockup of a Base51 social media post on a smartphone" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-social-post-3.jpg" alt="Mockup of a Base 51 social media post on a smartphone" >}}
 
   </div>
 </div>
 
 
-{{< blockquote author="Verity Woods" role="Head of Fundraising and Events, Base51" wrapperclass="section--lg" align="left">}}The new branding will allow us to better connect with 11-25 year olds and to inform them of our life-changing services in a more engaging format. Kind took into account all the opinions/thoughts and created something that sums up our brand and gives us a up-to-date look.{{</ blockquote >}}
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+
+  <div class="col-span-full lg:col-span-7 bg-green text-white p-6 prose">
+    <h2>Impact</h2>
+    <p>This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth.</p>
+  </div>
+</div>
+
+
+
+{{< blockquote author="Verity Woods" role="Head of Fundraising and Events, Base 51" wrapperclass="section--lg" align="left">}}The new branding will allow us to better connect with 11-25 year olds and to inform them of our life-changing services in a more engaging format. Kind took into account all the opinions/thoughts and created something that sums up our brand and gives us a up-to-date look.{{</ blockquote >}}

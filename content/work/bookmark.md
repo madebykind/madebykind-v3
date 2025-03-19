@@ -23,6 +23,8 @@ related_work:
   - vanda
   - the-rivers-trust
 weight: 1
+key_stat: 
+  - 1in4
 banner_type: slideshow
 banner_images:
   - img: images/work-bookmark-reading-mentor.jpg
