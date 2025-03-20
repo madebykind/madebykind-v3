@@ -24,7 +24,7 @@ related_work:
   - chapter
   - rewilding-britain
   - jackson-crane
-weight: 1
+weight: 2
 key_stat:
   - 224-unesco
 banner_type: standard

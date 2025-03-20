@@ -39,7 +39,7 @@ related_work:
   - chapter
   - sheffield-hallam-university
   - the-rivers-trust
-weight: 1
+weight: 2
 toc: true
 external_link: https://www.rewildingbritain.org.uk
 teaser:

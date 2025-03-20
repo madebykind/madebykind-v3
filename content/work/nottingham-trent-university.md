@@ -26,7 +26,7 @@ related_work:
   - sheffield-hallam-university
   - rewilding-britain
   - jackson-crane
-weight: 9
+weight: 10
 banner_type: standard
 banner_img: images/work-ntu-brand-image.jpg
 banner_img_alt: Two students walk down a cobbled street

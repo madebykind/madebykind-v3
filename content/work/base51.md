@@ -3,8 +3,8 @@ heading: Creating an inclusive and safe brand to support young people
 title: Base 51 - Brand Case Study - Charity
 draft: false
 date: 2025-03-14T10:52:34.342Z
-cover_img: images/work-base51-lightbox.jpg
-cover_img_alt: 
+cover_img: images/work-base51-imagery-1.jpg
+cover_img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
 intro: >
   Nottingham is the worst place in the UK to be young, with 17,500 children living in poverty and the crisis is worsening due to rising living costs and council funding cuts.
 
@@ -15,13 +15,13 @@ summary:
 topics:
   - Brand strategy
   - Visual identity
-icon: base51-logo
+icon: logo-base51
 services:
   - brand
 related_work:
   - chapter
   - hispanists
-  - algrano
+  - bookmark
 weight: 1
 toc: true
 impact: "This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth."
@@ -33,7 +33,7 @@ banner_images:
     alt: Base 51 Logo
   - img: images/work-base51-logo-3.png
     alt: Base 51 Logo
-  - img: images/work-base51-logo-4.png
+  - img: images/work-pre-4.png
     alt: Base 51 Logo
   - img: images/work-base51-logo-5.png
     alt: Base 51 Logo
@@ -54,7 +54,7 @@ social_img: images/work-base51-imagery-1.jpg
 social_img_txt: "Creating an inclusive and safe brand to support young people"
 ---
 
-{{< workquote logo="base51-logo" img="images/work-base51-imagery-2.jpg" alt="A young woman sitting against a brick wall. She has a rainbow painted across her face, below her eyes.">}}
+{{< workquote logo="logo-base51" img="images/work-base51-imagery-2.jpg" alt="A young woman sitting against a brick wall. She has a rainbow painted across her face, below her eyes.">}}
 A safe place where change begins.
 {{</ workquote >}}
 
@@ -78,19 +78,19 @@ A safe place where change begins.
 
   </div>
 
-  <div class="flex items-center col-span-full lg:col-span-4">
+  <div class="col-span-full lg:col-span-4">
 
   {{< image-cycle
     src_1="images/work-base51-icon-1.png"
-    alt_1="An illustrated character from the digital PDF report"
+    alt_1="An icon from Base 51 guidelines - A hand showing a peace sign"
     src_2="images/work-base51-icon-2.png"
-    alt_2="An illustrated character from the digital PDF report"
+    alt_2="An icon from Base 51 guidelines - A flag"
     src_3="images/work-base51-icon-3.png"
-    alt_3="An illustrated character from the digital PDF report"
+    alt_3="An icon from Base 51 guidelines - A computer terminal with monitor"
     src_4="images/work-base51-icon-4.png"
-    alt_4="An illustrated character from the digital PDF report"
+    alt_4="An icon from Base 51 guidelines - An open hand"
     src_5="images/work-base51-icon-5.png"
-    alt_5="An illustrated character from the digital PDF report"
+    alt_5="An icon from Base 51 guidelines - A smiley face"
     type="snap"
     speed="200" >}}
 
@@ -194,8 +194,8 @@ A safe place where change begins.
 </div>
 
 {{< multi-image
-  src_1="images/work-base51-social.jpg" alt_4="Mockup of a Base 51 social media post on a smartphone"
-  src_4="images/work-base51-iphones.jpg" alt_1="Mockup of Base 51 social media posts on two smartphones"
+  src_1="images/work-base51-social.jpg" alt_1="Mockup of a Base 51 social media post on a smartphone"
+  src_4="images/work-base51-iphones.jpg" alt_4="Mockup of Base 51 social media posts on two smartphones"
   align="end"
   >}}
 

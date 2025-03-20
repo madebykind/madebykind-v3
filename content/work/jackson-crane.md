@@ -21,7 +21,7 @@ related_work:
   - rewilding-britain
   - garden-organic
   - vanda
-weight: 8
+weight: 9
 banner_type: standard
 banner_img: images/work-jackson-crane-p80-2.jpg
 banner_img_alt: Rendered image of a biophilic house

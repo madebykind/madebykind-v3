@@ -25,7 +25,7 @@ related_work:
   - chapter
   - rewilding-britain
   - jackson-crane
-weight: 6
+weight: 7
 key_stat:
   - 0-percent
 banner_type: standard

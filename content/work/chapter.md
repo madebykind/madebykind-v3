@@ -26,7 +26,7 @@ featured: true
 date: 2023-06-28T12:25:28.863Z
 external_link: https://chapter.org.uk
 key_stat: null
-weight: 2
+weight: 3
 icon: chapter-logo
 description: How we helped reposition a historic community force
 services:

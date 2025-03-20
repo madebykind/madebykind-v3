@@ -25,7 +25,7 @@ related_work:
   - chapter
   - vanda
   - the-rivers-trust
-weight: 7
+weight: 8
 banner_type: standard
 banner_img: images/work-backlit-interior.png
 banner_img_alt: Interior of an old industrial building, now an art gallery

@@ -21,7 +21,7 @@ related_work:
   - rewilding-britain
   - sheffield-hallam-university
   - the-rivers-trust
-weight: 5
+weight: 6
 external_link: https://www.gardenorganic.org.uk/
 banner_type: standard
 banner_img: images/work-garden-organic-header.jpg

@@ -32,7 +32,7 @@ related_work:
   - chapter
   - rewilding-britain
   - the-rivers-trust
-weight: 4
+weight: 5
 key_stat:
     - 40-percent
 banner_type: standard

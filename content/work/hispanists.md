@@ -19,7 +19,7 @@ related_work:
   - chapter
   - vanda
   - backlit
-weight: 3
+weight: 4
 banner_type: standard
 banner_img: images/work-hispanists-logo.jpg
 banner_img_alt: The AHGBI logo on a red background

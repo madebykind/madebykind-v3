@@ -22,7 +22,7 @@ related_work:
   - chapter
   - vanda
   - the-rivers-trust
-weight: 1
+weight: 2
 key_stat: 
   - 1in4
 banner_type: slideshow

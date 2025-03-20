@@ -4,7 +4,7 @@
   {{ partial "topic-filters" . }}
   <h2 class="sr-only">Featured work</h2>
   <ol class="container grid gap-10 lg:grid-cols-12 section lg:gap-20">
-	  {{ range .Pages }}
+	  {{ range $i, $p := .Pages }}
     <li class="col-span-full lg:col-span-6 xl:col-span-4" data-topics="
       {{- with .Params.topics -}}
         {{- range . -}}{{ . | anchorize }} {{ end -}}
@@ -14,7 +14,7 @@
         {{- range . -}}{{ . | anchorize }} {{ end -}}
       {{- end -}}"
     >
-        {{ partial "card_work" . }}
+       {{ partial "card_work" . }}
       </li>
     {{ end }}
   </ol>

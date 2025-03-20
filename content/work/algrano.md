@@ -22,7 +22,7 @@ related_work:
   - chapter
   - vanda
   - the-rivers-trust
-weight: 4
+weight: 5
 banner_type: slideshow
 banner_images: 
   - img: images/work-algrano-drinkers.jpg

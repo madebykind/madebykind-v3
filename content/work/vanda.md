@@ -33,7 +33,7 @@ related_work:
   - garden-organic
   - backlit
   - jackson-crane
-weight: 3
+weight: 4
 toc: true
 banner_type: standard
 banner_img: images/Work-VA-Header-BG.jpg
