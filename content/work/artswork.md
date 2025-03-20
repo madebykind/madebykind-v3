@@ -1,7 +1,7 @@
 ---
 heading: Empowering young people to use creativity for change
 title: Artswork - Digital + Brand Case Study - Charity
-draft: false
+draft: true
 date: 2025-03-19T10:52:34.342Z
 cover_img: images/work-artswork-photo-2.jpg
 cover_img_alt: Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air.
