@@ -33,7 +33,7 @@ banner_images:
     alt: Base 51 Logo
   - img: images/work-base51-logo-3.png
     alt: Base 51 Logo
-  - img: images/work-pre-4.png
+  - img: images/work-base51-logo-4.png
     alt: Base 51 Logo
   - img: images/work-base51-logo-5.png
     alt: Base 51 Logo
