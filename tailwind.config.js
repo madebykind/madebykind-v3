@@ -91,6 +91,15 @@ module.exports = {
       transitionTimingFunction: {
         'bounce': 'cubic-bezier(0.175, 0.885, 0.32, 1.275)',
       },
+      transitionDelay: {
+        '50': '50ms',
+        '250': '250ms',
+        '350': '350ms',
+        '400': '400ms',
+        '450': '450ms',
+        '550': '550ms',
+        '600': '600ms',
+      }
     },
     fontSize: {
       /* @link https://utopia.fyi/type/calculator?c=375,18,1.333,1366,24,1.333,8,2,768-1024-1280&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */

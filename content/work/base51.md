@@ -24,9 +24,8 @@ related_work:
   - algrano
 weight: 1
 toc: true
+impact: "This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth."
 banner_type: base51
-key_stat: 
-  - yoi
 banner_images:
   - img: images/work-base51-logo-1.png
     alt: Base 51 Logo
@@ -72,15 +71,33 @@ A safe place where change begins.
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-logo-sign.jpg" alt="Base 51 Logo on a black sign" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-water-bottle.jpg" alt="a water bottle with the Base 51 Logo" >}}
 
   <div class="col-span-full lg:col-span-4 self-end">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-outburst-tee.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called 'Outburst'" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-tshirt.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called 'Outburst'" >}}
+
+  </div>
+
+  <div class="flex items-center col-span-full lg:col-span-4">
+
+  {{< image-cycle
+    src_1="images/work-base51-icon-1.png"
+    alt_1="An illustrated character from the digital PDF report"
+    src_2="images/work-base51-icon-2.png"
+    alt_2="An illustrated character from the digital PDF report"
+    src_3="images/work-base51-icon-3.png"
+    alt_3="An illustrated character from the digital PDF report"
+    src_4="images/work-base51-icon-4.png"
+    alt_4="An illustrated character from the digital PDF report"
+    src_5="images/work-base51-icon-5.png"
+    alt_5="An illustrated character from the digital PDF report"
+    type="snap"
+    speed="200" >}}
 
   </div>
 </div>
 
-{{< figure wrapperclass="" src="work-base51-lanyard.jpg" alt="Mockup of lanyards for Base 51" >}}
+{{< figure wrapperclass="" src="work-base51-lanyards.jpg" alt="Mockup of lanyards for Base 51" >}}
 
 
 <!-- Text right -->
@@ -98,9 +115,19 @@ A safe place where change begins.
   </div>
 </div>
 
-{{< multi-image
-  src_2="images/work-base51-hoody.jpg" alt_2="A young man wearing a white hoody with black sleeves. The logo on the hoody reads 'Base 51'"
-  src_3="images/work-base51-poster-2.jpg" alt_3="A mockup of a Base 51 poster for their Youth Club events" >}}
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+  <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
+    {{< animation id="anim-base51-type" >}}
+  </div>
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-base51-poster-new.jpg" alt="A mockup of a Base 51 poster for their Youth Club events" imgclass="object-cover" >}}
+</div>
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+  <div class="col-span-full">
+    {{< animation id="anim-base51-stickers" >}}
+  </div>
+</div>
+
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -136,10 +163,10 @@ A safe place where change begins.
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="work-base51-fundraising-1.jpg" alt="Mockup of Base 51 fundraising document on a tablet screen" >}}
+{{< figure align="left" wrapperclass="" src="work-base51-presentation.jpg" alt="Mockup of Base 51 fundraising document on a tablet screen" >}}
 
 
-{{< figure wrapperclass="" src="work-base51-fundraising-2.jpg" alt="Mockup of Base 51 fundraising document on a tablet screen" >}}
+{{< figure wrapperclass="" src="work-base51-fundraising.jpg" alt="Mockup of Base 51 fundraising document on a tablet screen" >}}
 
 
 <!-- Text right -->
@@ -166,26 +193,12 @@ A safe place where change begins.
   </div>
 </div>
 
-{{< figure wrapperclass="" src="work-base51-social-post.jpg" alt="Mockup of a Base 51 social media post on a smartphone" >}}
+{{< multi-image
+  src_1="images/work-base51-social.jpg" alt_4="Mockup of a Base 51 social media post on a smartphone"
+  src_4="images/work-base51-iphones.jpg" alt_1="Mockup of Base 51 social media posts on two smartphones"
+  align="end"
+  >}}
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-social-post-2.jpg" alt="Mockup of a Base 51 social media post on a smartphone" >}}
-
-  <div class="col-span-full lg:col-span-4 self-start">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-social-post-3.jpg" alt="Mockup of a Base 51 social media post on a smartphone" >}}
-
-  </div>
-</div>
-
-
-
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-
-  <div class="col-span-full lg:col-span-7 bg-green text-white p-6 prose">
-    <h2>Impact</h2>
-    <p>This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth.</p>
-  </div>
-</div>
 
 
 

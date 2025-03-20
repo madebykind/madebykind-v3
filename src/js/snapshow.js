@@ -1,5 +1,6 @@
 function SnapShow(el) {
-  const slides = el.querySelectorAll("[data-snap-show-el]");
+  const slides = el.querySelectorAll("[data-slide-show-el]");
+  const speed = el.dataset.speed ? el.dataset.speed  : 500;
   let bounding;
   let width;
   let height;
@@ -8,8 +9,9 @@ function SnapShow(el) {
   el.classList.add('relative');
 
   slides.forEach(function(e, index) {
+    e.classList.add(...['absolute','inset-0']);
     if (index > 0) {
-      e.classList.add(...['absolute','inset-0','hidden', 'transition-all', 'duration-500', 'ease-in-out']);
+      e.classList.add(...['hidden']);
     }
   });
 
@@ -24,7 +26,7 @@ function SnapShow(el) {
 
     slides[i].classList.remove('hidden');
 
-  }, 500);
+  }, speed);
 
 }
 

@@ -5,29 +5,42 @@
 
   <div class="container">
     <div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section--lg">
-      {{ with .Params.key_stat }}
-        <aside class="col-span-9 lg:col-span-3 xl:col-span-3 items-start">
-          {{ range . }}
-            {{ with site.GetPage . }}
-              <div class="flex flex-col gap-2">
-                <h2 class="text-5xl lg:text-6xl h--condensed inline-flex items-end">
-                  {{ if .Params.prefix }}<span class="text-4xl lg:text-5xl">{{ .Params.prefix }}</span>{{ end }}
-                  {{ .Title }}
-                  {{ if .Params.suffix }}<span class="text-4xl lg:text-5xl">{{ .Params.suffix }}</span>{{ end }}
-                </h2>
-                <div class="font-sans font-medium text-base leading-tight">{{ .Content }}</div>
-              </div>
+      {{ if not .Params.impact }}
+        {{ with .Params.key_stat }}
+          <aside class="col-span-9 lg:col-span-3 xl:col-span-3 items-start">
+            {{ range . }}
+              {{ with site.GetPage . }}
+                <div class="flex flex-col gap-2">
+                  <h2 class="text-5xl lg:text-6xl h--condensed inline-flex items-end">
+                    {{ if .Params.prefix }}<span class="text-4xl lg:text-5xl">{{ .Params.prefix }}</span>{{ end }}
+                    {{ .Title }}
+                    {{ if .Params.suffix }}<span class="text-4xl lg:text-5xl">{{ .Params.suffix }}</span>{{ end }}
+                  </h2>
+                  <div class="font-sans font-medium text-base leading-tight">{{ .Content }}</div>
+                </div>
+              {{ end }}
             {{ end }}
-          {{ end }}
-        </aside>
+          </aside>
+        {{ end }}
       {{ end }}
       {{ if .Params.intro }}
-        <div class="col-span-full {{ if .Params.key_stat }} lg:col-span-6 lg:col-start-5 2xl:col-span-5 {{ else }} lg:col-span-8 lg:col-start-3 2xl:col-span-5 2xl:col-start-5 {{ end }}}">
+        <div class="col-span-full
+          {{ if .Params.impact }} lg:col-span-6 2xl:col-span-5
+          {{ else if .Params.key_stat }} lg:col-span-6 lg:col-start-5 2xl:col-span-5
+          {{ else }} lg:col-span-8 lg:col-start-3 2xl:col-span-5 2xl:col-start-5
+          {{ end }}}">
           <div class="max-w-4xl lede flex flex-col gap-5 lg:gap-6">
             <h2 class="h3 h--condensed">Overview</h2>
             {{ .Params.intro | markdownify }}
           </div>
         </div>
+      {{ end }}
+
+      {{ if .Params.impact }}
+        <aside class="col-span-12 lg:col-span-4 lg:col-start-9 bg-green text-white p-6 prose self-start">
+          <h2>Impact</h2>
+          <p>This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth.</p>
+        </aside>
       {{ end }}
     </div>
   </div>
