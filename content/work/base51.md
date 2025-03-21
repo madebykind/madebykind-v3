@@ -20,7 +20,7 @@ services:
   - brand
 related_work:
   - chapter
-  - hispanists
+  - artswork
   - bookmark
 weight: 1
 toc: true
