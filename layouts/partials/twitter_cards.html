@@ -14,6 +14,11 @@
   <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
 {{- end }}
 
+{{- with .Params.topics }}
+  <meta name="twitter:label1" content="Services">
+  <meta name="twitter:data1" content="{{ delimit . ", " " and "}}">
+{{- end }}
+
 {{- $twitterSite := "" }}
 {{- with site.Params.social }}
   {{- if reflect.IsMap . }}
