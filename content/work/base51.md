@@ -66,35 +66,19 @@ A safe place where change begins.
 
   With national funding cuts and increasing competition for support, it is essential that Base 51 remained visible and relevant to young people. A fresh visual identity was key to maintaining engagement, ensuring their brand continues to connect with those who need them most.
 
+  ## Research and engagement
+
+  A discovery phase brought together young people, staff, stakeholders and volunteers through workshops and focus groups. This process helped uncover their needs, perceptions, and how Base 51 could better communicate its impact.
+
   </div>
 </div>
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
+    {{< animation id="anim-base51-type" >}}
+  </div>
   {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-water-bottle.jpg" alt="a water bottle with the Base 51 Logo" >}}
-
-  <div class="col-span-full lg:col-span-4 self-end">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-tshirt.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called 'Outburst'" >}}
-
-  </div>
-
-  <div class="col-span-full lg:col-span-4">
-
-  {{< image-cycle
-    src_1="images/work-base51-icon-1.png"
-    alt_1="An icon from Base 51 guidelines - A hand showing a peace sign"
-    src_2="images/work-base51-icon-2.png"
-    alt_2="An icon from Base 51 guidelines - A flag"
-    src_3="images/work-base51-icon-3.png"
-    alt_3="An icon from Base 51 guidelines - A computer terminal with monitor"
-    src_4="images/work-base51-icon-4.png"
-    alt_4="An icon from Base 51 guidelines - An open hand"
-    src_5="images/work-base51-icon-5.png"
-    alt_5="An icon from Base 51 guidelines - A smiley face"
-    type="snap"
-    speed="200" >}}
-
-  </div>
 </div>
 
 {{< figure wrapperclass="" src="work-base51-lanyards.jpg" alt="Mockup of lanyards for Base 51" >}}
@@ -104,10 +88,6 @@ A safe place where change begins.
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Research and engagement
-
-  A discovery phase brought together young people, staff, stakeholders and volunteers through workshops and focus groups. This process helped uncover their needs, perceptions, and how Base 51 could better communicate its impact.
-
   ## Brand audit
 
   An in-depth review of Base 51’s existing identity highlighted opportunities to create a more engaging, cohesive brand presence. The goal was to refine their logo, colours, online platforms, and messaging to better reflect their energy and purpose.
@@ -116,16 +96,7 @@ A safe place where change begins.
 </div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
-  <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
-    {{< animation id="anim-base51-type" >}}
-  </div>
-  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-base51-poster-new.jpg" alt="A mockup of a Base 51 poster for their Youth Club events" imgclass="object-cover" >}}
-</div>
-
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
-  <div class="col-span-full">
-    {{< animation id="anim-base51-stickers" >}}
-  </div>
+  {{< figure wrapperclass="col-span-full lg:col-span-8 lg:col-start-5" src="work-base51-poster-new.jpg" alt="A mockup of a Base 51 poster for their Youth Club events" imgclass="object-cover" >}}
 </div>
 
 
@@ -178,6 +149,34 @@ A safe place where change begins.
   The refreshed branding introduces a bold, purposefully imperfect logo, representing movement, inclusivity, and progression. A vibrant colour palette speaks to their core 11-25 age group, balancing youthful energy with professional tones for their academy. We included gradients to bring fluidity and symbolise growth.
 
   To enhance clarity, custom ‘stickers’ were designed to define each service area. These elements introduce hierarchy and structure, helping young people quickly identify the support available to them.
+
+  </div>
+</div>
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+  <div class="col-span-full">
+    {{< animation id="anim-base51-stickers" >}}
+  </div>
+</div>
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-tshirt.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called 'Outburst'" >}}
+
+  <div class="col-span-full lg:col-span-4 w-full h-full">
+
+  {{< image-cycle
+    src_1="images/work-base51-icon-1.png"
+    alt_1="An icon from Base 51 guidelines - A hand showing a peace sign"
+    src_2="images/work-base51-icon-2.png"
+    alt_2="An icon from Base 51 guidelines - A flag"
+    src_3="images/work-base51-icon-3.png"
+    alt_3="An icon from Base 51 guidelines - A computer terminal with monitor"
+    src_4="images/work-base51-icon-4.png"
+    alt_4="An icon from Base 51 guidelines - An open hand"
+    src_5="images/work-base51-icon-5.png"
+    alt_5="An icon from Base 51 guidelines - A smiley face"
+    type="snap"
+    speed="200" >}}
 
   </div>
 </div>
