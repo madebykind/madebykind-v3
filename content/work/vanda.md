@@ -1,6 +1,8 @@
 ---
 heading: Working with the world’s leading art and design museum
 title: The V&A - Brand and Digital Case Study - Arts & Culture 
+title: Digital archive design and delivery for The V&A - Kind
+description: Supporting a national museum through delivering online research archives, integrated with hosted search platforms
 date: 2023-05-28T11:49:55.811Z
 cover_img: images/work-va-teaser.jpg
 cover_img_alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
@@ -24,7 +26,6 @@ topics:
 block_class: bg-blue text-sky
 cta_class: bg-sky text-blue
 icon: va-logo
-description: Preserving historical collections through digital archives
 services:
   - strategy
   - brand

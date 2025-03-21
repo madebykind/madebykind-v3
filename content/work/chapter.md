@@ -11,7 +11,8 @@ related_work:
   - vanda
   - rewilding-britain
 heading: Brand development of an international arts centre
-title: Chapter - Brand and Digital Case Study - Arts & Culture  
+title: Brand and website for Cardiff-based art centre, Chapter - Kind
+description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 block_class: bg-pink text-claret
@@ -28,7 +29,7 @@ external_link: https://chapter.org.uk
 key_stat: null
 weight: 3
 icon: chapter-logo
-description: How we helped reposition a historic community force
+teaser_text: Repositioning a historic community force
 services:
   - brand
   - digital

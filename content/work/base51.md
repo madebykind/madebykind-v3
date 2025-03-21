@@ -1,16 +1,16 @@
 ---
 heading: Creating an inclusive and safe brand to support young people
-title: Base 51 - Brand Case Study - Charity
+title: Brand identity for youth charity, Base 51 - Kind
+description: An engaging and playful brand identity for a long-serving youth charity in Nottingham
 draft: false
 date: 2025-03-14T10:52:34.342Z
 cover_img: images/work-base51-imagery-1.jpg
 cover_img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
 intro: >
-  Nottingham is the worst place in the UK to be young, with 17,500 children living in poverty and the crisis is worsening due to rising living costs and council funding cuts.
+  Nottingham is the worst place in the UK to be young, with 17,500 children living in poverty and the crisis worsening due to rising living costs and council funding cuts.
 
 
   Base 51 supports over 1,000 young people annually, providing safe, inclusive spaces with access to counselling, trauma support, and youth clubs – including for LGBTQIA+ and refugee communities. Their academy also offers accredited training in counselling and youth work.
-description: Find out how Kind delivered a brand strategy and visual identity for youth support charity, Base 51
 summary:
 topics:
   - Brand strategy
@@ -78,7 +78,24 @@ A safe place where change begins.
   <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
     {{< animation id="anim-base51-type" >}}
   </div>
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-water-bottle.jpg" alt="a water bottle with the Base 51 Logo" >}}
+
+  <div class="col-span-full lg:col-span-4 aspect-square overflow-hidden bg-[#f3edda]">
+
+  {{< image-cycle
+    src_1="images/work-base51-icon-1.png"
+    alt_1="An icon from Base 51 guidelines - A hand showing a peace sign"
+    src_2="images/work-base51-icon-2.png"
+    alt_2="An icon from Base 51 guidelines - A flag"
+    src_3="images/work-base51-icon-3.png"
+    alt_3="An icon from Base 51 guidelines - A computer terminal with monitor"
+    src_4="images/work-base51-icon-4.png"
+    alt_4="An icon from Base 51 guidelines - An open hand"
+    src_5="images/work-base51-icon-5.png"
+    alt_5="An icon from Base 51 guidelines - A smiley face"
+    type="snap"
+    speed="200" >}}
+
+  </div>
 </div>
 
 {{< figure wrapperclass="" src="work-base51-lanyards.jpg" alt="Mockup of lanyards for Base 51" >}}
@@ -162,23 +179,7 @@ A safe place where change begins.
 
   {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-tshirt.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called 'Outburst'" >}}
 
-  <div class="col-span-full lg:col-span-4 w-full h-full">
-
-  {{< image-cycle
-    src_1="images/work-base51-icon-1.png"
-    alt_1="An icon from Base 51 guidelines - A hand showing a peace sign"
-    src_2="images/work-base51-icon-2.png"
-    alt_2="An icon from Base 51 guidelines - A flag"
-    src_3="images/work-base51-icon-3.png"
-    alt_3="An icon from Base 51 guidelines - A computer terminal with monitor"
-    src_4="images/work-base51-icon-4.png"
-    alt_4="An icon from Base 51 guidelines - An open hand"
-    src_5="images/work-base51-icon-5.png"
-    alt_5="An icon from Base 51 guidelines - A smiley face"
-    type="snap"
-    speed="200" >}}
-
-  </div>
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-water-bottle.jpg" alt="a water bottle with the Base 51 Logo" >}}
 </div>
 
 <!-- Text left -->

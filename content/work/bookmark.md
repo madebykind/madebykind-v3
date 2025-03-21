@@ -1,13 +1,13 @@
 ---
 heading: Raising awareness of the childhood literacy gap in the UK 
-title: Bookmark Reading - Digital Case Study - Charity
+title: Website for Bookmark Reading charity - Kind
+description: A fun, playful website with clear journeys and integrated help-centre for a childhood literacy charity
 draft: false
 date: 2024-07-25T10:52:34.342Z
 cover_img: images/work-bookmark-reading-mentor.jpg
 cover_img_alt: A child and a woman reading together
 intro: 1 in 4 Children in England cannot read well when they leave primary school. Children unable to read well will face difficulties for the rest of school and beyond, devastatingly impacting their life chances. This results in 7.1 million adults in England who struggle to read and face challenges every day – at home, on the move, in the workplace, and with their friends and families.
 key_stat: null
-description: Find out how Kind have helped Bookmark Reading
 summary:
 topics:
   - Research and analysis

@@ -1,14 +1,13 @@
 ---
 heading: Growing organically for a healthy and sustainable world
-title: Garden Organic - Digital Case Study - Charity
+title: Website for Garden Organic - Kind
+description: Launching a new brand identity through a CRM integrated website
 draft: false
 date: 2023-06-28T12:58:42.437Z
 cover_img: images/work-garden-organic-laptop-3.jpg
 cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
 intro: Organic gardening can boost the environment and sustainability, and improve health, well-being, and food security. It can build communities and aid connection with nature and what you eat. Through campaigning, advice, community work, and research, their aim is to get everyone growing ‘the organic way’.
 key_stat: null
-description: See how Kind helped Garden Organic launch their updated brand
-  through a new website and CRM integration.
 services:
   - digital
 topics:

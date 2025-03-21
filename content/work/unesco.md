@@ -2,7 +2,8 @@
 draft: false
 featured: true
 heading: Ensuring access to education for millions of children
-title: UNESCO - Brand and Digital Case Study - Non-Profit
+title: User-centred discovery and digital knowledge base for UNESCO
+description: A global user-centred design process that led to the delivery of a digital repository of resources to ensure education in emergencies
 date: 2023-06-28T12:26:29.707Z
 cover_img: images/work-unesco-refugees.jpg
 cover_img_alt: Three child refugees in a tent Kabul
@@ -16,7 +17,7 @@ block_class: bg-blue text-sky
 cta_class: bg-sky text-blue
 external_link: 
 icon: unesco-logo
-description: A global user-centred design process
+teaser_text: A global user-centred design process
 services:
   - brand
   - digital

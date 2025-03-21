@@ -1,13 +1,13 @@
 ---
 heading: Empowering young people to use creativity for change
-title: Artswork - Digital + Brand Case Study - Charity
+title: Brand and website for youth creative charity, Artswork - Kind
+description: A colourful and playful brand refresh and CRM integrated website
 draft: false
 date: 2025-03-19T10:52:34.342Z
 cover_img: images/work-artswork-photo-2.jpg
 cover_img_alt: Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air.
 intro: >
   Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
-description: Find out how Kind delivered a digital rebrand for creative youth charity, Artswork
 external_link: https://artswork.org.uk/
 summary:
 topics:

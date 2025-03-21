@@ -1,6 +1,7 @@
 ---
 heading: Bringing focus to a sustainable architecture and interior design practice
-title: Jackson-Crane - Strategy Case Study - Sustainable Architecture 
+title: Marketing strategy for sustainable architecture practice, Jackson-Crane - Kind
+description: Bringing focus to an award-winning contemporary architecture practice that focuses on sustainability.
 draft: false
 date: 2023-06-28T13:51:18.140Z
 cover_img: images/work-jackson-crane-biophillic-house.jpg
@@ -10,7 +11,6 @@ intro: Jackson-Crane Architects we founded by David Jackson-Crane in 2017, as a
   fashion them into a strategic plan which would help support stability and then
   growth over the next 5 years.
 key_stat: null
-description: Bringing focus to a sustainable architecture and interior design practice.
 summary: null
 topics:
   - Research and analysis

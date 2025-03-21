@@ -1,6 +1,7 @@
 ---
 heading: A user-centred website to build awareness and gain public support
-title: The Rivers Trust - Digital Case Study - Environment
+title: Website and member portal for The Rivers Trust - Kind
+description: A user-centred website to build awareness and gain public support
 date: 2023-06-28T12:26:29.707Z
 cover_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 cover_img_alt: A river in the Scottish Higlands
@@ -18,7 +19,6 @@ topics:
 block_class: bg-blue text-sky
 external_link: https://theriverstrust.org
 icon: rt-logo
-description: A user-centred website to build awareness and gain public support
 services:
   - digital
 related_work:
