@@ -54,7 +54,7 @@ social_img: images/work-base51-imagery-1.jpg
 social_img_txt: "Creating an inclusive and safe brand to support young people"
 ---
 
-{{< workquote logo="logo-base51" img="images/work-base51-imagery-2.jpg" alt="A young woman sitting against a brick wall. She has a rainbow painted across her face, below her eyes.">}}
+{{< workquote logo="logo-base51" img="images/work-base51-imagery-3.jpg" alt="Two young women look at each other. They appear to be at an outdoor festival, with the sun setting in the distance. They are smiling">}}
 A safe place where change begins.
 {{</ workquote >}}
 
@@ -195,8 +195,9 @@ A safe place where change begins.
 
 {{< multi-image
   src_1="images/work-base51-social.jpg" alt_1="Mockup of a Base 51 social media post on a smartphone"
-  src_4="images/work-base51-iphones.jpg" alt_4="Mockup of Base 51 social media posts on two smartphones"
-  align="end"
+  src_4="images/work-base51-iphones-light-green.jpg" alt_4="Mockup of Base 51 social media posts on two smartphones"
+  class_4="bg-[#d2ffdb] flex items-end"
+  block_class="items-stretch"
   >}}
 
 

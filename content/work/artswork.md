@@ -130,6 +130,15 @@ We empower young people to lead change through creativity – for themselves, th
   </div>
 </div>
 
+{{< image-cycle
+  align="right"
+  src_1="images/work-artswork-ui-1.png"
+  alt_1="Artswork website components"
+  src_2="images/work-artswork-ui-2.png"
+  alt_2="Artswork website components"
+  src_3="images/work-artswork-ui-3.png"
+  alt_3="Artswork website components" >}}
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
@@ -140,6 +149,14 @@ We empower young people to lead change through creativity – for themselves, th
 
   </div>
 </div>
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-artswork-ipad.jpg" alt="Artswork website shown on a tablet screen" >}}
+  <div class="col-span-full lg:col-span-4">
+  {{< mobile-scroll src="work-artswork-homepage-mobile.png" alt="a mockup of the Artswork website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000">}}
+  </div>
+</div>
+
 
 
 {{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="section--lg" align="left">}}Working with Kind has brought much needed direction and clarity to our charity after a big change in our delivery.
