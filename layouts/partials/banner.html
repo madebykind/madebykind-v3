@@ -15,8 +15,7 @@
 {{ if eq $type "standard" }}
   {{ if isset .Params "banner_img" }}
 
-    {{- $img := (.Params.banner_img ) -}}
-    {{- $src := (.Params.cover_img ) -}}
+    {{- $src := (.Params.banner_img ) -}}
     {{- $src := replace $src "images" "https://madebykind.imgix.net" -}}
     {{- $alt := ( .Params.banner_img_alt ) -}}
     {{- $dataSizes := "98vw" -}}
@@ -121,4 +120,8 @@
 
 {{ if eq $type "chapter" }}
     {{ partial "banner__chapter" . }}
+{{ end }}
+
+{{ if eq $type "base51" }}
+    {{ partial "banner__base51" . }}
 {{ end }}

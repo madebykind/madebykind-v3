@@ -1,6 +1,7 @@
 ---
 heading: Supporting an Internationally-Renowned Art Gallery
-title: Backlit - Digital Case Study - Arts & Culture  
+title: Digital brand and website for independent art centre, Backlit - Kind
+description: A contemporary, sleek website design for an Arts Council NPO
 draft: false
 date: 2023-06-28T10:52:34.342Z
 cover_img: images/work-backlit-kind-team-2.jpg
@@ -10,7 +11,7 @@ intro: Backlit is a home to over 120 artists, collectives, and associate
   essential framework for the public, local people, communities, students and
   creatives at all stages of life to develop.
 key_stat: null
-description: Find out how Kind have helped Backlit Gallery
+external_link: https://backlit.org.uk/
 summary:
 topics:
   - Visual identity
@@ -24,7 +25,7 @@ related_work:
   - chapter
   - vanda
   - the-rivers-trust
-weight: 7
+weight: 8
 banner_type: standard
 banner_img: images/work-backlit-interior.png
 banner_img_alt: Interior of an old industrial building, now an art gallery

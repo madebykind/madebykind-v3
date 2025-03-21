@@ -1,6 +1,7 @@
 ---
 heading: Connecting global Iberian academia
-title: Association of Hispanists - Brand Case Study - Education
+title: Brand and website for the Association of Hispanists - Kind
+description: An evocative brand identity and uncomplicated website delivery
 draft: false
 date: 2023-06-28T10:52:34.342Z
 cover_img: images/work-hispanists-flags.jpg
@@ -8,7 +9,6 @@ cover_img_alt:
 intro: >
   AHGBI (Association of Hispanists of Great Britain and Ireland) represents a dynamic collective of skilled researchers and educators spanning Hispanic and Lusophone Studies. Grounded in a commitment to research, knowledge production, and dissemination, it became evident that their passion, vibrancy, and sense of community deserved expression through a revitalised brand identity and forthcoming website.
 key_stat: null
-description: Find out how Kind have helped the Association of Hispanists
 summary:
 topics:
   - Visual identity
@@ -19,7 +19,7 @@ related_work:
   - chapter
   - vanda
   - backlit
-weight: 3
+weight: 4
 banner_type: standard
 banner_img: images/work-hispanists-logo.jpg
 banner_img_alt: The AHGBI logo on a red background

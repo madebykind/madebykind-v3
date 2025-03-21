@@ -1,13 +1,13 @@
 ---
 heading: Ensuring a fair deal across the global coffee community
-title: Algrano - Brand Case Study - Ethical Business
+title: Brand delivery for Algrano - Kind
+description: Launching a refreshed identity through animation, video production and tone of voice
 draft: false
 date: 2024-07-25T10:52:34.342Z
 cover_img: images/work-algrano-harvest.jpg
 cover_img_alt: A man empties a harvest of coffee from an orange pallette box into a machine
 intro: Understanding there was a deep imbalance and asymmetry in the coffee industry, Algrano’s founders sought to disrupt the monopolised industry structure by using online tools, trusted partnerships, price transparency, and shipping management to put roasters in direct touch with the producers growing coffee at source.  
 key_stat: null
-description: Find out how Kind have helped Algrano
 summary:
 topics:
   - User-centred Design
@@ -22,7 +22,8 @@ related_work:
   - chapter
   - vanda
   - the-rivers-trust
-weight: 4
+weight: 5
+impact: Algrano's work helps to reset the power imbalance in the coffee industry, connecting producers directly to roasters. Our work has helped them to better tell their story and encourage more independents to join their movement.
 banner_type: slideshow
 banner_images: 
   - img: images/work-algrano-drinkers.jpg

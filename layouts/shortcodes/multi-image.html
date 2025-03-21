@@ -2,10 +2,11 @@
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1800" "1920" "2240" -}}
 {{- $imgClass := "object-fit" -}}
 {{- $dataSizes := "98vw" -}}
+{{- $blockClass := .Get "block_class" -}}
 
 
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 {{ $blockClass }} gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   {{ if .Get "src_1" }}
     {{- $src := replace (.Get "src_1") "images" "https://madebykind.imgix.net" -}}
     {{- $alt := .Get "alt_1" -}}
@@ -75,8 +76,9 @@
   {{ if .Get "src_4" }}
     {{- $src := replace (.Get "src_4") "images" "https://madebykind.imgix.net" -}}
     {{- $alt := .Get "alt_4" -}}
+    {{- $class := .Get "class_4" -}}
 
-    <picture class="col-span-full lg:col-span-8 lg:col-start-5">
+    <picture class="col-span-full lg:col-span-8 lg:col-start-5 {{ $class }}">
       <source sizes="{{ $dataSizes }}" srcset="
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}

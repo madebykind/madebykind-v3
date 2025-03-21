@@ -1,6 +1,8 @@
 ---
 heading: Creating a sustainable design system to improve the efficiency of digital projects
-title: Sheffield Hallam University - Digital Case Study - Education
+title: Digital partnership and design system delivery for Sheffield Hallam University - Kind
+description: User-centred design system for one of the UK’s largest and most
+  diverse universities
 draft: false
 date: 2023-06-28T13:59:11.952Z
 cover_img: images/work-shu-runner.jpg
@@ -11,8 +13,6 @@ intro: "Sheffield Hallam University is one of the UK’s largest and most divers
   guaranteed work experience on their degree courses. Sheffield Hallam wanted to
   stand out in the busy landscape of Higher Education as an education provider
   who add real long-term value to their students. "
-description: Sheffield Hallam University is one of the UK’s largest and most
-  diverse universities
 feature_heading: Our partnership
 feature_content: In 2018, SHU appointed Kind as a digital partner, tasking us
   with providing long-term support to improve and bring consistency to SHU’s
@@ -32,7 +32,7 @@ related_work:
   - chapter
   - rewilding-britain
   - the-rivers-trust
-weight: 4
+weight: 5
 key_stat:
     - 40-percent
 banner_type: standard

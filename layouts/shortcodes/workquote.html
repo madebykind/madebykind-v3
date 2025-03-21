@@ -19,7 +19,7 @@
             {{- with $respSizes -}}
               {{- range $i, $e := . -}}
                 {{- if $i }}, {{ end -}}
-                {{ $src }}?w={{ . }}&fm=webp {{ . }}w
+                {{ $src }}?w={{ . }}&fm=webp&ar=4:3&fit=crop&crop=entropy {{ . }}w
               {{- end -}}
             {{- end -}}" 
           type="image/webp">
@@ -29,12 +29,12 @@
           class="{{ $imgClass }}"
           loading=eager
           sizes="{{ $dataSizes }}"
-          src="{{ (printf "%s?w=640&auto=format" .) }}"
+          src="{{ (printf "%s?w=640&auto=format&ar=4:3&fit=crop&crop=entropy" .) }}"
           srcset="
             {{- with $respSizes -}}
               {{- range $i, $e := . -}}
                 {{- if $i }},{{ end -}}
-                {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
+                {{ $src }}?w={{ . }}&fm=jpg&ar=4:3&fit=crop&crop=entropy {{ . }}w
               {{- end -}}
             {{- end -}}"
         >

@@ -1,0 +1,43 @@
+
+  <div class="bleed lg:bleed-none">
+    <div class="relative overflow-hidden aspect-3/4 lg:aspect-video" data-snap-show>
+    {{ with .Params.banner_images }}
+      {{ range $index, $image := . }}
+        {{- $src := ( $image.img ) -}}
+        {{- $src := replace $src "images" "https://madebykind.imgix.net" -}}
+
+        {{- $alt := ( $image.alt ) -}}
+        {{- $dataSizes := "98vw" -}}
+        {{- $imgClass := "w-80 md:w-160 lg:w-240" -}}
+        {{- $respSizes := slice "640" "1280" "1920" -}}
+        <picture class="w-full h-full flex items-center justify-center bg-white" data-slide-show-el>
+          <source 
+            sizes="{{ $dataSizes }}" 
+            srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if $i }}, {{ end -}}
+                  {{ $src }}?w={{ . }}&fm=webp {{ . }}w
+                {{- end -}}
+              {{- end -}}" 
+            type="image/webp">
+
+          <img
+            alt="{{ $alt }}"
+            class="{{ $imgClass }}"
+            loading=eager
+            sizes="{{ $dataSizes }}"
+            src="{{ (printf "%s?w=640&auto=format" $src) }}"
+            srcset="
+              {{- with $respSizes -}}
+                {{- range $i, $e := . -}}
+                  {{- if $i }},{{ end -}}
+                  {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
+                {{- end -}}
+              {{- end -}}"
+          >
+        </picture>
+      {{ end }}
+    {{ end }}
+    </div>
+  </div>

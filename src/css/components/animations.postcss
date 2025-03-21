@@ -1,100 +1,226 @@
 .animate-emphasise strong {
-    background-image: linear-gradient(90deg, #08533c 0%, #08533c 50%,  #F1EBE8 50%,  #F1EBE8 100%);
-    background-size: 200% 6%;
+  background-image: linear-gradient(90deg, #08533c 0%, #08533c 50%,  #F1EBE8 50%,  #F1EBE8 100%);
+  background-size: 200% 6%;
+  background-position: 100% 90%;
+  background-repeat: no-repeat;
+  animation-fill-mode: forwards;
+
+  &:nth-child(1) {
+    animation: navy-to-blue 2s ease-in-out 0s forwards,
+       underline 2s ease-in-out 0s forwards,
+       out 500ms ease-in-out 6s forwards,
+       navy-to-blue 500ms ease-in-out 6s reverse forwards
+    ;
+  }
+
+  &:nth-child(2) {
+    animation: navy-to-blue 2s ease-in-out 1.5s forwards,
+       underline 2s ease-in-out 1.5s forwards,
+       out 500ms ease-in-out 6s forwards,
+       navy-to-blue 500ms ease-in-out 6s reverse forwards
+    ;
+  }
+
+  &:nth-child(3) {
+    animation: navy-to-blue 2s ease-in-out 3s forwards,
+       underline 2s ease-in-out 3s forwards,
+       out 500ms ease-in-out 6s forwards,
+       navy-to-blue 500ms ease-in-out 6s reverse forwards
+    ;
+  }
+}
+
+.artswork-arrow {
+  path:nth-child(1) {
+    stroke-dasharray: 550;
+    stroke-dashoffset: 550;
+  }
+  path:nth-child(2) {
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+  }
+  &.animate {
+    path:nth-child(1) {
+      animation-name: line-once;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards;
+    }
+    path:nth-child(2) {
+      animation-name: line-once;
+      animation-duration: 250ms;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards;
+    }
+
+  }
+}
+
+.artswork-squiggle {
+  path {
+    stroke-dasharray: 2300;
+    stroke-dashoffset: 2300;
+  }
+  &.animate {
+    path {
+      animation-name: line-once;
+      animation-duration: 250ms;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+.anim-step-1 {
+  .animate &,
+  &.animate {
+    animation-delay: 250ms;
+  }
+}
+
+.anim-step-2 {
+  .animate &,
+  &.animate {
+    animation-delay: 500ms;
+  }
+}
+
+.anim-step-3 {
+  .animate &,
+  &.animate {
+    animation-delay: 750ms;
+  }
+}
+
+.anim-step-4 {
+  .animate &,
+  &.animate {
+    animation-delay: 1000ms;
+  }
+}
+
+.animate-up > * {
+  animation: up 1s ease-in-out 0s forwards;
+}
+
+
+.animate-side > svg:nth-child(1) {
+  margin-left: 8%;
+}
+.animate-side > svg:nth-child(2) {
+  margin-left: 41%;
+}
+.animate-side > svg:nth-child(3) {
+  margin-left: 20%;
+}
+
+.animate-side-2 > svg:nth-child(1) {
+  margin-left: 6%;
+}
+.animate-side-2 > svg:nth-child(2) {
+  margin-left: 42%;
+}
+.animate-side-2 > svg:nth-child(3) {
+  margin-left: 19%;
+}
+
+.animate-stickers {
+  > svg {
+    @apply scale-100 opacity-100;
+  }
+  > svg:nth-child(1) {
+    @apply rotate-[4deg];
+  }
+  > svg:nth-child(2) {
+    @apply rotate-[5deg];
+  }
+  > svg:nth-child(3) {
+    @apply -rotate-[9deg];
+  }
+  > svg:nth-child(4) {
+  }
+  > svg:nth-child(5) {
+    @apply rotate-[3deg];
+  }
+  > svg:nth-child(6) {
+    @apply rotate-[3deg];
+  }
+  > svg:nth-child(7) {
+    @apply  -rotate-[3deg];
+  }
+  > svg:nth-child(8) {
+    @apply -rotate-[3deg];
+  }
+  > svg:nth-child(9) {
+    @apply -rotate-[13deg];
+  }
+  > svg:nth-child(10) {
+  }
+  > svg:nth-child(11) {
+    @apply -rotate-[6deg];
+  }
+  > svg:nth-child(12) {
+    @apply rotate-[2deg];
+  }
+}
+
+
+@keyframes navy-to-blue {
+  0% {
+    color: #084059;
+  }
+  20% {
+    color: #084059;
+  }
+  80% {
+    color: #08533c;
+  }
+  100% {
+    color: #08533c;
+  }
+}
+
+@keyframes underline {
+  0% {
     background-position: 100% 90%;
-    background-repeat: no-repeat;
-    animation-fill-mode: forwards;
-
-    &:nth-child(1) {
-      animation: navy-to-blue 2s ease-in-out 0s forwards,
-         underline 2s ease-in-out 0s forwards,
-         out 500ms ease-in-out 6s forwards,
-         navy-to-blue 500ms ease-in-out 6s reverse forwards
-      ;
-    }
-
-    &:nth-child(2) {
-      animation: navy-to-blue 2s ease-in-out 1.5s forwards,
-         underline 2s ease-in-out 1.5s forwards,
-         out 500ms ease-in-out 6s forwards,
-         navy-to-blue 500ms ease-in-out 6s reverse forwards
-      ;
-    }
-
-    &:nth-child(3) {
-      animation: navy-to-blue 2s ease-in-out 3s forwards,
-         underline 2s ease-in-out 3s forwards,
-         out 500ms ease-in-out 6s forwards,
-         navy-to-blue 500ms ease-in-out 6s reverse forwards
-      ;
-    }
   }
-
-  .animate-up > * {
-    animation: up 1s ease-in-out 0s forwards;
+  20% {
+    background-position: 100% 90%;
   }
+  80% {
+    background-position: 0% 90%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+
+@keyframes out {
+  0% {
+    background-size: 200% 6%;
+  }
+  50% {
+    background-size: 200% 12%;
+  }
+  100% {
+    background-size: 200% 0;
+  }
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    margin-top: 96px;
+  }
+  100% {
+    opacity: 1;
+    margin-bottom: 0;
+  }
+}
 
 
-  .animate-side > svg:nth-child(1) {
-    margin-left: 8%;
+@keyframes line-once {
+  to {
+    stroke-dashoffset: 0;
   }
-  .animate-side > svg:nth-child(2) {
-    margin-left: 41%;
-  }
-  .animate-side > svg:nth-child(3) {
-    margin-left: 20%;
-  }
-
-
-  @keyframes navy-to-blue {
-    0% {
-      color: #084059;
-    }
-    20% {
-      color: #084059;
-    }
-    80% {
-      color: #08533c;
-    }
-    100% {
-      color: #08533c;
-    }
-  }
-
-  @keyframes underline {
-    0% {
-      background-position: 100% 90%;
-    }
-    20% {
-      background-position: 100% 90%;
-    }
-    80% {
-      background-position: 0% 90%;
-    }
-    100% {
-      background-position: 0% 90%;
-    }
-  }
-
-  @keyframes out {
-    0% {
-      background-size: 200% 6%;
-    }
-    50% {
-      background-size: 200% 12%;
-    }
-    100% {
-      background-size: 200% 0;
-    }
-  }
-
-  @keyframes up {
-    0% {
-      opacity: 0;
-      margin-top: 96px;
-    }
-    100% {
-      opacity: 1;
-      margin-bottom: 0;
-    }
-  }
+}

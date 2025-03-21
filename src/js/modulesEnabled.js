@@ -5,6 +5,7 @@ import { bindHeroHeight } from "@/js/hero-height";
 import { bindToggleClass } from "@/js/toggle-class";
 import { bindClassOnView } from "@/js/class-on-view";
 import { bindSlideShow } from "@/js/slideshow";
+import { bindSnapShow } from "@/js/snapshow";
 import { bindTypeWriter } from "@/js/typewriter";
 import { bindImageFlick } from "@/js/image-flick";
 import { bindPhoneScroll } from "@/js/phone-scroll";
@@ -17,6 +18,7 @@ bindHeroHeight()
 bindToggleClass()
 bindClassOnView()
 bindSlideShow()
+bindSnapShow()
 bindTypeWriter()
 bindImageFlick()
 bindPhoneScroll()

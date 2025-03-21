@@ -1,6 +1,7 @@
 ---
 heading: A user-centred realignment of the University of the Year’s website
-title: Nottingham Trent University - Strategy and Digital Case Study - Education
+title: Digital strategy and design system delivery for Nottingham Trent University - Kind
+description: A user-centred realignment of the University of the Year’s website
 draft: false
 date: 2023-06-28T10:52:34.342Z
 cover_img: images/work-ntu-brand-image.jpg
@@ -12,7 +13,6 @@ intro: >
 
     NTU commissioned us to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of the University’s external and internal audiences, while still reflecting NTU strategy, key messages and unique position.
 key_stat: null
-description: A user-centred realignment of the University of the Year’s website
 summary: null
 topics:
   - Digital Strategy
@@ -26,13 +26,15 @@ related_work:
   - sheffield-hallam-university
   - rewilding-britain
   - jackson-crane
-weight: 9
+weight: 10
 banner_type: standard
 banner_img: images/work-ntu-brand-image.jpg
 banner_img_alt: Two students walk down a cobbled street
 banner_icon: ntu-logo
 banner_img_class: brightness-75
 toc: true
+key_stat:
+  - 100s
 teaser:
   title: A user-centred realignment of the University of the Year’s website
   description: NTU asked Kind to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of their audiences.
