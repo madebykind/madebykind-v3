@@ -38,6 +38,16 @@ toc_replacements:
     short: Brand strategy
   - long: Digital rebrand
     short: Brand development
+teaser:
+  title: Brand and website for youth creative charity
+  description: Artswork are engaging more supporters and more young people through a creative rebrand and website launch.
+  images:
+    - img: images/work-artswork-photo-3.jpg
+      alt: Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air.
+    - img: images/work-artswork-ipad.jpg
+      alt: Artswork website shown on a tablet screen
+    - img: images/work-artswork-booklet.jpg
+      alt: Mockup of an Artswork brochure
 ---
 
 {{< workquote logo="logo-artswork" img="images/work-artswork-photo-1.jpg" alt="An adult DJ showing a young person a vinyl record as they learn how to mix music">}}
@@ -84,8 +94,8 @@ We empower young people to lead change through creativity – for themselves, th
 
 
 {{< multi-image
-  src_4="images/work-artswork-guidelines.jpg" alt_4="Mockup of a Base 51 social media post on a smartphone"
-  src_1="images/work-artswork-booklet.jpg" alt_1="Mockup of Base 51 social media posts on two smartphones"
+  src_4="images/work-artswork-guidelines.jpg" alt_4="Artswork brand guidelines pages"
+  src_1="images/work-artswork-booklet.jpg" alt_1="Mockup of an Artswork brochure"
   align="end"
   >}}
 

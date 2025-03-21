@@ -25,6 +25,8 @@ banner_images:
     alt: A black and white photograph of a Glastonbury Festival, showing festival goers walking through mud
   - img: images/work-lr-headset.jpg
     alt: A woman in VR headset
+  - img: images/work-artswork-photo-2.jpg
+    alt: Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air.
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
 logos:
   - name: The V&A
@@ -33,16 +35,13 @@ logos:
     icon: chapter-logo
   - name: Backlit Gallery
     icon: backlit-logo
-  - name: The Tung Auditorium
-    icon: tung-logo
+  - name: Artswork
+    icon: logo-artswork
 related_projects:
   - slug: projects/glastonbury
-    indent_text: true
   - slug: work/chapter
   - slug: projects/cic
-    indent_text: true
-  - slug: projects/layered-reality
-    indent_images: true
+  - slug: work/artswork
 testimonials:
   - testimonials/glasto
   - testimonials/lr
