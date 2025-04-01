@@ -79,6 +79,10 @@ We empower young people to lead change through creativity – for themselves, th
   </div>
 </div>
 
+{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="section--lg" align="left">}}Working with Kind has brought much needed direction and clarity to our charity after a big change in our delivery.
+
+We wanted to work with an agency that could truly understand the complexities of our youth arts charity and the many people we need to reach with our work.{{</ blockquote >}}
+
 
 
 <!-- Text right -->
@@ -169,6 +173,4 @@ We empower young people to lead change through creativity – for themselves, th
 
 
 
-{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="section--lg" align="left">}}Working with Kind has brought much needed direction and clarity to our charity after a big change in our delivery.
-
-We wanted to work with an agency that could truly understand the complexities of our youth arts charity and the many people we need to reach with our work. The website Kind have created encapsulates what we’re all about – creativity. This new look speaks to our younger audience and helps us tell our story and mission to all our stakeholders.{{</ blockquote >}}
+{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="section--lg" align="left">}}The website Kind have created encapsulates what we’re all about – creativity. This new look speaks to our younger audience and helps us tell our story and mission to all our stakeholders.{{</ blockquote >}}
