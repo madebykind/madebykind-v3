@@ -11,6 +11,7 @@ export default ({command}) => ({
 	base: command === 'serve' ? '' : '',
 	build: {
 		manifest: true,
+		minify: true,
 		outDir: './dist/assets/',
 		rollupOptions: {
 			input: {
