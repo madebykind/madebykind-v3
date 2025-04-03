@@ -4,8 +4,8 @@ title: Brand and website for youth creative charity, Artswork - Kind
 description: A colourful and playful brand refresh and CRM integrated website
 draft: false
 date: 2025-03-19T10:52:34.342Z
-cover_img: images/work-artswork-photo-2.jpg
-cover_img_alt: Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air.
+cover_img: images/work-artswork-photo-5.jpg
+cover_img_alt: Young people standing in front of microphones.
 intro: >
   Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
 external_link: https://artswork.org.uk/
@@ -27,8 +27,8 @@ weight: 1
 toc: true
 impact: "Artswork now has a dynamic online presence that better reflects their mission and engages their community. The digital rebrand, refined messaging, and SEO optimisation have made it easier for Artswork to attract new supporters, while the refreshed website provides a seamless experience for users to get involved and make a difference."
 banner_type: standard
-banner_img: images/work-artswork-photo-3.jpg
-banner_img_alt: Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air.
+banner_img: images/work-artswork-photo-4.jpg
+banner_img_alt: A young man holding his hands in the air in triumphant pose.
 banner_logo_class: text-white
 banner_icon: logo-artswork
 social_img: images/work-artswork-photo-1.jpg
@@ -42,7 +42,7 @@ teaser:
   title: Brand and website for youth creative charity
   description: Artswork are engaging more supporters and more young people through a creative rebrand and website launch.
   images:
-    - img: images/work-artswork-photo-3.jpg
+    - img: images/work-artswork-photo-2.jpg
       alt: Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air.
     - img: images/work-artswork-ipad.jpg
       alt: Artswork website shown on a tablet screen
@@ -50,7 +50,7 @@ teaser:
       alt: Mockup of an Artswork brochure
 ---
 
-{{< workquote logo="logo-artswork" img="images/work-artswork-photo-1.jpg" alt="An adult DJ showing a young person a vinyl record as they learn how to mix music">}}
+{{< workquote logo="logo-artswork" img="images/work-artswork-photo-2.jpg" alt="Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air">}}
 We empower young people to lead change through creativity – for themselves, their communities and the world.
 {{</ workquote >}}
 
