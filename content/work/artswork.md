@@ -98,7 +98,7 @@ We wanted to work with an agency that could truly understand the complexities of
 
 
 {{< multi-image
-  src_4="images/work-artswork-guidelines.jpg" alt_4="Artswork brand guidelines pages"
+  src_4="images/work-artswork-guidelines-1.jpg" alt_4="Artswork brand guidelines pages"
   src_1="images/work-artswork-booklet.jpg" alt_1="Mockup of an Artswork brochure"
   align="end"
   >}}
@@ -150,7 +150,7 @@ We wanted to work with an agency that could truly understand the complexities of
   alt_1="Artswork website components"
   src_2="images/work-artswork-ui-2.png"
   alt_2="Artswork website components"
-  src_3="images/work-artswork-ui-3.png"
+  src_3="images/work-artswork-ui-4.png"
   alt_3="Artswork website components" >}}
 
 <!-- Text left -->
@@ -167,7 +167,7 @@ We wanted to work with an agency that could truly understand the complexities of
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-artswork-ipad.jpg" alt="Artswork website shown on a tablet screen" >}}
   <div class="col-span-full lg:col-span-4">
-  {{< mobile-scroll src="work-artswork-homepage-mobile.png" alt="a mockup of the Artswork website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000">}}
+  {{< mobile-scroll src="work-artswork-homepage-mobile-1.png" alt="a mockup of the Artswork website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000">}}
   </div>
 </div>
 
