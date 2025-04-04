@@ -110,3 +110,6 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 {{< figure align="left" wrapperclass="" src="work-bookmark-help-centre-UIs.jpg" alt="User interface designs for the Bookmark Reading help centre" >}}
 
 {{< figure wrapperclass="" src="work-bookmark-help-centre-laptop.jpg" alt="The Bookmark Reading help centre on a laptop device" >}}
+
+
+{{< blockquote author="Daniel Oliver" role="Head of Marketing & Communications, Bookmark Reading Charity" wrapperclass="section--lg" align="left">}}We selected Kind to help us create a website that truly reflected our mission and values. From the beginning, they were not only professional and attentive, but also genuinely invested in our cause. Their team guided us through every step of the process, ensuring our needs were met while delivering a final product that exceeded our expectations.{{</ blockquote >}}
