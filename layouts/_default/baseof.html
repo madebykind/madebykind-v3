@@ -23,7 +23,7 @@
 
     <!-- The site footer, cached as it doesn't change -->
     {{ block "footer" . }}
-      {{ partialCached "site__footer" . .Params.footer_class .Params.cta_hidden }}
+      {{ partialCached "site__footer" . .Params.footer_class .Params.cta_hidden .Params.footer_heading }}
     {{ end }}
 
     <div class="contact-details" id="contact-details">

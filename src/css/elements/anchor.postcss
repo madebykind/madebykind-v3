@@ -9,3 +9,25 @@ a {
   text-decoration-skip-ink: auto;
   text-decoration: underline;
 }
+
+
+.a--underline {
+  @apply
+    inline
+    transition-all
+    duration-300
+    ease-in
+    pb-0.5
+  ;
+  background-image: linear-gradient(90deg, #e85625 0%, #e85625 50%, currentColor 50%, currentColor 100%);
+  background-origin: padding-box;
+  background-position: 100% 85%;
+  background-repeat: no-repeat;
+  background-size: 200% 5%;
+
+  &:hover,
+  &:focus {
+    background-position: 0% 85%;
+    color: #e85625;
+  }
+}

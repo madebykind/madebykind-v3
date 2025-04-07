@@ -1,26 +1,39 @@
-<footer id="contact">
+<footer>
   {{ if not .Params.cta_hidden }}
-  <div class="grid overflow-hidden {{ with .Params.footer_class }} {{ . }}{{ else }} bg-indigo text-buff{{ end }}">
-    <div class="container grid md:gap-10 md:grid-cols-2">
-      <div class="grid content-center order-2 section--lg md:order-1">
-        <h2 class="text-3xl h--condensed">Let’s make a difference, together</h2>
-        <p class="mt-6 leading-tight text-md">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
-        <p class="font-bold mt-15">Speak to Mat or Michelle</p>
-        <ul class="inline-flex gap-5 mt-2 list-none" role="list">
-          <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
-            <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:insights.track({id: 'footer-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.Email}}</a>
-          </li>
-          <li>
-            <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}"onclick="javascript:insights.track({id: 'footer-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.PhonePretty}}</a>
-          </li>
-        </ul>
+  <div class="{{ with .Params.footer_class }} {{ . }}{{ else }} bg-pink text-blue {{ end }}">
+    <div class="container grid grid-cols-1 items-end gap-8 md:grid-cols-12 section--lg">
+      <div class="col-span-full md:col-span-6">
+        <h2 class="text-4xl md:text-5xl 2xl:text-6xl leading-heading h--condensed mb-12">{{ with .Params.footer_class }} {{ . }}{{ else }}Let’s make a difference, together{{ end }}</h2>
+        <a href="#" class="btn btn--secondary--blue">
+          Download our creds
+          <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+            <use xlink:href="#icon-arrow"/>
+          </svg>
+        </a>
       </div>
-      <div class="relative order-1 bleed md:ml-0 md:order-2">
-        {{ partial "image" (dict 
-          "alt" "Mat and Michelle, standing by the bureaux and smiling."
-          "class" "object-cover h-full w-full"
-          "src" "images/mat-and-michelle.jpg" 
-        ) }}
+      <div class="col-span-full md:col-span-5 md:col-start-8 flex flex-col gap-4 lg:gap-12">
+        <div>
+          <h3 class="h--condensed text-lg mb-2">Get in touch</h3>
+          <p class="leading-tight text-md">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
+          <ul class="inline-flex gap-5 mt-2 list-none" role="list">
+            <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
+              <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:insights.track({id: 'footer-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.Email}}</a>
+            </li>
+            <li>
+              <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}"onclick="javascript:insights.track({id: 'footer-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.PhonePretty}}</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="h--condensed text-lg mb-2">Stay in the loop</h3>
+          <p class="font-sans text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in ex tempor, porta nisi sit amet, bibendum tellus.</p>
+
+          {{ partial "newsletter-form" (dict
+            "btn_text" "Subscribe"
+            "btn_class" "btn--blue"
+          ) }}
+
+        </div>
       </div>
     </div>
   </div>

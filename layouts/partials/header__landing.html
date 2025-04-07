@@ -1,40 +1,25 @@
 <header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} section--lg snap-start">
   <div class="container flex flex-col items-center gap-10 md:grid md:grid-cols-12">
-    <div class="max-w-5xl col-span-12 gap-10 md:col-span-8">
-      <div class="grid col-span-1 gap-15">
-        <h1>{{ .Params.Heading|safeHTML }}</h1>
+    <div class="col-span-12 gap-10 md:col-span-6">
+      <div class="flex flex-col gap-15">
+        <div class="flex flex-col gap-4">
+          <h1 class="text-orange h--condensed text-lg">{{ .Params.Preheading|safeHTML }}</h1>
+          <h2 class="h1">{{ .Params.Heading|safeHTML }}</h2>
+        </div>
 
         {{ if .Params.intro_md }}
-          <div class="max-w-5xl prose cta_prose">
+          <div class="prose cta_prose">
             {{ .Params.Intro | markdownify }}
           </div>
         {{ else }}
-          <div class="max-w-5xl prose cta_prose">
+          <div class="prose cta_prose">
             <p>{{ .Params.Intro }}</p>
-          </div>
-        {{ end }}
-        {{ if isset .Params "cta" }}
-          <div class="flex flex-wrap gap-5 lg:gap-10">
-              <a class="btn btn--primary" href="{{ .Params.ctaLink }}" onclick="javascript:insights.track({id: 'home-header-button-1',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-                {{ title .Params.Cta }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ if .Params.cta2 }}
-              <a class="btn btn--secondary" href="{{ .Params.cta2Link }}" onclick="javascript:insights.track({id: 'home-header-button-2',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-                {{ title .Params.Cta2 }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ end }}
           </div>
         {{ end }}
       </div>
     </div>
     {{ if isset .Params "cover_img" }}
-      <div class="self-end col-span-12 md:col-span-4 max-h-illustration max-w-illustration justify-self-end">
+      <div class="col-span-12 md:col-span-5 md:col-start-8 max-h-illustration max-w-illustration justify-self-end">
         {{ partial "image__illustration" . }}
       </div>
     {{ end }}
