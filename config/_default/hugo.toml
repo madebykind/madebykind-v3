@@ -48,11 +48,9 @@ timeout = "300s"
   phonePretty = "0115 727 0990"
   since = 2009
 
-  #github = "https://github.com/madebykind"
   linkedin = "https://www.linkedin.com/company/madebykind/"
-  #twitter = "https://twitter.com/madebykind"
-  #facebook = "https://facebook.com/madebykind"
   instagram = "https://www.instagram.com/madebykind/"
+  bluesky = "https://bsky.app/profile/madebykind.bsky.social"
 
   # Table of contents
   toc = "tocbot"
