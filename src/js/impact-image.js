@@ -5,7 +5,6 @@ function getImage(index, el) {
   let image = new Image();
   const path = el.dataset["impactImage-"+index]
   image.src = getImageSrc(path);
-  console.log(getImageSrc(path));
   image.alt = el.dataset["impactAlt-"+index];
   image.classList.add(...["w-full","h-full","object-cover"]);
   return image;

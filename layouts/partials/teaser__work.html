@@ -1,5 +1,5 @@
 <article class="min-h-dynamic-screen md:min-h-0">
-  <a aria-labelledby="{{ .context.Params.Heading | anchorize }}" class="relative no-underline group" href="{{ .context.Permalink }}" onclick="javascript:insights.track({id: 'work-teaser-{{ .context.Params.Heading | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+  <a aria-labelledby="{{ .context.Params.Heading | anchorize }}" class="relative no-underline group block" href="{{ .context.Permalink }}" onclick="javascript:insights.track({id: 'work-teaser-{{ .context.Params.Heading | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
 
 
     <div class="absolute z-20 w-full h-full justify-end md:py-2 xl:py-4 flex flex-col">
