@@ -5,12 +5,9 @@ topics:
   - CMS integration
   - CRM integration
   - Digital Strategy
-block_class: bg-teal text-blue
-cta_class: bg-blue text-teal
 impact_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
 client: Rewilding Britain
 intro: "<p>Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.</p>"
-featured: true
 heading: A platform to inspire rewilding projects across the country
 title: Website strategy and delivery for environmental charity, Rewilding Britain - Kind
 description: Digital design system and sustainable website delivery for one of the UK's fastest growing charities
@@ -27,6 +24,15 @@ banner_images:
     alt: A rewilding meadow in late Summer. Grasses and wild flowers seeding. Oak tree and a rough Hazel hedge field boundary
 banner_icon: rwb-logo
 teaser_text: Helping a cause we really care about
+impact_teaser:
+  text: Inspire the **rewilding** movement across Britain
+  images:
+    - img: images/work-rewilding-britain-teaser.jpg
+      alt: A Blue Tit on a branch
+    - img: images/work-rewilding-britain-carousel-2.jpg
+      alt: A beaver on a river bank
+    - img: images/work-rewilding-britain-carousel-4.jpg
+      alt: A rewilding meadow in late Summer. Grasses and wild flowers seeding. Oak tree and a rough Hazel hedge field boundary
 feature_heading: Our partnership
 feature_content: "Rewilding Britain understood that they needed a digital partner to not only create a digital presence but to maintain it and evolve as their organisation does. We’ve been delighted to work with them for almost four years to constantly improve the performance and direction of their site as they continue to gain awareness and support on a national and international level."
 impact_img_alt: A misty forest

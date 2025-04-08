@@ -1,0 +1,38 @@
+<div class="container grid grid-cols-1 md:grid-cols-12 gap-8 section--lg snap-start items-start relative">
+  <div class="md:col-span-7">
+  <h2 class="h--condensed text-lg mb-4">Since 2014, we've helped to:</h2>
+    {{ with .Params.impacts }}
+      <ul class="">
+        {{ range $index, $e := . }}
+          {{ with site.GetPage $e }}
+            <li class="{{ if ne $index 0 }} border-t {{ end }} py-4 lg:py-5">
+              <a href="{{ .Permalink }}" class="a--underline text-md">{{ .Params.impact_teaser.text|markdownify }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+  <figure class="hidden md:flex md:flex-col md:gap-2 md:sticky md:top-5 md:col-span-5">
+    {{ $src := "images/work-unesco-refugees.jpg" }}
+    {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+      <img 
+        alt="Three child refugees in a tent Kabul" 
+        class="w-full h-full object-cover"
+        loading="lazy"
+        sizes="(min-width: 100em) 100vw"
+        src="{{ (printf "%s?w=40&auto=format" .) }}" 
+        srcset="
+      {{ (printf "%s?w=275&auto=format" $src) }} 768w,
+      {{ (printf "%s?w=472&auto=format" $src) }} 1280w,
+      {{ (printf "%s?w=533&auto=format" $src) }} 1440w,
+      {{ (printf "%s?w=720&auto=format" $src) }} 1920w"
+      >
+    <figcaption class="flex justify-between w-full">
+      <p class="text-sm">Global user-centred design process and knowlege base</p>
+      <svg class="w-24 h-5 text-indigo" role="presentation">
+        <use xlink:href="#icon-unesco-logo"/>
+      </svg>
+    </figcaption>
+  </figure>
+</div>

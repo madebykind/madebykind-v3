@@ -34,6 +34,15 @@ banner_images:
   - img: images/work-bookmark-readers.jpg
     alt:  A child and a woman read together
 banner_icon: logo-bookmark
+impact_teaser:
+  text: Raise awareness of the UK’s **childhood literacy** gap
+  images:
+    - img: images/work-bookmark-reading-mentor.jpg
+      alt: A child and a woman reading together
+    - img: images/work-bookmark-laptop-child.jpg
+      alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
+    - img: images/work-bookmark-readers.jpg
+      alt:  A child and a woman read together
 toc: true
 teaser:
   title: Website and online help centre to aid childhood literacy

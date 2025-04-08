@@ -8,11 +8,11 @@
         </div>
 
         {{ if .Params.intro_md }}
-          <div class="prose cta_prose">
+          <div class="prose cta_prose text-md">
             {{ .Params.Intro | markdownify }}
           </div>
         {{ else }}
-          <div class="prose cta_prose">
+          <div class="prose cta_prose text-md">
             <p>{{ .Params.Intro }}</p>
           </div>
         {{ end }}

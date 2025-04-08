@@ -16,8 +16,14 @@ topics:
   - User-centred Design
   - CMS integration
   - CRM integration
-block_class: bg-blue text-sky
 external_link: https://theriverstrust.org
+impact_teaser:
+  text: Build awareness of the UK’s **river sewage crisis**
+  images:
+    - img: images/work-rivers-trust-phone-2.jpg
+      alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
+    - img: images/jack-anstey-unsplash.jpg
+      alt: A landscape image of a river taken from a drone
 icon: rt-logo
 services:
   - digital

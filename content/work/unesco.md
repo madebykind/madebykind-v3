@@ -1,8 +1,7 @@
 ---
 draft: false
-featured: true
 heading: Ensuring access to education for millions of children
-title: User-centred discovery and digital knowledge base for UNESCO
+title: User-centred discovery and digital knowledge base for UNESCO - Kind
 description: A global user-centred design process that led to the delivery of a digital repository of resources to ensure education in emergencies
 date: 2023-06-28T12:26:29.707Z
 cover_img: images/work-unesco-refugees.jpg
@@ -13,8 +12,6 @@ topics:
   - Illustration
   - Research and analysis
   - User-centred Design
-block_class: bg-blue text-sky
-cta_class: bg-sky text-blue
 external_link: 
 icon: unesco-logo
 teaser_text: A global user-centred design process
@@ -46,6 +43,14 @@ teaser:
         - 224-unesco
     - img: images/work-unesco-internal-page.jpg
       alt: A tablet device with a page from the Digital PDF report
+impact_teaser:
+  text: Improve **access to education** for over 200m children
+  images:
+    - img: images/work-unesco-school.jpg
+      alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera
+    - img: images/work-unesco-refugees.jpg
+      alt: Three child refugees in a tent Kabul
+  caption: Global user-centred design process and knowlege base
 social_img_txt: "Ensuring access to education for millions of children"
 ---
 
