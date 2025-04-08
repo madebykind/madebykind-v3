@@ -43,6 +43,7 @@ impact_teaser:
       alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
     - img: images/work-bookmark-readers.jpg
       alt:  A child and a woman read together
+  caption: Website and help-centred for children's literacy charity
 toc: true
 teaser:
   title: Website and online help centre to aid childhood literacy

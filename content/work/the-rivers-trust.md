@@ -24,6 +24,7 @@ impact_teaser:
       alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
     - img: images/jack-anstey-unsplash.jpg
       alt: A landscape image of a river taken from a drone
+  caption: User-centred website for charity focused on river health 
 icon: rt-logo
 services:
   - digital

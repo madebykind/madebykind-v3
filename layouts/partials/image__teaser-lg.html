@@ -6,7 +6,7 @@
 
     <img 
       alt="{{ $alt }}"
-      class="object-cover w-full h-full"
+      class="object-cover w-full h-full transition-all duration-300 ease-in group-hover:scale-110"
       loading=lazy
       sizes="(min-width: 100em) 100vw"
       src="{{ (printf "%s?w=320&ar=1:1&fit=crop&auto=format" .) }}" 

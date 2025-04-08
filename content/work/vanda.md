@@ -21,6 +21,7 @@ impact_teaser:
       alt: The Ancient City of Petra, Jordan
     - img: images/work-va-teaser.jpg
       alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
+  caption: Digital support for the V&A's research projects
 topics:
   - Visual identity
   - Research and analysis

@@ -11,6 +11,7 @@ import { bindImageFlick } from "@/js/image-flick";
 import { bindPhoneScroll } from "@/js/phone-scroll";
 import { bindSubscribeForm } from "@/js/subscribe-form";
 import { bindReturnLink } from "@/js/return-link";
+import { bindImpactImage } from "@/js/impact-image";
 
 bindFilters()
 bindToggles()
@@ -24,6 +25,7 @@ bindImageFlick()
 bindPhoneScroll()
 bindSubscribeForm()
 bindReturnLink()
+bindImpactImage()
 
 export default {
 
