@@ -4,7 +4,7 @@
     <h2>{{ i18n "clientsTitle" }}</h2>
     <p>{{ i18n "clientsDescription" }}</p>
   </div>
-  <ul class="inline-flex flex-wrap gap-10 list-none" role="list">
+  <ul class="inline-flex flex-wrap gap-10 list-none">
     {{ range (where site.RegularPages "Section" "clients" ) }}
     <li>
       {{ if isset .Params "url" }}

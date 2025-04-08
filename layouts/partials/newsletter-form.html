@@ -1,0 +1,39 @@
+{{ $btn_text := $.context.btn_text }}
+{{ $btn_class := $.context.btn_class }}
+{{ $border_class := $.context.border_class }}
+{{ $label_class := $.context.label_class }}
+{{ $url := $.context.url }}
+
+{{ with $.btn_class }}
+  {{ $btn_class = . }}
+{{ end }}
+{{ with $.btn_text }}
+  {{ $btn_text = . }}
+{{ end }}
+{{ with $.border_class }}
+  {{ $border_class = . }}
+{{ end }}
+{{ with $.label_class }}
+  {{ $label_class = . }}
+{{ end }}
+{{ with $.url }}
+  {{ $url = . }}
+{{ end }}
+
+
+<form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619350D6DDB27E7BE129FD2F8BADC9506325CEA10D4D02B1606A711C01B2ABF7F31B45FC1584FC4949698CC5689452964D1" data-subscribe-form>
+  <label for="fieldEmail" class="font-sans text-xs font-bold {{ with $.label_class }}{{ . }}{{ end }}">Your email address</label>
+  <div class="relative w-full mb-2">
+    <input autocomplete="Email" aria-label="Email" class="border-2 {{ $.border_class }} bg-white block w-full p-3 pr-[6.5rem] text-sm focus:outline-none min-h-[3.625rem] js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-jkttjly-jkttjly" required type="email">
+    <button type="submit" class="btn btn--small btn--primary absolute right-0 top-0 cursor-pointer min-h-[3.625rem] {{ with $.btn_class }}{{ . }}{{ end }}">
+      {{ $.btn_text }}
+      <svg class="w-8 h-3 shrink-0" role="presentation">
+        <use xlink:href="#icon-arrow"/>
+      </svg>
+    </button>
+  </div>
+  <input id="fieldtdvjhh" name="cm-f-tdvjhh" type="hidden" value="{{ $.url }}">
+</form>
+<script src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+
+<p class="font-sans text-xs">Your data will be processed by Kind and Campaign Monitor for the purposes of sending you a quarterly update email. For more information, please read our <a href="/about/legal/privacy/">privacy policy</a></p>

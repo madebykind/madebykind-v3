@@ -14,6 +14,14 @@ intro: >
   The primary V&A website is delivered and maintained in-house, but their digital team does not have the resource to deliver websites for programmes and specific projects. Kind have been appointed to deliver a number of digital design and development projects that fall outside of the remit of the V&A’s digital team.
 key_stat:
   - 800-mil
+impact_teaser:
+  text: Support internationally acclaimed **cultural organisations**
+  images:
+    - img: images/Work-VA-Header-BG.jpg
+      alt: The Ancient City of Petra, Jordan
+    - img: images/work-va-teaser.jpg
+      alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
+  caption: Digital support for the V&A's research projects
 topics:
   - Visual identity
   - Research and analysis
@@ -23,8 +31,6 @@ topics:
   - CMS integration
   - CRM integration
   - Digital archives
-block_class: bg-blue text-sky
-cta_class: bg-sky text-blue
 icon: va-logo
 services:
   - strategy

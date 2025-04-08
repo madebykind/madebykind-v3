@@ -1,12 +1,12 @@
 <article class="h-full">
   <a class="no-underline group" aria-labelledby="{{ .Params.Heading | anchorize }}" href="{{ .Permalink }}">
-    <div class="relative">
+    <div class="relative overflow-hidden">
       {{ if isset .Params "cover_img" }}
         {{ partial "image__card" . }}
       {{ end }}
 
       {{ with .Params.icon }}
-        <div class="absolute bottom-0 right-0 p-5 bg-white">
+        <div class="absolute bottom-0 right-0 p-5 bg-white text-black">
           <svg class="w-24 h-12 flex-no-shrink" role="presentation">
             <use xlink:href="#icon-{{ . }}"/>
           </svg>
@@ -15,16 +15,8 @@
     </div>
 
       <div class="grid content-center gap-8 py-5">
-        <h3 class="h2 h--condensed group-hover:underline" id="{{ .Params.Heading | anchorize }}">{{ .Params.Heading}}</h3>
-        {{ with .Params.services }}
-          <ul class="flex gap-5 list-none lg:gap-10">
-            {{ range . }}
-              <li class="relative flex items-center after:absolute after:-right-4 lg:after:-right-7 after:content-['+'] last:after:content-none">
-                {{ title . }}
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
+        <h3 class="h2 h--condensed transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink" id="{{ .Params.Heading | anchorize }}">{{ .Params.Heading }}</h3>
+        <h4 class="text-base font-normal transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink">{{ title (delimit .Params.services " + " ) }}</h4>
       </div>
   </a>
 </article>

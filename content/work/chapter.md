@@ -15,15 +15,12 @@ title: Brand and website for Cardiff-based art centre, Chapter - Kind
 description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
-block_class: bg-pink text-claret
-cta_class: bg-claret text-pink
 intro: >
 
   Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.
 
 
   Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
-featured: true
 date: 2023-06-28T12:25:28.863Z
 external_link: https://chapter.org.uk
 key_stat: null

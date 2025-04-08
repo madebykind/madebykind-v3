@@ -4,7 +4,7 @@
 {{ if gt $pag.TotalPages 1 }}
 
 <nav class="container">
-  <ol class="flex items-center gap-5 font-sans font-bold list-none" role="list">
+  <ol class="flex items-center gap-5 font-sans font-bold list-none">
     <li>
       {{ if .Paginator.HasPrev }}
         <a href="{{ .Paginator.Prev.URL | absURL }}">

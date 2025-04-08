@@ -1,0 +1,34 @@
+{{ with .Params.impacts }}
+  <div class="container grid grid-cols-1 md:grid-cols-12 gap-8 section--lg snap-start items-start relative">
+    <div class="md:col-span-7">
+      <h2 class="h--condensed text-lg mb-4">Since 2014, we've helped to:</h2>
+        <ul class="md:pb-20">
+          {{ range $index, $e := . }}
+            {{ with site.GetPage $e }}
+              <li class="{{ if ne $index 0 }} border-t {{ end }} py-4 lg:py-5">
+                <a href="{{ .Permalink }}" class="a--underline text-md"
+                  data-impact-flicker
+                  data-impact-caption="{{ .Params.impact_teaser.caption }}"
+                  data-impact-id="{{ $e }}"
+                  data-impact-icon="#icon-{{ .Params.icon }}"
+                  data-impact-images-count="{{ .Params.impact_teaser.images | len }}"
+                  {{ range $index, $e := .Params.impact_teaser.images }}
+                    data-impact-image-{{ add $index 1 }}="{{ $e.img }}"
+                    data-impact-alt-{{ add $index 1 }}="{{ .alt }}"
+                  {{ end }}>{{ .Params.impact_teaser.text|markdownify }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+    </div>
+    <figure class="hidden md:flex md:flex-col md:gap-2 md:sticky md:top-5 md:col-span-5" data-impact-image-container>
+      <figcaption class="flex justify-between w-full hidden">
+        <p class="text-sm" data-impact-caption></p>
+        <svg class="w-24 h-5 text-indigo" role="presentation" data-impact-icon>
+          <use xlink:href="#"/>
+        </svg>
+      </figcaption>
+    </figure>
+</div>
+{{ end }}
+
