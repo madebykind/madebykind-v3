@@ -14,16 +14,7 @@ summarylength = 10
 paginate = 6
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 timeout = "300s"
-
-[imaging]
-  anchor = "smart"
-  filter = "Lanczos"
-  quality = 90
-
-[imaging.exif]
-  excludeFields = ".*"
-  disableDate = true
-  disableLatLong = true
+disableKinds = ["rss"]
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -94,7 +85,6 @@ timeout = "300s"
 
 [taxonomies]
   key_topic = "key_topic"
-  rss = "rss"
   topic = "topics"
 
 [permalinks]

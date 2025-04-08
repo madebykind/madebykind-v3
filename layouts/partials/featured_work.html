@@ -13,7 +13,7 @@
     </div>
     
     {{ $length := .Params.projects | len }}
-    <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40" role="list">
+    <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
       {{ range $index, $p := .Params.projects }}
         {{ $odd := false }}
         {{ if not (modBool $index 2)}}

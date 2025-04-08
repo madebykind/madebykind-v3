@@ -22,7 +22,7 @@
       <p>{{ $.context.Summary }}</p>
     </div>
     {{ with $.context.Params.images }}
-    <ul class="grid grid-cols-3 gap-10 mt-10 -mb-10" role="list">
+    <ul class="grid grid-cols-3 gap-10 mt-10 -mb-10">
       {{ range . }}
         <li class="col-span-full md:col-span-1">
           {{ partial "image__frontmatter" . }}

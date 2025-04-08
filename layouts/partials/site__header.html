@@ -9,7 +9,7 @@
     </button>
     <div class="flex-wrap items-center justify-between hidden w-full gap-5 md:flex lg:gap-10 lg:flex-grow">
       <nav class="inline-flex lg:justify-center lg:flex lg:flex-grow" aria-label="Main menu">
-        <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:max-w-4xl lg:justify-between" role="list">
+        <ul class="flex flex-wrap items-center flex-grow gap-5 m-0 font-bold list-none lg:max-w-4xl lg:justify-between">
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
           <li class="relative {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} flex before:text-orange items-center before:flex before:h-2.5 before:w-2.5 before:bg-orange before:rounded-full before:absolute before:left-0 lg:before:left-2 {{ end }}">
@@ -41,7 +41,7 @@
     </button>
     <div class="flex flex-col w-full gap-10">
       <nav aria-label="Main menu">
-        <ul class="flex flex-col items-center justify-center gap-10 m-0 list-none" role="list">
+        <ul class="flex flex-col items-center justify-center gap-10 m-0 list-none">
           {{ range .Site.Menus.main }}
           <li class="text-xl h--condensed leading-heading">
             <a href="{{ .URL }}" class="no-underline">{{- .Name -}}</a>
