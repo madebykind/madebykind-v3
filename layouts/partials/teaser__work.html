@@ -3,15 +3,15 @@
 
 
     <div class="absolute z-20 w-full h-full justify-end md:py-4 flex flex-col">
-      <h3 class="text-4xl lg:text-5xl xl:text-6xl leading-heading h--condensed text-buff order-2 md:max-w-[90%] {{ if .odd }} text-right self-end {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
+      <h3 class="text-4xl lg:text-5xl xl:text-6xl leading-heading h--condensed text-buff order-2 md:max-w-[90%] transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink {{ if .odd }} text-right self-end {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
       <h4 class="h--condensed text-md text-pink order-1 {{ if .odd }} self-end {{ end }}">{{ title (delimit .context.Params.services " + " ) }}</h4>
-      <div class="flex flex-row justify-between order-3 mt-6 md:mt-12">
+      <div class="flex flex-row justify-between order-3 mt-6 md:mt-12 lg:mt-24">
         {{ if .context.Params.icon }}
         <svg class="w-24 h-6 lg:w-44 lg:h-12 text-buff {{ if .odd }} order-2 {{ end }}" role="presentation">
           <use xlink:href="#icon-{{ .context.Params.icon }}"/>
         </svg>
         {{ end }}
-        <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 {{ else }} md:pr-4{{ end }}">
+        <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 {{ else }} md:pr-4 {{ end }}">
           <span class="font-bold underline">Read case study<span class="sr-only">: {{ .context.Params.heading }}</span></span>
           <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation">
             <use xlink:href="#icon-arrow"/>
