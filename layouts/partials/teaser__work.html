@@ -1,9 +1,9 @@
-<article>
+<article class="min-h-dynamic-screen md:min-h-0">
   <a aria-labelledby="{{ .context.Params.Heading | anchorize }}" class="relative no-underline group" href="{{ .context.Permalink }}" onclick="javascript:insights.track({id: 'work-teaser-{{ .context.Params.Heading | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
 
 
-    <div class="absolute z-20 w-full h-full justify-end md:py-4 flex flex-col">
-      <h3 class="text-4xl lg:text-5xl xl:text-6xl leading-heading h--condensed text-buff order-2 md:max-w-[90%] transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink {{ if .odd }} text-right self-end {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
+    <div class="absolute z-20 w-full h-full justify-end md:py-2 xl:py-4 flex flex-col">
+      <h3 class="text-3xl xs:text-4xl lg:text-5xl 2xl:text-6xl leading-heading h--condensed text-buff order-2 transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink {{ if .odd }} text-right self-end md:pl-[5%] {{ else }}  md:pr-[5%] {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
       
       <h4 class="h--condensed text-md text-pink order-1 {{ if .odd }} self-end {{ end }}">
         {{ if .spotlight }}
@@ -13,7 +13,7 @@
         {{ end }}
       </h4>
       
-      <div class="flex flex-row justify-between order-3 mt-6 md:mt-12 lg:mt-24">
+      <div class="flex flex-row justify-between order-3 mt-6 lg:mt-12 2xl:mt-24">
         {{ if .context.Params.icon }}
         <svg class="w-24 h-6 lg:w-44 lg:h-12 text-buff {{ if .odd }} order-2 {{ end }}" role="presentation">
           <use xlink:href="#icon-{{ .context.Params.icon }}"/>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-12 pb-20 md:pb-0 bleed md:bleed-none">
-      <div class="relative col-span-full md:col-span-8 {{ if not .odd }} md:col-start-5 {{ end }} aspect-9/16 md:aspect-4/3 overflow-hidden">
+      <div class="relative col-span-full md:col-span-8 {{ if not .odd }} md:col-start-5 {{ end }} aspect-9/14 md:aspect-4/3 overflow-hidden">
         <div class="absolute bg-black/30 inset-0 z-10"></div>
         {{ if isset .context.Params "cover_img" }}
           {{ partial "image__teaser-lg" .context }}
