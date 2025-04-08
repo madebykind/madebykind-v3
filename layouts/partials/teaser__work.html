@@ -4,7 +4,15 @@
 
     <div class="absolute z-20 w-full h-full justify-end md:py-4 flex flex-col">
       <h3 class="text-4xl lg:text-5xl xl:text-6xl leading-heading h--condensed text-buff order-2 md:max-w-[90%] transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink {{ if .odd }} text-right self-end {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
-      <h4 class="h--condensed text-md text-pink order-1 {{ if .odd }} self-end {{ end }}">{{ title (delimit .context.Params.services " + " ) }}</h4>
+      
+      <h4 class="h--condensed text-md text-pink order-1 {{ if .odd }} self-end {{ end }}">
+        {{ if .spotlight }}
+          Spotlight on
+        {{ else }}
+          {{ title (delimit .context.Params.services " + " ) }}
+        {{ end }}
+      </h4>
+      
       <div class="flex flex-row justify-between order-3 mt-6 md:mt-12 lg:mt-24">
         {{ if .context.Params.icon }}
         <svg class="w-24 h-6 lg:w-44 lg:h-12 text-buff {{ if .odd }} order-2 {{ end }}" role="presentation">
