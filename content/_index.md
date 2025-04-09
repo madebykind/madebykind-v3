@@ -8,6 +8,7 @@ cover_img: images/true-to-who-we-are-v1.png
 cover_img_alt: A giant friendly hand, holding a small flower
 preheading: Ethical creative agency
 heading: Lorem ipsum dolor sit
+large_hero: true
 intro: >
 
 

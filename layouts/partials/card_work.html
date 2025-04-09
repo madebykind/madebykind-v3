@@ -15,8 +15,8 @@
     </div>
 
       <div class="grid content-center gap-8 py-5">
-        <h3 class="h2 h--condensed transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink" id="{{ .Params.Heading | anchorize }}">{{ .Params.Heading }}</h3>
-        <h4 class="text-base font-normal transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink">{{ title (delimit .Params.services " + " ) }}</h4>
+        <h3 class="h2 h--condensed" id="{{ .Params.Heading | anchorize }}">{{ .Params.Heading }}</h3>
+        <h4 class="text-base font-normal">{{ title (delimit .Params.services " + " ) }}</h4>
       </div>
   </a>
 </article>

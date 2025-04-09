@@ -11,6 +11,7 @@ weight: 1
 description: Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else—and that means great results for you.
 title: About us
 heading: Big heart, huge results
+large_hero: true
 related_work:
     - rewilding-britain
 social_img_txt: Big heart, huge results

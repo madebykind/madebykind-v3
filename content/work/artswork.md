@@ -1,5 +1,5 @@
 ---
-heading: Empowering young people to use creativity for change
+heading: Empowering young people using creativity for change
 title: Brand and website for youth creative charity, Artswork - Kind
 description: A colourful and playful brand refresh and CRM integrated website
 draft: false
@@ -25,7 +25,10 @@ related_work:
   - base51
 weight: 1
 toc: true
-impact: "Artswork now has a dynamic online presence that better reflects their mission and engages their community. The digital rebrand, refined messaging, and SEO optimisation have made it easier for Artswork to attract new supporters, while the refreshed website provides a seamless experience for users to get involved and make a difference."
+impact:
+  text: Artswork now has a dynamic online presence that better reflects their mission and engages their community. The digital rebrand, refined messaging, and SEO optimisation have made it easier for Artswork to attract new supporters, while the refreshed website provides a seamless experience for users to get involved and make a difference.
+  img: images/work-artswork-photo-4.jpg
+  img_alt: A young man holding his hands in the air in triumphant pose.
 banner_type: standard
 banner_img: images/work-artswork-photo-4.jpg
 banner_img_alt: A young man holding his hands in the air in triumphant pose.
@@ -48,6 +51,7 @@ teaser:
       alt: Artswork website shown on a tablet screen
     - img: images/work-artswork-booklet.jpg
       alt: Mockup of an Artswork brochure
+footer_heading: "Time for a brand refresh?"
 ---
 
 {{< workquote logo="logo-artswork" img="images/work-artswork-photo-2.jpg" alt="Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air">}}

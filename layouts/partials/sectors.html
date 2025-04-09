@@ -4,7 +4,7 @@
   <ul class="w-full grid gap-0 list-none md:grid-cols-2">
     {{ range . }}
       <li class="overflow-hidden text-white">
-        <a aria-labelledby="{{ .title | anchorize }}" class="relative group block" href="{{ .title | anchorize }}/" onclick="javascript:insights.track({id: 'home-sector-{{ .title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+        <a aria-labelledby="{{ .title | anchorize }}" class="relative group block h-full w-full" href="{{ .title | anchorize }}/" onclick="javascript:insights.track({id: 'home-sector-{{ .title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
 
           <div class="w-full h-full md:saturate-[.80] transition-all duration-300 md:group-hover:saturate-100 md:group-hover:scale-110 md:group-focus:saturate-100 group-focus:scale-110">
             {{ partial "image__sector" . }}

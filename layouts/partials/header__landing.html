@@ -1,10 +1,10 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} section--lg" data-hero-height="100dvh">
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} section--lg {{ if .Params.large_hero }} hero--full {{ end }}">
   <div class="container flex flex-col items-center gap-10 md:grid md:grid-cols-12">
     <div class="col-span-12 gap-10 md:col-span-6">
       <div class="flex flex-col gap-15">
         <div class="flex flex-col gap-4">
           <h1 class="text-orange h--condensed text-lg">{{ .Params.Preheading|safeHTML }}</h1>
-          <h2 class="h1 text-4xl md:text-5xl 2xl:text-6xl">{{ .Params.Heading|safeHTML }}</h2>
+          <h2 class="h1 {{ if .Params.large_hero }} text-4xl md:text-5xl 2xl:text-6xl {{ end }}">{{ .Params.Heading|safeHTML }}</h2>
         </div>
 
         {{ if .Params.intro_md }}

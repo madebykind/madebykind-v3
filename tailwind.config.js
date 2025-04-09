@@ -74,6 +74,8 @@ module.exports = {
         'illustration': '55rem',
         'iphone': '404px',
         'ipad': '1080px',
+        '56': '14rem',
+        '80': '20rem',
       },
       minHeight: {
         '90vh': '90vh',

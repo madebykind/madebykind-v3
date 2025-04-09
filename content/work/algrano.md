@@ -23,7 +23,10 @@ related_work:
   - vanda
   - the-rivers-trust
 weight: 5
-impact: Algrano's work helps to reset the power imbalance in the coffee industry, connecting producers directly to roasters. Our work has helped them to better tell their story and encourage more independents to join their movement.
+impact:
+  text: Algrano's work helps to reset the power imbalance in the coffee industry, connecting producers directly to roasters. Our work has helped them to better tell their story and encourage more independents to join their movement.
+  img: images/work-algrano-drinkers.jpg
+  img_alt: Two men drinking coffee outside a blue building
 banner_type: slideshow
 banner_images: 
   - img: images/work-algrano-drinkers.jpg
@@ -44,6 +47,7 @@ toc_replacements:
     short: Engaging digital design
 social_img: images/work-algrano-growers.jpg
 social_img_txt: "Ensuring a fair deal across the global coffee community"
+footer_heading: "Want to launch a new brand?"
 ---
 
 {{< workquote logo="algrano-logo" img="images/work-algrano-growers.jpg" alt="A woman and a man inspect a coffee plant">}}

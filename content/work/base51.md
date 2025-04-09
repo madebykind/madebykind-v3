@@ -24,7 +24,10 @@ related_work:
   - bookmark
 weight: 1
 toc: true
-impact: "This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth."
+impact:
+  text: This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth.
+  img: images/work-base51-imagery-1.jpg
+  img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
 banner_type: base51
 banner_images:
   - img: images/work-base51-logo-1.png

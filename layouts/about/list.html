@@ -43,10 +43,11 @@
             {{ with site.GetPage . }}
               <a class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'impact-project',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
                 <div class="relative xl:flex-grow">
-                  {{ if isset .Params "impact_img" }}
+                  {{ if .Params.impact.img }}
                     {{ partial "image__impact-project" . }}
                   {{ end }}
-                  <div class="absolute z-10 text-buff bottom-10 left-10">
+                  <div class="absolute z-10 inset-0 bg-black/30"></div>
+                  <div class="absolute z-20 text-buff bottom-10 left-10">
                     <article>
                       <h3 class="h1">149<span class="text-3xl lg:text-4xl">%</span></h3>
                       <p class="mt-5">Increase in donations<br>for Rewilding Britain</p>

@@ -1,9 +1,9 @@
 <footer class="snap-start">
   {{ if not .Params.cta_hidden }}
-  <div class="{{ with .Params.footer_class }} {{ . }}{{ else }} bg-pink text-blue{{ end }} min-h-dynamic-screen">
+  <div class="{{ with .Params.footer_class }} {{ . }}{{ else }} bg-pink text-blue{{ end }} {{/*min-h-dynamic-screen */}}">
     <div class="container grid grid-cols-1 items-end gap-8 md:grid-cols-12 section--lg">
       <div class="col-span-full md:col-span-6">
-        <h2 class="text-4xl md:text-5xl 2xl:text-6xl leading-heading h--condensed mb-12">{{ with .Params.footer_class }} {{ . }}{{ else }}Let’s make a difference, together{{ end }}</h2>
+        <h2 class="text-4xl md:text-5xl 2xl:text-6xl leading-heading h--condensed mb-12">{{ with .Params.footer_heading }} {{ . }} {{ else }} Let’s make a difference, together {{ end }}</h2>
         <a href="#" class="btn btn--secondary--blue">
           Download our creds
           <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">

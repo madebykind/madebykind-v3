@@ -6,9 +6,6 @@
   <ol class="container grid gap-10 lg:grid-cols-12 section lg:gap-20">
 	  {{ range $i, $p := .Pages }}
     <li class="col-span-full lg:col-span-6 xl:col-span-4" data-topics="
-      {{- with .Params.topics -}}
-        {{- range . -}}{{ . | anchorize }} {{ end -}}
-      {{- end -}}
 
       {{- with .Params.services -}}
         {{- range . -}}{{ . | anchorize }} {{ end -}}
@@ -27,11 +24,6 @@
       {{ range (where site.RegularPages "Section" "projects" ) }}
         {{ if .Params.images }}
           <li data-topics="
-            {{- with .Params.topics -}}
-              {{- range . -}}
-                {{ . | anchorize }}
-              {{ end -}}
-            {{- end -}}
             {{- with .Params.services -}}
               {{- range . -}}
                 {{ . | anchorize }}
