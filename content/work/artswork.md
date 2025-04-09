@@ -1,46 +1,68 @@
 ---
-heading: Empowering young people using creativity for change
-title: Brand and website for youth creative charity, Artswork - Kind
-description: A colourful and playful brand refresh and CRM integrated website
-draft: false
+# Meta
 date: 2025-03-19T10:52:34.342Z
-cover_img: images/work-artswork-photo-5.jpg
-cover_img_alt: Young people standing in front of microphones.
-intro: >
-  Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
-external_link: https://artswork.org.uk/
-summary:
+weight: 1
+title: Brand and website for youth creative charity, Artswork
+description: A colourful and playful brand refresh and CRM integrated website
+social_img: images/work-artswork-photo-1.jpg
+sector: for-people
 topics:
   - Visual identity
   - User-centred Design
   - CMS integration
   - CRM integration
-icon: logo-artswork
 services:
   - brand
   - digital
 related_work:
-  - backlit
-  - vanda
   - base51
-weight: 1
-toc: true
+  - bookmark
+
+# Content
+heading: Empowering young people using creativity for change
+intro: >
+  Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
+# why:
+#   text: 
+#   person:
 impact:
   text: Artswork now has a dynamic online presence that better reflects their mission and engages their community. The digital rebrand, refined messaging, and SEO optimisation have made it easier for Artswork to attract new supporters, while the refreshed website provides a seamless experience for users to get involved and make a difference.
   img: images/work-artswork-photo-4.jpg
   img_alt: A young man holding his hands in the air in triumphant pose.
+
+# Header
 banner_type: standard
 banner_img: images/work-artswork-photo-4.jpg
 banner_img_alt: A young man holding his hands in the air in triumphant pose.
 banner_logo_class: text-white
 banner_icon: logo-artswork
-social_img: images/work-artswork-photo-1.jpg
-social_img_txt: "Empowering young people to use creativity for change"
+
+# Page nav
+toc: true
+external_link: https://artswork.org.uk/
 toc_replacements:
   - long: "Creativity for change"
     short: Brand strategy
   - long: Digital rebrand
     short: Brand development
+
+# Teaser content
+cover_img: images/work-artswork-photo-5.jpg
+cover_img_alt: Young people standing in front of microphones.
+icon: logo-artswork
+client: Artswork
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Brand and website for youth creative charity
   description: Artswork are engaging more supporters and more young people through a creative rebrand and website launch.
@@ -51,6 +73,8 @@ teaser:
       alt: Artswork website shown on a tablet screen
     - img: images/work-artswork-booklet.jpg
       alt: Mockup of an Artswork brochure
+
+# Footer override
 footer_heading: "Time for a brand refresh?"
 ---
 
@@ -83,7 +107,7 @@ We empower young people to lead change through creativity – for themselves, th
   </div>
 </div>
 
-{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="section--lg" align="left">}}Working with Kind has brought much needed direction and clarity to our charity after a big change in our delivery.
+{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Working with Kind has brought much needed direction and clarity to our charity after a big change in our delivery.
 
 We wanted to work with an agency that could truly understand the complexities of our youth arts charity and the many people we need to reach with our work.{{</ blockquote >}}
 
@@ -108,7 +132,7 @@ We wanted to work with an agency that could truly understand the complexities of
   >}}
 
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   <div class="prose col-span-full lg:col-span-8">
 
   ## Key messaging
@@ -138,7 +162,7 @@ We wanted to work with an agency that could truly understand the complexities of
 
 
 <!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## SEO strategy
@@ -158,7 +182,7 @@ We wanted to work with an agency that could truly understand the complexities of
   alt_3="Artswork website components" >}}
 
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   <div class="prose col-span-full lg:col-span-8">
 
   ## Website design and development
@@ -177,4 +201,4 @@ We wanted to work with an agency that could truly understand the complexities of
 
 
 
-{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="section--lg" align="left">}}The website Kind have created encapsulates what we’re all about – creativity. This new look speaks to our younger audience and helps us tell our story and mission to all our stakeholders.{{</ blockquote >}}
+{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}The website Kind have created encapsulates what we’re all about – creativity. This new look speaks to our younger audience and helps us tell our story and mission to all our stakeholders.{{</ blockquote >}}

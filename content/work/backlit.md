@@ -1,38 +1,56 @@
 ---
-heading: Supporting an Internationally-Renowned Art Gallery
-title: Digital brand and website for independent art centre, Backlit - Kind
-description: A contemporary, sleek website design for an Arts Council NPO
-draft: false
+# Meta
 date: 2023-06-28T10:52:34.342Z
-cover_img: images/work-backlit-kind-team-2.jpg
-cover_img_alt: High-level view of three people around a wooden table, looking at digital designs of Backlit Gallery website on a laptop and a tablet
-intro: Backlit is a home to over 120 artists, collectives, and associate
-  members. The free programme of exhibitions, events and workshops supports an
-  essential framework for the public, local people, communities, students and
-  creatives at all stages of life to develop.
-key_stat: null
-external_link: https://backlit.org.uk/
-summary:
+weight: 8
+title: Digital brand and website for independent art centre, Backlit
+description: A contemporary, sleek website design for an Arts Council NPO
+sector: for-people
 topics:
   - Visual identity
   - User-centred Design
   - CMS integration
-icon: backlit-logo
 services:
   - brand
   - digital
 related_work:
   - chapter
   - vanda
-  - the-rivers-trust
-weight: 8
+
+# Content
+heading: Supporting an Internationally-Renowned Art Gallery
+intro: Backlit is a home to over 120 artists, collectives, and associate
+  members. The free programme of exhibitions, events and workshops supports an
+  essential framework for the public, local people, communities, students and
+  creatives at all stages of life to develop.
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt: 
+
+# Header
 banner_type: standard
 banner_img: images/work-backlit-interior.png
 banner_img_alt: Interior of an old industrial building, now an art gallery
 banner_logo_class: text-indigo
 banner_icon: backlit-logo
+
+# Page nav
 toc: true
-social_img_txt: "Supporting an Internationally Renowned Art Gallery"
+external_link: https://backlit.org.uk/
+
+# Teaser content
+cover_img: images/work-backlit-kind-team-2.jpg
+cover_img_alt: High-level view of three people around a wooden table, looking at digital designs of Backlit Gallery website on a laptop and a tablet
+icon: backlit-logo
+client: Backlit
+
+# Footer override
+#footer_heading:
 ---
 
 {{< workquote source="Backlit Gallery" logo="logo-square-backlit" img="images/Work-Backlit-Exhibition.jpg" alt="An exhibition at Backlit Gallery">}}

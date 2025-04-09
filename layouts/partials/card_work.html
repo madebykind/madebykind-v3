@@ -1,5 +1,5 @@
 <article class="h-full">
-  <a class="no-underline group" aria-labelledby="{{ .context.Params.Heading | anchorize }}" href="{{ .Permalink }}">
+  <a class="no-underline group" aria-labelledby="{{ .context.Params.Heading | anchorize }}" href="{{ .context.Permalink }}">
     <div class="relative overflow-hidden">
       {{ if isset .context.Params "cover_img" }}
         {{ partial "image__card" .context }}

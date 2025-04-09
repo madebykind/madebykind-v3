@@ -1,4 +1,10 @@
 ---
+# Meta
+date: 2023-06-28T12:25:28.863Z
+weight: 3
+title: Brand and website for Cardiff-based art centre, Chapter
+description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
+sector: for-people
 topics:
   - Brand strategy
   - Visual identity
@@ -6,32 +12,55 @@ topics:
   - User-centred Design
   - CMS integration
   - Ticketing journey
+services:
+  - brand
+  - digital
 related_work:
   - backlit
   - vanda
-  - rewilding-britain
+
+# Content
 heading: Brand development of an international arts centre
-title: Brand and website for Cardiff-based art centre, Chapter - Kind
-description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
-cover_img: images/strategy-notes.jpg
-cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 intro: >
 
   Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.
 
 
   Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
-date: 2023-06-28T12:25:28.863Z
-external_link: https://chapter.org.uk
-key_stat: null
-weight: 3
-icon: chapter-logo
-teaser_text: Repositioning a historic community force
-services:
-  - brand
-  - digital
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt: 
+
+# Header
 banner_type: chapter
+
+# Page nav
 toc: true
+external_link: https://chapter.org.uk
+
+# Teaser content
+cover_img: images/strategy-notes.jpg
+cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
+icon: chapter-logo
+client: Chapter
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Brand development of an international arts centre
   description: Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level.
@@ -46,7 +75,9 @@ teaser:
       alt: A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.
     - img: images/work-chapter-poster-underground.jpg
       alt: A single poster mockup for the performance 'Dani Dinger - No Sense of Watching'. The poster is in a subway.
-social_img_txt: "Brand development of an international arts centre"
+      
+# Footer override
+#footer_heading:
 ---
 
 

@@ -34,7 +34,6 @@ impact:
   img: images/work-rewilding-britain-carousel-1.jpg
   img_alt: A colony of gannets
 
-
 # Header
 banner_type: slideshow
 banner_images:
@@ -49,7 +48,6 @@ banner_icon: rwb-logo
 # Page nav
 toc: true
 external_link: https://www.rewildingbritain.org.uk
-
 
 # Teaser content
 cover_img: images/work-rewilding-britain-teaser.jpg

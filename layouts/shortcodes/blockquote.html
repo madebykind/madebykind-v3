@@ -6,7 +6,7 @@
       <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
         <p{{ with .Get "class" }} class="{{ . }}"{{ end }} itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>    
       </blockquote>
-      <figcaption class="mt-5 font-serif {{ if .Get "avatar" }} inline-flex {{ else }} border-l-4 border-orange pl-10{{ end }}">
+      <figcaption class="mt-5 font-serif {{ if .Get "avatar" }} inline-flex {{ else }} border-l-4 border-orange pl-6{{ end }}">
         {{ if .Get "avatar" }}
           {{ $author := index .Site.Data.authors (.Get "avatar") }}
           {{ $src := printf "https://madebykind.imgix.net/%s" $author.headshot }}

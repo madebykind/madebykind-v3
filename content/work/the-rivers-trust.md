@@ -1,22 +1,54 @@
 ---
-heading: A user-centred website to build awareness and gain public support
-title: Website and member portal for The Rivers Trust - Kind
-description: A user-centred website to build awareness and gain public support
+# Meta
 date: 2023-06-28T12:26:29.707Z
-cover_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
-cover_img_alt: A river in the Scottish Higlands
+weight: 7
+title: Website and member portal for The Rivers Trust
+description: A user-centred website to build awareness and gain public support
+sector: for-planet
+topics:
+  - User-centred Design
+  - CMS integration
+  - CRM integration
+services:
+  - digital
+related_work:
+  - rewilding-britain
+  - garden-organic
+
+# Content
+heading: A user-centred website to build awareness and gain public support
 intro: >
 
     The Rivers Trust aims to bring together the people, knowledge, data and intelligence to help rivers thrive again; for us and future generations.
 
 
     A key goal for Rivers Trust is to raise awareness of the poor state of rivers in the UK and to gain support from the general public to rally against the current lack of policies on keeping Britain’s water healthy and sewage free. They needed a clear and engaging website to relay this information clearly and concisely to gain support from groups that otherwise would not have known about the state of the rivers.
-key_stat: null
-topics:
-  - User-centred Design
-  - CMS integration
-  - CRM integration
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt: 
+
+
+# Header
+banner_type: standard
+banner_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
+banner_img_alt: A river in the Scottish Higlands
+banner_icon: rt-logo
+
+# Page nav
+toc: false
 external_link: https://theriverstrust.org
+
+# Teaser content
+cover_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
+cover_img_alt: A river in the Scottish Higlands
+icon: rt-logo
+client: The Rivers Trust
 impact_teaser:
   text: Build awareness of the UK’s **river sewage crisis**
   images:
@@ -25,20 +57,8 @@ impact_teaser:
     - img: images/jack-anstey-unsplash.jpg
       alt: A landscape image of a river taken from a drone
   caption: User-centred website for charity focused on river health 
-icon: rt-logo
-services:
-  - digital
-related_work:
-  - chapter
-  - rewilding-britain
-  - jackson-crane
-weight: 7
-key_stat:
-  - 0-percent
-banner_type: standard
-banner_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
-banner_img_alt: A river in the Scottish Higlands
-banner_icon: rt-logo
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Helping to build awareness of the state of rivers
   description: A clear online presence for the Rivers Trust which articulates their work and incites engagement and action.
@@ -49,7 +69,9 @@ teaser:
       alt: A landscape image of a river taken from a drone
       stat:
         - 0-percent
-social_img_txt: "A user-centred website to build awareness and gain public support"
+
+# Footer override
+#footer_heading:
 ---
 
 {{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" img="images/work-rivers-trust-sandals.jpg" alt="Feet in a shallow river stream">}}

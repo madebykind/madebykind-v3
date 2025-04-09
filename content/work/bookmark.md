@@ -1,30 +1,37 @@
 ---
-heading: Raising awareness of the childhood literacy gap in the UK 
-title: Website for Bookmark Reading charity - Kind
-description: A fun, playful website with clear journeys and integrated help-centre for a childhood literacy charity
-draft: false
+# Meta
 date: 2024-07-25T10:52:34.342Z
-cover_img: images/work-bookmark-reading-mentor.jpg
-cover_img_alt: A child and a woman reading together
-intro: 1 in 4 Children in England cannot read well when they leave primary school. Children unable to read well will face difficulties for the rest of school and beyond, devastatingly impacting their life chances. This results in 7.1 million adults in England who struggle to read and face challenges every day – at home, on the move, in the workplace, and with their friends and families.
-key_stat: null
-summary:
+weight: 2
+title: Website for Bookmark Reading charity
+description: A fun, playful website with clear journeys and integrated help-centre for a childhood literacy charity
+social_img: images/work-bookmark-laptop-child.jpg
+sector: for-people
 topics:
   - Research and analysis
   - User-centred Design
   - CMS integration
   - CRM integration
-icon: logo-bookmark
 services:
   - brand
   - digital
 related_work:
-  - chapter
-  - vanda
-  - the-rivers-trust
-weight: 2
-key_stat: 
-  - 1in4
+  - artswork
+  - unesco
+
+# Content
+heading: Raising awareness of the childhood literacy gap in the UK 
+intro: 1 in 4 Children in England cannot read well when they leave primary school. Children unable to read well will face difficulties for the rest of school and beyond, devastatingly impacting their life chances. This results in 7.1 million adults in England who struggle to read and face challenges every day – at home, on the move, in the workplace, and with their friends and families.
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt: 
+
+# Header
 banner_type: slideshow
 banner_images:
   - img: images/work-bookmark-reading-mentor.jpg
@@ -34,6 +41,24 @@ banner_images:
   - img: images/work-bookmark-readers.jpg
     alt:  A child and a woman read together
 banner_icon: logo-bookmark
+
+# Page nav
+toc: true
+external_link: 
+external_link: https://www.rewildingbritain.org.uk
+toc_replacements:
+  - long: Creating clear user journeys
+    short: Clear user journeys
+  - long: Helping Bookmark to stand out
+    short: Stand out digital design
+  - long: A simple user-friendly, help centre
+    short: User-centred help-centre
+
+# Teaser content
+cover_img: images/work-bookmark-reading-mentor.jpg
+cover_img_alt: A child and a woman reading together
+icon: logo-bookmark
+client: Bookmark Reading
 impact_teaser:
   text: Raise awareness of the UK’s **childhood literacy** gap
   images:
@@ -44,7 +69,8 @@ impact_teaser:
     - img: images/work-bookmark-readers.jpg
       alt:  A child and a woman read together
   caption: Website and help-centred for children's literacy charity
-toc: true
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Website and online help centre to aid childhood literacy
   description: Improving digital user journeys for volunteers and schools working with Bookmark to develop whole-school reading cultures and provide one-to-one reading support.
@@ -57,15 +83,8 @@ teaser:
       alt: A child and a woman read together
       stat: 
         - 1in4
-toc_replacements:
-  - long: Creating clear user journeys
-    short: Clear user journeys
-  - long: Helping Bookmark to stand out
-    short: Stand out digital design
-  - long: A simple user-friendly, help centre
-    short: User-centred help-centre
-social_img: images/work-bookmark-laptop-child.jpg
-social_img_txt: "Raising awareness of the childhood literacy gap in the UK"
+
+# Footer override
 footer_heading: "Do you have similar challenges?"
 ---
 
@@ -123,4 +142,4 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 {{< figure wrapperclass="" src="work-bookmark-help-centre-laptop.jpg" alt="The Bookmark Reading help centre on a laptop device" >}}
 
 
-{{< blockquote author="Daniel Oliver" role="Head of Marketing & Communications, Bookmark Reading Charity" wrapperclass="section--lg" align="left">}}We selected Kind to help us create a website that truly reflected our mission and values. From the beginning, they were not only professional and attentive, but also genuinely invested in our cause. Their team guided us through every step of the process, ensuring our needs were met while delivering a final product that exceeded our expectations.{{</ blockquote >}}
+{{< blockquote author="Daniel Oliver" role="Head of Marketing & Communications, Bookmark Reading Charity" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}We selected Kind to help us create a website that truly reflected our mission and values. From the beginning, they were not only professional and attentive, but also genuinely invested in our cause. Their team guided us through every step of the process, ensuring our needs were met while delivering a final product that exceeded our expectations.{{</ blockquote >}}
