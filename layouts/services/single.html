@@ -10,7 +10,9 @@
           {{ range .Params.related_work }}
             {{ with site.GetPage . }}
               <li class="w-full lg:w-1/3">
-                {{ partial "card_work" . }}
+                {{ partial "card_work" (dict
+                  "context" .
+                ) }}
               </li>
             {{ end }}
           {{ end }}

@@ -11,7 +11,9 @@
         {{- range . -}}{{ . | anchorize }} {{ end -}}
       {{- end -}}"
     >
-       {{ partial "card_work" . }}
+       {{ partial "card_work" (dict
+        "context" .
+        ) }}
       </li>
     {{ end }}
   </ol>

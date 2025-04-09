@@ -15,9 +15,8 @@ services:
   - strategy
   - digital
 related_work:
-  - chapter
-  - sheffield-hallam-university
   - the-rivers-trust
+  - garden-organic
 
 # Content
 heading: A platform to inspire rewilding projects across the country

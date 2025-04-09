@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="pb-10 overflow-hidden{{ with .Params.page_class }} {{ . }}{{ end }}">
+<article class="overflow-hidden{{ with .Params.page_class }} {{ . }}{{ end }}">
   
   {{ partial "header__work" . }}
 
@@ -74,11 +74,13 @@
   {{ end }}
 
 
-  {{ with .Params.related_work }}
-    <aside class="container section--lg">
-      <h2 class="h--condensed">You may also be interested in</h2>
-      {{ partial "related-work.html" . }}
-    </aside>
+  {{ if .Params.related_work }}
+    {{ partial "related-work.html"  (dict 
+      "context" .Params.related_work
+      "sector" .Params.sector
+      "heading_class" "h--condensed h3 text-pink md:text-teal absolute z-20 top-5 md:relative md:top-0 md:mb-20"
+      "block_class" "bg-indigo text-buff pb-10 lg:py-20 relative" 
+    ) }}
   {{ end }}
   
 </article>

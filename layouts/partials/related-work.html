@@ -1,10 +1,45 @@
+{{ $heading := "" }}
 
-<ol class="grid grid-cols-1 lg:grid-cols-12 gap-10 section">
-  {{ range . }}
-    {{ with site.GetPage . }}
-      <li class="lg:col-span-6 xl:col-span-4">
-        {{ partial "card_work" . }}
-      </li>
-    {{ end }}
+{{ if .sector }}
+  {{ with site.GetPage .sector }}
+    {{ $heading = .Title }}
   {{ end }}
-</ol>
+{{ end }}
+
+
+<aside class="{{ .block_class }}">
+  <div class="container">
+    {{ if $heading }}
+      <h2 class="{{ .heading_class }}">{{ $heading }}</h2>
+    {{ end }}
+
+    <ol class="grid grid-cols-1 md:grid-cols-12 gap-10">
+      {{ range $index, $p := .context }}
+        {{ with site.GetPage $p }}
+          {{ if eq $index 0 }}
+            <li class="col-span-full lg:col-span-8">
+            {{ partial "teaser__work" (dict 
+                "context" .
+                "reverse" true
+                "hidelink" true
+              ) }}
+            </li>
+          {{ else }}
+            <li class="col-span-full md:col-span-6 lg:col-span-4">
+              {{ partial "card_work" (dict 
+                  "context" .
+                  "reverse" true
+                  "dark" true
+                ) }}
+            </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </ol>
+  </div>
+
+</aside>
+
+
+
+
