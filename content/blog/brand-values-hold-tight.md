@@ -57,4 +57,4 @@ In a world where we care deeply about the values of the brands we support, stayi
 
 Sticking to your brand values isn’t just a strategic move — it’s the heart of building a meaningful and enduring business. For us, this is why understanding your beliefs or helping to carve them out with you is the starting point for every project we undertake.
 
-We can help define the core principles and beliefs that shape your identity and guide your actions. Want to see what we mean? [Check out our own Manifesto](/about/manifesto).
+We can help define the core principles and beliefs that shape your identity and guide your actions. Want to see what we mean? [Check out our own Manifesto](/about#manifesto).
