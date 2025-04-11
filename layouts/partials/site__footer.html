@@ -1,9 +1,9 @@
 <footer class="snap-start">
   {{ if not .Params.cta_hidden }}
   <div class="{{ with .Params.footer_class }} {{ . }}{{ else }} bg-pink text-blue{{ end }} {{/*min-h-dynamic-screen */}}">
-    <div class="container grid grid-cols-1 items-end gap-8 md:grid-cols-12 section--lg">
-      <div class="col-span-full md:col-span-6">
-        <h2 class="text-4xl md:text-5xl 2xl:text-6xl leading-heading h--condensed mb-12">{{ with .Params.footer_heading }} {{ . }} {{ else }} Let’s make a difference, together {{ end }}</h2>
+    <div class="container grid grid-cols-1 items-end gap-8 lg:grid-cols-12 section--lg">
+      <div class="col-span-full lg:col-span-6">
+        <h2 class="text-4xl md:text-5xl leading-heading h--condensed mb-12 max-w-cta-copy">{{ with .Params.footer_heading }} {{ . }} {{ else }} Let’s make a difference, together {{ end }}</h2>
         <a href="#" class="btn btn--secondary--blue">
           Download our creds
           <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
@@ -11,11 +11,11 @@
           </svg>
         </a>
       </div>
-      <div class="col-span-full md:col-span-5 md:col-start-8 flex flex-col gap-4 lg:gap-12">
+      <div class="col-span-full lg:col-span-5 lg:col-start-8 flex flex-col gap-4 lg:gap-12">
         <div>
           <h3 class="h--condensed text-lg mb-2">Get in touch</h3>
-          <p class="leading-tight text-md">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
-          <ul class="inline-flex gap-5 my-4 lg:mt-8 list-none">
+          <p class="leading-tight text-md max-w-cta-copy">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
+          <ul class="inline-flex gap-5 my-4 lg:mt-8 list-none text-md">
             <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
               <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:insights.track({id: 'footer-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.Email}}</a>
             </li>

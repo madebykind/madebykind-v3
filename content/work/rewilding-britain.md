@@ -15,8 +15,8 @@ services:
   - strategy
   - digital
 related_work:
-  - the-rivers-trust
   - garden-organic
+  - the-rivers-trust
 
 # Content
 heading: A platform to inspire rewilding projects across the country
@@ -25,7 +25,7 @@ why:
   text: "In my opinion, rewilding is the greatest hope we have for a sustainable, biodiverse and fair future."
   person: mat
 impact:
-  text: Since we relaunched Rewinding Britain’s website in 2021, they have grown the rewilding movement in the UK from relative obscurity to national recognition.
+  text: Since we relaunched Rewilding Britain’s website in 2021, they have grown the rewilding movement in the UK from relative obscurity to national recognition.
   stats:
     - 149-percent
     - 988-projects
