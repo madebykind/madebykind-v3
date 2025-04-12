@@ -12,7 +12,7 @@
       </div>
     {{ end }}
     <div class="bleed">
-      <div class="w-full overflow-auto">
+      <div class="w-full {{ if ge (len $projects) 4 }} md:overflow-auto {{ else }} md:overflow-hidden {{ end }}  {{ if ge (len $projects) 5 }} lg:overflow-auto {{ else }} lg:overflow-hidden {{ end }}">
         <ul class="list-none flex flex-col md:flex-row gap-y-8 lg:gap-y-40 -mx-4 md:pr-[4vw]">
           {{ range $index, $p := $projects }}
             {{ $odd := false }}
