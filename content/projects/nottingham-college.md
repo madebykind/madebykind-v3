@@ -20,8 +20,7 @@ teaser:
     - img: images/work-nottingham-college-flats.jpg
       alt: Flat lay mockups of pages on the Nottingham College website
 impact_teaser:
-  text: "**Digital editorial design** for independent media platform, built on
-  cutting-edge tech"
+  text: "**Digital partnership** with Nottinghamshire’s largest further education institution "
   images:
     - img: images/nottingham-college-project-1.png
       alt: A desktop mockup of the Nottingham College homepage

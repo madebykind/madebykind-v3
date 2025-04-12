@@ -19,4 +19,5 @@ impact_teaser:
     - img: images/odi-project-3.jpg
       alt: A desktop mockup of the ODI Patterns Catalogue website
   caption: The Open Data Institute
+icon: odi-logo
 ---
