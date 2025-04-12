@@ -2,44 +2,78 @@
 <section>
   {{ partial "header__landing.html" . }}
   {{ partial "topic-filters" . }}
-  <h2 class="sr-only">Featured work</h2>
-  <ol class="container grid gap-10 lg:grid-cols-12 section lg:gap-20">
-	  {{ range $i, $p := .Pages }}
-    <li class="col-span-full lg:col-span-6 xl:col-span-4" data-topics="
 
-      {{- with .Params.services -}}
-        {{- range . -}}{{ . | anchorize }} {{ end -}}
-      {{- end -}}"
-    >
-       {{ partial "card_work" (dict
-        "context" .
-        ) }}
-      </li>
-    {{ end }}
-  </ol>
-  <section class="container section--lg">
-    <div class="prose">
-      <h2>Empowering change from behind the scenes</h2>
-      <p>Since 2014, we’ve worked exclusively with organisations doing good. We haven’t got time to write case studies for them all.</p>
-    </div>
-    <ul>
-      {{ range (where site.RegularPages "Section" "projects" ) }}
-        {{ if .Params.images }}
-          <li data-topics="
-            {{- with .Params.services -}}
-              {{- range . -}}
-                {{ . | anchorize }}
-              {{ end -}}
-            {{- end -}}
-          "> 
-            {{ partial "teaser__project" (dict
-              "context" .
-              "link" false
-            ) }}
+  <section class="snap-start bg-green text-sky section--lg">
+  <div class="container">
+    <h2 class="h--condensed text-3xl leading-heading max-w-5xl mb-8">For people</h2>
+    
+      <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
+        {{ range $index, $p := (where .Pages ".Params.sector" "eq" "for-people" ) }}
+          {{ $odd := false }}
+          {{ if not (modBool $index 2)}}
+            {{ $odd = true }}
+          {{ end }}
+
+          {{ with . }}
+          <li class="col-span-full {{ if eq $index 0 }} md:col-span-full {{ else }} md:col-span-4 {{ end }}" data-topics="
+              {{- with .Params.services -}}
+                {{- range . -}}{{ . | anchorize }} {{ end -}}
+              {{- end -}}">
+            {{ if eq $index 0 }}
+              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large") }}
+            {{ else }}
+              {{ partial "card_work" (dict
+                "context" .
+              ) }}
+            {{ end }}
           </li>
+          {{ end }}
+
         {{ end }}
-      {{ end }}
-    </ul>
-  </section>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <section class="snap-start bg-blue text-pink section--lg">
+  <div class="container">
+    <h2 class="h--condensed text-3xl leading-heading max-w-5xl mb-8">For planet</h2>
+    
+      <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
+        {{ range $index, $p := (where .Pages ".Params.sector" "eq" "for-planet" ) }}
+          {{ $odd := false }}
+          {{ if not (modBool $index 2)}}
+            {{ $odd = true }}
+          {{ end }}
+
+          {{ with . }}
+          <li class="col-span-full {{ if eq $index 0 }} md:col-span-full {{ else }} md:col-span-4 {{ end }}" data-topics="
+              {{- with .Params.services -}}
+                {{- range . -}}{{ . | anchorize }} {{ end -}}
+              {{- end -}}">
+            {{ if eq $index 0 }}
+              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large") }}
+            {{ else }}
+              {{ partial "card_work" (dict
+                "context" .
+              ) }}
+            {{ end }}
+          </li>
+          {{ end }}
+
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+
+  {{ partial "impacts.html" (dict
+    "projects" .Params.impacts
+    "heading" "Empowering change from behind the scenes"
+    "description" "Since 2014, we’ve worked exclusively with organisations doing good. We haven’t got time to write case studies for them all."
+  ) }}
+
+
+
 </section>
 {{ end }}

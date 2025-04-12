@@ -1,3 +1,3 @@
 ---
-title: For People
+title: For people
 ---

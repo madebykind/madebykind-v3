@@ -13,6 +13,21 @@ services:
   - services/strategy
   - services/brand
   - services/digital
+sectors: 
+  - for-people
+  - for-planet
+impacts:
+  - projects/tsl
+  - projects/crick-institute
+  - projects/eti
+  - projects/henley
+  - projects/layered-reality
+  - projects/nest
+  - projects/nottingham-college
+  - projects/odi
+  - projects/owsla
+  - projects/trent-park
+  - projects/tung-auditorium
 layout: work
 hidden: true
 social_img_txt: Ethical work is excellent work

@@ -1,3 +1,3 @@
 ---
-title: For the Planet
+title: For planet
 ---

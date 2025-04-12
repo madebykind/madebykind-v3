@@ -50,7 +50,7 @@ toc: true
 external_link: https://www.rewildingbritain.org.uk
 
 # Teaser content
-cover_img: images/work-rewilding-britain-teaser.jpg
+cover_img: images/work-rewilding-britain-carousel-4.jpg
 cover_img_alt: A Blue Tit on a branch
 icon: rwb-logo
 client: Rewilding Britain
@@ -58,7 +58,7 @@ impact_teaser:
   text: Inspire the **rewilding** movement across Britain
   images:
     - img: images/work-rewilding-britain-teaser.jpg
-      alt: A Blue Tit on a branch
+      alt: A rewilding meadow in late Summer. Grasses and wild flowers seeding. Oak tree and a rough Hazel hedge field boundary
     - img: images/work-rewilding-britain-carousel-2.jpg
       alt: A beaver on a river bank
     - img: images/work-rewilding-britain-carousel-4.jpg

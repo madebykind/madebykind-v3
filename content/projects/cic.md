@@ -2,7 +2,6 @@
 hidden: true
 date: 2023-07-05T10:59:35.251Z
 title: "Culture in Crisis funding portal"
-name: Culture in Crisis funding portal
 icon: va-logo
 teaser:
   title: Culture in Crisis funding portal

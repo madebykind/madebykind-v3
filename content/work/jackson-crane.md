@@ -4,7 +4,7 @@ date: 2023-06-28T13:51:18.140Z
 weight: 9
 title: Marketing strategy for sustainable architecture practice, Jackson-Crane
 description: Bringing focus to an award-winning contemporary architecture practice that focuses on sustainability.
-sector: for-people
+sector: for-planet
 topics:
   - Research and analysis
 services:
