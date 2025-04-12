@@ -42,32 +42,37 @@ function updateCaptionLogo(el) {
 }
 
 function initFlicker(el) {
-  const imageCount = parseFloat(el.dataset.impactImagesCount);
-  let i = 2
+  if (imageContainer.offsetParent != null) {
+    const imageCount = parseFloat(el.dataset.impactImagesCount);
+    let i = 2
 
-  // show first image
-    removeImages();
-    showImage(1, el);
-
-    // update caption and logo
-    updateCaptionLogo(el);
-
-    // load other images
-    for (let x = 2; x <= imageCount; x++) {
-      let image = getImage(x, el);
-    }
-    
-    // set interval for other images
-    impactInterval = setInterval(function() {
+    // show first image
       removeImages();
-      showImage(i, el);
-      if (i < imageCount) {
-        i++;
-      } else {
-        i = 1;
-      }
-    }, 750);
+      showImage(1, el);
 
+      // update caption and logo
+      updateCaptionLogo(el);
+
+      // load other images
+      for (let x = 2; x <= imageCount; x++) {
+        let image = getImage(x, el);
+      }
+      
+      // set interval for other images
+      impactInterval = setInterval(function() {
+        removeImages();
+        showImage(i, el);
+        if (i < imageCount) {
+          i++;
+        } else {
+          i = 1;
+        }
+      }, 750);
+  } else {
+    clearInterval(impactInterval);
+    removeImages();
+    hideCaption();
+  }
 }
 
 function ImpactImage(el) {

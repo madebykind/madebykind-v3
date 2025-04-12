@@ -9,7 +9,8 @@
       {{ if .odd }} text-right self-end md:pl-[5%]
       {{ else }} md:pr-[5%] {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
       
-      <h4 class="h--condensed text-md text-pink
+      <h4 class="h--condensed text-md
+      {{ if .labelColourClass }} {{ .labelColourClass }} {{ else }} text-pink {{ end }}
       {{ if .reverse }} order-2 md:mt-4
       {{ else }} order-1 {{ end }}
       {{ if .odd }} self-end {{ end }}">

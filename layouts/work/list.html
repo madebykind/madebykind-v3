@@ -3,9 +3,9 @@
   {{ partial "header__landing.html" . }}
   {{ partial "topic-filters" . }}
 
-  <section class="snap-start bg-green text-sky section--lg">
-  <div class="container">
-    <h2 class="h--condensed text-3xl leading-heading max-w-5xl mb-8">For people</h2>
+  <section class="snap-start bg-green text-buff pb-10 lg:pb-20 xl:pb-30 md:pt-16 xl:pt-24">
+  <div class="container relative">
+    <h2 class="h--condensed absolute z-20 top-5 md:relative md:top-0 lg:text-3xl leading-heading max-w-5xl mb-16 lg:mb-24 text-sky">For people</h2>
     
       <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
         {{ range $index, $p := (where .Pages ".Params.sector" "eq" "for-people" ) }}
@@ -20,7 +20,7 @@
                 {{- range . -}}{{ . | anchorize }} {{ end -}}
               {{- end -}}">
             {{ if eq $index 0 }}
-              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large") }}
+              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large" "labelColourClass" "text-sky") }}
             {{ else }}
               {{ partial "card_work" (dict
                 "context" .
@@ -35,9 +35,9 @@
   </div>
 </section>
 
-  <section class="snap-start bg-blue text-pink section--lg">
-  <div class="container">
-    <h2 class="h--condensed text-3xl leading-heading max-w-5xl mb-8">For planet</h2>
+  <section class="snap-start bg-blue text-buff pb-10 lg:pb-20 xl:pb-30 md:pt-16 xl:pt-24">
+  <div class="container relative">
+    <h2 class="h--condensed absolute z-20 top-5 md:relative md:top-0 lg:text-3xl leading-heading max-w-5xl mb-16 lg:mb-24 text-pink">For planet</h2>
     
       <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
         {{ range $index, $p := (where .Pages ".Params.sector" "eq" "for-planet" ) }}
@@ -52,7 +52,7 @@
                 {{- range . -}}{{ . | anchorize }} {{ end -}}
               {{- end -}}">
             {{ if eq $index 0 }}
-              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large") }}
+              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large" "labelColourClass" "text-pink") }}
             {{ else }}
               {{ partial "card_work" (dict
                 "context" .
