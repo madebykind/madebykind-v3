@@ -3,69 +3,21 @@
   {{ partial "header__landing.html" . }}
   {{ partial "topic-filters" . }}
 
-  <section class="snap-start bg-green text-buff pb-10 lg:pb-20 xl:pb-30 md:pt-16 xl:pt-24">
-  <div class="container relative">
-    <h2 class="h--condensed absolute z-20 top-5 md:relative md:top-0 lg:text-3xl leading-heading max-w-5xl mb-16 lg:mb-24 text-sky">For people</h2>
-    
-      <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
-        {{ range $index, $p := (where .Pages ".Params.sector" "eq" "for-people" ) }}
-          {{ $odd := false }}
-          {{ if not (modBool $index 2)}}
-            {{ $odd = true }}
-          {{ end }}
+  {{ partial "work-section"  (dict
+    "context" .
+    "heading" "For people"
+    "section" "for-people"
+    "bgColourClass" "bg-green"
+    "textColourClass" "text-sky"
+  ) }}
 
-          {{ with . }}
-          <li class="col-span-full {{ if eq $index 0 }} md:col-span-full {{ else }} md:col-span-4 {{ end }}" data-topics="
-              {{- with .Params.services -}}
-                {{- range . -}}{{ . | anchorize }} {{ end -}}
-              {{- end -}}">
-            {{ if eq $index 0 }}
-              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large" "labelColourClass" "text-sky") }}
-            {{ else }}
-              {{ partial "card_work" (dict
-                "context" .
-              ) }}
-            {{ end }}
-          </li>
-          {{ end }}
-
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</section>
-
-  <section class="snap-start bg-blue text-buff pb-10 lg:pb-20 xl:pb-30 md:pt-16 xl:pt-24">
-  <div class="container relative">
-    <h2 class="h--condensed absolute z-20 top-5 md:relative md:top-0 lg:text-3xl leading-heading max-w-5xl mb-16 lg:mb-24 text-pink">For planet</h2>
-    
-      <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
-        {{ range $index, $p := (where .Pages ".Params.sector" "eq" "for-planet" ) }}
-          {{ $odd := false }}
-          {{ if not (modBool $index 2)}}
-            {{ $odd = true }}
-          {{ end }}
-
-          {{ with . }}
-          <li class="col-span-full {{ if eq $index 0 }} md:col-span-full {{ else }} md:col-span-4 {{ end }}" data-topics="
-              {{- with .Params.services -}}
-                {{- range . -}}{{ . | anchorize }} {{ end -}}
-              {{- end -}}">
-            {{ if eq $index 0 }}
-              {{ partial "teaser__work" ( dict "context" . "odd" $odd "size" "large" "labelColourClass" "text-pink") }}
-            {{ else }}
-              {{ partial "card_work" (dict
-                "context" .
-              ) }}
-            {{ end }}
-          </li>
-          {{ end }}
-
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</section>
+  {{ partial "work-section"  (dict
+    "context" .
+    "heading" "For planet"
+    "section" "for-planet"
+    "bgColourClass" "bg-blue"
+    "textColourClass" "text-pink"
+  ) }}
 
   {{ partial "impacts.html" (dict
     "projects" .Params.impacts
