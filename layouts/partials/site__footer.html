@@ -16,12 +16,14 @@
           <h3 class="h--condensed text-lg mb-2">Get in touch</h3>
           <p class="leading-tight text-md max-w-cta-copy">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
           <ul class="inline-flex gap-5 my-4 lg:mt-8 list-none text-md">
-            <li class="relative inline-flex after:content-['/'] after:absolute after:-right-4">
+            <li class="relative inline-flex">
               <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me" onclick="javascript:insights.track({id: 'footer-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.Email}}</a>
             </li>
+            {{/*
             <li>
               <span class="sr-only">Telephone: </span><a href="tel:{{.Site.Params.Phone}}" onclick="javascript:insights.track({id: 'footer-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">{{.Site.Params.PhonePretty}}</a>
             </li>
+            */}}
           </ul>
         </div>
         <div>

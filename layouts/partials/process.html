@@ -1,0 +1,55 @@
+<section class="container grid grid-cols-1 lg:grid-cols-12 gap-6 xl:gap-8 section--lg" {{ with .id }} id="{{ . }}" {{ end }}>
+    <div class="col-span-full lg:col-span-4 flex flex-col gap-6">
+      {{ if or .context.description .context.illustration }}
+      <div class="flex gap-6 items-end md:items-start lg:flex-col lg:h-full lg:justify-between">
+        <div class="flex flex-col gap-6">
+          <h2 class="h--condensed text-xl lg:text-3xl">{{ .context.heading }}</h2>
+          {{ with .context.description }}        
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ with .context.illustration }}
+          {{ $src := ( .img ) }}
+          {{ $alt := ( .alt ) }}
+          {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+
+          {{ with $src }}
+
+            <picture class="shrink-0 w-24 md:w-48 lg:w-full lg:self-center lg:justify-self-end">
+              <img 
+                alt="{{ $alt }}" 
+                class="object-cover"
+                loading=eager
+                sizes="(min-width: 100em) 33vw, 96vw"
+                src="{{ (printf "%s?w=100&auto=format" .) }}" 
+                srcset="
+              {{ (printf "%s?w=100&auto=format" .) }} 320w,
+              {{ (printf "%s?w=480&auto=format" .) }} 480w,
+              {{ (printf "%s?w=640&auto=format" .) }} 640w,
+              {{ (printf "%s?w=800&auto=format" .) }} 800w,
+              {{ (printf "%s?w=800&auto=format" .) }} 1280w"
+              >
+            </picture>
+          {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ with .context.items }}
+      <div class="flex flex-col col-span-full lg:col-span-7 lg:col-start-6">
+        {{ range $index, $p := . }}
+          <div class="flex items-start gap-6 py-3 lg:py-6 {{ if ge $index 1 }} border-t {{ end }}">
+            <span class="-mt-6 lg:-mt-9 xl:-mt-10 2xl:-mt-11 h--condensed block text-orange text-2xl lg:text-3xl :text-4xl 2xl:text-5xlleading-none shrink-0">0{{ add $index 1 }}</span>
+            <div class="flex flex-col gap-2">
+              <h3>{{ $p.heading }}</h3>
+              <div class="prose">
+                {{ $p.description | safeHTML }}
+              </div>
+            </div>
+          </div>
+          
+        {{ end }}
+      </div>
+    {{ end }}
+
+  </section>

@@ -13,7 +13,7 @@
     {{ end }}
     <div class="bleed">
       <div class="w-full {{ if ge (len $projects) 4 }} md:overflow-auto {{ else }} md:overflow-hidden {{ end }}  {{ if ge (len $projects) 5 }} lg:overflow-auto {{ else }} lg:overflow-hidden {{ end }}">
-        <ul class="list-none flex flex-col md:flex-row gap-y-8 lg:gap-y-40 -mx-4 md:pr-[4vw]">
+        <ul class="list-none flex flex-col md:flex-row gap-y-8 lg:gap-y-40 -mx-4 md:pr-[4vw] md:pl-[4vw]">
           {{ range $index, $p := $projects }}
             {{ $odd := false }}
             {{ if not (modBool $index 2)}}
@@ -22,7 +22,7 @@
 
             {{ with . }}
               {{ if not (eq $index 0) }}
-              <li class="w-full md:w-[45%] lg:w-[32%] shrink-0 md:px-4 {{ if eq $index 1 }} md:ml-[4vw] {{ end }}" data-topics="
+              <li class="w-full md:w-[45%] lg:w-[32%] shrink-0 md:px-4 " data-topics="
                 {{- with .Params.services -}}
                   {{- range . -}}{{ . | anchorize }} {{ end -}}
                 {{- end -}}">

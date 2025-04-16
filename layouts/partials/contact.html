@@ -21,14 +21,16 @@
     <h2 class="sr-only">Contact details</h2>
     <nav aria-label="Kind contact links">
       <ul class="flex-wrap list-none text-lg lg:text-xl md:flex gap-x-10 lg:gap-x-20">
-        <li class="relative inline-flex md:after:content-['/'] after:absolute after:-right-5 lg:after:-right-15">
+        <li class="relative inline-flex">
           <span class="sr-only">Email: </span>
           <a href="mailto:hello@madebykind.com" rel="me" onclick="javascript:insights.track({id: 'contact-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">hello@madebykind.com</a>
         </li>
+        {{/*
         <li>
           <span class="sr-only">Telephone: </span>
           <a href="tel:+441157270990" onclick="javascript:insights.track({id: 'contact-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">0115 727 0990</a>
         </li>
+        */}}
       </ul>
     </nav>
     <nav aria-label="{{ i18n "socialTitle" }}" class="mt-24 lg:mt-48">

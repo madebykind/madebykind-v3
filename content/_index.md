@@ -26,15 +26,15 @@ sectors:
     illustration: images/illustration-white-trees.png
     illustration_alt: An illustration of group of trees, with legs
 impacts:
-  - unesco
-  - bookmark
-  - rewilding-britain
-  - vanda
-  - the-rivers-trust
+  - work/unesco
+  - work/bookmark
+  - work/rewilding-britain
+  - work/vanda
+  - work/the-rivers-trust
 projects:
-  #- papyrus
-  - rewilding-britain
-  - unesco
-  - artswork
-  - the-rivers-trust
+  #- work/papyrus
+  - work/rewilding-britain
+  - work/unesco
+  - work/artswork
+  - work/the-rivers-trust
 ---

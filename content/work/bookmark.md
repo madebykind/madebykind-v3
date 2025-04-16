@@ -12,11 +12,10 @@ topics:
   - CMS integration
   - CRM integration
 services:
-  - brand
   - digital
 related_work:
-  - artswork
-  - unesco
+  - work/artswork
+  - work/unesco
 
 # Content
 heading: Raising awareness of the childhood literacy gap in the UK 

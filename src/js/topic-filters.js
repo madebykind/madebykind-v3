@@ -67,10 +67,16 @@ function Filters(el) {
   filterableItems = document.querySelectorAll('[data-topics]');
   clearButton = el.querySelector('[data-topic-filter-clear]');
 
-  filters.forEach(function(el, i) {
-    el.addEventListener("click", function() {
-      el.classList.remove(activeClasses);
-      initFilter(el, el.dataset.topicFilter);
+  if (window.location.hash) {
+    const filterName = window.location.hash.replace("#","");
+    const filterElement = document.querySelector(`[data-topic-filter=${filterName}]`);
+    initFilter(filterElement, filterName);
+  }
+
+  filters.forEach(function(item, i) {
+    item.addEventListener("click", function() {
+      this.classList.remove(activeClasses);
+      initFilter(this, item.dataset.topicFilter);
     })
   });
 

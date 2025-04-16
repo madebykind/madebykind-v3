@@ -1,8 +1,8 @@
 ---
 cover_img_alt: Alt text cannot be blank
 related_work:
-  - rewilding-britain
-  - the-rivers-trust
+  - work/rewilding-britain
+  - work/the-rivers-trust
 header_class: bg-pink text-claret
 toc: true
 hidden: true
