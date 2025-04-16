@@ -1,38 +1,38 @@
+
 {{ define "main" }}
-<article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
-  {{ partial "header__page" . }}
-  <div class="container">
-    {{- .Content -}}
+  {{ $title := .Title }}
+  {{ $parent := .Parent.Title }}
+
+  <article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+    {{ partial "header__subservice" . }}
+    <div class="container">
+      {{- .Content -}}
+    </div>
+
+    {{/* Process */}}
+    {{ with .Params.process }}
+      {{ partial "process.html" ( dict
+      "context" .
+      ) }}
+    {{ end }}
+
+    {{/* Clients */}}
     {{ if .Params.related_work }}
-      <div class="mt-10 lg:mt-20">
-        <h2 class="h3">Our experience</h2>
-        <ul class="flex flex-wrap gap-10 mt-5 lg:gap-20">
-          {{ range .Params.related_work }}
-            {{ with site.GetPage . }}
-              <li class="w-full lg:w-1/3">
-                {{ partial "card_work" (dict
-                  "context" .
-                ) }}
-              </li>
-            {{ end }}
-          {{ end }}
-        </ul>
+      {{ partial "related-work.html"  (dict 
+        "context" .Params.related_work
+        "heading" "Case studies"
+        "heading_class" "h--condensed text-lg lg:text-xl text-pink md:text-buff absolute z-20 top-5 md:relative md:top-0 md:mb-20"
+        "block_class" "bg-blue text-buff pb-10 md:pt-10 lg:py-20 relative" 
+      ) }}
+    {{ end }}
+
+
+    {{/* Blog */}}
+    {{ with .Params.related_posts }}
+      <div class="container section--lg">
+        <h2 class="h--condensed">{{ $title }} insights</h2>
+        {{ partial "related-posts.html" . }}
       </div>
     {{ end }}
-    {{ if .Params.related_posts }}
-      <div class="mt-10 lg:mt-20">
-        <h2 class="h3">Insights on {{ .Params.Heading }}</h2>
-        <ul class="flex flex-wrap gap-10 mt-5 lg:gap-20">
-          {{ range .Params.related_posts }}
-            {{ with site.GetPage . }}
-              <li class="w-full lg:w-1/3">
-                {{ partial "card" . }}
-              </li>
-            {{ end }}
-          {{ end }}
-        </ul>
-      </div>
-    {{ end }}
-  </div>
-</article>
+  </article>
 {{ end }}
