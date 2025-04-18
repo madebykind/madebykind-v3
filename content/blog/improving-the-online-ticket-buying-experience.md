@@ -10,7 +10,8 @@ draft: false
 description: Frustrated users always lead to high abandonment rates. So how can
   we build a ticket purchasing journey that is a breeze? Make it quick.
 toc: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Arts & Culture
   - User-centred design

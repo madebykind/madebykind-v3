@@ -6,7 +6,7 @@ title: User-centred design
 description: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
 
 # Header
-header_class: bg-pink text-claret
+header_class: bg-sky text-green
 heading: User-centred design
 intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
 cover_img: images/empowering-change.png
@@ -38,7 +38,7 @@ related_work:
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
   - creating-sustainable-and-ethical-digital-products
-  - kind-certifies-a-b-corporation
+  - finding-the-common-ground-between-your-organisation-and-its-audience
 
 ---
 

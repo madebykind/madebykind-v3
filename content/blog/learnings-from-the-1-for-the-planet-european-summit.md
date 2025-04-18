@@ -10,7 +10,8 @@ description: Last week Kind travelled to the Netherlands to attend 1% For The
 toc: false
 featured: false
 summary: ""
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Environment
 intro: Last week Kind travelled to the Netherlands to attend 1% For The Planet’s

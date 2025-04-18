@@ -12,7 +12,8 @@ description: At Kind we set ourselves up to deliver strategic thinking & digital
   delivery for socially responsible brands. But what does that mean?
 toc: false
 featured: false
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Environment
 intro: At Kind we set ourselves up to deliver strategic thinking & digital

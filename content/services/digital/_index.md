@@ -63,8 +63,8 @@ teaser:
     - name: The V&A
       icon: va-logo
   testimonials:
-    - testimonials/ntu-short
-    - testimonials/unesco
+    - testimonials/rwb-short
+    - testimonials/artswork
   projects_title: Digital projects
   projects:
     - work/rewilding-britain

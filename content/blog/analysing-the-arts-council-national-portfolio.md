@@ -9,7 +9,8 @@ description: We watched with interest last week as the Arts Council England
   announced their National Portfolio for 2018 - 2022.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Research and analysis
   - Arts & Culture

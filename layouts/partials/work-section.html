@@ -7,7 +7,10 @@
     <h2 class="h--condensed absolute z-20 top-5 md:relative md:top-0 lg:text-3xl leading-heading max-w-5xl mb-16 lg:mb-24 text-sky">{{ .heading }}</h2>
 
     {{ range first 1 (where .context.Pages ".Params.sector" "eq" .section ) }}
-      <div class="mb-8 lg:mb-40">
+      <div class="mb-8 lg:mb-40" data-topics="
+                {{- with .Params.services -}}
+                  {{- range . -}}{{ . | anchorize }} {{ end -}}
+                {{- end -}}">
         {{ partial "teaser__work" ( dict "context" . "size" "large" "labelColourClass" $textColourClass) }}
       </div>
     {{ end }}

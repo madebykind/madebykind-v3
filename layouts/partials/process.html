@@ -12,7 +12,7 @@
     <div class="col-span-full lg:col-span-4 flex flex-col gap-6">
       {{ if or .context.description .context.illustration }}
       <div class="flex gap-6 items-end md:items-start lg:flex-col lg:h-full lg:justify-between">
-        <div class="flex flex-col gap-6 sticky top-5">
+        <div class="flex flex-col gap-6">
           <h2 class="h--condensed text-xl lg:text-3xl">{{ .context.heading }}</h2>
           {{ with .context.description }}        
             <p>{{ . }}</p>

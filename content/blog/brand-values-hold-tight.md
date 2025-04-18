@@ -9,7 +9,8 @@ unlisted: false
 description: In a world of constant change and emerging trends, staying true to your brand values is more important than ever.
 toc: false
 text_colour: text-white
-key_topic: Insights
+key_topic:
+  - Insights
 illustration: images/take-the-reins.png
 topics:
   - Brand

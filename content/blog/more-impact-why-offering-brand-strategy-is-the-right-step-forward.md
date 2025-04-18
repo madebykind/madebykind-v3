@@ -8,10 +8,10 @@ draft: false
 description: We’ve been helping purpose-driven clients for nearly 10 years now, but we always want to do more. That lead us to brand strategy and the complimentary services around it.
 toc: false
 featured: false
-key_topic: How we work
+key_topic:
+  - How we work
 topics:
   - Strategy
-  - Our impact
 intro: We’ve been helping purpose-driven clients for nearly 10 years now, offering digital strategy and delivery for charities, non-profits and ethical businesses that go on to have amazing positive impacts on people and the&nbsp;planet.
 related_posts:
   - who-gives-a-damn-well-we-do-actually

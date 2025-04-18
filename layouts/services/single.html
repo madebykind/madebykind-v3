@@ -3,7 +3,7 @@
   {{ $title := .Title }}
   {{ $parent := .Parent.Title }}
 
-  <article class="pb-10{{ with .Params.page_class }} {{ . }}{{ end }}">
+  <article class="{{ with .Params.page_class }} {{ . }}{{ end }}">
     {{ partial "header__subservice" . }}
     <div class="container">
       {{- .Content -}}
@@ -23,6 +23,7 @@
         "heading" "Case studies"
         "heading_class" "h--condensed text-lg lg:text-xl text-pink md:text-buff absolute z-20 top-5 md:relative md:top-0 md:mb-20"
         "block_class" "bg-blue text-buff pb-10 md:pt-10 lg:py-20 relative" 
+        "hide_services" true
       ) }}
     {{ end }}
 

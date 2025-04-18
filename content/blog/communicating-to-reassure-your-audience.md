@@ -9,7 +9,8 @@ description: Our recent survey raised some unsurprising but interesting views on
   what and how people wanted to be communicated with.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Arts & Culture
 intro: It has always been important to communicate clearly and effectively to

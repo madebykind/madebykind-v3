@@ -10,7 +10,8 @@ toc: false
 cover_img: images/patagonia-thrawn.jpg
 text_colour: text-white
 cover_img_alt: A still from a Patagonia produced video, Thrawn. A snowboarding stands on snow, looking down at snow-less peaks.
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Brand
 intro: In the modern landscape, brands are more than just the products or services they offer. They have the potential to be powerful agents of change, driving social and environmental impact. Brands act as the face and voice of a company, and when used effectively, they can inspire, motivate, and lead people towards a better future.

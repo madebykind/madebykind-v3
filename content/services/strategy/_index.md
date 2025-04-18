@@ -50,17 +50,19 @@ teaser:
   button_text: Our strategic offering
   text_class: "text-pink"
   clients:
-    - name: Papyrus
-      icon: logo-papyrus
     - name: UNESCO
       icon: unesco-logo
     - name: Nottingham Trent University
       icon: ntu-logo
-    - name: Artswork
-      icon: logo-artswork
+    - name: Papyrus
+      icon: logo-papyrus
+    - name: Nottinghamshire County Council
+      icon: logo-ncc
+    - name: Nottingham City Council
+      icon: logo-nottingham-cc
   testimonials:
-    - testimonials/ntu-short
     - testimonials/unesco
+    - testimonials/ntu-short
   projects_title: Strategic projects
   projects:
     - work/unesco

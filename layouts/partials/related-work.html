@@ -1,8 +1,13 @@
 {{ $heading := "" }}
 {{ $container := true }}
+{{ $hideservices := false }}
 
 {{ if .heading }}
   {{ $heading = .heading }}
+{{ end }}
+
+{{ if .hide_services }}
+  {{ $hideservices = .hide_services }}
 {{ end }}
 
 {{ if eq .container false }}
@@ -31,6 +36,7 @@
                 "context" .
                 "reverse" true
                 "hidelink" true
+                "hideservices" $hideservices
               ) }}
             </li>
           {{ else }}
@@ -39,6 +45,7 @@
                   "context" .
                   "reverse" true
                   "dark" true
+                  "hideservices" $hideservices
                 ) }}
             </li>
           {{ end }}

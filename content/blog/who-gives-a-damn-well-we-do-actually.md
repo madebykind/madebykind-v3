@@ -13,7 +13,8 @@ description: In the time-honoured tradition of businesses rebranding and
   ourselves this week, and for what reason?
 toc: false
 featured: true
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Environment
   - Non-profit

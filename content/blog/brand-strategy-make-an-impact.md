@@ -11,7 +11,8 @@ toc: false
 cover_img: images/pam-brand.jpg
 text_colour: text-white
 cover_img_alt: Brand strategy expert, Pamela Holmes
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Brand
   - Strategy

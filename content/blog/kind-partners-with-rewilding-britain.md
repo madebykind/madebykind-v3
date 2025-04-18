@@ -13,7 +13,8 @@ description: Today, we’re pleased to announce that we have chosen to partner
   with Rewilding Britain as our long-term charity partner.
 toc: false
 featured: false
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Environment
   - Non-profit

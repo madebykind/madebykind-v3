@@ -16,12 +16,12 @@
       {{ if .odd }} self-end {{ end }}">
         {{ if .spotlight }}
           Spotlight on
-        {{ else }}
+        {{ else if (not .hideservices) }}
           {{ title (delimit .context.Params.services " + " ) }}
         {{ end }}
       </h4>
       
-      <div class="flex flex-row justify-between {{ if .reverse }} order-1 mb-4 md:mb-auto {{ else }} order-3 mt-6 lg:mt-12 2xl:mt-24 {{ end }}">
+      <div class="flex flex-row justify-between {{ if .reverse }} order-1{{ if (not .hideservices) }} mb-4 md:mb-auto {{ end }} {{ else }} order-3 mt-6 lg:mt-12 2xl:mt-24 {{ end }}">
         {{ if .context.Params.icon }}
           <svg class="text-buff w-24 h-6 {{ if eq .size "large" }} lg:w-44 lg:h-12 {{ else }} md:w-24 md:h-9 {{ end }} {{ if .odd }} order-2 {{ end }}" role="presentation">
             <use xlink:href="#icon-{{ .context.Params.icon }}"/>

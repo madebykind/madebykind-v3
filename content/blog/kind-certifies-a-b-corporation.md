@@ -11,7 +11,8 @@ draft: false
 description: We’re delighted to announce that, this week, Kind has officially
   certified as a B Corporation
 featured: false
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Non-profit
 intro: We’re delighted to announce that, this week, Kind has officially

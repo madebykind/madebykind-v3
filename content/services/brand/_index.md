@@ -97,6 +97,8 @@ teaser:
   button_text: Our brand offering
   text_class: "text-pink md:text-sky"
   clients:
+    - name: Chapter
+      icon: chapter-logo
     - name: Papyrus
       icon: logo-papyrus
     - name: Base 51
@@ -107,11 +109,9 @@ teaser:
       icon: logo-artswork
     - name: The Wilderness Project
       icon: logo-twp
-    - name: Chapter
-      icon: chapter-logo
   testimonials:
     - testimonials/unesco
-    - testimonials/ntu-short
+    - testimonials/unesco
   projects_title: Brand projects
   projects:
     - work/base51

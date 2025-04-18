@@ -11,7 +11,8 @@ description: This month, we conducted a survey to find out how audiences across
   restrictions ease over the summer.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Arts & Culture
 intro: This month, we conducted a survey to find out how audiences across the

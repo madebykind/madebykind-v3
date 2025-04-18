@@ -23,7 +23,7 @@
         {{ if .clients }}
         <div class="col-span-full flex flex-col gap-4 md:gap-6 md:col-span-6 md:self-end lg:col-span-5 lg:col-start-8">
           <h3 class="h--condensed text-md {{ .text_class }}">Trusted by</h3>
-          <ul class="flex flex-wrap justify-between gap-y-8 mb-8 md:gap-y-16 -mx-4 md:-mx-8 lg:order-3 lg:col-span-full">
+          <ul class="flex flex-wrap justify-start gap-y-6 mb-8 md:gap-y-12 -mx-4 md:-mx-8 lg:order-3 lg:col-span-full">
             {{ range .clients }}
             <li class="w-1/3 md:w-1/4 lg:w-1/3 px-4 md:px-8">
               <div class="w-full h-full max-w-20 max-h-8 md:max-w-36 md:max-h-12">
@@ -70,6 +70,7 @@
             "heading_class" (printf "h--condensed text-md %s absolute z-20 top-5 md:relative md:top-0 md:mb-20" .text_class)
             "block_class" "col-span-full relative" 
             "container" false
+            "hide_services" true
           ) }}
         {{ end }}
 
