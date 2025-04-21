@@ -8,17 +8,19 @@
      
       <div class="col-span-full lg:col-span-7 xl:col-span-6 flex flex-col gap-8 lg:gap-16">
        {{ with .Params.intro }}
-        <div class="max-w-4xl lede">
+        <div class="max-w-4xl lede prose">
           {{ . | markdownify }}
         </div>
         {{ end }}
 
-        {{ with .Params.topics }}
+        {{ if .Params.topics }}
           <nav class="flex flex-col gap-5 max-w-xl">
             <h2 class="text-md h--condensed">Services</h2>
             <ul class="flex flex-col font-sans font-medium md:block md:columns-2 md:gap-x-10">
-              {{ range . }}
-                <li class="text-sm lg:text-base py-0.5 md:py-1">{{ title . }}</li>
+              {{ range .Params.topics }}
+                {{ with site.GetPage . }}
+                <li class="text-sm lg:text-base py-0.5 md:py-1">{{ .Title }}</li>
+                {{ end }}
               {{ end }}
             </ul>
           </nav>

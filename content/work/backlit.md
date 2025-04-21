@@ -6,15 +6,15 @@ title: Digital brand and website for independent art centre, Backlit
 description: A contemporary, sleek website design for an Arts Council NPO
 sector: for-people
 topics:
-  - Visual identity
-  - User-centred Design
-  - CMS integration
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
 services:
   - brand
   - digital
 related_work:
-  - chapter
-  - vanda
+  - work/chapter
+  - work/vanda
 
 # Content
 heading: Supporting an Internationally-Renowned Art Gallery

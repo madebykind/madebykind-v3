@@ -7,16 +7,16 @@ description: A colourful and playful brand refresh and CRM integrated website
 social_img: images/work-artswork-photo-1.jpg
 sector: for-people
 topics:
-  - Visual identity
-  - User-centred Design
-  - CMS integration
-  - CRM integration
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - brand
   - digital
 related_work:
-  - base51
-  - bookmark
+  - work/base51
+  - work/bookmark
 
 # Content
 heading: Empowering young people using creativity for change

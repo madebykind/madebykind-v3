@@ -6,20 +6,19 @@ title: Digital archive design and delivery for The V&A
 description: Supporting a national museum through delivering online research archives, integrated with hosted search platforms
 sector: for-people
 topics:
-  - Visual identity
-  - Research and analysis
-  - Technical consultancy
-  - User-centred Design
-  - Design Systems
-  - CMS integration
-  - CRM integration
-  - Digital archives
+  - services/brand/visual-identity
+  - services/strategy/user-research
+  - services/strategy/technical-consultancy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - brand
   - digital
 related_work:
-  - artswork
-  - backlit
+  - work/artswork
+  - work/backlit
 
 # Content
 heading: Working with the world’s leading art and design museum

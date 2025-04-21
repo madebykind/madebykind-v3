@@ -2,7 +2,7 @@
 # Meta
 date: 2020-04-30T17:28:36.948Z
 weight: 3
-title: Digital strategy and transformation
+title: Digital strategy
 description: To meet our partners online objectives and goals, we utilise user research to create digital strategies and platforms which meaningfully engage with users. We provide support, planning and guidance on how to implement long-term digital transformations which add real value to our clients causes. 
 
 # Header

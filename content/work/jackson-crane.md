@@ -6,12 +6,12 @@ title: Marketing strategy for sustainable architecture practice, Jackson-Crane
 description: Bringing focus to an award-winning contemporary architecture practice that focuses on sustainability.
 sector: for-planet
 topics:
-  - Research and analysis
+  - services/brand/visual-identity
 services:
   - strategy
 related_work:
-  - nottingham-trent-university
-  - vanda
+  - work/nottingham-trent-university
+  - work/vanda
 
 # Content
 heading: Bringing focus to a sustainable architecture and interior design practice

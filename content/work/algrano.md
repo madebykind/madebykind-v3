@@ -7,16 +7,16 @@ description: Launching a refreshed identity through animation, video production 
 social_img: images/work-algrano-growers.jpg
 sector: for-people
 topics:
-  - User-centred Design
-  - Copywriting
-  - Brand Strategy
-  - Animation
+  - services/digital/user-centred-design
+  - services/brand/tone-of-voice
+  - services/brand/brand-strategy
+  - services/brand/art-direction
 services:
   - brand
   - digital
 related_work:
-  - chapter
-  - artswork
+  - work/chapter
+  - work/artswork
 
 # Content
 heading: Ensuring a fair deal across the global coffee community

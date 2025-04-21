@@ -7,17 +7,17 @@ description: User-centred design system for one of the UK’s largest and most
   diverse universities
 sector: for-people
 topics:
-  - Research and analysis
-  - Technical consultancy
-  - User-centred Design
-  - Design Systems
-  - CMS integration
-  - CRM integration
+  - services/brand/visual-identity
+  - services/strategy/technical-consultancy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - digital
 related_work:
-  - nottingham-trent-university
-  - vanda
+  - work/nottingham-trent-university
+  - work/vanda
 
 # Content
 heading: Creating a sustainable design system to improve the efficiency of digital projects

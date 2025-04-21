@@ -6,15 +6,15 @@ title: Digital strategy and design system delivery for Nottingham Trent Universi
 description: A user-centred realignment of the University of the Year’s website
 sector: for-people
 topics:
-  - Digital Strategy
-  - User-centred Design
-  - Design Systems
+  - services/strategy/digital-strategy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
 services:
   - strategy
   - digital
 related_work:
-  - sheffield-hallam-university
-  - jackson-crane
+  - work/sheffield-hallam-university
+  - work/jackson-crane
 
 # Content
 heading: A user-centred realignment of the University of the Year’s website

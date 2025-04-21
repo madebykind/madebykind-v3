@@ -6,14 +6,14 @@ title: Website and member portal for The Rivers Trust
 description: A user-centred website to build awareness and gain public support
 sector: for-planet
 topics:
-  - User-centred Design
-  - CMS integration
-  - CRM integration
+  - services/digital/user-centred-design
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - digital
 related_work:
-  - rewilding-britain
-  - garden-organic
+  - work/rewilding-britain
+  - work/garden-organic
 
 # Content
 heading: A user-centred website to build awareness and gain public support

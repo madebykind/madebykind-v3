@@ -7,10 +7,10 @@ description: A fun, playful website with clear journeys and integrated help-cent
 social_img: images/work-bookmark-laptop-child.jpg
 sector: for-people
 topics:
-  - Research and analysis
-  - User-centred Design
-  - CMS integration
-  - CRM integration
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - digital
 related_work:
