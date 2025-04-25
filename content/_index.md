@@ -7,12 +7,12 @@ hidden: false
 cover_img: images/true-to-who-we-are-v1.png
 cover_img_alt: A giant friendly hand, holding a small flower
 preheading: Ethical creative agency
-heading: Lorem ipsum dolor sit
+heading: Designing a better future
 large_hero: true
 intro: >
 
 
-  Phasellus egestas, erat ultricies sodales tempus, nisi justo fringilla nisi, [strategy](/services/strategy), [brand](/services/brand) and [digital](/services/digital) eleifend felis mi consectetur leo. Nam ut lorem urna.
+  Kind works exclusively for those that put purpose before profit, delivering expert guidance on [strategy](/services/strategy), [brand](/services/brand) and [digital](/services/digital) where it can make a positive impact.
 intro_md: true
 sectors:
   - title: 'For people'

@@ -2,9 +2,9 @@
 date: 2020-04-20T11:48:46+01:00
 weight: 1
 title: A creative force for good
-description: Phasellus egestas, erat ultricies sodales tempus, nisi justo fringilla nisi, eleifend felis mi consectetur leo. Nam ut lorem urna. Nisi justo fringilla nisieleifend felis mi consectetur leo.
+description: Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else — and that means great results for you.
 heading: A creative force for good
-intro: Phasellus egestas, erat ultricies sodales tempus, nisi justo fringilla nisi, eleifend felis mi consectetur leo. Nam ut lorem urna. Nisi justo fringilla nisieleifend felis mi consectetur leo.
+intro: Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else — and that means great results for you.
 cover_img: images/27-02-23-Kind3398.jpg
 banner_images:
   - img: images/27-02-23-Kind3398.jpg
@@ -14,8 +14,8 @@ banner_images:
   - img: images/27-02-23-Kind3662.jpg
     alt: 
 stat_block:
-  heading: Eyebrow text
-  description: Nam ut lorem urna. Nisi justo fringilla nisieleifend felis mi consectetur leo.
+  heading: Truly impact-driven
+  description: We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.
   img: images/mat-and-michelle.jpg
   alt: Mat and Michelle, Kind's leadership team
   stats:
