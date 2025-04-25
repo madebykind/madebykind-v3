@@ -10,4 +10,4 @@ logo:
 ---
 
 
-The website Kind have created encapsulates what we’re all about – creativity.
+Working with Kind has brought much needed direction and clarity to our charity after a big change in our delivery.

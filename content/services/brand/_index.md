@@ -110,7 +110,7 @@ teaser:
     - name: The Wilderness Project
       icon: logo-twp
   testimonials:
-    - testimonials/unesco
+    - testimonials/base51
     - testimonials/unesco
   projects_title: Brand projects
   projects:

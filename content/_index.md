@@ -12,7 +12,7 @@ large_hero: true
 intro: >
 
 
-  Kind works exclusively for those that put purpose before profit, delivering expert guidance on [strategy](/services/strategy), [brand](/services/brand) and [digital](/services/digital) where it can make a positive impact.
+  Kind works exclusively for those that put purpose before profit, delivering expert guidance on [strategy](/services/strategy), [brand](/services/brand) and [digital](/services/digital) where it counts.
 intro_md: true
 sectors:
   - title: 'For people'
