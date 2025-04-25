@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: More impact! Why offering brand strategy is the right step forward
 card_colour: bg-teal text-blue
 date: 2024-02-21T13:30:20.852Z

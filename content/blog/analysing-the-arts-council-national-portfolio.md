@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Analysing the Arts Council National Portfolio
 card_colour: bg-teal text-blue
 date: 2017-07-06T16:18:30.032Z

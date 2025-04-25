@@ -20,7 +20,7 @@ intro: For organisations that give a damn (we’re talking to those of you who a
 related_posts:
   - brand-strategy-make-an-impact
   - creativity-is-a-responsibility
-  - more-impact-why-offering-brand-strategy-is-the-right-step-forward
+  - who-gives-a-damn-well-we-do-actually
 ---
 
 Amidst all the noise, maintaining authenticity, honesty, and a firm grip on your brand's values is crucial. Here’s why:

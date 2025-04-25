@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Communicating to reassure your audience
 card_colour: bg-teal text-blue
 date: 2021-03-31T14:43:06.833Z

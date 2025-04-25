@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Learnings from the 1% For The Planet European Summit
 card_colour: bg-pink text-blue
 date: 2018-11-20T17:07:21.304Z

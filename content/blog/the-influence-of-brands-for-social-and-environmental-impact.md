@@ -16,8 +16,9 @@ topics:
   - Brand
 intro: In the modern landscape, brands are more than just the products or services they offer. They have the potential to be powerful agents of change, driving social and environmental impact. Brands act as the face and voice of a company, and when used effectively, they can inspire, motivate, and lead people towards a better future.
 related_posts:
-  - more-impact-why-offering-brand-strategy-is-the-right-step-forward
+  - creativity-is-a-responsibility
   - creating-sustainable-and-ethical-digital-products
+  - who-gives-a-damn-well-we-do-actually
 ---
 
 

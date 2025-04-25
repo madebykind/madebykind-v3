@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: How digital tech is helping to capture history, as it happens
 card_colour: bg-sky text-green
 date: 2021-02-23T15:58:34.039Z

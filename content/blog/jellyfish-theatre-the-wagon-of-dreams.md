@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: "Jellyfish Theatre: The Wagon of Dreams"
 card_colour: bg-teal text-blue
 date: 2021-08-02T14:15:17.227Z

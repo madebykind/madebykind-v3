@@ -40,7 +40,7 @@ related_work:
 related_posts:
   - benefits-of-a-design-system-for-complex-organisations
   - creating-sustainable-and-ethical-digital-products
-  - how-digital-tech-is-helping-to-capture-history-as-it-happens
+  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
 
 
 # Teaser

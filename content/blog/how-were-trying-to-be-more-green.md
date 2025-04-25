@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: How we’re trying to be more green
 card_colour: bg-sky text-green
 date: 2018-10-17T16:09:57.040Z

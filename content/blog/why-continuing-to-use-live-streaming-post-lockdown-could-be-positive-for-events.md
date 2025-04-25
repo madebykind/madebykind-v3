@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Why continuing to use live streaming post-lockdown could be positive for events
 card_colour: bg-sky text-green
 date: 2021-04-29T14:21:29.816Z
