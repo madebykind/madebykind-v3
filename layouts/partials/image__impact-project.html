@@ -1,6 +1,6 @@
 
-{{ $src := (.Params.impact_img ) }}
-{{ $alt := ( .Params.impact_img_alt ) }}
+{{ $src := (.Params.impact.img ) }}
+{{ $alt := ( .Params.impact.img_alt ) }}
 {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
 
 {{ with $src }}

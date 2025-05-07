@@ -5,7 +5,7 @@
     <h2 class="sr-only">Featured posts</h2>
     <ol class="grid gap-10 md:grid-cols-12 section ">
       {{ range ( where ( where .Pages "Params.featured" "==" true ) "Params.unlisted" "!=" true ) }}
-        <li class="md:col-span-6 xl:col-span-4" data-topics="{{ with .Params.key_topic }}{{ . | anchorize }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
+        <li class="md:col-span-6 xl:col-span-4" data-topics="{{ with .Params.key_topic }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
           {{ partial "card" . }}
         </li>
       {{ end }}
@@ -18,7 +18,7 @@
     <h2 class="h--condensed text-md">More insights</h2>
     <ol class="flex flex-wrap">
       {{ range ( where ( where .Pages "Params.featured" "!=" true ) "Params.unlisted" "!=" true ) }}
-        <li class="w-full" data-topics="{{ with .Params.key_topic }}{{ . | anchorize }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
+        <li class="w-full" data-topics="{{ with .Params.key_topic }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
           {{ partial "teaser" . }}
         </li>
       {{ end }}

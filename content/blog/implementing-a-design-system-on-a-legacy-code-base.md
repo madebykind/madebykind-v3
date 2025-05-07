@@ -8,7 +8,8 @@ draft: false
 description: We're participating in the Global Climate Strike this Friday
 toc: false
 featured: false
-key_topic: How we work
+key_topic:
+  - How we work
 topics:
   - Design systems
 related_posts:

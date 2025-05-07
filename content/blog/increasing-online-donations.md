@@ -15,7 +15,8 @@ description: Many charitable organisations rely on public donations to continue
   often below 1%.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Non-profit
 intro: Many charitable organisations rely on public donations to continue their

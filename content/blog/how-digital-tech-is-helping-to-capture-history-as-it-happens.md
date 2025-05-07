@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: How digital tech is helping to capture history, as it happens
 card_colour: bg-sky text-green
 date: 2021-02-23T15:58:34.039Z
@@ -13,7 +13,8 @@ description: With the impermanence and speed of change of the internet and how
   disappear the next day?
 toc: false
 summary: null
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Arts & Culture
 intro: I am probably not alone in feeling like I am living through a series of

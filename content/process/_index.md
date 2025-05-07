@@ -1,6 +1,6 @@
 ---
 hidden: true
-title: Strengths
+title: Process
 _build:
   render: never
 cascade:

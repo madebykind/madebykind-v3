@@ -37,6 +37,7 @@
 @import 'components/contact.postcss';
 /*@import 'components/frame.postcss';*/
 @import 'components/headings.postcss';
+@import 'components/hero.postcss';
 @import 'components/mobile-navigation.postcss';
 @import 'components/prose.postcss';
 @import 'components/section.postcss';

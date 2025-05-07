@@ -11,7 +11,8 @@ description: In a time which is increasingly driven by online activity, social
   and have a clear idea of how you want to control your brand online.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Strategy
 related_posts:

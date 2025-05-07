@@ -4,5 +4,4 @@ prefix:
 title: 100
 suffix: "%"
 ---
-
-Socially-responsible<br>client base
+Socially-responsible client base

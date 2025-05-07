@@ -2,11 +2,11 @@
 
 {{ if .Get "author" }}
   {{ if $align }}<div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">{{ end }}
-    <figure {{ with .Get "cite" }} cite="https://{{.}}" {{ end }} class='{{ with .Get "wrapperclass" }} {{ . }} {{ end }}{{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg:col-start-5 {{ end }}'>
+    <figure {{ with .Get "cite" }} cite="https://{{.}}" {{ end }} class='{{ with .Get "wrapperclass" }} {{ . }} {{ end }}{{ if $align }} col-span-12 lg:col-span-8 {{ end }}{{ if eq $align "right" }} lg:col-start-5 {{ end }}{{ if eq $align "center" }} lg:col-start-3 {{ end }}'>
       <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
         <p{{ with .Get "class" }} class="{{ . }}"{{ end }} itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>    
       </blockquote>
-      <figcaption class="mt-5 font-serif {{ if .Get "avatar" }} inline-flex {{ else }} border-l-4 border-orange pl-10{{ end }}">
+      <figcaption class="mt-5 font-serif {{ if .Get "avatar" }} inline-flex {{ else }} border-l-4 border-orange pl-6{{ end }}">
         {{ if .Get "avatar" }}
           {{ $author := index .Site.Data.authors (.Get "avatar") }}
           {{ $src := printf "https://madebykind.imgix.net/%s" $author.headshot }}
@@ -15,7 +15,7 @@
 
             <img
               alt="{{ $author.name }}"
-              class="inline-block object-cover object-center w-16 h-16 mr-4 border rounded-full border-ui"
+              class="inline-block object-cover object-center w-16 h-16 mr-4 rounded-full"
               height="180"
               loading=lazy
               sizes="(min-width: 62em) 180px, 120px"

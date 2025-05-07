@@ -3,9 +3,6 @@ date: 2020-04-24T11:48:46+01:00
 description: Accessiblity is at the heart of everything we do, this page explains our process.
 title: Accessibility Statement
 heading: Accessibility Statement
-related_pages:
-  - kind-certifies-a-b-corporation
-  - kind-partners-with-rewilding-britain
 url: /about/legal/accessibility/
 social_img_txt: "Accessibility Statement"
 social_img_color: "navy"

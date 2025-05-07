@@ -1,5 +1,5 @@
 
-<figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="my-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-center">
+<figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="my-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-center section--lg">
   {{- $alt := ( .Get "alt" ) -}}
   {{ with .Get "img" }}
     {{- $src := ( . ) -}}

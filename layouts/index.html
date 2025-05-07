@@ -1,9 +1,9 @@
 {{ define "main" }}
-  {{ partial "services.html" . }}
   {{ partial "header__landing.html" . }}
+  {{ partial "sectors.html" . }}
+  {{ partial "impacts.html" (dict
+    "projects" .Params.impacts
+    "heading" "Since 2014, we've helped:"
+  ) }}
   {{ partial "featured_work.html" . }}
-  {{ partial "cta.html" . }}
-  {{ partial "our-stats.html" . }}
-  {{ partial "our-insights.html" . }}
-  {{ partial "mailing-list.html" . }}
 {{ end }}

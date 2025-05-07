@@ -6,13 +6,15 @@ date: 2021-09-02T15:19:24.478Z
 author: mat
 cover_img: null
 cover_img_alt: null
+illustration: images/empowering-change.png
 draft: false
 services:
   - digital
 description: What exactly is a Design System and what are the benefits of implementing one?
 toc: false
 featured: true
-key_topic: How we work
+key_topic:
+  - How we work
 topics:
   - Design systems
 intro: At Kind, we often work with large organisations, such as universities and

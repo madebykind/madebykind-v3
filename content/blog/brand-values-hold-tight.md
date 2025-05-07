@@ -9,7 +9,8 @@ unlisted: false
 description: In a world of constant change and emerging trends, staying true to your brand values is more important than ever.
 toc: false
 text_colour: text-white
-key_topic: Insights
+key_topic:
+  - Insights
 illustration: images/take-the-reins.png
 topics:
   - Brand
@@ -19,7 +20,7 @@ intro: For organisations that give a damn (we’re talking to those of you who a
 related_posts:
   - brand-strategy-make-an-impact
   - creativity-is-a-responsibility
-  - more-impact-why-offering-brand-strategy-is-the-right-step-forward
+  - who-gives-a-damn-well-we-do-actually
 ---
 
 Amidst all the noise, maintaining authenticity, honesty, and a firm grip on your brand's values is crucial. Here’s why:
@@ -57,4 +58,4 @@ In a world where we care deeply about the values of the brands we support, stayi
 
 Sticking to your brand values isn’t just a strategic move — it’s the heart of building a meaningful and enduring business. For us, this is why understanding your beliefs or helping to carve them out with you is the starting point for every project we undertake.
 
-We can help define the core principles and beliefs that shape your identity and guide your actions. Want to see what we mean? [Check out our own Manifesto](/about/manifesto).
+We can help define the core principles and beliefs that shape your identity and guide your actions. Want to see what we mean? [Check out our own Manifesto](/about#manifesto).

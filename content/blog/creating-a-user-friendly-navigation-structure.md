@@ -9,7 +9,8 @@ description: One of the initial and most important tasks on a digital project of
   any size is to create a usable and intuitive navigation structure.
 toc: false
 featured: false
-key_topic: How we work
+key_topic:
+  - How we work
 topics:
   - Research and analysis
   - User-centred design

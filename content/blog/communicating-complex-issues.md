@@ -13,7 +13,8 @@ description: A key challenge for charities and non-profit organisations is
   clearly communicating their work and the issues they are attempting to tackle.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Non-profit
   - Environment

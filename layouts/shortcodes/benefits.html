@@ -1,0 +1,54 @@
+<section class="{{ .Get "block_class" }} section--lg">
+  <div class="container grid grid-cols-1 md:grid-cols-12 gap-12">
+    <div class="col-span-full flex flex-col gap-6">
+      {{ with .Get "heading" }}
+      <h2 class="h--condensed leading-heading text-xl lg:text-2xl">{{ . }}</h2>
+      {{ end }}
+      {{ with .Get "description" }}
+      <p>{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="col-span-full grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8">
+      {{ if or (.Get "item_1_heading") (.Get "item_1_description") }}
+        <div class="col-span-full md:col-span-6 lg:col-span-3 flex flex-col gap-4">
+          {{ with .Get "item_1_heading" }}
+          <h3>{{ . }}</h3>
+          {{ end }}
+          {{ with .Get "item_1_description" }}
+          <p>{{ . }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if or (.Get "item_2_heading") (.Get "item_2_description") }}
+        <div class="col-span-full md:col-span-6 lg:col-span-3 flex flex-col gap-4">
+          {{ with .Get "item_2_heading" }}
+          <h3>{{ . }}</h3>
+          {{ end }}
+          {{ with .Get "item_2_description" }}
+          <p>{{ . }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if or (.Get "item_3_heading") (.Get "item_3_description") }}
+        <div class="col-span-full md:col-span-6 lg:col-span-3 flex flex-col gap-4">
+          {{ with .Get "item_3_heading" }}
+          <h3>{{ . }}</h3>
+          {{ end }}
+          {{ with .Get "item_3_description" }}
+          <p>{{ . }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if or (.Get "item_4_heading") (.Get "item_4_description") }}
+        <div class="col-span-full md:col-span-6 lg:col-span-3 flex flex-col gap-4">
+          {{ with .Get "item_4_heading" }}
+          <h3>{{ . }}</h3>
+          {{ end }}
+          {{ with .Get "item_4_description" }}
+          <p>{{ . }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

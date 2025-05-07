@@ -4,8 +4,9 @@ title: Start your next digital project with a paid discovery phase
 card_colour: bg-teal text-blue
 date: 2021-06-16T15:20:00+0100
 author: mat
-cover_img: null
-cover_img_alt: null
+text_colour: text-white
+cover_img: images/strategy-notes.jpg
+cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 draft: false
 services: []
 description: Anyone who has taken on a digital project before knows that, even
@@ -13,7 +14,8 @@ description: Anyone who has taken on a digital project before knows that, even
   discovery…
 toc: true
 featured: true
-key_topic: How we work
+key_topic:
+  - How we work
 topics:
   - Research and analysis
   - Strategy

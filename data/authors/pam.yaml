@@ -5,14 +5,11 @@ name: Pamela Holmes
 role: Brand Lead
 weight: 3
 email: pam@madebykind.com
+bio: Phasellus egestas, erat ultricies sodales tempus, nisi justo fringilla nisi, eleifend felis mi consectetur leo.
 social:
-  github: 
   instagram: pagelooker_studio
-  facebook: 
-  twitter: 
-  youtube: 
+  bluesky: 
   linkedin: pamela-holmes
-  threads: 
 url: 
 cares:
   - Environment

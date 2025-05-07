@@ -1,45 +1,68 @@
 ---
-heading: Creating a sustainable design system to improve the efficiency of digital projects
-title: Digital partnership and design system delivery for Sheffield Hallam University - Kind
+# Meta
+date: 2023-06-28T13:59:11.952Z
+weight: 5
+title: Digital partnership and design system delivery for Sheffield Hallam University
 description: User-centred design system for one of the UK’s largest and most
   diverse universities
-draft: false
-date: 2023-06-28T13:59:11.952Z
-cover_img: images/work-shu-runner.jpg
-cover_img_alt: A woman looking over a view of Sheffield city centre at dawn
+sector: for-people
+topics:
+  - services/brand/visual-identity
+  - services/strategy/technical-consultancy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
+  - services/digital/content-management
+  - services/digital/crm-integration
+services:
+  - digital
+related_work:
+  - work/nottingham-trent-university
+  - work/vanda
+
+# Content
+heading: Creating a sustainable design system to improve the efficiency of digital projects
 intro: "Sheffield Hallam University is one of the UK’s largest and most diverse
   universities and pride themselves on the applied nature of their courses,
   offering thousands of placements and real-world opportunities every year with
   guaranteed work experience on their degree courses. Sheffield Hallam wanted to
   stand out in the busy landscape of Higher Education as an education provider
-  who add real long-term value to their students. "
-feature_heading: Our partnership
-feature_content: In 2018, SHU appointed Kind as a digital partner, tasking us
-  with providing long-term support to improve and bring consistency to SHU’s
-  digital platforms, as well as collaborating on all of their digital projects,
-  they asked us to lead in creating a sustainable design system for their online properties.
-topics:
-  - Research and analysis
-  - Technical consultancy
-  - User-centred Design
-  - Design Systems
-  - CMS integration
-  - CRM integration
-icon: shu-logo
-services:
-  - digital
-related_work:
-  - chapter
-  - rewilding-britain
-  - the-rivers-trust
-weight: 5
-key_stat:
-    - 40-percent
+  who add real long-term value to their students."
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt: 
+
+# Header
 banner_type: standard
 banner_img: images/work-shu-header.jpg
 banner_img_alt: Test image
 banner_icon: shu-logo
+
+# Page nav
 toc: true
+
+# Teaser content
+cover_img: images/work-shu-runner.jpg
+cover_img_alt: A woman looking over a view of Sheffield city centre at dawn
+icon: shu-logo
+client: Sheffield Hallam University
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: A sustainable design system to improve the efficiency of digital projects
   description: "In 2018, Kind became SHU’s long-term digital partner, tasked
@@ -53,7 +76,10 @@ teaser:
       alt: A young boy with a VR headset
       stat:
         - 40-percent
-social_img_txt: "Creating a sustainable design system to improve the efficiency of digital projects"
+
+# Footer override
+#footer_heading:
+
 ---
 
 <!-- Text left -->
@@ -103,7 +129,11 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
 {{< mobile-scroll align="left" src="work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
 
-{{< figure wrapperclass="" align="left" src="work-shu-laptop.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}
+
+{{< partnership img="images/work-shu-laptop-2.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}In 2018, SHU appointed Kind as a digital partner, tasking us
+  with providing long-term support to improve and bring consistency to SHU’s
+  digital platforms, as well as collaborating on all of their digital projects,
+  they asked us to lead in creating a sustainable design system for their online properties.{{</ partnership >}}
 
 
 <!-- Text right -->

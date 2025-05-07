@@ -1,20 +1,15 @@
 ---
 hidden: false
-date: 2023-07-05T10:45:00.706Z
-title: "**Website with ticketing integration** for state-of-the-art concert venue"
-name: The Tung Auditorium
-images:
-  - image: images/tung-project-1.jpg
-    img_alt: A desktop mockup of the Tung Auditorium homepage
-  - image: images/tung-project-2.jpg
-    img_alt: A desktop mockup of the Tung Auditorium event listing
-  - image: images/tung-project-3.jpg
-    img_alt: A desktop mockup of the Tung Auditorium homepage
-topics:
-  - User-centred design
-  - Ticketing journeys
-services:
-  - digital
+date: 2023-07-05T10:51:49.707Z
+icon: tung-logo
+impact_teaser:
+  text: "**Website with ticketing integration** for state-of-the-art concert venue"
+  images:
+    - img: images/tung-project-1.jpg
+      alt: A desktop mockup of the Tung Auditorium homepage
+    - img: images/tung-project-2.jpg
+      alt: A desktop mockup of the Tung Auditorium event listing
+    - img: images/tung-project-3.jpg
+      alt: A desktop mockup of the Tung Auditorium homepage
+  caption: The Tung Auditorium
 ---
-
-A bespoke website design and Spektrix ticketing integration for Liverpool’s newest music venue aiming to bring orchestral music to the masses.
