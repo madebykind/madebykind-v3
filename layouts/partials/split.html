@@ -7,7 +7,6 @@
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section items-start section--lg">
   <div class="prose col-span-full lg:col-span-6 {{ if eq .orientation "right"}} lg:order-2 {{ end }}">
     {{- $inner | 
-      markdownify | 
       replaceRE "<h2" "<h2 class=\"h--condensed leading-heading text-xl lg:text-2xl\"" |
       replaceRE "<h3" "<h3 class=\"h--condensed leading-heading text-lg\"" |
       safeHTML 

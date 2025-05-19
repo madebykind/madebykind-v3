@@ -7,7 +7,7 @@ hidden: false
 cover_img: images/true-to-who-we-are-v1.png
 cover_img_alt: A giant friendly hand, holding a small flower
 preheading: Ethical creative agency
-heading: Designing a better future
+heading: A creative force for good
 large_hero: true
 intro: >
 

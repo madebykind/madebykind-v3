@@ -5,30 +5,29 @@ date: 2020-04-30T17:28:36.948Z
 weight: 1
 title: Strategy
 seo_title: Digital strategy, user research and technical consultancy for purpose-driven organisations
+description: Strategy services for charities and non-profits. We create clear, actionable strategies that support growth and deepen impact.
 layout: primary
 
 # Header
 layer_nav: true
-heading: Strategic thinking to make a difference
-description: Strategy and research are the foundations of every project. We uncover insights and find opportunities that will focus activities, create a deeper understanding of our clients unique position and help them to meet their goals. 
+heading: Strategy for mission-driven organisations
+intro: We help you make decisions with purpose. Our strategy work gives you the clarity to act and the tools to lead with confidence.
 cover_img: images/strategy-image-kind-site.jpg
 cover_img_alt: Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs
 
 # Process
 process:
   heading: Our strategy process
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: Our strategic process is grounded in insight, aligned with your goals, and shaped by audience needs. We deliver clear, achievable action plans, flexible enough to evolve, and focused enough to create positive impact.
   items:
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
+    - heading: Discover context
+      description: "<p>We start by digging deep into your organisation’s vision, challenges, and sector. Through desk-based research, stakeholder interviews and surveys, we uncover where you are now, where you want to go, and what’s standing in the way.</p>"
+    - heading: Define direction
+      description: "<p>Using these insights, we identify your strategic priorities, refining your purpose, positioning and value proposition. Whether it’s brand, digital or organisational strategy, we create a clear framework to guide decision-making and help your team stay aligned and focused.</p>"
+    - heading: Plan for action
+      description: "<p>We turn strategy into momentum. You’ll get a clear implementation plan, covering engagement, marketing direction, KPIs and a roadmap that aligns with your internal capacty and skillsets. We can also support rollout and internal communications to help embed the work meaningfully.</p>"
+    - heading: Embedding and evolving
+      description: "<p>Strategy only works when it lives in the day-to-day. We support our clients to embed new thinking, build internal understanding and sustain momentum. And because things change, we build in flexibility, allowing your strategy to adapt, respond and keep delivering value over time.</p>"
   illustration:
     img: images/choose-kind.png
     alt: An illustration of a person holding a very large placard. The placard reads 'Choose Kind'.

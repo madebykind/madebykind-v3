@@ -9,24 +9,25 @@ description: Successful digital projects prioritise user needs. User-centred des
 header_class: bg-sky text-green
 heading: User-centred design
 intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
-cover_img: images/empowering-change.png
-cover_img_alt: Illustration of a person holding a watering can that waters many plants
+cover_img: images/empower-change-v1.png
+cover_img_alt: Illustration of different trees, with legs.
 
 # Process
 process:
   heading: How it works
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: We believe the most successful projects are those that put the needs of their audience first.
   items:
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
+    - heading: Research and discovery
+      description: "<p>We explore an organisation’s history, goals, and vision, gathering insights through conversations with the project team and examining how the website supports strategic objectives.</p>
+        <p>Knowledge about user groups, their needs, and their expectations is shared collaboratively, while quantitative insights are captured through short surveys, helping to build a clear picture of the people the website serves.</p>"
+    - heading: Creating an intuitive navigation structure
+      description: "<p>Our next focus is to develop a clear, user-friendly navigation system. Rather than reflecting internal structures, the Information Architecture is shaped by user behaviours, content analysis, and user stories, ensuring intuitive navigation that helps users move efficiently through the site.</p>"
+    - heading: Prioritising needs and features
+      description: "<p>We generate user stories, reflecting what your audience groups need from the website and why. These guide the creation of a set of features, which are then prioritised in collaboration with the project team to focus on the elements with the greatest impact.</p>"
+    - heading: Prototyping and user testing
+      description: "<p>Initial wireframes are created in a mobile-first format, helping establish content hierarchy and performance early on. Prototypes of key user journeys are developed and tested with users to validate assumptions and refine the experience.</p>"
+    - heading: Moving to visual design
+      description: "<p>Once key journeys are defined and tested, the focus shifts to larger screen formats and visual design. Using brand guidelines and user insights, a consistent visual language is established—resulting in coherent and consistent components and layouts ready for development.</p>"
   block_class: bg-indigo text-buff
   highlight_class: text-teal
   border_class: border-buff
@@ -44,7 +45,7 @@ related_posts:
 
 <div class="section--lg">
 
-{{% split heading="Users first" orientation="left" %}}
+{{% split orientation="left" %}}
 
   ## What is user-centred design?
   
@@ -58,7 +59,7 @@ related_posts:
 
 {{% /split %}}
 
-{{% split heading="Process" orientation="right" %}}
+{{% split orientation="right" %}}
 
 ## User-Centred Design for Digital Projects
 

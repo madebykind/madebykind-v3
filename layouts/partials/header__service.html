@@ -17,7 +17,7 @@
       </ol>
       <h1 class="text-4xl lg:text-5xl 2xl:text-6xl" style="word-break: break-word;">{{ with .Params.Heading }} {{ . | safeHTML }} {{ else }} {{ with .Page.Title }}{{ . | safeHTML }}{{ end }}{{ end }}</h1>
 
-      <p class="lede lg:mt-12 md:w-2/3 lg:w-10/12"> {{ .Params.description }}</p>
+      <p class="lede lg:mt-12 md:w-2/3 lg:w-10/12"> {{ .Params.intro }}</p>
 
     </div>
     <div class="col-span-full lg:col-span-5 lg:min-h-dynamic-screen"></div>

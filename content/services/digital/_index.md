@@ -5,30 +5,30 @@ date: 2020-04-30T17:28:36.948Z
 weight: 3
 title: Digital
 seo_title: Digital services for purpose-driven organisations
+description: Digital for charities and non-profits. We design and build websites and platforms that are strategic, accessible and future-ready.
 layout: primary
 
 # Header
 layer_nav: true
-heading: A digital force for good
-description: Through our collaborative user-centred process, focused on strategy, our digital experts help bring our clients’ purpose to life online.
+heading: Digital that drives purpose
+intro: We design digital experiences that work in the real world. Built with users in mind and strategy at the core, our work is made to last.
 cover_img: images/work-rivers-trust-phone.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
 
 # Process
 process:
   heading: Our digital process
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: Our collaborative, user-centred approach is built on strategy, bringing our clients’ purpose to life online and delivering accessible, usable, and sustainable digital projects that work for everyone and are better for the planet.
+
   items:
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
+    - heading: Understanding organisational strategy
+      description: "<p>We begin by understanding how a brief supports the organisation’s wider goals, reviewing strategic documents and engaging stakeholders to ensure our work aligns with their priorities and gains strong internal support.</p>"
+    - heading: Assessing user needs
+      description: "<p>We identify key audience groups and explore their content needs. We turn these into user stories - simple, goal-focused statements, which are then validated through interviews and user testing.</p>"
+    - heading: Identify focal points
+      description: "<p>Building on strategy and user needs, we identify the user stories that will contribute most toward your organisational goals. We find the “sweet spot” where these align and plan features to meet the most impactful needs first..</p>"
+    - heading: User-centred design process
+      description: "<p>By the time we get to production we’ve aligned everyone’s purpose and priorities, so we employ a User-centred Design approach to build sustainable, effective digital products rooted in our strategic and user-focused insights.</p>"
   illustration:
     img: images/choose-kind.png
     alt: An illustration of a person holding a very large placard. The placard reads 'Choose Kind'.

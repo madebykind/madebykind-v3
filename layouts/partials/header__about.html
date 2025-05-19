@@ -4,7 +4,7 @@
 
 
 <header class="container grid grid-cols-2 gap-5 xl:gap-24 section--lg lg:grid-cols-12 lg:items-start relative z-20 hero--full">
-	<div class="flex flex-col max-w-5xl gap-10 col-span-full lg:col-span-7">
+	<div class="flex flex-col max-w-5xl gap-10 col-span-full lg:max-w-none lg:col-span-8">
 		<h1 class="text-4xl lg:text-5xl 2xl:text-6xl">{{ .Params.Heading|safeHTML }}</h1>
 		{{ with .Params.Intro }}
 			<div class="lg:max-w-[70%] prose cta_prose lg:mb-6">
@@ -14,7 +14,7 @@
 	</div>
 	{{ if isset $image1 "img" }}
 		{{ with $image1 }}
-			<div class="bleed col-span-full lg:col-span-5 lg:ml-0">
+			<div class="bleed col-span-full lg:col-span-4 lg:ml-0">
 				{{ $src := ( .img ) }}
 				{{ $alt := ( .alt ) }}
 				{{ $src := replace $src "images" "https://madebykind.imgix.net" }}

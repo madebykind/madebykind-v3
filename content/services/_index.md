@@ -37,20 +37,18 @@ services:
 # Process
 process:
   heading: How we work
-  description: We have long-term, successful digital partnerships that focus on meeting user needs and delivering on strategic objectives. By spending more time on discovery and analysis before jumping into production we gain a clear understanding of why a brief is necessary and what we need to deliver in order to achieve a successful outcome
+  description: We exist to lift up organisations we believe in. Our passionate, expert team deliver results with real-world expertise for you, your mission, and a better future for everyone.
   items:
-    - heading: Understanding organisational strategy
-      description: "<p>We start by understanding why your brief is important and how it supports the overall strategy of your organisation. This not only involves reading strategy documents but also talking directly to key stakeholders about how they are implementing strategy and how our work will help them to do that better. It’s this clear view of what matters to the wider organisation that helps us to maintain successful relationships and deliver digital work that is well-received and supported by everyone.</p>"
-    - heading: Assessing user needs
-      description: "<p>Our next step is to explore the audiences that will be using the finished product.</p>
-        <p>We do this together, identifying the various audience groups and theorise about their needs and how they want to consume content.</p>
-        <p>These theories about users are then translated into “user stories” - a short description of what a user wants to achieve and why, written from their point of view, before being validated through user testing and interviews.</p>"
-    - heading: Identify focal points
-      description: "<p>As we already understand our clients’ strategy and goals, we can identify and focus on the user stories that will contribute towards these.</p>
-        <p>Even better, we can locate the “sweet spot”, where prevalent user stories align with the organisation’s goals, and plan to focus the majority of our future effort there. We decide on the minimum group of user stories to deliver and begin to plan the features that will meet them.</p>"
-    - heading: User-centred design process
-      description: "<p>By the time we get to production we’ve aligned everyone’s understanding of what we’re delivering and why, so we make to sure we continue this focus throughout the rest of the process.</p>
-        <p>Using the principles of User-centred Design (UCD) helps us to continually focus on our newly discovered sweet spot while constructing the various layers we need to create truly sustainable and durable digital products.</p>"
+    - heading: Discovery and insight
+      description: "<p>We’ll listen to your unique needs, ask the right questions, and understand your goals in depth. Through collaboration, we uncover the challenges and opportunities that shape the direction of your project, whether it’s a brand, strategy, or digital product.</p>"
+    - heading: Strategic foundations
+      description: "<p>Drawing on research and real-world insight, we define a clear plan of action. From brand strategy to sitemaps and user journeys, this is where we lay the groundwork for project success.</p>"
+    - heading: Creative development
+      description: "<p>This is the point where strategy meets creativity. We explore, test and refine ideas to bring your brand, website or solution to life, through prototypes, messaging, or integration planning.</p>"
+    - heading: Design and build
+      description: "<p>Our design approach is collaborative, user-focused, and built for impact. Using a flexible, component-based system, we ensure everything we create is scalable, accessible, and ready for anything the future holds.</p>"
+    - heading: Here to help 
+      description: "<p>From launch and for as long as it takes, we’re ready. We don’t just deliver, we stick around. Offering guidance, updates and support that help your brand continue to grow and thrive.</p>"
   illustration:
     img: images/take-the-reins.png
     alt: A young woman, looking behind her and taking a lead for a walk.

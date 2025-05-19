@@ -4,30 +4,29 @@ date: 2020-04-30T17:28:36.948Z
 weight: 2
 title: Brand
 seo_title: Brand strategy and visual identity for charities and non-profits
+description: Branding for charities and non-profits. We build meaningful, values-led identities that help you connect and stand out.
 layout: primary
 
 # Header
 layer_nav: true
 heading: Branding for charities and non-profits
-description:  Crafting brands that not only stand out but also feel like something you can truly believe in, we ensure they become something you can truly be a part of.
+intro: We create brands people believe in. Built from your values and brought to life with clarity and character, your brand becomes a tool for change, not just a badge.
 cover_img: images/work-chapter-poster-bus-stop-2-landscape.jpg
 cover_img_alt: A single poster mockup for the performance ‘Always Already’. The poster is on a brick wall, a longer perspective view of the street is visible to the right of the image.
 
 # Process
 process:
   heading: Our brand process
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: Our process is built on insight, collaboration and creativity. From understanding your foundations to shaping your voice and look and feel, we help you create a brand that resonates, endures and delivers.
   items:
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
+    - heading: Discovery and insight
+      description: "<p>We begin with an interactive workshop to uncover your brand’s purpose, positioning and potential. Together, we explore your values, audience behaviours, market conditions and competitor landscape, shaping a clear understanding of who you are, what you stand for, and where your brand should be.</p>"
+    - heading: Strategic direction  
+      description: "<p>Using the insights gathered, we define opportunities for your brand to differentiate and grow. We assess existing assets, audit your current positioning, and begin shaping the tone, voice and visual themes that align with your brand ethos and audience expectations.</p>"
+    - heading: Creative development
+      description: "<p>Moodboards, messaging and design concepts bring your brand’s personality to life. We work from the inside out, developing a tone of voice and visual language that reflect your values and support your strategic goals.</p>"
+    - heading: Identity and expression
+      description: "<p>We craft a flexible, consistent brand identity, from logo and typography to colour palette and key messaging. This is delivered through  practical, digital-first brand guidelines designed for clarity and cohesion that will help you to deliver consitency and engagement across every touchpoint.</p>"
   illustration:
     img: images/choose-kind.png
     alt: An illustration of a person holding a very large placard. The placard reads 'Choose Kind'.
