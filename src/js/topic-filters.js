@@ -68,9 +68,13 @@ function Filters(el) {
   clearButton = el.querySelector('[data-topic-filter-clear]');
 
   if (window.location.hash) {
-    const filterName = window.location.hash.replace("#","");
-    const filterElement = document.querySelector(`[data-topic-filter=${filterName}]`);
-    initFilter(filterElement, filterName);
+
+    // Check if element exists
+    if (!document.getElementById(window.location.hash.replace("#",""))){
+      const filterName = window.location.hash.replace("#","");
+      const filterElement = document.querySelector(`[data-topic-filter=${filterName}]`);
+      initFilter(filterElement, filterName);
+    }
   }
 
   filters.forEach(function(item, i) {
