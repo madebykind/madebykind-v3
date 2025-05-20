@@ -31,12 +31,12 @@ intro: >
 # why:
 #   text: 
 #   person: 
-# impact:
-#   text: 
-#   stats:
-#     - 
-#   img: images/.jpg
-#   img_alt: 
+impact:
+  text: Accumulating the data on worldwide cultural heritage funding in one place, has allowed funders to place their contributions where it is needed most and for heritage projects to form collaborative partnerships.
+  stats: 
+    - 800-mil
+  img: images/work-vam-petra-2.jpg
+  img_alt: The dessert around Petra, Jordan
 
 # Header
 banner_type: standard

@@ -22,9 +22,9 @@ related_work:
 heading: Empowering young people using creativity for change
 intro: >
   Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
-# why:
-#   text: 
-#   person:
+why:
+  text: During a long period of intense cuts to arts and culture, education, and community resources for young people, charities like Artswork are needed more than ever to help young people navigate their futures and find positive opportunities.
+  person: michelle
 impact:
   text: Artswork now has a dynamic online presence that better reflects their mission and engages their community. The digital rebrand, refined messaging, and SEO optimisation have made it easier for Artswork to attract new supporters, while the refreshed website provides a seamless experience for users to get involved and make a difference.
   img: images/work-artswork-photo-4.jpg

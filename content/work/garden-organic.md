@@ -22,17 +22,18 @@ intro: Organic gardening can boost the environment and sustainability, and impro
 # why:
 #   text: 
 #   person: 
-# impact:
-#   text: 
-#   stats:
-#     - 
-#   img: images/.jpg
-#   img_alt: 
+impact:
+  text: Improving the usability of the Garden Organic website has allowed them to move their legacy memberships online and prompting for additional donations when placing orders or registering has brought additional revenue to the charity.
+  stats:
+    - 18k
+    - 17k
+  img: images/work-garden-organic-climbers.jpg
+  img_alt: Climbing sweet peas
 
 # Header
 banner_type: standard
 banner_img: images/work-garden-organic-header.jpg
-banner_img_alt: Test image
+banner_img_alt: Carrots held in someone's hand. They are fresh out of the ground, so have soil on them
 banner_icon: garden-organic-logo
 
 # Page nav

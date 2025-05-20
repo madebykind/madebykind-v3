@@ -23,9 +23,9 @@ intro: >
 
 
   Base 51 supports over 1,000 young people annually, providing safe, inclusive spaces with access to counselling, trauma support, and youth clubs – including for LGBTQIA+ and refugee communities. Their academy also offers accredited training in counselling and youth work.
-# why:
-#   text: 
-#   person: 
+why:
+  text: Charities like BASE 51 are incredibly important. Young people living in areas of poverty are often overlooked and, without help, could be at risk of serious issues like substance abuse, lack of education, homelessness, and mental health struggles.
+  person: michelle
 impact:
   text: This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth.
   img: images/work-base51-imagery-1.jpg

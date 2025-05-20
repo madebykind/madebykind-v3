@@ -21,9 +21,9 @@ related_work:
 # Content
 heading: Ensuring a fair deal across the global coffee community
 intro: Understanding there was a deep imbalance and asymmetry in the coffee industry, Algrano’s founders sought to disrupt the monopolised industry structure by using online tools, trusted partnerships, price transparency, and shipping management to put roasters in direct touch with the producers growing coffee at source. 
-# why:
-#   text: 
-#   person: 
+why:
+  text: There is a deep imbalance in the coffee industry and Algrano seeks to disrupt that. Putting roasters in direct contact with the producers growing coffee at source and ensuring fair and equitable business for everyone.
+  person: michelle
 impact:
   text: Algrano's work helps to reset the power imbalance in the coffee industry, connecting producers directly to roasters. Our work has helped them to better tell their story and encourage more independents to join their movement.
   img: images/work-algrano-drinkers.jpg
