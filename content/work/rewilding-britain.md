@@ -100,7 +100,7 @@ footer_heading: "Looking for a new strategic partner?"
 
 {{< figure wrapperclass="section--lg" src="work-rewilding-britain-design-system.jpg" alt="Components of the Rewilding Britain design system" >}}
 
-{{< partnership img="images/work-rewilding-britain-homepage.jpg" alt="A large screen with the Rewilding Britain website homepage displayed on it" >}Rewilding, as a movement in the UK, is gathering momentum and Rewilding Britain have to remain adaptable in order to continue leading it. Our ongoing support with their website helps them to continue driving engagement on all levels and increasing support for rewilding in the UK.{{</ partnership >}}
+{{< partnership img="images/work-rewilding-britain-homepage.jpg" alt="A large screen with the Rewilding Britain website homepage displayed on it" >}}Rewilding, as a movement in the UK, is gathering momentum and Rewilding Britain have to remain adaptable in order to continue leading it. Our ongoing support with their website helps them to continue driving engagement on all levels and increasing support for rewilding in the UK.{{</ partnership >}}
 
 
 

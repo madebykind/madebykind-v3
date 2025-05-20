@@ -21,17 +21,14 @@ intro: >
 
     The Rivers Trust aims to bring together the people, knowledge, data and intelligence to help rivers thrive again; for us and future generations.
 
-
-    A key goal for Rivers Trust is to raise awareness of the poor state of rivers in the UK and to gain support from the general public to rally against the current lack of policies on keeping Britain’s water healthy and sewage free. They needed a clear and engaging website to relay this information clearly and concisely to gain support from groups that otherwise would not have known about the state of the rivers.
-# why:
-#   text: 
-#   person: 
-# impact:
-#   text: 
-#   stats:
-#     - 
-#   img: images/.jpg
-#   img_alt: 
+    By raising awareness of the poor state of rivers in the UK, they rally the public against the lack of policies on keeping Britain’s water healthy and sewage free.
+why:
+  text: Healthy rivers can play a huge part in reducing the effects of climate change, like flooding and drought. The UK's rivers are some of the unhealthiest in the world.
+  person: mat
+impact:
+  text: After the website launch, the Rivers Trust gained a significant amount of interest in its ‘State of the Rivers’ report, sewage map, and website which led to coverage on national TV and press.
+  img: images/work-rivers-trust-river-drone.jpg
+  img_alt: A meandering river photographed from above
 
 
 # Header
@@ -41,7 +38,16 @@ banner_img_alt: A river in the Scottish Higlands
 banner_icon: rt-logo
 
 # Page nav
-toc: false
+toc: true
+toc_replacements:
+  - long: Digital brand implementation
+    short: Brand implementation
+  - long: Member portal
+    short: Member portal
+  - long: Encouraging action
+    short: E-activism
+  - long: Layered content strategy
+    short: Content strategy
 external_link: https://theriverstrust.org
 
 # Teaser content
@@ -82,9 +88,11 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  We took a brand that had been designed by another agency and worked with Rivers Trust to expand it into a digital format that would translate dynamically online.
+  ## Digital brand implementation
 
-  Through a user-centred approach, we reviewed their organisational aims and took time to understand the needs of current and desired users and built a site that was tested with those real users from their key audiences to ensure it met the needs of those groups.
+  We took the Rivers Trust existing brand and worked to expand it into a format that would translate dynamically online.
+
+  Through a user-centred approach, we reviewed their organisational goals and took the time to understand the needs of both current and target users. We then built a website, tested with real users from key audience groups to ensure it met their needs.
 
   </div>
 </div>
@@ -99,7 +107,9 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  The Rivers Trust is an umbrella organisation and has 65 trusts which sit within its network, the website needed to explore the breadth of the networks and offer an area for those member trusts for news, events, and job vacancies.
+  ## Member portal
+
+  The Rivers Trust is an umbrella organisation for the 65 local trusts working on the ground around the UK. The website needed to explore the breadth of the networks and offer an area for those member trusts to promote news, events, and job vacancies.
 
   </div>
 </div>
@@ -110,12 +120,23 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  The website needed to showcase content which was layered for multiple audiences, from top line messaging through to detailed reports. Through thoughtful design and creation of digestible content such as a sewage map showing overflows of raw sewage in the UK. We were able to help the Rivers Trust clearly articulate the huge challenge and threat to UK waters. 
+  ## Encouraging action
 
-  After the website launch, the Rivers Trust gained a significant amount of interest in its ‘State of the Rivers’ report, sewage map, and website which led to coverage on national TV and press.
+  The issue of sewage and pollution in our rivers has become an emotive subject with the British public. To capitalise on this, we designed an "Email Your Representative" feature, pulling data from UK, Ireland and devolved parliaments and encouraging voters to use their voice.
+
+  </div>
+</div>
+
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+
+  ## Layered content strategy
+
+  The website needed to showcase content which was layered for multiple audiences, from top line messaging through to detailed reports. Through thoughtful design and creation of digestible content, such as a sewage map showing overflows of raw sewage in the UK, we helped the Rivers Trust clearly articulate the huge challenge and threat to UK waters.
 
   </div>
 </div>
 
 
-{{< figure wrapperclass="" align="left" src="work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}
+{{< figure wrapperclass="" align="right" src="work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}

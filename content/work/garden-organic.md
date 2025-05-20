@@ -18,10 +18,10 @@ services:
 
 # Content
 heading: Growing organically for a healthy and sustainable world
-intro: Organic gardening can boost the environment and sustainability, and improve health, well-being, and food security. It can build communities and aid connection with nature and what you eat. Through campaigning, advice, community work, and research, their aim is to get everyone growing ‘the organic way’.
-# why:
-#   text: 
-#   person: 
+intro: Through campaigning, advice, community work, conservation and research, Garden Organic help gardeners cultivate a healthier, more biodiverse and sustainable world.
+why:
+  text: British people love gardening, and doing so organically helps connect them with nature and the environment and can lead to improved health, well-being, and food security.
+  person: mat
 impact:
   text: Improving the usability of the Garden Organic website has allowed them to move their legacy memberships online and prompting for additional donations when placing orders or registering has brought additional revenue to the charity.
   stats:
