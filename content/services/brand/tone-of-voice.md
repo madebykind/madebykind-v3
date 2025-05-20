@@ -4,6 +4,9 @@ date: 2020-04-30T17:28:36.948Z
 weight: Defining a crucial brand personality and tone for trust, differentiation, and a deep connection with the target audience.
 title: Tone of voice 
 description: 
+listonly: true
+_build:
+  render: never
 
 # Header
 header_class: bg-sky text-green

@@ -4,6 +4,9 @@ date: 2020-04-30T17:28:36.948Z
 weight: 4
 title: Creative direction
 description: Guiding visual and conceptual elements for a cohesive and memorable brand identity, ensuring consistency for lasting impressions.
+listonly: true
+_build:
+  render: never
 
 # Header
 header_class: bg-sky text-green

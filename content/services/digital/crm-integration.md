@@ -3,6 +3,9 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 7
 title: CRM integration
+listonly: true
+_build:
+  render: never
 description: We regularly integrate with CRM tools from Microsoft Dynamics to ThankQ and Spektrix, reducing our clients’ workload and giving them a joined up picture of their users.
 
 

@@ -26,7 +26,11 @@
       <ul class="font-sans font-medium block columns-2 md:gap-x-10">
         {{ range $index, $e := .Pages }}
           <li class="text-sm lg:text-base py-0.5 md:py-1">
+            {{ if $e.Params.listonly }}
+            <span class="inline-block">{{ title $e.Params.Heading }}</span>
+            {{ else }}
             <a href="{{ $e.Permalink }}" class="a--underline a--underline-yellow">{{ title $e.Params.Heading }}</a>
+            {{ end }}
           </li>
         {{ end }}
       </ul>

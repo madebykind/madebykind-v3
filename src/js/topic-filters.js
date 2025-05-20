@@ -70,7 +70,7 @@ function Filters(el) {
   if (window.location.hash) {
 
     // Check if element exists
-    if (!document.getElementById(window.location.hash.replace("#",""))){
+    if (!document.getElementById(window.location.hash.replace("#",""))) {
       const filterName = window.location.hash.replace("#","");
       const filterElement = document.querySelector(`[data-topic-filter=${filterName}]`);
       initFilter(filterElement, filterName);

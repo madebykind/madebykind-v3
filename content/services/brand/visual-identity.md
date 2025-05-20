@@ -3,6 +3,9 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 5
 title: Visual identity
+listonly: true
+_build:
+  render: never
 description: Design styling for recognition, conveying values, and establishing trust through consistent elements for a strong brand presence.
 
 # Header

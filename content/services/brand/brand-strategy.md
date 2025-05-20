@@ -4,6 +4,9 @@ date: 2020-04-30T17:28:36.948Z
 weight: 1
 title: Brand strategy
 description: Crafting a plan for a distinctive brand by defining vision, values, and manifesto, identifying audiences, and setting clear objectives for loyalty and differentiation.
+listonly: true
+_build:
+  render: never
 
 # Header
 header_class: bg-sky text-green

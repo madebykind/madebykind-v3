@@ -2,6 +2,9 @@
 # Meta
 date: 2020-04-30T17:28:36.948Z
 weight: 1
+listonly: true
+_build:
+  render: never
 title: User research and analysis
 description: Using quantitative and qualitative research methods, we run workshops, online testing and undertake desk-based research to fully understand our partners audiences and to efficiently plan their near and long-term goals. 
 

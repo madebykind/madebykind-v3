@@ -4,6 +4,9 @@ date: 2020-04-30T17:28:36.948Z
 weight: 6
 title: Art direction
 description: Shaping a cohesive visual narrative for enhanced recognition and a consistent, memorable visual identity through photography and motion.
+listonly: true
+_build:
+  render: never
 
 # Header
 header_class: bg-sky text-green

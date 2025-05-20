@@ -2,6 +2,9 @@
 # Meta
 date: 2020-04-30T17:28:36.948Z
 weight: 4
+listonly: true
+_build:
+  render: never
 title: Technical consultancy
 description: Using our experience across multiple digital platforms, CRM’s, CMS’s, Apps and software integration, we are able to help organisations to identify the best solutions for their requirements.
 
