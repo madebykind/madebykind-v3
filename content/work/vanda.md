@@ -27,10 +27,9 @@ intro: >
   The V&A is the world’s leading museum of art and design, housing a permanent collection of over 2.8 million objects, books and archives that span over 5,000 years of human creativity.
 
 
-  The primary V&A website is delivered and maintained in-house, but their digital team does not have the resource to deliver websites for programmes and specific projects. Kind have been appointed to deliver a number of digital design and development projects that fall outside of the remit of the V&A’s digital team.
-# why:
-#   text: 
-#   person: 
+why:
+  text: Culture isn't just about art or design, it's about our history, our communities and our shared experiences. That's why we believe that preserving cultural knowledge and heritage is so important.
+  person: mat
 impact:
   text: Accumulating the data on worldwide cultural heritage funding in one place, has allowed funders to place their contributions where it is needed most and for heritage projects to form collaborative partnerships.
   stats: 
@@ -94,7 +93,6 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   </div>
 </div>
 
-
 <!-- Quote with image  (like workquote but without the logo) -->
 <div class="w-full my-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-center">
 
@@ -120,6 +118,8 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 {{< multi-image
   src_2="images/work-va-cic-closeup.jpg" alt_2="The Culture in Crisis portal shown on a close up of a laptop screen"
   src_3="images/work-va-cic-mobiles.jpg" alt_3="The Culture in Crisis portal shown on multiple mobile screens" >}}
+
+{{< partnership img="images/work-vanda-dundee.jpg" alt="The V&A sign in Dundee" >}}Since 2018, we’ve worked with the V&A to create visual, searchable archives for programmes and specific projects. Capturing important historical moments and artefacts globally.{{</ partnership >}}
 
 
 <!-- Text left -->

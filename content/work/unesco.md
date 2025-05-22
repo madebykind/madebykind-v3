@@ -18,15 +18,13 @@ related_work:
 # Content
 heading: Ensuring access to education for millions of children
 intro: UNESCO, the United Nations Educational, Scientific and Cultural Organisation, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
-# why:
-#   text: 
-#   person: 
-# impact:
-#   text: 
-#   stats:
-#     - 
-#   img: images/.jpg
-#   img_alt: 
+why:
+  text: The impact of education being disrupted by emergencies lasts a lifetime. We believe every child deserves the chance to learn, no matter the circumstances.
+  person: michelle
+impact:
+  text: The platform brought the EiE’s data and insights into one place, allowing UNESCO and it's partner organisations to share vital insights globally and speed up educational recovery in crisis-affected countries.
+  img: images/work-unesco-exam.jpg
+  img_alt: School or university student holding pencil writing on paper answer sheet
 
 # Header
 banner_type: standard

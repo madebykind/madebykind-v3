@@ -26,15 +26,15 @@ intro: >
 
 
   Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
-# why:
-#   text: 
-#   person: 
-# impact:
-#   text: 
-#   stats:
-#     - 
-#   img: images/.jpg
-#   img_alt: 
+why:
+  text: Chapter is a cultural organisation that truly understands the power and importance of the arts. By commisioning exhibitions from diverse artists, hosting a community garden and offering 'pay what you can' pricing, they make art more accessible to all.
+  person: mat
+impact:
+  text: Chapter's identity now better reflects who they are. An inclusive, accessible, multidisciplinary arts organisation serving the local community and international audiences and encouraging patrons to create or engage with thought-provoking work that champions equity, experimentation, and collaboration in the arts.
+  stats:
+    - artfund
+  img: images/work-chapter-jamaicaday.jpg
+  img_alt: Two women dancing outside Chapter
 
 # Header
 banner_type: chapter
@@ -149,6 +149,9 @@ From world-class and emerging talent to the next generation, to our audiences an
   alt_4="Chapter website components" >}}
 
 {{< figure wrapperclass="" alt="Chapter website shown on a laptop screen" src="work-chapter-laptop.jpg" >}}
+
+{{< partnership img="images/work-chapter-exterior.jpg" alt="An exterior photograph of Chapter Arts Centre, showing the community garden" >}}As Chapter continue to thrive we continue to support their digital platforms, ensuring their systems are accessible, secure and have a smooth ticket booking process.{{</ partnership >}}
+
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">

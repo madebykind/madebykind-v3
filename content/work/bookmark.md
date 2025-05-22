@@ -23,12 +23,10 @@ intro: 1 in 4 Children in England cannot read well when they leave primary schoo
 why:
   text: We were inspired by Bookmark's commitment and dedication to making a real change, and wanted their online presence to reflect their important work.
   person: michelle
-# impact:
-#   text: 
-#   stats:
-#     - 
-#   img: images/.jpg
-#   img_alt: 
+impact:
+  text: Bookmark have a professional, engaging and inviting online presence that has helped increase active volunteer numbers, attract corporate partnerships and support their ongoing strategy to raise awareness of poor literacy in the UK. 
+  img: images/work-bookmark-readers.jpg
+  img_alt: A child and a woman read together
 
 # Header
 banner_type: slideshow
@@ -37,8 +35,8 @@ banner_images:
     alt: A child and a woman reading together
   - img: images/work-bookmark-laptop-child.jpg
     alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
-  - img: images/work-bookmark-readers.jpg
-    alt:  A child and a woman read together
+  #- img: images/work-bookmark-readers.jpg
+  #  alt:  A child and a woman read together
 banner_icon: logo-bookmark
 
 # Page nav
