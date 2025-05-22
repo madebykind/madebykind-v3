@@ -20,11 +20,11 @@ impacts:
   - projects/eti
   - projects/henley
   - projects/layered-reality
-  - projects/nest
+#  - projects/nest
   - projects/nottingham-college
   - projects/odi
-  - projects/owsla
-  - projects/trent-park
+#  - projects/owsla
+#  - projects/trent-park
   - projects/tung-auditorium
 layout: work
 hidden: true

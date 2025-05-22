@@ -22,11 +22,9 @@ teaser:
 impact_teaser:
   text: "**Digital partnership** with Nottinghamshire’s largest further education institution "
   images:
-    - img: images/nottingham-college-project-1.png
-      alt: A desktop mockup of the Nottingham College homepage
-    - img: images/nottingham-college-project-2.png
-      alt: Mobile mockups of the Nottingham College website
-    - img: images/nottingham-college-project-3.png
-      alt: A desktop mockup of a course page on the Nottingham College website
+    - img: images/work-nottinghamcollege-mockup.jpg
+      alt: A mobile mockup of the Nottingham College homepage
+    - img: images/work-nottimghamcollege-exterior.jpg
+      alt: Nottingham College
   caption: Nottingham College
 ------

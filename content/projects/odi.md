@@ -12,12 +12,10 @@ teaser:
 impact_teaser:
   text: "**Online guidebook** for developing open data standards"
   images:
-    - img: images/odi-project-1.jpg
-      alt: A desktop mockup of the ODI Open Standards for Data guidebook
-    - img: images/ODI-Project-2.png
-      alt: Mobile mockups of the ODI Open Standards for Data guidebook
-    - img: images/odi-project-3.jpg
-      alt: A desktop mockup of the ODI Patterns Catalogue website
+    - img: images/work-odi-mockup-1.jpg
+      alt: A mobule mockup of the ODI Open Standards for Data guidebook
+    - img: images/work-odi-people.jpg
+      alt: Sir Tim Berners-Lee and Sir Nigel Shadbolt
   caption: The Open Data Institute
 icon: odi-logo
 ---

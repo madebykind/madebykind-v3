@@ -58,10 +58,12 @@ teaser:
       icon: rwb-logo
     - name: Artswork
       icon: logo-artswork
-    - name: Papyrus
-      icon: logo-papyrus
+#    - name: Papyrus
+#      icon: logo-papyrus
     - name: The V&A
       icon: va-logo
+    - name: The Rivers Trust
+      icon: rt-logo
   testimonials:
     - testimonials/rwb-short
     - testimonials/artswork

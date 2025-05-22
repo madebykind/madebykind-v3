@@ -5,11 +5,11 @@ icon: tung-logo
 impact_teaser:
   text: "**Website with ticketing integration** for state-of-the-art concert venue"
   images:
-    - img: images/tung-project-1.jpg
-      alt: A desktop mockup of the Tung Auditorium homepage
-    - img: images/tung-project-2.jpg
-      alt: A desktop mockup of the Tung Auditorium event listing
-    - img: images/tung-project-3.jpg
-      alt: A desktop mockup of the Tung Auditorium homepage
+    - img: images/work-tung-strings.jpg
+      alt: Violinists at the Tung Auditorium
+    - img: images/work-tung-venue.jpg
+      alt: Interior of the Tung Auditorium
+    - img: images/work-tung-singers.jpg
+      alt: Singers at the Tung Auditorium
   caption: The Tung Auditorium
 ---
