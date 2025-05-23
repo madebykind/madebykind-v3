@@ -60,7 +60,7 @@ teaser:
     - name: Nottingham City Council
       icon: logo-nottingham-cc
   testimonials:
-    - testimonials/unesco
+    - testimonials/artswork
     - testimonials/ntu-short
   projects_title: Strategic projects
   projects:

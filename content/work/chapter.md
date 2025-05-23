@@ -27,7 +27,7 @@ intro: >
 
   Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
 why:
-  text: Chapter is a cultural organisation that truly understands the power and importance of the arts. By commisioning exhibitions from diverse artists, hosting a community garden and offering 'pay what you can' pricing, they make art more accessible to all.
+  text: Chapter is a cultural organisation that truly understands the power and importance of the arts. By commissioning exhibitions from diverse artists, hosting a community garden and offering 'pay what you can' pricing, they make art more accessible to all.
   person: mat
 impact:
   text: Chapter's identity now better reflects who they are. An inclusive, accessible, multidisciplinary arts organisation serving the local community and international audiences and encouraging patrons to create or engage with thought-provoking work that champions equity, experimentation, and collaboration in the arts.

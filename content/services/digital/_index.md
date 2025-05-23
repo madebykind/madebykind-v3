@@ -66,7 +66,7 @@ teaser:
       icon: rt-logo
   testimonials:
     - testimonials/rwb-short
-    - testimonials/artswork
+    - testimonials/bookmark
   projects_title: Digital projects
   projects:
     - work/rewilding-britain
