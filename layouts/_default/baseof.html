@@ -76,6 +76,9 @@
 
     <!-- Analytics -->
     {{ if not hugo.IsServer }}
+      <script defer data-domain="madebykind.com" src="https://plausible.io/js/script.hash.tagged-events.js"></script>
+      <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
       <script src="https://getinsights.io/js/insights.js"></script>
       <script>
         insights.init('N96lhlRPan5nwYhX');
