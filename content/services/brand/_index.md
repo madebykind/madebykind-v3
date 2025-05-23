@@ -112,7 +112,7 @@ teaser:
       icon: ahgbi-logo
   testimonials:
     - testimonials/base51
-    - testimonials/unesco
+    #- testimonials/unesco
   projects_title: Brand projects
   projects:
     - work/base51
