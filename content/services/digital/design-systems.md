@@ -4,6 +4,9 @@ date: 2020-04-30T17:28:36.948Z
 weight: 2
 title: Design systems
 description: A design system brings coherence to your brand's designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
+listonly: true
+_build:
+  render: never
 
 # Header
 header_class: bg-sky text-green
