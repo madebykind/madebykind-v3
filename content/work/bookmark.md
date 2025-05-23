@@ -65,7 +65,7 @@ impact_teaser:
       alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
     - img: images/work-bookmark-readers.jpg
       alt:  A child and a woman read together
-  caption: Website and help-centred for children's literacy charity
+  caption: Website and help-centre for children's literacy charity
 
 # @TODO: Remove this once these teasers have been replaced
 teaser:
