@@ -25,7 +25,7 @@ process:
     - heading: Define direction
       description: "<p>Using these insights, we identify your strategic priorities, refining your purpose, positioning and value proposition. Whether it’s brand, digital or organisational strategy, we create a clear framework to guide decision-making and help your team stay aligned and focused.</p>"
     - heading: Plan for action
-      description: "<p>We turn strategy into momentum. You’ll get a clear implementation plan, covering engagement, marketing direction, KPIs and a roadmap that aligns with your internal capacty and skillsets. We can also support rollout and internal communications to help embed the work meaningfully.</p>"
+      description: "<p>We turn strategy into momentum. You’ll get a clear implementation plan, covering engagement, marketing direction, KPIs and a roadmap that aligns with your internal capacity and skillsets. We can also support rollout and internal communications to help embed the work meaningfully.</p>"
     - heading: Embedding and evolving
       description: "<p>Strategy only works when it lives in the day-to-day. We support our clients to embed new thinking, build internal understanding and sustain momentum. And because things change, we build in flexibility, allowing your strategy to adapt, respond and keep delivering value over time.</p>"
   illustration:
