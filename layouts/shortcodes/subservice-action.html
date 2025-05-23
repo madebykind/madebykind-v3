@@ -1,0 +1,19 @@
+<section class="{{ .Get "block_class" }} section--lg">
+  <div class="container grid grid-cols-12">
+    <div class="col-span-full md:col-span-10 lg:col-span-6 flex flex-col items-start gap-4 lg:gap-8">
+      {{ with .Get "heading" }}
+      <h2 class="h--condensed leading-heading text-xl lg:text-2xl">{{ . }}</h2>
+      {{ end }}
+      {{ with .Get "description" }}
+      <p>{{ . }}</p>
+      {{ end }}
+      {{ if .Get "link" }}
+      <a href="{{ .Get "link" }}" class="btn btn--primary">
+        {{ .Get "link_text" }}
+        <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
+          <use xlink:href="#icon-arrow"/>
+        </svg></a>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,47 @@
+{{ $textColourClass := .textColourClass }}
+{{ $projects := (where (where site.Pages "Section" "eq" "work" ) ".Params.sector" "eq" .section ) }}
+ 
+
+<section class="snap-start {{ .bgColourClass }} text-buff pb-10 lg:pb-20 xl:pb-30 md:pt-16 xl:pt-24" id="{{ .section }}">
+  <div class="container relative">
+
+    {{ with .heading }}
+    <h2 class="h--condensed absolute z-20 top-5 md:relative md:top-0 lg:text-3xl leading-heading max-w-5xl mb-16 lg:mb-24 text-sky">{{ . }}</h2>
+    {{ end }}
+
+    {{ range first 1 (where (where site.Pages "Section" "eq" "work" ) ".Params.sector" "eq" .section ) }}
+      <div class="mb-8 lg:mb-40" data-topics="
+                {{- with .Params.services -}}
+                  {{- range . -}}{{ . | anchorize }} {{ end -}}
+                {{- end -}}">
+        {{ partial "teaser__work" ( dict "context" . "size" "large" "labelColourClass" $textColourClass) }}
+      </div>
+    {{ end }}
+    <div class="container lg:no-container lg:bleed">
+      <div class="w-full {{ if ge (len $projects) 4 }} md:overflow-auto {{ else }} md:overflow-hidden {{ end }}  {{ if ge (len $projects) 5 }} lg:overflow-auto {{ else }} lg:overflow-hidden {{ end }}">
+        <ul class="list-none flex flex-col md:flex-row gap-y-8 lg:gap-y-40 -mx-4 md:pr-[4vw] md:pl-[4vw]">
+          {{ range $index, $p := $projects }}
+            {{ $odd := false }}
+            {{ if not (modBool $index 2)}}
+              {{ $odd = true }}
+            {{ end }}
+
+            {{ with . }}
+              {{ if not (eq $index 0) }}
+              <li class="w-full md:w-[45%] lg:w-[32%] shrink-0 md:px-4 " data-topics="
+                {{- with .Params.services -}}
+                  {{- range . -}}{{ . | anchorize }} {{ end -}}
+                {{- end -}}">
+                {{ partial "card_work" (dict
+                  "context" .
+                ) }}
+              </li>
+              {{ end }}
+            {{ end }}
+
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

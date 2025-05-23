@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: How we’re trying to be more green
 card_colour: bg-sky text-green
 date: 2018-10-17T16:09:57.040Z
@@ -12,7 +12,8 @@ description: At Kind we set ourselves up to deliver strategic thinking & digital
   delivery for socially responsible brands. But what does that mean?
 toc: false
 featured: false
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Environment
 intro: At Kind we set ourselves up to deliver strategic thinking & digital

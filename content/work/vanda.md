@@ -1,46 +1,67 @@
 ---
-heading: Working with the world’s leading art and design museum
-title: The V&A - Brand and Digital Case Study - Arts & Culture 
-title: Digital archive design and delivery for The V&A - Kind
-description: Supporting a national museum through delivering online research archives, integrated with hosted search platforms
+# Meta
 date: 2023-05-28T11:49:55.811Z
-cover_img: images/work-va-teaser.jpg
-cover_img_alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
+weight: 4
+title: Digital archive design and delivery for The V&A
+description: Supporting a national museum through delivering online research archives, integrated with hosted search platforms
+sector: for-people
+topics:
+  - services/brand/visual-identity
+  - services/strategy/user-research
+  - services/strategy/technical-consultancy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
+  - services/digital/content-management
+  - services/digital/crm-integration
+services:
+  - brand
+  - digital
+related_work:
+  - work/artswork
+  - work/backlit
+
+# Content
+heading: Working with the world’s leading art and design museum
 intro: >
 
   The V&A is the world’s leading museum of art and design, housing a permanent collection of over 2.8 million objects, books and archives that span over 5,000 years of human creativity.
 
 
-  The primary V&A website is delivered and maintained in-house, but their digital team does not have the resource to deliver websites for programmes and specific projects. Kind have been appointed to deliver a number of digital design and development projects that fall outside of the remit of the V&A’s digital team.
-key_stat:
-  - 800-mil
-topics:
-  - Visual identity
-  - Research and analysis
-  - Technical consultancy
-  - User-centred Design
-  - Design Systems
-  - CMS integration
-  - CRM integration
-  - Digital archives
-block_class: bg-blue text-sky
-cta_class: bg-sky text-blue
-icon: va-logo
-services:
-  - strategy
-  - brand
-  - digital
-related_work:
-  - garden-organic
-  - backlit
-  - jackson-crane
-weight: 4
-toc: true
+why:
+  text: Culture isn't just about art or design, it's about our history, our communities and our shared experiences. That's why we believe that preserving cultural knowledge and heritage is so important.
+  person: mat
+impact:
+  text: Accumulating the data on worldwide cultural heritage funding in one place, has allowed funders to place their contributions where it is needed most and for heritage projects to form collaborative partnerships.
+  stats: 
+    - 800-mil
+  img: images/work-vam-petra-2.jpg
+  img_alt: The dessert around Petra, Jordan
+
+# Header
 banner_type: standard
 banner_img: images/Work-VA-Header-BG.jpg
 banner_img_alt: The Ancient City of Petra, Jordan
 banner_icon: va-logo
-social_img_txt: "Working with the world’s leading art and design museum"
+
+# Page nav
+toc: true
+
+# Teaser content
+cover_img: images/work-va-teaser.jpg
+cover_img_alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
+icon: va-logo
+client: The V&A
+impact_teaser:
+  text: Support internationally acclaimed **cultural organisations**
+  images:
+    - img: images/Work-VA-Header-BG.jpg
+      alt: The Ancient City of Petra, Jordan
+    - img: images/work-va-teaser.jpg
+      alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
+  caption: Digital support for the V&A's research projects
+
+# Footer override
+#footer_heading:
 ---
 
 
@@ -60,16 +81,17 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 
   Kind was commissioned to build a portal to share data on the funding of cultural heritage projects to help add clarity to the decision-making process and better inform future funding allocations.
 
-  <a href="https://cultureincrisis.org" class="font-sans inline-flex gap-2 items-center shrink-0">
-    Launch project
+  <div class="inline-flex gap-2 items-center">
+    <a href="https://cultureincrisis.org" class="font-sans shrink-0">
+      Launch project
+    </a>
     <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
       <use xlink:href="#icon-external"/>
     </svg>
-  </a>
+  </div>
 
   </div>
 </div>
-
 
 <!-- Quote with image  (like workquote but without the logo) -->
 <div class="w-full my-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-center">
@@ -97,6 +119,8 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   src_2="images/work-va-cic-closeup.jpg" alt_2="The Culture in Crisis portal shown on a close up of a laptop screen"
   src_3="images/work-va-cic-mobiles.jpg" alt_3="The Culture in Crisis portal shown on multiple mobile screens" >}}
 
+{{< partnership img="images/work-vanda-dundee.jpg" alt="The V&A sign in Dundee" >}}Since 2018, we’ve worked with the V&A to create visual, searchable archives for programmes and specific projects. Capturing important historical moments and artefacts globally.{{</ partnership >}}
+
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -106,12 +130,14 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 
   Glastonbury Festival is the largest greenfield music and performing arts festival in the world. Glastonbury really sets itself aside from other live events and has become one of the most famous festivals in the world. Because of this, the V&A wanted to capture what has happened at the festival and how it continues to grow over the years.
 
-  <a href="https://www.vam.ac.uk/performing-glastonbury/" class="font-sans inline-flex gap-2 items-center shrink-0">
-    Launch project
+  <div class="inline-flex gap-2 items-center">
+    <a href="https://www.vam.ac.uk/performing-glastonbury/" class="font-sans shrink-0">
+      Launch project
+    </a>
     <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
       <use xlink:href="#icon-external"/>
     </svg>
-  </a>
+  </div>
 
   </div>
 </div>
@@ -155,12 +181,14 @@ Our mission is to be recognised as the world’s leading museum of art, design a
 
   We have been asked to build an online photographic archive for K.A.C Creswell who during his lifetime captured hundreds of images of important architectural sites in the middle east. The V&A is working in collaboration with a host of international universities and museums to bring the collection together for the first time. 
 
-  <!-- <a href="https://cultureincrisis.org" class="font-sans inline-flex gap-2 items-center shrink-0">
-    Launch project
+  <!-- <div class="inline-flex gap-2 items-center">
+    <a href="https://www.vam.ac.uk/performing-glastonbury/" class="font-sans shrink-0">
+      Launch project
+    </a>
     <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
       <use xlink:href="#icon-external"/>
     </svg>
-  </a> -->
+  </div> -->
 
   </div>
 </div>

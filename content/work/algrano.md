@@ -1,29 +1,35 @@
 ---
-heading: Ensuring a fair deal across the global coffee community
-title: Brand delivery for Algrano - Kind
-description: Launching a refreshed identity through animation, video production and tone of voice
-draft: false
+# Meta
 date: 2024-07-25T10:52:34.342Z
-cover_img: images/work-algrano-harvest.jpg
-cover_img_alt: A man empties a harvest of coffee from an orange pallette box into a machine
-intro: Understanding there was a deep imbalance and asymmetry in the coffee industry, Algrano’s founders sought to disrupt the monopolised industry structure by using online tools, trusted partnerships, price transparency, and shipping management to put roasters in direct touch with the producers growing coffee at source.  
-key_stat: null
-summary:
+weight: 5
+title: Brand delivery for Algrano
+description: Launching a refreshed identity through animation, video production and tone of voice
+social_img: images/work-algrano-growers.jpg
+sector: for-people
 topics:
-  - User-centred Design
-  - Copywriting
-  - Brand Strategy
-  - Animation
-icon: algrano-logo
+  - services/digital/user-centred-design
+  - services/brand/tone-of-voice
+  - services/brand/brand-strategy
+  - services/brand/art-direction
 services:
   - brand
   - digital
 related_work:
-  - chapter
-  - vanda
-  - the-rivers-trust
-weight: 5
-impact: Algrano's work helps to reset the power imbalance in the coffee industry, connecting producers directly to roasters. Our work has helped them to better tell their story and encourage more independents to join their movement.
+  - work/chapter
+  - work/artswork
+
+# Content
+heading: Ensuring a fair deal across the global coffee community
+intro: Understanding there was a deep imbalance and asymmetry in the coffee industry, Algrano’s founders sought to disrupt the monopolised industry structure by using online tools, trusted partnerships, price transparency, and shipping management to put roasters in direct touch with the producers growing coffee at source. 
+why:
+  text: There is a deep imbalance in the coffee industry and Algrano seeks to disrupt that. Putting roasters in direct contact with the producers growing coffee at source and ensuring fair and equitable business for everyone.
+  person: michelle
+impact:
+  text: Algrano's work helps to reset the power imbalance in the coffee industry, connecting producers directly to roasters. Our work has helped them to better tell their story and encourage more independents to join their movement.
+  img: images/work-algrano-drinkers.jpg
+  img_alt: Two men drinking coffee outside a blue building
+
+# Header
 banner_type: slideshow
 banner_images: 
   - img: images/work-algrano-drinkers.jpg
@@ -33,6 +39,8 @@ banner_images:
   - img: images/work-algrano-coffee-hands.jpg
     alt: A man holding raw coffee beans in his hands
 banner_icon: algrano-logo
+
+# Page nav
 toc: true
 toc_replacements:
   - long: Bringing a brand to life online
@@ -42,8 +50,25 @@ toc_replacements:
   - long: User-journey creation
   - long: Capturing the heart of Algrano
     short: Engaging digital design
-social_img: images/work-algrano-growers.jpg
-social_img_txt: "Ensuring a fair deal across the global coffee community"
+
+# Teaser content
+cover_img: images/work-algrano-harvest.jpg
+cover_img_alt: A man empties a harvest of coffee from an orange pallette box into a machine
+icon: algrano-logo
+client: Algrano
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# Footer override
+footer_heading: "Want to launch a new brand?"
 ---
 
 {{< workquote logo="algrano-logo" img="images/work-algrano-growers.jpg" alt="A woman and a man inspect a coffee plant">}}

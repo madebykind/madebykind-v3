@@ -2,7 +2,7 @@
 <section class="section">
   <h2>{{ i18n "testimonialsTitle" }}</h2>
   <p class="text-md">{{ i18n "testimonialsDescription" }}</p>
-  <ul class="inline-flex flex-wrap gap-10 list-none" role="list">
+  <ul class="inline-flex flex-wrap gap-10 list-none">
     {{ range first 4 (where site.RegularPages "Section" "testimonials" ) }}
       <li class="max-w-lg">
         <figure>

@@ -1,32 +1,61 @@
 ---
-heading: Bringing focus to a sustainable architecture and interior design practice
-title: Marketing strategy for sustainable architecture practice, Jackson-Crane - Kind
-description: Bringing focus to an award-winning contemporary architecture practice that focuses on sustainability.
-draft: false
+# Meta
 date: 2023-06-28T13:51:18.140Z
-cover_img: images/work-jackson-crane-biophillic-house.jpg
-cover_img_alt: Rendered image of a biophilic house
+weight: 9
+title: Marketing strategy for sustainable architecture practice, Jackson-Crane
+description: Bringing focus to an award-winning contemporary architecture practice that focuses on sustainability.
+sector: for-planet
+topics:
+  - services/brand/visual-identity
+services:
+  - strategy
+related_work:
+  - work/nottingham-trent-university
+  - work/vanda
+
+# Content
+heading: Bringing focus to a sustainable architecture and interior design practice
 intro: Jackson-Crane Architects we founded by David Jackson-Crane in 2017, as a
   small practice he needed help to take his big ideas for his company and
   fashion them into a strategic plan which would help support stability and then
   growth over the next 5 years.
-key_stat: null
-summary: null
-topics:
-  - Research and analysis
-icon: jackson-crane-logo
-services:
-  - strategy
-related_work:
-  - rewilding-britain
-  - garden-organic
-  - vanda
-weight: 9
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt: 
+
+# Header
 banner_type: standard
 banner_img: images/work-jackson-crane-p80-2.jpg
 banner_img_alt: Rendered image of a biophilic house
 banner_icon: jackson-crane-logo
-social_img_txt: "Bringing focus to a sustainable architecture and interior design practice"
+
+# Page nav
+toc: false
+
+# Teaser content
+cover_img: images/work-jackson-crane-biophillic-house.jpg
+cover_img_alt: Rendered image of a biophilic house
+icon: jackson-crane-logo
+client: Jackson-Crane
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# Footer override
+#footer_heading:
 ---
 
 {{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" >}}

@@ -10,7 +10,8 @@ description: Before joining Kind, I worked client-side for almost 12 years in
   partner with the right agency.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 intro: Before joining Kind, I worked client-side for almost 12 years in multiple
   marketing, brand and events positions. During this time I met more agencies
   than I can possibly remember and hired a number of those to support the

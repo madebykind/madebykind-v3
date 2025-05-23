@@ -1,0 +1,22 @@
+
+{{ $src := (.image ) }}
+{{ $alt := ( .image_alt ) }}
+{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+
+{{ with $src }}
+
+  <img
+    alt="{{ $alt }}"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    sizes="(min-width: 64em) 34vw, 100vw"
+    src="{{ (printf "%s?w=320&ar=1:1&fit=crop&auto=format" .) }}"
+    srcset="
+    {{ (printf "%s?w=320&ar=1:1&fit=crop&auto=format" .) }} 320w,
+    {{ (printf "%s?w=480&ar=4:3&fit=crop&auto=format" .) }} 480w,
+    {{ (printf "%s?w=640&ar=4:3&fit=crop&auto=format" .) }} 640w,
+    {{ (printf "%s?w=960&ar=16:9&fit=crop&auto=format" .) }} 960w,
+    {{ (printf "%s?w=1280&ar=1:1&fit=crop&auto=format" .) }} 1280w,
+    {{ (printf "%s?w=1440&ar=1:1&fit=crop&auto=format" .) }} 1440w"
+  >
+{{ end }}

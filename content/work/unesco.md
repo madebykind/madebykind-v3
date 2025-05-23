@@ -1,38 +1,56 @@
 ---
-draft: false
-featured: true
-heading: Ensuring access to education for millions of children
+# Meta
+date: 2023-06-28T12:26:29.707Z
+weight: 2
 title: User-centred discovery and digital knowledge base for UNESCO
 description: A global user-centred design process that led to the delivery of a digital repository of resources to ensure education in emergencies
-date: 2023-06-28T12:26:29.707Z
-cover_img: images/work-unesco-refugees.jpg
-cover_img_alt: Three child refugees in a tent Kabul
-intro: UNESCO, the United Nations Educational, Scientific and Cultural Organisation, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
-key_stat: null
+sector: for-people
 topics:
-  - Illustration
-  - Research and analysis
-  - User-centred Design
-block_class: bg-blue text-sky
-cta_class: bg-sky text-blue
-external_link: 
-icon: unesco-logo
-teaser_text: A global user-centred design process
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
 services:
   - brand
   - digital
 related_work:
-  - chapter
-  - rewilding-britain
-  - jackson-crane
-weight: 2
-key_stat:
-  - 224-unesco
+  - work/chapter
+  - work/rewilding-britain
+
+# Content
+heading: Ensuring access to education for millions of children
+intro: UNESCO, the United Nations Educational, Scientific and Cultural Organisation, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
+why:
+  text: The impact of education being disrupted by emergencies lasts a lifetime. We believe every child deserves the chance to learn, no matter the circumstances.
+  person: michelle
+impact:
+  text: The platform brought the EiE’s data and insights into one place, allowing UNESCO and it's partner organisations to share vital insights globally and speed up educational recovery in crisis-affected countries.
+  img: images/work-unesco-exam.jpg
+  img_alt: School or university student holding pencil writing on paper answer sheet
+
+# Header
 banner_type: standard
 banner_icon: unesco-logo
 banner_img: images/work-unesco-school.jpg
 banner_img_alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera
+
+# Page nav
 toc: true
+
+# Teaser content
+cover_img: images/work-unesco-refugees.jpg
+cover_img_alt: Three child refugees in a tent Kabul
+icon: unesco-logo
+client: UNESCO
+impact_teaser:
+  text: Improve **access to education** for over 200m children
+  images:
+    - img: images/work-unesco-school.jpg
+      alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera
+    - img: images/work-unesco-refugees.jpg
+      alt: Three child refugees in a tent Kabul
+  caption: Global user-centred design process and knowlege base
+
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Ensuring access to education for millions of children
   description: A global user-centred design process that resulted in the delivery of a digital report and knowledge base to support governments in strengthening the systems that provide education, in preparation for emergencies such as conflict or natural disaster
@@ -46,7 +64,9 @@ teaser:
         - 224-unesco
     - img: images/work-unesco-internal-page.jpg
       alt: A tablet device with a page from the Digital PDF report
-social_img_txt: "Ensuring access to education for millions of children"
+
+# Footer override
+#footer_heading:
 ---
 
 <!-- Text left -->

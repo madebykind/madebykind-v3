@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Why continuing to use live streaming post-lockdown could be positive for events
 card_colour: bg-sky text-green
 date: 2021-04-29T14:21:29.816Z
@@ -12,7 +12,8 @@ description: We’ve been thinking about what the future looks like for live
   is no. Here's why…
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Arts & Culture
 intro: In the past year, we saw venues close and live streaming become a more

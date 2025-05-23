@@ -1,40 +1,65 @@
 ---
-topics:
-  - Brand strategy
-  - Visual identity
-  - Research and analysis
-  - User-centred Design
-  - CMS integration
-  - Ticketing journey
-related_work:
-  - backlit
-  - vanda
-  - rewilding-britain
-heading: Brand development of an international arts centre
-title: Brand and website for Cardiff-based art centre, Chapter - Kind
+# Meta
+date: 2023-06-28T12:25:28.863Z
+weight: 3
+title: Brand and website for Cardiff-based art centre, Chapter
 description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
-cover_img: images/strategy-notes.jpg
-cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
-block_class: bg-pink text-claret
-cta_class: bg-claret text-pink
+sector: for-people
+topics:
+  - services/brand/brand-strategy
+  - services/brand/visual-identity
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
+services:
+  - brand
+  - digital
+related_work:
+  - work/backlit
+  - work/vanda
+
+# Content
+heading: Brand development of an international arts centre
 intro: >
 
   Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.
 
 
   Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
-featured: true
-date: 2023-06-28T12:25:28.863Z
-external_link: https://chapter.org.uk
-key_stat: null
-weight: 3
-icon: chapter-logo
-teaser_text: Repositioning a historic community force
-services:
-  - brand
-  - digital
+why:
+  text: Chapter is a cultural organisation that truly understands the power and importance of the arts. By commissioning exhibitions from diverse artists, hosting a community garden and offering 'pay what you can' pricing, they make art more accessible to all.
+  person: mat
+impact:
+  text: Chapter's identity now better reflects who they are. An inclusive, accessible, multidisciplinary arts organisation serving the local community and international audiences and encouraging patrons to create or engage with thought-provoking work that champions equity, experimentation, and collaboration in the arts.
+  stats:
+    - artfund
+  img: images/work-chapter-jamaicaday.jpg
+  img_alt: Two women dancing outside Chapter
+
+# Header
 banner_type: chapter
+
+# Page nav
 toc: true
+external_link: https://chapter.org.uk
+
+# Teaser content
+cover_img: images/strategy-notes.jpg
+cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
+icon: chapter-logo
+client: Chapter
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Brand development of an international arts centre
   description: Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level.
@@ -49,7 +74,9 @@ teaser:
       alt: A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.
     - img: images/work-chapter-poster-underground.jpg
       alt: A single poster mockup for the performance 'Dani Dinger - No Sense of Watching'. The poster is in a subway.
-social_img_txt: "Brand development of an international arts centre"
+      
+# Footer override
+#footer_heading:
 ---
 
 
@@ -122,6 +149,9 @@ From world-class and emerging talent to the next generation, to our audiences an
   alt_4="Chapter website components" >}}
 
 {{< figure wrapperclass="" alt="Chapter website shown on a laptop screen" src="work-chapter-laptop.jpg" >}}
+
+{{< partnership img="images/work-chapter-exterior.jpg" alt="An exterior photograph of Chapter Arts Centre, showing the community garden" >}}As Chapter continue to thrive we continue to support their digital platforms, ensuring their systems are accessible, secure and have a smooth ticket booking process.{{</ partnership >}}
+
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">

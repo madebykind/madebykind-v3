@@ -1,30 +1,38 @@
 ---
-heading: Creating an inclusive and safe brand to support young people
-title: Brand identity for youth charity, Base 51 - Kind
-description: An engaging and playful brand identity for a long-serving youth charity in Nottingham
-draft: false
+# Meta
 date: 2025-03-14T10:52:34.342Z
-cover_img: images/work-base51-imagery-1.jpg
-cover_img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
+weight: 1
+title: Brand identity for youth charity, Base 51
+description: An engaging and playful brand identity for a long-serving youth charity in Nottingham
+social_img: images/work-base51-imagery-1.jpg
+sector: for-people
+topics:
+  - services/brand/brand-strategy
+  - services/brand/visual-identity
+services:
+  - brand
+related_work:
+  - work/artswork
+  - work/bookmark
+
+
+# Content
+heading: Creating an inclusive and safe brand to support young people
 intro: >
   Nottingham is the worst place in the UK to be young, with 17,500 children living in poverty and the crisis worsening due to rising living costs and council funding cuts.
 
 
   Base 51 supports over 1,000 young people annually, providing safe, inclusive spaces with access to counselling, trauma support, and youth clubs – including for LGBTQIA+ and refugee communities. Their academy also offers accredited training in counselling and youth work.
-summary:
-topics:
-  - Brand strategy
-  - Visual identity
-icon: logo-base51
-services:
-  - brand
-related_work:
-  - chapter
-  - artswork
-  - bookmark
-weight: 1
-toc: true
-impact: "This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth."
+why:
+  text: Charities like BASE 51 are incredibly important. Young people living in areas of poverty are often overlooked and, without help, could be at risk of serious issues like substance abuse, lack of education, homelessness, and mental health struggles.
+  person: michelle
+impact:
+  text: This refreshed visual identity ensures Base 51 remains a trusted, relevant, and engaging charity, helping them stand out, maintain funding, and continue their vital work for Nottingham’s youth.
+  img: images/work-base51-imagery-1.jpg
+  img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
+
+
+# Header
 banner_type: base51
 banner_images:
   - img: images/work-base51-logo-1.png
@@ -37,6 +45,9 @@ banner_images:
     alt: Base 51 Logo
   - img: images/work-base51-logo-5.png
     alt: Base 51 Logo
+
+# Page nav
+toc: true
 toc_replacements:
   - long: Rebranding a 30 year old youth charity
     short: Brand strategy
@@ -50,8 +61,25 @@ toc_replacements:
     short: Logo design
   - long: Revamping social media
     short: Social media design
-social_img: images/work-base51-imagery-1.jpg
-social_img_txt: "Creating an inclusive and safe brand to support young people"
+
+# Teaser content
+cover_img: images/work-base51-imagery-1.jpg
+cover_img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
+icon: logo-base51
+client: Base 51
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# Footer override
+#footer_heading:
 ---
 
 {{< workquote logo="logo-base51" img="images/work-base51-imagery-3.jpg" alt="Two young women look at each other. They appear to be at an outdoor festival, with the sun setting in the distance. They are smiling">}}
@@ -203,4 +231,4 @@ A safe place where change begins.
 
 
 
-{{< blockquote author="Verity Woods" role="Head of Fundraising and Events, Base 51" wrapperclass="section--lg" align="left">}}The new branding will allow us to better connect with 11-25 year olds and to inform them of our life-changing services in a more engaging format. Kind took into account all the opinions/thoughts and created something that sums up our brand and gives us a up-to-date look.{{</ blockquote >}}
+{{< blockquote author="Verity Woods" role="Head of Fundraising and Events, Base 51" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}The new branding will allow us to better connect with 11-25 year olds and to inform them of our life-changing services in a more engaging format. Kind took into account all the opinions/thoughts and created something that sums up our brand and gives us a up-to-date look.{{</ blockquote >}}

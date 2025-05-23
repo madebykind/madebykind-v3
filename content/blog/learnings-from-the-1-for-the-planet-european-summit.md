@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Learnings from the 1% For The Planet European Summit
 card_colour: bg-pink text-blue
 date: 2018-11-20T17:07:21.304Z
@@ -10,7 +10,8 @@ description: Last week Kind travelled to the Netherlands to attend 1% For The
 toc: false
 featured: false
 summary: ""
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Environment
 intro: Last week Kind travelled to the Netherlands to attend 1% For The Planet’s
