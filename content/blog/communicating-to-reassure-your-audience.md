@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Communicating to reassure your audience
 card_colour: bg-teal text-blue
 date: 2021-03-31T14:43:06.833Z
@@ -9,7 +9,8 @@ description: Our recent survey raised some unsurprising but interesting views on
   what and how people wanted to be communicated with.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Arts & Culture
 intro: It has always been important to communicate clearly and effectively to

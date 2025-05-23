@@ -1,0 +1,40 @@
+{{ with .Params.sectors }}
+<section class="flex snap-start min-h-dynamic-screen">
+  <h2 class="sr-only">Our impact</h2>
+  <ul class="w-full grid gap-0 list-none lg:grid-cols-2">
+    {{ range . }}
+      <li class="overflow-hidden text-white">
+        <a aria-labelledby="{{ .title | anchorize }}" class="relative group block h-full w-full" href="/work/#{{ .title | anchorize }}" onclick="javascript:insights.track({id: 'home-sector-{{ .title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+
+          <div class="w-full h-full lg:saturate-[.80] transition-all duration-300 lg:group-hover:saturate-100 lg:group-hover:scale-110 lg:group-focus:saturate-100 group-focus:scale-110">
+            {{ partial "image__sector" . }}
+          </div>
+
+          <div class="absolute z-20 inset-0 flex flex-col gap-2 items-center text-center justify-end pb-4">
+            {{ if .illustration }}
+              {{ $src := ( .illustration ) }}
+              {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+              <picture class="w-10 lg:w-28">
+                <img 
+                  alt="{{ .illustration_alt }}" 
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  sizes="(min-width: 100em) 100vw"
+                  src="{{ (printf "%s?w=40&auto=format" .) }}" 
+                  srcset="
+                {{ (printf "%s?w=40&auto=format" $src) }} 320w,
+                {{ (printf "%s?w=112&auto=format" $src) }} 768w"
+                >
+              </picture>
+            {{ end }}
+            <h3 class="h--condensed text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink" id="{{ .title | anchorize }}">{{ .title }}</h3>
+            <svg class="w-16 h-16 flex-no-shrink transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </div>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

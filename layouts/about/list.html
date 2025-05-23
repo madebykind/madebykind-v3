@@ -1,180 +1,297 @@
 {{ define "main" }}
-{{ $section := .Site.GetPage "section" .Section }}
 <article>
   {{ partial "header__about.html" . }}
-  <section class="flex flex-col justify-center min-h-dynamic-screen section--lg bg-indigo text-buff">
-    <div class="container grid content-center gap-10 xl:grid-cols-3">
-      <div class="grid gap-10 xl:col-span-2">
-        <h2 class="h1">We give a damn</h2>
-        <div class="max-w-5xl prose lede cta_prose">
-          <p>We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.</p>
-          <p>We understand that we can’t save the world with a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</p>
-        </div>
-      </div>
-      <div class="flex flex-wrap items-center gap-10 xl:gap-20 xl:justify-center">
-        <svg class="w-24 h-32 xl:w-36 xl:h-48 flex-no-shrink" role="presentation">
-          <use xlink:href="#icon-bcorp"/>
-        </svg>
-        <svg class="w-48 h-24 xl:h-32 xl:w-72 flex-no-shrink" role="presentation">
-          <use xlink:href="#icon-1fortheplanet"/>
-        </svg>
-      </div>
-      <div>
-        <a class="btn bg-buff text-indigo hover:bg-pink hover:text-blue focus:bg-pink focus:text-blue" href="/about/our-impact/" onclick="javascript:insights.track({id: 'about-impact',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-          Our impact
-          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
-  <section class="overflow-hidden bg-teal text-blue">
-    <div class="container grid grid-cols-2 gap-10">
-      <div class="grid gap-10 pt-10 xl:col-span-1 col-span-full lg:pt-20 xl:py-30">
-        <h2 class="h1">Partnerships that deliver real impact</h2>
-        <div class="max-w-5xl prose lede cta_prose">
-          <p>Our client base is 100% socially responsible and purpose-driven. By using our skills and insights, we empower and lift up these organisations. A force for good behind the scenes.</p>
-        </div>
-      </div>
-      {{ with .Params.related_work }}
-        <div class="xl:col-span-1 col-span-full bleed xl:ml-0">
-          {{ range . }}
-            {{ with site.GetPage . }}
-              <a class="block no-underline group xl:flex xl:flex-col xl:h-full" href="{{ .Permalink }}" onclick="javascript:insights.track({id: 'impact-project',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-                <div class="relative xl:flex-grow">
-                  {{ if isset .Params "impact_img" }}
-                    {{ partial "image__impact-project" . }}
-                  {{ end }}
-                  <div class="absolute z-10 text-buff bottom-10 left-10">
-                    <article>
-                      <h3 class="h1">149<span class="text-3xl lg:text-4xl">%</span></h3>
-                      <p class="mt-5">Increase in donations<br>for Rewilding Britain</p>
-                    </article>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between px-10 py-5 transition-all duration-500 ease-in-out bg-sky text-green group-hover:bg-green group-hover:text-sky">
-                  <p>
-                    Read the <span class="sr-only">{{ .Params.client }}</span> case study
-                  </p>
-                  <svg class="w-8 h-3 flex-no-shrink" role="presentation">
-                    <use xlink:href="#icon-arrow"/>
-                  </svg>
-                </div>
-              </a>
-            {{ end }}
+
+
+  {{/* STATS BLOCK */}}
+  {{ with .Params.stat_block }}
+  <section class="bg-teal text-blue relative lg:-top-4 xl:-top-12 lg:-mb-4 xl:-mb-12">
+    <div class="container flex flex-col gap-5 py-8 lg:grid lg:grid-cols-12 lg:items-center lg:gap-6 xl:gap-16 lg:pb-16 lg:pt-32 lg:-mt-24 xl:-mt-48">
+
+      {{ if isset . "img" }}
+        <div class="col-span-full lg:col-span-4">
+          {{ $src := ( .img ) }}
+          {{ $alt := ( .alt ) }}
+          {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+
+          {{ with $src }}
+            <picture>
+              <img 
+                alt="{{ $alt }}" 
+                class="w-full h-full object-cover"
+                loading="eager"
+                sizes="(min-width: 100em) 33vw, 96vw"
+                src="{{ (printf "%s?w=320&ar=4:3&fit=crop&crop=faces&auto=format" .) }}" 
+                srcset="
+              {{ (printf "%s?w=320&ar=4:3&fit=crop&crop=faces&auto=format" .) }} 320w,
+              {{ (printf "%s?w=480&ar=4:3&fit=crop&crop=faces&auto=format" .) }} 480w,
+              {{ (printf "%s?w=640&ar=4:3&fit=crop&crop=faces&auto=format" .) }} 640w,
+              {{ (printf "%s?w=768&ar=4:5&fit=crop&crop=faces&auto=format" .) }} 768w,
+              {{ (printf "%s?w=1280&ar=4:5&fit=crop&crop=faces&auto=format" .) }} 1280w"
+              >
+            </picture>
           {{ end }}
         </div>
       {{ end }}
+      <div class="col-span-full lg:col-span-7 lg:col-start-6 flex flex-col gap-8 xl:gap-16 lg:pb-6">
+        <div class="flex flex-col gap-2">
+          {{ with .heading }}
+            <h2 class="h--condensed text-md lg:text-lg mb-2">{{ . }}</h2>
+          {{ end }}
+          {{ with .description }}
+            <p class="leading-tight text-sm md:text-base">{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ if ge ( .stats | len ) 1 }}
+        <ul class="grid grid-cols-2 gap-2 sm:flex sm:gap-4">
+          {{ range .stats }}
+            {{ with site.GetPage .}}
+              <li class="">
+                <article>
+                  <h4 class="h--condensed text-4xl">
+                    {{ if .Params.prefix }}<span class="text-3xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-3xl">{{ .Params.suffix }}</span>{{ end }}
+                  </h4>
+                  <div class="mt-2 text-sm">{{ .Content|safeHTML }}</div>
+                </article>
+              </li>
+            {{ end }}
+          {{ end }}
+
+        </ul>
+        {{ end }}
+        <div class="flex flex-col gap-8 xl:gap-16 sm:flex-row sm:justify-between">
+          <div class="flex justify-center gap-8 xl:gap-16 items-center sm:justify-start">
+            <svg class="w-16 h-20 lg:w-24 lg:h-30 2xl:w-30 2xl:h-36 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-bcorp"/>
+            </svg>
+            <svg class="w-32 h-12 lg:w-48 lg:h-16 2xl:w-60 2xl:h-20 flex-no-shrink mb-2" role="presentation">
+              <use xlink:href="#icon-1fortheplanet"/>
+            </svg>
+          </div>
+          {{ with .cta }}
+            <a class="btn bg-blue text-sky hover:bg-pink hover:text-indigo focus:bg-pink focus:text-indigo self-center sm:self-end" href="{{ .url }}" onclick="javascript:insights.track({id: 'about-stats-cta',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+              {{ .text }}
+              <svg class="w-8 h-8 flex-no-shrink" role="presentation">
+                <use xlink:href="#icon-arrow"/>
+              </svg>
+            </a>
+          {{ end }}
+        </div>
+      </div>
     </div>
   </section>
-  <section class="relative section" id="team">
-    <div class="container grid gap-10">
-      <h2 class="text-xl h--condensed">Our team of experts</h2>
-      <ul class="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 xl:gap-32">
-        {{ range sort $.Site.Data.authors "weight" }}
-          {{ if  ne .unlisted true }}
-            <li id="toggle-{{ .name | anchorize }}">
-              <article itemscope itemtype="http://schema.org/Person">
-                <button type="button" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" aria-controls="team-{{ .name | anchorize }}" data-toggle-set-scroll class="text-left" onclick="javascript:insights.track({id: 'team--topn-{{ .name | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+  {{ end }}
+
+  {{/* MANIFESTO */}}
+  <section class="flex flex-col justify-center section--lg bg-indigo text-buff" id="manifesto">
+    <div class="container grid grid-cols-4 gap-8 lg:grid-cols-12 lg:items-center lg:gap-y-16 xl:gap-y-24">
+      <div class="flex flex-col gap-4 col-span-full lg:col-span-8 lg:order-1">
+        <h3 class="text-teal h--condensed text-lg">Our manifesto</h3>
+        <h2 class="text-4xl leading-heading h--condensed">Well-worn paths are never going to lead to a better world.</h2>
+        <div class="prose mt-4">
+          <p>That’s why we go our own way. We’re a small but powerful team of carefully selected senior professionals. People whose work packs a real punch.</p>
+          <p>Our work delivers faster, bigger, more effective results for our clients’ causes – in the charity sector, sustainability, research, the environment, and the arts.</p>
+        </div>
+      </div>
+
+      <figure class="col-span-3 md:col-span-2 col-start-2 lg:col-span-4 lg:order-2 lg:col-start-9 lg:pl-6 lg:max-w-xl">
+        <blockquote class="p-0 border-0">
+          <p class="text-teal text-base lg:text-md">&ldquo;Doing the right thing isn’t easy, but when we started Kind, we decided it was the only way we wanted to do business.&rdquo;</p>    
+        </blockquote>
+        <figcaption class="mt-5 font-serif text-sm leading-tight flex flex-wrap gap-2 items-center">
+          {{ $author := .Site.Data.authors.mat }}
+          {{ $src := printf "https://madebykind.imgix.net/%s" $author.headshot }}
+
+          {{ with $src }}
+
+            <img
+              alt="{{ $author.name }}"
+              class="inline-block object-cover object-center w-12 h-12 rounded-full"
+              height="180"
+              loading=lazy
+              sizes="(min-width: 62em) 180px, 120px"
+              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }}"
+              srcset="
+              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=format" .) }} 120w,
+              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }} 180w,"
+              width="180"
+            >
+          {{ end }}
+          <div>
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="font-bold" itemprop="name">{{ $author.name }}</span>
+            </div>
+            <div itemprop="jobTitle">{{ $author.role }}</div>
+          </div>
+        </figcaption>
+      </figure>
+
+      <div class="flex flex-col gap-4 col-span-full lg:col-span-8 lg:order-4">
+        <h2 class="text-4xl leading-heading h--condensed">Let’s be clear—we’re not for everyone</h2>
+        <div class="prose mt-4">
+          <p>All our clients must have a mission that comes before profit. Using our skills and insights, we empower and lift up these organisations, acting as a force for good behind the scenes.</p>
+          <p>We understand that we can’t save the world with a brand, a strategy or a website. But we do believe that when we all pull together, there’s no limit to what we can achieve.</p>
+        </div>
+      </div>
 
 
-                  <img  
-                    alt="{{ .name }}" 
-                    loading=lazy
-                    sizes="
-                      (min-width: 64em) 30vw,
-                      (min-width: 48em) 48vw,
-                      100vw" 
-                    src="{{ (printf "https://madebykind.imgix.net/%s?w=320&auto=format" .image) }}" 
-                    srcset="
-                      {{ (printf "https://madebykind.imgix.net/%s?w=320&auto=format" .image) }} 320w,
-                      {{ (printf "https://madebykind.imgix.net/%s?w=480&auto=format" .image) }} 480w,
-                      {{ (printf "https://madebykind.imgix.net/%s?w=680&auto=format" .image) }} 680w,
-                      {{ (printf "https://madebykind.imgix.net/%s?w=920&auto=format" .image) }} 920w"
-                    height="1091"
-                    width="726"
-                  >
-                  <span class="flex items-center justify-between gap-5 mt-5">
-                    <span class="block font-serif font-bold normal-case h3" itemprop="author">{{ .name }}</span>
-                    <svg class="self-end w-12 h-6 flex-no-shrink" role="presentation">
-                      <use xlink:href="#icon-arrow"/>
-                    </svg>
-                  </span>
-                  <span class="block my-5 mt-2 h--condensed">{{ .role }}</span>
-                </button>
-                <div class="z-20 flex flex-col w-screen min-h-dynamic-screen team-member bg-indigo text-buff lg:gap-10 lg:flex-row lg:items-center" id="team-{{ .name | anchorize }}">
-                  <button aria-label="Learn more about {{ .name }}" type="button" class="absolute top-5 right-5 lg:top-10 lg:right-10" data-toggle-class="active" data-toggle-fixed data-target="#team-{{ .name | anchorize }}" data-toggle-reset-scroll aria-controls="team-{{ .name | anchorize }}">
-                    <svg class="self-end w-16 h-8 rotate-180 lg:w-24 lg:h-12 flex-no-shrink text-yellow" role="presentation">
-                      <use xlink:href="#icon-arrow"/>
-                    </svg>
-                  </button>
-                  <div class="w-full lg:w-5/12 grow-0 h-[50vh] lg:h-auto">
-                    <img  
-                      alt="{{ .name }}" 
-                      loading=lazy
-                      sizes="
-                        (min-width: 64em) 42vw,
-                        100vw" 
-                      src="{{ (printf "https://madebykind.imgix.net/%s?w=320&auto=format" .image) }}" 
-                      srcset="
-                        {{ (printf "https://madebykind.imgix.net/%s?w=320&auto=format" .image) }} 320w,
-                        {{ (printf "https://madebykind.imgix.net/%s?w=480&auto=format" .image) }} 480w,
-                        {{ (printf "https://madebykind.imgix.net/%s?w=680&auto=format" .image) }} 680w,
-                        {{ (printf "https://madebykind.imgix.net/%s?w=920&auto=format" .image) }} 920w"
-                      height="1091"
-                      width="726"
-                    >
-                  </div>
-                  <div class="w-full lg:w-7/12 grow-0 grid grid-cols-1 gap-10 p-5 h-[50vh] lg:h-auto lg:max-h-screen overflow-auto">
-                    <div>
-                      <h3 class="font-serif text-lg font-bold normal-case">{{ .name }}</h3>
-                      <p class="my-5 mt-2 h--condensed text-md">{{ .role }}</p>
-                    </div>
-                    <nav class="font-sans text-base font-bold" aria-label="Social links for {{ .name }}">
-                      <ul class="flex flex-wrap overflow-hidden gap-x-5" role="list">
-                        {{ with .email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
-                        {{ with .social.linkedin }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://www.linkedin.com/in/{{ . }}">Linkedin</a></li>{{ end }}
-                        {{ with .social.instagram }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://www.instagram.com/{{ . }}/">Instagram</a></li>{{ end }}
-                        {{ with .social.facebook }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://facebook.com/{{ . }}">Facebook</a></li>{{ end }}
-                        {{ with .social.github }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://github.com/{{ . }}">Github</a></li>{{ end }}
-                        {{ with .social.twitter }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://twitter.com/{{ . }}">Twitter</a></li>{{ end }}
-                        {{ with .social.threads }}<li class="relative before:content-['/'] before:-left-3 before:absolute"><a href="https://threads.net/{{ . }}">Threads</a></li>{{ end }}
-                      </ul>
-                    </nav>  
-                    {{ with .related_posts }}
-                      <div class="xl:pt-12">
-                        <h4 class="mb-2">Insights</h4>
-                        <ul class="list-none">
-                        {{ range . }}
-                          {{ with site.GetPage . }}
-                          <li class="mb-2 font-sans">
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                          </li>
-                          {{ end }}
-                        {{ end }}
-                        </ul>
-                      </div>
-                    {{ end }}
-                    
-                    {{ with .cares }}
-                      <div class="xl:pt-12">
-                        <h4 class="mb-2">What I care about</h4>
-                        <p class="font-sans">
-                        {{ range . }}
-                          {{ . }}<span class="last:hidden">, </span>
-                        {{ end }}
-                        </p>
-                      </div>
-                    {{ end }}
-                  </div>
+      <figure class="col-span-3 md:col-span-2 col-start-2 lg:col-span-4 lg:order-2 lg:col-start-1 lg:pr-6 lg:max-w-xl">
+        <blockquote class="p-0 border-0">
+          <p class="text-teal text-base lg:text-md">&ldquo;Five years ago, I chose to join a creative agency that put ‘doing good’ at the heart of everything it set out to do.&rdquo;</p>    
+        </blockquote>
+        <figcaption class="mt-5 font-serif text-sm leading-tight flex flex-wrap gap-2 items-center">
+          {{ $author := .Site.Data.authors.michelle }}
+          {{ $src := printf "https://madebykind.imgix.net/%s" $author.headshot }}
+
+          {{ with $src }}
+
+            <img
+              alt="{{ $author.name }}"
+              class="inline-block object-cover object-center w-12 h-12 rounded-full"
+              height="180"
+              loading=lazy
+              sizes="(min-width: 62em) 180px, 120px"
+              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }}"
+              srcset="
+              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=format" .) }} 120w,
+              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }} 180w,"
+              width="180"
+            >
+          {{ end }}
+          <div>
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="font-bold" itemprop="name">{{ $author.name }}</span>
+            </div>
+            <div itemprop="jobTitle">{{ $author.role }}</div>
+          </div>
+        </figcaption>
+      </figure>
+
+
+    </div>
+  </section>
+
+  {{/* TEAM */}}
+  <section class="relative section--lg container lg:grid lg:grid-cols-12 lg:gap-8" id="team">
+    <div class="flex flex-col gap-4 mb-8 lg:mb-0 lg:col-span-5">
+      <h2 class="h--condensed text-2xl">A small team with bags of experience</h2>
+      <p>Small allows us to be selective about who we work with, to be flexible and adaptable to our clients' and their cause, and to form long-lasting relationships built on strategy, creativity and positive impact.</p>
+    </div>
+    <div class="overflow-auto bleed-right lg:bleed-none lg:col-span-full">
+      <ul class="flex gap-2 w-auto md:gap-8 lg:grid lg:grid-cols-12">
+        {{ range $index, $element := (sort $.Site.Data.authors "weight") }}
+          {{ if ne $element.unlisted true }}
+          <li class="w-[75vw] md:w-3/5 shrink-0 lg:w-auto lg:col-span-3
+          {{ if eq $index 0 }} lg:mt-12 {{ end }}
+          {{ if eq $index 1 }} lg:col-start-5 lg:mt-24 {{ end }}
+          {{ if eq $index 2 }} lg:col-start-9 {{ end }}">
+            <article class="flex flex-col gap-6" itemscope itemtype="http://schema.org/Person">
+              <img  
+                alt="{{ $element.name }}" 
+                loading=lazy
+                sizes="
+                  (min-width: 64em) 30vw,
+                  (min-width: 48em) 48vw,
+                  100vw" 
+                src="{{ (printf "https://madebykind.imgix.net/%s?w=320&auto=format" $element.image) }}" 
+                srcset="
+                  {{ (printf "https://madebykind.imgix.net/%s?w=320&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 320w,
+                  {{ (printf "https://madebykind.imgix.net/%s?w=480&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 480w,
+                  {{ (printf "https://madebykind.imgix.net/%s?w=680&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 680w,
+                  {{ (printf "https://madebykind.imgix.net/%s?w=920&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 920w"
+                height="1091"
+                width="726"
+              >
+              <div class="flex flex-col gap-6 pr-4 max-w-md">
+                <div class="flex flex-col gap-1">
+                  <h3 class="block font-serif font-bold" itemprop="author">{{ $element.name }}</h3>
+                  <p class="font-sans text-sm font-bold">{{ $element.role }}</p>
                 </div>
-              </article>
-            </li>
+                <p class="text-sm leading-tight">{{ $element.bio }}</p>
+                <div class="flex flex-col gap-1">
+                  <h4 class="font-sans text-sm">What I care about</h4>
+                  <p class="font-sans text-sm">{{ delimit $element.cares `, ` }}</p>
+                </div>
+                <nav class="font-sans text-sm" aria-label="Social links for {{ .name }}">
+                  <ul class="list-none">
+                    {{ with $element.email }}
+                      <li class="flex gap-1 items-center">
+                        <svg class="w-4 h-4 mt-px" role="presentation">
+                          <use xlink:href="#icon-email"/>
+                        </svg>
+                        <a href="mailto:{{ . }}" class="a--underline">{{ . }}</a>
+                      </li>
+                    {{ end }}
+                    {{ with $element.social.linkedin }}
+                      <li class="flex gap-1 items-center">
+                        <svg class="w-3 h-3 mb-0.5" role="presentation">
+                          <use xlink:href="#icon-linkedin"/>
+                        </svg>
+                        <a href="https://www.linkedin.com/in/{{ . }}" class="a--underline">Connect on Linkedin</a>
+                      </li>
+                      {{ end }}
+                    {{ with $element.social.instagram }}
+                      <li class="flex gap-1 items-center">
+                        <svg class="w-3 h-3" role="presentation">
+                          <use xlink:href="#icon-instagram"/>
+                        </svg>
+                        <a href="https://www.instagram.com/{{ . }}/" class="a--underline">Follow on Instagram</a>
+                      </li>
+                      {{ end }}
+                    {{ with $element.social.bluesky }}
+                      <li class="flex gap-1 items-center">
+                        <svg class="w-4 h-4" role="presentation">
+                          <use xlink:href="#icon-bluesky"/>
+                        </svg>
+                        <a href="https://bsky.app/profile/{{ . }}" class="a--underline">Follow on Bluesky</a>
+                      </li>
+                      {{ end }}
+                  </ul>
+                </nav>
+              </div>
+            </article>
+          </li>
           {{ end }}
         {{ end }}
       </ul>
     </div>
   </section>
+
+  {{/* CLIENTS */}}
+  {{ with .Params.clients }}
+  <section class="bg-teal text-indigo section--lg">
+    <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-16">
+      <div class="flex flex-col gap-4 mb-8 lg:mb-0 lg:col-span-5 lg:order-1">
+        <h2 class="h--condensed text-2xl">Doing good behind the scenes</h2>
+        <p>We work for social, environmental and cultural charities and non-profits who create positive impacts for people and&nbsp;planet.</p>
+      </div>
+      <h3 class="sr-only">Our charity and non-profit clients</h3>
+      <ul class="flex flex-wrap justify-between gap-y-8 mb-8 md:gap-y-16 -mx-4 md:-mx-8 lg:order-3 lg:col-span-full">
+        {{ range .items }}
+        <li class="w-1/4 md:w-1/6 lg:w-1/8 px-4 md:px-8">
+          <div class="w-full h-full max-w-20 max-h-8 md:max-w-36 md:max-h-12 ">
+          <svg class="w-full h-full" role="presentation">
+            <use xlink:href="#icon-{{ .icon }}"/>
+          </svg>
+          <span class="sr-only">{{ .name }}</span>
+        </li>
+        {{ end }}
+      </ul>
+      {{ with .cta }}
+        <div class="col-span-full flex justify-center lg:col-span-6 lg:col-start-7 lg:order-2 lg:self-end lg:justify-start">
+          <a class="btn btn--secondary " href="{{ .url }}" onclick="javascript:insights.track({id: 'about-clients-cta',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            {{ .text }}
+            <svg class="w-8 h-8 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+
+
 </article>
 {{ end }}

@@ -1,35 +1,96 @@
-<header class="container grid items-center content-center gap-10 section--lg md:grid-cols-12" data-hero-height="100dvh">
-		<div class="grid max-w-5xl gap-10 col-span-full md:col-span-8">
-			<div class="grid col-span-1 gap-15">
-				<h1>{{ .Params.Heading|safeHTML }}</h1>
-				{{ with .Params.Intro }}
-					<div class="max-w-5xl prose cta_prose">
-						<p>{{ . | markdownify }}</p>
-					</div>
-				{{ end }}
-				{{ if isset .Params "cta" }}
-					<div class="flex flex-wrap gap-5 lg:gap-10">
-						<a class="btn btn--primary" href="{{ .Params.ctaLink }}" onclick="javascript:insights.track({id: 'about-header-button-1',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-							{{ title .Params.Cta }}
-							<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-								<use xlink:href="#icon-arrow"/>
-							</svg>
-						</a>
-						{{ if isset .Params "cta2" }}
-							<a class="btn btn--secondary" href="{{ .Params.cta2Link }}" onclick="javascript:insights.track({id: 'about-header-button-2',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-								{{ title .Params.Cta2 }}
-								<svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-									<use xlink:href="#icon-arrow"/>
-								</svg>
-							</a>
-						{{ end }}
-					</div>
-				{{ end }}
-			</div>
-		</div>
-		{{ if isset .Params "cover_img" }}
-			<div class="self-end col-span-full md:col-span-4 max-h-illustration max-w-illustration justify-self-end">
-				{{ partial "image__illustration" . }}
+{{ $image1 := index (.Params.banner_images) 0 }}
+{{ $image2 := index (.Params.banner_images) 1 }}
+{{ $image3 := index (.Params.banner_images) 2 }}
+
+
+<header class="container grid grid-cols-2 gap-5 xl:gap-24 section--lg lg:grid-cols-12 lg:items-start relative z-20 hero--full items-center">
+	<div class="flex flex-col max-w-5xl gap-10 col-span-full lg:max-w-none lg:col-span-8">
+		<h1 class="text-4xl lg:text-5xl 2xl:text-6xl">{{ .Params.Heading|safeHTML }}</h1>
+		{{ with .Params.Intro }}
+			<div class="lg:max-w-[70%] prose cta_prose lg:mb-6">
+				<p>{{ . | markdownify }}</p>
 			</div>
 		{{ end }}
+	</div>
+	{{ if isset $image1 "img" }}
+		{{ with $image1 }}
+			<div class="bleed col-span-full lg:col-span-4 lg:ml-0">
+				{{ $src := ( .img ) }}
+				{{ $alt := ( .alt ) }}
+				{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+
+				{{ with $src }}
+					<picture>
+						<img 
+				      alt="{{ $alt }}" 
+				      class="w-full h-full object-cover"
+				      loading="eager"
+				      sizes="(min-width: 100em) 33vw, 96vw"
+				      src="{{ (printf "%s?w=320&ar=1:1&fit=crop&crop=entropy&auto=format" .) }}" 
+				      srcset="
+				    {{ (printf "%s?w=320&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 320w,
+				    {{ (printf "%s?w=480&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 480w,
+				    {{ (printf "%s?w=640&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 640w,
+				    {{ (printf "%s?w=768&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 768w,
+				    {{ (printf "%s?w=1280&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 1280w"
+				    >
+					</picture>
+				{{ end }}
+			</div>
+		{{ end }}
+	{{ end }}
+	{{ if isset $image2 "img" }}
+		{{ with $image2 }}
+			<div class="{{ if (isset $image3 "img") }} bleed-left {{ else }} bleed col-span-full {{ end }} lg:col-span-5 lg:col-start-2 lg:bleed-none xl:-mt-24 3xl:-mt-48">
+				{{ $src := ( .img ) }}
+				{{ $alt := ( .alt ) }}
+				{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+
+				{{ with $src }}
+					<picture>
+						<img 
+				      alt="{{ $alt }}" 
+				      class="w-full h-full object-cover"
+				      loading="eager"
+				      sizes="(min-width: 100em) 33vw, 96vw"
+				      src="{{ (printf "%s?w=320&ar=1:1&fit=crop&crop=entropy&auto=format" .) }}" 
+				      srcset="
+				    {{ (printf "%s?w=320&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 320w,
+				    {{ (printf "%s?w=480&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 480w,
+				    {{ (printf "%s?w=640&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 640w,
+				    {{ (printf "%s?w=768&ar=6:4&fit=crop&crop=entropy&auto=format" .) }} 768w,
+				    {{ (printf "%s?w=1280&ar=6:4&fit=crop&crop=entropy&auto=format" .) }} 1280w"
+				    >
+					</picture>
+				{{ end }}
+			</div>
+		{{ end }}
+	{{ end }}
+	{{ if isset $image3 "img" }}
+		{{ with $image3 }}
+			<div class="bleed-right lg:col-span-5 lg:bleed-none lg:col-start-8 lg:-mt-8 xl:mt-0 3xl:mt-6">
+				{{ $src := ( .img ) }}
+				{{ $alt := ( .alt ) }}
+				{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+
+				{{ with $src }}
+					<picture>
+						<img 
+				      alt="{{ $alt }}" 
+				      class="w-full h-full object-cover"
+				      loading="eager"
+				      sizes="(min-width: 100em) 33vw, 96vw"
+				      src="{{ (printf "%s?w=320&ar=1:1&fit=crop&crop=entropy&auto=format" .) }}" 
+				      srcset="
+				    {{ (printf "%s?w=320&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 320w,
+				    {{ (printf "%s?w=480&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 480w,
+				    {{ (printf "%s?w=640&ar=1:1&fit=crop&crop=entropy&auto=format" .) }} 640w,
+				    {{ (printf "%s?w=768&ar=5:3&fit=crop&crop=entropy&auto=format" .) }} 768w,
+				    {{ (printf "%s?w=1280&ar=5:3&fit=crop&crop=entropy&auto=format" .) }} 1280w"
+				    >
+					</picture>
+				{{ end }}
+			</div>
+		{{ end }}
+	{{ end }}
 </header>

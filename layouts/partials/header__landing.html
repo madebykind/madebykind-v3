@@ -1,40 +1,45 @@
-<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }}{{ else }}{{ end }} section--lg snap-start">
-  <div class="container flex flex-col items-center gap-10 md:grid md:grid-cols-12">
-    <div class="max-w-5xl col-span-12 gap-10 md:col-span-8">
-      <div class="grid col-span-1 gap-15">
-        <h1>{{ .Params.Heading|safeHTML }}</h1>
+<header class="{{ if isset .Params "block_class" }}{{ .Params.block_class }} {{ end }} section--lg {{ if .Params.large_hero }} hero--full flex items-center {{ end }}">
+  <div class="container flex flex-col items-center gap-10 lg:grid lg:grid-cols-12">
+    <div class="col-span-full gap-10 {{ if isset .Params "cover_img" }} lg:col-span-7 {{ else }} lg:col-span-8 {{ end }}">
+      <div class="flex flex-col gap-15">
+        <div class="flex flex-col gap-4">
+          {{ if .Params.preHeading }}
+          <h1 class="leading-heading text-orange text-lg">{{ .Params.Preheading|safeHTML }}</h1>
+          <h2 class="leading-heading h--condensed {{ if .Params.large_hero }} text-4xl lg:text-5xl 2xl:text-6xl {{ end }}">{{ .Params.Heading|safeHTML }}</h2>
+          {{ else }}
+          <h1 class="order-2 {{ if .Params.large_hero }} text-4xl lg:text-5xl 2xl:text-6xl {{ end }}">{{ .Params.Heading|safeHTML }}</h1>
+          {{ end }}
+        </div>
 
         {{ if .Params.intro_md }}
-          <div class="max-w-5xl prose cta_prose">
+          <div class="prose cta_prose text-md">
             {{ .Params.Intro | markdownify }}
           </div>
         {{ else }}
-          <div class="max-w-5xl prose cta_prose">
+          <div class="prose cta_prose text-md">
             <p>{{ .Params.Intro }}</p>
           </div>
         {{ end }}
-        {{ if isset .Params "cta" }}
-          <div class="flex flex-wrap gap-5 lg:gap-10">
-              <a class="btn btn--primary" href="{{ .Params.ctaLink }}" onclick="javascript:insights.track({id: 'home-header-button-1',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-                {{ title .Params.Cta }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ if .Params.cta2 }}
-              <a class="btn btn--secondary" href="{{ .Params.cta2Link }}" onclick="javascript:insights.track({id: 'home-header-button-2',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-                {{ title .Params.Cta2 }}
-                <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            {{ end }}
-          </div>
+        {{ with .Params.toc }}
+          <nav class="leading-none">
+            <ol class="flex flex-wrap font-sans gap-5 lg:gap-x-8">
+              {{ range . }}
+                <li>
+                  <a href="#{{ .id }}" class="inline-flex gap-2 items-center">
+                      {{ .heading }}
+                    <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
+                      <use xlink:href="#icon-arrow-down"/>
+                    </svg>
+                  </a>
+                </li>
+              {{ end }}
+            </ol>
+          </nav>
         {{ end }}
       </div>
     </div>
     {{ if isset .Params "cover_img" }}
-      <div class="self-end col-span-12 md:col-span-4 max-h-illustration max-w-illustration justify-self-end">
+      <div class="col-span-full lg:col-span-5 lg:col-start-8 max-h-illustration max-w-illustration justify-self-end">
         {{ partial "image__illustration" . }}
       </div>
     {{ end }}

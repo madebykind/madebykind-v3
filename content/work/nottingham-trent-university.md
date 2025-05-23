@@ -1,40 +1,66 @@
 ---
-heading: A user-centred realignment of the University of the Year’s website
-title: Digital strategy and design system delivery for Nottingham Trent University - Kind
-description: A user-centred realignment of the University of the Year’s website
-draft: false
+# Meta
 date: 2023-06-28T10:52:34.342Z
-cover_img: images/work-ntu-brand-image.jpg
-cover_img_alt: Two students walk down a cobbled street
+weight: 10
+title: Digital strategy and design system delivery for Nottingham Trent University
+description: A user-centred realignment of the University of the Year’s website
+sector: for-people
+topics:
+  - services/strategy/digital-strategy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
+services:
+  - strategy
+  - digital
+related_work:
+  - work/sheffield-hallam-university
+  - work/jackson-crane
+
+# Content
+heading: A user-centred realignment of the University of the Year’s website
 intro: >
 
     NTU are one of the largest and most influential higher education institutions in the UK and the second most sustainable university in the world. A university that opens its arms to all, they were the first to sign up to the Government’s social mobility pledge, demonstrating a commitment to improving the prospects of young people from disadvantaged backgrounds.
 
 
     NTU commissioned us to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of the University’s external and internal audiences, while still reflecting NTU strategy, key messages and unique position.
-key_stat: null
-summary: null
-topics:
-  - Digital Strategy
-  - User-centred Design
-  - Design Systems
-icon: ntu-logo
-services:
-  - strategy
-  - digital
-related_work:
-  - sheffield-hallam-university
-  - rewilding-britain
-  - jackson-crane
-weight: 10
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt: 
+
+# Header
 banner_type: standard
 banner_img: images/work-ntu-brand-image.jpg
 banner_img_alt: Two students walk down a cobbled street
 banner_icon: ntu-logo
 banner_img_class: brightness-75
+
+# Page nav
 toc: true
-key_stat:
-  - 100s
+
+# Teaser content
+cover_img: images/work-ntu-brand-image.jpg
+cover_img_alt: Two students walk down a cobbled street
+icon: ntu-logo
+client: Nottingham Trent University
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: A user-centred realignment of the University of the Year’s website
   description: NTU asked Kind to run a web discovery project looking at how their primary website should be structured to be more relevant to the needs of their audiences.
@@ -48,15 +74,14 @@ teaser:
       alt: A page from the NTU website on a mobile device
     - img: images/work-ntu-bonnington.jpg
       alt: The Bonnington Gallery
-social_img_txt: "A user-centred realignment of the University of the Year’s website"
+
+# Footer override
+#footer_heading:
 ---
 
 {{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-bonnington.jpg" alt="Bonnington Gallery" >}}
 We are driven by our determination to become the University of the future. By addressing the themes within our current University strategy, University, reimagined, we are tackling social injustice, valuing ideas and creating opportunities.
 {{</ workquote >}}
-
-<!-- Our challenge was to improve the structure and journey for the multitude of user groups that frequent ntu.ac.uk and help them build a website that reflects the wide-ranging activities the University is known for. -->
-
 
 
 <!-- Text left -->
@@ -104,7 +129,7 @@ We are driven by our determination to become the University of the future. By ad
   </div>
 </div>
 
-{{< blockquote align="left" author="Adam Poole" role="Operations Manager and Product Owner, NTU" wrapperclass="section--lg">}}
+{{< blockquote align="center" author="Adam Poole" role="Operations Manager and Product Owner, NTU" wrapperclass="py-16 lg:py-32 xl:py-48">}}
 From initiation right through to production the guys were always open, friendly and helpful. They coached us to make the right decisions but accepted our constraints, quickly finding an alternative solution. Kind revitalised our stakeholders, the website and our team.
 {{</ blockquote >}}
 

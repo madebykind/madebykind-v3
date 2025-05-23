@@ -1,6 +1,6 @@
 {{ block "fullPage" . }}
 <!doctype html>
-<html class="min-h-full js-loading {{ if eq "sectors" .Section  }}snap-y snap-proximity overflow-y-auto h-screen{{ end }}" lang="{{ $.Site.Language.Lang }}" itemscope itemtype="http://schema.org/WebPage">
+<html class="min-h-full js-loading  {{/*snap-y snap-proximity*/}} overflow-y-auto h-screen" lang="{{ $.Site.Language.Lang }}" itemscope itemtype="http://schema.org/WebPage">
 
   <!-- The <head> element. See https://github.com/joshbuchea/HEAD for what _could_ go here. -->
   {{ block "head" . }}
@@ -23,7 +23,7 @@
 
     <!-- The site footer, cached as it doesn't change -->
     {{ block "footer" . }}
-      {{ partialCached "site__footer" . .Params.footer_class .Params.cta_hidden }}
+      {{ partialCached "site__footer" . .Params.footer_class .Params.cta_hidden .Params.footer_heading }}
     {{ end }}
 
     <div class="contact-details" id="contact-details">

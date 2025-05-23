@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: "Cultural recovery: audience insights"
 card_colour: bg-yellow text-blue
 date: 2021-03-24T15:48:15.030Z
@@ -11,7 +11,8 @@ description: This month, we conducted a survey to find out how audiences across
   restrictions ease over the summer.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
 topics:
   - Arts & Culture
 intro: This month, we conducted a survey to find out how audiences across the

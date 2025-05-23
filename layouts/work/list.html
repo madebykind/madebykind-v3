@@ -2,50 +2,30 @@
 <section>
   {{ partial "header__landing.html" . }}
   {{ partial "topic-filters" . }}
-  <h2 class="sr-only">Featured work</h2>
-  <ol class="container grid gap-10 lg:grid-cols-12 section lg:gap-20">
-	  {{ range $i, $p := .Pages }}
-    <li class="col-span-full lg:col-span-6 xl:col-span-4" data-topics="
-      {{- with .Params.topics -}}
-        {{- range . -}}{{ . | anchorize }} {{ end -}}
-      {{- end -}}
 
-      {{- with .Params.services -}}
-        {{- range . -}}{{ . | anchorize }} {{ end -}}
-      {{- end -}}"
-    >
-       {{ partial "card_work" . }}
-      </li>
-    {{ end }}
-  </ol>
-  <section class="container section--lg">
-    <div class="prose">
-      <h2>Empowering change from behind the scenes</h2>
-      <p>Since 2014, we’ve worked exclusively with organisations doing good. We haven’t got time to write case studies for them all.</p>
-    </div>
-    <ul>
-      {{ range (where site.RegularPages "Section" "projects" ) }}
-        {{ if .Params.images }}
-          <li data-topics="
-            {{- with .Params.topics -}}
-              {{- range . -}}
-                {{ . | anchorize }}
-              {{ end -}}
-            {{- end -}}
-            {{- with .Params.services -}}
-              {{- range . -}}
-                {{ . | anchorize }}
-              {{ end -}}
-            {{- end -}}
-          "> 
-            {{ partial "teaser__project" (dict
-              "context" .
-              "link" false
-            ) }}
-          </li>
-        {{ end }}
-      {{ end }}
-    </ul>
-  </section>
+  {{ partial "work-section"  (dict
+    "context" .
+    "heading" "For people"
+    "section" "for-people"
+    "bgColourClass" "bg-green"
+    "textColourClass" "text-sky"
+  ) }}
+
+  {{ partial "work-section"  (dict
+    "context" .
+    "heading" "For planet"
+    "section" "for-planet"
+    "bgColourClass" "bg-blue"
+    "textColourClass" "text-pink"
+  ) }}
+
+  {{ partial "impacts.html" (dict
+    "projects" .Params.impacts
+    "heading" "Empowering change from behind the scenes"
+    "description" "Since 2014, we’ve worked exclusively with organisations doing good. We haven’t got time to write case studies for them all."
+  ) }}
+
+
+
 </section>
 {{ end }}

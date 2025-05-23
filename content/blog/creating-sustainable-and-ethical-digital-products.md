@@ -11,7 +11,8 @@ draft: false
 description: How can we adapt our process to create usable and useful products
   that are environmentally and ethically sound?
 toc: false
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Digital sustainability
   - Environment

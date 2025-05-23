@@ -1,133 +1,88 @@
+{{ define "header" }}
+<div class="absolute top-0 right-0 left-0 z-30">
+  {{ partial "site__header" . .Section }}
+</div>
+{{ end }}
+
 {{ define "main" }}
 
 {{ $title := .Title }}
+{{ $hasPackages := (isset .Params "packages") }}
 
-<article class="pb-10 overflow-hidden {{ with .Params.page_class }} {{ . }}{{ end }}">
+<article class="pb-10 overflow-hidden">
   {{ partial "header__service" . }}
-  <div class="container py-12 lg:py-24 xl:min-h-screen snap-start grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end xl:items-center">
-    <div class="col-span-full lg:col-span-5 xl:col-span-7 prose lede">
-      {{ .Params.intro | markdownify }}
-    </div>
-    <div class="col-span-full md:col-span-2 md:col-start-3 lg:col-span-3 xl:col-span-4 xl:col-start-9 bleed-right">
-      {{ with .Params.teaser_image}}
-        {{ partial "image" (dict 
-          "alt" .alt
-          "class" ""
-          "src" .img
-        ) }}
-      {{ end }}
-    </div>
-  </div>
-  <div class="bg-indigo text-buff section--lg">
-    <div class="container snap-start grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 lg:gap-x-12 xl:gap-8 xl:gap-x-16 items-start">
-      <div class="col-span-full prose mb-4 lg:mb-8 xl:mb-12">
-        <h2 class="h--condensed">{{ .Params.subservices_heading }}</h2>
-        <p class="lede">{{ .Params.subservices_description }}</p>
-      </div>
-      {{ range $index, $e := .Pages }}
-        <div class="col-span-full md:col-span-2 lg:col-span-4 2xl:col-span-3 flex flex-col gap-5  {{ if (modBool $index 3) }} 2xl:col-start-1 {{ else }} 2xl:col-start-auto {{ end }}">
-          <h3 class="h4">
-            {{/* 
-            {{ if $e.Params.Draft }}
-              {{ $e.Params.Heading }}
-            {{ else }}
-              <a href="$e.Permalink">{{ $e.Params.Heading }}</a>
-            {{ end }}
-            */}}
-            {{ $e.Params.Heading }}
-          </h3>
-          {{ $e.Params.intro | markdownify }}
-        </div>
-      {{ end }}
-    </div>
-  </div>
 
 
   {{/* Clients */}}
-  {{ with .Params.related_projects }}
-  <section class="mb-12">
-    <h2 class="sr-only">Examples of our work</h2>
-    {{ $projects := . }}
-    {{ $count := len $projects }}
-    
-    {{ range $i, $e := . }}
-      {{ with $e.slug }}
-        {{ with site.GetPage . }}
-          {{ if eq $i 0 }}
-            {{ partial "teaser__work-wide" (dict 
-              "indent_images" $e.indent_images
-              "indent_text" $e.indent_text
-              "index" $i
-              "count" $count
-              "context" .
-              "show_button" true
-              "button_url" .Permalink
-              "button_text" "Read case study"
-            ) }}
-          {{ else }}
-            <div class="container">
-              {{ partial "teaser__project" (dict
-                "context" .
-                "link" true
-              ) }}
-            </div>
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  </section>
+  {{ if .Params.related_work }}
+    {{ partial "related-work.html"  (dict 
+      "context" .Params.related_work
+      "heading" (printf "%s case studies" $title)
+      "heading_class" "h--condensed text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-pink md:text-buff absolute z-20 top-5 md:relative md:top-0 md:mb-20"
+      "block_class" "bg-blue text-buff pb-10 md:pt-10 lg:py-20 relative" 
+    ) }}
   {{ end }}
+
+  {{/* Process */}}
+  {{ with .Params.process }}
+    {{ partial "process.html" ( dict
+    "context" .
+    ) }}
+  {{ end }}
+
 
 
   {{/* Packages */}}
   {{ with .Params.packages }}
-  <div class="container section--lg">
-    <h2 class="h--condensed mb-0 text-2xl 2xl:text-3xl text-center">{{ .title }}</h2>
-    {{ range $i, $e := .items }}
-      <div class="{{ if not (modBool $i 2) }}bg-pink {{ end }} section--lg -mx-12 px-12">
-        <div class="grid grid-cols-4 lg:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 lg:gap-y-12">
-          <div class="col-span-full lg:col-span-7 p-6 xl:px-8 xl:py-12 text-buff {{ if (modBool $i 2) }}bg-indigo{{ else }}bg-claret{{ end }}">
-            <h3 class="h--condensed mb-4 h2">{{ $e.title }}</h3>
-            <p class="mb-4 max-w-cta-copy">{{ $e.description }}</p>
+  <section class="bg-pink bg-indigo">
+    <div class="container section--lg">
+      <h2 class="h--condensed mb-0 text-2xl">{{ .title }}</h2>
+      <div class="flex flex-col lg:flex-row lg:-mx-14">
+        {{ range $index, $e := .items }}
+        <div class="py-6 {{ if ge $index 1 }} border-t border-claret lg:border-t-0 lg:border-l {{ end }} lg:px-14 lg:shrink-0 lg:w-1/3">
+          <div class="flex items-center justify-between lg:items-end lg:mb-4">
+            <h3 class="h--condensed text-xl">{{ $e.title }}</h3>
             {{ if $e.cost }}
-              <span class="h--condensed h2">{{ $e.cost }}</span>
+              <span class="h3">{{ $e.cost }}</span>
             {{ end }}
           </div>
           <div class="col-span-full lg:col-span-5 flex flex-col gap-5 justify-between items-start pt-4">
             {{ with .items }}
-            <h4>What’s included</h4>
             <ul>
               {{ range . }}
-              <li class="flex gap-2 items-start justify-start mb-2">
-                <svg class="w-8 h-3 grow-0 shrink-0 mt-2 lg:mt-3" role="presentation">
+              <li class="flex gap-2 items-start justify-start text-sm">
+                <svg class="w-3 h-3 text-claret grow-0 shrink-0 mt-1 lg:w-4 lg:h-4 lg:mt-1.5" role="presentation">
                   <use xlink:href="#icon-tick"/>
                 </svg>{{ . }}</li>
               {{ end }}
             </ul>
             {{ end }}
-            {{ if $e.additional }}
-            <div class="bg-blue text-buff p-4 lg:py-6 lg:px-12">
-              <h4 class="h--condensed">{{ $e.additional.title }}</h4>
-              <a href="{{ .additional.link.url }}" class="inline-flex  items-center gap-2 font-serif font-bold text-sm hover:text-pink focus:text-pink transition duration-300" onclick="javascript:insights.track({id: 'service-package-button-{{ $e.additional.title | anchorize }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-                {{ $e.additional.link.text }}
-                <svg class="w-8 h-3 flex-no-shrink" role="presentation">
-                  <use xlink:href="#icon-arrow"/>
-                </svg>
-              </a>
-            </div>
-            {{ end }}
           </div>
         </div>
+        {{ end }}
       </div>
-    {{ end }}
-  </div>
+    </div>
+      {{ with .cta }}
+      <div class="bg-claret text-pink">
+        <div class="container section flex flex-col gap-4 md:flex-row md:gap-16 md:justify-between">
+          <p class="font-bold leading-tight max-w-illustration">{{ .text }}</p>
+          <a href="{{ .button.url }}" class="btn btn--pink self-start md:self-center md:shrink-0">
+            {{ .button.text }}
+            <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      {{ end }}
+  </section>
   {{ end }}
 
 
   {{/* Blog */}}
   {{ with .Params.related_posts }}
-    <div class="container section--lg">
-      <h2 class="h--condensed">Insights from our {{ $title }} team</h2>
+    <div class="container section--lg {{ if not $hasPackages }} border-t border-orange {{ end }}">
+      <h2 class="h--condensed">{{ $title }} insights</h2>
       {{ partial "related-posts.html" . }}
     </div>
   {{ end }}

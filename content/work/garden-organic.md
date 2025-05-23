@@ -1,34 +1,52 @@
 ---
-heading: Growing organically for a healthy and sustainable world
-title: Website for Garden Organic - Kind
-description: Launching a new brand identity through a CRM integrated website
-draft: false
+# Meta
 date: 2023-06-28T12:58:42.437Z
-cover_img: images/work-garden-organic-laptop-3.jpg
-cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
-intro: Organic gardening can boost the environment and sustainability, and improve health, well-being, and food security. It can build communities and aid connection with nature and what you eat. Through campaigning, advice, community work, and research, their aim is to get everyone growing ‘the organic way’.
-key_stat: null
+weight: 6
+title: Website and online membership portal for Garden Organic
+description: Launching a new brand identity through a CRM integrated website
+sector: for-planet
+topics:
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
+  - services/digital/crm-integration
+related_work:
+  - work/rewilding-britain
+  - work/the-rivers-trust
 services:
   - digital
-topics:
-  - Research and analysis
-  - User-centred Design
-  - CMS integration
-  - CRM integration
-icon: garden-organic-logo
-related_work:
-  - rewilding-britain
-  - sheffield-hallam-university
-  - the-rivers-trust
-weight: 6
-external_link: https://www.gardenorganic.org.uk/
+
+# Content
+heading: Growing organically for a healthy and sustainable world
+intro: Through campaigning, advice, community work, conservation and research, Garden Organic help gardeners cultivate a healthier, more biodiverse and sustainable world.
+why:
+  text: British people love gardening, and doing so organically helps connect them with nature and the environment and can lead to improved health, well-being, and food security.
+  person: mat
+impact:
+  text: Improving the usability of the Garden Organic website has allowed them to move their legacy memberships online and prompting for additional donations when placing orders or registering has brought additional revenue to the charity.
+  stats:
+    - 18k
+    - 17k
+  img: images/work-garden-organic-climbers.jpg
+  img_alt: Climbing sweet peas
+
+# Header
 banner_type: standard
 banner_img: images/work-garden-organic-header.jpg
-banner_img_alt: Test image
+banner_img_alt: Carrots held in someone's hand. They are fresh out of the ground, so have soil on them
 banner_icon: garden-organic-logo
+
+# Page nav
 toc: true
-key_stat:
-  - 18k
+external_link: https://www.gardenorganic.org.uk/
+
+# Teaser content
+cover_img: images/work-garden-organic-laptop-3.jpg
+cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
+icon: garden-organic-logo
+client: Garden Organic
+
+# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Website redesign and online member portal
   description: Garden Organic worked with Kind to bring their new visual identity to life online, attracting new and varied demographics and appealing to new audiences.
@@ -41,7 +59,9 @@ teaser:
         - 18k
     - img: images/work-garden-organic-garden.jpg
       alt: A photograph of a kitchen garden
-social_img_txt: "Growing organically for a healthy and sustainable world"
+
+# Footer override
+#footer_heading:
 ---
 
 {{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden">}}

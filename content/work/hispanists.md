@@ -1,30 +1,60 @@
 ---
-heading: Connecting global Iberian academia
-title: Brand and website for the Association of Hispanists - Kind
-description: An evocative brand identity and uncomplicated website delivery
-draft: false
+# Meta
 date: 2023-06-28T10:52:34.342Z
-cover_img: images/work-hispanists-flags.jpg
-cover_img_alt: 
-intro: >
-  AHGBI (Association of Hispanists of Great Britain and Ireland) represents a dynamic collective of skilled researchers and educators spanning Hispanic and Lusophone Studies. Grounded in a commitment to research, knowledge production, and dissemination, it became evident that their passion, vibrancy, and sense of community deserved expression through a revitalised brand identity and forthcoming website.
-key_stat: null
-summary:
+weight: 4
+title: Brand and website for the Association of Hispanists
+description: An evocative brand identity and uncomplicated website delivery
+sector: for-people
 topics:
-  - Visual identity
-icon: ahgbi-logo
+  - services/brand/visual-identity
 services:
   - brand
 related_work:
-  - chapter
-  - vanda
-  - backlit
-weight: 4
+  - work/chapter
+  - work/backlit
+
+# Content
+heading: Connecting global Iberian academia
+intro: >
+  AHGBI (Association of Hispanists of Great Britain and Ireland) represents a dynamic collective of skilled researchers and educators spanning Hispanic and Lusophone Studies. Grounded in a commitment to research, knowledge production, and dissemination, it became evident that their passion, vibrancy, and sense of community deserved expression through a revitalised brand identity and forthcoming website.
+# why:
+#   text: 
+#   person: 
+# impact:
+#   text: 
+#   stats:
+#     - 
+#   img: images/.jpg
+#   img_alt:
+
+
+# Header
 banner_type: standard
 banner_img: images/work-hispanists-logo.jpg
 banner_img_alt: The AHGBI logo on a red background
 banner_logo_class: text-black
-social_img_txt: "Connecting global Iberian academia"
+
+# Page nav
+toc: false
+
+# Teaser content
+cover_img: images/work-hispanists-flags.jpg
+cover_img_alt: Two red flags showing the AHGBI logo
+icon: ahgbi-logo
+client: AHGBI
+# impact_teaser:
+#   text: 
+#   images:
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#     - img: 
+#       alt: 
+#   caption: 
+
+# Footer override
+#footer_heading:
 ---
 
 <!-- Text left -->

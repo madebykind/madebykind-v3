@@ -1,43 +1,67 @@
 ---
-cover_img_alt: Alt text cannot be blank
-related_work:
-  - rewilding-britain
-  - the-rivers-trust
-header_class: bg-pink text-claret
-toc: true
-hidden: true
-intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
-title: User-centred design
-heading: User-centred design
+# Meta
 date: 2020-04-30T17:28:36.948Z
-cover_img: images/true-to-who-we-are-v2.png
+weight: 1
+title: User-centred design
 description: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
+
+# Header
+header_class: bg-sky text-green
+heading: User-centred design
+intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
+cover_img: images/empower-change-v1.png
+cover_img_alt: Illustration of different trees, with legs.
+
+# Process
+process:
+  heading: How it works
+  description: We believe the most successful projects are those that put the needs of their audience first.
+  items:
+    - heading: Research and discovery
+      description: "<p>We explore an organisation’s history, goals, and vision, gathering insights through conversations with the project team and examining how the website supports strategic objectives.</p>
+        <p>Knowledge about user groups, their needs, and their expectations is shared collaboratively, while quantitative insights are captured through short surveys, helping to build a clear picture of the people the website serves.</p>"
+    - heading: Creating an intuitive navigation structure
+      description: "<p>Our next focus is to develop a clear, user-friendly navigation system. Rather than reflecting internal structures, the Information Architecture is shaped by user behaviours, content analysis, and user stories, ensuring intuitive navigation that helps users move efficiently through the site.</p>"
+    - heading: Prioritising needs and features
+      description: "<p>We generate user stories, reflecting what your audience groups need from the website and why. These guide the creation of a set of features, which are then prioritised in collaboration with the project team to focus on the elements with the greatest impact.</p>"
+    - heading: Prototyping and user testing
+      description: "<p>Initial wireframes are created in a mobile-first format, helping establish content hierarchy and performance early on. Prototypes of key user journeys are developed and tested with users to validate assumptions and refine the experience.</p>"
+    - heading: Moving to visual design
+      description: "<p>Once key journeys are defined and tested, the focus shifts to larger screen formats and visual design. Using brand guidelines and user insights, a consistent visual language is established—resulting in coherent and consistent components and layouts ready for development.</p>"
+  block_class: bg-indigo text-buff
+  highlight_class: text-teal
+  border_class: border-buff
+
+# Related
+related_work:
+  - work/rewilding-britain
+  - work/the-rivers-trust
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase
   - creating-sustainable-and-ethical-digital-products
-  - kind-certifies-a-b-corporation
-weight: 1
+  - finding-the-common-ground-between-your-organisation-and-its-audience
+
 ---
 
-{{% split heading="What is user-centred design?" %}}
+<div class="section--lg">
 
-## What is user-centred design?
+{{% split orientation="left" %}}
 
-### Putting users at the centre of the design process
+  ## What is user-centred design?
+  
+  ### Putting users at the centre of the design process
 
-![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+  User-Centred Design works around the principle that a product built around the needs of its users will be more successful and that the only way to deliver this is to fully understand the variety of users and their needs.
 
-User-Centred Design works around the principle that a product built around the needs of its users will be more successful and that the only way to deliver this is to fully understand the variety of users and their needs.
+  In its simplest form, a User-Centred Design process consists of identifying the people who will use the end product, their needs and working with them to deliver design solutions to meet those needs.
 
-In its simplest form, a User-Centred Design process consists of identifying the people who will use the end product, their needs and working with them to deliver design solutions to meet those needs.
+  ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
 
 {{% /split %}}
 
-{{% split heading="Process" %}}
+{{% split orientation="right" %}}
 
-## Process
-
-### User-Centred Design for Digital Projects
+## User-Centred Design for Digital Projects
 
 ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
 
@@ -47,57 +71,17 @@ Starting by understanding users, their needs and how they align with an organisa
 
 These features are then developed iteratively and evaluated with real users as they grow from a rough concept to a completed feature ready to be released into the wild.
 
-<h4 class="mt-10">Examples of user-centred digital products</h4>
-    <ul class="list-none">
-      <li class="mt-5">
-        <a class="flex justify-between gap-5 py-2.5 leading-tight font-serif" href="https://airbnb.com">Airbnb
-          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
-        </a>
-      </li>
-      <li class="mt-5">
-        <a class="flex justify-between gap-5 py-2.5 leading-tight font-serif" href="https://uber.com">Uber
-          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
-        </a>
-      </li>
-      <li class="mt-5">
-        <a class="flex justify-between gap-5 py-2.5 leading-tight font-serif" href="https://gov.uk">Gov.uk
-          <svg class="w-12 h-4 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
-        </a>
-      </li>
-    </ul>
 
 {{% /split %}}
 
-<section class="section--lg">
-  <h2 class="text-md h--condensed">Benefits of user-centred design</h2>
-  <div class="grid grid-cols-12 gap-10 mt-10 lg:gap-20">
-    <div class="col-span-full md:col-span-6">
-      <h3 class="h2">Understand and engage your users</h3>
-      <div class="font-sans font-light prose">
-      <p>One of the key benefits of involving the end users of a product in the design process is that the design team will inherit an understanding of an organisation’s audience that can be transferred to future deliveries.</p>
-      </div>
-    </div>
-    <div class="col-span-full md:col-span-6">
-      <h3 class="h2">Avoid costly mistakes</h3>
-      <div class="font-sans font-light prose">
-        <p>Delivering features to meet validated user needs reduces the likelihood of doing the wrong thing and involving users at all stages of the design process means that the delivery team stays focussed and on track throughout. Any deviation is quickly corrected, through user testing, before large amounts of the project budget is wasted.</p>
-      </div>
-    </div>
-    <div class="col-span-full md:col-span-6">
-      <h3 class="h2">Deliver positive experiences</h3>
-      <div class="font-sans font-light prose">
-      <p>Users are more engaged in a product that they intuitively feel is built for them and that will only reflect positively on the organisation that releases it. This dedication to deliver for users leads to brand loyalty and a clear improvement in a brand’s reputation.</p>
-      </div>
-    </div>
-    <div class="col-span-full md:col-span-6">
-    
-![Mocks of RWB branding on a laptop](https://madebykind.imgix.net/empowering-change.png )
+</div>
 
-  </div>
-</section>
+{{< benefits
+  block_class="bg-teal text-blue bleed"
+  heading="Benefits of user-centred design"
+  item_1_heading="Understand and engage your users"
+  item_1_description="One of the key benefits of involving the end users of a product in the design process is that the design team will inherit an understanding of an organisation’s audience that can be transferred to future deliveries."
+  item_2_heading="Avoid costly mistakes"
+  item_2_description="Delivering features to meet validated user needs reduces the likelihood of doing the wrong thing and involving users at all stages of the design process means that the delivery team stays focussed and on track throughout. Any deviation is quickly corrected, through user testing, before large amounts of the project budget is wasted."
+  item_3_heading="Deliver positive experiences"
+  item_3_description="Users are more engaged in a product that they intuitively feel is built for them and that will only reflect positively on the organisation that releases it. This dedication to deliver for users leads to brand loyalty and a clear improvement in a brand’s reputation." >}}

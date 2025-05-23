@@ -20,53 +20,25 @@
   <div class="container">
     <h2 class="sr-only">Contact details</h2>
     <nav aria-label="Kind contact links">
-      <ul class="flex-wrap list-none text-lg lg:text-xl md:flex gap-x-10 lg:gap-x-20" role="list">
-        <li class="relative inline-flex md:after:content-['/'] after:absolute after:-right-5 lg:after:-right-15">
+      <ul class="flex-wrap list-none text-lg lg:text-xl md:flex gap-x-10 lg:gap-x-20">
+        <li class="relative inline-flex">
           <span class="sr-only">Email: </span>
           <a href="mailto:hello@madebykind.com" rel="me" onclick="javascript:insights.track({id: 'contact-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">hello@madebykind.com</a>
         </li>
+        {{/*
         <li>
           <span class="sr-only">Telephone: </span>
           <a href="tel:+441157270990" onclick="javascript:insights.track({id: 'contact-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">0115 727 0990</a>
         </li>
+        */}}
       </ul>
     </nav>
     <nav aria-label="{{ i18n "socialTitle" }}" class="mt-24 lg:mt-48">
-      <ul class="flex flex-wrap items-center gap-10 list-none" role=list>
-        
-        {{ if isset .Site.Params "facebook" }}
-        <li>
-          <a href="{{ .Site.Params.Facebook }}" title="Facebook" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-facebook',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-            <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
-              <use xlink:href="#icon-facebook"/>
-            </svg>
-          </a>
-        </li>
-        {{ end }}
-
-        {{ if isset .Site.Params "instagram" }}
-          <li>
-            <a href="{{ .Site.Params.Instagram }}" title="Instagram" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-              <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
-                <use xlink:href="#icon-instagram"/>
-              </svg>
-            </a>
-          </li>
-        {{ end }}
-
-        {{ if isset .Site.Params "twitter" }}
-          <li>
-            <a href="{{ .Site.Params.Twitter }}" rel="me noopener" title="Twitter" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-twitter',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
-              <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
-                <use xlink:href="#icon-twitter"/>
-              </svg>
-            </a>
-          </li>
-        {{ end }}
+      <ul class="flex flex-wrap items-center gap-10 list-none">
 
         {{ if isset .Site.Params "linkedin" }}
           <li>
-            <a href="{{ .Site.Params.Linkedin }}" title="LinkedIn" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            <a href="{{ .Site.Params.Linkedin }}" rel="me noopener" title="LinkedIn" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out mb-1" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});" target="_blank">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
               </svg>
@@ -74,11 +46,21 @@
           </li>
         {{ end }}
 
-        {{ if isset .Site.Params "github" }}
+        {{ if isset .Site.Params "instagram" }}
           <li>
-            <a href="{{ .Site.Params.Github }}" rel="me noopener" title="Github" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-github',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            <a href="{{ .Site.Params.Instagram }}" rel="me noopener" title="Instagram" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});" target="_blank">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
-                <use xlink:href="#icon-github"/>
+                <use xlink:href="#icon-instagram"/>
+              </svg>
+            </a>
+          </li>
+        {{ end }}
+
+        {{ if isset .Site.Params "bluesky" }}
+          <li class="mt-0.5">
+            <a href="{{ .Site.Params.Bluesky }}" rel="me noopener" title="Bluesky" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-bluesky',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});" target="_blank">
+              <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
+                <use xlink:href="#icon-bluesky"/>
               </svg>
             </a>
           </li>

@@ -18,8 +18,14 @@ Markdown is intended to be as easy-to-read and easy-to-write as is feasible.Read
 */}}
 -->
 
-{{ if .Get "heading" }}
-<section id="#{{ .Get "heading" | anchorize }}">
-  {{- partial "split.html" .Inner -}}
-</section>
+{{ $orientation := "left" }}
+{{ if .Get "orientation" }}
+  {{ $orientation = .Get "orientation" }}
 {{ end }}
+
+<section>
+  {{- partial "split.html" ( dict
+  "context" .Inner
+  "orientation" $orientation
+  ) -}}
+</section>

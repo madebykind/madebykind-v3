@@ -3,14 +3,12 @@ headshot: avatar-michelle.jpg
 image: team-michelle.jpg
 name: Michelle Pavey
 role: Strategy Director
-weight: 2
+weight: 1
 email: michelle@madebykind.com
+bio: Michelle's experience in strategy, brand, communications, and events includes leading a team to raise significant awareness of the role of scalable renewable energy technologies to help combat the global climate change crisis. At Kind, she has been integral to the growth of the company from a start-up to an established ethical creative agency with a 100% socially responsible client base.
 social:
-  github: 
-  instagram:
-  facebook: 
-  twitter: 
-  youtube: 
+  instagram: 
+  bluesky: 
   linkedin: michellepavey
 url: 
 cares:

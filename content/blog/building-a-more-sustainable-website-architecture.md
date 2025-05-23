@@ -11,7 +11,8 @@ draft: false
 description: There are many ways we can improve the efficiency of a website,
   many of which Kind already includes as standard practice.
 toc: false
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Digital sustainability
   - Environment
@@ -20,7 +21,7 @@ intro: There are many ways we can improve the efficiency of a website, many of
 related_pages: []
 related_posts:
   - creating-sustainable-and-ethical-digital-products
-  - learnings-from-the-1-for-the-planet-european-summit
+  - creativity-is-a-responsibility
   - who-gives-a-damn-well-we-do-actually
 ---
 

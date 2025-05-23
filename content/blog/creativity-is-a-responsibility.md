@@ -9,12 +9,12 @@ description:
 toc: false
 featured: true
 summary: null
-key_topic: Our Impact
+key_topic:
+  - Our Impact
 illustration: images/empower-change-v2.png
 topics:
   - Accessibility
   - Digital sustainability
-  - Our impact
 intro: I recently had the opportunity to speak at Creative Change Makers 2024, an event focused on creativity for social and environmental impact and organised by the brilliant team at Creative Conscience.
 related_posts:
   - who-gives-a-damn-well-we-do-actually

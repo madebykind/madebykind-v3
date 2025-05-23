@@ -11,10 +11,11 @@ description: Experienced web developers ensure that accessibility is baked into
   responsibility to ensure we don’t break that.
 toc: false
 featured: false
-key_topic: Insights
+key_topic:
+  - Insights
+  - Our impact
 illustration: "images/be-a-good-human.png"
 topics:
-  - Our impact
   - Accessibility
 intro: Experienced web developers ensure that accessibility is baked into
   everything they do because it’s the right thing to do, and the right way to do

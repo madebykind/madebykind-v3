@@ -3,12 +3,10 @@ image: team-mat.jpg
 name: Mat Hayward
 role: Founder and Partnerships Director
 email: mat@madebykind.com
-weight: 1
+bio: A digital professional with over 25 years of experience, Mat founded Kind as a force for good, delivering work that has a positive impact on society and the environment. He has overseen the growth of Kind from a start-up to one of the leading sustainable creative agencies in the UK, which uses its experience in strategy, brand, and digital to create meaningful impact for our socially-responsible clients.
+weight: 2
 social:
-  github: 
-  instagram: mathaywarduk
-  facebook: 
-  twitter:
+  bluesky: mathaywarduk.bsky.social
   linkedin: mathaywarduk
 url: https://mathayward.com
 cares:

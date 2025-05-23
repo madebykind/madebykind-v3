@@ -9,7 +9,8 @@ description: What if we could make data work for our users by creating a more
   relevant, engaging and personalised experience?
 toc: false
 featured: false
-key_topic: How we work
+key_topic:
+  - How we work
 topics:
   - Research and analysis
 intro: "Most people understand the importance of data to a website. On one hand

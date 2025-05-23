@@ -1,5 +1,5 @@
 ---
-hidden: false
+unlisted: true
 title: Kind Partners With Rewilding Britain
 card_colour: bg-yellow text-blue
 date: 2020-01-30T11:37:00+0000
@@ -13,7 +13,8 @@ description: Today, we’re pleased to announce that we have chosen to partner
   with Rewilding Britain as our long-term charity partner.
 toc: false
 featured: false
-key_topic: Our impact
+key_topic:
+  - Our impact
 topics:
   - Environment
   - Non-profit
