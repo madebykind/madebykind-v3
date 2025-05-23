@@ -2,6 +2,12 @@
 <!doctype html>
 <html class="min-h-full js-loading  {{/*snap-y snap-proximity*/}} overflow-y-auto h-screen" lang="{{ $.Site.Language.Lang }}" itemscope itemtype="http://schema.org/WebPage">
 
+    <!-- Analytics -->
+    {{ if not hugo.IsServer }}
+      <script defer data-domain="madebykind.com" src="https://plausible.io/js/script.hash.tagged-events.js"></script>
+      <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+    {{ end }}
+
   <!-- The <head> element. See https://github.com/joshbuchea/HEAD for what _could_ go here. -->
   {{ block "head" . }}
     {{ partial "head" . }}
@@ -76,8 +82,6 @@
 
     <!-- Analytics -->
     {{ if not hugo.IsServer }}
-      <script defer data-domain="madebykind.com" src="https://plausible.io/js/script.hash.tagged-events.js"></script>
-      <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
       <script src="https://getinsights.io/js/insights.js"></script>
       <script>
