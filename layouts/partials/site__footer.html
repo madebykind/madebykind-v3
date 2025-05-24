@@ -2,14 +2,14 @@
   {{ if not .Params.cta_hidden }}
   <div class="{{ with .Params.footer_class }} {{ . }}{{ else }} bg-pink text-blue{{ end }} {{/*min-h-dynamic-screen */}}">
     <div class="container grid grid-cols-1 items-end gap-8 lg:grid-cols-12 section--lg">
-      <div class="col-span-full lg:col-span-6">
+      <div class="col-span-full lg:col-span-6 self-start">
         <h2 class="text-4xl md:text-5xl leading-heading h--condensed mb-12 max-w-cta-copy">{{ with .Params.footer_heading }} {{ . }} {{ else }} Let’s make a difference, together {{ end }}</h2>
-        <a href="#" class="btn btn--secondary--blue">
+        {{/*<a href="#" class="btn btn--secondary--blue">
           Download our creds
           <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
             <use xlink:href="#icon-arrow"/>
           </svg>
-        </a>
+        </a>*/}}
       </div>
       <div class="col-span-full lg:col-span-5 lg:col-start-8 flex flex-col gap-4 lg:gap-12">
         <div>

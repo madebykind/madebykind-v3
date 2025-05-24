@@ -12,8 +12,9 @@ layout: primary
 layer_nav: true
 heading: Strategy for mission-driven organisations
 intro: We help you make decisions with purpose. Our strategy work gives you the clarity to act and the tools to lead with confidence.
-cover_img: images/strategy-image-kind-site.jpg
+cover_img: images/strategy-image-kind-site-2.jpg
 cover_img_alt: Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs
+cover_img_overlay: true
 
 # Process
 process:

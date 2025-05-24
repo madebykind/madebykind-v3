@@ -10,7 +10,7 @@ layout: primary
 
 # Header
 layer_nav: true
-heading: Digital that drives purpose
+heading: Digital that drives&nbsp;purpose
 intro: We design digital experiences that work in the real world. Built with users in mind and strategy at the core, our work is made to last.
 cover_img: images/work-rivers-trust-phone.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
