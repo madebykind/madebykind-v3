@@ -1,6 +1,6 @@
 ---
 title: Ethical creative agency for charities and non-profits
-description: We’re a small but powerful team of carefully selected senior professionals. Strategy, brand, digital – we bring it all together and drive change in ways that really matter.
+description: Kind works exclusively for those that put purpose before profit, delivering expert guidance on strategy, brand and digital where it counts.
 social_img: images/mat-and-michelle.jpg
 date: 2025-04-07T10:48:46.000Z
 hidden: false
