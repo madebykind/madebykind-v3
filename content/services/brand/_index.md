@@ -32,53 +32,53 @@ process:
     alt: An illustration of a person holding a very large placard. The placard reads 'Choose Kind'.
 
 # Packages
-packages:
-  title: Brand packages
-  cta:
-    text: Don’t have the budget? Want something more tailored? If you’re a purpose-led non-profit or charity, we’ll find a way to help. Let’s make it happen!
-    button:
-      text: Get in touch
-      url: /contact
-  items:
-    - title: Essential
-      items:
-        - Creative direction
-        - One overarching design moodboard 
-        - Logo 
-        - Fonts for online and offline use
-        - Primary colour palette
-        - Positioning statement
-        - Tone of voice summary and guidance
-        - 3 key messages
-        - Digital guidance document
-      cost: £6,000
-    - title: Standard
-      items:
-        - One overarching design moodboard
-        - Art Direction moodboard 
-        - Logo 
-        - Fonts for online and offline use
-        - Primary & secondary colour palettes
-        - Secondary branding such as icons
-        - Manifesto
-        - Tone of voice summary and guidance
-        - 4 key messages
-        - Digital guidance document
-      cost: £8,000
-    - title: Premium
-      items:
-        - Two overarching design moodboards
-        - Art Direction & motion moodboard 
-        - Logo with variations 
-        - Fonts for online and offline use
-        - Primary & secondary colour palettes
-        - Secondary branding such as icons, illustrations and textures
-        - Brand values
-        - Manifesto
-        - Tone of voice
-        - 6 key messages
-        - Digital guidance document
-      cost: £11,000
+# packages:
+#   title: Brand packages
+#   cta:
+#     text: Don’t have the budget? Want something more tailored? If you’re a purpose-led non-profit or charity, we’ll find a way to help. Let’s make it happen!
+#     button:
+#       text: Get in touch
+#       url: /contact
+#   items:
+#     - title: Essential
+#       items:
+#         - Creative direction
+#         - One overarching design moodboard 
+#         - Logo 
+#         - Fonts for online and offline use
+#         - Primary colour palette
+#         - Positioning statement
+#         - Tone of voice summary and guidance
+#         - 3 key messages
+#         - Digital guidance document
+#       cost: £6,000
+#     - title: Standard
+#       items:
+#         - One overarching design moodboard
+#         - Art Direction moodboard 
+#         - Logo 
+#         - Fonts for online and offline use
+#         - Primary & secondary colour palettes
+#         - Secondary branding such as icons
+#         - Manifesto
+#         - Tone of voice summary and guidance
+#         - 4 key messages
+#         - Digital guidance document
+#       cost: £8,000
+#     - title: Premium
+#       items:
+#         - Two overarching design moodboards
+#         - Art Direction & motion moodboard 
+#         - Logo with variations 
+#         - Fonts for online and offline use
+#         - Primary & secondary colour palettes
+#         - Secondary branding such as icons, illustrations and textures
+#         - Brand values
+#         - Manifesto
+#         - Tone of voice
+#         - 6 key messages
+#         - Digital guidance document
+#       cost: £11,000
 
 # Related content
 related_work:
