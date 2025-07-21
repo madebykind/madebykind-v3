@@ -24,7 +24,7 @@ stat_block:
     - 28-percent
     - gender-neutral
   cta:
-    url: /about/our-impact
+    url: /about/our-impact/
     text: Our impact
 menu: main
 linktitle: About
@@ -60,6 +60,6 @@ clients:
     - name: Sheffield Hallam University
       icon: shu-logo
   cta:
-    url: /work
+    url: /work/
     text: Our work
 ---
