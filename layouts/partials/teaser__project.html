@@ -2,7 +2,7 @@
 	<h3 class="font-normal text-left mr-15 h4 group-hover:underline">
     {{ with $.context.Params.Heading }}{{ . | markdownify }}{{ else }}{{ with $.context.Title }}{{ . | markdownify }}{{ end }}{{ end }}</h3>
   {{ if $.link }}
-  <a href="{{ $.context.Permalink }}" class="absolute flex items-center justify-end w-full gap-5 align-end" onclick="javascript:insights.track({id: 'project-teaser-{{ with $.context.Params.Heading }}{{ . | anchorize }}{{ else }}{{ with $.context.Title }}{{ . | anchorize }}{{ end }}{{ end }}',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+  <a href="{{ $.context.Permalink }}" class="absolute flex items-center justify-end w-full gap-5 align-end">
     <span class="flex items-center justify-center flex-shrink-0">
       <svg class="w-12 h-12" role="presentation"> 
         <use xlink:href="#icon-arrow"/>
@@ -10,7 +10,7 @@
     </span>
   </a>
   {{ else }}
-  <button class="absolute flex items-center justify-end w-full gap-5 align-end accordion-toggle" data-toggle data-target="#{{ $.context.Title | anchorize }}_body" title="Read more about this project" onclick="javascript:insights.track({id: 'project-opened',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+  <button class="absolute flex items-center justify-end w-full gap-5 align-end accordion-toggle" data-toggle data-target="#{{ $.context.Title | anchorize }}_body" title="Read more about this project">
 	  <span class="flex items-center justify-center flex-shrink-0 w-10 h-10 bg-white rounded-full accordion-toggle-icon">
 		  <svg class="w-6 h-6" role="presentation">	
   		  <use xlink:href="#icon-chevron"/>

@@ -82,15 +82,6 @@
       {{ jsonify (dict "indent" "  ") $m | safeJS }}
     </script>
 
-    <!-- Analytics -->
-    {{ if not hugo.IsServer }}
-
-      <script src="https://getinsights.io/js/insights.js"></script>
-      <script>
-        insights.init('N96lhlRPan5nwYhX');
-        insights.trackPages();
-      </script>
-    {{ end }}
     
   </body>
 </html>

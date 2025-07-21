@@ -69,7 +69,7 @@
             </svg>
           </div>
           {{ with .cta }}
-            <a class="btn bg-blue text-sky hover:bg-pink hover:text-indigo focus:bg-pink focus:text-indigo self-center sm:self-end" href="{{ .url }}" onclick="javascript:insights.track({id: 'about-stats-cta',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+            <a class="btn bg-blue text-sky hover:bg-pink hover:text-indigo focus:bg-pink focus:text-indigo self-center sm:self-end" href="{{ .url }}">
               {{ .text }}
               <svg class="w-8 h-8 flex-no-shrink" role="presentation">
                 <use xlink:href="#icon-arrow"/>
@@ -279,7 +279,7 @@
       </ul>
       {{ with .cta }}
         <div class="col-span-full flex justify-center lg:col-span-6 lg:col-start-7 lg:order-2 lg:self-end lg:justify-start">
-          <a class="btn btn--secondary " href="{{ .url }}" onclick="javascript:insights.track({id: 'about-clients-cta',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">
+          <a class="btn btn--secondary " href="{{ .url }}">
             {{ .text }}
             <svg class="w-8 h-8 flex-no-shrink" role="presentation">
               <use xlink:href="#icon-arrow"/>

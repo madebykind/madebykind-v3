@@ -23,12 +23,12 @@
       <ul class="flex-wrap list-none text-lg lg:text-xl md:flex gap-x-10 lg:gap-x-20">
         <li class="relative inline-flex">
           <span class="sr-only">Email: </span>
-          <a href="mailto:hello@madebykind.com" rel="me" onclick="javascript:insights.track({id: 'contact-email',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">hello@madebykind.com</a>
+          <a href="mailto:hello@madebykind.com" rel="me">hello@madebykind.com</a>
         </li>
         {{/*
         <li>
           <span class="sr-only">Telephone: </span>
-          <a href="tel:+441157270990" onclick="javascript:insights.track({id: 'contact-telephone',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});">0115 727 0990</a>
+          <a href="tel:+441157270990">0115 727 0990</a>
         </li>
         */}}
       </ul>
@@ -38,7 +38,7 @@
 
         {{ if isset .Site.Params "linkedin" }}
           <li>
-            <a href="{{ .Site.Params.Linkedin }}" rel="me noopener" title="LinkedIn" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out mb-1" onclick="javascript:insights.track({id: 'footer-social-linkedin',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});" target="_blank">
+            <a href="{{ .Site.Params.Linkedin }}" rel="me noopener" title="LinkedIn" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out mb-1" target="_blank">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-linkedin"/>
               </svg>
@@ -48,7 +48,7 @@
 
         {{ if isset .Site.Params "instagram" }}
           <li>
-            <a href="{{ .Site.Params.Instagram }}" rel="me noopener" title="Instagram" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-instagram',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});" target="_blank">
+            <a href="{{ .Site.Params.Instagram }}" rel="me noopener" title="Instagram" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" target="_blank">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-instagram"/>
               </svg>
@@ -58,7 +58,7 @@
 
         {{ if isset .Site.Params "bluesky" }}
           <li class="mt-0.5">
-            <a href="{{ .Site.Params.Bluesky }}" rel="me noopener" title="Bluesky" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" onclick="javascript:insights.track({id: 'footer-social-bluesky',parameters: {locale: insights.parameters.locale(),screenSize: insights.parameters.screenType(),referrer: insights.parameters.referrer(),path: insights.parameters.path()}});" target="_blank">
+            <a href="{{ .Site.Params.Bluesky }}" rel="me noopener" title="Bluesky" class="text-buff hover:text-pink focus:text-pink transition duration-500 ease-in-out" target="_blank">
               <svg class="w-8 h-8" viewbox="0 0 36 36" role="presentation">
                 <use xlink:href="#icon-bluesky"/>
               </svg>
