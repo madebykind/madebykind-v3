@@ -13,11 +13,7 @@ We’re firm believers in transparency when it comes to how we store and use per
 
 ## Measurement
 
-We don’t use Google Analytics or any other in-depth analytics tool that captures personally identifying data on this website. Instead we use [Fathom](https://usefathom.com/), which lets us see how our website is being used without being invasive.
-
-## Cookies
-
-Our website uses one cookie, which is set by Cloudflare and is called `_cfduid`. It is used to check whether you’re a bad egg and likely to try to hack or take down our website. It doesn’t track you in any way or store any of your personal details. More information can be found here: [Privacy and the _cfduid cookie](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/)
+We don’t use Google Analytics or any other in-depth analytics tool that captures personally identifying data on this website. Instead we use [Plausible](https://plausible.io/), which lets us see how our website is being used without being invasive.
 
 ## Mailing list
 
