@@ -22,13 +22,13 @@
                 loading="eager"
                 fetchpriority=high
                 sizes="(min-width: 100em) 33vw, 96vw"
-                src="{{ (printf "%s?w=320&ar=4:3&fit=crop&crop=faces&auto=format" .) }}" 
+                src="{{ (printf "%s?w=320&ar=4:3&fit=crop&crop=faces&auto=compress,format" .) }}" 
                 srcset="
-              {{ (printf "%s?w=320&ar=4:3&fit=crop&crop=faces&auto=format" .) }} 320w,
-              {{ (printf "%s?w=480&ar=4:3&fit=crop&crop=faces&auto=format" .) }} 480w,
-              {{ (printf "%s?w=640&ar=4:3&fit=crop&crop=faces&auto=format" .) }} 640w,
-              {{ (printf "%s?w=768&ar=4:5&fit=crop&crop=faces&auto=format" .) }} 768w,
-              {{ (printf "%s?w=1280&ar=4:5&fit=crop&crop=faces&auto=format" .) }} 1280w"
+              {{ (printf "%s?w=320&ar=4:3&fit=crop&crop=faces&auto=compress,format" .) }} 320w,
+              {{ (printf "%s?w=480&ar=4:3&fit=crop&crop=faces&auto=compress,format" .) }} 480w,
+              {{ (printf "%s?w=640&ar=4:3&fit=crop&crop=faces&auto=compress,format" .) }} 640w,
+              {{ (printf "%s?w=768&ar=4:5&fit=crop&crop=faces&auto=compress,format" .) }} 768w,
+              {{ (printf "%s?w=1280&ar=4:5&fit=crop&crop=faces&auto=compress,format" .) }} 1280w"
               >
             </picture>
           {{ end }}
@@ -111,10 +111,10 @@
               height="180"
               loading=lazy
               sizes="(min-width: 62em) 180px, 120px"
-              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }}"
+              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=compress,format" .) }}"
               srcset="
-              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=format" .) }} 120w,
-              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }} 180w,"
+              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=compress,format" .) }} 120w,
+              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=compress,format" .) }} 180w,"
               width="180"
             >
           {{ end }}
@@ -152,10 +152,10 @@
               height="180"
               loading=lazy
               sizes="(min-width: 62em) 180px, 120px"
-              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }}"
+              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=compress,format" .) }}"
               srcset="
-              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=format" .) }} 120w,
-              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }} 180w,"
+              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=compress,format" .) }} 120w,
+              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=compress,format" .) }} 180w,"
               width="180"
             >
           {{ end }}
@@ -194,12 +194,12 @@
                   (min-width: 64em) 30vw,
                   (min-width: 48em) 48vw,
                   100vw" 
-                src="{{ (printf "https://madebykind.imgix.net/%s?w=320&auto=format" $element.image) }}" 
+                src="{{ (printf "https://madebykind.imgix.net/%s?w=320&auto=compress,format" $element.image) }}" 
                 srcset="
-                  {{ (printf "https://madebykind.imgix.net/%s?w=320&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 320w,
-                  {{ (printf "https://madebykind.imgix.net/%s?w=480&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 480w,
-                  {{ (printf "https://madebykind.imgix.net/%s?w=680&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 680w,
-                  {{ (printf "https://madebykind.imgix.net/%s?w=920&ar=2:3&fit=crop&crop=faces&auto=format" $element.image) }} 920w"
+                  {{ (printf "https://madebykind.imgix.net/%s?w=320&ar=2:3&fit=crop&crop=faces&auto=compress,format" $element.image) }} 320w,
+                  {{ (printf "https://madebykind.imgix.net/%s?w=480&ar=2:3&fit=crop&crop=faces&auto=compress,format" $element.image) }} 480w,
+                  {{ (printf "https://madebykind.imgix.net/%s?w=680&ar=2:3&fit=crop&crop=faces&auto=compress,format" $element.image) }} 680w,
+                  {{ (printf "https://madebykind.imgix.net/%s?w=920&ar=2:3&fit=crop&crop=faces&auto=compress,format" $element.image) }} 920w"
                 height="1091"
                 width="726"
               >

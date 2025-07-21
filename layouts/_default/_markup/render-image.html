@@ -7,15 +7,15 @@
       class="object-fit"
       loading=lazy
       sizes="100vw"
-      src="{{ (printf "%s?w=320&auto=format" .) }}"
+      src="{{ (printf "%s?w=320&auto=compress,format" .) }}"
       srcset="
-    {{ (printf "%s?w=320&auto=format" .) }} 320w,
-    {{ (printf "%s?w=480&auto=format" .) }} 480w,
-    {{ (printf "%s?w=640&auto=format" .) }} 640w,
-    {{ (printf "%s?w=768&auto=format" .) }} 768w,
-    {{ (printf "%s?w=1280&auto=format" .) }} 1280w,
-    {{ (printf "%s?w=1440&auto=format" .) }} 1440w,
-    {{ (printf "%s?w=1920&auto=format" .) }} 1920w"
+    {{ (printf "%s?w=320&auto=compress,format" .) }} 320w,
+    {{ (printf "%s?w=480&auto=compress,format" .) }} 480w,
+    {{ (printf "%s?w=640&auto=compress,format" .) }} 640w,
+    {{ (printf "%s?w=768&auto=compress,format" .) }} 768w,
+    {{ (printf "%s?w=1280&auto=compress,format" .) }} 1280w,
+    {{ (printf "%s?w=1440&auto=compress,format" .) }} 1440w,
+    {{ (printf "%s?w=1920&auto=compress,format" .) }} 1920w"
       width="1024"
       {{- with $.Title | safeHTML -}}
         title="{{ . }}"

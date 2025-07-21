@@ -28,7 +28,7 @@
             loading=eager
             fetchpriority=high
             sizes="{{ $dataSizes }}"
-            src="{{ (printf "%s?w=640&auto=format" $src) }}"
+            src="{{ (printf "%s?w=640&auto=compress,format" $src) }}"
             srcset="
               {{- with $respSizes -}}
                 {{- range $i, $e := . -}}

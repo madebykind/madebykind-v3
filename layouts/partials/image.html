@@ -9,7 +9,7 @@
       {{- with $respSizes -}}
         {{- range $i, $e := . -}}
           {{- if $i }}, {{ end -}}
-          {{ $src }}?w={{ . }}&fm=webp {{ . }}w
+          {{ $src }}?w={{ . }}&auto=compress,format {{ . }}w
         {{- end -}}
       {{- end -}}" type="image/webp">
 
@@ -18,12 +18,12 @@
       class="{{ $.class }}" 
       loading=lazy 
       sizes="{{ $dataSizes }}"
-      src="{{ (printf "%s?w=640&auto=format" $src) }}"
+      src="{{ (printf "%s?w=640&auto=compress,format" $src) }}"
       srcset="
       {{- with $respSizes -}}
         {{- range $i, $e := . -}}
           {{- if $i }},{{ end -}}
-          {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
+          {{ $src }}?w={{ . }}&auto=compress,format {{ . }}w
         {{- end -}}
       {{- end -}}"
       width="1920">
