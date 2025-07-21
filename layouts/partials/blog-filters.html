@@ -1,6 +1,6 @@
 <nav aria-label="Filter posts by topic" data-topic-filters id="js--filters" class="container grid gap-5 section snap-start">
-	<h2 class="h--condensed sr-only">Filter by topic</h2>
-    <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
+  <p class="sr-only">Filter by topic</p>
+  <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
     <li>
       <button class="underline active before:bg-orange relative flex hover:text-blue focus:text-blue before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5" type="button" data-topic-filter-clear>All</button>
     </li>
@@ -12,15 +12,4 @@
       </li>
     {{ end }}
   </ul>
-  {{/*
-  <ul class="flex flex-wrap items-center gap-5 font-sans font-medium lg:gap-x-10">
-    {{ range (where .Site.Taxonomies.topics ".Page.Section" .Section ) }}
-      <li>
-        <button class="hover:text-blue focus:text-blue underline relative flex before:transition-colors duration-300 before:text-orange items-center before:flex before:h-2 lg:before:h-2.5 before:w-2 lg:before:w-2.5 before:rounded-full before:absolute before:-left-3 lg:before:-left-5 whitespace-nowrap" type="button" data-topic-filter="{{ .Page.Title | anchorize }}">
-          {{ title .Page.Title }}
-        </button>
-      </li>
-    {{ end }}
-  </ul>
-  */}}
 </nav>
