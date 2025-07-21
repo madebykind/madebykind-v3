@@ -1,5 +1,4 @@
 
 <h{{.Level}} id="{{ .Anchor | safeURL }}">
   {{ .Text | safeHTML }}
-  <a aria-labelledby="{{ .Anchor }}" class="sr-only text-md focus:not-sr-only" href="#{{ .Anchor | anchorize }}">🔗</a>
 </h{{ .Level }}>

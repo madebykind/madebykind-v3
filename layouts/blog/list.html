@@ -2,7 +2,7 @@
   {{ partial "header__landing.html" . }}
   {{ partial "blog-filters" . }}
   <section class="container snap-start">
-    {{#<h2 class="sr-only">Featured posts</h2>#}}
+    {{/*<h2 class="sr-only">Featured posts</h2>*/}}
     <ol class="grid gap-10 md:grid-cols-12 section ">
       {{ range ( where ( where .Pages "Params.featured" "==" true ) "Params.unlisted" "!=" true ) }}
         <li class="md:col-span-6 xl:col-span-4" data-topics="{{ with .Params.key_topic }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }} {{ with .Params.topics }}{{ range . }}{{ . | anchorize }} {{ end }}{{ end }}">
