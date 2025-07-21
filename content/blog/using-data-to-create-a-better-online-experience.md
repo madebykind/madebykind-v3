@@ -1,10 +1,10 @@
 ---
-hidden: false
 title: Using data to create a better online experience
 card_colour: bg-sky text-green
 date: 2016-06-03T16:22:20.909Z
 author: mat
 draft: false
+unlisted: true
 description: What if we could make data work for our users by creating a more
   relevant, engaging and personalised experience?
 toc: false
