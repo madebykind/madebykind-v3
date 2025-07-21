@@ -20,10 +20,10 @@
                   class="w-full h-full object-cover"
                   loading="lazy"
                   sizes="(min-width: 100em) 100vw"
-                  src="{{ (printf "%s?w=40&auto=format" .) }}" 
+                  src="{{ (printf "%s?w=40&auto=compress,format" .) }}" 
                   srcset="
-                {{ (printf "%s?w=40&auto=format" $src) }} 320w,
-                {{ (printf "%s?w=112&auto=format" $src) }} 768w"
+                {{ (printf "%s?w=40&auto=compress,format" $src) }} 320w,
+                {{ (printf "%s?w=112&auto=compress,format" $src) }} 768w"
                 >
               </picture>
             {{ end }}

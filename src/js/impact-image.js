@@ -11,7 +11,7 @@ function getImage(index, el) {
 }
 
 function getImageSrc(path) {
-  return path.replace("images", "https://madebykind.imgix.net") + "?w=720&ar=4:3&auto=format&fit=crop";
+  return path.replace("images", "https://madebykind.imgix.net") + "?w=720&ar=4:3&auto=compress,format&fit=crop";
 }
 
 function showImage(index, el) {

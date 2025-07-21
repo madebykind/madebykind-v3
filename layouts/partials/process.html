@@ -32,13 +32,13 @@
                 loading=eager
                 fetchpriority=high
                 sizes="(min-width: 100em) 33vw, 96vw"
-                src="{{ (printf "%s?w=100&auto=format" .) }}" 
+                src="{{ (printf "%s?w=100&auto=compress,format" .) }}" 
                 srcset="
-              {{ (printf "%s?w=100&auto=format" .) }} 320w,
-              {{ (printf "%s?w=480&auto=format" .) }} 480w,
-              {{ (printf "%s?w=640&auto=format" .) }} 640w,
-              {{ (printf "%s?w=800&auto=format" .) }} 800w,
-              {{ (printf "%s?w=800&auto=format" .) }} 1280w"
+              {{ (printf "%s?w=100&auto=compress,format" .) }} 320w,
+              {{ (printf "%s?w=480&auto=compress,format" .) }} 480w,
+              {{ (printf "%s?w=640&auto=compress,format" .) }} 640w,
+              {{ (printf "%s?w=800&auto=compress,format" .) }} 800w,
+              {{ (printf "%s?w=800&auto=compress,format" .) }} 1280w"
               >
             </picture>
           {{ end }}

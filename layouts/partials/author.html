@@ -12,11 +12,11 @@
       height="120" 
       loading="lazy" 
       sizes="(min-width: 90em) 240px,(min-width: 62em) 180px,120px"
-      src="{{ (printf "%s?w=240&auto=format" .) }}" 
+      src="{{ (printf "%s?w=240&auto=compress,format" .) }}" 
       srcset="
-        {{ (printf "%s?w=120&auto=format" .) }} 120w,
-        {{ (printf "%s?w=180&auto=format" .) }} 180w,
-        {{ (printf "%s?w=240&auto=format" .) }} 240w" 
+        {{ (printf "%s?w=120&auto=compress,format" .) }} 120w,
+        {{ (printf "%s?w=180&auto=compress,format" .) }} 180w,
+        {{ (printf "%s?w=240&auto=compress,format" .) }} 240w" 
       width="120"
     >
   {{ end }}

@@ -19,10 +19,10 @@
               height="180"
               loading=lazy
               sizes="(min-width: 62em) 180px, 120px"
-              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }}"
+              src="{{ (printf "%s?w=180&ar=1:1&fit=crop&auto=compress,format" .) }}"
               srcset="
-              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=format" .) }} 120w,
-              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=format" .) }} 180w,"
+              {{ (printf "%s?w=120&ar=1:1&fit=crop&auto=compress,format" .) }} 120w,
+              {{ (printf "%s?w=180&ar=1:1&fit=crop&auto=compress,format" .) }} 180w,"
               width="180"
             >
           {{ end }}
