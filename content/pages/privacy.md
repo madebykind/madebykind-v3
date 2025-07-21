@@ -32,7 +32,7 @@ Every 12 months we’ll ask you to confirm your subscription. If you don’t con
 
 ## How to complain
 
-We take complaints very seriously. If you’ve any reason to complain about the ways we handle your privacy, please contact [Mat Hayward] by email at <a href="mailto:mat@madebykind.com ">madebykind.com</a>.
+We take complaints very seriously. If you’ve any reason to complain about the ways we handle your privacy, please contact Mat Hayward by email at <a href="mailto:mat@madebykind.com">mat@madebykind.com</a>.
 ## Changes to this policy
 
 If we change the contents of this policy, those changes will become effective the moment we publish them on our website.
