@@ -15,6 +15,7 @@ key_topic:
   - Insights
   - Our impact
 illustration: "images/be-a-good-human.png"
+illustration_alt: A person climbing a ladder towards a large hand
 topics:
   - Accessibility
 intro: Experienced web developers ensure that accessibility is baked into

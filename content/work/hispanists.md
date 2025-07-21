@@ -116,7 +116,7 @@ client: AHGBI
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="Pages from AHGBI brand guidelines document" src="work-hispanists-guidelines.jpg" alt="" >}}
+{{< figure align="left" wrapperclass="Pages from AHGBI brand guidelines document" src="work-hispanists-guidelines.jpg" alt="Pages from the AHGBI brand guidelines" >}}
 
 
 {{< figure wrapperclass="" src="work-hispanists-mobile.jpg" alt="A mockup of the AHGBI website on a mobile device" >}}

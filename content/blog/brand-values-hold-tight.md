@@ -12,6 +12,7 @@ text_colour: text-white
 key_topic:
   - Insights
 illustration: images/take-the-reins.png
+illustration_alt: A young woman, looking behind her and taking a lead for a walk.
 topics:
   - Brand
   - Strategy
