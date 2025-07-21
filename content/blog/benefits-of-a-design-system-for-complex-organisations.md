@@ -7,6 +7,7 @@ author: mat
 cover_img: null
 cover_img_alt: null
 illustration: images/empowering-change.png
+illustration_alt: Illustration of a person holding a watering can that waters many plants
 draft: false
 services:
   - digital
