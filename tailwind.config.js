@@ -52,7 +52,7 @@ module.exports = {
         3: '3px',
       },
       fontFamily: {
-        display: ['Smithee'],
+        display: ['Smithee', 'Arial Narrow', 'Impact',...defaultTheme.fontFamily.sans],
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         serif: ['Marselis', ...defaultTheme.fontFamily.serif],
       },
