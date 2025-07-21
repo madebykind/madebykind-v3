@@ -12,6 +12,7 @@ summary: null
 key_topic:
   - Our Impact
 illustration: images/empower-change-v2.png
+illustration_alt: Illustration of a person holding a watering can that waters many plants
 topics:
   - Accessibility
   - Digital sustainability

@@ -1,10 +1,12 @@
 
 {{ $src := (.Params.illustration ) }}
 {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+{{ $alt := (.Params.illustration_alt ) }}
 
 {{ with $src }}
 
   <img
+    alt="{{ $alt }}"
     class="object-cover h-40 sm:h-64 md:h-24 lg:h-36 xl:h-64 w-auto"
     loading=lazy
     sizes="(min-width: 100em) 33vw, 96vw"
