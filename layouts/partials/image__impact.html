@@ -9,6 +9,7 @@
     alt="{{ $alt }}"
     class="object-cover"
     loading=eager
+    fetchpriority=high
     sizes="(min-width: 100em) 48vw, 96vw"
     src="{{ (printf "%s?w=320&auto=format" .) }}"
     srcset="
