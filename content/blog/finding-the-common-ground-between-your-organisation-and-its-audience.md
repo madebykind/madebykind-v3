@@ -28,7 +28,7 @@ related_pages: []
 related_posts:
   - creating-a-user-friendly-navigation-structure
   - creating-sustainable-and-ethical-digital-products
-  - using-data-to-create-a-better-online-experience
+  - improving-the-online-ticket-buying-experience
 ---
 Often, project owners or content creators (sometimes the same person) feel they intuitively understand their audience and will make assumptions based on this knowledge, only to be surprised when introducing new content or features has a negative impact.
 
