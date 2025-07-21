@@ -8,11 +8,11 @@ intro: We’re genuine, caring human beings who’ve chosen to use our skills to
 cover_img: images/27-02-23-Kind3398.jpg
 banner_images:
   - img: images/27-02-23-Kind3398.jpg
-    alt: 
+    alt: The Kind team
   - img: images/strategy-notes.jpg
-    alt: 
+    alt: Pam and Michelle in a strategy workshop
   - img: images/27-02-23-Kind3662.jpg
-    alt: 
+    alt: High-level view of three people around a wooden table, looking at digital designs of Backlit Gallery website on a laptop and a tablet
 stat_block:
   heading: Truly impact-driven
   #description: We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.
