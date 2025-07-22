@@ -1,9 +1,16 @@
 {{ define "main" }}
-<article class="overflow-hidden{{ with .Params.page_class }} {{ . }}{{ end }}">
+<article class="overflow-hidden flex flex-col{{ with .Params.page_class }} {{ . }}{{ end }}">
   
   {{ partial "header__work" . }}
 
-  <div class="container">
+  <div class="container pb-6 lg:pb-12 xl:pb-20 order-3">
+
+    {{ if isset .Params "banner_type" }}
+      {{ partial "banner" . }}
+    {{ end }}
+  </div>
+
+  <div class="container order-4">
     <div class="grid grid-cols-12 items-end gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section--lg">
      
       <div class="col-span-full lg:col-span-7 xl:col-span-6 flex flex-col gap-8 lg:gap-16">
@@ -65,15 +72,38 @@
   </div>
 
 
-  <div class="container font-light prose prose-page first:mt-10">
+  <div class="container font-light prose prose-page first:mt-10 order-5">
     {{- .Content -}}
   </div>
 
   {{ with .Params.impact }}
-  <div class="container section--lg">
+  <div class="container section--lg order-6">
     {{ partial "impact-block.html" . }}
   </div>
   {{ end }}
+
+  <div class="container py-6 lg:py-12 xl:py-20 order-2">
+ 
+    {{ if or (.Params.toc) (.Params.external_link) }}
+      <div class="flex flex-col lg:gap-6 lg:justify-between lg:flex-row w-full">
+        {{ if .Params.toc }}
+          <div class="flex flex-col lg:flex-row items-start gap-5 lg:gap-10 my-12 lg:my-0">
+            <h2 class="font-sans text-base font-normal">Deliverables:</h2>
+            {{ partial "toc" . }}
+          </div>
+        {{ end }}
+       
+        {{ with .Params.external_link }}
+          <a href="{{ . }}" class="font-sans inline-flex gap-2 items-start shrink-0 justify-self-end leading-none">
+            Launch project
+            <svg class="w-4 h-4 lg:w-5 lg:h-5 mt-1" role="presentation">
+              <use xlink:href="#icon-external"/>
+            </svg>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
 
 
   {{ if .Params.related_work }}
@@ -81,7 +111,7 @@
       "context" .Params.related_work
       "sector" .Params.sector
       "heading_class" "h--condensed h3 text-pink md:text-teal absolute z-20 top-5 md:relative md:top-0 md:mb-20"
-      "block_class" "bg-indigo text-buff mt-10 lg:mt-20 pb-10 md:pt-10 lg:py-20 relative" 
+      "block_class" "order-last bg-indigo text-buff mt-10 lg:mt-20 pb-10 md:pt-10 lg:py-20 relative" 
     ) }}
   {{ end }}
   
