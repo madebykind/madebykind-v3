@@ -20,6 +20,19 @@
         </div>
         {{ end }}
 
+        {{ if .Params.topics }}
+          <nav class="flex flex-col gap-5 max-w-xl">
+            <h3 class="text-md h--condensed">Services</h3>
+            <ul class="flex flex-col font-sans font-medium md:block md:columns-2 md:gap-x-10">
+              {{ range .Params.topics }}
+                {{ with site.GetPage . }}
+                <li class="text-sm lg:text-base py-0.5 md:py-1">{{ .Title }}</li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </nav>
+        {{ end }}
+
       </div>
 
       {{ if .Params.why }}
@@ -69,10 +82,12 @@
   </div>
   {{ end }}
 
+      {{/*
   <div class="container py-6 lg:py-12 xl:py-20 order-2">
  
     {{ if or (.Params.topics) (.Params.external_link) }}
       <div class="flex flex-col lg:gap-6 lg:justify-between lg:flex-row w-full">
+        
         {{ if .Params.topics }}
           <div class="flex flex-col lg:flex-row items-start gap-5 lg:gap-10 my-12 lg:my-0">
             <h2 class="font-sans text-base font-bold">Services:</h2>
@@ -101,6 +116,7 @@
       </div>
     {{ end }}
   </div>
+      */}}
 
 
 

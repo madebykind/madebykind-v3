@@ -8,8 +8,19 @@
   {{ end }}
   */}}
 
-  <div class="flex flex-col gap-12 lg:gap-24 mt-20">
-    <h1 class="h2 font-normal normal-case max-w-6xl text-balance order-last leading-tight">{{ .Params.preheading|safeHTML }}</h1>
+  <div class="flex flex-col gap-12 lg:gap-24 my-20">
+    <div class="flex flex-col gap-12 lg:gap-24 lg:flex-row lg:justify-between lg:items-end order-last">
+      <h1 class="h2 font-normal normal-case max-w-6xl text-balance leading-tight">{{ .Params.preheading|safeHTML }}</h1>
+
+        {{ with .Params.external_link }}
+          <a href="{{ . }}" class="font-sans inline-flex gap-2 items-start shrink-0 justify-self-end leading-none">
+            Launch project
+            <svg class="w-4 h-4 lg:w-5 lg:h-5 mt-1" role="presentation">
+              <use xlink:href="#icon-external"/>
+            </svg>
+          </a>
+        {{ end }}
+    </div>
     <h2 class="h1 max-w-6xl md:w-8/12 order-first">{{ .Params.Heading|safeHTML }}</h2>
   </div>
 
