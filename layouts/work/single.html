@@ -11,26 +11,13 @@
   </div>
 
   <div class="container order-4">
-    <div class="grid grid-cols-12 items-end gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section--lg">
+    <div class="grid grid-cols-12 items-center gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section--lg">
      
       <div class="col-span-full lg:col-span-7 xl:col-span-6 flex flex-col gap-8 lg:gap-16">
        {{ with .Params.intro }}
         <div class="max-w-4xl lede prose">
           {{ . | markdownify }}
         </div>
-        {{ end }}
-
-        {{ if .Params.topics }}
-          <nav class="flex flex-col gap-5 max-w-xl">
-            <h2 class="text-md h--condensed">Services</h2>
-            <ul class="flex flex-col font-sans font-medium md:block md:columns-2 md:gap-x-10">
-              {{ range .Params.topics }}
-                {{ with site.GetPage . }}
-                <li class="text-sm lg:text-base py-0.5 md:py-1">{{ .Title }}</li>
-                {{ end }}
-              {{ end }}
-            </ul>
-          </nav>
         {{ end }}
 
       </div>
@@ -84,12 +71,22 @@
 
   <div class="container py-6 lg:py-12 xl:py-20 order-2">
  
-    {{ if or (.Params.toc) (.Params.external_link) }}
+    {{ if or (.Params.topics) (.Params.external_link) }}
       <div class="flex flex-col lg:gap-6 lg:justify-between lg:flex-row w-full">
-        {{ if .Params.toc }}
+        {{ if .Params.topics }}
           <div class="flex flex-col lg:flex-row items-start gap-5 lg:gap-10 my-12 lg:my-0">
-            <h2 class="font-sans text-base font-normal">Deliverables:</h2>
-            {{ partial "toc" . }}
+            <h2 class="font-sans text-base font-bold">Services:</h2>
+
+            <nav class="leading-none">
+              <ol class="flex flex-col sm:flex-row sm:flex-wrap font-sans gap-5 lg:gap-x-10">
+                {{ range .Params.topics }}
+                  {{ with site.GetPage . }}
+                  <li class="">{{ .Title }}</li>
+                  {{ end }}
+                {{ end }}
+              </ol>
+            </nav>
+
           </div>
         {{ end }}
        
@@ -104,6 +101,8 @@
       </div>
     {{ end }}
   </div>
+
+
 
 
   {{ if .Params.related_work }}
