@@ -24,7 +24,7 @@ toc:
 intro: Our expertise in digital and brand strategy supports organisations that are doing good.
 
 # SEO
-description: We combine expertise in digital, branding and strategy with an unwavering commitment to social change.
+description: Our expertise in digital and brand strategy supports organisations that are doing good.
 social_img_color: "pink"
 
 # Services
