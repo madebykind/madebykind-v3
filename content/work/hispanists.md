@@ -6,7 +6,7 @@ title: Brand and website for the Association of Hispanists
 description: An evocative brand identity and uncomplicated website delivery
 sector: for-people
 topics:
-  - services/brand/visual-identity
+  - Visual identity
 services:
   - brand
 related_work:

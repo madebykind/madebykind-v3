@@ -7,8 +7,8 @@ description: An engaging and playful brand identity for a long-serving youth cha
 social_img: images/work-base51-imagery-1.jpg
 sector: for-people
 topics:
-  - services/brand/brand-strategy
-  - services/brand/visual-identity
+  - Brand strategy
+  - Visual identity
 services:
   - brand
 related_work:

@@ -6,11 +6,11 @@ title: Brand and website for Cardiff-based art centre, Chapter
 description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
 sector: for-people
 topics:
-  - services/brand/brand-strategy
-  - services/brand/visual-identity
-  - services/brand/visual-identity
-  - services/digital/user-centred-design
-  - services/digital/content-management
+  - Brand strategy
+  - Visual identity
+  - Visual identity
+  - User-centred design
+  - Content management
 services:
   - brand
   - digital

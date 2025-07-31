@@ -25,9 +25,7 @@
             <h3 class="text-md h--condensed">Services</h3>
             <ul class="flex flex-col font-sans font-medium md:block md:columns-2 md:gap-x-10">
               {{ range .Params.topics }}
-                {{ with site.GetPage . }}
-                <li class="text-sm lg:text-base py-0.5 md:py-1">{{ .Title }}</li>
-                {{ end }}
+                <li class="text-sm lg:text-base py-0.5 md:py-1">{{ . }}</li>
               {{ end }}
             </ul>
           </nav>
