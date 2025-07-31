@@ -15,7 +15,7 @@ services:
   - strategy
   - digital
 related_work:
-  - work/garden-organic
+  - work/the-wilderness-project
   - work/the-rivers-trust
 
 # Content
