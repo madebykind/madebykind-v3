@@ -56,8 +56,6 @@
     # Multi-value headers are expressed with multi-line strings
     cache-control = '''
     max-age=31536000,
-    no-cache,
-    no-store,
     must-revalidate'''
 
 [[headers]]

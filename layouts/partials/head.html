@@ -3,6 +3,8 @@
   {{ $seo_title = . }}
 {{ end }}
 
+{{ $cacheBust := time.Now.Unix }}
+
 <head>
 	<!-- Ultra-turbo-features_v8. The best version. -->
 	<meta charset="utf-8">
@@ -23,11 +25,11 @@
 	<link rel="manifest" href="{{ .Site.BaseURL }}assets/manifest.json">
 
   <!-- Fonto rapido pronto! -->
-  <link rel="preload" href="/assets/marselislight-subset.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/marselisbold-subset.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/smithee-subset.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/inter-roman.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/inter-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/marselislight-subset.woff2?" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/marselisbold-subset.woff2?" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/smithee-subset.woff2?" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/inter-roman.woff2?" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/inter-italic.woff2?" as="font" type="font/woff2" crossorigin>
 
 	<!-- Favicone bologne -->
 	<link rel="apple-touch-icon" href="{{ "favicon.png" | absURL }}">
@@ -40,8 +42,8 @@
 		<script type="module" src="http://localhost:5173/@vite/client"></script>
 		<script type="module" src="http://localhost:5173/src/main.js"></script>
 	{{ else }}
-		<link rel="stylesheet" href="/assets/main.css" media="screen">
-		<script type="module" src="/assets/app.js" async></script>
+		<link rel="stylesheet" href="/assets/main.css?{{ $cacheBust }}" media="screen">
+		<script type="module" src="/assets/app.js?{{ $cacheBust }}" async></script>
 	{{ end }}
 
 	<!-- Hugo internal meta templates -->

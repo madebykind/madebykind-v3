@@ -16,6 +16,11 @@ export default ({command}) => ({
 		rollupOptions: {
 			input: {
 				app: './src/main.js',
+			},
+			output: {
+				entryFileNames: '[name].js',
+				chunkFileNames: '[name].js',
+				assetFileNames: '[name].[ext]',
 			}
 		}
 	},
