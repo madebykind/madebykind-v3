@@ -22,17 +22,59 @@
   .bleed {
     margin-left: -4vw;
     margin-right: -4vw;
+    
+    @media only screen and (min-width: 130.43rem) {
+      margin-left: calc( ( 100vw - var(--max-width-container) ) / -2 );
+      margin-right: calc( ( 100vw - var(--max-width-container) ) / -2 );
+    }
   }
 
   .bleed-right {
     margin-right: -4vw;
+    
+    @media only screen and (min-width: 130.43rem) {
+      margin-right: calc( ( 100vw - var(--max-width-container) ) / -2 );
+    }
   }
   
   .bleed-left {
     margin-left: -4vw;
+
+    @media only screen and (min-width: 130.43rem) {
+      margin-left: calc( ( 100vw - var(--max-width-container) ) / -2 );
+    }
   }
 
   .bleed-none {
     @apply mx-0;
+  }
+
+
+  .bleed-padding {
+    padding-right: 4vw;
+    padding-left: 4vw;
+
+    @media only screen and (min-width: 130.43rem) {
+      padding-right: calc( ( 100vw - var(--max-width-container) ) / 2 );
+      padding-left: calc( ( 100vw - var(--max-width-container) ) / 2 );
+    }
+  }
+
+
+  .bleed-padding-left {
+    padding-left: 4vw;
+
+    @media only screen and (min-width: 130.43rem) {
+      padding-left: calc( ( 100vw - var(--max-width-container) ) / 2 );
+    }
+  }
+
+
+  .bleed-padding-right {
+    padding-right: 4vw;
+
+    @media only screen and (min-width: 130.43rem) {
+      padding-right: calc( ( 100vw - var(--max-width-container) ) / 2 );
+    }
   }
 }
