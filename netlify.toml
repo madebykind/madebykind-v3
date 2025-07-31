@@ -43,6 +43,11 @@
     payment=(),
     usb=()
     '''
+    Netlify-CDN-Cache-Control = '''
+    public,
+    s-maxage=31536000,
+    must-revalidate
+    '''
     Strict-Transport-Security = '''
     max-age=31536000;
     includeSubDomains;
@@ -50,7 +55,7 @@
     '''
     # Multi-value headers are expressed with multi-line strings
     cache-control = '''
-    max-age=0,
+    max-age=31536000,
     no-cache,
     no-store,
     must-revalidate'''
