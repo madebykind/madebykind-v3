@@ -27,6 +27,7 @@ sectors:
     illustration_alt: An illustration of group of trees, with legs
 impacts:
   - work/unesco
+  - work/the-wilderness-project
   - work/bookmark
   - work/rewilding-britain
   - work/vanda

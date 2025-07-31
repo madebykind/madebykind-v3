@@ -9,7 +9,9 @@ function SlideShow(el) {
 
   slides.forEach(function(e, index) {
     if (index > 0) {
-      e.classList.add(...['absolute','inset-0','opacity-0', 'transition-all', 'duration-500', 'ease-in-out']);
+      e.classList.add(...['absolute','inset-0', 'transition-all', 'duration-500', 'ease-in-out', 'opacity-0', 'z-0']);  
+    } else {
+      e.classList.add(...['absolute','inset-0', 'transition-all', 'duration-500', 'ease-in-out', 'z-10']);  
     }
   });
 
