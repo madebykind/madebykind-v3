@@ -1,34 +1,28 @@
-<header class="container flex flex-col pt-8 gap-6 lg:gap-12 xl:gap-20 {{ with .Params.header_class }} {{ . }}{{ end }}" >
+<header class="container flex flex-col pt-8 gap-6 lg:gap-12 xl:gap-20 order-1 {{ with .Params.header_class }} {{ . }}{{ end }}" >
   
+  {{/*
   {{ with .Params.icon }}
   <svg class="w-24 h-12 lg:w-36 lg:h-18 flex-no-shrink" role="presentation">
     <use xlink:href="#icon-{{ . }}"/>
   </svg>
   {{ end }}
+  */}}
 
-	<h1 class="max-w-6xl md:w-8/12">{{ .Params.Heading|safeHTML }}</h1>
- 
-  {{ if or (.Params.toc) (.Params.external_link) }}
-    <div class="flex flex-col lg:gap-6 lg:justify-between lg:flex-row w-full">
-      {{ if .Params.toc }}
-        <div class="flex flex-col lg:flex-row items-start gap-5 lg:gap-10 my-12 lg:my-0">
-          <h2 class="font-sans text-base font-normal">Deliverables:</h2>
-          {{ partial "toc" . }}
-        </div>
-      {{ end }}
-     
-      {{ with .Params.external_link }}
-        <a href="{{ . }}" class="font-sans inline-flex gap-2 items-start shrink-0 justify-self-end leading-none">
-          Launch project
-          <svg class="w-4 h-4 lg:w-5 lg:h-5 mt-1" role="presentation">
-            <use xlink:href="#icon-external"/>
-          </svg>
-        </a>
-      {{ end }}
+  <div class="flex flex-col gap-12 lg:gap-24 my-20">
+    <div class="flex flex-col gap-12 lg:gap-24 lg:flex-row lg:justify-between lg:items-end order-last">
+      <h1 class="h2 font-normal normal-case max-w-6xl text-balance leading-tight">{{ .Params.preheading|safeHTML }}</h1>
+
+        {{ with .Params.external_link }}
+          <a href="{{ . }}" class="font-sans inline-flex gap-2 items-start shrink-0 justify-self-end leading-none">
+            Launch project
+            <svg class="w-4 h-4 lg:w-5 lg:h-5 mt-1" role="presentation">
+              <use xlink:href="#icon-external"/>
+            </svg>
+          </a>
+        {{ end }}
     </div>
-  {{ end }}
+    <h2 class="h1 max-w-6xl md:w-8/12 order-first">{{ .Params.Heading|safeHTML }}</h2>
+  </div>
 
-  {{ if isset .Params "banner_type" }}
-    {{ partial "banner" . }}
-  {{ end }}
 </header>
+

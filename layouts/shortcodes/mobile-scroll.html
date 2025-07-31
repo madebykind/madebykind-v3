@@ -9,13 +9,23 @@
 {{- $wrapper_class := .Get "wrapper_class" -}}
 
 
+{{ $bgClass := "bg-white" }}
+{{ $borderClass := "border-indigo" }}
+{{ with .Get "bgclass" }}
+  {{ $bgClass = . }}
+{{ end }}
+{{ with .Get "borderclass" }}
+  {{ $borderClass = . }}
+{{ end }}
+
+
 {{ if $align }}<div class="grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">{{ end }}
-  <div class="flex bg-white items-center p-12 h-full
+  <div class="flex {{ $bgClass }} items-center p-12 h-full
     {{ if $align }} lg:col-span-4 col-span-12 {{ end }}
     {{ if eq $align "middle" }} lg:col-span-4 lg:col-start-5 {{ end }}
     {{ if eq $align "right" }} lg:col-span-4 lg:col-start-9 {{ end }}">
     <div class="w-full flex justify-center">
-      <div class="border-indigo border-3 rounded-2xl overflow-hidden drop-shadow-2xl {{ $wrapper_class }}" data-phone-scroll {{ with .Get "speed"}}data-scroll-speed="{{ . }}"{{ end }} {{ if .Get "loop"}}data-scroll-loop="true"{{ end }}>
+      <div class="{{ $borderClass }} border-3 rounded-2xl overflow-hidden drop-shadow-2xl {{ $wrapper_class }}" data-phone-scroll {{ with .Get "speed"}}data-scroll-speed="{{ . }}"{{ end }} {{ if .Get "loop"}}data-scroll-loop="true"{{ end }}>
         <picture class="transition-all ease-linear relative top-0">
 
           <source sizes="{{ $dataSizes }}" srcset="

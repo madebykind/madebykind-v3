@@ -6,10 +6,10 @@ title: Website and online membership portal for Garden Organic
 description: Launching a new brand identity through a CRM integrated website
 sector: for-planet
 topics:
-  - services/brand/visual-identity
-  - services/digital/user-centred-design
-  - services/digital/content-management
-  - services/digital/crm-integration
+  - Visual identity
+  - User-centred design
+  - Content management
+  - CRM integration
 related_work:
   - work/rewilding-britain
   - work/the-rivers-trust

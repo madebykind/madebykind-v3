@@ -6,8 +6,8 @@ title: User-centred discovery and digital knowledge base for UNESCO
 description: A global user-centred design process that led to the delivery of a digital repository of resources to ensure education in emergencies
 sector: for-people
 topics:
-  - services/brand/visual-identity
-  - services/digital/user-centred-design
+  - Visual identity
+  - User-centred design
 services:
   - brand
   - digital

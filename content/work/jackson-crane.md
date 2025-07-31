@@ -6,7 +6,7 @@ title: Marketing strategy for sustainable architecture practice, Jackson-Crane
 description: Bringing focus to an award-winning contemporary architecture practice that focuses on sustainability.
 sector: for-planet
 topics:
-  - services/brand/visual-identity
+  - Visual identity
 services:
   - strategy
 related_work:

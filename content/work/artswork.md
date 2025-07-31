@@ -7,10 +7,10 @@ description: A colourful and playful brand refresh and CRM integrated website
 social_img: images/work-artswork-photo-1.jpg
 sector: for-people
 topics:
-  - services/brand/visual-identity
-  - services/digital/user-centred-design
-  - services/digital/content-management
-  - services/digital/crm-integration
+  - Visual identity
+  - User-centred design
+  - Content management
+  - CRM integration
 services:
   - brand
   - digital
@@ -19,7 +19,8 @@ related_work:
   - work/bookmark
 
 # Content
-heading: Empowering young people using creativity for change
+heading: Empowering young people to use creativity for change
+preheading: Brand development and website delivery for a youth creative charity.
 intro: >
   Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
 why:

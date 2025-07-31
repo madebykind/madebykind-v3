@@ -1,0 +1,24 @@
+# Kind
+
+> Made by Kind is a UK-based ethical creative agency working exclusively with charities and non-profits, delivering brand strategy, design and digital experiences that drive real social and environmental impact.
+
+We combine strategic thinking, creative design and digital delivery to support socially responsible organisations across people, planet and culture.
+
+
+## Services
+- [Brand Strategy & Visual Identity](https://madebykind.com/services/brand/): Building meaningful, values-led identities for charities and nonprofits
+- [Digital & Web Design](https://madebykind.com/services/digital/): Accessible, sustainable websites for mission-driven organisations.
+- [Strategy & Research](https://madebykind.com/services/): Combining insight and design thinking to inform mission-driven work, aligning impact with audience needs.
+
+## Work
+- [Client Work](https://madebykind.com/work/): Selected case studies across climate, culture, education, and equality.
+
+## Insights
+- [Blog](https://madebykind.com/blog/): Articles on ethical design, sustainable practices, and creative strategy.
+
+## About
+- [About Us](https://madebykind.com/about/): Meet our team, values, and how we work.
+- [Our Impact](https://madebykind.com/about/our-impact/): Transparency around sustainability, accessibility, and giving back.
+
+## Get in touch
+- [Contact](https://madebykind.com/contact/): Reach out to us about partnerships or projects.
