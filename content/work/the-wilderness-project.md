@@ -66,8 +66,6 @@ impact_teaser:
 
 ---
 
-
-
 {{< workquote source="The Wilderness Project Vision" logo="logo-square-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." >}}As an army of allies – pan-African, multi-skilled, cross-generational – we are willing a different future together. Join us.{{</ workquote >}}
 
 <!-- Text left -->
