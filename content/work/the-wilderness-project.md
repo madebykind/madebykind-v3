@@ -78,7 +78,6 @@ impact_teaser:
   </div>
 </div>
 
-
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-twp-scenery.jpg" alt="" >}}
   <div class="col-span-full lg:col-span-4">
