@@ -15,8 +15,9 @@ services:
   - strategy
   - digital
 related_work:
-  - work/the-wilderness-project
+#  - work/the-wilderness-project
   - work/the-rivers-trust
+  - work/garden-organic
 
 # Content
 heading: A platform to inspire rewilding projects across the country

@@ -13,7 +13,8 @@ services:
   - digital
 related_work:
   - work/rewilding-britain
-  - work/the-wilderness-project
+  - work/garden-organic
+#  - work/the-wilderness-project
 
 # Content
 heading: A user-centred website to build awareness and gain public support
