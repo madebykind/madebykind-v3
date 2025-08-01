@@ -1,12 +1,12 @@
 ---
 # Meta
-draft: true
 date: 2025-07-31T11:07:38.606Z
 weight: 3
 title: Brand development and delivery for environmental charity, The Wilderness Project
 description: Website and visual identity to help an organisation protecting Africa's fresh waters
 sector: for-planet
 topics:
+  - Brand strategy
   - Tone of voice
   - Visual identity
   - User-centred design
@@ -21,17 +21,17 @@ related_work:
 # Content
 heading: Building a brand story that protects fresh water wilderness
 preheading: Brand development and website delivery for African environmental charity.
-intro: "<p>We developed a brand strategy that honours original storytellers and their discoveries. Subtle brand refinements and a distinct visual language bring depth and motion, guiding the audience through an inspiring journey. Every design choice; from colour and typography to UX, works to inspire, engage, and communicate urgency with clarity and purpose.</p>"
+intro: "<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti.</p>"
 why:
-  text: "With waterways under increasing pressure, understanding and urgency around these fragile systems felt essential – a chance to contribute to meaningful change."
+  text: "With waterways under increasing pressure, understanding and urgency around these fragile systems is essential."
   person: pam
 impact:
   text: We refined the existing logo to support the brand’s future growth and created an illustration style inspired by expedition scientists’ field sketches, capturing their observations, discoveries and processes using pen on paper. Expressive, hand-drawn graphic elements guide attention and build visual rhythm, reflecting the way people highlight important details in personal notes. The refreshed colour palette reflects the varied landscapes the brand moves through – they are cool, calm and professional. 
 
 
     The aim was to immerse the audience in the expeditions, offering a window into the daily experiences of scientists, local communities and the vast network of waterways, while bringing a sense of immediacy and momentum that reinforces the urgency of their mission.
-  img: images/work-twp-hero-3.jpg
-  img_alt: "A person stands beside two canoes on the shore of a misty river at sunrise, surrounded by reeds and trees."
+  img: images/work-twp-impact.jpg
+  img_alt: "Three elephants walk through shallow water in a vast wetland landscape with scattered vegetation and a clear sky."
 
 # Header
 banner_type: slideshow
@@ -68,17 +68,15 @@ impact_teaser:
 
 
 
-{{< workquote source="The Wilderness Project Vision" logo="logo-square-twp" img="images/work-rewilding-britain-sea-kelp.jpg" alt="Sea kelp seen from above the water" >}}As an army of allies – pan-African, multi-skilled, cross-generational – we are willing a different future together. Join us.{{</ workquote >}}
+{{< workquote source="The Wilderness Project Vision" logo="logo-square-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." >}}As an army of allies – pan-African, multi-skilled, cross-generational – we are willing a different future together. Join us.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Lorem ipsum
+  ## Brand strategy
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam.
-
-  Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti.   
+  We developed a brand strategy that honours original storytellers and their discoveries. Subtle brand refinements and a distinct visual language bring depth and motion, guiding the audience through an inspiring journey. Every design choice; from colour and typography to UX, works to inspire, engage, and communicate urgency with clarity and purpose.
   </div>
 </div>
 
