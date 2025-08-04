@@ -21,6 +21,7 @@ related_work:
 
 # Content
 heading: A platform to inspire rewilding projects across the country
+preheading: Digital partnership with environmental charity, Rewilding Britain.
 intro: "<p>Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.</p>"
 why:
   text: "In my opinion, rewilding is the greatest hope we have for a sustainable, biodiverse and fair future."

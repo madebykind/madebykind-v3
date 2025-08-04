@@ -18,6 +18,7 @@ services:
 
 # Content
 heading: Growing organically for a healthy and sustainable world
+preheading: Website and CRM-integrated member area for UK's organic gardening charity.
 intro: Through campaigning, advice, community work, conservation and research, Garden Organic help gardeners cultivate a healthier, more biodiverse and sustainable world.
 why:
   text: British people love gardening, and doing so organically helps connect them with nature and the environment and can lead to improved health, well-being, and food security.

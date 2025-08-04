@@ -17,7 +17,8 @@ related_work:
 #  - work/the-wilderness-project
 
 # Content
-heading: A user-centred website to build awareness and gain public support
+heading: Raising public awareness of Britain’s poor river health
+preheading: User-centred website for environmental charity, The Rivers Trust.
 intro: >
 
     The Rivers Trust aims to bring together the people, knowledge, data and intelligence to help rivers thrive again; for us and future generations.

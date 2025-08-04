@@ -1,9 +1,14 @@
 {{ $heading := "" }}
+{{ $headingLevel := "h2" }}
 {{ $container := true }}
 {{ $hideservices := false }}
 
 {{ if .heading }}
   {{ $heading = .heading }}
+{{ end }}
+
+{{ if .headingLevel }}
+  {{ $headingLevel = .headingLevel }}
 {{ end }}
 
 {{ if .hide_services }}
@@ -24,7 +29,11 @@
 <aside class="{{ .block_class }}">
   <div class="{{ if $container }} container {{ end }}">
     {{ if $heading }}
+      {{ if eq $headingLevel "h3" }}
+      <h3 class="{{ .heading_class }}">{{ $heading }}</h3>
+      {{ else }}
       <h2 class="{{ .heading_class }}">{{ $heading }}</h2>
+      {{ end }}
     {{ end }}
 
     <ol class="grid grid-cols-1 md:grid-cols-12 gap-10">

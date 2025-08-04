@@ -19,7 +19,8 @@ related_work:
   - work/vanda
 
 # Content
-heading: Brand development of an international arts centre
+heading: Helping a pioneering arts centre reflect its evolving mission
+preheading: Brand development and website delivery for Chapter.
 intro: >
 
   Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.
