@@ -2,7 +2,7 @@
 # Meta
 date: 2024-07-25T10:52:34.342Z
 weight: 5
-title: Brand delivery for Algrano
+title: "Ethical branding: Algrano"
 description: Launching a refreshed identity through animation, video production and tone of voice
 social_img: images/work-algrano-growers.jpg
 sector: for-people
@@ -20,6 +20,7 @@ related_work:
 
 # Content
 heading: Ensuring a fair deal across the global coffee community
+preheading: Brand delivery for Algrano - a distruptor changing the power dynamics in the coffee industry.
 intro: Understanding there was a deep imbalance and asymmetry in the coffee industry, Algrano’s founders sought to disrupt the monopolised industry structure by using online tools, trusted partnerships, price transparency, and shipping management to put roasters in direct touch with the producers growing coffee at source. 
 why:
   text: There is a deep imbalance in the coffee industry and Algrano seeks to disrupt that. Putting roasters in direct contact with the producers growing coffee at source and ensuring fair and equitable business for everyone.

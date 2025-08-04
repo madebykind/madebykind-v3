@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T13:51:18.140Z
 weight: 9
-title: Marketing strategy for sustainable architecture practice, Jackson-Crane
+title: Marketing strategy for sustainable architects, Jackson-Crane
 description: Bringing focus to an award-winning contemporary architecture practice that focuses on sustainability.
 sector: for-planet
 topics:
@@ -14,7 +14,8 @@ related_work:
   - work/vanda
 
 # Content
-heading: Bringing focus to a sustainable architecture and interior design practice
+heading: Bringing focus to a contemporary architecture practice
+preheading: Marketing strategy for sustainable architects, Jackson-Crane.
 intro: Jackson-Crane Architects we founded by David Jackson-Crane in 2017, as a
   small practice he needed help to take his big ideas for his company and
   fashion them into a strategic plan which would help support stability and then
@@ -59,7 +60,7 @@ client: Jackson-Crane
 ---
 
 {{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" >}}
-Our mission is to create sustainable, environmentally conscious and high performing architectural and interior design for like-minded, progressive clients and to exceed expectations on each project
+Our mission is to create sustainable, environmentally conscious and high performing architectural design for like-minded, progressive clients.
 {{</ workquote >}}
 
 

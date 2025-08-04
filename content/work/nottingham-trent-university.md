@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T10:52:34.342Z
 weight: 10
-title: Digital strategy and design system delivery for Nottingham Trent University
+title: University digital strategy and design system delivery, NTU
 description: A user-centred realignment of the University of the Year’s website
 sector: for-people
 topics:
@@ -18,6 +18,7 @@ related_work:
 
 # Content
 heading: A user-centred realignment of the University of the Year’s website
+preheading: Digital strategy and design system delivery for Nottingham Trent University.
 intro: >
 
     NTU are one of the largest and most influential higher education institutions in the UK and the second most sustainable university in the world. A university that opens its arms to all, they were the first to sign up to the Government’s social mobility pledge, demonstrating a commitment to improving the prospects of young people from disadvantaged backgrounds.

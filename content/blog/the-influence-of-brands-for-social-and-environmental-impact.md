@@ -5,6 +5,7 @@ date: 2024-05-02T13:21:16.220Z
 author: michelle
 draft: false
 featured: true
+seo_title: Ethical brands influencing social and environmental impact
 description: Brands have the potential to be powerful agents of change, driving social and environmental impact.
 toc: false
 cover_img: images/patagonia-thrawn.jpg

@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T10:52:34.342Z
 weight: 4
-title: Brand and website for the Association of Hispanists
+title: Branding for academic organisation, the Association of Hispanists
 description: An evocative brand identity and uncomplicated website delivery
 sector: for-people
 topics:
@@ -15,6 +15,7 @@ related_work:
 
 # Content
 heading: Connecting global Iberian academia
+preheading: Branding for academic organisation, the Association of Hispanists.
 intro: >
   AHGBI (Association of Hispanists of Great Britain and Ireland) represents a dynamic collective of skilled researchers and educators spanning Hispanic and Lusophone Studies. Grounded in a commitment to research, knowledge production, and dissemination, it became evident that their passion, vibrancy, and sense of community deserved expression through a revitalised brand identity and forthcoming website.
 # why:

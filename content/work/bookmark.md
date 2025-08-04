@@ -2,7 +2,7 @@
 # Meta
 date: 2024-07-25T10:52:34.342Z
 weight: 2
-title: Website for Bookmark Reading charity
+title: Website design for charity, Bookmark Reading
 description: A fun, playful website with clear journeys and integrated help-centre for a childhood literacy charity
 social_img: images/work-bookmark-laptop-child.jpg
 sector: for-people
@@ -19,6 +19,7 @@ related_work:
 
 # Content
 heading: Raising awareness of the childhood literacy gap in the UK 
+preheading: User-centred website and online help-centre for Bookmark Reading.
 intro: 1 in 4 Children in England cannot read well when they leave primary school. Children unable to read well will face difficulties for the rest of school and beyond, devastatingly impacting their life chances. This results in 7.1 million adults in England who struggle to read and face challenges every day – at home, on the move, in the workplace, and with their friends and families.
 why:
   text: We were inspired by Bookmark's commitment and dedication to making a real change, and wanted their online presence to reflect their important work.

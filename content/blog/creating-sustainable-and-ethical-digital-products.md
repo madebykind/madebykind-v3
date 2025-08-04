@@ -8,6 +8,7 @@ cover_img: images/becca-tapert-qofjunxy9ly-unsplash.jpg
 text_colour: text-white
 cover_img_alt: A woman looking a phone, outside by a lake in the dark
 draft: false
+seo_title: "Digital sustainability: Creating ethical digital products"
 description: How can we adapt our process to create usable and useful products
   that are environmentally and ethically sound?
 toc: false

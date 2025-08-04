@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T12:58:42.437Z
 weight: 6
-title: Website and online membership portal for Garden Organic
+title: Website design for charity, Garden Organic
 description: Launching a new brand identity through a CRM integrated website
 sector: for-planet
 topics:
@@ -18,6 +18,7 @@ services:
 
 # Content
 heading: Growing organically for a healthy and sustainable world
+preheading: Website and CRM-integrated member area for UK's organic gardening charity.
 intro: Through campaigning, advice, community work, conservation and research, Garden Organic help gardeners cultivate a healthier, more biodiverse and sustainable world.
 why:
   text: British people love gardening, and doing so organically helps connect them with nature and the environment and can lead to improved health, well-being, and food security.

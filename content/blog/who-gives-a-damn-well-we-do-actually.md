@@ -8,9 +8,8 @@ cover_img: images/work-shu-kind-team.jpg
 text_colour: text-white
 cover_img_alt: Kind team sat around a wooden table having a laugh!
 draft: false
-description: In the time-honoured tradition of businesses rebranding and
-  launching their own website and promoting it to high heaven, we’re doing that
-  ourselves this week, and for what reason?
+seo_title: "We give a damn: Our ethical creative agency"
+description: In the time-honoured tradition of businesses rebranding and launching their own website and promoting it to high heaven, we’re doing that ourselves this week, and for what reason?
 toc: false
 featured: true
 key_topic:

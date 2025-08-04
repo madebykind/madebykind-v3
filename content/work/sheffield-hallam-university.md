@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T13:59:11.952Z
 weight: 5
-title: Digital partnership and design system delivery for Sheffield Hallam University
+title: Digital partnership and design system for university, SHU
 description: User-centred design system for one of the UK’s largest and most
   diverse universities
 sector: for-people
@@ -21,12 +21,8 @@ related_work:
 
 # Content
 heading: Creating a sustainable design system to improve the efficiency of digital projects
-intro: "Sheffield Hallam University is one of the UK’s largest and most diverse
-  universities and pride themselves on the applied nature of their courses,
-  offering thousands of placements and real-world opportunities every year with
-  guaranteed work experience on their degree courses. Sheffield Hallam wanted to
-  stand out in the busy landscape of Higher Education as an education provider
-  who add real long-term value to their students."
+preheading: Digital partnership and design system with Sheffield Hallam University.
+intro: "Sheffield Hallam University is one of the UK’s largest and most diverse universities and pride themselves on the applied nature of their courses, offering thousands of placements and real-world opportunities every year with guaranteed work experience on their degree courses. Sheffield Hallam wanted to stand out in the busy landscape of Higher Education as an education provider who add real long-term value to their students."
 # why:
 #   text: 
 #   person: 

@@ -3,7 +3,7 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 2
 title: Brand
-seo_title: Brand strategy and visual identity for charities and non-profits
+seo_title: Non-profit and charity branding, strategy and visual identity
 description: Branding for charities and non-profits. We build meaningful, values-led identities that help you connect and stand out.
 layout: primary
 

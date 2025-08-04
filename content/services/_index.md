@@ -24,6 +24,7 @@ toc:
 intro: Our expertise in digital and brand strategy supports organisations that are doing good.
 
 # SEO
+seo_title: "Brand, Strategy and Digital services for non-profits"
 description: Our expertise in digital and brand strategy supports organisations that are doing good.
 social_img_color: "pink"
 

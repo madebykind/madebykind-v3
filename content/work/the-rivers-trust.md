@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T12:26:29.707Z
 weight: 7
-title: Website and member portal for The Rivers Trust
+title: Website design for charity, The Rivers Trust
 description: A user-centred website to build awareness and gain public support
 sector: for-planet
 topics:
@@ -17,7 +17,8 @@ related_work:
 #  - work/the-wilderness-project
 
 # Content
-heading: A user-centred website to build awareness and gain public support
+heading: Raising public awareness of Britain’s poor river health
+preheading: User-centred website for environmental charity, The Rivers Trust.
 intro: >
 
     The Rivers Trust aims to bring together the people, knowledge, data and intelligence to help rivers thrive again; for us and future generations.

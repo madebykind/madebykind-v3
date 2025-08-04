@@ -2,7 +2,7 @@
 # Meta
 date: 2025-03-19T10:52:34.342Z
 weight: 1
-title: Brand and website for youth creative charity, Artswork
+title: Brand and website design for youth charity, Artswork
 description: A colourful and playful brand refresh and CRM integrated website
 social_img: images/work-artswork-photo-1.jpg
 sector: for-people
@@ -19,7 +19,7 @@ related_work:
   - work/bookmark
 
 # Content
-heading: Empowering young people to use creativity for change
+heading: Supporting young changemakers through creativity and opportunity
 preheading: Brand development and website delivery for a youth creative charity.
 intro: >
   Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
