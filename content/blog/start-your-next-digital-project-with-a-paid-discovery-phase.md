@@ -9,9 +9,7 @@ cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 draft: false
 services: []
-description: Anyone who has taken on a digital project before knows that, even
-  with the best intentions, things can often go awry. What you're missing is a
-  discovery…
+description: Even with the best intentions, digital project can often go awry. What you're missing is a discovery phase
 toc: true
 featured: true
 key_topic:

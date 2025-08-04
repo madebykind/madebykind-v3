@@ -6,7 +6,7 @@ date: 2019-07-23T15:45:46.525Z
 author: mat
 draft: false
 seo_title: Implementing design systems on legacy code bases
-description: We're participating in the Global Climate Strike this Friday
+description: When creating a design system for existing products it might be best to follow a process of continuous improvement
 toc: false
 featured: false
 key_topic:

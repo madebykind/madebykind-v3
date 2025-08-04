@@ -9,7 +9,7 @@ text_colour: text-buff
 cover_img_alt: Kind team sat around a table looking at a laptop and an ipad
 draft: false
 seo_title: Kind certifies as a B Corp Creative Agency
-description: We’re delighted to announce that, this week, Kind has officially certified as a B Corporation
+description: We’re delighted to announce that, this week, Kind has officially certified as Nottingham's first B Corp
 featured: false
 key_topic:
   - Our impact

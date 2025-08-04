@@ -2,7 +2,7 @@
 date: 2020-04-20T11:48:46+01:00
 weight: 1
 title: About our Ethical Creative Agency
-description: Because we only do work we believe in, we bring a level of commitment you won’t find anywhere else — and that means great results for you.
+description: Find out more about our small team creating real impact for charities and non-profits in the UK
 heading: Big heart, huge&nbsp;results
 intro: We’re genuine, caring human beings who’ve chosen to use our skills to make the world a little better.
 cover_img: images/27-02-23-Kind3398.jpg

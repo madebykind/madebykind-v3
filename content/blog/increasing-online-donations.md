@@ -11,7 +11,7 @@ services:
   - strategy
   - digital
 seo_title: Increasing online income generation for charities
-description: Many charitable organisations rely on public donations to continue their important work and further their cause. But conversion rates online are often below 1%.
+description: Many charities rely on public donations to continue their important work. But conversion rates online are often below 1%.
 toc: false
 featured: false
 key_topic:
