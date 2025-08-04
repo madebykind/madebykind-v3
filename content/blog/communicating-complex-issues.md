@@ -9,6 +9,7 @@ cover_img_alt: null
 draft: false
 services:
   - strategy
+seo_title: "Charity comms: Communicating complex issues"
 description: A key challenge for charities and non-profit organisations is
   clearly communicating their work and the issues they are attempting to tackle.
 toc: false

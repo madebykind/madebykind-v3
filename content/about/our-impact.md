@@ -2,6 +2,7 @@
 cover_img: images/true-to-who-we-are-v2.png
 cover_img_alt: A big watering can
 date: 2020-04-20T11:48:46+01:00
+seo_title: "Our impact: Ethical creative agency"
 description: All business activities have an impact on society and the environment, and Kind is no exception.
 intro: >
   All business activities have an impact on society and the environment, and Kind is no exception. 

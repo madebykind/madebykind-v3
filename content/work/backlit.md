@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T10:52:34.342Z
 weight: 8
-title: Digital brand and website for independent art centre, Backlit
+title: Brand and website design for arts organisation, Backlit
 description: A contemporary, sleek website design for an Arts Council NPO
 sector: for-people
 topics:
@@ -18,6 +18,7 @@ related_work:
 
 # Content
 heading: Supporting an Internationally-Renowned Art Gallery
+preheading: Digital brand and website for Nottingham-based independent art centre.
 intro: Backlit is a home to over 120 artists, collectives, and associate
   members. The free programme of exhibitions, events and workshops supports an
   essential framework for the public, local people, communities, students and

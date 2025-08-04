@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T12:25:28.863Z
 weight: 3
-title: Brand and website for Cardiff-based art centre, Chapter
+title: Brand and website for arts organisation, Chapter
 description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
 sector: for-people
 topics:

@@ -16,6 +16,7 @@ cover_img: ""
 text_colour: text-white
 cover_img_alt: ""
 services: null
+seo_title: "User-centred design: Finding common ground with your audience"
 description: How do we go about creating a digital product that works both for
   an organisation and for its users?
 featured: true

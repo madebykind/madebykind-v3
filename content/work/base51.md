@@ -2,7 +2,7 @@
 # Meta
 date: 2025-03-14T10:52:34.342Z
 weight: 1
-title: Brand identity for youth charity, Base 51
+title: Charity branding for youth charity, Base 51
 description: An engaging and playful brand identity for a long-serving youth charity in Nottingham
 social_img: images/work-base51-imagery-1.jpg
 sector: for-people
@@ -18,6 +18,7 @@ related_work:
 
 # Content
 heading: Creating an inclusive and safe brand to support young people
+preheading: Branding for charity supporting Nottingham's youth since 1993.
 intro: >
   Nottingham is the worst place in the UK to be young, with 17,500 children living in poverty and the crisis worsening due to rising living costs and council funding cuts.
 

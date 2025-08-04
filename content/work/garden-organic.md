@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T12:58:42.437Z
 weight: 6
-title: Website and online membership portal for Garden Organic
+title: Website design for charity, Garden Organic
 description: Launching a new brand identity through a CRM integrated website
 sector: for-planet
 topics:

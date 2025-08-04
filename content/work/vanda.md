@@ -2,7 +2,7 @@
 # Meta
 date: 2023-05-28T11:49:55.811Z
 weight: 4
-title: Digital archive design and delivery for The V&A
+title: Website design for arts organisation, The V&A
 description: Supporting a national museum through delivering online research archives, integrated with hosted search platforms
 sector: for-people
 topics:

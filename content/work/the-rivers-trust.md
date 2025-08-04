@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T12:26:29.707Z
 weight: 7
-title: Website and member portal for The Rivers Trust
+title: Website design for charity, The Rivers Trust
 description: A user-centred website to build awareness and gain public support
 sector: for-planet
 topics:
