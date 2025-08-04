@@ -7,8 +7,8 @@ author: mat
 cover_img: null
 cover_img_alt: null
 draft: false
-description: Frustrated users always lead to high abandonment rates. So how can
-  we build a ticket purchasing journey that is a breeze? Make it quick.
+seo_title: Improving online ticketing UX
+description: Frustrated users always lead to high abandonment rates. So how can we build a ticket purchasing journey that is a breeze? Make it quick.
 toc: false
 key_topic:
   - Insights

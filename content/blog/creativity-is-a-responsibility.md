@@ -5,7 +5,8 @@ card_colour: bg-sky text-green
 date: 2024-05-03T15:18:34.039Z
 author: mat
 draft: false
-description: 
+seo_title: "Responsible design: Creativity is a responsibility"
+description: Creativity is a valuable skill to both charitoes and non-profits. There is a responsibility on those with creative skills to use their skills for good.
 toc: false
 featured: true
 summary: null

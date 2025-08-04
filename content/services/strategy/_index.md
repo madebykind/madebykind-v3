@@ -4,7 +4,7 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 1
 title: Strategy
-seo_title: Digital strategy, user research and technical consultancy for purpose-driven organisations
+seo_title: Charity marketing strategy, user research and technical consultancy
 description: Strategy services for charities and non-profits. We create clear, actionable strategies that support growth and deepen impact.
 layout: primary
 

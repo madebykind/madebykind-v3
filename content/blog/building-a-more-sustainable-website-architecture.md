@@ -8,6 +8,7 @@ cover_img: images/jon-flobrant-v1ev6hudcie-unsplash.jpg
 text_colour: text-buff
 cover_img_alt: A misty forest
 draft: false
+seo_title: Building more sustainable websites
 description: There are many ways we can improve the efficiency of a website,
   many of which Kind already includes as standard practice.
 toc: false

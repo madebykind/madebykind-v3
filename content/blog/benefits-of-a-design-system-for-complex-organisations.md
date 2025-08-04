@@ -11,6 +11,7 @@ illustration_alt: Illustration of a person holding a watering can that waters ma
 draft: false
 services:
   - digital
+seo_title: Benefits of design systems for Universities
 description: What exactly is a Design System and what are the benefits of implementing one?
 toc: false
 featured: true

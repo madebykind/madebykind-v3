@@ -21,6 +21,8 @@ banner_images:
   - img: images/work-garden-organic-laptop-jess-seth.jpg
     alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
+seo_title: Environmental charity websites, brands and strategies
+description: We partner with environmental non-profits, helping them to realise their vision through brand strategies and digital activities.
 logos:
   - name: Rewilding Britain
     icon: rwb-logo
@@ -41,7 +43,7 @@ related_projects:
 testimonials:
   - testimonials/rwb-short
   - testimonials/eti
-help_intro: We partner with environmental, sustainable and positive impact organisations, helping them to realise their vision through brand strategies and digital activities.
+help_intro: We partner with environmental and sustainable non-profits, helping them to realise their vision through brand strategies and digital activities.
 help_items:
   - title: Raise awareness of your cause
     description: In the busy landscape of organisations trying to embed real change, it can be difficult to clearly communicate the challenge being faced whilst engaging others to support the issues and take action. Simplifying content and creating clear user journeys help to clarify your work and gain backing from target audiences.

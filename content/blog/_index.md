@@ -1,5 +1,6 @@
 ---
 date: 2020-04-24T10:48:46.000Z
+seo_title: "Creative insights for charities and non-profits"
 description: Brand, Digital and Strategy insights from the Kind team
 menu: main
 title: Insights from Ethical Creative Agency, Kind

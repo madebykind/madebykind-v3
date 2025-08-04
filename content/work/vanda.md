@@ -2,7 +2,7 @@
 # Meta
 date: 2023-05-28T11:49:55.811Z
 weight: 4
-title: Digital archive design and delivery for The V&A
+title: Website design for arts organisation, The V&A
 description: Supporting a national museum through delivering online research archives, integrated with hosted search platforms
 sector: for-people
 topics:
@@ -22,6 +22,7 @@ related_work:
 
 # Content
 heading: Working with the world’s leading art and design museum
+preheading: Digital archive deliver for V&A research projects.
 intro: >
 
   The V&A is the world’s leading museum of art and design, housing a permanent collection of over 2.8 million objects, books and archives that span over 5,000 years of human creativity.

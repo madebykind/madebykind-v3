@@ -4,7 +4,7 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 3
 title: Digital
-seo_title: Digital services for purpose-driven organisations
+seo_title: Digital strategy, development and website design for non-profits
 description: Digital for charities and non-profits. We design and build websites and platforms that are strategic, accessible and future-ready.
 layout: primary
 

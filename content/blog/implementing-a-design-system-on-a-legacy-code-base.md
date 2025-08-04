@@ -5,6 +5,7 @@ card_colour: bg-pink text-blue
 date: 2019-07-23T15:45:46.525Z
 author: mat
 draft: false
+seo_title: Implementing design systems on legacy code bases
 description: We're participating in the Global Climate Strike this Friday
 toc: false
 featured: false

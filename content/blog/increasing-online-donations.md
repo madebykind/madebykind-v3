@@ -10,19 +10,15 @@ draft: false
 services:
   - strategy
   - digital
-description: Many charitable organisations rely on public donations to continue
-  their important work and further their cause. But conversion rates online are
-  often below 1%.
+seo_title: Increasing online income generation for charities
+description: Many charitable organisations rely on public donations to continue their important work and further their cause. But conversion rates online are often below 1%.
 toc: false
 featured: false
 key_topic:
   - Insights
 topics:
   - Non-profit
-intro: Many charitable organisations rely on public donations to continue their
-  important work and further their cause. And while many have an online donation
-  form, conversion rates for these are often low, with the average rate in the
-  sector being below 1% of visits resulting in a donation.
+intro: Many charitable organisations rely on public donations to continue their important work and further their cause. And while many have an online donation form, conversion rates for these are often low, with the average rate in the sector being below 1% of visits resulting in a donation.
 related_posts:
   - communicating-complex-issues
   - building-a-more-sustainable-website-architecture

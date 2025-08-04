@@ -2,7 +2,7 @@
 # Meta
 date: 2023-06-28T12:25:28.863Z
 weight: 3
-title: Brand and website for Cardiff-based art centre, Chapter
+title: Brand and website for arts organisation, Chapter
 description: A bold and colourful rebrand for an historic community force, delivered through a Spektrix-integrated website
 sector: for-people
 topics:
@@ -19,7 +19,8 @@ related_work:
   - work/vanda
 
 # Content
-heading: Brand development of an international arts centre
+heading: Helping a pioneering arts centre reflect its evolving mission
+preheading: Brand development and website delivery for Chapter.
 intro: >
 
   Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.

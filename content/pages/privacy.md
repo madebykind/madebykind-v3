@@ -1,6 +1,6 @@
 ---
 date: 2020-04-24T11:48:46+01:00
-description: We respect your privacy. This policy desribes what you need to know.
+description: We respect your privacy. This policy describes what you need to know.
 title: How we use your data
 heading: How we use your data
 toc: false

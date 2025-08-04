@@ -5,21 +5,13 @@ card_colour: bg-sky text-green
 date: 2020-01-21T16:37:25.739Z
 author: michelle
 draft: false
-description: Before joining Kind, I worked client-side for almost 12 years in
-  multiple marketing, brand and events positions and learnt a lot about how to
-  partner with the right agency.
+seo_title: Partnering with the right creative agency
+description: Before joining Kind, I worked client-side for almost 12 years in multiple marketing, brand and events positions and learnt a lot about how to partner with the right agency.
 toc: false
 featured: false
 key_topic:
   - Insights
-intro: Before joining Kind, I worked client-side for almost 12 years in multiple
-  marketing, brand and events positions. During this time I met more agencies
-  than I can possibly remember and hired a number of those to support the
-  activities of my communications teams. We partnered with agencies across
-  design, print, web, events, marketing, video and brand. This led me to work
-  with some amazing agencies and quite frankly some terrible ones. It is safe to
-  say that during that time and now coming full circle to work for an agency I
-  have learnt a lot about how to partner with the right agency.
+intro: Before joining Kind, I worked client-side for almost 12 years in multiple marketing, brand and events positions. During this time I met more agencies than I can possibly remember and hired a number of those to support the activities of my communications teams. We partnered with agencies across design, print, web, events, marketing, video and brand. This led me to work with some amazing agencies and quite frankly some terrible ones. It is safe to say that during that time and now coming full circle to work for an agency I have learnt a lot about how to partner with the right agency.
 ---
 ## Define what you want and need 
 

@@ -5,9 +5,8 @@ card_colour: bg-yellow text-blue
 date: 2020-02-19T16:29:36.327Z
 author: michelle
 draft: false
-description: Running a digital project can be a tricky process, if you are new
-  to managing a web project, there is a lot to consider and even more to know
-  when it comes to taking the information back to your internal stakeholders.
+seo_title: "Internal comms for web projects: Getting your colleagues on board"
+description: Running a digital project can be a tricky process, if you are new to managing a web project, there is a lot to consider and even more to know when it comes to taking the information back to your internal stakeholders.
 toc: false
 featured: false
 key_topic:
