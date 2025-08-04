@@ -6,7 +6,7 @@ date: 2020-01-21T16:37:25.739Z
 author: michelle
 draft: false
 seo_title: Partnering with the right creative agency
-description: Before joining Kind, I worked client-side for almost 12 years in multiple marketing, brand and events positions and learnt a lot about how to partner with the right agency.
+description: I worked client-side for 12 years in marketing, brand and events positions and learnt a lot about how to partner with the right creative agency
 toc: false
 featured: false
 key_topic:

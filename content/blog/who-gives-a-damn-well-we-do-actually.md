@@ -9,7 +9,7 @@ text_colour: text-white
 cover_img_alt: Kind team sat around a wooden table having a laugh!
 draft: false
 seo_title: "We give a damn: Our ethical creative agency"
-description: In the time-honoured tradition of businesses rebranding and launching their own website and promoting it to high heaven, we’re doing that ourselves this week, and for what reason?
+description: In the time-honoured tradition of businesses rebranding and launching their own website, we’re doing that ourselves this week
 toc: false
 featured: true
 key_topic:

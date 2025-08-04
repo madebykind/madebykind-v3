@@ -17,14 +17,11 @@ text_colour: text-white
 cover_img_alt: ""
 services: null
 seo_title: "User-centred design: Finding common ground with your audience"
-description: How do we go about creating a digital product that works both for
-  an organisation and for its users?
+description: How do we go about creating a digital product that works both for an organisation and for its users?
 featured: true
 key_topic:
   - How we work
-intro: In the many years that our team have been working in the digital
-  industry, we’ve found that the projects with the best outcomes are those that
-  focus on the sweet spot where audience needs and organisational goals align.
+intro: In the many years that our team have been working in the digital industry, we’ve found that the projects with the best outcomes are those that focus on the sweet spot where audience needs and organisational goals align.
 related_pages: []
 related_posts:
   - creating-a-user-friendly-navigation-structure

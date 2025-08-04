@@ -1,6 +1,6 @@
 ---
 hidden: false
-title: Building a more sustainable website architecture
+title: Building more sustainable websites
 card_colour: bg-teal text-blue
 date: 2021-02-16
 author: mat
@@ -9,16 +9,14 @@ text_colour: text-buff
 cover_img_alt: A misty forest
 draft: false
 seo_title: Building more sustainable websites
-description: There are many ways we can improve the efficiency of a website,
-  many of which Kind already includes as standard practice.
+description: There are many ways we can improve website sustainability, many of which Kind already includes as standard practice.
 toc: false
 key_topic:
   - Our impact
 topics:
   - Digital sustainability
   - Environment
-intro: There are many ways we can improve the efficiency of a website, many of
-  which Kind already includes as standard practice.
+intro: It’s rare that anyone considers the environmental effects of sending an email, loading a website or posting on social media, but it’s estimated that digital technologies are responsible for 1.7 billion tonnes of greenhouse gas emissions per year.
 related_pages: []
 related_posts:
   - creating-sustainable-and-ethical-digital-products
@@ -26,11 +24,10 @@ related_posts:
   - who-gives-a-damn-well-we-do-actually
 ---
 
-It’s rare that anyone considers the environmental effects of sending an email, loading a website or posting on social media, but it’s estimated that digital technologies are responsible for 1.7 billion tonnes of greenhouse gas emissions per year.
 
 While it’s true that delivering your content through a website is much more sustainable than printed brochures or other equivalences, we still require energy to build and maintain those websites and to serve our content to our users around the world.
 
-Luckily there are many ways we can improve the efficiency of a website, many of which Kind already includes as standard practice.
+Luckily there are many ways we can improve website sustainability, many of which Kind already includes as standard practice.
 
 ## Create a lightweight codebase
 

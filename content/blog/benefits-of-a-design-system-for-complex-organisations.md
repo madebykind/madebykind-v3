@@ -1,6 +1,6 @@
 ---
 hidden: false
-title: Benefits of a design system for complex organisations
+title: Benefits of design systems for complex organisations
 card_colour: bg-pink text-blue
 date: 2021-09-02T15:19:24.478Z
 author: mat
@@ -12,7 +12,7 @@ draft: false
 services:
   - digital
 seo_title: Benefits of design systems for Universities
-description: What exactly is a Design System and what are the benefits of implementing one?
+description: What is a Design System and what are the benefits of implementing one?
 toc: false
 featured: true
 key_topic:

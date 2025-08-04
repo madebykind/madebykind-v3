@@ -1,14 +1,11 @@
 ---
 hidden: false
-title: "Digital Strategy: planning ahead, creating valuable goals and remaining
-  flexible"
+title: "Digital Strategy: planning ahead, creating valuable goals and remaining flexible"
 card_colour: bg-pink text-blue
 date: 2020-09-03T15:27:45.698Z
 author: michelle
 draft: false
-description: In a time which is increasingly driven by online activity, social
-  media and 24/7 access, it is really important to plan your digital activities
-  and have a clear idea of how you want to control your brand online.
+description: It is always important to plan your digital activities and have a clear idea of how you want to control your brand online.
 toc: false
 featured: false
 key_topic:

@@ -5,8 +5,7 @@ card_colour: bg-teal text-blue
 date: 2018-02-07T17:15:04.354Z
 author: mat
 draft: false
-description: One of the initial and most important tasks on a digital project of
-  any size is to create a usable and intuitive navigation structure.
+description: A user-centred process is vital to help create a usable and intuitive information architecture
 toc: false
 featured: false
 key_topic:
@@ -14,11 +13,7 @@ key_topic:
 topics:
   - Research and analysis
   - User-centred design
-intro: One of the initial and most important tasks on a digital project of any
-  size is to create a usable and intuitive navigation structure and, while most
-  organisations already value audience analysis, user journeys and user-centred
-  design, many struggle to break away from mirroring their internal structures
-  when devising an Information Architecture (IA).
+intro: One of the initial and most important tasks on a digital project of any size is to create a usable and intuitive navigation structure and, while most  organisations already value audience analysis, user journeys and user-centred design, many struggle to break away from mirroring their internal structures when devising an Information Architecture (IA).
 related_posts:
   - finding-the-common-ground-between-your-organisation-and-its-audience
   - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible

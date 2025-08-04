@@ -1,6 +1,6 @@
 ---
 hidden: false
-title: Access all areas
+title: Access all areas - Why web accessibility matters
 card_colour: bg-yellow text-blue
 date: 2020-11-30T16:21:16.220Z
 author: seth

@@ -8,9 +8,8 @@ cover_img: images/becca-tapert-qofjunxy9ly-unsplash.jpg
 text_colour: text-white
 cover_img_alt: A woman looking a phone, outside by a lake in the dark
 draft: false
-seo_title: "Digital sustainability: Creating ethical digital products"
-description: How can we adapt our process to create usable and useful products
-  that are environmentally and ethically sound?
+seo_title: "Creating sustainable and ethical digital products"
+description: How can we use user-centred design and digital sustainability processes to create usable and useful products that are environmentally and ethically sound?
 toc: false
 key_topic:
   - Our impact
@@ -19,8 +18,7 @@ topics:
   - Environment
   - Strategy
 featured: true
-intro: After attending New Adventures in January, we were inspired by talks from
-  Cennydd Bowles and Laura Kalbag.
+intro: After attending New Adventures in January, we were inspired by talks from Cennydd Bowles and Laura Kalbag.
 related_pages: []
 related_posts:
   - who-gives-a-damn-well-we-do-actually
