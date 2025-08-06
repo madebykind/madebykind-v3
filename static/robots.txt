@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /cdn-cgi/*
 
 Sitemap: https://www.madebykind.com/sitemap.xml
