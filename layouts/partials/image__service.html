@@ -8,7 +8,8 @@
   <img
     alt="{{ $alt }}"
     class="w-full h-full object-cover"
-    loading="lazy"
+    loading="eager"
+    fetchpriority="high"
     sizes="(min-width: 64em) 34vw, 100vw"
     src="{{ (printf "%s?w=320&ar=4:5&fit=crop&auto=compress,format" .) }}"
     srcset="
