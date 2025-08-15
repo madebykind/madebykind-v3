@@ -26,10 +26,8 @@ why:
   text: "With waterways under increasing pressure, understanding and urgency around these fragile systems is essential."
   person: pam
 impact:
-  text: We refined the existing logo to support the brand’s future growth and created an illustration style inspired by expedition scientists’ field sketches, capturing their observations, discoveries and processes using pen on paper. Expressive, hand-drawn graphic elements guide attention and build visual rhythm, reflecting the way people highlight important details in personal notes. The refreshed colour palette reflects the varied landscapes the brand moves through – they are cool, calm and professional. 
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti..
 
-
-    The aim was to immerse the audience in the expeditions, offering a window into the daily experiences of scientists, local communities and the vast network of waterways, while bringing a sense of immediacy and momentum that reinforces the urgency of their mission.
   img: images/work-twp-impact.jpg
   img_alt: "Three elephants walk through shallow water in a vast wetland landscape with scattered vegetation and a clear sky."
 
@@ -102,10 +100,11 @@ impact_teaser:
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Lorem ipsum
+  ## Visual identity
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti.
+  We refined the existing logo and developed an illustration style inspired by expedition scientists’ pen-and-paper field sketches. Expressive, hand-drawn elements guide attention and build visual rhythm, echoing how people highlight key details. The refreshed palette reflects Africa's varied landscapes.
 
+  The identity immerses audiences in the expeditions, offering a glimpse into scientists’ daily experiences and the waterways they explore, while conveying urgency and momentum in the mission.
    
   </div>
 </div>
@@ -123,7 +122,7 @@ impact_teaser:
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Lorem ipsum
+  ## Website delivery
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti..
    
@@ -134,19 +133,6 @@ impact_teaser:
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-twp-outdoor-laptop.jpg" alt="Artswork website shown on a tablet screen" >}}
   <div class="col-span-full lg:col-span-4">
   {{< mobile-scroll src="work-twp-mobile-full-length.png" alt="" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000" bgclass="bg-[#536551]" borderclass="border-black">}}
-  </div>
-</div>
-
-
-<!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
-
-  ## Lorem ipsum
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti.
-
-   
   </div>
 </div>
 
