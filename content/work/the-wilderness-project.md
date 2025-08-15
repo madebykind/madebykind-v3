@@ -21,7 +21,7 @@ related_work:
 # Content
 heading: Building a brand story that protects fresh water wilderness
 preheading: Brand development and website delivery for African environmental charity.
-intro: "<p>This Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research, powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
+intro: "<p>This Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research with powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
 why:
   text: "With waterways under increasing pressure, understanding and urgency around these fragile systems is essential."
   person: pam
@@ -72,7 +72,7 @@ impact_teaser:
 
   ## Brand strategy
 
-  We developed a brand strategy that honours original storytellers and their discoveries. Subtle brand refinements and a distinct visual language bring depth and motion, guiding the audience through an inspiring journey. Every design choice; from colour and typography to UX, works to inspire, engage, and communicate urgency with clarity and purpose.
+  A brand strategy that honours original storytellers and their discoveries. Subtle brand refinements and a distinct visual language bring depth and motion, guiding the audience through an inspiring journey. Every design choice; from colour and typography to UX, works to inspire, engage, and communicate urgency with clarity and purpose.
   </div>
 </div>
 
