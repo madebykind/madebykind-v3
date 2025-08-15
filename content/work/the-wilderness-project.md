@@ -21,12 +21,12 @@ related_work:
 # Content
 heading: Building a brand story that protects fresh water wilderness
 preheading: Brand development and website delivery for African environmental charity.
-intro: "<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti.</p>"
+intro: "<p>This Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research, powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
 why:
   text: "With waterways under increasing pressure, understanding and urgency around these fragile systems is essential."
   person: pam
 impact:
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti..
+  text: The Wilderness Project now has a strong, authentic brand and website that reflects the depth and impact of their work. Bringing clarity, professionalism, and credibility to their mission, positioning them as experts grounded in the communities who protect Africa’s precious ecosystems. They can now share their knowledge and stories with a global audience, grow their support, and continue driving meaningful environmental change. 
 
   img: images/work-twp-impact.jpg
   img_alt: "Three elephants walk through shallow water in a vast wetland landscape with scattered vegetation and a clear sky."
@@ -64,7 +64,7 @@ impact_teaser:
 
 ---
 
-{{< workquote source="The Wilderness Project Vision" logo="logo-square-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." >}}As an army of allies – pan-African, multi-skilled, cross-generational – we are willing a different future together. Join us.{{</ workquote >}}
+{{< workquote source="The Wilderness Project Vision" logo="logo-square-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." >}}This is our opportunity to connect, collaborate and do something incredible for humanity – before it’s too late to act.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -124,7 +124,7 @@ impact_teaser:
 
   ## Website delivery
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros dui, aliquam eget neque ut, aliquam auctor quam. Nunc eu tellus eget metus viverra molestie at at tortor. Nullam id dui in elit viverra tempus eu luctus sapien. Nullam eget efficitur ante. Morbi tempus, velit sed dapibus ultricies, nisi massa feugiat purus, et euismod tellus magna sed massa. Integer massa sapien, vestibulum vel nunc et, tempus pulvinar sapien. Suspendisse potenti..
+  We designed an engaging, visually beautiful website that highlights both the scientific expertise behind The Wilderness Project’s fieldwork and the human stories connected to Africa’s core river basins. The clean, responsive platform showcases reports, videos, imagery, and project updates, making their important work accessible, shareable, and impactful on a global scale. With a small but highly active team often working in remote locations, the site was built to be easy to manage and update, ensuring they can keep the world informed, even while out on expedition.
    
   </div>
 </div>
