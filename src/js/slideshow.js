@@ -4,15 +4,15 @@ function SlideShow(el) {
   let width;
   let height;
   let i = 0;
+  const classes = ['absolute','inset-0', 'transition-all', 'duration-500', 'ease-in-out', 'opacity-0', 'z-0'];
 
   el.classList.add('relative');
 
   slides.forEach(function(e, index) {
     if (index > 0) {
-      e.classList.add(...['absolute','inset-0', 'transition-all', 'duration-500', 'ease-in-out', 'opacity-0', 'z-0']);  
-    } else {
-      e.classList.add(...['absolute','inset-0', 'transition-all', 'duration-500', 'ease-in-out', 'z-10']);  
+      e.classList.add(...classes);  
     }
+     
   });
 
   setInterval(function() {
@@ -21,10 +21,10 @@ function SlideShow(el) {
       i = 0;
     }
     slides.forEach(function(e) {
-      e.classList.add('opacity-0');
+      e.classList.add(...classes);
     });
 
-    slides[i].classList.remove('opacity-0');
+    slides[i].classList.remove(...classes);
 
   }, 2000);
 

@@ -9,9 +9,8 @@ function SnapShow(el) {
   el.classList.add('relative');
 
   slides.forEach(function(e, index) {
-    e.classList.add(...['absolute','inset-0']);
     if (index > 0) {
-      e.classList.add(...['hidden']);
+      e.classList.add(...['absolute','inset-0','hidden']);
     }
   });
 
@@ -21,10 +20,10 @@ function SnapShow(el) {
       i = 0;
     }
     slides.forEach(function(e) {
-      e.classList.add('hidden');
+      e.classList.add(...['absolute','inset-0','hidden']);
     });
 
-    slides[i].classList.remove('hidden');
+    slides[i].classList.remove(...['absolute','inset-0','hidden']);
 
   }, speed);
 
