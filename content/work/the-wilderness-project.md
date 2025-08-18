@@ -140,3 +140,4 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
 
 {{< figure wrapperclass="bleed" imgclass="w-full" src="work-twp-flat-homepage.jpg" alt="Cross-sections of The Wilderness Project homepage" >}}
 
+{{< blockquote author="Tara Kilachand" role="Head of Strategic Communications and Fundraising, The Wilderness Project" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}} I have deeply appreciated the courteous and gracious manner in which you've led this process and made it as easy for us as possible.{{</ blockquote >}}
