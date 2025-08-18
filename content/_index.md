@@ -36,6 +36,6 @@ projects:
   #- work/papyrus
   - work/rewilding-britain
   - work/unesco
+  - work/the-wilderness-project
   - work/artswork
-  - work/the-rivers-trust
 ---

@@ -28,8 +28,8 @@ why:
 impact:
   text: The Wilderness Project now has a strong, authentic brand and website that reflects the depth and impact of their work. Bringing clarity, professionalism, and credibility to their mission, positioning them as experts grounded in the communities who protect Africa’s precious ecosystems. They can now share their knowledge and stories with a global audience, grow their support, and continue driving meaningful environmental change. 
 
-  img: images/work-twp-impact.jpg
-  img_alt: "Three elephants walk through shallow water in a vast wetland landscape with scattered vegetation and a clear sky."
+  img: images/work-twp-landscape-marshland.jpg
+  img_alt: "A person stands in a marshy wetland under a cloudy sky, with tall grasses and water reflecting the light from above."
 
 # Header
 banner_type: slideshow
@@ -57,11 +57,13 @@ impact_teaser:
     - img: images/work-twp-hero-1.jpg
       alt: "Multiple canoes on a calm river that reflects the colorful sunset sky."
     - img: images/work-twp-scenery.jpg
-      alt: 
+      alt: "A rocky, steep mountain rises from a green, grassy landscape under a cloudy sky, with distant hills and valleys visible in the background."
     - img: images/work-twp-hero-3.jpg
-      alt: A"A person stands beside two canoes on the shore of a misty river at sunrise, surrounded by reeds and trees."
+      alt: "A person stands beside two canoes on the shore of a misty river at sunrise, surrounded by reeds and trees."
   caption: Brand and digital delivery for Africa-based environmental charity
 
+# Disclaimer/copyright note
+note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="https://www.thewildernessproject.org/" target="_blank">The Wilderness Project</a>.</p>'
 ---
 
 {{< workquote source="The Wilderness Project Vision" logo="logo-square-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." >}}This is our opportunity to connect, collaborate and do something incredible for humanity – before it’s too late to act.{{</ workquote >}}
@@ -77,23 +79,23 @@ impact_teaser:
 </div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-twp-scenery.jpg" alt="" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-twp-scenery.jpg" alt="A rocky, steep mountain rises from a green, grassy landscape under a cloudy sky, with distant hills and valleys visible in the background." >}}
   <div class="col-span-full lg:col-span-4">
   {{< image-cycle
   src_1="images/work-twp-illustration-1.jpg"
-  alt_1=""
+  alt_1="Illustration if an elephant wading through a large expansae of water, with a forest in the background"
   src_2="images/work-twp-illustration-2.jpg"
-  alt_2=""
+  alt_2="Illustration of multiple canoes on a calm river that reflects the colorful sunset sky."
   src_3="images/work-twp-illustration-3.jpg"
-  alt_3=""
+  alt_3="Illustration of a group of around 20 people standing on and around a makeshift bridge over a river"
   src_4="images/work-twp-illustration-4.jpg"
-  alt_4=""
+  alt_4="Illustration of two men in a canoe. One is sitting at the front with binoculars, the other is standing at the back propelling the canoe with a large pole."
   type="snap"
   speed="2000" >}}
   </div>
 </div>
 
-{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-twp-brand-deck.jpg" alt="" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-twp-brand-deck.jpg" alt="Pages from The Wilderness Project brand book" >}}
 
 
 <!-- Text right -->
@@ -110,8 +112,8 @@ impact_teaser:
 </div>
 
 {{< multi-image
-  src_4="images/work-twp-tablet-expedition-screens.jpg" alt_4=""
-  src_1="images/work-twp-design-system-2.jpg" alt_1=""
+  src_4="images/work-twp-tablet-expedition-screens.jpg" alt_4="Screens from The Wilderness Project website"
+  src_1="images/work-twp-design-system-2.jpg" alt_1="Design system components used on The Wilderness Project website"
   align="end"
   >}}
 
@@ -130,13 +132,13 @@ impact_teaser:
 </div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-twp-outdoor-laptop.jpg" alt="Artswork website shown on a tablet screen" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-twp-outdoor-laptop.jpg" alt="The Wilderness Project website shown on a laptop. The laptop is situated outdoors, on a rock" >}}
   <div class="col-span-full lg:col-span-4">
-  {{< mobile-scroll src="work-twp-mobile-full-length.png" alt="" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000" bgclass="bg-[#536551]" borderclass="border-black">}}
+  {{< mobile-scroll src="work-twp-mobile-full-length.png" alt="a mockup of The Wilderness Project expeditions pages on a mobile screen" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000" bgclass="bg-[#536551]" borderclass="border-black">}}
   </div>
 </div>
 
-{{< figure wrapperclass="bleed" imgclass="w-full" src="work-twp-flat-homepage.jpg" alt="" >}}
+{{< figure wrapperclass="bleed" imgclass="w-full" src="work-twp-flat-homepage.jpg" alt="Cross-sections of The Wilderness Project homepage" >}}
 
 {{< blockquote author="Tara Kilachand" role="Head of Strategic Communications and Fundraising, The Wilderness Project" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}} I have deeply appreciated the courteous and gracious manner in which you've led this process and made it as easy for us as possible.{{</ blockquote >}}
 
