@@ -28,8 +28,8 @@ why:
 impact:
   text: The Wilderness Project now has a strong, authentic brand and website that reflects the depth and impact of their work. Bringing clarity, professionalism, and credibility to their mission, positioning them as experts grounded in the communities who protect Africa’s precious ecosystems. They can now share their knowledge and stories with a global audience, grow their support, and continue driving meaningful environmental change. 
 
-  img: images/work-twp-landscape-marshland.jpg
-  img_alt: "A person stands in a marshy wetland under a cloudy sky, with tall grasses and water reflecting the light from above."
+  img: images/work-twp-landscape-sunset.jpg
+  img_alt: "Sunset over a winding river in a grassy marshland, with warm golden light reflecting on the water"
 
 # Header
 banner_type: slideshow
@@ -139,9 +139,4 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
 </div>
 
 {{< figure wrapperclass="bleed" imgclass="w-full" src="work-twp-flat-homepage.jpg" alt="Cross-sections of The Wilderness Project homepage" >}}
-
-{{< blockquote author="Tara Kilachand" role="Head of Strategic Communications and Fundraising, The Wilderness Project" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}} I have deeply appreciated the courteous and gracious manner in which you've led this process and made it as easy for us as possible.{{</ blockquote >}}
-
-
-
 
