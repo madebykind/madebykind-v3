@@ -13,8 +13,7 @@ services:
   - digital
 related_work:
   - work/rewilding-britain
-  - work/garden-organic
-#  - work/the-wilderness-project
+  - work/the-wilderness-project
 
 # Content
 heading: Raising public awareness of Britain’s poor river health
