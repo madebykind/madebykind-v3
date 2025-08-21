@@ -21,7 +21,7 @@ related_work:
 # Content
 heading: Building a brand story that protects fresh water wilderness
 preheading: Brand development and website delivery for African environmental charity.
-intro: "<p>This Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research with powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
+intro: "<p>The Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research with powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
 why:
   text: "With waterways under increasing pressure, understanding and urgency around these fragile systems is essential."
   person: pam
@@ -139,4 +139,6 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
 </div>
 
 {{< figure wrapperclass="bleed" imgclass="w-full" src="work-twp-flat-homepage.jpg" alt="Cross-sections of The Wilderness Project homepage" >}}
+
+{{< blockquote author="Tara Kilachand" role="Head of Strategic Communications and Fundraising, The Wilderness Project" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Finally, an agency that makes the process feel easy instead of intimidating. Kind equipped us with confidence from the beginning—empowering us to make almost every change needed now and for the future. Best of all, they transformed our information overload into an elegant design that managed to merge organic touches with a functional interface, and showcase beautifully the varying elements of our work.{{</ blockquote >}}
 
