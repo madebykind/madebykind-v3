@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2023-06-28T11:07:38.606Z
-weight: 2
+weight: 3
 title: Environmental charity website strategy and delivery, Rewilding Britain
 description: Digital design system and sustainable website delivery for one of the UK's fastest growing charities
 sector: for-planet

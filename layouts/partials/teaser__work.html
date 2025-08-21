@@ -3,7 +3,7 @@
 
 
     <div class="absolute z-20 w-full h-full justify-end md:py-2 xl:py-4 flex flex-col">
-      <h3 class=" text-3xl xs:text-4xl {{ if eq .size "large" }} lg:text-5xl 2xl:text-6xl {{ else }} md:text-3xl xl:text-4xl {{ end }} leading-heading h--condensed text-buff transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink
+      <h3 class="text-balance text-3xl xs:text-4xl {{ if eq .size "large" }} lg:text-5xl 2xl:text-6xl {{ else }} md:text-3xl xl:text-4xl {{ end }} leading-heading h--condensed text-buff transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink
       {{ if .reverse }} order-3 md:mb-6
       {{ else }} order-2 {{ end }}
       {{ if .odd }} text-right self-end md:pl-[5%]
@@ -28,7 +28,7 @@
           </svg>
         {{ end }}
         {{ if not .hidelink }}
-        <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 {{ else }} md:pr-4 {{ end }}">
+        <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 md:mr-auto {{ else }} md:pr-4 md:ml-auto {{ end }}">
           <span class="font-bold underline">Read case study<span class="sr-only">: {{ .context.Params.heading }}</span></span>
           <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation">
             <use xlink:href="#icon-arrow"/>

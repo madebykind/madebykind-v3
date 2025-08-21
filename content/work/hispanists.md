@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2023-06-28T10:52:34.342Z
-weight: 4
+weight: 5
 title: Branding for academic organisation, the Association of Hispanists
 description: An evocative brand identity and uncomplicated website delivery
 sector: for-people

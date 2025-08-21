@@ -33,8 +33,8 @@ large_hero: true
 social_img: images/27-02-23-Kind3398.jpg
 clients:
   items:
-#    - name: Papyrus
-#      icon: logo-papyrus
+    - name: Papyrus
+      icon: logo-papyrus
     - name: UNESCO
       icon: unesco-logo
     - name: Rewilding Britain
@@ -51,8 +51,8 @@ clients:
       icon: logo-bookmark
     - name: Chapter
       icon: chapter-logo
-    - name: Backlit Gallery
-      icon: backlit-logo
+    #- name: Backlit Gallery
+    #  icon: backlit-logo
     - name: The V&A
       icon: va-logo
     - name: Algrano

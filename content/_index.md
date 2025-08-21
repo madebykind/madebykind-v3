@@ -26,6 +26,7 @@ sectors:
     illustration: images/illustration-white-trees.png
     illustration_alt: An illustration of group of trees, with legs
 impacts:
+  - work/papyrus
   - work/unesco
   - work/the-wilderness-project
   - work/bookmark
@@ -33,9 +34,8 @@ impacts:
   - work/vanda
   - work/the-rivers-trust
 projects:
-  #- work/papyrus
-  - work/rewilding-britain
+  - work/papyrus
   - work/unesco
-  - work/the-wilderness-project
   - work/artswork
+  - work/rewilding-britain
 ---

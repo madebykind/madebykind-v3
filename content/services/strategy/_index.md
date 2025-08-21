@@ -54,8 +54,8 @@ teaser:
       icon: unesco-logo
     - name: Nottingham Trent University
       icon: ntu-logo
-#    - name: Papyrus
-#      icon: logo-papyrus
+    - name: Papyrus
+      icon: logo-papyrus
     - name: Nottinghamshire County Council
       icon: logo-ncc
     - name: Nottingham City Council

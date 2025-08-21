@@ -56,17 +56,17 @@ teaser:
       icon: unesco-logo
     - name: Rewilding Britain
       icon: rwb-logo
-    - name: Artswork
-      icon: logo-artswork
-#    - name: Papyrus
-#      icon: logo-papyrus
+    #- name: Artswork
+    #  icon: logo-artswork
+    - name: Papyrus
+      icon: logo-papyrus
     - name: The V&A
       icon: va-logo
     - name: The Rivers Trust
       icon: rt-logo
   testimonials:
-    - testimonials/rwb-short
     - testimonials/bookmark
+    - testimonials/rwb-short
   projects_title: Digital projects
   projects:
     - work/rewilding-britain
