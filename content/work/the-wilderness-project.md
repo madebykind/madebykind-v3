@@ -21,7 +21,7 @@ related_work:
 # Content
 heading: Building a brand story that protects fresh water wilderness
 preheading: Brand development and website delivery for African environmental charity.
-intro: "<p>This Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research with powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
+intro: "<p>The Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research with powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
 why:
   text: "With waterways under increasing pressure, understanding and urgency around these fragile systems is essential."
   person: pam
