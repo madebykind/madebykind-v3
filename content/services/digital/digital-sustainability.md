@@ -4,9 +4,7 @@ date: 2020-04-30T17:28:36.948Z
 weight: 5
 title: Digital sustainability
 description: The internet contributes more to global carbon emissions than the aviation industry. We can help you reduce your online footprint and certify as climate-positive.
-listonly: true
-_build:
-  render: never
+
 
 # Header
 header_class: bg-sky text-green

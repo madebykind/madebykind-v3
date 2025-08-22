@@ -4,9 +4,8 @@ date: 2020-04-30T17:28:36.948Z
 weight: 1
 title: User-centred design
 description: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
-listonly: true
-_build:
-  render: never
+listonly: false
+
 
 # Header
 header_class: bg-sky text-green
