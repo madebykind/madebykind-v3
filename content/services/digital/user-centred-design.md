@@ -9,8 +9,6 @@ description: Successful digital projects prioritise user needs. User-centred des
 header_class: bg-sky text-green
 heading: User-centred design
 intro: Successful digital projects prioritise user needs. User-centred design involves identifying users, understanding their needs, and collaboratively creating solutions that address those needs effectively.
-cover_img: images/empower-change-v1.png
-cover_img_alt: Illustration of different trees, with legs.
 
 # Process
 process:
@@ -55,7 +53,7 @@ related_posts:
 
   In its simplest form, a User-Centred Design process consists of identifying the people who will use the end product, their needs and working with them to deliver design solutions to meet those needs.
 
-  ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
 {{% /split %}}
 
@@ -63,7 +61,7 @@ related_posts:
 
 ## User-Centred Design for Digital Projects
 
-![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
 
 As a term coined in the 1970s, User-Centred Design was originally employed to design physical products that were intuitive to use, but more recently the process has been adopted by digital teams to great effect.
 

@@ -9,14 +9,14 @@ description: The internet contributes more to global carbon emissions than the a
 header_class: bg-sky text-green
 heading: Digital sustainability
 intro: The environmental cost of our digital world is not often considered when trying to reduce our impact, but there are many ways we can make websites and other digital technologies more sustainable.
-cover_img: images/empowering-change.png
-cover_img_alt: Illustration of a person holding a watering can that waters many plants
 
 # Related
 related_work:
   - work/rewilding-britain
   - work/garden-organic
 related_posts:
+  - building-a-more-sustainable-website-architecture
+  - creating-sustainable-and-ethical-digital-products
 
 ---
 
@@ -30,7 +30,7 @@ related_posts:
 
   Digital sustainability is part of a more ethically conscious way of delivering digital products. Thinking about users, but also the impact of these decisions on wider society, wildlife and the planet.
 
-  ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+  ![Hands using a mobile phone on a dark background](https://madebykind.imgix.net/gilles-lambert-pb_lF8VWaPU-unsplash.jpg)
 
 {{% /split %}}
 
@@ -39,7 +39,7 @@ related_posts:
   ## Digital sustainability is good practice
 
 
-  ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+  ![A man standing on a mountain peak, in the distance](https://madebykind.imgix.net/ben-mountain.jpg)
 
   There are many aspects of digital sustainability that should come as standard when working with an experienced and competent web team. Optimising imagery, utilising caching and delivering a lightweight codebase will all lead to a reduction in energy consumption each time a page is loaded.
 
@@ -52,7 +52,7 @@ related_posts:
   ## A balancing act
 
 
-  ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+  ![Rewilding Britain website on a laptop screen, photograph taken over someones shoulder](https://madebykind.imgix.net/rwb-laptop-screen.jpg)
 
   It will always be possible to do more to reduce impact, but consideration needs to be given to the purpose of a website. It would rarely be appropriate to remove all imagery and styling from a website, regardless of how much it would improve the carbon footprint.
 
@@ -68,7 +68,7 @@ related_posts:
   ## Measuring a websites carbon footprint
 
 
-  ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+  ![The Eco-friendly Web Alliance accreditation logo](https://madebykind.imgix.net/efwa-logo-blue.jpg)
 
   While it’s only one consideration, it is possible to calculate the carbon emissions of a single we page view.
 
