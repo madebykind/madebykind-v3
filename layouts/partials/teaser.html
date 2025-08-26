@@ -1,14 +1,14 @@
 <article>
-  <a aria-labelledby="{{ .Params.Heading | anchorize }}" class="grid gap-5 no-underline group" href="{{ .Permalink }}">
+  <a aria-labelledby="{{ .Params.Heading | anchorize }}" class="grid gap-5 no-underline group a-group" href="{{ .Permalink }}">
     <div class="grid gap-10 py-10 border-b">
       <div class="flex flex-wrap gap-10">
-        <div class="flex-grow w-2/3">
-          <h3 class="font-light leading-tight underline text-md" id="{{ with .Params.Heading }}{{ . | anchorize }}{{ else }}{{ with .Title }}{{ . | anchorize }}{{ end }}{{ end }}">{{ with .Params.Heading }}{{ . }}{{ else }}{{ with .Title }}{{ . }}{{ end }}{{ end }}</h3>
+        <div class="flex flex-col gap-2 items-start flex-grow w-2/3">
+          <h3 class="font-light leading-tight a--underline text-md" id="{{ with .Params.Heading }}{{ . | anchorize }}{{ else }}{{ with .Title }}{{ . | anchorize }}{{ end }}{{ end }}">{{ with .Params.Heading }}{{ . }}{{ else }}{{ with .Title }}{{ . }}{{ end }}{{ end }}</h3>
          {{ with index (.Params.key_topic) 0 }}
             <span class="font-sans text-xs font-medium">{{ title . }}</span>
           {{ end }}
         </div>
-        <svg class="w-12 h-4 mt-3 flex-no-shrink lg:mt-4" role="presentation">
+        <svg class="w-12 h-4 mt-3 flex-no-shrink lg:mt-4 group-hover:text-orange group-focus:text-orange transition-all duration-300 ease-in" role="presentation">
           <use xlink:href="#icon-arrow-hover"/>
         </svg>
       </div>
