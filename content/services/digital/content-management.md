@@ -35,11 +35,9 @@ related_work:
 
 {{% /split %}}
 
-{{% split orientation="right" %}}
+{{% split orientation="left" %}}
 
 ## Maintaining consistency
-
-![A woman at a desk, using her mobile phone, with a laptop also in front of her](https://madebykind.imgix.net/hj-barraza-l2Eb_cV6a7A-unsplash2.jpg)
 
 Good content management also helps to maintain consistency. By setting clear structures for different content types, everything from articles to events can be created with the right format and presentation. This not only keeps things looking coherent but also makes it easier to reuse content across different parts of a site.
 

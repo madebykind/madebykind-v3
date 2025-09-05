@@ -32,7 +32,7 @@ related_work:
 
   We regularly work with integrations for systems such as Spektrix, MailChimp and Microsoft Dynamics. These allow organisations to manage their communications and relationships more effectively, with websites and CRMs working together rather than as separate silos.
 
-  ![A lone figure walks on a balcony in a modern building](https://madebykind.imgix.net/mark-pulido-xpJXRc0J4es-unsplash-cropped.jpg)
+  ![A lone figure walks on a balcony in a modern building](https://madebykind.imgix.net/crm.jpg)
 
 {{% /split %}}
 
