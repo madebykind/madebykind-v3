@@ -22,7 +22,7 @@ related_work:
 
 # Content
 heading: Working with the world’s leading art and design museum
-preheading: Digital archive deliver for V&A research projects.
+preheading: Digital archive delivery for V&A research projects.
 intro: >
 
   The V&A is the world’s leading museum of art and design, housing a permanent collection of over 2.8 million objects, books and archives that span over 5,000 years of human creativity.
