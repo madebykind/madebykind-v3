@@ -31,7 +31,7 @@ related_work:
 
   We use Craft CMS in many of our projects because it offers a flexible, intuitive editing experience and can be easily tailored to the structure of your content, rather than the other way around. Your editors can work quickly and confidently, while the underlying system ensures content is presented consistently across the site.
 
-  ![Chapter website on a laptop screen, photograph taken over someones shoulder](https://madebykind.imgix.net/chapter-laptop-screen.jpg)
+  ![A website being edited in Craft CMS, on a laptop screen, photograph taken over someones shoulder](https://madebykind.imgix.net/rwb-cms.jpg)
 
 {{% /split %}}
 
