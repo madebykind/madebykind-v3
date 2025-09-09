@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2025-03-19T10:52:34.342Z
-weight: 1
+weight: 2
 title: Brand and website design for youth charity, Artswork
 description: A colourful and playful brand refresh and CRM integrated website
 social_img: images/work-artswork-photo-1.jpg

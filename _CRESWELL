@@ -1,0 +1,32 @@
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Creswell Digital Archive
+
+  We have been asked to build an online photographic archive for K.A.C Creswell who during his lifetime captured hundreds of images of important architectural sites in the middle east. The V&A is working in collaboration with a host of international universities and museums to bring the collection together for the first time. 
+
+  <!-- <div class="inline-flex gap-2 items-center">
+    <a href="https://www.vam.ac.uk/performing-glastonbury/" class="font-sans shrink-0">
+      Launch project
+    </a>
+    <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
+      <use xlink:href="#icon-external"/>
+    </svg>
+  </div> -->
+
+  </div>
+</div>
+
+{{< figure wrapperclass="" src="work-va-creswell-components.jpg" alt="Components for the Creswell Digital Archive" align="left">}}
+
+{{< figure wrapperclass="" src="work-va-creswell-laptop-michelle.jpg" alt="Designs for the Creswell Digital Archive shown on a laptop">}}
+
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-va-creswell-mood.jpg" alt="Moodboard for the Creswell Digital Archive" >}}
+  
+  <div class="col-span-full lg:col-span-4">
+    {{< mobile-scroll src="work-va-creswell-mobile-scroll.png" alt="a mockup of the search page on the Creswell digital archive" wrapper_class="aspect-ipad max-w-[16.5rem]" speed="1500" loop="true">}}
+  </div>
+</div>
