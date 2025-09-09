@@ -4,16 +4,11 @@ date: 2020-04-30T17:28:36.948Z
 weight: 2
 title: Design systems
 description: A design system brings coherence to your brand's designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
-listonly: true
-_build:
-  render: never
 
 # Header
 header_class: bg-sky text-green
 heading: Design systems
 intro: A design system brings coherence to your brand's designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
-cover_img: images/empowering-change.png
-cover_img_alt: Illustration of a person holding a watering can that waters many plants
 
 
 # Related
@@ -39,7 +34,7 @@ related_posts:
 
   It is constantly evolving, a living thing, and as such is never ‘finished’. As an organisation or brand grows, the number of outputs to maintain grows, and the design system grows along with them.
 
-  ![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+  ![Components of the Rivers Trust website](https://madebykind.imgix.net/work-rivers-trust-components-2.png)
 
 {{% /split %}}
 
@@ -47,7 +42,7 @@ related_posts:
 
 ## They're not for everyone
 
-![Rendered image of a biophilic house with Jackson-Crane logo overlayed](https://madebykind.imgix.net/work-jackson-crane-header.jpg)
+![Shot in the environment, a mobile-optimised website for The Rivers Trust websited](https://madebykind.imgix.net/work-rivers-trust-phone-2.jpg)
 
 One of the major benefits of implementing a design system is increasing the speed of design and, by extension, reducing the overhead involved in repeating tasks.
 
