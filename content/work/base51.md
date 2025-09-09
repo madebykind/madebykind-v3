@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2025-03-14T10:52:34.342Z
-weight: 1
+weight: 2
 title: Charity branding for youth charity, Base 51
 description: An engaging and playful brand identity for a long-serving youth charity in Nottingham
 social_img: images/work-base51-imagery-1.jpg
