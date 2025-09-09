@@ -8,7 +8,6 @@ sector: for-people
 topics:
   - services/brand/brand-strategy
   - services/brand/visual-identity
-  - services/brand/visual-identity
   - services/digital/user-centred-design
   - services/digital/content-management
 services:
