@@ -6,11 +6,11 @@ title: Environmental charity website strategy and delivery, Rewilding Britain
 description: Digital design system and sustainable website delivery for one of the UK's fastest growing charities
 sector: for-planet
 topics:
-  - Visual identity
-  - User-centred design
-  - Content management
-  - CRM integration
-  - Digital strategy
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
+  - services/digital/crm-integration
+  - services/strategy/digital-strategy
 services:
   - strategy
   - digital

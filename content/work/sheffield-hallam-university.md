@@ -7,12 +7,12 @@ description: User-centred design system for one of the UK’s largest and most
   diverse universities
 sector: for-people
 topics:
-  - Visual identity
-  - Technical consultancy
-  - User-centred design
-  - Design systems
-  - Content management
-  - CRM integration
+  - services/brand/visual-identity
+  - services/strategy/technical-consultancy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - digital
 related_work:

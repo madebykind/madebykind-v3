@@ -6,7 +6,7 @@ title: Branding for academic organisation, the Association of Hispanists
 description: An evocative brand identity and uncomplicated website delivery
 sector: for-people
 topics:
-  - Visual identity
+  - services/brand/visual-identity
 services:
   - brand
 related_work:

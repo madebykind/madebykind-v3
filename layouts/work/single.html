@@ -25,7 +25,13 @@
             <h3 class="text-md h--condensed">Services</h3>
             <ul class="flex flex-col font-sans font-medium md:block md:columns-2 md:gap-x-10">
               {{ range .Params.topics }}
-                <li class="text-sm lg:text-base py-0.5 md:py-1">{{ . }}</li>
+                  {{ with site.GetPage . }}
+                    {{ if .Permalink }}
+                      <li class="text-sm lg:text-base py-0.5 md:py-1"><a href="{{ .Permalink }}" class="a--underline">{{ .Title }}</a></li>
+                    {{ else }}
+                      <li class="text-sm lg:text-base py-0.5 md:py-1">{{ .Title }}</li>
+                    {{ end }}
+                  {{ end }}
               {{ end }}
             </ul>
           </nav>
@@ -85,42 +91,6 @@
     {{ . | markdownify }}
   </div>
   {{ end }}
-
-      {{/*
-  <div class="container py-6 lg:py-12 xl:py-20 order-2">
- 
-    {{ if or (.Params.topics) (.Params.external_link) }}
-      <div class="flex flex-col lg:gap-6 lg:justify-between lg:flex-row w-full">
-        
-        {{ if .Params.topics }}
-          <div class="flex flex-col lg:flex-row items-start gap-5 lg:gap-10 my-12 lg:my-0">
-            <h2 class="font-sans text-base font-bold">Services:</h2>
-
-            <nav class="leading-none">
-              <ol class="flex flex-col sm:flex-row sm:flex-wrap font-sans gap-5 lg:gap-x-10">
-                {{ range .Params.topics }}
-                  {{ with site.GetPage . }}
-                  <li class="">{{ .Title }}</li>
-                  {{ end }}
-                {{ end }}
-              </ol>
-            </nav>
-
-          </div>
-        {{ end }}
-       
-        {{ with .Params.external_link }}
-          <a href="{{ . }}" class="font-sans inline-flex gap-2 items-start shrink-0 justify-self-end leading-none">
-            Launch project
-            <svg class="w-4 h-4 lg:w-5 lg:h-5 mt-1" role="presentation">
-              <use xlink:href="#icon-external"/>
-            </svg>
-          </a>
-        {{ end }}
-      </div>
-    {{ end }}
-  </div>
-      */}}
 
 
 

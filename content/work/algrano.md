@@ -7,10 +7,10 @@ description: Launching a refreshed identity through animation, video production 
 social_img: images/work-algrano-growers.jpg
 sector: for-people
 topics:
-  - User-centred design
-  - Tone of voice
-  - Brand strategy
-  - Art direction
+  - services/digital/user-centred-design
+  - services/brand/tone-of-voice
+  - services/brand/brand-strategy
+  - services/brand/art-direction
 services:
   - brand
   - digital
