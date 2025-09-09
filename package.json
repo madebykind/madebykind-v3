@@ -1,6 +1,6 @@
 {
   "name": "madebykind",
-  "version": "2.0.31",
+  "version": "2.1.0",
   "description": "Hugo, Tailwind and Netlify. Oh my!",
   "main": "index.js",
   "repository": "https://github.com/madebykind/madebykind-v3",
