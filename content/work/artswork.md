@@ -7,10 +7,10 @@ description: A colourful and playful brand refresh and CRM integrated website
 social_img: images/work-artswork-photo-1.jpg
 sector: for-people
 topics:
-  - Visual identity
-  - User-centred design
-  - Content management
-  - CRM integration
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - brand
   - digital

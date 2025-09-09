@@ -6,11 +6,11 @@ title: Brand development and delivery for environmental charity, The Wilderness 
 description: Website and visual identity to help an organisation protecting Africa's fresh waters
 sector: for-planet
 topics:
-  - Brand strategy
-  - Tone of voice
-  - Visual identity
-  - User-centred design
-  - Content management
+  - services/brand/brand-strategy
+  - services/brand/tone-of-voice
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
 services:
   - brand
   - digital

@@ -6,10 +6,10 @@ title: Website design for charity, Garden Organic
 description: Launching a new brand identity through a website and CRM integration
 sector: for-planet
 topics:
-  - Visual identity
-  - User-centred design
-  - Content management
-  - CRM integration
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
+  - services/digital/crm-integration
 related_work:
   - work/rewilding-britain
   - work/the-rivers-trust

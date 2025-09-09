@@ -6,9 +6,9 @@ title: Brand and website design for arts organisation, Backlit
 description: A contemporary, sleek website design for an Arts Council NPO
 sector: for-people
 topics:
-  - Visual identity
-  - User-centred design
-  - Content management
+  - services/brand/visual-identity
+  - services/digital/user-centred-design
+  - services/digital/content-management
 services:
   - brand
   - digital

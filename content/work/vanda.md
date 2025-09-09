@@ -6,13 +6,13 @@ title: Website design for arts organisation, The V&A
 description: Supporting a national museum through delivering online research archives, integrated with hosted search platforms
 sector: for-people
 topics:
-  - Visual identity
-  - User research
-  - Technical consultancy
-  - User-centred design
-  - Design systems
-  - Content management
-  - CRM integration
+  - services/brand/visual-identity
+  - services/strategy/user-research
+  - services/strategy/technical-consultancy
+  - services/digital/user-centred-design
+  - services/digital/design-systems
+  - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - brand
   - digital
