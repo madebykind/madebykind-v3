@@ -10,6 +10,7 @@ import { bindImageFlick } from "@/js/image-flick";
 import { bindPhoneScroll } from "@/js/phone-scroll";
 import { bindReturnLink } from "@/js/return-link";
 import { bindImpactImage } from "@/js/impact-image";
+import { HighlightLorem } from "@/js/highlight-lorem";
 
 bindFilters()
 bindToggles()
@@ -22,6 +23,7 @@ bindImageFlick()
 bindPhoneScroll()
 bindReturnLink()
 bindImpactImage()
+HighlightLorem()
 
 export default {
 
