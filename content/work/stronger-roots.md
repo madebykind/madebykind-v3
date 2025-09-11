@@ -32,21 +32,20 @@ impact:
 
 # Header
 banner_type: standard
-banner_img: images/work-sr-hero.jpg
+banner_img: images/work-sr-hero-2.jpg
 banner_img_alt: 
-
-# Page nav
-toc: true
+banner_logo_class: "text-neon-mint w-1/2 h-auto"
+banner_icon: logo-sr
 
 # Teaser content
-cover_img: images/work-sr-hero.jpg
+cover_img: images/work-sr-hero-2.jpg
 cover_img_alt: ""
-icon: logo-ncc
+icon: logo-sr
 client: Stronger Roots
 
 ---
 
-{{< workquote img="images/work-sr-event.jpg" alt="" >}}It’s more than a movement; it’s a vision of what is possible when recovery becomes a shared value. By connecting people, challenging prejudices, and celebrating recovery, IRCs (Stronger Roots) create healthier, more resilient communities that champion equality, opportunity, and growth for all.{{</ workquote >}}
+{{< workquote img="images/work-sr-event-2.jpg" alt="" >}}It’s more than a movement; it’s a vision of what is possible when recovery becomes a shared value. By connecting people, challenging prejudices, and celebrating recovery, IRCs (Stronger Roots) create healthier, more resilient communities that champion equality, opportunity, and growth for all.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -60,13 +59,12 @@ client: Stronger Roots
   </div>
 </div>
 
-
-{{< multi-image
-  src_1="images/work-sr-icon.png" alt_1=""
-  src_4="images/work-sr-type.jpg" alt_2=""
-  class_1="self-end"
-  block_class="items-stretch"
-  >}}
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden self-end">
+    {{< animation id="anim-sr-logo" >}}
+  </div>
+  {{< figure wrapperclass="col-span-full lg:col-span-8 relative overflow-hidden" alt="" src="work-sr-type.jpg" imgclass="" >}}
+</div>
 
 {{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-sr-message-meeting.jpg" alt="" >}}
 
@@ -140,7 +138,7 @@ client: Stronger Roots
   class_1="self-end"
   >}}
 
-{{< figure imgclass="w-full" src="work-sr-business.jpg" alt="" >}}
+{{< figure imgclass="w-full" src="work-sr-business-2.jpg" alt="" >}}
 
 
 {{< blockquote author="Rachel Nicholls" role="Head of Service - Nottinghamshire County Council" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}I have to say this piece of work has exceeded expectations for me. The messaging is clear, colour palettes calming and unique and I love the icons.{{</ blockquote >}}

@@ -2,7 +2,7 @@
 {{- $type := (.Params.banner_type ) -}}
 {{- $icon := (.Params.banner_icon ) -}}
 
-{{ $banner_logo_class := "text-white" }}
+{{ $banner_logo_class := "text-white w-48 h-24 lg:w-96 lg:h-48" }}
 {{ with .Params.banner_logo_class }}
   {{ $banner_logo_class = . }}
 {{ end }}
@@ -55,7 +55,7 @@
           </picture>
           {{ if $icon }}
             <div class="absolute inset-0 flex items-center justify-center" data-class-on-view="animate-up" data-class-on-view-once>
-              <svg class="w-48 h-24 lg:w-96 lg:h-48 flex-no-shrink opacity-0 {{ $banner_logo_class }}" role="presentation">
+              <svg class="flex-no-shrink opacity-0 {{ $banner_logo_class }}" role="presentation">
                 <use xlink:href="#icon-{{ $icon }}"/>
               </svg>
             </div>

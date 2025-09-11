@@ -35,6 +35,7 @@ module.exports = {
       teal: '#94cbb8',
       white: '#fff',
       yellow: '#fdb515',
+      "neon-mint": '#80ffcc',
     },
     extend: {
       screens: {

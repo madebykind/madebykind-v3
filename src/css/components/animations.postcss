@@ -171,6 +171,18 @@
   }
 }
 
+.animate-sr-logo {
+
+  animation-name: sr-logo;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-delay: 250ms;
+}
+
+
+/* KEYFRAMES  */
+
 
 @keyframes navy-to-blue {
   0% {
@@ -250,5 +262,52 @@
   }
   100% {
     stroke-dashoffset: 20;
+  }
+}
+
+@keyframes sr-logo {
+  0% {
+    background-color: #d6fff1;
+    color: #285943;
+  }
+  20% {
+    background-color: #d6fff1;
+    color: #285943;
+  }
+  21% {
+    background-color: #285943;
+    color: #d6fff1;
+  }
+  40% {
+    background-color: #285943;
+    color: #d6fff1;
+  }
+  41% {
+    background-color: #285943;
+    color: #80ffcc;
+  }
+  60% {
+    background-color: #285943;
+    color: #80ffcc;
+  }
+  61% {
+    background-color: #285943;
+    color: #ebfe7e;
+  }
+  80% {
+    background-color: #285943;
+    color: #ebfe7e;
+  }
+  81% {
+    background-color: #285943;
+    color: #d8b9f2;
+  }
+  99% {
+    background-color: #285943;
+    color: #d8b9f2;
+  }
+  100% {
+    background-color: #d6fff1;
+    color: #285943;
   }
 }
