@@ -32,13 +32,13 @@ impact:
 
 # Header
 banner_type: standard
-banner_img: images/work-sr-hero-2.jpg
+banner_img: images/work-sr-hero-3.jpg
 banner_img_alt: 
 banner_logo_class: "text-neon-mint w-1/2 h-auto"
 banner_icon: logo-sr
 
 # Teaser content
-cover_img: images/work-sr-hero-2.jpg
+cover_img: images/work-sr-hero-3.jpg
 cover_img_alt: ""
 icon: logo-sr
 client: Stronger Roots
