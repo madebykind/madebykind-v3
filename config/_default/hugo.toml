@@ -85,6 +85,7 @@ disableKinds = ["rss"]
 
 [taxonomies]
   key_topic = "key_topic"
+  topic = "topics"
 
 [permalinks]
   sectors = "/:slug/"
