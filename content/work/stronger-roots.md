@@ -63,7 +63,12 @@ client: Stronger Roots
   <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden self-end">
     {{< animation id="anim-sr-logo" >}}
   </div>
-  {{< figure wrapperclass="col-span-full lg:col-span-8 relative overflow-hidden" alt="" src="work-sr-type.jpg" imgclass="" >}}
+  <div class="aspect-4/3 col-span-full lg:col-span-8 bg-[#71e7fa]">
+    <div class="w-[80%] h-full mx-auto flex items-center justify-center">
+      {{< animation id="anim-sr-text" >}}
+    </div>
+  </div>
+  <!-- {{< figure wrapperclass="col-span-full lg:col-span-8 relative overflow-hidden" alt="" src="work-sr-type.jpg" imgclass="" >}} -->
 </div>
 
 {{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-sr-message-meeting.jpg" alt="" >}}
