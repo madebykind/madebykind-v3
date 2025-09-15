@@ -38,6 +38,7 @@ cover_img: images/work-izele-giraffe-plains.jpg
 cover_img_alt: ""
 icon: logo-izele
 client: Izele
+social_img: images/work-izele-gazelle.jpg
 
 ---
 
