@@ -3,7 +3,7 @@
 date: 2025-09-10T11:07:38.606Z
 weight: 4
 title: User-centred design and design system for online conservation platform
-description: Design system and user-centred redesign for Izele, connecting conservation organisations and communities across Southern Africa.
+description: UX design and scalable design system for Izele, helping environmental organisations collaborate and share knowledge.
 sector: for-planet
 topics:
   - services/digital/user-centred-design
