@@ -68,7 +68,6 @@ client: Stronger Roots
       {{< animation id="anim-sr-text" >}}
     </div>
   </div>
-  <!-- {{< figure wrapperclass="col-span-full lg:col-span-8 relative overflow-hidden" alt="" src="work-sr-type.jpg" imgclass="" >}} -->
 </div>
 
 {{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-sr-message-meeting.jpg" alt="" >}}
