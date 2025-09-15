@@ -18,7 +18,7 @@ related_work:
   - work/chapter
 
 # Content
-heading: "Rooted in Recovery: Building a brand for change"
+heading: "Rooted in Recovery: Building a brand for growth"
 preheading: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 intro: "<p>Stronger Roots, part of the Inclusive Recovery Cities initiative, is transforming how addiction and recovery are understood in Nottingham and Nottinghamshire. By tackling stigma, educating services, and partnering with employers and communities, it creates welcoming spaces where people in recovery are supported to thrive, grow, and build stronger, connected futures.</p>"
 why:
