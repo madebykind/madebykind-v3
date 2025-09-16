@@ -97,7 +97,7 @@ social_img: images/work-izele-gazelle.jpg
   alt_2="Izele pages" >}}
 
 
-{{< figure imgclass="w-full" src="work-izele-mockup.png" alt="A man uses the Izele website while sat in a safari jeep in the african wilderness" >}}
+{{< figure imgclass="w-full" src="work-izele-mockup-3.jpg" alt="A man uses the Izele website while sat in a safari jeep in the african wilderness" >}}
 
 
 <!-- Text left -->
