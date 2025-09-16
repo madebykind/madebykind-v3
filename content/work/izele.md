@@ -66,9 +66,12 @@ social_img: images/work-izele-gazelle.jpg
   </div>
 </div>
 
+
+
+
 {{< multi-image
-  src_1="images/placeholder.png" alt_1=""
-  src_3="images/placeholder.png" alt_4=""
+  src_1="images/work-izele-prototype.png" alt_1=""
+  src_3="images/work-izele-mobile-wires.png" alt_3=""
   class_1="lg:col-span-8"
   class_3="self-end"
   >}}
@@ -86,14 +89,15 @@ social_img: images/work-izele-gazelle.jpg
   </div>
 </div>
 
-{{< multi-image
-  src_1="images/placeholder.png" alt_1=""
-  src_4="images/placeholder.png" alt_4=""
-  class_1="self-end"
-  >}}
+{{< image-cycle
+  align="right"
+  src_1="images/work-izele-pages-1.png"
+  alt_1="Izele pages"
+  src_2="images/work-izele-pages-2.png"
+  alt_2="Izele pages" >}}
 
 
-{{< figure imgclass="w-full" src="placeholder.png" alt="" >}}
+{{< figure imgclass="w-full" src="work-izele-mockup.png" alt="A man uses the Izele website while sat in a safari jeep in the african wilderness" >}}
 
 
 <!-- Text left -->
@@ -106,13 +110,11 @@ social_img: images/work-izele-gazelle.jpg
    
   </div>
 </div>
-
-{{< multi-image
-  src_1="images/placeholder.png" alt_1=""
-  src_4="images/placeholder.png" alt_4=""
-  class_1="self-end"
-  >}}
-
-
-{{< figure imgclass="w-full" src="placeholder.png" alt="" >}}
+{{< image-cycle
+  src_1="images/work-izele-design-system-1.png"
+  alt_1="Izele components"
+  src_2="images/work-izele-design-system-2.png"
+  alt_2="Izele components"
+  src_3="images/work-izele-design-system-3.png"
+  alt_3="Izele components" >}}
 
