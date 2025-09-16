@@ -70,8 +70,8 @@ social_img: images/work-izele-gazelle.jpg
 
 
 {{< multi-image
-  src_1="images/work-izele-prototype.png" alt_1=""
-  src_3="images/work-izele-mobile-wires.png" alt_3=""
+  src_1="images/work-izele-prototype-light.png" alt_1=""
+  src_3="images/work-izele-mobile-wires-light.png" alt_3=""
   class_1="lg:col-span-8"
   class_3="self-end"
   >}}
@@ -91,9 +91,9 @@ social_img: images/work-izele-gazelle.jpg
 
 {{< image-cycle
   align="right"
-  src_1="images/work-izele-pages-1.png"
+  src_1="images/work-izele-pages-light-3.png"
   alt_1="Izele pages"
-  src_2="images/work-izele-pages-2.png"
+  src_2="images/work-izele-pages-light-2.png"
   alt_2="Izele pages" >}}
 
 
@@ -111,10 +111,10 @@ social_img: images/work-izele-gazelle.jpg
   </div>
 </div>
 {{< image-cycle
-  src_1="images/work-izele-design-system-1.png"
+  src_1="images/work-izele-design-system-light-1.png"
   alt_1="Izele components"
-  src_2="images/work-izele-design-system-2.png"
+  src_2="images/work-izele-design-system-light-2.png"
   alt_2="Izele components"
-  src_3="images/work-izele-design-system-3.png"
+  src_3="images/work-izele-design-system-light-3.png"
   alt_3="Izele components" >}}
 
