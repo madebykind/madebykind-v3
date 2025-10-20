@@ -18,34 +18,34 @@ related_work:
   - work/chapter
 
 # Content
-heading: "Rooted in Recovery: Building a brand for growth"
-preheading: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+heading: "Making recovery visible and inclusive across communities"
+preheading: Marketing strategy, brand and communications framework for inclusive recovery network, Stronger Roots.
 intro: "<p>Stronger Roots, part of the Inclusive Recovery Cities initiative, is transforming how addiction and recovery are understood in Nottingham and Nottinghamshire. By tackling stigma, educating services, and partnering with employers and communities, it creates welcoming spaces where people in recovery are supported to thrive, grow, and build stronger, connected futures.</p>"
 why:
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a vehicula ante, non vestibulum lectus."
+  text: "People in recovery have powerful stories to tell. Sharing them helps build understanding and pride while creating stronger, more connected communities."
   person: michelle
 impact:
   text: The new brand has created a unified mindset across partner organisations, giving the movement a shared voice and stronger presence. Its bold visual identity helps it stand out in the community while setting a benchmark for best practice within the wider Inclusive Recovery Cities initiative.
 
   img: images/work-sr-billboard.jpg
-  img_alt: ""
+  img_alt: "Outdoor billboard showing Stronger Roots campaign with the message “Together we’ll grow a recovery-friendly future” beside a smiling young woman."
 
 # Header
 banner_type: standard
 banner_img: images/work-sr-hero-3.jpg
-banner_img_alt: 
+banner_img_alt: Portrait of a smiling woman with windswept hair, symbolising growth, strength and optimism in recovery.
 banner_logo_class: "text-neon-mint w-1/2 h-auto"
 banner_icon: logo-sr
 
 # Teaser content
 cover_img: images/work-sr-hero-3.jpg
-cover_img_alt: ""
+cover_img_alt: "Portrait of a smiling woman with windswept hair, symbolising growth, strength and optimism in recovery."
 icon: logo-sr
 client: Stronger Roots
 
 ---
 
-{{< workquote img="images/work-sr-event-2.jpg" alt="" >}}It’s more than a movement; it’s a vision of what is possible when recovery becomes a shared value. By connecting people, challenging prejudices, and celebrating recovery, IRCs (Stronger Roots) create healthier, more resilient communities that champion equality, opportunity, and growth for all.{{</ workquote >}}
+{{< workquote img="images/work-sr-event-2.jpg" alt="Family smiling at a community event surrounded by decorations, reflecting Stronger Roots’ focus on connection and inclusion." >}}We believe that people in recovery deserve more than just support – they deserve opportunity, dignity, and full inclusion in society.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -70,7 +70,7 @@ client: Stronger Roots
   </div>
 </div>
 
-{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-sr-message-meeting.jpg" alt="" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-sr-message-meeting.jpg" alt="Two people from the Kind team collaborating on Stronger Roots messaging strategy at a wooden table with laptops and notes." >}}
 
 
 <!-- Text right -->
@@ -87,15 +87,15 @@ client: Stronger Roots
 </div>
 
 {{< multi-image
-  src_2="images/work-sr-text.jpg" alt_1=""
-  src_3="images/work-sr-image-text.jpg" alt_2=""
+  src_2="images/work-sr-text.jpg" alt_1="Graphic with the Stronger Roots phrase “Together we’ll grow a recovery-friendly future” in bold dark green text on a mint green background."
+  src_3="images/work-sr-image-text.jpg" alt_2="Smiling person wearing glasses in a bright market space, representing positivity and confidence in recovery."
   >}}
 
 
 
-{{< figure imgclass="w-full" src="work-sr-icons.jpg" alt="" >}}
+{{< figure imgclass="w-full" src="work-sr-icons.jpg" alt="Set of four Stronger Roots icon designs in neon green on a dark green background representing growth, connection and community." >}}
 
-{{< partnership img="images/work-sr-team.jpg" alt="" align="right">}}Stronger Roots needed a unified identity to connect Nottingham and Nottinghamshire and give local ownership to the IRC movement. They partnered with us to shape this vision, running workshops with people with lived experience, uncovering community insights, and delivering naming, brand design, and a full marketing and PR strategy for launch.{{</ partnership >}}
+{{< partnership img="images/work-sr-team.jpg" alt="Kind team members meeting around a wooden table with laptops, collaborating on the Stronger Roots project." align="right">}}Stronger Roots needed a unified identity to connect Nottingham and Nottinghamshire and give local ownership to the IRC movement. They partnered with us to shape this vision, running workshops with people with lived experience, uncovering community insights, and delivering naming, brand design, and a full marketing and PR strategy for launch.{{</ partnership >}}
 
 
 
@@ -105,15 +105,15 @@ client: Stronger Roots
 
   ## Marketing strategy
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a vehicula ante, non vestibulum lectus. Sed imperdiet ante ipsum, eget posuere orci venenatis a. Nam sed diam eget ante pulvinar tincidunt nec nec lorem. Sed pellentesque sapien eget libero euismod, sit amet mollis nulla vehicula. Cras ut semper lectus. Aenean vitae nunc nec metus suscipit ullamcorper.
+  We developed a practical, future-focused marketing strategy to unite volunteers, partners and local communities around a shared mission. As strategy is designed to be comprehensive, easy to follow and flexible, providing clear options for delivering the work effectively. It sets out a clear path to making the most of limited resources through authentic storytelling on social media, community-led events and local partnerships. By combining digital outreach with on-the-ground engagement, it aims to raise awareness, inspire participation and create lasting impact within the community.
 
    
   </div>
 </div>
 
 {{< multi-image
-  src_1="images/work-sr-pullup.jpg" alt_1=""
-  src_4="images/work-sr-plyers.jpg" alt_4=""
+  src_1="images/work-sr-pullup.jpg" alt_1="Two Stronger Roots pull-up banners displaying campaign messaging, photos of volunteers and the tagline “Together we’ll grow a recovery-friendly future.”"
+  src_4="images/work-sr-plyers.jpg" alt_4="Two Stronger Roots event flyers in green and purple promoting the One Community Weekend, featuring photos of families and the message “Grow a recovery-friendly future.”"
   class_1="self-end"
   block_class="items-stretch"
   >}}
@@ -121,7 +121,7 @@ client: Stronger Roots
 
 
 
-{{< figure imgclass="w-full" src="work-sr-social.jpg" alt="" >}}
+{{< figure imgclass="w-full" src="work-sr-social.jpg" alt="Phone screen showing a Stronger Roots Facebook post advertising free Recovery Ally training." >}}
 
 
 <!-- Text right -->
@@ -130,20 +130,16 @@ client: Stronger Roots
 
   ## Content strategy and planning
 
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a vehicula ante, non vestibulum lectus. Sed imperdiet ante ipsum, eget posuere orci venenatis a. Nam sed diam eget ante pulvinar tincidunt nec nec lorem. Sed pellentesque sapien eget libero euismod, sit amet mollis nulla vehicula. Cras ut semper lectus. Aenean vitae nunc nec metus suscipit ullamcorper.
-   
+  To bring Stronger Roots’ mission to life across all channels, we created a content strategy built around clarity and connection. It includes  clear key messages, PR hooks and suggested media content, headlines, and a social media content plan with a calendar for consistent, engaging posts. We also developed guidance for managing social media groups and community pages, helping the team nurture supportive, self-sustaining spaces where recovery stories can be shared and celebrated.   
   </div>
 </div>
 
 {{< multi-image
-  src_1="images/work-sr-tee.jpg" alt_1=""
-  src_4="images/work-sr-brochure.jpg" alt_4=""
+  src_1="images/work-sr-tee.jpg" alt_1="Person wearing a green Stronger Roots T-shirt featuring the circular message “Grow a recovery-friendly future.”"
+  src_4="images/work-sr-brochure.jpg" alt_4="Bright blue Stronger Roots community event leaflet promoting “The Big Dig 2025” with a photo of two people smiling outdoors."
   class_1="self-end"
   >}}
 
-{{< figure imgclass="w-full" src="work-sr-business-2.jpg" alt="" >}}
+{{< figure imgclass="w-full" src="work-sr-business-2.jpg" alt="Stronger Roots logo on a glass window with the strapline “Supporting a recovery-friendly future.”" >}}
 
-
-{{< blockquote author="Rachel Nicholls" role="Head of Service - Nottinghamshire County Council" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}I have to say this piece of work has exceeded expectations for me. The messaging is clear, colour palettes calming and unique and I love the icons.{{</ blockquote >}}
 
