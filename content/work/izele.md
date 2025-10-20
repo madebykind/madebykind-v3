@@ -1,5 +1,6 @@
 ---
 # Meta
+draft: true
 date: 2025-09-10T11:07:38.606Z
 weight: 4
 title: User-centred design and design system for online conservation platform
@@ -25,24 +26,24 @@ impact:
   text: With a user-centred redesign, Izele now has a clearer, more cohesive platform that empowers conservation groups across Southern Africa to tell their stories and share expertise. By strengthening collaboration and visibility, the platform is helping local projects contribute to a growing, interconnected conservation movement.
 
   img: images/work-izele-safari.jpg
-  img_alt: ""
+  img_alt: "A jeep on safari with the sun setting in the distance"
 
 # Header
 banner_type: standard
 banner_img: images/work-izele-gazelle.jpg
-banner_img_alt: 
+banner_img_alt: A gazelle in the savannah
 banner_icon: logo-izele
 
 # Teaser content
 cover_img: images/work-izele-giraffe-plains.jpg
-cover_img_alt: ""
+cover_img_alt: "A giraffe on the plains"
 icon: logo-izele
 client: Izele
 social_img: images/work-izele-gazelle.jpg
 
 ---
 
-{{< workquote source="Durrell Institute of Conservation and Ecology" img="images/work-izele-landscape.jpg" alt="" >}}Our mission is to conserve biodiversity and the ecological processes that support ecosystems and people.{{</ workquote >}}
+{{< workquote source="Durrell Institute of Conservation and Ecology" img="images/work-izele-landscape.jpg" alt="Aerial view of a lush green canyon with a winding river and rocky hills under a partly cloudy sky." >}}Our mission is to conserve biodiversity and the ecological processes that support ecosystems and people.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -70,8 +71,8 @@ social_img: images/work-izele-gazelle.jpg
 
 
 {{< multi-image
-  src_1="images/work-izele-prototype-light.png" alt_1=""
-  src_3="images/work-izele-mobile-wires-light.png" alt_3=""
+  src_1="images/work-izele-mobile-wires-light.png" alt_1="Mobile wireframes of the Izele platform"
+  src_3="images/work-izele-prototype-light.png" alt_3="Desktop wireframes of the Izele platform, showing links between pages"
   class_1="lg:col-span-8"
   class_3="self-end"
   >}}
