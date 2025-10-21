@@ -42,7 +42,7 @@ related_posts:
 
 ## They're not for everyone
 
-![Shot in the environment, a mobile-optimised website for The Rivers Trust websited](https://madebykind.imgix.net/work-rivers-trust-phone-2.jpg)
+![Shot in the environment, a mobile-optimised website for The Rivers Trust website](https://madebykind.imgix.net/work-rivers-trust-phone-2.jpg)
 
 One of the major benefits of implementing a design system is increasing the speed of design and, by extension, reducing the overhead involved in repeating tasks.
 

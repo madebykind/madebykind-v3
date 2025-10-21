@@ -46,7 +46,13 @@ Keywords precedence:
     {{- else }}
       {{- range $taxonomy, $_ := site.Taxonomies }}
         {{- range $.GetTerms $taxonomy }}
-          {{- $keywords = $keywords | append .Title }}
+          {{- if strings.Contains .Title "/" }}
+            {{- with site.GetPage .Title }}
+              {{- $keywords = $keywords | append .Title }}
+            {{- end }}
+          {{- else }}
+            {{- $keywords = $keywords | append .Title }}
+          {{- end }}
         {{- end }}
       {{- end }}
     {{- end }}

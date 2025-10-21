@@ -22,7 +22,7 @@ module.exports = {
       inherit: 'inherit',
       transparent: 'transparent',
       
-      blue: '#104e93', // was #265494
+      blue: '#104e93',
       black: '#011c25',
       buff: '#f1ebe8',
       claret: '#9b0b36',
@@ -35,6 +35,7 @@ module.exports = {
       teal: '#94cbb8',
       white: '#fff',
       yellow: '#fdb515',
+      "neon-mint": '#80ffcc',
     },
     extend: {
       screens: {

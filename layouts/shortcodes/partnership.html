@@ -2,6 +2,10 @@
   <div class="lg:grid lg:grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 relative">
 
     {{- $alt := ( .Get "alt" ) -}}
+    {{- $align := "left" -}}
+    {{ with .Get "align" }}
+      {{- $align = . -}}
+    {{ end }}
     {{ with .Get "img" }}
       {{- $src := ( . ) -}}
       {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
@@ -11,7 +15,7 @@
       {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
 
       {{- with $src -}}
-        <picture class="lg:col-span-8 lg:col-start-5">
+        <picture class="lg:col-span-8 {{ if eq $align "left" }} lg:col-start-5 {{ end }}">
           <source 
             sizes="{{ $dataSizes }}" 
             srcset="
@@ -42,7 +46,7 @@
       {{ end }}
     {{ end }}
 
-    <div class="bg-blue text-pink relative z-10 -mt-24 mr-4 py-8 lg:w-7/12 lg:m-0 lg:absolute lg:top-24 xl:top-32 2xl:top-40">
+    <div class="bg-blue text-pink relative z-10 -mt-24 mr-4 py-8 lg:w-7/12 {{ if eq $align "right" }} right-0 {{ end }} lg:m-0 lg:absolute lg:top-24 xl:top-32 2xl:top-40">
       <div class="container">
       <h2 class="h--condensed">Our partnership</h2>
       <div class="max-w-6xl mt-4 text-md lg:text-base leading-tight">{{ .Inner|markdownify }}</div>

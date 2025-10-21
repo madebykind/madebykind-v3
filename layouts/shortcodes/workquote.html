@@ -48,11 +48,13 @@
       <p class="text-md xl:text-lg" itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>
     </blockquote>
 
-    {{ if .Get "logo" }}
+    {{ if or (.Get "logo") (.Get "source") }}
       <figcaption class="inline-flex items-center gap-5 mt-4">
-        <svg class="w-12 h-8 lg:w-24 lg:h-16 text-indigo" role="presentation">
-          <use xlink:href="#icon-{{ .Get "logo" }}"/>
-        </svg>
+        {{ with .Get "logo" }}
+          <svg class="w-12 h-8 lg:w-24 lg:h-16 text-indigo" role="presentation">
+            <use xlink:href="#icon-{{ . }}"/>
+          </svg>
+        {{ end }}
         {{ with .Get "source" }}
           <div class="h3 h--condensed">{{ . }}</div>
         {{ end }}

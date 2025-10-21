@@ -171,6 +171,86 @@
   }
 }
 
+.animate-sr-logo {
+  animation-name: sr-logo;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-delay: 250ms;
+}
+
+.animate-sr-text {
+   > path {
+    /*animation-duration: 2500ms;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-delay: 250ms;*/
+
+    &:nth-child(1) {
+      transform: translate(-63px, -13px) rotate(-34deg);
+    }
+
+    &:nth-child(2) {
+      transform: translate(-39px, -35px) rotate(-30deg);
+    }
+
+    &:nth-child(3) {
+      transform: translate(31px, -116px) rotate(-16deg);
+    }
+
+    &:nth-child(4) {
+      transform: translate(135px, -217px) rotate(0deg);
+    }
+
+    &:nth-child(5) {
+      transform: translate(315px, -352px) rotate(21deg);
+    }
+
+    &:nth-child(6) {
+      transform: translate(470px, -431px) rotate(35deg);
+    }
+
+    &:nth-child(7) {
+      transform: translate(578px, -472px) rotate(43deg);
+    }
+
+    &:nth-child(8) {
+      transform: translate(534px, -453px) rotate(41deg);
+    }
+
+    &:nth-child(9) {
+      transform: translate(249px, -224px) rotate(23deg);
+    }
+
+    &:nth-child(10) {
+      transform: translate(109px, -40px) rotate(13deg);
+    }
+
+    &:nth-child(11) {
+      transform: translate(-24px, 278px) rotate(-1deg);
+    }
+
+    &:nth-child(12) {
+      transform: translate(-71px, 709px) rotate(-17deg);
+    }
+
+    &:nth-child(13) {
+      transform: translate(-35px, 981px) rotate(-26deg);
+    }
+
+    &:nth-child(14) {
+      transform: translate(21px, 1167px) rotate(-32deg);
+    }
+
+    &:nth-child(15) {
+      transform: translate(59px, 1263px) rotate(-35deg)
+    }
+  }
+}
+
+
+/* KEYFRAMES  */
+
 
 @keyframes navy-to-blue {
   0% {
@@ -250,5 +330,52 @@
   }
   100% {
     stroke-dashoffset: 20;
+  }
+}
+
+@keyframes sr-logo {
+  0% {
+    background-color: #d6fff1;
+    color: #285943;
+  }
+  20% {
+    background-color: #d6fff1;
+    color: #285943;
+  }
+  21% {
+    background-color: #285943;
+    color: #d6fff1;
+  }
+  40% {
+    background-color: #285943;
+    color: #d6fff1;
+  }
+  41% {
+    background-color: #285943;
+    color: #80ffcc;
+  }
+  60% {
+    background-color: #285943;
+    color: #80ffcc;
+  }
+  61% {
+    background-color: #285943;
+    color: #ebfe7e;
+  }
+  80% {
+    background-color: #285943;
+    color: #ebfe7e;
+  }
+  81% {
+    background-color: #285943;
+    color: #d8b9f2;
+  }
+  99% {
+    background-color: #285943;
+    color: #d8b9f2;
+  }
+  100% {
+    background-color: #d6fff1;
+    color: #285943;
   }
 }
