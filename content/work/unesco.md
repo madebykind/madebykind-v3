@@ -12,7 +12,7 @@ services:
   - brand
   - digital
 related_work:
-  - work/chapter
+  - work/strongerroots
   - work/rewilding-britain
 
 # Content

@@ -37,5 +37,5 @@ projects:
   - work/rewilding-britain
   - work/unesco
   - work/the-wilderness-project
-  - work/artswork
+  - work/strongerroots
 ---

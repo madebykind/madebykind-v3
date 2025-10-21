@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2025-09-10T11:07:38.606Z
-weight: 3
+weight: 1
 title: Launching StrongerRoots, an Inclusive Recovery City
 description: Marketing, PR strategy and brand development for Nottinghamshire-wide recovery movement
 sector: for-people
