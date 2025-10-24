@@ -38,8 +38,6 @@ related_projects:
   - slug: work/the-rivers-trust
   - slug: work/garden-organic
     indent_text: true
-  - slug: projects/loveandrage
-    indent_images: true
 testimonials:
   - testimonials/rwb-short
   - testimonials/eti
