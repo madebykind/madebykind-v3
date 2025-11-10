@@ -11,7 +11,7 @@ draft: false
 services: []
 description: Even with the best intentions, digital project can often go awry. What you're missing is a discovery phase
 toc: true
-featured: true
+featured: false
 key_topic:
   - How we work
 topics:
