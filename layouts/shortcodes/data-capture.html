@@ -1,6 +1,9 @@
 {{- $heading := .Get "heading" -}}
 {{- $description := .Get "description" -}}
-{{ $src := "images/be-a-good-human.png" }}
+{{- $url := .Get "url" -}}
+{{- $purposes := .Get "purposes" -}}
+{{- $tag := .Get "tag" -}}
+{{- $src := .Get "src" -}}
 {{ $src := replace $src "images" "https://madebykind.imgix.net" }}
 {{ $btn_text := "Go" }}
 {{ $border_class := "border-indigo focus:border-blue" }}
@@ -35,9 +38,12 @@
         {{ end }}
 
         {{ partial "newsletter-form" (dict
-          "btn_text" $btn_text
+          "url" $url
+          "btn_text" ""
           "border_class" $border_class
           "label_class" $label_class
+          "purposes" $purposes
+          "tag" $tag
         ) }}
       </div>
     </div>

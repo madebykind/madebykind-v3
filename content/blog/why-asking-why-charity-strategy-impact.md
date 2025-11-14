@@ -71,6 +71,10 @@ If you’re planning a new project, download our Strategy Kickstart Canvas and u
 {{< data-capture
   heading="Download the Strategy Kickstart Canvas"
   description="Let us know your email address and we’ll send you the canvas along with some tips for how to use it."
+  url=""
+  src="images/be-a-good-human.png"
+  purposes="sending the Strategy Kickstart Canvas and advice on how to use it"
+  tag="3959822"
   >}}
 
 ## Finding your ‘why’
