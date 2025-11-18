@@ -4,6 +4,7 @@
 {{ $border_class := "border-indigo focus:border-blue" }}
 {{ $label_class := "" }}
 {{ $url := "" }}
+{{ $tag := "" }}
 {{ $purposes := "sending you insights and updates about our work" }}
 
 {{ with $.btn_text }}
@@ -20,6 +21,9 @@
 {{ end }}
 {{ with $.url }}
   {{ $url = . }}
+{{ end }}
+{{ with $.tag }}
+  {{ $tag = . }}
 {{ end }}
 
 <div class="{{ with $.block_class }}{{ . }}{{ end }}">
