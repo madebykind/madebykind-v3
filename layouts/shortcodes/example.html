@@ -1,10 +1,9 @@
 
 {{- $heading := .Get "heading" -}}
-{{- $link := .Get "link" -}}
-{{- $linktext := .Get "linktext" -}}
+{{- $project := .Get "project" -}}
 
 
-<div class="bg-blue text-pink p-8 max-w-3xl">
+<div class="border-t-2 border-b-2 border-blue p-8">
 
   <div class="prose">
     {{ with $heading }}
@@ -14,9 +13,28 @@
     {{ .Inner|markdownify }}
   </div>
   
-  {{ with $link }}
 
-  <a href="{{ . }}" class="flex items-center gap-2 mt-5 text-sm font-bold font-serif"><span>{{ $linktext }}</span><svg class="h-5 w-6" role="presentation"><use xlink:href="#icon-arrow"/></svg></a>
+
+  {{ with site.GetPage $project }}
+   <a href="{{ .Permalink }}" class="flex gap-4 no-underline mt-8 items-end group">
+
+      <div class="max-w-xs overflow-hidden">
+        {{ if isset .Params "cover_img" }}
+          {{ partial "image__card" . }}
+        {{ end }}
+      </div>
+      <div class="flex flex-col gap-2">
+        {{ with .Params.icon }}
+          <div class="">
+            <svg class="w-24 h-12 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-{{ . }}"/>
+            </svg>
+          </div>
+        {{ end }}
+        <h3 class="h2 h--condensed !mt-0 group-hover:text-orange group-focus:text-orange transition duration-300 ease-in-out">{{ .Params.heading }}</h3>
+        <span class="flex items-center gap-2 mt-5 text-sm font-bold font-serif underline group-hover:text-orange group-focus:text-orange transition duration-300 ease-in-out"><span>Read the case study</span><svg class="h-5 w-6 group-hover:ml-2 group-focus:ml-2 transition-all duration-300 ease-in-out" role="presentation"><use xlink:href="#icon-arrow"/></svg></span>
+      </div>
+    </a>
   {{ end }}
 
 </div>
