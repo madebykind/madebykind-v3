@@ -48,16 +48,17 @@ When the ‘why’ is clear, the end goals are obvious. It’s not about what we
 
 {{< example
   heading="In practice"
-  linktext="Read the case study"
-  link="/work/rewilding-britain"
+  project="work/rewilding-britain"
   >}}
-  In 2020, rewilding was still a relatively new idea for most people. Rewilding Britain's website held some useful information, but it didn’t bring the concept of rewilding to life. It was clear that they needed clarity about their purpose in order to take the next step.
+  In 2020, rewilding was still a new idea to most people and Rewilding Britain’s website wasn't bringing the concept of rewilding to life. They needed clarity about their purpose in order to take the next step.
 
-  Once we focused on the purpose of the project, the goals became clearer. Yes, we were refreshing their website, but more importantly they needed to help the public see why rewilding matters and how it benefits nature and local communities. That clarity shaped the structure, the content and the design decisions that followed.
+  Once we focused on that purpose, our goals became clear. The new website had to show why rewilding matters and how it benefits both nature and local communities. That clarity shaped the structure, the content and the design decisions that followed.
 
-  A few years later the landscape had changed. Rewilding had become a familiar term and more organisations were talking about it. Rewilding Britain needed to shift from raising awareness to leading the conversation. That meant returning to the strategy, understanding what had changed and realigning the site so it could support a growing national movement.
+  As rewilding became better known, Rewilding Britain needed to ensure they were leading the conversation. That meant returning to the strategy, understanding what had changed and realigning the site so it could support a growing national movement.
 
-  By starting with the reason behind the work and returning to it as the world changed, the website continues to help Rewilding Britain guide public understanding and stay focused on the impact they want to create.
+  By starting with the 'why' and returning to it as things changed, the website continues to help Rewilding Britain to stay focused on the impact they want to create.
+
+
 {{< /example >}}
 
 ## How to start asking ‘why’
