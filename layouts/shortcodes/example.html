@@ -1,0 +1,22 @@
+
+{{- $heading := .Get "heading" -}}
+{{- $link := .Get "link" -}}
+{{- $linktext := .Get "linktext" -}}
+
+
+<div class="bg-blue text-pink p-8 max-w-3xl">
+
+  <div class="prose">
+    {{ with $heading }}
+    <h2>{{ . }}</h2>
+    {{ end }}
+
+    {{ .Inner|markdownify }}
+  </div>
+  
+  {{ with $link }}
+
+  <a href="{{ . }}" class="flex items-center gap-2 mt-5 text-sm font-bold font-serif"><span>{{ $linktext }}</span><svg class="h-5 w-6" role="presentation"><use xlink:href="#icon-arrow"/></svg></a>
+  {{ end }}
+
+</div>

@@ -1,0 +1,50 @@
+{{- $heading := .Get "heading" -}}
+{{- $description := .Get "description" -}}
+{{- $url := .Get "url" -}}
+{{- $purposes := .Get "purposes" -}}
+{{- $tag := .Get "tag" -}}
+{{- $src := .Get "src" -}}
+{{ $src := replace $src "images" "https://madebykind.imgix.net" }}
+{{ $btn_text := "Go" }}
+{{ $border_class := "border-indigo focus:border-blue" }}
+{{ $label_class := "" }}
+
+
+<div class="bg-sky text-green px-6 py-12 flex flex-col gap-2 lg:flex-row lg:justify-between lg:items-end lg:gap-4">
+    {{ with $src }}
+
+      <picture class="max-w-iphone lg:max-w-xs block hidden lg:flex lg:order-last">
+        <img 
+          alt="Illustration of a person holding a watering can that waters many plants" 
+          class="w-full"
+          loading="lazy"
+          sizes="(min-width: 100em) 33vw, 96vw"
+          src="{{ (printf "%s?w=320&auto=compress,format" .) }}" 
+          srcset="
+        {{ (printf "%s?w=320&auto=compress,format" .) }} 320w,
+        {{ (printf "%s?w=480&auto=compress,format" .) }} 480w,
+        {{ (printf "%s?w=640&auto=compress,format" .) }} 640w,
+        {{ (printf "%s?w=800&auto=compress,format" .) }} 800w,
+        {{ (printf "%s?w=1280&auto=compress,format" .) }} 1280w"
+        >
+      </picture>
+    {{ end }}
+
+    <div>
+      <div class="max-w-[57ch]">
+        <h2 class="h--condensed mb-4 h2">{{ $heading }}</h2>
+        {{ with $description }}
+          <p class="text-sm mb-4"> {{ . }}</p>
+        {{ end }}
+
+        {{ partial "newsletter-form" (dict
+          "url" $url
+          "btn_text" ""
+          "border_class" $border_class
+          "label_class" $label_class
+          "purposes" $purposes
+          "tag" $tag
+        ) }}
+      </div>
+    </div>
+</div>

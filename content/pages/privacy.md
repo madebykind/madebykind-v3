@@ -19,7 +19,7 @@ We don’t use Google Analytics or any other in-depth analytics tool that captur
 
 If you decide to sign up to our mailing list, we’ll send you an email to confirm this before your data is added.
 
-Your data will be processed by Kind and Campaign Monitor for the purposes of sending you updates. We will send a maximum of 6 updates per year.
+Your data will be processed by Kind and MailChimp for the purposes of sending you updates. We will send a maximum of 6 updates per year.
 
 You’ll have the option to unsubscribe when receiving these emails, but if you’d like to do so at any time you can email [removemydata@madebykind.com](mailto:removemydata@madebykind.com) and we will delete your data within 2 working days.
 
