@@ -18,7 +18,7 @@ key_topic:
 topics:
   - Strategy
   - Non-profit
-intro: 'Strategy isn’t an abstract exercise, it’s the foundational work that holds teams and organisations together. When a charity that tackles complex issues becomes stretched, it’s the strategy that gives clear guidance that everyone can trust. <a href="/services/strategy">A clear strategy</ is what everything else stands on.'
+intro: 'Strategy isn’t an abstract exercise, it’s the foundational work that holds teams and organisations together. When a charity that tackles complex issues becomes stretched, it’s the strategy that gives clear guidance that everyone can trust.<br><br><a href="/services/strategy">A clear strategy</a> is what everything else stands on.'
 hide_newsletter: true
 related_posts:
   - why-asking-why-charity-strategy-impact
