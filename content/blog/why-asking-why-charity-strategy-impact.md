@@ -12,16 +12,16 @@ cover_img: images/work-sr-team-2.jpg
 text_colour: text-white
 cover_img_alt: Kind team members meeting around a wooden table with laptops.
 key_topic:
-  - How we work
+  - Insights
 topics:
   - Strategy
   - Non-profit
 intro: "Most charities begin projects full of excitement. A new website, a rebrand or a campaign that finally tells their story."
 hide_newsletter: true
 related_posts:
+  - strategy-for-social-change
   - brand-strategy-make-an-impact
   - creativity-is-a-responsibility
-  - creating-sustainable-and-ethical-digital-products
 ---
 
 The launch goes well, feedback is positive and for a while it feels like progress, but a few months later it’s hard to see any real change.
@@ -32,7 +32,7 @@ Often it’s because the question that matters most was never asked: *Why?*
 
 The most effective organisations aren’t the ones that move fastest, they’re the ones that focus on the 'why'.
 
-When there isn’t a clear reason behind a project, decisions are often based on preference rather than purpose. Without a clear plan and strategy, charity project planning becomes reactive, timelines stretch, budgets disappear and scope gets reduced to make things fit. You end up making compromises that shouldn’t be needed and sometimes you might even find yourself redoing the same work sooner than expected, as it becomes obvious that nothing has really changed.
+When there isn’t a clear reason behind a project, decisions are often based on preference rather than purpose. Without a clear plan and [strategy](/services/strategy), charity project planning becomes reactive, timelines stretch, budgets disappear and scope gets reduced to make things fit. You end up making compromises that shouldn’t be needed and sometimes you might even find yourself redoing the same work sooner than expected, as it becomes obvious that nothing has really changed.
 
 Everyone’s moving, but nobody is reading the map. It’s not because your team doesn’t care, it’s because they don’t have a shared focus.
 
