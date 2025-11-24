@@ -1,6 +1,6 @@
 ---
 title: "How strategy builds the foundations of social change"
-card_colour: bg-sky text-green
+card_colour: bg-teal text-indigo
 date: 2025-11-23T09:13:09.110Z
 author: michelle
 draft: false
@@ -11,6 +11,8 @@ toc: false
 #cover_img: images/work-sr-team-2.jpg
 #text_colour: text-white
 #cover_img_alt: Kind team members meeting around a wooden table with laptops.
+illustration: images/driving-change.png
+illustration_alt: An illustration of a large hand pushing a bicycle along a road
 key_topic:
   - Insights
 topics:
