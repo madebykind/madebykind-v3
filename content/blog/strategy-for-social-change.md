@@ -18,7 +18,7 @@ key_topic:
 topics:
   - Strategy
   - Non-profit
-intro: 'Strategy isn’t an abstract exercise, it’s the foundational work that holds teams and organisations together. When a charity that tackles complex issues becomes stretched, it’s the strategy that gives clear guidance that everyone can trust.<br><br><a href="/services/strategy">A clear strategy</a> is what everything else stands on.'
+intro: 'Strategy isn’t some abstract exercise, it’s the foundational work that holds teams and organisations together. When a charity that tackles complex issues is stretched, it’s their strategy that gives clear guidance that everyone can follow.<br><br><a href="/services/strategy">A clear strategy</a> is what everything else stands on.'
 hide_newsletter: true
 related_posts:
   - why-asking-why-charity-strategy-impact
@@ -28,32 +28,34 @@ related_posts:
 
 ## Clarity of purpose brings people together
 
-Purpose is one of the most powerful tools any organisation can have. It keeps your teams focused and helps your audiences and communities understand what you’re aiming for. When your purpose is clear, decisions can be made with confidence and your communications, both internally and externally, are more honest. When it isn’t, work becomes reactive and confused.
+Purpose is one of the most powerful tools any organisation can have. It keeps your teams focused and helps your audiences and communities understand what you’re aiming for. When your purpose is clear, decisions can be made with confidence and your communications, both internally and externally, are more honest. When it isn’t, your output can be reactive and confusing.
 
-Purpose can’t simplify the realities of working toward social change but it can give people something steady to work from, especially when lived experience, local knowledge and professional expertise all need to sit side by side. For any community or grassroots initiative, this clarity of purpose becomes the anchor for effective strategy and shared progress.
+Having a purpose can’t simplify the realities of working toward social change, but it can give people a solid base to work from, especially when lived experience, local knowledge and professional expertise all need to sit side by side. This clarity of purpose is the anchor for effective strategy and shared progress.
 
 {{< example
   heading="In practice"
   project="work/strongerroots"
   >}}
-  This came to life through our work with StrongerRoots, a grassroots initiative bringing together partners with different priorities and experiences of inequality. Each perspective mattered; the challenge was finding a shared story without losing individual voices.
+  This came to life through our work with StrongerRoots, a grassroots initiative bringing together partners with different priorities and experiences. Each perspective mattered, the real challenge was finding a shared story without losing the individual voices or viewpoints.
 
-  Through workshops and interviews, the project surfaced the mission that united those voices and experiences. From then, the core principles became clear and the audiences were easier to define. Only then did the communications strategy and the movement’s identity begin to take shape, rooted in the reality of the people involved.
+  Through workshops and interviews, we surfaced the mission that united those voices and experiences. From then, the core principles became clear and the audiences were much easier to define. Only then did the communications strategy and the movement’s identity begin to take shape, rooted in the reality of the people involved.
 
-  The result was a collective story that felt honest and energising. Strategy didn’t smooth out the differences, instead it gave them shape, and a way for people to create change together.
+  The result was a collective story that felt honest and energising. Strategy didn’t smooth out the differences, instead it gave them shape, and a way for people to create meaningful change together.
 
 {{< /example >}}
 
 ## Strategy supports collective work
 
-With a strategy that is purpose-driven, leadership can become something that’s shared across the organisation, rather than held by a single team. A clear future vision and set of values gives your team greater autonomy, without losing consistency.
+With a strategy that is purpose-driven, leadership becomes something that’s shared across the organisation, rather than held by a single team. And a clear future vision and set of values gives your team greater autonomy, without losing the consistency you need as an organisation.
 
-Understanding your audience deeply also helps you communicate more effectively, avoiding broad or unfocused messaging and, consequently, gaining more meaningful engagement. Keeping your mission at the heart of decision-making lowers friction within your teams and makes collaboration easier, even when the work is complicated.
+Understanding your audience deeply also helps you communicate more effectively, avoiding broad or unfocused messaging and, consequently, gaining more engagement from the right audiences. Keeping your mission at the heart of decision-making reduces friction within your teams and make it easier for them to collaborate, even when the work is complicated.
 
-On paper, you may be delivering the same thing as any other organisation, whether a new website, a refreshed brand or a campaign. But with a strategic foundation your project has a much better chance of success.
+On paper, you may be delivering the same thing as any other organisation, whether a new website, a refreshed brand or a campaign. But with a strategic foundation to build on your project has a much better chance of success.
 
 
 ## Your next step towards clarity
+
+So how do you know if you have the clarity and strategy you need before you start?
 
 If you are planning a brand or digital project, taking a moment to reflect on your readiness can make a real difference. We’ve created a short Project Readiness Checklist to help organisations understand whether they have the strategic clarity, alignment and capacity they need before beginning delivery work.
 
