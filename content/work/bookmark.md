@@ -86,7 +86,7 @@ teaser:
 footer_heading: "Do you have similar challenges?"
 ---
 
-{{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn 'Thank you' signs">}}
+{{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn 'Thank you' signs" logowidth="199" logoheight="64">}}
 By inspiring the joy of reading we can provide the motivation to read to every child and help them succeed in life.
 {{</ workquote >}}
 

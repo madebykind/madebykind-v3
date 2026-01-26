@@ -66,7 +66,7 @@ impact_teaser:
 note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="https://www.thewildernessproject.org/" target="_blank">The Wilderness Project</a>.</p>'
 ---
 
-{{< workquote source="The Wilderness Project Vision" logo="logo-square-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." >}}This is our opportunity to connect, collaborate and do something incredible for humanity – before it’s too late to act.{{</ workquote >}}
+{{< workquote source="The Wilderness Project Vision" logo="logo-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." logowidth="411" logoheight="225">}}This is our opportunity to connect, collaborate and do something incredible for humanity – before it’s too late to act.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">

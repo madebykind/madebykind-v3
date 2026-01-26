@@ -72,7 +72,7 @@ client: Algrano
 footer_heading: "Want to launch a new brand?"
 ---
 
-{{< workquote logo="algrano-logo" img="images/work-algrano-growers.jpg" alt="A woman and a man inspect a coffee plant">}}
+{{< workquote logo="algrano-logo" img="images/work-algrano-growers.jpg" alt="A woman and a man inspect a coffee plant" logowidth="492" logoheight="122">}}
 We create change with technology to enable independent producers and roasters to thrive.
 {{</ workquote >}}
 

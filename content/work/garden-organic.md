@@ -65,7 +65,7 @@ teaser:
 #footer_heading:
 ---
 
-{{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden">}}
+{{< workquote source="Garden Organic Mission" logo="garden-organic-logo" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden" logowidth="98" logoheight="48">}}
 We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
 {{</ workquote >}}
 

@@ -59,7 +59,7 @@ client: Jackson-Crane
 #footer_heading:
 ---
 
-{{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" >}}
+{{< workquote author="Jackson-Crane Mission" logo="jackson-crane-logo" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" logowidth="104" logoheight="14">}}
 Our mission is to create sustainable, environmentally conscious and high performing architectural design for like-minded, progressive clients.
 {{</ workquote >}}
 

@@ -81,7 +81,7 @@ teaser:
 #footer_heading:
 ---
 
-{{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" img="images/work-rivers-trust-sandals.jpg" alt="Feet in a shallow river stream">}}
+{{< workquote source="The Rivers Trust" logo="rt-logo" img="images/work-rivers-trust-sandals.jpg" alt="Feet in a shallow river stream" logowidth="188" logoheight="90">}}
 Rivers shape our landscapes and provide the foundations of our cities, towns and countryside. When they thrive, so do we.
 {{</ workquote >}}
 

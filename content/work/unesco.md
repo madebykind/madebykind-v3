@@ -81,7 +81,7 @@ teaser:
   </div>
 </div>
 
-{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="Three child refugees in a tent Kabul">}}
+{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="Three child refugees in a tent Kabul" logowidth="162" logoheight="35">}}
 Education is a fundamental human right. For children and youth caught up in emergency situations, education not only means the continuity of learning, but it also provides a sense of normalcy and the key to a different future.
 {{</ workquote >}}
 

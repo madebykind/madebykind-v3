@@ -45,7 +45,7 @@ client: Plan Vivo
 
 ---
 
-{{< workquote logo="logo-planvivo" img="images/work_plan_vivo_brand_1.jpg" alt="A group of four people crouches over a sheet of paper on the ground and one of them writes on the paper" >}}Locally led projects. Meaningful impact. Beyond carbon.{{</ workquote >}}
+{{< workquote logo="logo-planvivo" img="images/work_plan_vivo_brand_1.jpg" alt="A group of four people crouches over a sheet of paper on the ground and one of them writes on the paper" logowidth="224" logoheight="29">}}Locally led projects. Meaningful impact. Beyond carbon.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">

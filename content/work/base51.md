@@ -83,7 +83,7 @@ client: Base 51
 #footer_heading:
 ---
 
-{{< workquote logo="logo-base51" img="images/work-base51-imagery-3.jpg" alt="Two young women look at each other. They appear to be at an outdoor festival, with the sun setting in the distance. They are smiling">}}
+{{< workquote logo="logo-base51" img="images/work-base51-imagery-3.jpg" alt="Two young women look at each other. They appear to be at an outdoor festival, with the sun setting in the distance. They are smiling" logowidth="1135" logoheight="215">}}
 A safe place where change begins.
 {{</ workquote >}}
 

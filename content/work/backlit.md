@@ -54,7 +54,7 @@ client: Backlit
 #footer_heading:
 ---
 
-{{< workquote source="Backlit Gallery" logo="logo-square-backlit" img="images/Work-Backlit-Exhibition.jpg" alt="An exhibition at Backlit Gallery">}}
+{{< workquote source="Backlit Gallery" logo="logo-square-backlit" img="images/Work-Backlit-Exhibition.jpg" alt="An exhibition at Backlit Gallery" logowidth="187" logoheight="187">}}
 Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.
 {{</ workquote >}}
 

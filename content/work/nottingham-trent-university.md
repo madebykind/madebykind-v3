@@ -80,7 +80,7 @@ teaser:
 #footer_heading:
 ---
 
-{{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-bonnington.jpg" alt="Bonnington Gallery" >}}
+{{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-bonnington.jpg" alt="Bonnington Gallery" logowidth="187" logoheight="187">}}
 We are driven by our determination to become the University of the future. By addressing the themes within our current University strategy, University, reimagined, we are tackling social injustice, valuing ideas and creating opportunities.
 {{</ workquote >}}
 

@@ -67,7 +67,7 @@ impact_teaser:
 
 
 
-{{< workquote source="V&A mission statement" logo="logo-square-vam" img="images/work-va-cupola.jpg" alt="An interior view of an architectural dome / cupola" >}}
+{{< workquote source="V&A mission statement" logo="va-logo" img="images/work-va-cupola.jpg" alt="An interior view of an architectural dome / cupola" logowidth="102" logoheight="58">}}
 Our mission is to be recognised as the world’s leading museum of art, design and performance, and to enrich people’s lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ workquote >}}
 

@@ -79,7 +79,7 @@ teaser:
 footer_heading: "Time for a brand refresh?"
 ---
 
-{{< workquote logo="logo-artswork" img="images/work-artswork-photo-2.jpg" alt="Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air">}}
+{{< workquote logo="logo-artswork" img="images/work-artswork-photo-2.jpg" alt="Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air" logowidth="242" logoheight="43">}}
 We empower young people to lead change through creativity – for themselves, their communities and the world.
 {{</ workquote >}}
 
