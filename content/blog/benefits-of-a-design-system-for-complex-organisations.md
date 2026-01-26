@@ -14,7 +14,6 @@ services:
 seo_title: Benefits of design systems for Universities
 description: What is a Design System and what are the benefits of implementing one?
 toc: false
-featured: true
 key_topic:
   - How we work
 topics:

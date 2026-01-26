@@ -45,7 +45,7 @@ client: StrongerRoots
 
 ---
 
-{{< workquote img="images/work-sr-event-2.jpg" alt="Family smiling at a community event surrounded by decorations, reflecting StrongerRoots’ focus on connection and inclusion." >}}We believe that people in recovery deserve more than just support – they deserve opportunity, dignity, and full inclusion in society.{{</ workquote >}}
+{{< workquote logo="logo-sr" img="images/work-sr-event-2.jpg" alt="Family smiling at a community event surrounded by decorations, reflecting StrongerRoots’ focus on connection and inclusion." >}}We believe that people in recovery deserve more than just support – they deserve opportunity, dignity, and full inclusion in society.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
