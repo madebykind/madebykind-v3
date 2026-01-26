@@ -1,6 +1,10 @@
 
+{{ $imgClass := "object-fit" }}
+{{ with .Get "imgclass" }}
+  {{ $imgClass = . }}
+{{ end }}
+
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1800" "1920" "2240" -}}
-{{- $imgClass := "object-fit" -}}
 {{- $dataSizes := "98vw" -}}
 {{- $align := .Get "align" -}}
 {{- $type := .Get "type" -}}

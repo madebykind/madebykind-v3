@@ -27,25 +27,25 @@ why:
   person: michelle
 impact:
   text: In a busy and confusing landscape, the new brand and platform help make Plan Vivo’s work easier to understand and easier to trust. Clear messaging and design strengthens connections across their membership and supports long-lasting, meaningful impact.
-  img: images/placeholder.png
-  img_alt: "PLACEHOLDER ALT TEXT"
+  img: images/work_plan_vivo_brand_5.jpg
+  img_alt: "A man in a yellow hard hat uses a hose to extinguish a fire in a grassy area"
 
 # Header
 banner_type: standard
-banner_img: images/placeholder.png
-banner_img_alt: PLACEHOLDER ALT TEXT
+banner_img: images/work_plan_vivo_brand_2.jpg
+banner_img_alt: "A woman in a red and yellow dress waters seedlings in a tree nursery"
 banner_logo_class: "text-white w-1/2 h-auto"
 banner_icon: logo-planvivo
 
 # Teaser content
-cover_img: images/placeholder.png
-cover_img_alt: "PLACEHOLDER ALT TEXT."
+cover_img: images/work_plan_vivo_brand_4.jpg
+cover_img_alt: "A smiling nursery worker crouches between rows of seedlings, with a blue net canopy above her."
 icon: logo-planvivo
 client: Plan Vivo
 
 ---
 
-{{< workquote logo="logo-planvivo" img="images/placeholder.png" alt="PLACEHOLDER ALT TEXT" >}}Locally led projects. Meaningful impact. Beyond carbon.{{</ workquote >}}
+{{< workquote logo="logo-planvivo" img="images/work_plan_vivo_brand_1.jpg" alt="A group of four people crouches over a sheet of paper on the ground and one of them writes on the paper" >}}Locally led projects. Meaningful impact. Beyond carbon.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -55,22 +55,6 @@ client: Plan Vivo
 
   We worked closely with Plan Vivo to understand their audiences, priorities and long-term ambitions. Through collaborative research and workshops, we clarified how their values and community-led approach could be communicated more clearly to members and partners. This phase established a shared narrative that shaped the work that followed.
 
-  </div>
-</div>
-
-
-{{< multi-image
-  src_4="images/placeholder.png" alt_2="PLACEHOLDER ALT TEXT"
-  >}}
-
-
-{{< figure imgclass="w-full" src="placeholder.png" alt="PLACEHOLDER ALT TEXT" >}}
-
-
-<!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
-
   ## Brand creation and identity
 
   The new brand identity reflects Plan Vivo’s integrity and experience, grounded in their community-led approach. The brand brings clarity and confidence to their work, helping them communicate their impact with warmth and authority. The identity creates consistency across channels while clearly distinguishing Plan Vivo from others operating in carbon and climate markets.
@@ -78,14 +62,44 @@ client: Plan Vivo
   </div>
 </div>
 
-{{< multi-image
-  src_2="images/placeholder.png" alt_1="PLACEHOLDER ALT TEXT"
-  src_3="images/placeholder.png" alt_2="PLACEHOLDER ALT TEXT"
-  >}}
 
 
-{{< figure imgclass="w-full" src="placeholder.png" alt="PLACEHOLDER ALT TEXT" >}}
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
+    {{< animation id="anim-planvivo-type" >}}
+  </div>
+  <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
+    {{< animation id="anim-planvivo-icons" >}}
+  </div>
 
+</div>
+
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
+  <div class="col-span-full lg:col-span-8 lg:row-span-2">
+    {{< figure alt="Plan Vivo brand guidelines on various screens" src="work_plan_vivo_guidelines.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover" >}}
+  </div>
+  <div class="col-span-full lg:col-span-4">
+    {{< figure alt="Plan Vivo business cards" src="work_plan_vivo_business_card.jpg" >}}
+  </div>
+  <div class="col-span-full lg:col-span-4">
+    {{< figure alt="Plan Vivo notebooks" src="work_plan_vivo_notebook.jpg" >}}
+  </div>
+
+</div>
+
+<div class="w-full aspect-[4/3]">
+
+  {{< image-cycle
+  src_1="images/work_plan_vivo_brochure.jpg"
+  alt_1="The cover of a Plan Vivo document, on a table"
+  src_2="images/work_plan_vivo_brochure_internal_1.jpg"
+  alt_2="Inside spread of a Plan Vivo document"
+  src_3="images/work_plan_vivo_brochure_internal_2.jpg"
+  alt_3="Inside spread of a Plan Vivo document"
+  imgclass="w-full h-full object-cover"
+  speed="2000" >}}
+</div>
 
 
 <!-- Text left -->
@@ -100,15 +114,14 @@ client: Plan Vivo
 </div>
 
 {{< multi-image
-  src_1="images/placeholder.png" alt_1="PLACEHOLDER ALT TEXT"
-  src_4="images/placeholder.png" alt_4="PLACEHOLDER ALT TEXT"
+  src_4="images/work_plan_vivo_components.jpg" alt_4="Plan Vivo website on a laptop screen"
+  src_1="images/work_plan_vivo_laptop_website.jpg" alt_1="Plan Vivo website components"
   class_1="self-end"
   block_class="items-stretch"
   >}}
 
 
-{{< figure imgclass="w-full" src="placeholder.png" alt="PLACEHOLDER ALT TEXT" >}}
-
+{{< figure imgclass="w-full" src="work_plan_vivo_mobile_quote.jpg" alt="Plan Vivo website on a mobile device, held in someones right hand" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
@@ -121,12 +134,7 @@ client: Plan Vivo
   </div>
 </div>
 
-{{< multi-image
-  src_1="images/placeholder.png" alt_1="PLACEHOLDER ALT TEXT"
-  src_4="images/placeholder.png" alt_4="PLACEHOLDER ALT TEXT"
-  class_1="self-end"
-  >}}
 
-{{< figure imgclass="w-full" src="placeholder.png" alt="PLACEHOLDER ALT TEXT" >}}
+{{< figure imgclass="w-full" src="work_plan_vivo_mobile_hero.jpg" alt="Plan Vivo website on a mobile device, on a rock" >}}
 
 
