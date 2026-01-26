@@ -13,7 +13,7 @@ services:
   - digital
 related_work:
   - work/rewilding-britain
-  - work/the-wilderness-project
+  - work/garden-organic
 
 # Content
 heading: Raising public awareness of Britain’s poor river health
@@ -55,6 +55,8 @@ external_link: https://theriverstrust.org
 cover_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 cover_img_alt: A river in the Scottish Higlands
 icon: rt-logo
+icon_width: 188
+icon_height: 90
 client: The Rivers Trust
 impact_teaser:
   text: Build awareness of the UK’s **river sewage crisis**

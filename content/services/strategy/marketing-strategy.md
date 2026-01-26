@@ -6,4 +6,6 @@ title: Marketing strategy
 listonly: true
 _build:
   render: never
+# Header
+heading: Marketing strategy
 ---

@@ -15,8 +15,8 @@ services:
   - brand
   - digital
 related_work:
-  - work/chapter
-  - work/artswork
+  - work/plan-vivo
+  - work/rewilding-britain
 
 # Content
 heading: Ensuring a fair deal across the global coffee community
@@ -56,6 +56,8 @@ toc_replacements:
 cover_img: images/work-algrano-harvest.jpg
 cover_img_alt: A man empties a harvest of coffee from an orange pallette box into a machine
 icon: algrano-logo
+icon_width: 491
+icon_height: 122
 client: Algrano
 # impact_teaser:
 #   text: 

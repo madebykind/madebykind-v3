@@ -15,8 +15,8 @@ services:
   - brand
   - digital
 related_work:
+  - work/plan-vivo
   - work/rewilding-britain
-  - work/the-rivers-trust
 
 # Content
 heading: Building a brand story that protects fresh water wilderness
@@ -50,6 +50,8 @@ external_link: https://www.thewildernessproject.org/
 cover_img: images/work-twp-hero-3.jpg
 cover_img_alt: "A person stands beside two canoes on the shore of a misty river at sunrise, surrounded by reeds and trees."
 icon: logo-twp
+icon_width: 386
+icon_height: 194
 client: The Wilderness Project
 impact_teaser:
   text: Protect Africa's **fresh water** wilderness
@@ -66,7 +68,7 @@ impact_teaser:
 note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="https://www.thewildernessproject.org/" target="_blank">The Wilderness Project</a>.</p>'
 ---
 
-{{< workquote source="The Wilderness Project Vision" logo="logo-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." logowidth="411" logoheight="225">}}This is our opportunity to connect, collaborate and do something incredible for humanity – before it’s too late to act.{{</ workquote >}}
+{{< workquote source="The Wilderness Project Vision" logo="logo-twp" img="images/work-twp-vision.jpg" alt="A winding river flows through a landscape with dense green forest on the left and open brown grassland on the right, viewed from above." logowidth="386" logoheight="194">}}This is our opportunity to connect, collaborate and do something incredible for humanity – before it’s too late to act.{{</ workquote >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">

@@ -15,7 +15,7 @@ services:
   - strategy
   - digital
 related_work:
-  - work/the-wilderness-project
+  - work/plan-vivo
   - work/the-rivers-trust
 
 # Content
@@ -54,6 +54,8 @@ external_link: https://www.rewildingbritain.org.uk
 cover_img: images/work-rewilding-britain-carousel-4.jpg
 cover_img_alt: A Blue Tit on a branch
 icon: rwb-logo
+icon_width: 176
+icon_height: 61
 client: Rewilding Britain
 impact_teaser:
   text: Inspire the **rewilding** movement across Britain

@@ -15,11 +15,11 @@ services:
   - brand
   - digital
 related_work:
+  - work/rewilding-britain
   - work/unesco
-  - work/chapter
 
 # Content
-heading: "Supporting community-led climate action"
+heading: "Supporting community-led climate&nbsp;action"
 preheading: Brand identity and website for a high-integrity environmental charity.
 intro: "<p>Plan Vivo is an environmental charity championing high-integrity, community-led climate and nature projects around the world. We partnered with them to create a new brand identity, website and digital hub that clearly communicates their values, builds trust in their approach, and supports a growing global membership.</p>"
 why:
@@ -41,6 +41,8 @@ banner_icon: logo-planvivo
 cover_img: images/work_plan_vivo_brand_4.jpg
 cover_img_alt: "A smiling nursery worker crouches between rows of seedlings, with a blue net canopy above her."
 icon: logo-planvivo
+icon_width: 224
+icon_height: 29
 client: Plan Vivo
 
 ---

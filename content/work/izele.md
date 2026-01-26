@@ -12,8 +12,8 @@ topics:
 services:
   - digital
 related_work:
-  - work/the-wilderness-project
-  - work/sheffield-hallam-university
+  - work/rewilding-britain
+  - work/plan-vivo
 
 # Content
 heading: A platform uniting conservation projects across Southern Africa
@@ -38,6 +38,8 @@ banner_icon: logo-izele
 cover_img: images/work-izele-giraffe-plains.jpg
 cover_img_alt: "A giraffe on the plains"
 icon: logo-izele
+icon_width: 95
+icon_height: 90
 client: Izele
 social_img: images/work-izele-gazelle.jpg
 

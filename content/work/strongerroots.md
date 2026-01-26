@@ -15,7 +15,7 @@ services:
   - brand
 related_work:
   - work/unesco
-  - work/chapter
+  - work/algrano
 
 # Content
 heading: "Making recovery visible and inclusive across communities"
@@ -41,6 +41,8 @@ banner_icon: logo-sr
 cover_img: images/work-sr-hero-3.jpg
 cover_img_alt: "Portrait of a smiling woman with windswept hair, symbolising growth, strength and optimism in recovery."
 icon: logo-sr
+icon_width: 1191
+icon_height: 195
 client: StrongerRoots
 
 ---

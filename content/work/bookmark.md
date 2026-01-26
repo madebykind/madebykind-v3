@@ -14,8 +14,8 @@ topics:
 services:
   - digital
 related_work:
+  - work/strongerroots
   - work/artswork
-  - work/unesco
 
 # Content
 heading: Raising awareness of the childhood literacy gap in the UK 
@@ -56,6 +56,8 @@ toc_replacements:
 cover_img: images/work-bookmark-reading-mentor.jpg
 cover_img_alt: A child and a woman reading together
 icon: logo-bookmark
+icon_width: 199
+icon_height: 64
 client: Bookmark Reading
 impact_teaser:
   text: Raise awareness of the UK’s **childhood literacy** gap

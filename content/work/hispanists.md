@@ -10,8 +10,8 @@ topics:
 services:
   - brand
 related_work:
-  - work/chapter
-  - work/backlit
+  - work/unesco
+  - work/sheffield-hallam-university
 
 # Content
 heading: Connecting global Iberian academia
@@ -42,6 +42,8 @@ toc: false
 cover_img: images/work-hispanists-flags.jpg
 cover_img_alt: Two red flags showing the AHGBI logo
 icon: ahgbi-logo
+icon_width: 240
+icon_height: 254
 client: AHGBI
 # impact_teaser:
 #   text: 

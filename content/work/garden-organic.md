@@ -12,7 +12,7 @@ topics:
   - services/digital/crm-integration
 related_work:
   - work/rewilding-britain
-  - work/the-rivers-trust
+  - work/plan-vivo
 services:
   - digital
 
@@ -45,6 +45,8 @@ external_link: https://www.gardenorganic.org.uk/
 cover_img: images/work-garden-organic-laptop-3.jpg
 cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
 icon: garden-organic-logo
+icon_width: 98
+icon_height: 48
 client: Garden Organic
 
 # @TODO: Remove this once these teasers have been replaced

@@ -17,7 +17,7 @@ services:
   - digital
 related_work:
   - work/nottingham-trent-university
-  - work/vanda
+  - work/hispanists
 
 # Content
 heading: Creating a sustainable design system to improve the efficiency of digital projects
@@ -46,6 +46,8 @@ toc: true
 cover_img: images/work-shu-runner.jpg
 cover_img_alt: A woman looking over a view of Sheffield city centre at dawn
 icon: shu-logo
+icon_width: 300
+icon_height: 161
 client: Sheffield Hallam University
 # impact_teaser:
 #   text: 

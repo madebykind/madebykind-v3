@@ -14,8 +14,8 @@ services:
   - brand
   - digital
 related_work:
+  - work/artswork
   - work/backlit
-  - work/vanda
 
 # Content
 heading: Helping a pioneering arts centre reflect its evolving mission
@@ -47,6 +47,8 @@ external_link: https://chapter.org.uk
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 icon: chapter-logo
+icon_width: 393
+icon_height: 89
 client: Chapter
 # impact_teaser:
 #   text: 

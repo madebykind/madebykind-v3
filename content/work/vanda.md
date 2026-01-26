@@ -17,8 +17,8 @@ services:
   - brand
   - digital
 related_work:
-  - work/artswork
-  - work/backlit
+  - work/unesco
+  - work/nottingham-trent-university
 
 # Content
 heading: Working with the world’s leading art and design museum
@@ -51,6 +51,8 @@ toc: true
 cover_img: images/work-va-teaser.jpg
 cover_img_alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
 icon: va-logo
+icon_width: 102
+icon_height: 58
 client: The V&A
 impact_teaser:
   text: Support internationally acclaimed **cultural organisations**

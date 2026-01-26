@@ -10,8 +10,8 @@ topics:
 services:
   - strategy
 related_work:
-  - work/nottingham-trent-university
-  - work/vanda
+  - work/rewilding-britain
+  - work/plan-vivo
 
 # Content
 heading: Bringing focus to a contemporary architecture practice
@@ -43,6 +43,8 @@ toc: false
 cover_img: images/work-jackson-crane-biophillic-house.jpg
 cover_img_alt: Rendered image of a biophilic house
 icon: jackson-crane-logo
+icon_width: 104
+icon_height: 13
 client: Jackson-Crane
 # impact_teaser:
 #   text: 

@@ -13,7 +13,7 @@ services:
   - brand
 related_work:
   - work/artswork
-  - work/bookmark
+  - work/garden-organic
 
 
 # Content
@@ -67,6 +67,8 @@ toc_replacements:
 cover_img: images/work-base51-imagery-1.jpg
 cover_img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
 icon: logo-base51
+icon_width: 1135
+icon_height: 215
 client: Base 51
 # impact_teaser:
 #   text: 

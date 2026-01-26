@@ -96,6 +96,8 @@ teaser:
   button_text: Our brand offering
   text_class: "text-pink md:text-sky"
   clients:
+    - name: Plan Vivo
+      icon: logo-planvivo
     - name: Chapter
       icon: chapter-logo
     #- name: Papyrus
@@ -104,19 +106,20 @@ teaser:
       icon: logo-base51
     - name: Algrano
       icon: algrano-logo
-    - name: Artswork
-      icon: logo-artswork
+    #- name: Artswork
+    #  icon: logo-artswork
     - name: The Wilderness Project
       icon: logo-twp
     - name: The Association of Hispanists of Great Britain and Ireland
       icon: ahgbi-logo
   testimonials:
     - testimonials/base51
+    - testimonials/plan-vivo
     #- testimonials/unesco
   projects_title: Brand projects
   projects:
+    - work/plan-vivo
     - work/base51
-    - work/chapter
   projects_link:
     title: All brand projects
     url: "/work/#brand"
