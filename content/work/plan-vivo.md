@@ -21,7 +21,7 @@ related_work:
 # Content
 heading: "Supporting community-led climate action"
 preheading: Brand identity and website for a high-integrity environmental charity.
-intro: "<p>StrongerRoots, part of the Inclusive Recovery Cities initiative, is transforming how addiction and recovery are understood in Nottingham and Nottinghamshire. By tackling stigma, educating services, and partnering with employers and communities, it creates welcoming spaces where people in recovery are supported to thrive, grow, and build stronger, connected futures.</p>"
+intro: "<p>Plan Vivo is an environmental charity championing high-integrity, community-led climate and nature projects around the world. We partnered with them to create a new brand identity, website and digital hub that clearly communicates their values, builds trust in their approach, and supports a growing global membership.</p>"
 why:
   text: "Plan Vivo sets the benchmark for high-integrity climate action. Their commitment to locally-led projects and fair benefit sharing closely aligns with our values and mission to benefit both people and planet."
   person: michelle
