@@ -140,3 +140,6 @@ client: Plan Vivo
 {{< figure imgclass="w-full" src="work_plan_vivo_mobile_hero.jpg" alt="Plan Vivo website on a mobile device, on a rock" >}}
 
 
+{{< blockquote author="Diana Wrangham" role="Communications Coordinator, Plan Vivo" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Working with Kind has been an incredibly enjoyable experience for us. From the discovery phase through to the website build and launch, Kind were nothing short of fantastic. They really took the time to get to know our organisation, which has resulted in a brand that truly reflects who Plan Vivo is today. {{</ blockquote >}}
+
+

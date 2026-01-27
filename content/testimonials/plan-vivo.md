@@ -10,4 +10,4 @@ logo:
 ---
 
 
-Great.
+Kind really took the time to get to know our organisation, which has resulted in a brand that truly reflects who we are today.
