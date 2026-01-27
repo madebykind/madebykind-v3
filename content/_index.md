@@ -34,8 +34,9 @@ impacts:
   - work/the-rivers-trust
 projects:
   #- work/papyrus
+  - work/plan-vivo
+  - work/strongerroots
   - work/rewilding-britain
   - work/unesco
-  - work/the-wilderness-project
-  - work/strongerroots
+  #- work/the-wilderness-project
 ---
