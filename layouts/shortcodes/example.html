@@ -31,7 +31,7 @@
             </svg>
           </div>
         {{ end }}
-        <h3 class="h2 h--condensed !mt-0 group-hover:text-orange group-focus:text-orange transition duration-300 ease-in-out">{{ .Params.heading }}</h3>
+        <h3 class="h2 h--condensed !mt-0 group-hover:text-orange group-focus:text-orange transition duration-300 ease-in-out">{{ .Params.heading|safeHTML }}</h3>
         <span class="flex items-center gap-2 mt-5 text-sm font-bold font-serif underline group-hover:text-orange group-focus:text-orange transition duration-300 ease-in-out"><span>Read the case study</span><svg class="h-5 w-6 group-hover:ml-2 group-focus:ml-2 transition-all duration-300 ease-in-out" role="presentation"><use xlink:href="#icon-arrow"/></svg></span>
       </div>
     </a>
