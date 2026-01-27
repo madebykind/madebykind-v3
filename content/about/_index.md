@@ -39,20 +39,22 @@ clients:
       icon: unesco-logo
     - name: Rewilding Britain
       icon: rwb-logo
+    - name: Plan Vivo
+      icon: logo-planvivo
     - name: Artswork
       icon: logo-artswork
     - name: The Wilderness Project
       icon: logo-twp
-    - name: Base 51
-      icon: logo-base51
     - name: The Rivers Trust
       icon: rt-logo
+    - name: Base 51
+      icon: logo-base51
     - name: Bookmark Reading
       icon: logo-bookmark
     - name: Chapter
       icon: chapter-logo
-    - name: Backlit Gallery
-      icon: backlit-logo
+    #- name: Backlit Gallery
+    #  icon: backlit-logo
     - name: The V&A
       icon: va-logo
     - name: Algrano

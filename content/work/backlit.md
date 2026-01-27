@@ -14,7 +14,7 @@ services:
   - digital
 related_work:
   - work/chapter
-  - work/vanda
+  - work/artswork
 
 # Content
 heading: Supporting an Internationally-Renowned Art Gallery
@@ -48,13 +48,15 @@ external_link: https://backlit.org.uk/
 cover_img: images/work-backlit-kind-team-2.jpg
 cover_img_alt: High-level view of three people around a wooden table, looking at digital designs of Backlit Gallery website on a laptop and a tablet
 icon: backlit-logo
+icon_width: 69
+icon_height: 69
 client: Backlit
 
 # Footer override
 #footer_heading:
 ---
 
-{{< workquote source="Backlit Gallery" logo="logo-square-backlit" img="images/Work-Backlit-Exhibition.jpg" alt="An exhibition at Backlit Gallery">}}
+{{< workquote source="Backlit Gallery" logo="logo-square-backlit" img="images/Work-Backlit-Exhibition.jpg" alt="An exhibition at Backlit Gallery" logowidth="187" logoheight="187">}}
 Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural organisation. We care about equity, inclusion, mental health, the environment and being a safe space for all.
 {{</ workquote >}}
 

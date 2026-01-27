@@ -13,7 +13,7 @@ services:
   - digital
 related_work:
   - work/rewilding-britain
-  - work/the-wilderness-project
+  - work/garden-organic
 
 # Content
 heading: Raising public awareness of Britain’s poor river health
@@ -55,6 +55,8 @@ external_link: https://theriverstrust.org
 cover_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
 cover_img_alt: A river in the Scottish Higlands
 icon: rt-logo
+icon_width: 188
+icon_height: 90
 client: The Rivers Trust
 impact_teaser:
   text: Build awareness of the UK’s **river sewage crisis**
@@ -81,7 +83,7 @@ teaser:
 #footer_heading:
 ---
 
-{{< workquote source="The Rivers Trust" logo="logo-square-rivers-trust" img="images/work-rivers-trust-sandals.jpg" alt="Feet in a shallow river stream">}}
+{{< workquote source="The Rivers Trust" logo="rt-logo" img="images/work-rivers-trust-sandals.jpg" alt="Feet in a shallow river stream" logowidth="188" logoheight="90">}}
 Rivers shape our landscapes and provide the foundations of our cities, towns and countryside. When they thrive, so do we.
 {{</ workquote >}}
 

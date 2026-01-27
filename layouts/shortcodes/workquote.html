@@ -1,4 +1,13 @@
 
+{{ $logoWidth := 0 }}
+{{ $logoHeight := 0 }}
+{{ with .Get "logowidth" }}
+  {{ $logoWidth = . }}
+{{ end }}
+{{ with .Get "logoheight" }}
+  {{ $logoHeight = . }}
+{{ end }}
+
 <figure {{ with .Get "cite" }}cite="https://{{ . }}"{{ end }} class="my-10 grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-center section--lg">
   {{- $alt := ( .Get "alt" ) -}}
   {{ with .Get "img" }}
@@ -43,20 +52,21 @@
     {{ end }}
   {{ end }}
 
-  <div class="col-span-full lg:col-span-4">
+  <div class="col-span-full lg:col-span-4 flex flex-col">
     <blockquote class="p-0 border-0" itemscope itemtype="http://schema.org/CreativeWork">
       <p class="text-md xl:text-lg" itemprop="citation">&ldquo;{{ trim .Inner "\n" }}&rdquo;</p>
     </blockquote>
 
     {{ if or (.Get "logo") (.Get "source") }}
-      <figcaption class="inline-flex items-center gap-5 mt-4">
-        {{ with .Get "logo" }}
-          <svg class="w-12 h-8 lg:w-24 lg:h-16 text-indigo" role="presentation">
-            <use xlink:href="#icon-{{ . }}"/>
+      <figcaption class="inline-flex items-center gap-2 mt-4">
+        {{ if .Get "logo" }}
+          <svg class="h-12 w-auto max-w-32 lg:h-16 lg:max-w-48 shrink-0" role="presentation"  aria-hidden="true"
+            {{ if ne $logoWidth 0 }}width="{{ $logoWidth }}"{{ end }}
+            {{ if ne $logoHeight 0 }}height="{{ $logoHeight }}"{{ end }}>
+            <use xlink:href="#icon-{{ .Get "logo" }}"/>
           </svg>
-        {{ end }}
-        {{ with .Get "source" }}
-          <div class="h3 h--condensed">{{ . }}</div>
+        {{ else if .Get "source" }}
+          <div class="text-sm font-normal font-sans">{{ .Get "source" }}</div>
         {{ end }}
       </figcaption>
     {{ end }}

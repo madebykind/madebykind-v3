@@ -14,8 +14,8 @@ services:
   - brand
   - digital
 related_work:
+  - work/artswork
   - work/backlit
-  - work/vanda
 
 # Content
 heading: Helping a pioneering arts centre reflect its evolving mission
@@ -47,6 +47,8 @@ external_link: https://chapter.org.uk
 cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 icon: chapter-logo
+icon_width: 393
+icon_height: 89
 client: Chapter
 # impact_teaser:
 #   text: 
@@ -80,7 +82,7 @@ teaser:
 ---
 
 
-{{< workquote source="Chapter manifesto" logo="logo-square-chapter" img="images/work-chapter-header.jpg" alt="Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows." >}}
+{{< workquote source="Chapter manifesto" logo="chapter-logo" img="images/work-chapter-header.jpg" alt="Chapter logo overlayed on an image of the interior of a gallery space with shadows cast by multi-coloured lights on the walls. The shadows appear alien in shape and the figure of a statue in the bottom left of the image appears to be looking up at the shadows." logowidth="393" logoheight="89">}}
 From world-class and emerging talent to the next generation, to our audiences and visitors. We’re here for all the things that bring us together, the things made to share, the things that make us.
 {{</ workquote >}}
 

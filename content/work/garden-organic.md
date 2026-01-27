@@ -12,7 +12,7 @@ topics:
   - services/digital/crm-integration
 related_work:
   - work/rewilding-britain
-  - work/the-rivers-trust
+  - work/plan-vivo
 services:
   - digital
 
@@ -45,6 +45,8 @@ external_link: https://www.gardenorganic.org.uk/
 cover_img: images/work-garden-organic-laptop-3.jpg
 cover_img_alt: Garden Organic website on a laptop, situated on a garden table.
 icon: garden-organic-logo
+icon_width: 98
+icon_height: 48
 client: Garden Organic
 
 # @TODO: Remove this once these teasers have been replaced
@@ -65,7 +67,7 @@ teaser:
 #footer_heading:
 ---
 
-{{< workquote source="Garden Organic Mission" logo="logo-square-garden-organic" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden">}}
+{{< workquote source="Garden Organic Mission" logo="garden-organic-logo" img="images/work-garden-organic-garden.jpg" alt="A photograph of a kitchen garden" logowidth="98" logoheight="48">}}
 We want to inspire individuals, communities and the next generation to use innovative organic practices. Underpinning this is our mission to grow a movement that takes practical action to conserve seeds, nurture soil and reduce waste.
 {{</ workquote >}}
 

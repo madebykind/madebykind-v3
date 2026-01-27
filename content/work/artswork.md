@@ -15,8 +15,8 @@ services:
   - brand
   - digital
 related_work:
-  - work/base51
-  - work/bookmark
+  - work/strongerroots
+  - work/chapter
 
 # Content
 heading: Supporting young changemakers through creativity and opportunity
@@ -51,6 +51,8 @@ toc_replacements:
 cover_img: images/work-artswork-photo-5.jpg
 cover_img_alt: Young people standing in front of microphones.
 icon: logo-artswork
+icon_width: 242
+icon_height: 43
 client: Artswork
 # impact_teaser:
 #   text: 
@@ -79,7 +81,7 @@ teaser:
 footer_heading: "Time for a brand refresh?"
 ---
 
-{{< workquote logo="logo-artswork" img="images/work-artswork-photo-2.jpg" alt="Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air">}}
+{{< workquote logo="logo-artswork" img="images/work-artswork-photo-2.jpg" alt="Young people standing on a bridge with blue sky behind them, holding up a pair of trousers and throwing a world globe in the air" logowidth="242" logoheight="43">}}
 We empower young people to lead change through creativity – for themselves, their communities and the world.
 {{</ workquote >}}
 

@@ -10,7 +10,7 @@
     {{ end }}
 
     {{ range first 1 (where (where site.Pages "Section" "eq" "work" ) ".Params.sector" "eq" .section ) }}
-      <div class="mb-8 lg:mb-40" data-topics="
+      <div class="mb-16 lg:mb-40" data-topics="
                 {{- with .Params.services -}}
                   {{- range . -}}{{ . | anchorize }} {{ end -}}
                 {{- end -}}">

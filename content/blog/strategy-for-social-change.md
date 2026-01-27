@@ -22,7 +22,7 @@ intro: 'Strategy isn’t some abstract exercise, it’s the foundational work th
 hide_newsletter: true
 related_posts:
   - why-asking-why-charity-strategy-impact
-  - creativity-is-a-responsibility
+  - branding-sustainability-without-the-greenwash
   - creating-sustainable-and-ethical-digital-products
 ---
 

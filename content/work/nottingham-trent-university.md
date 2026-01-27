@@ -14,7 +14,7 @@ services:
   - digital
 related_work:
   - work/sheffield-hallam-university
-  - work/jackson-crane
+  - work/vanda
 
 # Content
 heading: A user-centred realignment of the University of the Year’s website
@@ -49,6 +49,8 @@ toc: true
 cover_img: images/work-ntu-brand-image.jpg
 cover_img_alt: Two students walk down a cobbled street
 icon: ntu-logo
+icon_width: 1110
+icon_height: 328
 client: Nottingham Trent University
 # impact_teaser:
 #   text: 
@@ -80,7 +82,7 @@ teaser:
 #footer_heading:
 ---
 
-{{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-bonnington.jpg" alt="Bonnington Gallery" >}}
+{{< workquote source="Nottingham Trent University" logo="logo-square-ntu" img="images/work-ntu-bonnington.jpg" alt="Bonnington Gallery" logowidth="187" logoheight="187">}}
 We are driven by our determination to become the University of the future. By addressing the themes within our current University strategy, University, reimagined, we are tackling social injustice, valuing ideas and creating opportunities.
 {{</ workquote >}}
 

@@ -17,8 +17,8 @@ services:
   - brand
   - digital
 related_work:
-  - work/artswork
-  - work/backlit
+  - work/unesco
+  - work/nottingham-trent-university
 
 # Content
 heading: Working with the world’s leading art and design museum
@@ -51,6 +51,8 @@ toc: true
 cover_img: images/work-va-teaser.jpg
 cover_img_alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
 icon: va-logo
+icon_width: 102
+icon_height: 58
 client: The V&A
 impact_teaser:
   text: Support internationally acclaimed **cultural organisations**
@@ -67,7 +69,7 @@ impact_teaser:
 
 
 
-{{< workquote source="V&A mission statement" logo="logo-square-vam" img="images/work-va-cupola.jpg" alt="An interior view of an architectural dome / cupola" >}}
+{{< workquote source="V&A mission statement" logo="va-logo" img="images/work-va-cupola.jpg" alt="An interior view of an architectural dome / cupola" logowidth="102" logoheight="58">}}
 Our mission is to be recognised as the world’s leading museum of art, design and performance, and to enrich people’s lives by promoting research, knowledge and enjoyment of the designed world to the widest possible audience
 {{</ workquote >}}
 

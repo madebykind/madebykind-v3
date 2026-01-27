@@ -7,7 +7,7 @@
       {{ if .reverse }} order-3 md:mb-6
       {{ else }} order-2 {{ end }}
       {{ if .odd }} text-right self-end md:pl-[5%]
-      {{ else }} md:pr-[5%] {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
+      {{ else }} md:pr-[5%] {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading|safeHTML }}</h3>
       
       <h4 class="h--condensed text-md
       {{ if .labelColourClass }} {{ .labelColourClass }} {{ else }} text-pink {{ end }}
@@ -21,16 +21,20 @@
         {{ end }}
       </h4>
       
-      <div class="flex flex-row justify-between {{ if .reverse }} order-1{{ if (not .hideservices) }} mb-4 md:mb-auto {{ end }} {{ else }} order-3 mt-6 lg:mt-12 2xl:mt-24 {{ end }}">
+      <div class="flex flex-row justify-between {{ if .reverse }} order-1 mb-4 {{ if (not .hideservices) }} md:mb-auto {{ end }} {{ else }} order-3 mt-6 lg:mt-12 2xl:mt-24 {{ end }}">
         {{ if .context.Params.icon }}
-          <svg class="text-buff w-24 h-6 {{ if eq .size "large" }} lg:w-44 lg:h-12 {{ else }} md:w-24 md:h-9 {{ end }} {{ if .odd }} order-2 {{ end }}" role="presentation">
+          <svg class="text-buff w-32 {{ if eq .size "large" }} lg:w-44 {{ else }}  md:w-40 {{ end }} {{ if .odd }} order-2 {{ end }}" role="presentation" aria-hidden="true"
+            {{ with .context.Params.icon_width }}width="{{ . }}"{{ end }}
+            {{ with .context.Params.icon_height }}height="{{ . }}"{{ end }}>
             <use xlink:href="#icon-{{ .context.Params.icon }}"/>
           </svg>
         {{ end }}
         {{ if not .hidelink }}
         <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 {{ else }} md:pr-4 {{ end }}">
           <span class="font-bold underline">Read case study<span class="sr-only">: {{ .context.Params.heading }}</span></span>
-          <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation">
+          <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation" aria-hidden="true"
+            {{ with .context.Params.iconWidth }}width="{{ . }}"{{ end }}
+            {{ with .context.Params.iconHeight }}height="{{ . }}"{{ end }}>
             <use xlink:href="#icon-arrow"/>
           </svg>
         </div>

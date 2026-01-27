@@ -10,8 +10,8 @@ topics:
 services:
   - strategy
 related_work:
-  - work/nottingham-trent-university
-  - work/vanda
+  - work/rewilding-britain
+  - work/plan-vivo
 
 # Content
 heading: Bringing focus to a contemporary architecture practice
@@ -43,6 +43,8 @@ toc: false
 cover_img: images/work-jackson-crane-biophillic-house.jpg
 cover_img_alt: Rendered image of a biophilic house
 icon: jackson-crane-logo
+icon_width: 104
+icon_height: 13
 client: Jackson-Crane
 # impact_teaser:
 #   text: 
@@ -59,7 +61,7 @@ client: Jackson-Crane
 #footer_heading:
 ---
 
-{{< workquote author="Jackson-Crane Mission" logo="logo-square-jackson-crane" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" >}}
+{{< workquote author="Jackson-Crane Mission" logo="jackson-crane-logo" source="Jackson-Crane Mission" img="images/work-jackson-crane-p80.jpg" alt="Rendered image of a biophilic house" logowidth="104" logoheight="14">}}
 Our mission is to create sustainable, environmentally conscious and high performing architectural design for like-minded, progressive clients.
 {{</ workquote >}}
 

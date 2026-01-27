@@ -6,14 +6,16 @@ title: Website design for non-profit, UNESCO
 description: A global user-centred design process that led to the delivery of a digital repository of resources to ensure education in emergencies
 sector: for-people
 topics:
+  - services/strategy/content-strategy
+  - services/strategy/user-research
   - services/brand/visual-identity
   - services/digital/user-centred-design
 services:
-  - brand
+  - strategy
   - digital
 related_work:
   - work/strongerroots
-  - work/rewilding-britain
+  - work/plan-vivo
 
 # Content
 heading: Ensuring access to education for millions of children
@@ -40,6 +42,8 @@ toc: true
 cover_img: images/work-unesco-refugees.jpg
 cover_img_alt: Three child refugees in a tent Kabul
 icon: unesco-logo
+icon_width: 162
+icon_height: 35
 client: UNESCO
 impact_teaser:
   text: Improve **access to education** for over 200m children
@@ -81,7 +85,7 @@ teaser:
   </div>
 </div>
 
-{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="Three child refugees in a tent Kabul">}}
+{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="Three child refugees in a tent Kabul" logowidth="162" logoheight="35">}}
 Education is a fundamental human right. For children and youth caught up in emergency situations, education not only means the continuity of learning, but it also provides a sense of normalcy and the key to a different future.
 {{</ workquote >}}
 

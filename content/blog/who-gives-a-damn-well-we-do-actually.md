@@ -1,12 +1,12 @@
 ---
 hidden: false
 title: Who gives a damn? Well we do actually
-card_colour: bg-pink text-blue
+card_colour: bg-blue text-pink
 date: 2023-07-05T13:30:20.852Z
 author: michelle
-cover_img: images/27-02-23-Kind3398.jpg
-text_colour: text-white
-cover_img_alt: The Kind team
+#cover_img: images/27-02-23-Kind3398.jpg
+#text_colour: text-white
+#cover_img_alt: The Kind team
 draft: false
 seo_title: "We give a damn: Our ethical creative agency"
 description: In the time-honoured tradition of businesses rebranding and launching their own website, we’re doing that ourselves this week

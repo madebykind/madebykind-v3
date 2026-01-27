@@ -1,0 +1,43 @@
+
+  <article class="h-full">
+    <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
+      <div class="overflow-hidden relative aspect-4/3 xl:aspect-3/4 3xl:aspect-4/3
+        {{ with .Params.card_colour }}
+          {{ . }}
+        {{ end }}
+      ">
+        <div class="absolute z-10 flex flex-col items-start gap-3 lg:gap-6 inset-5 lg:inset-10 2xl:inset-5">
+          {{ with .Params.stage }}
+            <span class="text-sm font-bold">{{ . }}</span>
+          {{end}}
+          <h2 class="h--condensed group-hover:underline" id="{{ .Title | anchorize }}">{{ .Title }}</h2>
+          <p class="text-sm">{{ .Params.description }}</p>
+
+          {{ if .Params.illustration }}
+            {{ $src := replace .Params.illustration "images" "https://madebykind.imgix.net" }}
+            <div class="self-end mt-auto">
+              <img
+                alt="{{ .Params.illustration_alt }}"
+                class="object-cover h-32 sm:h-52 md:h-20 lg:h-32 xl:h-44 w-auto"
+                loading=lazy
+                sizes="(min-width: 100em) 33vw, 96vw"
+                src="{{ (printf "%s?w=624&auto=compress,format" $src) }}"
+                srcset="
+                {{ (printf "%s?w=312&auto=compress,format" $src) }} 300w,
+                {{ (printf "%s?w=624&auto=compress,format" $src) }} 600w"
+                height="156"
+                width="156"
+                role="presentation"
+              >
+            </div>
+          {{ end }}
+        </div>
+      </div>
+      <div aria-hidden=true class="flex items-center gap-5 px-5 mt-5">
+        <p class="text-sm font-bold">Download the tool</p>
+        <svg class="h-6 w-7" role="presentation">
+          <use xlink:href="#icon-arrow"/>
+        </svg>
+      </div>
+    </a>
+  </article>

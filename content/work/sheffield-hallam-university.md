@@ -17,7 +17,7 @@ services:
   - digital
 related_work:
   - work/nottingham-trent-university
-  - work/vanda
+  - work/hispanists
 
 # Content
 heading: Creating a sustainable design system to improve the efficiency of digital projects
@@ -46,6 +46,8 @@ toc: true
 cover_img: images/work-shu-runner.jpg
 cover_img_alt: A woman looking over a view of Sheffield city centre at dawn
 icon: shu-logo
+icon_width: 300
+icon_height: 161
 client: Sheffield Hallam University
 # impact_teaser:
 #   text: 
@@ -89,7 +91,7 @@ teaser:
   </div>
 </div>
 
-{{< workquote source="Sheffield Hallam University Mission" logo="logo-square-shu" img="images/work-shu-runner.jpg" alt="A woman looking over a view of Sheffield city centre at dawn." >}}
+{{< workquote source="Sheffield Hallam University Mission" logo="shu-logo" img="images/work-shu-runner.jpg" alt="A woman looking over a view of Sheffield city centre at dawn." logowidth="300" logoheight="161">}}
 We transform lives. We shape our students’ futures, preparing them for whatever they choose to do, and create knowledge that provides practical solutions to real world challenges.
 {{</ workquote >}}
 
