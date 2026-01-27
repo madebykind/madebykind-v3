@@ -2,7 +2,7 @@
 weight: 3
 title: "Project Discovery Planner"
 stage: Learning
-description: Understand what’s known and what’s missing before jumping in
+description: Understand what’s known and what’s missing before jumping in.
 card_colour: bg-pink text-blue
 illustration: images/true-to-who-we-are-v2.png
 illustration_alt: An illustration of a large hand using a small watering can on a seedling

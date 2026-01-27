@@ -2,7 +2,7 @@
 weight: 2
 title: "Project Readiness Checklist"
 stage: Foundations
-description: Check to see if strategy, alignment, and capacity are in place
+description: Check to see if strategy, alignment, and capacity are in place.
 card_colour: bg-teal text-indigo
 illustration: images/driving-change.png
 illustration_alt: An illustration of a large hand pushing a bicycle along a road
