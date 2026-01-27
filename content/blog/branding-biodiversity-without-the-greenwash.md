@@ -93,7 +93,7 @@ Discovery acts as a safeguard, creating space to pause and check what is being c
 
 For environmental organisations that pause matters more. It can be the difference between language that feels honest and grounded and language that sounds like greenwashing.
 
-We developed our **Digital Discovery Planner** to support this stage. It offers teams a practical way to slow down, map real audience needs, and make clearer decisions before moving into brand or digital delivery.
+We developed our **Project Discovery Planner** to support this stage. It offers teams a practical way to slow down, map real audience needs, and make clearer decisions before moving into brand or digital delivery.
 
 
 ## Your next step towards clarity
@@ -102,16 +102,16 @@ So how do you know if you have the clarity and strategy you need before you star
 
 If you are working on brand or digital project, taking time for discovery can make a real difference.
 
-Before moving into design or delivery, it can be helpful to pause and reflect on who you need to reach, what they already believe, and what your work can confidently stand behind. We created the Digital Discovery Planner to help teams do exactly that.
+Before moving into design or delivery, it can be helpful to pause and reflect on who you need to reach, what they already believe, and what your work can confidently stand behind. We created the Project Discovery Planner to help teams do exactly that.
 
 It is a practical tool to support early thinking, surface assumptions, and make more grounded decisions before work begins.
 
 {{< data-capture
-  heading="Download the Digital Discovery Planner"
+  heading="Download the Project Discovery Planner"
   description="Let us know your email address and we’ll send you the planner along with some tips for how to use it."
   url=""
   src="images/driving-change.png"
-  purposes="sending the Digital Discovery Planner and advice on how to use it"
+  purposes="sending the Project Discovery Planner and advice on how to use it"
   tag="3959875"
   >}}
 

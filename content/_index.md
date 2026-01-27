@@ -42,5 +42,5 @@ projects:
 tools:
   - tools/strategy-kickstart-canvas
   - tools/project-readiness-checklist
-  - tools/digital-discovery-planner
+  - tools/project-discovery-planner
 ---
