@@ -1,5 +1,5 @@
 ---
-title: "Branding biodiversity without the greenwash"
+title: "Branding sustainability without the greenwash"
 card_colour: bg-pink text-blue
 date: 2026-01-26T09:13:09.110Z
 author: mat
@@ -27,7 +27,7 @@ related_posts:
   - strategy-for-social-change
 ---
 
-Audiences and potential supporters have become more cautious. They have seen bold claims, confident language, and simple stories that don't always hold up when examined more closely. In the biodiversity, environment and carbon sectors, trust is paramount.
+Audiences and potential supporters have become more cautious. They have seen bold claims, confident language, and simple stories that don't always hold up when examined more closely. In the sustainability, environment and carbon sectors, trust is paramount.
 
 Because of that, branding in this space carries an additional challenge. Being visible or recognisable is the easy part. The language, tone, and statements an organisation makes can shape how trusted it is by the people it needs to reach.
 
@@ -49,7 +49,7 @@ Discovery is often the first thing to be shortened or skipped.
 
 By discovery, we mean taking time to understand who needs to trust you, what they already know, and what they are uncertain or sceptical about. It is the stage where assumptions get surfaced and checked, rather than assumed in messaging.
 
-This matters more in biodiversity work because the trust is varied depending on the audience. A local community, a funder, and a policy maker will all approach the same organisation with very different viewpoints and different levels of understanding. Without exploring those differences, brands often default to careful but broad language that tries to reassure everyone and ends up saying very little.
+This matters more in sustainability work because the trust is varied depending on the audience. A local community, a funder, and a policy maker will all approach the same organisation with very different viewpoints and different levels of understanding. Without exploring those differences, brands often default to careful but broad language that tries to reassure everyone and ends up saying very little.
 
 From what we have seen, this is the moment where greenwashing is either avoided altogether or accidentally built in.
 
@@ -93,9 +93,6 @@ Discovery acts as a safeguard, creating space to pause and check what is being c
 
 For environmental organisations that pause matters more. It can be the difference between language that feels honest and grounded and language that sounds like greenwashing.
 
-We developed our **Project Discovery Planner** to support this stage. It offers teams a practical way to slow down, map real audience needs, and make clearer decisions before moving into brand or digital delivery.
-
-
 ## Your next step towards clarity
 
 So how do you know if you have the clarity and strategy you need before you start?
@@ -104,7 +101,7 @@ If you are working on brand or digital project, taking time for discovery can ma
 
 Before moving into design or delivery, it can be helpful to pause and reflect on who you need to reach, what they already believe, and what your work can confidently stand behind. We created the Project Discovery Planner to help teams do exactly that.
 
-It is a practical tool to support early thinking, surface assumptions, and make more grounded decisions before work begins.
+It is a practical tool to support early thinking, surface assumptions and make more informed decisions before work begins.
 
 {{< data-capture
   heading="Download the Project Discovery Planner"
