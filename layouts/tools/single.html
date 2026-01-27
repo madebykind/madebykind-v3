@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="{{ with .Params.page_class }} {{ . }}{{ end }}">
+  {{ partial "header__tool" . }}
+  <div class="container prose">
+    {{- .Content -}}
+  </div>
+</article>
+{{ end }}

@@ -39,4 +39,8 @@ projects:
   - work/rewilding-britain
   - work/unesco
   #- work/the-wilderness-project
+tools:
+  - tools/strategy-kickstart-canvas
+  - tools/project-readiness-checklist
+  - tools/digital-discovery-planner
 ---

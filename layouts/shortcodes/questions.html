@@ -1,0 +1,34 @@
+{{- $q1 := .Get "q1" -}}
+{{- $q2 := .Get "q2" -}}
+{{- $q3 := .Get "q3" -}}
+{{- $q4 := .Get "q4" -}}
+{{- $heading := .Get "heading" -}}
+
+{{ with $heading }}
+<h3 class="text-lg">{{ . }}</h3>
+{{ end }}
+<div class="flex flex-wrap gap-4 items-start max-w-3xl">
+  {{ with $q1 }}
+  <div class="rounded-full bg-sky text-blue px-5 py-2 font-serif">
+    <p>{{ $q1 }}</p>
+  </div>
+  {{ end }}
+
+  {{ with $q2 }}
+  <div class="rounded-full bg-sky text-blue px-5 py-2 font-serif">
+    <p>{{ $q2 }}</p>
+  </div>
+  {{ end }}
+
+  {{ with $q3 }}
+  <div class="rounded-full bg-sky text-blue px-5 py-2 font-serif">
+    <p>{{ $q3 }}</p>
+  </div>
+  {{ end }}
+
+  {{ with $q4 }}
+  <div class="rounded-full bg-sky text-blue px-5 py-2 font-serif">
+    <p>{{ $q4 }}</p>
+  </div>
+  {{ end }}
+</div>

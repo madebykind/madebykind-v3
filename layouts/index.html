@@ -6,4 +6,9 @@
     "heading" "Since 2014, we've helped:"
   ) }}
   {{ partial "featured_work.html" . }}
+  {{ partial "tools.html" (dict
+    "context" .
+    "heading" "Start in the right place"
+    "description" "When you’re not sure what to do next, our discovery tools can help you to work out what needs thinking through before you commit to a direction."
+  ) }}
 {{ end }}
