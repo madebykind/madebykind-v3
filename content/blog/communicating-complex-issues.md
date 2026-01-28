@@ -4,8 +4,10 @@ title: Communicating complex issues
 card_colour: bg-pink text-blue
 date: 2021-09-08T15:09:09.931Z
 author: michelle
-cover_img: null
-cover_img_alt: null
+#cover_img: null
+#cover_img_alt: null
+illustration: images/empowering-change.png
+illustration_alt: Illustration of a person holding a watering can that waters many plants
 draft: false
 services:
   - strategy

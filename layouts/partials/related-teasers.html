@@ -1,9 +1,9 @@
 
-<ul class="">
+<ul class="grid gap-10 md:grid-cols-12 ">
   {{ range . }}
     {{ with site.GetPage . }}
-    <li>
-      {{ partial "teaser" . }}
+    <li class="md:col-span-6 xl:col-span-4">
+      {{ partial "card" . }}
     </li>
     {{ end }}
   {{ end }}

@@ -32,9 +32,7 @@
         {{ if not .hidelink }}
         <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 {{ else }} md:pr-4 {{ end }}">
           <span class="font-bold underline">Read case study<span class="sr-only">: {{ .context.Params.heading }}</span></span>
-          <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation" aria-hidden="true"
-            {{ with .context.Params.iconWidth }}width="{{ . }}"{{ end }}
-            {{ with .context.Params.iconHeight }}height="{{ . }}"{{ end }}>
+          <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation" aria-hidden="true">
             <use xlink:href="#icon-arrow"/>
           </svg>
         </div>

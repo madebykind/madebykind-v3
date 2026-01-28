@@ -47,5 +47,5 @@ help_items:
     description: His recusabo reformidans ne, ius ut esse erat vidisse. Cum alii graeci ut, sed zril iudicabit dissentiet cu. Vis paulo discere at, eu doming salutatus constituam his. An ubique omnium duo, sit harum timeam at. Nec zril iudico detraxit ad, quod porro ullamcorper et nam. 
   - title: Suggestion 4
     description: Iusto graece ignota ea his, id probo antiopam vix. Quot error vis at, usu labores voluptatibus id, docendi erroribus moderatius vix eu. Meliore nusquam an pro, ad vel fugit nostro, veri atomorum pri et.
-help_intro_2: Appetere definiebas mel cu, id mei erant postea aliquid. Sed in ludus maiestatis, nec nisl tollit cu. Eu eius populo facilisi vis, no pri eius simul libris. Pri in solum accusam, in novum viris qui, nam sale ignota cu. Tacimates mnesarchum usu ex.
+help_outro: Appetere definiebas mel cu, id mei erant postea aliquid. Sed in ludus maiestatis, nec nisl tollit cu. Eu eius populo facilisi vis, no pri eius simul libris. Pri in solum accusam, in novum viris qui, nam sale ignota cu. Tacimates mnesarchum usu ex.
 ---

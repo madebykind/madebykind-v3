@@ -17,11 +17,13 @@
 <article class="w-full overflow-hidden">
   <div class="bg-indigo text-buff lg:min-h-[80vh] flex items-end">
     <div class="container 2xl:no-container flex flex-wrap items-end justify-between lg:items-stretch justify-end lg:min-h-[60vh]">
-      <div class="section w-full pt-9 pb-8 lg:w-1/2 lg:pt-0 lg:pr-8 gap-8 lg:gap-12 flex flex-col lg:justify-center 2xl:pl-[4vw]">
+      <div class="section w-full pt-9 pb-8 lg:pb-12 lg:w-1/2 lg:pr-8 gap-8 lg:gap-12 flex flex-col lg:justify-center 2xl:pl-[4vw]">
         {{ with .Params.logo }}
           {{ range . }}
             <span class="sr-only">{{ .name }}</span>
-            <svg class="w-24 h-12 lg:w-36 lg:h-18 xl:h-24 xl:w-48 flex-no-shrink" role="presentation">
+            <svg class="max-w-48 max-h-24 w-auto self-start" role="presentation" aria-hidden="true"
+              {{ with .icon_width }}width="{{ . }}"{{ end }}
+              {{ with .icon_height }}height="{{ . }}"{{ end }}>
               <use xlink:href="#icon-{{ .icon }}"/>
             </svg>
           {{ end }}
@@ -29,8 +31,8 @@
         <h1>{{ .Params.heading }}</h1>
         <p class="text-md">{{ .Params.subheading }}</p>
       </div>
-      <div class="flex flex-col items-end justify-end w-full lg:w-1/2 bleed-right">
-        <div class="lg:w-5/6">
+      <div class="flex flex-col items-end w-full lg:w-1/2 bleed-right">
+        <div class="lg:w-5/6 lg:grow">
           {{ if .Params.cover_img }}
             {{ partial "image" (dict 
               "alt" .Params.cover_img_alt
@@ -103,7 +105,7 @@
     <div class="container flex flex-col items-start gap-10 xl:gap-20">
       <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
         <div class="flex flex-col gap-8">
-          <h2 class="h1">So how can we help you?</h2>
+          <h2 class="h1">So, how can we help you?</h2>
           <p class="max-w-3xl text-md">{{ .Params.help_intro }}</p>
         </div>
         <div class="hidden xl:block">
@@ -116,7 +118,7 @@
       </div>
       <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
         {{ range $index, $element := .Params.help_items }}
-          <div class="flex flex-col gap-5">
+          <div class="flex flex-col gap-2">
             <h3 class="mb-2 h4">{{ $element.title }}</h3>
             <div class="flex flex-col gap-5 font-sans text-sm">
               {{ $element.description | markdownify  }}
@@ -139,7 +141,7 @@
           </div>
         {{ end }}
       </div>
-      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
+      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 items-center">
         <div class="lg:order-1 lg:bleed-right">
         {{ partial "image" (dict 
           "alt" "Team Kind!"
@@ -147,20 +149,29 @@
           "src" "images/strategy-notes.jpg" 
         ) }}
         </div>
-        <div class="flex items-center justify-center gap-5 lg:flex-wrap lg:gap-10">
-          <p class="text-md max-w-cta-copy">{{ .Params.help_intro_2 }}</p>
+        <div class="flex flex-col items-start gap-5 lg:gap-10">
+          <p class="text-md max-w-cta-copy">{{ .Params.help_outro }}</p>
+          <a class="mb-2 btn btn--primary" href="#contact">
+            <span class="whitespace-nowrap">Let's talk</span>
+            <svg class="w-8 h-8 shrink-0" viewbox="0 0 77 63" role="presentation">
+              <use xlink:href="#icon-arrow"/>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
   </div>
 
   {{/* Clients  */}}
+  {{ $length := .Params.related_projects | len }}
   {{ with .Params.related_projects }}
-    <section id="clients">
+    <section class="bg-green text-pink" id="clients">
       <div class="container section--lg">
         <h2 class="text-3xl h--condensed">Some of our client work</h2>
       </div>
-      <div class="flex flex-col gap-5 lg:gap-10 2xl:gap-15">
+      <div class="container section">
+
+      <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
         {{ range $index, $element := . }}
           {{ $odd := false }}
           {{ if not (modBool $index 2)}}
@@ -169,23 +180,30 @@
 
           {{ with $element.slug }}
             {{ with site.GetPage . }}
-              {{ partial "teaser__client" (dict 
-                "index" $index
-                "context" .
-                "odd" $odd
-              ) }}
+              <li class="col-span-full {{ if or (eq $index 0) (le $length 3) }} md:col-span-full {{ else }} md:col-span-4 {{ end }}">
+                {{ if or (eq $index 0) (le $length 3) }}
+                  {{ partial "teaser__work" ( dict "context" . "odd" $odd "spotlight" (ge $length 4) "size" "large") }}
+                {{ else }}
+                  {{ partial "card_work" (dict
+                    "context" .
+                  ) }}
+                {{ end }}
+              </li>
+              
             {{ end }}
           {{ end }}
         {{ end }}
-      </div>
+      </ul>
     </div>
   {{ end }}
 
   {{/* Selected insights */}}
   {{ with .Params.related_posts }}
-    <div class="container section--lg">
-      <h2 class="h--condensed">Insights we think you will find useful</h2>
-      {{ partial "related-teasers.html" . }}
+    <div class="text-indigo bg-buff section--lg">
+      <div class="container flex flex-col gap-5 lg:gap-10">
+        <h2 class="h--condensed">Insights we think you will find useful</h2>
+        {{ partial "related-teasers.html" . }}
+      </div>
     </div>
   {{ end }}
 
@@ -238,7 +256,7 @@
             <use xlink:href="#icon-arrow"/>
           </svg>
         </a>
-        <p class="max-w-[20rem] leading-none font-sans"><small>No fee. No obligation. Just a friendly conversation about your goals and your challenges.</small></p>
+        <p class="max-w-[20rem] leading-none font-sans"><small>No fee. No obligation. Just a friendly conversation about your goals, your challenges and our offering.</small></p>
       </div>
       <div class="relative order-1 bleed md:ml-0 md:order-2 aspect-4/3 md:aspect-3/4">
         {{ partial "image" (dict 
