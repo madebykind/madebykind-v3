@@ -21,7 +21,6 @@ logo:
   icon: logo-bumblebees
   icon_width: 287
   icon_height: 87
-social_img_color: navy
 related_projects:
   - slug: work/rewilding-britain
   - slug: work/garden-organic
