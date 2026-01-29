@@ -6,7 +6,7 @@ author: mat
 draft: false
 featured: true
 unlisted: false
-description: ""
+description: "Sustainability branding only works when it’s true. Build trust with clear, specific messaging that reflects what you do now, and what you are working towards."
 toc: false
 #cover_img: images/work-sr-team-2.jpg
 #text_colour: text-white
