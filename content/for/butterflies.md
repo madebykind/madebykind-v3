@@ -17,7 +17,7 @@ banner_images:
   alt: Landscape image of a large tree on farmland
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: Butterfly Conservation
+  name: Butterfly Conservation
   icon: logo-butterflies
   icon_width: 601
   icon_height: 155

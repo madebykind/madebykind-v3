@@ -17,7 +17,7 @@ banner_images:
   alt: A Blue Tit on a branch
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: John Muir Trust
+  name: John Muir Trust
   icon: logo-johnmuir
   icon_width: 64
   icon_height: 64

@@ -17,7 +17,7 @@ banner_images:
   alt: Landscape image of a large tree on farmland
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: Four Paws
+  name: Four Paws
   icon: logo-four-paws
   icon_width: 1636
   icon_height: 1636

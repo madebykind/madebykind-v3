@@ -17,10 +17,11 @@ banner_images:
   alt: Landscape image of a large tree on farmland
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: Bumblebee Conservation Trust
+  name: Bumblebee Conservation Trust
   icon: logo-bumblebees
   icon_width: 287
   icon_height: 87
+social_img_color: navy
 related_projects:
   - slug: work/rewilding-britain
   - slug: work/garden-organic

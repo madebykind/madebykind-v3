@@ -17,7 +17,7 @@ banner_images:
   alt: Landscape image of a large tree on farmland
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: The Girls’ Network
+  name: The Girls’ Network
   icon: logo-girlsnetwork
   icon_width: 960
   icon_height: 952

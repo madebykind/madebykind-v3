@@ -17,7 +17,7 @@ banner_images:
   alt: A beaver on a river bank
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: ClientEarth
+  name: ClientEarth
   icon: logo-clientearth
   icon_width: 4001
   icon_height: 685

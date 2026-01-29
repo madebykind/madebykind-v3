@@ -17,7 +17,7 @@ banner_images:
   alt: Landscape image of a large tree on farmland
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: League Against Cruel Sports
+  name: League Against Cruel Sports
   icon: logo-league
   icon_width: 1624
   icon_height: 484

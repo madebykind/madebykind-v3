@@ -17,7 +17,7 @@ banner_images:
   alt: A beaver on a river bank
 logo_wrapperclass: w-12 lg:w-24 xl:w-36
 logo:
-- name: The Climate Coalition
+  name: The Climate Coalition
   icon: logo-climatecoalition
   icon_width: 3599
   icon_height: 1105
