@@ -1,5 +1,6 @@
 ---
 draft: false
+from: michelle
 title: The Girls’ Network
 heading: We'd like to help open more doors for girls
 subheading: We’re Kind, and we’d love to support the amazing work you do to support girls through mentoring and build confidence for the future. Your mission aligns perfectly with the kind of brands we support and we’d love to use our expertise to help grow awareness and get more people supporting The Girls’ Network.

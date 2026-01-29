@@ -1,8 +1,9 @@
 ---
 draft: false
+from: mat
 title: Surfers Against Sewage
 heading: Let’s protect clean water, together
-subheading: We’re Kind, and we’d love to support the amazing work you do to protect the ocean and tackle sewage pollution. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting Surfers Against Sewage.
+subheading: We’re Kind, an Ocean Network Member, and we’d love to support the amazing work you do to protect the ocean and tackle sewage pollution. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting Surfers Against Sewage.
 cover_img: images/work-rivers-trust-phone-2.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
 banner_images:

@@ -1,7 +1,8 @@
 ---
 draft: false
+from: mat
 title: John Muir Trust
-heading: We’d like to help keep wild places wild
+heading: Let us help keep wild places wild
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect wild places and help more people connect with nature. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting the John Muir Trust.
 cover_img: images/work-rivers-trust-phone-2.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website

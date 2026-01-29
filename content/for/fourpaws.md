@@ -1,5 +1,6 @@
 ---
 draft: false
+from: mat
 title: Four Paws
 heading: Let’s help more people stand up for animals
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect animals and drive long-term change. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting Four Paws.

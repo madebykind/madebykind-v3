@@ -1,5 +1,6 @@
 ---
 draft: false
+from: mat
 title: The Climate Coalition
 heading: Let’s bring people together for climate action
 subheading: We’re Kind, and we’d love to support the amazing work you do bringing people and organisations together for climate action. Your mission aligns perfectly with the kind of brands we aim to support and we’d love to work together, using our expertise to help grow awareness and get more people supporting The Climate Coalition.

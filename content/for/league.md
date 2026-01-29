@@ -1,5 +1,6 @@
 ---
 draft: false
+from: mat
 title: League Against Cruel Sports
 heading: We want to help end cruelty to animals
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect animals and challenge cruelty. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting the League Against Cruel Sports.
@@ -43,12 +44,12 @@ extra_stats:
 help_intro: We don’t know all of your challenges yet, but we work with charities like yours every day. Here are a few ways we can help bring clarity and consistency, without creating extra complexity for your team.
 help_items:
 - title: Campaign strategy
-  description: We can help you plan campaigns so they build momentum over time, rather than feeling like disconnected spikes. That means clearer priorities, stronger sequencing, and more predictable results.
+  description: We can help you plan campaigns so they work together, not as one-offs, making it easier for people to understand what you’re asking and why it matters.
 - title: Messaging clarity
-  description: We can help tighten the messaging so it stays consistent across channels, lands with the people you need to reach, and makes the next step obvious.
+  description: We can help tighten your messaging so it stays consistent across channels and resonates with the people you need to reach.
 - title: Action journeys
   description: Whether someone wants to donate, sign, share or get involved, the path should feel simple and rewarding. We can help spot where people drop off, then make improvements that increase participation and long-term support.
 - title: Rapid response system
-  description: When you need to move fast, we can help create a repeatable structure for quick-turn campaigns, so you can respond quickly without losing quality or consistency.
+  description: When you need to move fast, we can help create a repeatable structure for quick-turn campaigns, so you can launch quickly without losing quality or consistency.
 help_outro: If any of this sounds useful, we’d love to share a bit more about how we work and see if it feels like a good fit.
 ---
