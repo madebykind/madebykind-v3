@@ -39,7 +39,7 @@ related_projects:
   - slug: work/the-wilderness-project
 testimonials:
   - testimonials/rwb-short
-  - testimonials/eti
+  - testimonials/plan-vivo
 help_intro: We partner with environmental and sustainable non-profits, helping them to realise their vision through brand strategies and digital activities.
 help_items:
   - title: Raise awareness of your cause
