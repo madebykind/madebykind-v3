@@ -2,6 +2,8 @@
 draft: false
 from: mat
 title: Four Paws
+seo_title: "We'd love to work with Four Paws"
+description: "We’re Kind, and we’d love to support the amazing work you do to protect animals and drive long-term change."
 heading: Let’s help more people stand up for animals
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect animals and drive long-term change. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting Four Paws.
 cover_img: images/work-rivers-trust-phone.jpg

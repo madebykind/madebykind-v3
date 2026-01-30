@@ -2,6 +2,8 @@
 draft: false
 from: mat
 title: Independent Age
+seo_title: "We'd love to work with Independent Age"
+description: "We’re Kind, and we’d love to support the amazing work you do to help older people get the support and advice they need."
 heading: Let’s help older people live well, together
 subheading: We’re Kind, and we’d love to support the amazing work you do to help older people get the support and advice they need. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting Independent Age.
 cover_img: images/work-sr-billboard.jpg

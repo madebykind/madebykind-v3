@@ -3,6 +3,8 @@ draft: false
 from: michelle
 title: Butterfly Conservation
 heading: Let’s help butterflies and moths, together
+seo_title: "We'd love to work with Butterfly Conservation"
+description: "We’re Kind, and we’d love to support the amazing work you do to protect butterflies and moths."
 subheading: You might remember us, we’re Kind, and we’d still love to support the amazing work you do to protect butterflies and moths. Your mission aligns perfectly with the kind of brands we support and we’d love to use our expertise to help grow awareness and get more people supporting Butterfly Conservation.
 cover_img: images/work-rivers-trust-phone.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
