@@ -1,7 +1,8 @@
 ---
-draft: false
 title: Education
 heading: Strategy, Brand and Digital for the Education Sector
+seo_title: Websites, brands and strategies for Universities and education providers
+description: We partner with education providers, helping them to realise their vision through brand strategies and digital activities.
 cover_img: images/work-ntu-mobile-thread.jpg
 cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
 banner_images:

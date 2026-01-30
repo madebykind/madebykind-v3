@@ -1,7 +1,8 @@
 ---
-draft: false
 title: Non-profit
 heading: We help charities and non-profits advance their cause
+seo_title: Strategy and creative for charities and non-profits
+description: We partner with non-profits and charities, helping them to realise their vision through brand strategies and digital activities.
 cover_img: images/work-sr-billboard.jpg
 cover_img_alt: "Outdoor billboard showing StrongerRoots campaign with the message “Together we’ll grow a recovery-friendly future” beside a smiling young woman."
 banner_images:

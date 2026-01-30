@@ -2,6 +2,8 @@
 title: Arts & Culture
 slug: arts-and-culture
 heading: Creating cultural impact from behind the scenes
+seo_title: Culture sector branding, websites and strategies
+description: We partner with arts and cultural organisations, helping them to realise their vision through brand strategies and digital activities.
 cover_img: images/work-backlit-kind-team.jpg
 cover_img_alt: High-level view of three people around a wooden table, looking at digital designs of Backlit Gallery website on a laptop and a tablet
 banner_images:

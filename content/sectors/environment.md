@@ -1,8 +1,10 @@
 ---
 title: Environment
 heading: We help create waves in the Environment sector
-cover_img: images/work-rivers-trust-phone.jpg
-cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
+seo_title: Environmental charity websites, brands and strategies
+description: We partner with environmental non-profits, helping them to realise their vision through brand strategies and digital activities.
+cover_img: images/work_plan_vivo_mobile_hero.jpg
+cover_img_alt: Plan Vivo website on a mobile device, on a rock
 banner_images:
   - img: images/work-rivers-trust-river-drone.jpg
     alt: A meandering river photographed from above
@@ -18,11 +20,9 @@ banner_images:
     alt: Landscape image of a large tree on farmland
   - img: images/work-twp-hero-3.jpg
     alt: A person stands beside two canoes on the shore of a misty river at sunrise, surrounded by reeds and trees.
-  - img: images/work_plan_vivo_mobile_hero.jpg
-    alt: Plan Vivo website on a mobile device, on a rock
+  - img: images/work-rivers-trust-phone.jpg
+    alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
-seo_title: Environmental charity websites, brands and strategies
-description: We partner with environmental non-profits, helping them to realise their vision through brand strategies and digital activities.
 logos:
   - name: Rewilding Britain
     icon: rwb-logo
