@@ -16,21 +16,21 @@
 {{ define "main" }}
 <article class="w-full overflow-hidden">
   <div class="bg-indigo text-buff lg:min-h-[80vh] flex items-end">
-    <div class="container 2xl:no-container flex flex-wrap items-end justify-between lg:items-stretch justify-end lg:min-h-[60vh]">
-      <div class="section w-full pt-9 pb-8 lg:w-1/2 lg:pt-0 lg:pr-8 gap-8 lg:gap-12 flex flex-col lg:justify-center 2xl:pl-[4vw]">
+    <div class="container 2xl:no-container flex flex-wrap items-end justify-between lg:items-stretch lg:min-h-[60vh]">
+      <div class="section w-full pt-9 pb-8 lg:pb-12 lg:w-1/2 lg:pr-8 gap-8 lg:gap-12 flex flex-col lg:justify-center 2xl:pl-[4vw]">
         {{ with .Params.logo }}
-          {{ range . }}
-            <span class="sr-only">{{ .name }}</span>
-            <svg class="w-24 h-12 lg:w-36 lg:h-18 xl:h-24 xl:w-48 flex-no-shrink" role="presentation">
-              <use xlink:href="#icon-{{ .icon }}"/>
-            </svg>
-          {{ end }}
+          <span class="sr-only">{{ .name }}</span>
+          <svg class="max-w-48 max-h-24 w-auto self-start" role="presentation" aria-hidden="true"
+            {{ with .icon_width }}width="{{ . }}"{{ end }}
+            {{ with .icon_height }}height="{{ . }}"{{ end }}>
+            <use xlink:href="#icon-{{ .icon }}"/>
+          </svg>
         {{ end }}
         <h1>{{ .Params.heading }}</h1>
         <p class="text-md">{{ .Params.subheading }}</p>
       </div>
-      <div class="flex flex-col items-end justify-end w-full lg:w-1/2 bleed-right">
-        <div class="lg:w-5/6">
+      <div class="flex flex-col items-end w-full lg:w-1/2 bleed-right">
+        <div class="lg:w-5/6 lg:grow">
           {{ if .Params.cover_img }}
             {{ partial "image" (dict 
               "alt" .Params.cover_img_alt
@@ -81,9 +81,9 @@
     <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
     <div class="lg:bleed-left ">
         {{ partial "image" (dict 
-          "alt" "The Kind team working on the Garden Organic project."
+          "alt" "The Kind team"
           "class" "object-cover w-full h-full"
-          "src" "images/work-garden-organic-kind-team.jpg" 
+          "src" "images/27-02-23-Kind3398.jpg" 
         ) }}
     </div>
       <div class="flex justify-center section">
@@ -103,10 +103,10 @@
     <div class="container flex flex-col items-start gap-10 xl:gap-20">
       <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
         <div class="flex flex-col gap-8">
-          <h2 class="h1">So how can we help you?</h2>
-          <p class="max-w-3xl text-md">{{ .Params.help_intro }}</p>
+          <h2 class="h1">So, how can we help you?</h2>
+          <p class="max-w-3xl text-md">We don’t know all of your challenges yet, but we work with charities like yours every day. Our role is to help bring clarity and consistency, without creating extra complexity for your team, and to make sure any work we do is grounded in a proper understanding of your organisation and context.</p>
         </div>
-        <div class="hidden xl:block">
+        <div class="hidden lg:block">
           {{ partial "image" (dict 
             "alt" "Illustration: two big friendly hands making a heart shape"
             "class" "object-cover w-full"
@@ -114,32 +114,27 @@
           ) }}
         </div>
       </div>
-      <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
-        {{ range $index, $element := .Params.help_items }}
-          <div class="flex flex-col gap-5">
-            <h3 class="mb-2 h4">{{ $element.title }}</h3>
-            <div class="flex flex-col gap-5 font-sans text-sm">
-              {{ $element.description | markdownify  }}
-            </div>
-            {{ if $element.readmore }}
-              <div id="help-{{ $index }}" class="flex flex-col gap-5 font-sans text-sm">{{ $element.readmore | markdownify  }}</div>
-              <button class="accordion-toggle" data-toggle data-target="#help-{{ $index }}">
-                <div class="flex items-center gap-2.5 font-sans">
-                  <div class="flex items-center justify-center w-5 h-5 rounded-full bg-indigo text-buff accordion-toggle-icon">
-                    <svg class="w-3 h-3" role="presentation">
-                      <use xlink:href="#icon-chevron"/>
-                    </svg>
-                  </div>
-                  <p class="text-sm">Read more
-                    <span class="sr-only">about {{ $element.title }}</span>
-                  </p>
-                </div>
-              </button>
-            {{ end }}
+      <div class="grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-10">
+        <div class="flex flex-col gap-2">
+          <h3 class="mb-2 h4">Strategy alignment</h3>
+          <div class="flex flex-col gap-5 font-sans text-sm max-w-prose">
+            An approach we have used successfully with many of our clients is to start with a collaborative discovery phase, building a shared understanding of your organisation and the context you are working in. It includes workshops with stakeholders, conversations with your audience and time spent understanding your challenges and constraints. The aim is to create a clear picture of where you are now, where you want to go, and what success looks like.
           </div>
-        {{ end }}
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="mb-2 h4">Clear direction</h3>
+          <div class="flex flex-col gap-5 font-sans text-sm max-w-prose">
+            Using what we learn, we could help set a clear direction for your organisation, so priorities are easier to agree and decisions easier to make. This involves defining how your strategy, mission and values translate across your brand, marketing and digital communications. Delivered with practical plans and guidance that give you clarity on what to focus on next and a strong foundation for the future.
+          </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="mb-2 h4">Delivery</h3>
+          <div class="flex flex-col gap-5 font-sans text-sm max-w-prose">
+            We can then help deliver the outputs, from brand refreshes and tone of voice through to website improvements, campaign assets and system integrations. The focus would be on practical, sustainable delivery that supports your team and keeps things consistent as your work develops.
+          </div>
+        </div>
       </div>
-      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
+      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 items-center">
         <div class="lg:order-1 lg:bleed-right">
         {{ partial "image" (dict 
           "alt" "Team Kind!"
@@ -147,54 +142,65 @@
           "src" "images/strategy-notes.jpg" 
         ) }}
         </div>
-        <div class="flex items-center justify-center gap-5 lg:flex-wrap lg:gap-10">
-          <p class="text-md max-w-cta-copy">{{ .Params.help_intro_2 }}</p>
+        <div class="flex flex-col items-start gap-5 lg:gap-10">
+          <p class="text-md max-w-cta-copy">If any of this sounds useful, we’d love to share a bit more about how we work and see if Kind is a good fit for {{ with .Params.inline_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}.</p>
         </div>
       </div>
     </div>
   </div>
 
   {{/* Clients  */}}
+  {{ $length := .Params.related_projects | len }}
   {{ with .Params.related_projects }}
-    <section id="clients">
+    <section class="bg-green text-pink" id="clients">
       <div class="container section--lg">
         <h2 class="text-3xl h--condensed">Some of our client work</h2>
       </div>
-      <div class="flex flex-col gap-5 lg:gap-10 2xl:gap-15">
-        {{ range $index, $element := . }}
-          {{ $odd := false }}
-          {{ if not (modBool $index 2)}}
-            {{ $odd = true }}
-          {{ end }}
+      <div class="container section">
 
-          {{ with $element.slug }}
-            {{ with site.GetPage . }}
-              {{ partial "teaser__client" (dict 
-                "index" $index
-                "context" .
-                "odd" $odd
-              ) }}
+        <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
+          {{ range $index, $element := . }}
+            {{ $odd := false }}
+            {{ if not (modBool $index 2)}}
+              {{ $odd = true }}
+            {{ end }}
+
+            {{ with $element.slug }}
+              {{ with site.GetPage . }}
+                <li class="col-span-full {{ if or (eq $index 0) (le $length 3) }} md:col-span-full {{ else }} md:col-span-4 {{ end }}">
+                  {{ if or (eq $index 0) (le $length 3) }}
+                    {{ partial "teaser__work" ( dict "context" . "odd" $odd "spotlight" (ge $length 4) "size" "large") }}
+                  {{ else }}
+                    {{ partial "card_work" (dict
+                      "context" .
+                    ) }}
+                  {{ end }}
+                </li>
+                
+              {{ end }}
             {{ end }}
           {{ end }}
-        {{ end }}
+        </ul>
       </div>
-    </div>
+    </section>
   {{ end }}
 
-  {{/* Selected insights */}}
-  {{ with .Params.related_posts }}
-    <div class="container section--lg">
-      <h2 class="h--condensed">Insights we think you will find useful</h2>
-      {{ partial "related-teasers.html" . }}
-    </div>
-  {{ end }}
+
+  {{/* Tools */}}
+  <div class="text-indigo bg-buff">
+    {{ partial "tools.html" (dict
+      "context" .
+      "heading" "Tools you might find useful"
+      "description" "When you’re unsure what’s next, our discovery tools can help you to work out what needs thinking through before you commit to a direction."
+    ) }}
+  </div>
 
   {{/* Testimonials */}}
   <div class="text-buff bg-indigo">
     <div class="container flex items-center section--lg snap-start min-h-[80vh]" id="testimonials">
       <div class="flex flex-col items-start w-full gap-10">
         <h2 class="h--condensed">What our clients say</h2>
-        <div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-5 xl:gap-10">
+        <div class="grid w-full grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-5 xl:gap-10">
           {{ range .Params.testimonials }}
             {{ with site.GetPage . }}
               <figure>
@@ -222,29 +228,60 @@
 {{ end }}
 
 {{ define "footer" }}
+{{ $from := "mat" }}
+{{ with .Params.from }}
+  {{ $from = . }}
+{{ end }}
+
+{{ $author := index .Site.Data.authors $from }}
+{{ $author_img := printf "images/%s" ($author.image)}}
+
 <footer id="contact" class="snap-start">
   <div class="grid overflow-hidden bg-blue text-buff">
     <div class="container grid items-center md:gap-10 md:grid-cols-2 2xl:grid-cols-3 2xl:no-container 2xl:w-screen">
       <div class="section--lg order-2 md:order-1 2xl:pl-[4vw] 2xl:col-span-2">
-        <div class="mb-8 prose lg:mb-16">
-          <h2 class="text-3xl h--condensed">Arrange a chat with our founder</h2>
-          <div class="max-w-2xl mt-6">
-            <p class="leading-tight text-md">That’s me! I founded Kind to be a force for good and would love to chat about how we might help you.</p>
-          </div>
+        <div class="mb-4 prose max-w-2xl">
+          <p>We would really love the opportunity to chat about how Kind might support the work of {{ with .Params.inline_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}.</p>
+          <p>If you’re interested, let me know.</p>
+          <p class="font-bold">{{ $author.name }}</p>
         </div>
-        <a class="mb-2 btn btn--pink" href="https://calendly.com/madebykind/30-min-call-with-mat-at-kind">
-          <span class="whitespace-nowrap">Book a chat</span>
-          <svg class="w-8 h-8 shrink-0" viewbox="0 0 77 63" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
+        <a class="inline-block mb-2" href="mailto:{{ $author.email }}">
+          <span class="whitespace-nowrap">{{ $author.email }}</span>
         </a>
-        <p class="max-w-[20rem] leading-none font-sans"><small>No fee. No obligation. Just a friendly conversation about your goals and your challenges.</small></p>
+        <nav class="font-sans text-sm" aria-label="Social links for {{ $author.name }}">
+          <ul class="list-none flex flex-wrap gap-3">
+            {{ with $author.social.linkedin }}
+              <li class="flex gap-1 items-center">
+                <svg class="w-3 h-3 mb-0.5" role="presentation">
+                  <use xlink:href="#icon-linkedin"/>
+                </svg>
+                <a href="https://www.linkedin.com/in/{{ . }}" class="a--underline">Connect on Linkedin</a>
+              </li>
+            {{ end }}
+            {{ with $author.social.instagram }}
+              <li class="flex gap-1 items-center">
+                <svg class="w-3 h-3" role="presentation">
+                  <use xlink:href="#icon-instagram"/>
+                </svg>
+                <a href="https://www.instagram.com/{{ . }}/" class="a--underline">Follow on Instagram</a>
+              </li>
+            {{ end }}
+            {{ with $author.social.bluesky }}
+              <li class="flex gap-1 items-center">
+                <svg class="w-4 h-4" role="presentation">
+                  <use xlink:href="#icon-bluesky"/>
+                </svg>
+                <a href="https://bsky.app/profile/{{ . }}" class="a--underline">Follow on Bluesky</a>
+              </li>
+            {{ end }}
+          </ul>
+        </nav>
       </div>
       <div class="relative order-1 bleed md:ml-0 md:order-2 aspect-4/3 md:aspect-3/4">
         {{ partial "image" (dict 
-          "alt" "Mat Hayward, founder of Kind"
+          "alt" $author.name
           "class" "object-cover h-full w-full"
-          "src" "images/team-mat.jpg" 
+          "src" $author_img
         ) }}
       </div>
     </div>

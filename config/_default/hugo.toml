@@ -32,7 +32,7 @@ disableKinds = ["rss"]
 [params]
   author = "Kind"
   date_format = "January 2, 2006"
-  description = "Fast, secure, and accessible by default."
+  description = "Ethical creative agency for charities and non-profits"
   email = "hello@madebykind.com"
   images = ["/img/site-feature-image.png"]
   phone = "+441157270990"

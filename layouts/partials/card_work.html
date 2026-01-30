@@ -15,7 +15,7 @@
     </div>
 
       <div class="flex flex-col content-center {{ if .reverse }} gap-1 {{ else }} gap-8 {{ end }} py-5">
-        <h3 class="text-xl h--condensed {{ if .reverse }} order-2{{ end }}" id="{{ .Params.Heading | anchorize }}">{{ .context.Params.Heading }}</h3>
+        <h3 class="text-xl h--condensed {{ if .reverse }} order-2{{ end }}" id="{{ .Params.Heading | anchorize }}">{{ .context.Params.Heading|safeHTML }}</h3>
         {{ if (not .hideservices )}}
         <h4 class="{{ if .dark }} text-pink {{ end }}{{ if .reverse }} h--condensed order-1 {{ else }} text-base font-normal {{ end }}">{{ title (delimit .context.Params.services " + " ) }}</h4>
         {{ end }}

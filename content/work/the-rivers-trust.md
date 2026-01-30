@@ -28,14 +28,14 @@ why:
   person: mat
 impact:
   text: After the website launch, the Rivers Trust gained a significant amount of interest in its ‘State of the Rivers’ report, sewage map, and website which led to coverage on national TV and press.
-  img: images/work-rivers-trust-river-drone.jpg
-  img_alt: A meandering river photographed from above
+  img: images/work_rivers-trust-brand-1.jpg
+  img_alt: The camera bisects the surface of the water, with river plants shown below and a person walking along the bank above
 
 
 # Header
 banner_type: standard
-banner_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
-banner_img_alt: A river in the Scottish Higlands
+banner_img: images/work-rivers-trust-river-drone.jpg
+banner_img_alt: A meandering river photographed from above
 banner_icon: rt-logo
 
 # Page nav
@@ -52,8 +52,8 @@ toc_replacements:
 external_link: https://theriverstrust.org
 
 # Teaser content
-cover_img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
-cover_img_alt: A river in the Scottish Higlands
+cover_img: images/work-rivers-trust-river-drone.jpg
+cover_img_alt: A meandering river photographed from above
 icon: rt-logo
 icon_width: 188
 icon_height: 90

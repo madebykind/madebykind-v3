@@ -97,29 +97,37 @@
 
   {{/* Clients */}}
   {{ $sector := .Title }}
+  {{ $length := .Params.related_projects | len }}
   {{ with .Params.related_projects }}
-  <div class="bg-buff text-indigo" id="clients">
-    <h2 class="sr-only">Examples of our work in the {{ $sector }} sector</h2>
-    
-    <div class="flex flex-col gap-20 lg:gap-40 2xl:gap-60 my-20 lg:my-40 2xl:my-60">
-      {{ range $index, $element := . }}
-        {{ $odd := false }}
-        {{ if not (modBool $index 2)}}
-          {{ $odd = true }}
-        {{ end }}
+    <section class="bg-green text-pink" id="clients">
+      <h2 class="sr-only">Examples of our work in the {{ $sector }} sector</h2>
+      <div class="container section">
 
-        {{ with $element.slug }}
-          {{ with site.GetPage . }}
-            {{ partial "teaser__client" (dict 
-              "index" $index
-              "context" .
-              "odd" $odd
-            ) }}
+        <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
+          {{ range $index, $element := . }}
+            {{ $odd := false }}
+            {{ if not (modBool $index 2)}}
+              {{ $odd = true }}
+            {{ end }}
+
+            {{ with $element.slug }}
+              {{ with site.GetPage . }}
+                <li class="col-span-full {{ if or (eq $index 0) (le $length 3) }} md:col-span-full {{ else }} md:col-span-4 {{ end }}">
+                  {{ if or (eq $index 0) (le $length 3) }}
+                    {{ partial "teaser__work" ( dict "context" . "odd" $odd "spotlight" (ge $length 4) "size" "large") }}
+                  {{ else }}
+                    {{ partial "card_work" (dict
+                      "context" .
+                    ) }}
+                  {{ end }}
+                </li>
+                
+              {{ end }}
+            {{ end }}
           {{ end }}
-        {{ end }}
-      {{ end }}
-    </div>
-  </div>
+        </ul>
+      </div>
+    </section>
   {{ end }}
 
   {{/* Testimonials */}}
@@ -196,7 +204,7 @@
         "url" .Permalink
         "style" "wide"
         "heading" "Stay up-to-date with what we’re doing"
-        "description" "Because we’re busy delivering for our clients, we send no more than 4 emails per year, but when we do send them... boy are they interesting!"
+        "description" "We send no more than 4 emails per year, about our work, our thoughts and anything else you might imagine from an ethical creative agency."
         "block_class" "container"
         "heading_class" "text-3xl"
         "text_class" "leading-tight text-md"

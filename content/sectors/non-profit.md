@@ -1,44 +1,39 @@
 ---
-draft: false
 title: Non-profit
 heading: We help charities and non-profits advance their cause
-cover_img: images/work-rivers-trust-phone.jpg
-cover_img_alt: Shot in the environment, a mobile-optimised website for The Rivers Trust website
+seo_title: Strategy and creative for charities and non-profits
+description: We partner with non-profits and charities, helping them to realise their vision through brand strategies and digital activities.
+cover_img: images/work-sr-billboard.jpg
+cover_img_alt: "Outdoor billboard showing StrongerRoots campaign with the message “Together we’ll grow a recovery-friendly future” beside a smiling young woman."
 banner_images:
-  - img: images/work-rewilding-britain-teaser.jpg
-    alt: A Blue Tit on a branch
-  - img: images/work-garden-organic-laptop-3.jpg
-    alt: Garden Organic website on a laptop, situated on a garden table.
-  - img: images/gary-ellis-5vf16lnz-gi-unsplash.jpg
-    alt: A river in the Scottish Higlands
-  - img: images/work-jackson-crane-biophillic-house.jpg
-    alt: Rendered image of a biophilic house
-  - img: images/work-rewilding-britain-carousel-2.jpg
-    alt: A beaver on a river bank
+  - img: images/work-rivers-trust-river-drone.jpg
+    alt: A meandering river photographed from above
+  - img: images/work-unesco-online.jpg
+    alt: The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building
+  - img: images/work_plan_vivo_brand_2.jpg
+    alt: A woman in a red and yellow dress waters seedlings in a tree nursery
+  - img: images/work-unesco-refugees.jpg
+    alt: Three child refugees in a tent Kabul
   - img: images/work-rewilding-britain-carousel-4.jpg
     alt: Landscape image of a large tree on farmland
-  - img: images/work-eti-offshore-wind.jpg
-    alt: Sunset photograph of the sea with a wind farm in the distance
-  - img: images/work-garden-organic-laptop-jess-seth.jpg
-    alt: Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop
+  - img: images/work-twp-hero-3.jpg
+    alt: A person stands beside two canoes on the shore of a misty river at sunrise, surrounded by reeds and trees.
+  - img: images/work_plan_vivo_mobile_hero.jpg
+    alt: Plan Vivo website on a mobile device, on a rock
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
 logos:
   - name: UNESCO
     icon: unesco-logo
-  - name: The Open Data Institute
-    icon: odi-logo
-  - name: Rewilding Britain
-    icon: rwb-logo
   - name: The Rivers Trust
     icon: rt-logo
+  - name: Plan Vivo
+    icon: logo-planvivo
+  - name: Rewilding Britain
+    icon: rwb-logo
 related_projects:
   - slug: work/unesco
-    indent_images: true
   - slug: work/rewilding-britain
-    indent_text: true
-  - slug: work/the-rivers-trust
-    indent_images: true
-    indent_text: true
+  - slug: work/strongerroots
   - slug: work/bookmark
 testimonials:
   - testimonials/rwb-short
