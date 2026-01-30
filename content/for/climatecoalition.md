@@ -26,10 +26,10 @@ related_projects:
   - slug: work/unesco
   - slug: work/rewilding-britain
   - slug: work/strongerroots
-related_posts:
-  - strategy-for-social-change
-  - the-influence-of-brands-for-social-and-environmental-impact
-  - brand-values-hold-tight
+tools:
+  - tools/strategy-kickstart-canvas
+  - tools/project-readiness-checklist
+  - tools/project-discovery-planner
 testimonials:
 - testimonials/rwb-short
 - testimonials/plan-vivo
@@ -41,15 +41,4 @@ related_stats:
 extra_stats:
 - 23k-donated
 - 28-percent
-help_intro: We don’t know all of your challenges yet, but we work with charities like yours every day. Here are a few ways we can help bring clarity and consistency, without creating extra complexity for your team.
-help_items:
-- title: Coalition clarity
-  description: We can help shape a clear story and set of priorities that partners can align around, without losing their own voice. That makes collaboration easier and helps collective action land more strongly.
-- title: Partner toolkits
-  description: We can help you package campaigns into reusable toolkits, so member organisations can pick them up quickly and share them with consistent messaging and clear calls to action.
-- title: Action journeys
-  description: Whether someone arrives via a partner, a campaign, or your own channels, the path should feel simple and rewarding. We can help spot where people drop off, then make improvements that increase participation and long-term support.
-- title: Campaign system
-  description: We can help create a repeatable structure for campaigns and landing pages, so launches are faster and more consistent, without extra overhead for your team.
-help_outro: If any of this sounds useful, we’d love to share a bit more about how we work and see if it feels like a good fit.
 ---

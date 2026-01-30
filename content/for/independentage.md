@@ -26,10 +26,10 @@ related_projects:
   - slug: work/artswork
   - slug: work/chapter
   - slug: work/unesco
-related_posts:
-  - why-asking-why-charity-strategy-impact
-  - finding-the-common-ground-between-your-organisation-and-its-audience
-  - increasing-online-donations
+tools:
+  - tools/strategy-kickstart-canvas
+  - tools/project-readiness-checklist
+  - tools/project-discovery-planner
 testimonials:
 - testimonials/rwb-short
 - testimonials/odi
@@ -41,15 +41,4 @@ related_stats:
 extra_stats:
 - 23k-donated
 - 28-percent
-help_intro: We don’t know all of your challenges yet, but we work with charities like yours every day. Here are a few ways we can help bring clarity and consistency, without creating extra complexity for your team.
-help_items:
-- title: Proposition clarity
-  description: We can help make your offer clearer for each key audience, so supporters, partners and funders quickly understand what you do, why it matters, and where their support makes the biggest difference.
-- title: Impact storytelling
-  description: You’ve already got real impact and experience behind your work. We can help shape that into a story that’s easy to understand, easy to share, and helps people feel confident supporting you.
-- title: Service journeys
-  description: Whether someone wants to access support, refer someone, donate or share your work, the path should feel clear and reassuring. We can help spot where people drop off, then make improvements that increase engagement and long-term support.
-- title: Fundraising consistency
-  description: We can help create a repeatable structure for appeals, landing pages and key messages, so fundraising activity stays consistent and effective across the year.
-help_outro: If any of this sounds useful, we’d love to share a bit more about how we work and see if it feels like a good fit.
 ---

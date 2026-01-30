@@ -104,9 +104,9 @@
       <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
         <div class="flex flex-col gap-8">
           <h2 class="h1">So, how can we help you?</h2>
-          <p class="max-w-3xl text-md">{{ .Params.help_intro }}</p>
+          <p class="max-w-3xl text-md">We don’t know all of your challenges yet, but we work with charities like yours every day. Our role is to help bring clarity and consistency, without creating extra complexity for your team, and to make sure any work we do is grounded in a proper understanding of your organisation and context.</p>
         </div>
-        <div class="hidden xl:block">
+        <div class="hidden lg:block">
           {{ partial "image" (dict 
             "alt" "Illustration: two big friendly hands making a heart shape"
             "class" "object-cover w-full"
@@ -114,30 +114,25 @@
           ) }}
         </div>
       </div>
-      <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10">
-        {{ range $index, $element := .Params.help_items }}
-          <div class="flex flex-col gap-2">
-            <h3 class="mb-2 h4">{{ $element.title }}</h3>
-            <div class="flex flex-col gap-5 font-sans text-sm">
-              {{ $element.description | markdownify  }}
-            </div>
-            {{ if $element.readmore }}
-              <div id="help-{{ $index }}" class="flex flex-col gap-5 font-sans text-sm">{{ $element.readmore | markdownify  }}</div>
-              <button class="accordion-toggle" data-toggle data-target="#help-{{ $index }}">
-                <div class="flex items-center gap-2.5 font-sans">
-                  <div class="flex items-center justify-center w-5 h-5 rounded-full bg-indigo text-buff accordion-toggle-icon">
-                    <svg class="w-3 h-3" role="presentation">
-                      <use xlink:href="#icon-chevron"/>
-                    </svg>
-                  </div>
-                  <p class="text-sm">Read more
-                    <span class="sr-only">about {{ $element.title }}</span>
-                  </p>
-                </div>
-              </button>
-            {{ end }}
+      <div class="grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-10">
+        <div class="flex flex-col gap-2">
+          <h3 class="mb-2 h4">Strategy alignment</h3>
+          <div class="flex flex-col gap-5 font-sans text-sm max-w-prose">
+            An approach we have used successfully with many of our clients is to start with a collaborative discovery phase, building a shared understanding of your organisation and the context you are working in. It includes workshops with stakeholders, conversations with your audience and time spent understanding your challenges and constraints. The aim is to create a clear picture of where you are now, where you want to go, and what success looks like.
           </div>
-        {{ end }}
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="mb-2 h4">Clear direction</h3>
+          <div class="flex flex-col gap-5 font-sans text-sm max-w-prose">
+            Using what we learn, we could help set a clear direction for your organisation, so priorities are easier to agree and decisions easier to make. This involves defining how your strategy, mission and values translate in across your brand, marketing and digital communications. Delivered with practical plans and guidance that give you clarity on what to focus on next and a strong foundation for the future.
+          </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="mb-2 h4">Delivery</h3>
+          <div class="flex flex-col gap-5 font-sans text-sm max-w-prose">
+            We can then help deliver the outputs, from brand refreshes and tone of voice through to website improvements, campaign assets and system integrations. The focus would be on practical, sustainable delivery that supports your team and keeps things consistent as your work develops.
+          </div>
+        </div>
       </div>
       <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 items-center">
         <div class="lg:order-1 lg:bleed-right">
@@ -148,13 +143,7 @@
         ) }}
         </div>
         <div class="flex flex-col items-start gap-5 lg:gap-10">
-          <p class="text-md max-w-cta-copy">{{ .Params.help_outro }}</p>
-          <a class="mb-2 btn btn--primary" href="#contact">
-            <span class="whitespace-nowrap">Let's talk</span>
-            <svg class="w-8 h-8 shrink-0" viewbox="0 0 77 63" role="presentation">
-              <use xlink:href="#icon-arrow"/>
-            </svg>
-          </a>
+          <p class="text-md max-w-cta-copy">If any of this sounds useful, we’d love to share a bit more about how we work and see if Kind is a good fit for {{ with .Params.inline_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}.</p>
         </div>
       </div>
     </div>
@@ -169,48 +158,49 @@
       </div>
       <div class="container section">
 
-      <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
-        {{ range $index, $element := . }}
-          {{ $odd := false }}
-          {{ if not (modBool $index 2)}}
-            {{ $odd = true }}
-          {{ end }}
+        <ul class="list-none grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-y-40">
+          {{ range $index, $element := . }}
+            {{ $odd := false }}
+            {{ if not (modBool $index 2)}}
+              {{ $odd = true }}
+            {{ end }}
 
-          {{ with $element.slug }}
-            {{ with site.GetPage . }}
-              <li class="col-span-full {{ if or (eq $index 0) (le $length 3) }} md:col-span-full {{ else }} md:col-span-4 {{ end }}">
-                {{ if or (eq $index 0) (le $length 3) }}
-                  {{ partial "teaser__work" ( dict "context" . "odd" $odd "spotlight" (ge $length 4) "size" "large") }}
-                {{ else }}
-                  {{ partial "card_work" (dict
-                    "context" .
-                  ) }}
-                {{ end }}
-              </li>
-              
+            {{ with $element.slug }}
+              {{ with site.GetPage . }}
+                <li class="col-span-full {{ if or (eq $index 0) (le $length 3) }} md:col-span-full {{ else }} md:col-span-4 {{ end }}">
+                  {{ if or (eq $index 0) (le $length 3) }}
+                    {{ partial "teaser__work" ( dict "context" . "odd" $odd "spotlight" (ge $length 4) "size" "large") }}
+                  {{ else }}
+                    {{ partial "card_work" (dict
+                      "context" .
+                    ) }}
+                  {{ end }}
+                </li>
+                
+              {{ end }}
             {{ end }}
           {{ end }}
-        {{ end }}
-      </ul>
-    </div>
+        </ul>
+      </div>
+    </section>
   {{ end }}
 
-  {{/* Selected insights */}}
-  {{ with .Params.related_posts }}
-    <div class="text-indigo bg-buff section--lg">
-      <div class="container flex flex-col gap-5 lg:gap-10">
-        <h2 class="h--condensed">Insights we think you will find useful</h2>
-        {{ partial "related-teasers.html" . }}
-      </div>
-    </div>
-  {{ end }}
+
+  {{/* Tools */}}
+  <div class="text-indigo bg-buff">
+    {{ partial "tools.html" (dict
+      "context" .
+      "heading" "Tools you might find useful"
+      "description" "When you’re unsure what’s next, our discovery tools can help you to work out what needs thinking through before you commit to a direction."
+    ) }}
+  </div>
 
   {{/* Testimonials */}}
   <div class="text-buff bg-indigo">
     <div class="container flex items-center section--lg snap-start min-h-[80vh]" id="testimonials">
       <div class="flex flex-col items-start w-full gap-10">
         <h2 class="h--condensed">What our clients say</h2>
-        <div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-5 xl:gap-10">
+        <div class="grid w-full grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-5 xl:gap-10">
           {{ range .Params.testimonials }}
             {{ with site.GetPage . }}
               <figure>
@@ -250,19 +240,42 @@
   <div class="grid overflow-hidden bg-blue text-buff">
     <div class="container grid items-center md:gap-10 md:grid-cols-2 2xl:grid-cols-3 2xl:no-container 2xl:w-screen">
       <div class="section--lg order-2 md:order-1 2xl:pl-[4vw] 2xl:col-span-2">
-        <div class="mb-8 prose lg:mb-16">
-          <h2 class="text-3xl h--condensed">Arrange a chat with {{ $author.firstname }}</h2>
-          <div class="max-w-2xl mt-6">
-            <p class="leading-tight text-md">{{ $author.cta.text }}</p>
-          </div>
+        <div class="mb-4 prose max-w-2xl">
+          <p>We would really love the opportunity to chat about how Kind might support the work of {{ with .Params.inline_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}.</p>
+          <p>If you’re interested, let me know.</p>
+          <p class="font-bold">{{ $author.name }}</p>
         </div>
-        <a class="mb-2 btn btn--pink" href="{{ $author.cta.url }}">
-          <span class="whitespace-nowrap">Book a chat</span>
-          <svg class="w-8 h-8 shrink-0" viewbox="0 0 77 63" role="presentation">
-            <use xlink:href="#icon-arrow"/>
-          </svg>
+        <a class="inline-block mb-2" href="mailto:{{ $author.email }}">
+          <span class="whitespace-nowrap">{{ $author.email }}</span>
         </a>
-        <p class="max-w-[20rem] leading-none font-sans"><small>No fee. No obligation. Just a friendly conversation about your goals, your challenges and our offering.</small></p>
+        <nav class="font-sans text-sm" aria-label="Social links for {{ $author.name }}">
+          <ul class="list-none flex flex-wrap gap-3">
+            {{ with $author.social.linkedin }}
+              <li class="flex gap-1 items-center">
+                <svg class="w-3 h-3 mb-0.5" role="presentation">
+                  <use xlink:href="#icon-linkedin"/>
+                </svg>
+                <a href="https://www.linkedin.com/in/{{ . }}" class="a--underline">Connect on Linkedin</a>
+              </li>
+            {{ end }}
+            {{ with $author.social.instagram }}
+              <li class="flex gap-1 items-center">
+                <svg class="w-3 h-3" role="presentation">
+                  <use xlink:href="#icon-instagram"/>
+                </svg>
+                <a href="https://www.instagram.com/{{ . }}/" class="a--underline">Follow on Instagram</a>
+              </li>
+            {{ end }}
+            {{ with $author.social.bluesky }}
+              <li class="flex gap-1 items-center">
+                <svg class="w-4 h-4" role="presentation">
+                  <use xlink:href="#icon-bluesky"/>
+                </svg>
+                <a href="https://bsky.app/profile/{{ . }}" class="a--underline">Follow on Bluesky</a>
+              </li>
+            {{ end }}
+          </ul>
+        </nav>
       </div>
       <div class="relative order-1 bleed md:ml-0 md:order-2 aspect-4/3 md:aspect-3/4">
         {{ partial "image" (dict 

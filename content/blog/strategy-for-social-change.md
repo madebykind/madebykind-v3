@@ -61,8 +61,9 @@ If you are planning a brand or digital project, taking a moment to reflect on yo
 
 {{< data-capture
   heading="Download the Project Readiness Checklist"
-  description="Let us know your email address and we’ll send you the checklist along with some tips for how to use it."
+  description="or let us know your email address and we’ll send you the checklist along with some tips for how to use it."
   url=""
+  file_url="https://mcusercontent.com/7a49f87afb625e8dd4de9d9fa/files/1e7f60d9-558b-5bc5-5574-372416744c03/Project_Readiness_Checklist.pdf"
   src="images/driving-change.png"
   purposes="sending the Project Readiness Checklist and advice on how to use it"
   tag="3959832"

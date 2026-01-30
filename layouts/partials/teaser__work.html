@@ -3,11 +3,11 @@
 
 
     <div class="absolute z-20 w-full h-full justify-end md:py-2 xl:py-4 flex flex-col">
-      <h3 class=" text-3xl xs:text-4xl {{ if eq .size "large" }} lg:text-5xl 2xl:text-6xl {{ else }} md:text-3xl xl:text-4xl {{ end }} leading-heading h--condensed text-buff transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink
+      <h3 class=" text-3xl xs:text-4xl {{ if eq .size "large" }} 2xl:text-5xl {{ else }} md:text-3xl xl:text-4xl {{ end }} leading-heading h--condensed text-buff transition-colors duration-300 ease-in-out group-hover:text-pink group-focus:text-pink
       {{ if .reverse }} order-3 md:mb-6
       {{ else }} order-2 {{ end }}
-      {{ if .odd }} text-right self-end md:pl-[5%]
-      {{ else }} md:pr-[5%] {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading|safeHTML }}</h3>
+      {{ if .odd }} text-right self-end md:pl-[5%] lg:pl-[25%]
+      {{ else }} md:pr-[5%] lg:pr-[25%] {{ end }}" id="{{ .context.Params.Heading | anchorize }}">{{ .context.Params.Heading|safeHTML }}</h3>
       
       <h4 class="h--condensed text-md
       {{ if .labelColourClass }} {{ .labelColourClass }} {{ else }} text-pink {{ end }}
@@ -42,7 +42,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-12 {{ if .reverse }} pb-8 {{ else }} pb-20 {{ end }} md:pb-0 bleed md:bleed-none">
       <div class="relative col-span-full md:col-span-8 {{ if not .odd }} md:col-start-5 {{ end }} aspect-9/14 md:aspect-4/3 overflow-hidden">
-        <div class="absolute bg-black/30 inset-0 z-10"></div>
+        <div class="absolute bg-black/40 inset-0 z-10"></div>
         {{ if isset .context.Params "cover_img" }}
           {{ partial "image__teaser-lg" .context }}
         {{ end }}

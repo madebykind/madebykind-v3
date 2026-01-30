@@ -38,9 +38,9 @@ logos:
   - name: Artswork
     icon: logo-artswork
 related_projects:
-  - slug: projects/glastonbury
+  - slug: work/vanda
   - slug: work/chapter
-  - slug: projects/cic
+  - slug: work/backlit
   - slug: work/artswork
 testimonials:
   - testimonials/glasto

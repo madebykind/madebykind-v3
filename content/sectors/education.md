@@ -11,12 +11,12 @@ banner_images:
     alt: Bonnington Gallery
   - img: images/work-shu-protestor.jpg
     alt: A closeup of a smiling young woman, wearing a wooly hat. A colourful is visible in the background
-  - img: images/work-ntu-desktop-screens.jpg
-    alt: A number of mockups of pages on the NTU website
-  - img: images/work-ntu-homepage-imac.jpg
+  - img: images/work-bookmark-reading-mentor.jpg
+  - img: images/work-bookmark-laptop-child.jpg
+    alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
     alt: A photograph of a man working on designs for a website on an iMac screen
-  - img: images/work-ntu-wireframes.jpg
-    alt: An over the shoulder photograph of a computer screen. The screen has blue and white 'wireframe' style designs of web templates on it
+  - img: images/work-unesco-online.jpg
+    alt: The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building
   - img: images/work-shu-runner.jpg
     alt: A woman looking over a view of Sheffield city centre at dawn
 logo_wrapperclass: "w-12 lg:w-20 xl:w-24"
@@ -25,19 +25,15 @@ logos:
     icon: shu-logo
   - name: Nottingham Trent University
     icon: ntu-logo
-  - name: Henley Business School
-    icon: henley-logo
-  - name: Nottingham College
-    icon: nottingham-college-logo
+  - name: UNESCO
+    icon: unesco-logo
+  - name: Bookmark Reading
+    icon: logo-bookmark
 related_projects:
-  - slug: work/sheffield-hallam-university
-    indent_images: true
   - slug: work/nottingham-trent-university
-    indent_text: true
-  - slug: projects/henley-business-school
-    indent_images: true
-    indent_text: true
-  - slug: projects/nottingham-college
+  - slug: work/sheffield-hallam-university
+  - slug: work/bookmark
+  - slug: work/unesco
 testimonials:
   - testimonials/henley
   - testimonials/ntu

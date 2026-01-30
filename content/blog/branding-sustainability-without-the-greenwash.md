@@ -105,8 +105,9 @@ It is a practical tool to support early thinking, surface assumptions and make m
 
 {{< data-capture
   heading="Download the Project Discovery Planner"
-  description="Let us know your email address and we’ll send you the planner along with some tips for how to use it."
+  description="or let us know your email address and we’ll send you the planner along with some tips for how to use it."
   url=""
+  file_url="https://mcusercontent.com/7a49f87afb625e8dd4de9d9fa/files/92a910fd-791a-602a-a344-6c0d82e0eff7/Project_Discovery_Planner.pdf"
   src="images/driving-change.png"
   purposes="sending the Project Discovery Planner and advice on how to use it"
   tag="3959875"
