@@ -3,6 +3,8 @@ draft: false
 from: michelle
 title: Bumblebee Conservation Trust
 inline_title: the Bumblebee Conservation Trust
+seo_title: "We'd love to work with the Bumblebee Conservation Trust"
+description: "We’re Kind, and we’d love to support the amazing work you do to protect bumblebees."
 heading: Let’s help bumblebees, together
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect bumblebees. Your mission aligns perfectly with the kind of brands we love to support and we’d love to work together, using our expertise to help grow awareness and get more people supporting the Bumblebee Conservation Trust.
 cover_img: images/work-rivers-trust-phone-2.jpg

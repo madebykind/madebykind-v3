@@ -2,6 +2,8 @@
 draft: false
 from: mat
 title: League Against Cruel Sports
+seo_title: "We'd love to work with the League Against Cruel Sports"
+description: "We’re Kind, and we’d love to support the amazing work you do to protect animals and challenge cruelty."
 inline_title: the League Against Cruel Sports
 heading: We want to help end cruelty to animals
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect animals and challenge cruelty. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting the League Against Cruel Sports.

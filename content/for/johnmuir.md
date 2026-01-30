@@ -2,6 +2,8 @@
 draft: false
 from: mat
 title: John Muir Trust
+seo_title: "We'd love to work with the John Muir Trust"
+description: "We’re Kind, and we’d love to support the amazing work you do to protect wild places and help more people connect with nature"
 inline_title: the John Muir Trust
 heading: Let us help keep wild places wild
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect wild places and help more people connect with nature. Your mission aligns perfectly with the kind of brands we support and we’d love to work together, using our expertise to help grow awareness and get more people supporting the John Muir Trust.

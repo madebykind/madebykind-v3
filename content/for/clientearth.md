@@ -2,6 +2,8 @@
 draft: false
 from: mat
 title: ClientEarth
+seo_title: "We'd love to work with ClientEarth"
+description: "We’re Kind, and we’d love to support the amazing work you do to protect people and planet through the law."
 heading: We also want environmental justice
 subheading: We’re Kind, and we’d love to support the amazing work you do to protect people and planet through the law. Your mission aligns perfectly with the kind of brands we support and we’d love to use our expertise to help grow awareness and get more people backing ClientEarth’s work.
 cover_img: images/work_plan_vivo_mobile_hero.jpg
