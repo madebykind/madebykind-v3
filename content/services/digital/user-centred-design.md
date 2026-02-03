@@ -32,7 +32,7 @@ process:
 
 # Related
 related_work:
-  - work/rewilding-britain
+  - work/plan-vivo
   - work/the-rivers-trust
 related_posts:
   - start-your-next-digital-project-with-a-paid-discovery-phase

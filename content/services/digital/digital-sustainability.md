@@ -13,7 +13,7 @@ intro: The environmental cost of our digital world is not often considered when 
 # Related
 related_work:
   - work/rewilding-britain
-  - work/garden-organic
+  - work/plan-vivo
 related_posts:
   - building-a-more-sustainable-website-architecture
   - creating-sustainable-and-ethical-digital-products
@@ -70,9 +70,7 @@ related_posts:
 
   ![The Eco-friendly Web Alliance accreditation logo](https://madebykind.imgix.net/efwa-logo-blue.jpg)
 
-  While it’s only one consideration, it is possible to calculate the carbon emissions of a single we page view.
-
-  While this doesn’t take into account the energy usage on a user’s device or any other environmental impacts, it does give a clear indication of whether a website is sustainable or could be improved.
+  While it’s only one consideration, it is possible to calculate the carbon emissions of a single we page view. This gives a clear indication of whether a website is sustainable and how it can be improved.
 
   This website, like many of our clients' websites, has been independently audited by the <a href="https://ecofriendlyweb.org/" target="_blank">Eco-Friendly Web Alliance</a>.
 

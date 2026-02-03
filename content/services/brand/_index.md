@@ -85,9 +85,9 @@ related_work:
   - work/base51
   - work/chapter
 related_posts:
-  - brand-values-hold-tight
+  - branding-sustainability-without-the-greenwash
   - brand-strategy-make-an-impact
-  - creativity-is-a-responsibility
+  - brand-values-hold-tight
 
 # Teaser
 teaser:
