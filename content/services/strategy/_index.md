@@ -35,13 +35,12 @@ process:
 
 # Related content
 related_work:
-  - work/unesco
+  - work/strongerroots
   - work/nottingham-trent-university
 related_posts:
+  - strategy-for-social-change
   - finding-the-common-ground-between-your-organisation-and-its-audience
-  - start-your-next-digital-project-with-a-paid-discovery-phase
-  - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
-
+  - why-asking-why-charity-strategy-impact
 
 # Teaser
 teaser:
@@ -65,7 +64,7 @@ teaser:
     - testimonials/ntu-short
   projects_title: Strategic projects
   projects:
-    - work/unesco
+    - work/strongerroots
     - work/nottingham-trent-university
   projects_link:
     title: All strategy projects

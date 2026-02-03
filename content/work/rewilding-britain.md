@@ -19,7 +19,7 @@ related_work:
   - work/the-rivers-trust
 
 # Content
-heading: A platform to inspire rewilding projects across the country
+heading: A platform to inspire rewilding across the UK
 preheading: Digital partnership with environmental charity, Rewilding Britain.
 intro: "<p>Rewilding Britain are the first and only country-wide organisation in Britain focusing on rewilding – acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.</p>"
 why:
