@@ -72,27 +72,21 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="work-backlit-font.jpg" alt="A page from a brand guidelines document on a tablet device, showing the choice of typeface for the Backlit website" >}}
 
-{{< figure wrapperclass="" src="work-backlit-colours.jpg" alt="Colours of the Backlit online brand shown in stripes in a document. The colours are charcoal, blue-grey, green, orange and white" >}}
+{{< multi-image
+  src_2="images/work-backlit-font.jpg" alt_2="A page from a brand guidelines document on a tablet device, showing the choice of typeface for the Backlit website"
+  src_1="images/work-backlit-colours.jpg" alt_1="Colours of the Backlit online brand shown in stripes in a document. The colours are charcoal, blue-grey, green, orange and white"
+  align="end"
+  >}}
+
+{{< figure wrapperclass="" src="work-backlit-shapes.jpg" alt="A laptop with a part of a brand guidelines document showing window shapes" >}}
+
 
 
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
-
-  Backlit is located in an old Victorian textile factory and the existing logo reflected the ‘flying-wheel’ machines that were used in the building a century before Backlit was founded. We built on this nod to the building throughout the Backlit identity, devising brand assets based on the shape of the large windows in the gallery space.
-
-  </div>
-</div>
-
-{{< figure align="right" wrapperclass="" src="work-backlit-shapes.jpg" alt="A laptop with a part of a brand guidelines document showing window shapes" >}}
-
-
-<!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8">
 
   ## User-centred website
 
@@ -101,14 +95,15 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   </div>
 </div>
 
-{{< figure align="left" wrapperclass="" src="work-backlit-ipad-pages.jpg" alt="Mockups of the Backlit Gallery website on multiple tablet devices" >}}
+{{< figure align="right" wrapperclass="" src="work-backlit-ipad-pages.jpg" alt="Mockups of the Backlit Gallery website on multiple tablet devices" >}}
 
 {{< figure wrapperclass="" src="work-backlit-kind-team.jpg" alt="Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs" >}}
 
 
-<!-- Text right -->
+
+<!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+  <div class="prose col-span-full lg:col-span-8">
 
   ## Income generation opportunities
 
@@ -121,4 +116,4 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="work-backlit-ipad-archives-2.jpg" alt="Backlit Gallery archive page on a tablet screen" >}}
+{{< figure align="left" wrapperclass="" src="work-backlit-ipad-archives-2.jpg" alt="Backlit Gallery archive page on a tablet screen" >}}
