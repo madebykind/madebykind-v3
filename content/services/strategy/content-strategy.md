@@ -2,7 +2,7 @@
 # Meta
 date: 2020-04-30T17:28:36.948Z
 weight: 2
-title: Content strategy and planning
+title: Content strategy
 listonly: true
 _build:
   render: never
