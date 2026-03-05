@@ -10,6 +10,7 @@ topics:
   - services/brand/visual-identity
   - services/digital/user-centred-design
   - services/digital/content-management
+  - services/digital/crm-integration
 services:
   - brand
   - digital
@@ -22,17 +23,20 @@ heading: Helping a pioneering arts centre reflect its evolving mission
 preheading: Brand development and website delivery for Chapter.
 intro: >
 
-  Chapter provides space for creativity in all its many forms. Art. Cinema. Theatre. Community. The stories unfolding in their centre, from their creative spaces to their café. They believe art is what you make it. That’s why they seek to nurture and embolden every artist, every creative, every curious mind.
+  Chapter provides space for creativity in all its many forms: art, cinema, theatre, community. For over 50 years they've been presenting, producing and promoting work in Cardiff, nurturing artists and welcoming audiences from the local community and around the world.
 
-
-  Chapter needed a brand and website to represent the creative, diverse, community-centric work they do on both a local and international level. They wanted to stand out as an organisation that has something to say, to show, and to make people feel something. They also wanted to ensure they were as inclusive as possible to all communities in the area and much further afield.
+  
+  Their brand and website didn't reflect that ambition. Chapter needed an identity and digital presence that conveyed the full breadth of what they do: not just a cinema, not just a café, but a multidisciplinary arts organisation at the heart of its community.
 why:
   text: Chapter is a cultural organisation that truly understands the power and importance of the arts. By commissioning exhibitions from diverse artists, hosting a community garden and offering 'pay what you can' pricing, they make art more accessible to all.
   person: mat
 impact:
-  text: Chapter's identity now better reflects who they are. An inclusive, accessible, multidisciplinary arts organisation serving the local community and international audiences and encouraging patrons to create or engage with thought-provoking work that champions equity, experimentation, and collaboration in the arts.
+  text: Since we relaunched Chapter's brand and website in 2023, Chapter is reaching more of its community across everything it does, recognised most recently with an Art Fund Museum of the Year nomination in 2025.
   stats:
-    - artfund
+    - chapter-checkouts
+    - chapter-engagement
+    - chapter-new-users
+    - chapter-organic
   img: images/work-chapter-jamaicaday.jpg
   img_alt: Two women dancing outside Chapter
 
@@ -91,9 +95,9 @@ From world-class and emerging talent to the next generation, to our audiences an
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Brand strategy
+  ## Research and discovery
 
-  We created a brand strategy that developed a bold manifesto, values, and tone of voice. This enabled us to then create a full brand identity design language for use online, offline and in-venue. This included typography, iconography, colourways, digital and wayfinding signage, poster templates, and stationery.
+  We started with the organisation: workshops with the Chapter team to understand their mission, audiences and ambitions. We then explored how those audiences — visitors, local community members and artists — used digital platforms alongside the venue, and what they needed from a new website. That research shaped both the brand strategy and the content structure that followed.
 
   </div>
 </div>
@@ -101,14 +105,13 @@ From world-class and emerging talent to the next generation, to our audiences an
 {{< figure align="right" alt="Pages from Chapter brand guidelines document" src="work-chapter-guidelines.jpg" >}}
 
 
-
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Brand identity
+  ## Brand strategy and identity
 
-  This new brand enabled the team at Chapter to have a strong and inspiring new identity to really represent all of the exciting work they live and breathe day-to-day at the arts centre.
+  From the research foundation we developed a brand strategy: a bold manifesto, clear values and a tone of voice that captured Chapter's character. From that we built a full identity designed to work across every context: typography, iconography, colourways, poster templates, stationery, digital and in-venue wayfinding signage. An identity system with enough range to hold together everything Chapter does.
 
   </div>
 </div>
@@ -132,9 +135,14 @@ From world-class and emerging talent to the next generation, to our audiences an
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## User-centred design
+  ## Welsh and English, with complete parity
 
-  Alongside their rebrand, we crafted a new website for them. This website needed to show Chapter as more than just a cinema or cafe. It had to give equal weight to Chapter’s full offering which incorporates much more across art, performance, community, and creative spaces and studios. The emphasis had to be on inviting guests into the venue and clearly helping them to access all of the events, screenings, performances, and services they had available.
+  Chapter serves communities across Cardiff and Wales. Every element of the brand and website reflects complete parity between Welsh and English, meeting legal requirements and serving their audiences properly.
+
+
+  ## User-centred website
+
+  The website needed to present Chapter as far more than a venue, while making it genuinely easy to find and book events. We designed and built a component-based system in Craft CMS, with flexible templates giving equal weight to cinema, performance, exhibitions and community programming across all devices. Chapter's team can build and manage content pages independently.
 
   </div>
 </div>
@@ -152,18 +160,16 @@ From world-class and emerging talent to the next generation, to our audiences an
 
 {{< figure wrapperclass="" alt="Chapter website shown on a laptop screen" src="work-chapter-laptop.jpg" >}}
 
-{{< partnership img="images/work-chapter-exterior.jpg" alt="An exterior photograph of Chapter Arts Centre, showing the community garden" >}}As Chapter continue to thrive we continue to support their digital platforms, ensuring their systems are accessible, secure and have a smooth ticket booking process.{{</ partnership >}}
+{{< partnership img="images/work-chapter-exterior.jpg" alt="An exterior photograph of Chapter Arts Centre, showing the community garden" >}}We continue to work with Chapter as a long-term digital partner, making iterative improvements based on data, marketing strategy and the evolving needs of their community. When Chapter migrated from Spektrix to Ticketsolve, we rebuilt the integration to match.{{</ partnership >}}
 
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Booking system
+  ## Integrated with Spektrix
 
-  We integrated Spektrix for ticket purchasing, membership management and donation collection. This enables Chapter to have a fully-functioning website which works extremely hard for them to promote and sell tickets and their other work.
-
-  We also focused on inclusivity and accessibility to ensure all patrons are welcomed to the venue both on and offline. Therefore this site is bilingual in both Welsh and English and all brand and digital work reflects complete parity of both languages to meet their users needs and requirements.
+  We connected the Spektrix REST API to pull event data nightly into the CMS, keeping What's On current without manual duplication. Spektrix Web Components handled ticket sales, memberships, donations and gift vouchers across the site. The same data pipeline fed live event information to in-venue digital screens throughout the building. For the first time, Chapter had full visibility of the customer journey from discovery to purchase, tracking over 1.6 million Spektrix ticketing interactions in the first six months post-launch.
 
   </div>
 </div>

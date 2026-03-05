@@ -93,6 +93,21 @@ footer_heading: "Looking for a new strategic partner?"
 
 {{< workquote source="Rewilding Britain Manifesto" logo="rwb-logo" img="images/work-rewilding-britain-sea-kelp.jpg" alt="Sea kelp seen from above the water" logowidth="176" logoheight="61">}}Our vision is a world rich with the incredible hum and thrum of life, a world where our land and seas are again rich and diverse{{</ workquote >}}
 
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Research
+
+  We ran discovery with Rewilding Britain's audiences to understand how people thought about rewilding, what would motivate them to act, and what different groups needed from the platform: individuals, landowners, corporates and practitioners.
+
+  </div>
+</div>
+
+
+{{< challenge >}}Most people had never heard of rewilding and those that had didn't know how to take action.
+{{</ challenge >}}
+
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
