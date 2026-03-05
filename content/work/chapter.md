@@ -91,9 +91,9 @@ From world-class and emerging talent to the next generation, to our audiences an
 {{</ workquote >}}
 
 
-<!-- Text right -->
+<!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+  <div class="prose col-span-full lg:col-span-8">
 
   ## Research and discovery
 
@@ -101,6 +101,9 @@ From world-class and emerging talent to the next generation, to our audiences an
 
   </div>
 </div>
+
+{{< challenge >}}Chapter were seen as a cinema and a café, rather than the multi-artform venue they are.
+{{</ challenge >}}
 
 {{< figure align="right" alt="Pages from Chapter brand guidelines document" src="work-chapter-guidelines.jpg" >}}
 
@@ -127,8 +130,6 @@ From world-class and emerging talent to the next generation, to our audiences an
 {{< figure align="right" alt="A mockup of a Chapter business card. The business card is duotone blue and is placed on a pink board" src="work-chapter-business-card_2.jpg" >}}
 
 
-{{< figure wrapperclass="" alt="A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image." src="work-chapter-billboard.jpg" >}}
-
 
 
 <!-- Text right -->
@@ -139,6 +140,15 @@ From world-class and emerging talent to the next generation, to our audiences an
 
   Chapter serves communities across Cardiff and Wales. Every element of the brand and website reflects complete parity between Welsh and English, meeting legal requirements and serving their audiences properly.
 
+  </div>
+</div>
+
+
+{{< figure wrapperclass="" alt="A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image." src="work-chapter-billboard.jpg" >}}
+
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## User-centred website
 
