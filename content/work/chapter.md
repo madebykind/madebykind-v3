@@ -97,7 +97,7 @@ From world-class and emerging talent to the next generation, to our audiences an
 
   ## Research and discovery
 
-  We started with the organisation: workshops with the Chapter team to understand their mission, audiences and ambitions. We then explored how those audiences — visitors, local community members and artists — used digital platforms alongside the venue, and what they needed from a new website. That research shaped both the brand strategy and the content structure that followed.
+  We started with the organisation: workshops with the Chapter team to understand their mission, audiences and ambitions. We then explored how those audiences (visitors, local community members and artists) used digital platforms alongside the venue, and what they needed from a new website. That research shaped both the brand strategy and the content structure that followed.
 
   </div>
 </div>
