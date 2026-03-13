@@ -33,8 +33,8 @@ why:
 impact:
   text: Since we relaunched Chapter's brand and website in 2023, Chapter is reaching more of its community across everything it does, recognised most recently with an Art Fund Museum of the Year nomination in 2025.
   stats:
+    - chapter-visitors
     - chapter-checkouts
-    - chapter-engagement
     - chapter-new-users
     - chapter-organic
   img: images/work-chapter-jamaicaday.jpg
