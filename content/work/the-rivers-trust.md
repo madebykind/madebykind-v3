@@ -18,16 +18,17 @@ related_work:
 # Content
 heading: Raising public awareness of Britain’s poor river health
 preheading: User-centred website for environmental charity, The Rivers Trust.
-intro: >
-
-    The Rivers Trust aims to bring together the people, knowledge, data and intelligence to help rivers thrive again; for us and future generations.
-
-    By raising awareness of the poor state of rivers in the UK, they rally the public against the lack of policies on keeping Britain’s water healthy and sewage free.
+intro: The Rivers Trust is the umbrella organisation for 65 local trusts working on the ground across the UK and Ireland, and the only group of environmental charities dedicated to protecting and improving river environments for people and wildlife. Their goal is to bring together the people, knowledge and data needed to help rivers thrive again.
 why:
   text: Healthy rivers can play a huge part in reducing the effects of climate change, like flooding and drought. The UK's rivers are some of the unhealthiest in the world.
   person: mat
 impact:
-  text: After the website launch, the Rivers Trust gained a significant amount of interest in its ‘State of the Rivers’ report, sewage map, and website which led to coverage on national TV and press.
+  text: ince we launched the new Rivers Trust website in 2021, the state of Britain’s rivers has gone from a niche environmental concern to a national conversation.
+  stats:
+    - 304-percent
+    - 2k-emails
+    - 189-percent
+    - 35-percent
   img: images/work_rivers-trust-brand-1.jpg
   img_alt: The camera bisects the surface of the water, with river plants shown below and a person walking along the bank above
 
@@ -91,11 +92,25 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Digital brand implementation
+  ## Research and discovery
 
-  We took the Rivers Trust existing brand and worked to expand it into a format that would translate dynamically online.
+  We ran a user needs workshop with the Rivers Trust team, mapping user stories across a remarkably wide range of audiences: donors, member trusts, farmers, wild swimmers, anglers, activists, researchers, corporates, government bodies and journalists. Each group had specific, distinct needs from the platform, and the existing site was serving almost none of them well
 
-  Through a user-centred approach, we reviewed their organisational goals and took the time to understand the needs of both current and target users. We then built a website, tested with real users from key audience groups to ensure it met their needs.
+  </div>
+</div>
+
+
+{{< challenge >}}The Rivers Trust had a complex story to tell and a vast range of audiences to tell it to.{{</ challenge >}}
+
+
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Layered content strategy
+
+  The site needed to serve all of those audiences without overwhelming any of them. We structured content in layers, moving from top-level statistics and imagery through to detailed reports and educational resources, so every visitor could find what they needed and understand what was at stake. A sewage map showing raw sewage overflows across the UK gave the public a visceral, shareable way to understand the scale of the problem.
 
   </div>
 </div>
@@ -104,18 +119,21 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 
 {{< figure wrapperclass="" src="work-rivers-trust-laptop.jpg" alt="The Rivers Trust website on a laptop" >}}
 
-
-
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## Member portal
 
-  The Rivers Trust is an umbrella organisation for the 65 local trusts working on the ground around the UK. The website needed to explore the breadth of the networks and offer an area for those member trusts to promote news, events, and job vacancies.
+  As the umbrella body for 65 local trusts, the Rivers Trust needed a way for member organisations to promote their own news, events and job vacancies to a wider audience. We built a simple interface giving each member trust the tools to manage and publish their own content independently.
+
+  ## Encouraging action
+
+  We built an “Email Your Representative” feature pulling data from UK, Irish and devolved parliaments, giving visitors a direct, simple way to contact their elected representative about river health. In 2025, the Water (Special Measures) Act passed through UK parliament.
 
   </div>
 </div>
+
 
 {{< figure wrapperclass="" align="right" src="work-rivers-trust-components-2.png" alt="Components of the Rivers Trust website" >}}
 
@@ -123,23 +141,12 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Encouraging action
+  ## Donations
 
-  The issue of sewage and pollution in our rivers has become an emotive subject with the British public. To capitalise on this, we designed an "Email Your Representative" feature, pulling data from UK, Ireland and devolved parliaments and encouraging voters to use their voice.
-
-  </div>
-</div>
-
-<!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
-
-  ## Layered content strategy
-
-  The website needed to showcase content which was layered for multiple audiences, from top line messaging through to detailed reports. Through thoughtful design and creation of digestible content, such as a sewage map showing overflows of raw sewage in the UK, we helped the Rivers Trust clearly articulate the huge challenge and threat to UK waters.
+  We integrated a donation form directly with Donorfy, with suggested donation amounts and clear messaging about the impact each contribution could make.
 
   </div>
 </div>
 
 
-{{< figure wrapperclass="" align="right" src="work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}
+{{< figure wrapperclass="" align="left" src="work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}

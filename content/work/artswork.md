@@ -21,13 +21,12 @@ related_work:
 # Content
 heading: Supporting young changemakers through creativity and opportunity
 preheading: Brand development and website delivery for a youth creative charity.
-intro: >
-  Artswork is a charity that empowers young people through creativity, so they can build a better future – for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
+intro: Artswork is a charity that empowers young people through creativity, so they can build a better future for themselves and others. They believe that if young people dream of changing their lives, or other people’s lives, for the better, they shouldn’t be restricted by their backgrounds or circumstances.
 why:
   text: During a long period of intense cuts to arts and culture, education, and community resources for young people, charities like Artswork are needed more than ever to help young people navigate their futures and find positive opportunities.
   person: michelle
 impact:
-  text: Artswork now has a dynamic online presence that better reflects their mission and engages their community. The digital rebrand, refined messaging, and SEO optimisation have made it easier for Artswork to attract new supporters, while the refreshed website provides a seamless experience for users to get involved and make a difference.
+  text: "Artswork now has a brand and website that reflects who they are today: a charity with a clear mission, a bold visual presence and a platform that makes it easy for young people, supporters, funders and partners to find what they need and get involved."
   img: images/work-artswork-photo-4.jpg
   img_alt: A young man holding his hands in the air in triumphant pose.
 
@@ -54,18 +53,6 @@ icon: logo-artswork
 icon_width: 242
 icon_height: 43
 client: Artswork
-# impact_teaser:
-#   text: 
-#   images:
-#     - img: 
-#       alt: 
-#     - img: 
-#       alt: 
-#     - img: 
-#       alt: 
-#   caption: 
-
-# @TODO: Remove this once these teasers have been replaced
 teaser:
   title: Brand and website for youth creative charity
   description: Artswork are engaging more supporters and more young people through a creative rebrand and website launch.
@@ -89,9 +76,24 @@ We empower young people to lead change through creativity – for themselves, th
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## “Creativity for change”
+  ## Research and discovery
 
-  In a crowded landscape, Artswork needed to stand out as a charity truly championing young people to use creative thinking, feeling, and doing to have a greater impact and to help guide them to a future they can be happy in. To do this they needed to modernise their brand and digital presence to reflect their mission, engage with their audiences, and to create a website that clearly articulated their programmes and impact, encouraging audiences to get involved.
+  Strategic calls with the senior leadership team gave us a clear picture of where Artswork wanted to go. An online survey of stakeholders and users showed that the website wasn’t engaging and didn’t represent young people. The website was described as confusing, hard to navigate and not reflective of what the organisation does today. Training pages were unclear, programmes were hard to find, and the imagery looked aimed at primary-age children rather than the 11–35 age group Artswork actually serves.
+
+  </div>
+</div>
+
+{{< challenge >}}Artswork’s online presence didn’t reflect the young people it existed to serve, or the ambition of the organisation it had become.
+{{</ challenge >}}
+
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Digital rebrand
+
+  The logo was updated and the visual identity sharpened: bolder colours, more energetic visuals, and a look that reflected the creativity and ambition of the young people Artswork exists to support. Key messaging was refined to be clear, direct and emotionally resonant, with core phrases and supporting detail that spoke to young people and supporters alike.
 
   </div>
 </div>
@@ -107,41 +109,6 @@ We empower young people to lead change through creativity – for themselves, th
   </div>
   <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden bg-[#5005e2] flex items-center justify-center p-6">
     {{< animation id="anim-artswork-squiggle-2" >}}
-  </div>
-</div>
-
-{{< blockquote author="Nina Zaluczkowska" role="Communications, Sales & Marketing Manager, Artswork" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Working with Kind has brought much needed direction and clarity to our charity after a big change in our delivery.
-
-We wanted to work with an agency that could truly understand the complexities of our youth arts charity and the many people we need to reach with our work.{{</ blockquote >}}
-
-
-
-<!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
-
-  ## Digital rebrand
-
-  We gave Artswork’s logo a fresh, vibrant update and used bold colours and energetic visuals to reflect the creativity at the heart of their mission. The new look immediately captured the spirit of the charity and the young people they work with, making it more engaging for visitors.
-
-  </div>
-</div>
-
-
-{{< multi-image
-  src_4="images/work-artswork-guidelines-1.jpg" alt_4="Artswork brand guidelines pages"
-  src_1="images/work-artswork-booklet.jpg" alt_1="Mockup of an Artswork brochure"
-  align="end"
-  >}}
-
-<!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
-  <div class="prose col-span-full lg:col-span-8">
-
-  ## Key messaging
-
-  We worked collaboratively with Artswork to refine their message, making it clear, inspiring, and emotionally resonant. We simplified the messaging with multiple core, clear phrases and supporting details that spoke directly to young people and supporters telling a compelling story of impact and opportunity.
-
   </div>
 </div>
 
@@ -164,13 +131,20 @@ We wanted to work with an agency that could truly understand the complexities of
 </div>
 
 
+{{< multi-image
+  src_4="images/work-artswork-guidelines-1.jpg" alt_4="Artswork brand guidelines pages"
+  src_1="images/work-artswork-booklet.jpg" alt_1="Mockup of an Artswork brochure"
+  align="end"
+  >}}
+
+
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## SEO strategy
+  ## Website design and development
 
-  We implemented a strong SEO strategy to boost Artswork’s visibility. We optimised the site for keywords ensuring the site ranked higher on search engines and attracted more organic traffic.
+  A mobile-first, easy-to-navigate website was built around clear user journeys for each of Artswork’s key audiences. The structure was reorganised so programmes, training and case studies were easy to find, with calls to action that made it straightforward to get involved. The site was built to be flexible, allowing the Artswork team to update content regularly and grow the platform as the organisation grows.
 
   </div>
 </div>
@@ -184,21 +158,21 @@ We wanted to work with an agency that could truly understand the complexities of
   src_3="images/work-artswork-ui-4.png"
   alt_3="Artswork website components" >}}
 
-<!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
-  <div class="prose col-span-full lg:col-span-8">
-
-  ## Website design and development
-
-  We designed a mobile-friendly, easy-to-navigate website that showcased Artswork’s programmes and success stories. With clear user journeys and calls to action, users could easily get involved. The site’s structure was streamlined to improve user experience and drive engagement.
-
-  </div>
-</div>
-
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-artswork-ipad.jpg" alt="Artswork website shown on a tablet screen" >}}
   <div class="col-span-full lg:col-span-4">
   {{< mobile-scroll src="work-artswork-homepage-mobile-1.png" alt="a mockup of the Artswork website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000">}}
+  </div>
+</div>
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Eventbrite integration
+
+  Course and training data was pulled directly from Eventbrite into the CMS, allowing users to browse, sign up for and pay for courses without leaving the Artswork website. The integration also gave Artswork additional reach through Eventbrite’s own search and listings, putting their training programme in front of people actively looking for opportunities in the sector.
+
   </div>
 </div>
 

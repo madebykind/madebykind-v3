@@ -19,12 +19,12 @@ services:
 # Content
 heading: Growing organically for a healthy and sustainable world
 preheading: Website and CRM-integrated member area for UK's organic gardening charity.
-intro: Through campaigning, advice, community work, conservation and research, Garden Organic help gardeners cultivate a healthier, more biodiverse and sustainable world.
+intro: Garden Organic is the UK’s leading organic growing charity, helping gardeners, communities and the next generation cultivate a healthier, more biodiverse world. Through campaigning, advice, community projects, conservation and research, they connect people with nature through growing.
 why:
   text: British people love gardening, and doing so organically helps connect them with nature and the environment and can lead to improved health, well-being, and food security.
   person: mat
 impact:
-  text: Improving the usability of the Garden Organic website has allowed them to move their legacy memberships online and prompting for additional donations when placing orders or registering has brought additional revenue to the charity.
+  text: Since launch, Garden Organic has moved its entire membership base online and opened new income streams it previously had no way to access.
   stats:
     - 18k
     - 17k
@@ -76,42 +76,47 @@ We want to inspire individuals, communities and the next generation to use innov
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Engaging new audiences
+  ## Research and discovery
 
-  Garden Organic's new offline brand was created to attract new audiences to organic gardening. Our team brought this to life digitally, integrating illustrative assets and the 'human-touch' the identity delivered.
-
-  To further engage these new demographics, we devised a digital content strategy that distilled the abundance of knowledge and varying degrees of complex information into a website that is suitable for all ages, experiences, and digital literacy levels, making it easy to navigate and find expert advice on growing the organic way.
+  We carried out tree testing of the candidate information architecture, first-click testing of the homepage structure, and one-to-one moderated user journey testing across 13 key tasks, from signing up for membership to joining the Heritage Seed Library. The testing validated the overall structure while surfacing specific improvements: volunteering opportunities needed a more prominent home, membership calls to action needed to appear consistently throughout the site, and the newsletter sign-up needed to move from the footer to key pages.
 
   </div>
 </div>
 
 {{< figure wrapperclass="" align="left" src="work-garden-organic-discovery.jpg" alt="Two women in front of a wall of sticky notes." >}}
 
-{{< multi-image
-  src_2="images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
-  src_3="images/work-garden-organic-phone.jpg" alt_3="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
+{{< challenge >}}Garden Organic had 18,000 paper-based memberships with no online equivalent.{{</ challenge >}}
 
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Ecommerce and CRM integration
+  ## Website and digital content
 
-  We integrated the Garden Organic website directly with Opayo and their third-party CRM to handle online transactions such as donations and membership registrations, as well as taking orders from members of the Heritage Seed Library.
+  Garden Organic’s new offline brand had been built to attract new audiences to organic growing. We brought that identity to life digitally, integrating their illustration style and human-touch aesthetic into a website designed to work for all ages, experience levels and digital literacy. A well-structured content strategy made their considerable depth of knowledge easy to navigate, whether someone was new to gardening or an experienced grower looking for specialist advice.
 
   </div>
 </div>
 
-{{< figure wrapperclass="" align="left" src="work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
+{{< multi-image
+  src_2="images/work-garden-organic-phone-3.jpg" alt_2="An article from Garden Organic on a mobile screen. The mobile is placed in a wooden box of potatoes"
+  src_3="images/work-garden-organic-phone.jpg" alt_3="The Garden Organic website on a mobile screen. The mobile is on a garden table, with seedlings behind" >}}
+
+{{< figure wrapperclass="" src="work-garden-organic-laptop-jess-seth.jpg" alt="Over the shoulder view of a man and a woman looking at the Garden Organic website on a laptop" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
+  ## Ecommerce and CRM integration
+
+  We integrated the website directly with Opayo and Garden Organic’s CRM to handle online transactions: donations, membership registrations and renewals, and orders from members of the Heritage Seed Library. The integration included membership variants, incentivised direct debit options, and Gift Aid tracking.
+
+
   ## Membership portal
 
-  As well as allowing users to manage their membership online, for the first time, we gave Garden Organic the ability to offer exclusive content, offers and benefits to their members through a membership portal.
+  For the first time, Garden Organic members could manage their membership online. The member dashboard gave them access to their personal details, membership status and donation history, as well as exclusive content, offers and benefits restricted by membership type. Prompts to add additional donations at the point of registration and renewal opened a new revenue stream the paper-based system had never been able to support.
 
   </div>
 </div>

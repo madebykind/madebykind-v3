@@ -20,12 +20,12 @@ related_work:
 # Content
 heading: Ensuring access to education for millions of children
 preheading: Global user-centred discovery and website design for UNESCO.
-intro: UNESCO, the United Nations Educational, Scientific and Cultural Organisation, promotes peace and security through international cooperation in education, sciences, culture, communication, and information. Their mission is to foster global citizens who are free of hate and intolerance, to provide quality education for all, and to strengthen bonds between nations through cultural heritage.
+intro: UNESCO promotes peace and security through international cooperation in education, sciences, culture, communication and information. Their Education in Emergencies (EiE) project is a five-year initiative collecting data and insights from countries experiencing crisis, whether natural disasters or conflict, with the goal of identifying best practice and helping governments and practitioners respond faster and more effectively in the future.
 why:
   text: The impact of education being disrupted by emergencies lasts a lifetime. We believe every child deserves the chance to learn, no matter the circumstances.
   person: michelle
 impact:
-  text: The platform brought the EiE’s data and insights into one place, allowing UNESCO and it's partner organisations to share vital insights globally and speed up educational recovery in crisis-affected countries.
+  text: For the first time, EiE practitioners, governments and partner organisations around the world can find the data, case studies, tools and best practice they need in one place. The platform reduces duplicated effort, accelerates knowledge sharing across borders and supports faster, better-informed responses when education systems come under threat.
   img: images/work-unesco-exam.jpg
   img_alt: School or university student holding pencil writing on paper answer sheet
 
@@ -74,32 +74,35 @@ teaser:
 #footer_heading:
 ---
 
+{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="Three child refugees in a tent Kabul" logowidth="162" logoheight="35">}}
+Education is a fundamental human right. For children and youth caught up in emergency situations, education not only means the continuity of learning, but it also provides a sense of normalcy and the key to a different future.
+{{</ workquote >}}
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  They partnered with Kind for their Education in Emergencies (EiE) project, a five-year initiative collecting data from countries experiencing crises, whether natural disasters or conflicts. The project's aim is to gather, understand, and share knowledge, identify best practices, improve data systems, and facilitate learning from affected countries to prepare for and assist future crises.
+  ## Research and discovery
 
-  UNESCO required assistance in handling a vast range of complex information, including reports, data systems, workshops, user profiles, guidebooks, and partner projects. The goal was to develop a user-centered digital platform that not only hosted this information but presented it in a user-friendly way to support their work.
+  By the time Kind were appointed, the project had been running since 2019, generating a significant body of data, case studies, reports and user profiles, but very little of it was accessible to the people who needed it.
+
+
+  One-to-one and group calls with UNESCO staff, EiE practitioners and partner organisations across multiple countries gave us a clear picture of what the platform needed to do and the constraints it needed to work within, including users whose primary language was not English and those working in areas with limited connectivity. Practitioners felt isolated, unsure where to start, and frustrated that work was being duplicated across regions because there was no central place to share it.
 
   </div>
 </div>
 
-{{< workquote source="" logo="unesco-logo" img="images/work-unesco-refugees.jpg" alt="Three child refugees in a tent Kabul" logowidth="162" logoheight="35">}}
-Education is a fundamental human right. For children and youth caught up in emergency situations, education not only means the continuity of learning, but it also provides a sense of normalcy and the key to a different future.
-{{</ workquote >}}
+{{< challenge >}}Education in emergencies data was scattered across organisations and inaccessible to the
+practitioners who needed it most.
+{{</ challenge >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Desk-based research
+  ## Information architecture and design
 
-  Utilising all of the rich content UNESCO had collected, we worked with these documents to understand the complexities of the subject matter, we also looked at related work through partner organisations. This provided us with the foundational knowledge to ask the right questions to potential users and to start structuring the digital platform in an intuitive format.
-
-  ## User-centric strategic discussions
-
-  We hosted group and 1-1 calls with UNESCO staff, practitioners, partners and future users of the digital platform. This enabled us to fully understand the needs of these users and make assumptions about typical user journeys and functionality that would be really important to users.
+  Draft IA structures and wireframes were built and tested with the same practitioners involved in the discovery phase, with multiple rounds of feedback used to refine the structure. The final platform was designed within UNESCO’s existing brand and design system, with templates that made complex information easy to navigate: layered content moving from headlines and summaries through to detailed reports, case studies with downloadable PDFs, and flexible content pages that could accommodate the range of material the project needed to share.
 
   </div>
 </div>
@@ -125,30 +128,15 @@ Education is a fundamental human right. For children and youth caught up in emer
 
 {{< figure wrapperclass="" src="work-unesco-illustration-wide.jpg" alt="A large illustration from the digital PDF report" >}}
 
-<!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8">
-
-  ## Prototypes and user testing
-
-  With the same working groups and individuals we’d spoken to directly, we built templates to test our IA, wireframes and content structure. These prototypes allowed users to test our thinking and to provide critical feedback across multiple rounds to allow us to create the most effective product for the people who would be using it.
-
-  ## User-friendly design
-
-  Working with UNESCO's existing brand and website design system. We created user-friendly design templates for their digital platform which was complimentary to their existing style and formatting but still engagingly communicated their complex information. 
-
-  </div>
-</div>
-
 {{< figure wrapperclass="" src="work-unesco-online.jpg" alt="The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building" align="left" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Illustrated PDF report
+  ## Illustrated summary report
 
-  Kind also helped UNESCO condense a detailed 100-page report into a concise, visually engaging summary report. The report was enhanced with illustrations, clear content breakdown, interactive elements, and links to additional support material. The illustrations, featuring diverse characters, aimed to express the report's findings and solutions while respecting the seriousness of the events in crisis areas.
+  Alongside the platform, Kind condensed a 100-page research report into a concise, visually engaging summary. Illustrations featuring diverse characters brought the findings to life while respecting the seriousness of the subject matter, and interactive elements and links to additional resources gave readers clear paths to explore further.
 
   </div>
 </div>

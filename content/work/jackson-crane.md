@@ -1,5 +1,6 @@
 ---
 # Meta
+draft: true
 date: 2023-06-28T13:51:18.140Z
 weight: 9
 title: Marketing strategy for sustainable architects, Jackson-Crane
