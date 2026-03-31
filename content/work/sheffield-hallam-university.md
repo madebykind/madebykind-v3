@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2023-06-28T13:59:11.952Z
-weight: 5
+weight: 6
 title: Digital partnership and design system for university, SHU
 description: User-centred design system for one of the UK’s largest and most
   diverse universities

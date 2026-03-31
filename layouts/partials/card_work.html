@@ -12,6 +12,12 @@
           </svg>
         </div>
       {{ end }}
+
+      {{ with .context.Params.teaser_subheading }}
+        <div class="absolute top-0 right-0 px-4 py-2 bg-blue text-buff font-sans font-bold text-sm">
+          {{ . }}
+        </div>
+      {{ end }}
     </div>
 
       <div class="flex flex-col content-center {{ if .reverse }} gap-1 {{ else }} gap-8 {{ end }} py-5">

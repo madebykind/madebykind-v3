@@ -1,0 +1,3 @@
+{{ with .Site.GetPage (.Get "page") }}
+  {{ partial "card_work" ( dict "context" . "hideservices" true) }}
+{{ end }}

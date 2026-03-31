@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2024-07-25T10:52:34.342Z
-weight: 5
+weight: 6
 title: "Ethical branding: Algrano"
 description: Launching a refreshed identity through animation, video production and tone of voice
 social_img: images/work-algrano-growers.jpg

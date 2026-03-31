@@ -36,7 +36,7 @@
       {{ end }}
     {{ end }}
 
-    <ol class="grid grid-cols-1 md:grid-cols-12 gap-10">
+    <ol class="grid grid-cols-1 md:grid-cols-12 gap-10 items-end">
       {{ range $index, $p := .context }}
         {{ with site.GetPage $p }}
           {{ if eq $index 0 }}

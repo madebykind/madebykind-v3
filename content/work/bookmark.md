@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2024-07-25T10:52:34.342Z
-weight: 2
+weight: 3
 title: Website design for charity, Bookmark Reading
 description: A fun, playful website with clear journeys and integrated help-centre for a childhood literacy charity
 social_img: images/work-bookmark-laptop-child.jpg

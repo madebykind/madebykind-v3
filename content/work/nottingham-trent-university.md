@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2023-06-28T10:52:34.342Z
-weight: 10
+weight: 11
 title: University digital strategy and design system delivery, NTU
 description: A user-centred realignment of the University of the Year’s website
 sector: for-people
