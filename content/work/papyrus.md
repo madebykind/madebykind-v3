@@ -25,7 +25,8 @@ related_work:
   - work/plan-vivo
 
 # Content
-heading: A hope-filled relaunch to prevent young suicide
+#heading: A hope-filled relaunch to prevent young suicide
+heading: A brand and digital transformation to save young lives
 preheading: Marketing strategy, branding and user-centred website for UK charity focused on preventing young suicide.
 intro: >
 
