@@ -10,7 +10,8 @@ related_work:
 style: subproject
 
 # Content
-heading: Identity, tone of voice, guidance and design
+heading: A brand that offers hope for everyone
+preheading: Identity, tone of voice, guidance and design
 author: pam
 intro: "<p>Brand is a statement of belief. It tells the world who you are, what you stand for, and who you're for. For an organisation like Papyrus, whose entire mission is to reach young people at their most vulnerable and give them a reason to hold on, getting that statement right is critical. The brand speaks first to the person in crisis, but it works equally hard for the people around them: a worried parent, a frightened friend, someone who doesn't know what to say but knows they need to do something.</p><p>The old Papyrus identity didn't reflect the organisation Papyrus had become, or the young people they were trying to reach. It felt medical, muted and cautious. Understandable, perhaps, given the sensitivity of the subject matter, but counterproductive. Young people don't respond to the language of medical brochures. They respond to something that feels alive, honest, and real. Our job was to build that.</p>"
 

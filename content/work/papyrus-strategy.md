@@ -10,7 +10,8 @@ related_work:
 style: subproject
 
 # Content
-heading: Discovery, internal communications and interim leadership support
+heading: Reframing young suicide prevention
+preheading: Discovery, internal communications and interim leadership support
 author: michelle
 intro: "<p>When Papyrus came to us, they thought they needed a new website. And honestly, that's not an unusual starting point, a lot of organisations arrive at a digital project because something feels off about their online presence, and a website feels like the most visible place to fix it. What they don't always realise, until you start digging, is that the digital problem is usually a symptom of something deeper.</p><p>That's what we found with Papyrus.</p>"
 

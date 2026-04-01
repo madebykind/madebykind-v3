@@ -10,7 +10,8 @@ related_work:
 style: subproject
 
 # Content
-heading: Strategy, design, build and integrations
+heading: A digital experience that understands your situation
+preheading: Strategy, design, build and integrations
 author: mat
 intro: "<p>The Papyrus website needed to serve many different groups needing different things. Most importantly, one of them is young people who may be in active crisis when they arrive on the page. That changes almost every decision you make.</p><p>Getting it right wasn't about clever features or impressive design, though the design is genuinely strong. It was about clarity, calm, and making sure that the right information reached the right person at the right moment, without friction, without confusion, and without adding to the distress they might already be feeling.</p>"
 
