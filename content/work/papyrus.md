@@ -47,7 +47,7 @@ impact:
   img_alt: "A teenage boy in a striped top is laying on the floor. He holds a phone above him, like he is watching a video"
 
 # Header
-#banner_type: papyrus
+banner_type: papyrus
 
 # Page nav
 external_link: https://www.papyrus-uk.org/
