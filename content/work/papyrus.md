@@ -33,13 +33,13 @@ intro: >
   Suicide is the biggest killer of people under 35 in the UK. Papyrus believes that many of those deaths are preventable. That belief is the foundation of everything they do.
 
   
-  Papyrus is the UK's leading charity dedicated to the prevention of young suicide. Through their HopeLine 24/7 service, training programmes and national campaigning work, they support young people in crisis, the people who care about them, and the professionals who work with them every day.
+  Papyrus is the UK’s leading charity dedicated to the prevention of young suicide. Through their HopeLine 24/7 service, training programmes and national campaigning work, they support young people in crisis, the people who care about them, and the professionals who work with them every day.
 
 
   Working with Papyrus is a reminder of why we do what we do.
 
 why:
-  text: "Suicide is the biggest killer of people under 35 in the UK. Papyrus believe that many of those deaths are preventable and I'm proud that our team at Kind will be doing what they can to aid their important work."
+  text: "Suicide is the biggest killer of people under 35 in the UK. Papyrus believe that many of those deaths are preventable and I’m proud that our team at Kind will be doing what they can to aid their important work."
   person: mat
 impact:
   text: 'The new Papyrus brand launched in April 2026, creating a stronger platform for conversations that save young lives.<br><br>A small, dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
@@ -87,7 +87,7 @@ impact_teaser:
   When Papyrus first came to us, they wanted a new website. But what they actually needed was something much bigger.
 
 
-  As we got under the skin of the organisation, talking to staff, volunteers, people with lived experience, and the young people Papyrus exists to serve, it became clear that the real opportunity wasn't just a digital redesign. It was a repositioning. Papyrus had a powerful mission and a deeply committed team, but an identity that didn't match either. It felt small, dated, and crisis-led at a moment when the charity needed to step confidently into its role as a national force for hope and prevention.
+  As we got under the skin of the organisation, talking to staff, volunteers, people with lived experience, and the young people Papyrus exists to serve, it became clear that the real opportunity wasn’t just a digital redesign. It was a repositioning. Papyrus had a powerful mission and a deeply committed team, but an identity that didn’t match either. It felt small, dated, and crisis-led at a moment when the charity needed to step confidently into its role as a national force for hope and prevention.
 
 
   We made the case for a full transformation. Papyrus said yes.
@@ -119,7 +119,7 @@ impact_teaser:
   </div>
 </div>
 
-{{< blockquote author="Michelle Pavey" role="Strategy Director, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Projects like this are a powerful reminder of what good brand and communications work can actually do. When the people you're trying to reach are young, vulnerable, and sometimes at the very edge of what they can cope with, getting the strategic foundation right is the difference between someone finding the help they need or not. The privilege of working with Papyrus is that you feel that purpose in every decision you make, and it impacts everything.{{</ blockquote >}}
+{{< blockquote author="Michelle Pavey" role="Strategy Director, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Projects like this are a powerful reminder of what good brand and communications work can actually do. When the people you’re trying to reach are young, vulnerable, and sometimes at the very edge of what they can cope with, getting the strategic foundation right is the difference between someone finding the help they need or not. The privilege of working with Papyrus is that you feel that purpose in every decision you make, and it impacts everything.{{</ blockquote >}}
 
 
 
@@ -132,7 +132,7 @@ impact_teaser:
   The old Papyrus identity felt flat and clinical. Muted colours and dated typography communicated crisis, not hope, and failed the people it was meant to inspire. Every visual decision we made pushed deliberately in the opposite direction.
 
 
-  The new colour palette is bold and full of life: vivid yellow and lime, rich teals, deep purples, warm orange and energetic pinks, chosen to embody the Papyrus mission and speak to young people in a language they actually recognise. Typography brings character and energy to the brand: expressive, confident, warm. We developed an extensive suite of icons and imagery to represent Papyrus' users accurately and authentically, so young people see themselves reflected back.
+  The new colour palette is bold and full of life: vivid yellow and lime, rich teals, deep purples, warm orange and energetic pinks, chosen to embody the Papyrus mission and speak to young people in a language they actually recognise. Typography brings character and energy to the brand: expressive, confident, warm. We developed an extensive suite of icons and imagery to represent Papyrus’ users accurately and authentically, so young people see themselves reflected back.
 
 
   Applied consistently across resources, merchandise, print and the website, the identity holds together with confidence, a stronger platform for the conversations that matter most.
@@ -159,13 +159,13 @@ impact_teaser:
 
   ## Tone of voice
 
-  The strategic and creative work began in the workshops. Through those conversations, we repositioned Papyrus from a crisis-led organisation to one defined by hope. That shift informed everything. We drafted a new strapline, 'Here for Life', and worked down through a refocused vision and mission, sharpening how Papyrus expresses its purpose. The foundations were solid before anything else was built. The tone of voice and messaging framework grew directly from that groundwork.
+  The strategic and creative work began in the workshops. Through those conversations, we repositioned Papyrus from a crisis-led organisation to one defined by hope. That shift informed everything. We drafted a new strapline, ‘Here for Life’, and worked down through a refocused vision and mission, sharpening how Papyrus expresses its purpose. The foundations were solid before anything else was built. The tone of voice and messaging framework grew directly from that groundwork.
 
 
-  We built a framework that gives the Papyrus team the tools to communicate with young people in a way that is direct, human and supportive. That included detailed guidance on navigating the particular sensitivities of suicide and mental health language, which is a complex communication challenge in the charity sector. Content hierarchies, do's and don'ts, and clear examples give the team the confidence to communicate consistently, whoever is writing.
+  We built a framework that gives the Papyrus team the tools to communicate with young people in a way that is direct, human and supportive. That included detailed guidance on navigating the particular sensitivities of suicide and mental health language, which is a complex communication challenge in the charity sector. Content hierarchies, do’s and don’ts, and clear examples give the team the confidence to communicate consistently, whoever is writing.
 
 
-  Getting this right matters. For an organisation like Papyrus, the wrong word at the wrong moment can do harm. The right one can offer a glimmer of hope that can change the course of a young person's life.
+  Getting this right matters. For an organisation like Papyrus, the wrong word at the wrong moment can do harm. The right one can offer a glimmer of hope that can change the course of a young person’s life.
 
   </div>
 </div>
@@ -183,7 +183,7 @@ impact_teaser:
   We developed an internal communications strategy to help staff understand, adopt and champion the new brand. During a period of change and disruption, we also provided interim Marketing Director-level support, helping Papyrus maintain momentum and strategic clarity through to launch.
 
 
-  The kind of support that doesn't always make it into a case study, but makes the difference between a launch that is successful and one that isn’t.
+  The kind of support that doesn’t always make it into a case study, but makes the difference between a launch that is successful and one that isn’t.
 
 
   </div>
@@ -196,7 +196,7 @@ impact_teaser:
 
   ## Website
 
-  The new website reflects the strength of the brand and serves each of Papyrus' distinct audiences: young people in crisis, parents, carers and professionals.
+  The new website reflects the strength of the brand and serves each of Papyrus’ distinct audiences: young people in crisis, parents, carers and professionals.
 
 
   Particular care was taken in how content is structured and presented. The page designs, user journeys and information architecture were built around one central question: what does someone need at the moment they arrive here? For a young person in distress, that means no overwhelming page layouts, no confusing navigation, no language that adds to their anxiety. It means finding help quickly, calmly, and without having to work for it.
@@ -212,4 +212,4 @@ impact_teaser:
 </div>
 
 
-{{< blockquote author="Mat Hayward" role="Partnerships Director, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}The Papyrus website will be used by people experiencing the hardest moments of their lives. Whether that's young people in crisis, parents who do not know where to turn or people carrying grief they were not prepared for. That has shaped every decision we've made from structure to content and design details. We needed it to be clear, calm and easy to navigate without the person using it having to work for it. Knowing who we are building the website for, and how they might be feeling when using it, gave us real focus throughout the project.{{</ blockquote >}}
+{{< blockquote author="Mat Hayward" role="Partnerships Director, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}The Papyrus website will be used by people experiencing the hardest moments of their lives. Whether that’s young people in crisis, parents who do not know where to turn or people experiencing grief they never prepared for. That’s shaped every decision we’ve made, from structure to content and design details. We needed it to be clear, calm and easy to navigate without the person using it having to work too hard. Knowing how someone might be feeling when using the website, gave us a real focus throughout the project.{{</ blockquote >}}
