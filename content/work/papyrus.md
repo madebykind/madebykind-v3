@@ -162,13 +162,13 @@ impact_teaser:
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
-  <div class="col-span-full lg:col-span-8 lg:row-span-2">
+  <div class="col-span-full lg:col-span-8 lg:row-span-2 aspect-video lg:aspect-auto">
     {{< animation id="anim-papyrus-type" >}}
   </div>
-  <div class="col-span-full lg:col-span-4 aspect-square">
+  <div class="col-span-6 lg:col-span-4 aspect-square">
     {{< animation id="anim-papyrus-icons" >}}
   </div>
-  <div class="col-span-full lg:col-span-4 aspect-square">
+  <div class="col-span-6 lg:col-span-4 aspect-square">
     {{< animation id="anim-papyrus-bubbles" >}}
   </div>
 </div>
