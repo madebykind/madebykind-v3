@@ -97,6 +97,10 @@ impact_teaser:
 </div>
 
 
+{{< figure alt="Mat and Michelle discussing the Papyrus project" src="work_papyrus_strategy_1.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover my-12 lg:mb-24" >}}
+
+
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
   <div class="prose col-span-full lg:col-span-8">
@@ -118,6 +122,13 @@ impact_teaser:
 
   </div>
 </div>
+
+{{< multi-image
+  src_4="images/work_papyrus_strategy_2.jpg" alt_4="Papyrus working session"
+  src_1="images/work_papyrus_strategy_3.jpg" alt_1="Michelle and Pam working on the Papyrus brand strategy"
+  class_1="self-start"
+  block_class="items-start"
+  >}}
 
 {{< blockquote author="Michelle Pavey" role="Strategy Director, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Projects like this are a powerful reminder of what good brand and communications work can actually do. When the people you’re trying to reach are young, vulnerable, and sometimes at the very edge of what they can cope with, getting the strategic foundation right is the difference between someone finding the help they need or not. The privilege of working with Papyrus is that you feel that purpose in every decision you make, and it impacts everything.{{</ blockquote >}}
 
@@ -147,6 +158,21 @@ impact_teaser:
   </div>
 </div>
 
+{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
+
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
+  <div class="col-span-full lg:col-span-8 lg:row-span-2">
+    {{< animation id="anim-papyrus-type" >}}
+  </div>
+  <div class="col-span-full lg:col-span-4 aspect-square">
+    {{< animation id="anim-papyrus-icons" >}}
+  </div>
+  <div class="col-span-full lg:col-span-4 aspect-square">
+    {{< animation id="anim-papyrus-bubbles" >}}
+  </div>
+</div>
+
 
 {{< blockquote author="Pam Holmes" role="Brand Lead, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Colour, type and imagery are never just aesthetic choices. For Papyrus, every visual decision was about trust: making a young person feel that this organisation understands them, is on their side, and is worth reaching out to. Getting that right mattered more than anything else.{{</ blockquote >}}
 
@@ -170,6 +196,11 @@ impact_teaser:
   </div>
 </div>
 
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 my-12 lg:my-24">
+  <div class="col-span-full relative overflow-hidden">
+    {{< animation id="anim-papyrus-tov" >}}
+  </div>
+</div>
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">

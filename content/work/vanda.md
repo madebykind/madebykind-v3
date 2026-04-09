@@ -87,7 +87,7 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   In 2020, Glastonbury Festival marked its 50th anniversary. As guardian of the Glastonbury Festival Archive, the V&A received AHRC funding to create an online archive documenting 50 years of the festival’s history: performances, performers, stages, posters, programmes, maps and imagery.
 
   <div class="inline-flex gap-2 items-center">
-    <a href="https://www.vam.ac.uk/performing-glastonbury/" class="font-sans shrink-0">
+    <a href="https://www.vam.ac.uk/performing-glastonbury/" class="font-sans shrink-0" target="_blank">
       Launch project
     </a>
     <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">
@@ -134,7 +134,7 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   The portal needed its own brand identity, separate from the V&A, and had to be fast, stable and capable of handling large volumes of data input from multiple sources. Algolia search gave users near-instant results across a rapidly growing dataset. The portal is now used by cultural organisations including the British Council, Historic England and Arcadia.
 
   <div class="inline-flex gap-2 items-center">
-    <a href="https://cultureincrisis.org" class="font-sans shrink-0">
+    <a href="https://cultureincrisis.org" class="font-sans shrink-0" target="_blank">
       Launch project
     </a>
     <svg class="w-4 h-4 lg:w-5 lg:h-5" role="presentation">

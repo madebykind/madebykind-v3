@@ -99,7 +99,6 @@ client: Plan Vivo
   <div class="col-span-full lg:col-span-4">
     {{< figure alt="Plan Vivo notebooks" src="work_plan_vivo_notebook.jpg" >}}
   </div>
-
 </div>
 
 <div class="w-full aspect-[4/3]">

@@ -17,15 +17,15 @@ intro: "<p>When Papyrus came to us, they thought they needed a new website. And 
 
 # Header
 banner_type: standard
-banner_img: images/work-papyrus-report-cover.jpg
-banner_img_alt: ""
+banner_img: images/work_papyrus_cover.jpg
+banner_img_alt: "A Papyrus report cover"
 
 # Page nav
 parent: work/papyrus
 
 # Teaser content
-cover_img: images/work-papyrus-report-cover.jpg
-cover_img_alt: ""
+cover_img: images/work_papyrus_cover.jpg
+cover_img_alt: "A Papyrus report cover"
 teaser_subheading: Strategy deep-dive
 
 ---

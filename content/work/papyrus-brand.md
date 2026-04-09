@@ -17,15 +17,15 @@ intro: "<p>Brand is a statement of belief. It tells the world who you are, what 
 
 # Header
 banner_type: standard
-banner_img: images/work-papyrus-posters.jpg
-banner_img_alt: ""
+banner_img: images/work_papyrus_posters.jpg
+banner_img_alt: "3 Papyrus posters"
 
 # Page nav
 parent: work/papyrus
 
 # Teaser content
-cover_img: images/work-papyrus-posters.jpg
-cover_img_alt: ""
+cover_img: images/work_papyrus_posters_2.jpg
+cover_img_alt: "A man walking past 3 Papyrus posters"
 teaser_subheading: Brand deep-dive
 
 ---
@@ -64,6 +64,12 @@ teaser_subheading: Brand deep-dive
 
   The framework serves five distinct audiences: young people in crisis, people worried about someone, parents and carers, professionals, and supporters. Each group needs something different from Papyrus, and the tone of voice system needed to be flexible enough to meet all four while remaining unmistakably the same brand. Extensive guidance was crafted to equip the Papyrus communications team to deliver this confidently in their day-to-day work, across every channel and context.
 
+  </div>
+</div>
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
   ## Brand guidance
 
