@@ -11,18 +11,22 @@
         {{ partial "image__card" .context }}
       {{ end }}
 
-      {{ with .context.Params.icon }}
-        <div class="absolute bottom-0 right-0 p-5 bg-white text-black">
-          <svg class="w-24 h-12 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-{{ . }}"/>
-          </svg>
-        </div>
+      {{ if (not .hidelogo )}}
+        {{ with .context.Params.icon }}
+          <div class="absolute bottom-0 right-0 p-5 bg-white text-black">
+            <svg class="w-24 h-12 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-{{ . }}"/>
+            </svg>
+          </div>
+        {{ end }}
       {{ end }}
 
-      {{ with .context.Params.teaser_subheading }}
-        <div class="absolute top-0 right-0 px-4 py-2 bg-blue text-buff font-sans font-bold text-sm">
-          {{ . }}
-        </div>
+      {{ if .showtag }}
+        {{ with .context.Params.teaser_subheading }}
+          <div class="absolute top-0 right-0 px-4 py-2 bg-blue text-buff font-sans font-bold text-sm">
+            {{ . }}
+          </div>
+        {{ end }}
       {{ end }}
     </div>
 

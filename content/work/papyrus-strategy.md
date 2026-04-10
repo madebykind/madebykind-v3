@@ -4,8 +4,8 @@ date: 2026-03-31T11:07:38.606Z
 title: Marketing, internal comms and brand strategy for Papyrus
 description: Reframing young suicide prevention through tone of voice and strategic communications
 related_work:
-  - work/papyrus
   - work/strongerroots
+  - work/plan-vivo
 
 style: subproject
 
@@ -48,6 +48,8 @@ teaser_subheading: Strategy deep-dive
   </div>
 </div>
 
+
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
@@ -78,6 +80,9 @@ teaser_subheading: Strategy deep-dive
 
   </div>
 </div>
+
+
+{{< blockquote author="Michelle Pavey" role="Strategy Director, Kind" wrapperclass="py-16" align="left">}}Projects like this are a powerful reminder of what good brand and communications work can actually do. When the people you’re trying to reach are young, vulnerable, and sometimes at the very edge of what they can cope with, getting the strategic foundation right is the difference between someone finding the help they need or not. The privilege of working with Papyrus is that you feel that purpose in every decision you make, and it impacts everything.{{</ blockquote >}}
 
 
 <!-- Text left -->
@@ -111,6 +116,12 @@ teaser_subheading: Strategy deep-dive
   If you’re working with an organisation doing something this important, you owe it to them to get that foundation right. I think we did.
 
 
-
   </div>
 </div>
+
+
+{{< relatedcontent
+  heading="More on our work with Papyrus"
+  page_1="work/papyrus"
+  page_2="work/papyrus-brand"
+  page_3="work/papyrus-digital" >}}

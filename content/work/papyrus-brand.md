@@ -53,6 +53,16 @@ teaser_subheading: Brand deep-dive
 
   **Icons and imagery**. This is where representation became critical. The old visual language was generic in a way that distanced rather than connected. We crafted a bespoke suite of hand-drawn icons, deliberately designed to appear perfectly imperfect, bringing an authentic, human quality that no stock library could replicate. The new icons and imagery were developed to reflect the young people Papyrus exists for: in the moments, settings and situations that are real to them. For a young person arriving at the Papyrus website in crisis, seeing themselves reflected back is part of what makes the experience feel safe. It signals: this place is for you. You belong here.
 
+  </div>
+</div>
+
+
+{{< blockquote author="Pam Holmes" role="Brand Lead, Kind" wrapperclass="py-16" align="left">}}Colour, type and imagery are never just aesthetic choices. For Papyrus, every visual decision was about trust: making a young person feel that this organisation understands them, is on their side, and is worth reaching out to. Getting that right mattered more than anything else.{{</ blockquote >}}
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
 
   ## Tone of voice
 
@@ -79,6 +89,13 @@ teaser_subheading: Brand deep-dive
 
   We built extensive and detailed brand guidelines designed to be genuinely useful to the Papyrus team day-to-day: clear, practical, and grounded in real examples. A working reference that makes good brand decisions feel straightforward.
 
+  </div>
+</div>
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
 
   ## Brand launch strategy
 
@@ -94,6 +111,13 @@ teaser_subheading: Brand deep-dive
 
   The tiered approach also gave the Papyrus team something genuinely useful for future planning: a document they could return to and build on, rather than a one-time launch checklist. Brand awareness is something you build consistently over time, and the strategy was designed with that in mind.
 
+  </div>
+</div>
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
 
   ## Design production: resources and merchandise
 
@@ -106,6 +130,13 @@ teaser_subheading: Brand deep-dive
 
   To make sure that range could be maintained long term, we supported the Papyrus team with hands-on guidance and training in professional design software, equipping them to edit existing brand resources and create new ones independently, without compromising the integrity of the identity.
 
+  </div>
+</div>
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
 
   ## What this project means to me
 
@@ -115,3 +146,9 @@ teaser_subheading: Brand deep-dive
 
   </div>
 </div>
+
+{{< relatedcontent
+  heading="More on our work with Papyrus"
+  page_1="work/papyrus"
+  page_2="work/papyrus-strategy"
+  page_3="work/papyrus-digital" >}}

@@ -46,12 +46,35 @@ teaser_subheading: Digital deep-dive
   We mapped user journeys for each audience, working through how different groups would need to navigate and use the site, depending on the task they were trying to complete or the information they needed to gather. That process gave us something real to test our thinking against and meant that, when we moved into design and build, the decisions we made were grounded in what users actually needed.
 
 
+  </div>
+</div>
+
+
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+
   ## Designing for vulnerability
 
 
   The audience that required the most careful thought was the one Papyrus exists to serve: young people in crisis. When a young person arrives at the site at their most difficult moment, they are not browsing. They are looking for hope, a reason to stay, a way to reach out, or a sign that help is available and that someone will answer.
 
   Every design decision for that user journey was made with that context in mind. On the homepage, crisis content takes over the full experience, surfacing immediately for anyone who needs it, with users who are there for other reasons simply scrolling past to find what they’re looking for. Crisis pages themselves, were stripped back significantly to avoid adding to the stress a user might already be under. For everyone else, those visiting to donate, volunteer, or get involved, the site functions much like any other, warm, engaging, and consistent with the new brand.
+
+
+  </div>
+</div>
+
+  
+{{< blockquote author="Mat Hayward" role="Partnerships Director, Kind" wrapperclass="py-16" align="left">}}The Papyrus website will be used by people experiencing the hardest moments of their lives. Whether that’s young people in crisis, parents who do not know where to turn or people experiencing grief they never prepared for. That’s shaped every decision we’ve made, from structure to content and design details. We needed it to be clear, calm and easy to navigate without the person using it having to work too hard. Knowing how someone might be feeling when using the website, gave us a real focus throughout the project.{{</ blockquote >}}
+
+
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
 
   ## A flexible design system
@@ -63,6 +86,16 @@ teaser_subheading: Digital deep-dive
   The system is structured around clearly defined components, each one designed, documented and tested so the team can build new pages and update existing ones in a way that stays on-brand and will give the website longevity.
 
 
+  </div>
+</div>
+
+
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+
   ## Integrations that do real work
 
 
@@ -70,6 +103,16 @@ teaser_subheading: Digital deep-dive
 
 
   We also integrated Mailchimp, so any form on the site can include a subscription opt-in, and built a Stripe-integrated shop giving Papyrus a direct route to generate income through merchandise and supporters a simple way to contribute to their mission.
+
+
+  </div>
+</div>
+
+
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
 
   ## What this project means to me
@@ -80,3 +123,10 @@ teaser_subheading: Digital deep-dive
 
   </div>
 </div>
+
+
+{{< relatedcontent
+  heading="More on our work with Papyrus"
+  page_1="work/papyrus"
+  page_2="work/papyrus-strategy"
+  page_3="work/papyrus-brand" >}}

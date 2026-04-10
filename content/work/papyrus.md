@@ -59,6 +59,7 @@ icon: logo-papyrus
 icon_width: 577
 icon_height: 301
 client: Papyrus
+teaser_subheading: Case study
 impact_teaser:
   text: "**Prevent youth suicide** in the UK"
   images:
@@ -130,8 +131,6 @@ impact_teaser:
   block_class="items-start"
   >}}
 
-{{< blockquote author="Michelle Pavey" role="Strategy Director, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Projects like this are a powerful reminder of what good brand and communications work can actually do. When the people you’re trying to reach are young, vulnerable, and sometimes at the very edge of what they can cope with, getting the strategic foundation right is the difference between someone finding the help they need or not. The privilege of working with Papyrus is that you feel that purpose in every decision you make, and it impacts everything.{{</ blockquote >}}
-
 
 
 <!-- Text left -->
@@ -172,11 +171,6 @@ impact_teaser:
     {{< animation id="anim-papyrus-bubbles" >}}
   </div>
 </div>
-
-
-{{< blockquote author="Pam Holmes" role="Brand Lead, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Colour, type and imagery are never just aesthetic choices. For Papyrus, every visual decision was about trust: making a young person feel that this organisation understands them, is on their side, and is worth reaching out to. Getting that right mattered more than anything else.{{</ blockquote >}}
-
-
 
 
 <!-- Text right -->
@@ -243,4 +237,3 @@ impact_teaser:
 </div>
 
 
-{{< blockquote author="Mat Hayward" role="Partnerships Director, Kind" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}The Papyrus website will be used by people experiencing the hardest moments of their lives. Whether that’s young people in crisis, parents who do not know where to turn or people experiencing grief they never prepared for. That’s shaped every decision we’ve made, from structure to content and design details. We needed it to be clear, calm and easy to navigate without the person using it having to work too hard. Knowing how someone might be feeling when using the website, gave us a real focus throughout the project.{{</ blockquote >}}
