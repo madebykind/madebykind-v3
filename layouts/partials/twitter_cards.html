@@ -16,7 +16,17 @@
 
 {{- with .Params.topics }}
   <meta name="twitter:label1" content="Services">
-  <meta name="twitter:data1" content="{{ delimit . ", " " and "}}">
+  {{ $labels := slice }}
+  {{ range . }}
+    {{ if in . "/" }}
+      {{ with site.GetPage . }}
+        {{ $labels = $labels | append .Title }}
+      {{ end }}
+    {{ else }}
+      {{ $labels = $labels | append . }}
+    {{ end }}
+  {{ end }}
+  <meta name="twitter:data1" content="{{ delimit $labels ", " " and " }}">
 {{- end }}
 
 {{- $twitterSite := "" }}
