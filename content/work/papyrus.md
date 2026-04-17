@@ -39,7 +39,7 @@ intro: >
   Working with Papyrus is a reminder of why we do what we do.
 
 why:
-  text: "Suicide is the biggest killer of people under 35 in the UK. Papyrus believe that many of those deaths are preventable and I’m proud that our team at Kind will be doing what they can to aid their important work."
+  text: "I've known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus give young people hope, and the space to talk openly about how they're feeling. 24 hours a day."
   person: mat
 impact:
   text: 'The new Papyrus brand launched in April 2026, creating a stronger platform for conversations that save young lives.<br><br>A small, dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
