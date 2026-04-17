@@ -1,5 +1,3 @@
-// ImageSequence.js
-
 const randomDuration = () => Math.floor(Math.random() * 74) + 50;
 
 class ImageSequence {
@@ -8,6 +6,7 @@ class ImageSequence {
     this.frames = [...el.querySelectorAll(':scope > div')];
     this.isAnimating = false;
     this.wasInView = false;
+    this.delayTimer = null;
 
     if (this.frames.length < 2) return;
 
@@ -24,7 +23,7 @@ class ImageSequence {
 
     if (isInView && !this.wasInView) {
       this.wasInView = true;
-      if (!this.isAnimating) this.animate();
+      if (!this.isAnimating) this.delayTimer = setTimeout(() => this.animate(), 500);
     }
   }
 
@@ -34,6 +33,7 @@ class ImageSequence {
 
     if (fullyOut && this.wasInView) {
       this.wasInView = false;
+      clearTimeout(this.delayTimer);
       this.reset();
     }
   }

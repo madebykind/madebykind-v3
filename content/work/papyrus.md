@@ -43,8 +43,8 @@ why:
   person: mat
 impact:
   text: 'The new Papyrus brand launched in April 2026, creating a stronger platform for conversations that save young lives.<br><br>A small, dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
-  img: images/work-papyrus-laidback.jpg
-  img_alt: "A teenage boy in a striped top is laying on the floor. He holds a phone above him, like he is watching a video"
+  img: images/work_papyrus_brand_1.jpg
+  img_alt: "Two people hug in a door way"
 
 # Header
 banner_type: papyrus
@@ -63,12 +63,16 @@ teaser_subheading: Case study
 impact_teaser:
   text: "**Prevent youth suicide** in the UK"
   images:
-    - img: images/work-papyrus-laidback.jpg
-      alt: ""
-    - img: images/work-papyrus-laughing-girls.jpg
-      alt: ""
-    - img: images/work-papyrus-parent-child.jpg
-      alt: ""
+    - img: images/work_papyrus_brand_1.jpg
+      alt: "Two people hug in a door way"
+    - img: images/work_papyrus_brand_3.jpg
+      alt: "Two young men sit on a park by a fence"
+    - img: images/work_papyrus_brand_7.jpg
+      alt: "Three young people chatting"
+    - img: images/work_papyrus_brand_8.jpg
+      alt: "A young woman is sat against a wall, shielding her face from the sun"
+    - img: images/work_papyrus_brand_9.jpg
+      alt: "A young woman is lying on a sofa by a plant, her eyes are closed"
   caption: Strategy, brand development and website delivery for youth suicide prevention charity
       
 # Footer override
@@ -76,7 +80,7 @@ impact_teaser:
 ---
 
 
-{{< workquote source="Mission statement" logo="logo-papyrus" logowidth="577" logoheight="301" img="images/work-papyrus-laughing-girls.jpg" alt="Two teenage girls lay on the grass laughing. One has a phone in their hand, the other is covering their mouth" >}}To prevent suicide with urgent support, education, campaigns and conversations that keep young people safe – and hope alive.{{</ workquote >}}
+{{< workquote source="Mission statement" logo="logo-papyrus" logowidth="577" logoheight="301" img="images/work_papyrus_brand_2.jpg" alt="A young woman looks out of the window, wearing a knitted white jumper" >}}To prevent suicide with urgent support, education, campaigns and conversations that keep young people safe – and hope alive.{{</ workquote >}}
 
 
 <!-- Text left -->
@@ -98,7 +102,7 @@ impact_teaser:
 </div>
 
 
-{{< figure alt="Mat and Michelle discussing the Papyrus project" src="work_papyrus_strategy_1.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover my-12 lg:mb-24" >}}
+{{< figure alt="A young woman is sat against a wall, shielding her face from the sun" src="work_papyrus_brand_8.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover my-12 lg:mb-24" >}}
 
 
 
@@ -157,20 +161,52 @@ impact_teaser:
   </div>
 </div>
 
-{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
-
-
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
-  <div class="col-span-full lg:col-span-8 lg:row-span-2 aspect-video lg:aspect-auto">
+  <div class="col-span-full lg:col-span-8 lg:row-span-2 aspect-video">
     {{< animation id="anim-papyrus-type" >}}
   </div>
-  <div class="col-span-6 lg:col-span-4 aspect-square">
+</div>
+
+{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
+  <div class="col-span-6 lg:col-start-5 lg:col-span-4 aspect-square">
     {{< animation id="anim-papyrus-icons" >}}
   </div>
   <div class="col-span-6 lg:col-span-4 aspect-square">
     {{< animation id="anim-papyrus-bubbles" >}}
   </div>
 </div>
+
+{{< multi-image
+  src_1="images/work_papyrus_bag.jpg" alt_1=""
+  src_2="images/work_papyrus_banner.jpg" alt_2=""
+  src_3="images/work_papyrus_bus_stop.jpg" alt_3=""
+  >}}
+
+{{< multi-image
+  src_1="images/work_papyrus_cycling_1.png" alt_1=""
+  src_2="images/work_papyrus_hoody.jpg" alt_2=""
+  src_3="images/work_papyrus_jacket.jpg" alt_3=""
+  >}}
+
+{{< multi-image
+  src_1="images/work_papyrus_plan.jpg" alt_1=""
+  src_2="images/work_papyrus_pullup_1.jpg" alt_2=""
+  src_3="images/work_papyrus_pullup_2.jpg" alt_3=""
+  >}}
+
+{{< multi-image
+  src_1="images/work_papyrus_spread.jpg" alt_1=""
+  src_2="images/work_papyrus_sweatshirt.png" alt_2=""
+  src_3="images/work_papyrus_tee.jpg" alt_3=""
+  >}}
+
+{{< multi-image
+  src_1="images/work_papyrus_sign.jpg" alt_1=""
+  src_2="images/work_papyrus_leaflet.jpg" alt_2=""
+  src_3="images/work_papyrus_coffee.jpg" alt_3=""
+  >}}
 
 
 <!-- Text right -->
@@ -194,11 +230,15 @@ impact_teaser:
   <div class="col-span-full relative overflow-hidden">
     {{< animation id="anim-papyrus-tov" >}}
   </div>
+  <div class="col-span-full">
+    {{< figure alt="Papyrus strapline: Here for Life" src="work_papyrus_strapline.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
+  </div>
 </div>
 
-<!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+  <div class="prose col-span-full lg:col-span-8">
 
   ## Internal communications and leadership support
 
@@ -214,10 +254,11 @@ impact_teaser:
   </div>
 </div>
 
+{{< figure alt="Mat and Michelle discussing the Papyrus project" src="work_papyrus_strategy_1.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover" align="left">}}
 
-<!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
-  <div class="prose col-span-full lg:col-span-8">
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end my-12 lg:my-24">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5 lg:order-2">
 
   ## Website
 
@@ -226,14 +267,38 @@ impact_teaser:
 
   Particular care was taken in how content is structured and presented. The page designs, user journeys and information architecture were built around one central question: what does someone need at the moment they arrive here? For a young person in distress, that means no overwhelming page layouts, no confusing navigation, no language that adds to their anxiety. It means finding help quickly, calmly, and without having to work for it.
 
-
   </div>
 
-  <div class="col-span-full lg:col-span-4">
+  <div class="col-span-full lg:col-span-4 lg:order-1">
 
   {{< subcontent page="work/papyrus-digital" >}}
 
   </div>
 </div>
+
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="col-span-full lg:col-span-8 lg:col-start-5">
+  {{< figure alt="Papyrus web pages" src="work_papyrus_web_pages.jpg" >}}
+  </div>
+</div>
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="col-span-full">
+    {{< laptop-scroll src="work_papyrus_donate.png" alt="a mockup of the donate page on the Papyrus website" speed="7500" loop="true">}}
+  </div>
+</div>
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+
+  <div class="col-span-full lg:col-span-6">
+    {{< figure alt="Papyrus website on a laptop" src="work_papyrus_laptop.jpg" >}}
+  </div>
+
+  <div class="col-span-full lg:col-span-6">
+    {{< figure alt="Papyrus website on two mobile devices" src="work_papyrus_iphone.jpg" >}}
+  </div>
+</div>
+
+
 
 

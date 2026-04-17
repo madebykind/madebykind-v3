@@ -5,8 +5,8 @@ function inView(bounding) {
 }
 
 function PhoneScroll(el) {
-  const imageContainer = el.querySelector("picture");
-  const image = imageContainer.querySelector('img');
+  const imageContainer = el.querySelector("[data-scroll-img-container]");
+  const image = imageContainer.querySelector('[data-scroll-img]');
   const loop = el.dataset.scrollLoop !== undefined;
   let transitionSpeed = '5000ms';
   let bounding;

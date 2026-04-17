@@ -17,8 +17,8 @@ intro: "<p>Brand is a statement of belief. It tells the world who you are, what 
 
 # Header
 banner_type: standard
-banner_img: images/work_papyrus_posters.jpg
-banner_img_alt: "3 Papyrus posters"
+banner_img: images/work_papyrus_posters_2.jpg
+banner_img_alt: "A man walking past 3 Papyrus posters"
 
 # Page nav
 parent: work/papyrus

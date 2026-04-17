@@ -26,7 +26,7 @@
     {{ if eq $align "right" }} lg:col-span-4 lg:col-start-9 {{ end }}">
     <div class="w-full flex justify-center">
       <div class="{{ $borderClass }} border-3 rounded-2xl overflow-hidden drop-shadow-2xl {{ $wrapper_class }}" data-phone-scroll {{ with .Get "speed"}}data-scroll-speed="{{ . }}"{{ end }} {{ if .Get "loop"}}data-scroll-loop="true"{{ end }}>
-        <picture class="transition-all ease-linear relative top-0">
+        <picture class="transition-all ease-linear relative top-0" data-scroll-img-container>
 
           <source sizes="{{ $dataSizes }}" srcset="
             {{- with $respSizes -}}
@@ -42,7 +42,7 @@
                 {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
               {{- end -}}
             {{- end -}}" type="image/jpeg">
-          <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
+          <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy" data-scroll-img>
         </picture>
       </div>
     </div>

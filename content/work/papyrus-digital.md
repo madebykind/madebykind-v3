@@ -17,15 +17,15 @@ intro: "<p>The Papyrus website needed to serve many different groups and differe
 
 # Header
 banner_type: standard
-banner_img: images/work-papyrus-jogger.jpg
-banner_img_alt: ""
+banner_img: images/work_papyrus_mobile.png
+banner_img_alt: "A mobile phone on a denim jacket. The mobile phone has the Papyrus website on the screen"
 
 # Page nav
 parent: work/papyrus
 
 # Teaser content
-cover_img: images/work-papyrus-jogger.jpg
-cover_img_alt: ""
+cover_img: images/work_papyrus_mobile.png
+cover_img_alt: "A mobile phone on a denim jacket. The mobile phone has the Papyrus website on the screen"
 teaser_subheading: Digital deep-dive
 
 ---
