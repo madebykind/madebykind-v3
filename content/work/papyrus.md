@@ -42,7 +42,7 @@ why:
   text: "I've known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus give young people hope, and the space to talk openly about how they're feeling. 24 hours a day."
   person: mat
 impact:
-  text: 'The new Papyrus brand launched in April 2026, creating a stronger platform for conversations that save young lives.<br><br>A small, dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
+  text: 'The new Papyrus brand launched in April 2026, creating a stronger platform for conversations that save young lives.<br><br>A dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
   img: images/work_papyrus_brand_1.jpg
   img_alt: "Two people hug in a door way"
 
@@ -92,7 +92,7 @@ impact_teaser:
   When Papyrus first came to us, they wanted a new website. But what they actually needed was something much bigger.
 
 
-  As we got under the skin of the organisation, talking to staff, volunteers, people with lived experience, and the young people Papyrus exists to serve, it became clear that the real opportunity wasn’t just a digital redesign. It was a repositioning. Papyrus had a powerful mission and a deeply committed team, but an identity that didn’t match either. It felt small, dated, and crisis-led at a moment when the charity needed to step confidently into its role as a national force for hope and prevention.
+  As we got under the skin of the organisation, talking to staff, volunteers, people with lived experience, and the young people Papyrus exists to serve, it became clear that the real opportunity wasn’t just a digital redesign. It was a repositioning. Papyrus had a powerful mission and a deeply committed team, but an identity that didn’t match either. It felt dated, and crisis-led at a moment when the charity needed to step confidently into its role as a national force for hope and prevention.
 
 
   We made the case for a full transformation. Papyrus said yes.
@@ -146,7 +146,7 @@ impact_teaser:
   The old Papyrus identity felt flat and clinical. Muted colours and dated typography communicated crisis, not hope, and failed the people it was meant to inspire. Every visual decision we made pushed deliberately in the opposite direction.
 
 
-  The new colour palette is bold and full of life: vivid yellow and lime, rich teals, deep purples, warm orange and energetic pinks, chosen to embody the Papyrus mission and speak to young people in a language they actually recognise. Typography brings character and energy to the brand: expressive, confident, warm. We developed an extensive suite of icons and imagery to represent Papyrus’ users accurately and authentically, so young people see themselves reflected back.
+  The new colour palette is bold and full of life: vivid yellow and lime, rich aqua, deep purples, warm orange and energetic pinks, chosen to embody the Papyrus mission and speak to young people in a language they actually recognise. Typography brings character and energy to the brand: expressive, confident, warm. We developed an extensive suite of icons and imagery to represent Papyrus’ users accurately and authentically, so young people see themselves reflected back.
 
 
   Applied consistently across resources, merchandise, print and the website, the identity holds together with confidence, a stronger platform for the conversations that matter most.
