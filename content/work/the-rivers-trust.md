@@ -2,6 +2,7 @@
 # Meta
 date: 2023-06-28T12:26:29.707Z
 weight: 3
+title: Website design for charity, The Rivers Trust
 description: A user-centred website to build awareness and gain public support
 sector: for-planet
 topics:
@@ -39,16 +40,6 @@ banner_img_alt: A meandering river photographed from above
 banner_icon: rt-logo
 
 # Page nav
-toc: true
-toc_replacements:
-  - long: Digital brand implementation
-    short: Brand implementation
-  - long: Member portal
-    short: Member portal
-  - long: Encouraging action
-    short: E-activism
-  - long: Layered content strategy
-    short: Content strategy
 external_link: https://theriverstrust.org
 
 # Teaser content
@@ -116,7 +107,7 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 
 {{< figure align="left" wrapperclass="" src="work-rivers-trust-ipad.jpg" alt="The Rivers Trust website on a tablet device" >}}
 
-{{< figure wrapperclass="" src="work-rivers-trust-laptop.jpg" alt="The Rivers Trust website on a laptop" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-rivers-trust-laptop.jpg" alt="The Rivers Trust website on a laptop" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -134,7 +125,7 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 </div>
 
 
-{{< figure wrapperclass="" align="right" src="work-rivers-trust-components-2.png" alt="Components of the Rivers Trust website" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" align="right" src="work-rivers-trust-components-2.png" alt="Components of the Rivers Trust website" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -148,4 +139,4 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 </div>
 
 
-{{< figure wrapperclass="" align="left" src="work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" align="left" src="work-rivers-trust-phone-2.jpg" alt="The Rivers Trust website on a mobile device, on a river bank" >}}

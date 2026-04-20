@@ -95,7 +95,7 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
 {{< partnership img="images/work-shu-laptop-2.jpg" alt="Sheffield Hallam University homepage on a laptop on a wooden table" >}}Over six years, Kind worked alongside SHU’s teams on a wide range of digital projects, with the design system as the foundation that made each one faster and more consistent to deliver.{{</ partnership >}}
 
-{{< figure wrapperclass="" align="right" src="work-shu-protester-2.jpg" alt="A girl holding a cardboard placard stating 'The Time is Now'. There is a painted picture of the earth in the centre of the placard" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" align="right" src="work-shu-protester-2.jpg" alt="A girl holding a cardboard placard stating 'The Time is Now'. There is a painted picture of the earth in the centre of the placard" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -111,11 +111,11 @@ We transform lives. We shape our students’ futures, preparing them for whateve
 
 {{< mobile-scroll align="left" src="work-shu-homepage.png" alt="a mockup of the Sheffield Hallam University website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
 
-{{< figure wrapperclass="" src="work-shu-design-system-components.jpg" alt="SHU Design system components" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-shu-design-system-components.jpg" alt="SHU Design system components" >}}
 
 
 <!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 pb-10 lg:pb-20 xl:pb-30">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## Open Day booking system

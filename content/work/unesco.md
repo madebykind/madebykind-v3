@@ -128,7 +128,7 @@ practitioners who needed it most.
 
 {{< figure wrapperclass="" src="work-unesco-illustration-wide.jpg" alt="A large illustration from the digital PDF report" >}}
 
-{{< figure wrapperclass="" src="work-unesco-online.jpg" alt="The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building" align="left" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-unesco-online.jpg" alt="The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building" align="left" >}}
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -141,4 +141,4 @@ practitioners who needed it most.
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="work-unesco-flat.jpg" alt="Flat images of pages from a report document" >}}
+{{< figure align="right" wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-unesco-flat.jpg" alt="Flat images of pages from a report document" >}}

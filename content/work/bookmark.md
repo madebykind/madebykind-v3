@@ -127,7 +127,7 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 
 {{< figure align="right" wrapperclass="" src="work-bookmark-design-system.jpg" alt="Design system components for Bookmark website" >}}
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 pb-10 lg:pb-20 xl:pb-30">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-bookmark-mobile.jpg" alt="Bookmark website designs on mobile screens" >}}
   <div class="col-span-full lg:col-span-4">
   {{< mobile-scroll src="work-bookmark-homepage-mobile.png" alt="a mockup of the Bookmark website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="50000">}}

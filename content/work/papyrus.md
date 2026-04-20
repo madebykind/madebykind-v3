@@ -102,12 +102,12 @@ impact_teaser:
 </div>
 
 
-{{< figure alt="A young woman is sat against a wall, shielding her face from the sun" src="work_papyrus_brand_8.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover my-12 lg:mb-24" >}}
+{{< figure alt="A young woman is sat against a wall, shielding her face from the sun" src="work_papyrus_brand_8.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover" >}}
 
 
 
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8">
 
   ## Discovery and organisational strategy
@@ -138,7 +138,7 @@ impact_teaser:
 
 
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8">
 
   ## Brand identity
@@ -161,13 +161,6 @@ impact_teaser:
   </div>
 </div>
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
-  <div class="col-span-full lg:col-span-8 lg:row-span-2 aspect-video">
-    {{< animation id="anim-papyrus-type" >}}
-  </div>
-</div>
-
-{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
   <div class="col-span-6 lg:col-start-5 lg:col-span-4 aspect-square">
@@ -178,44 +171,41 @@ impact_teaser:
   </div>
 </div>
 
-{{< multi-image
-  src_1="images/work_papyrus_bag.jpg" alt_1=""
-  src_2="images/work_papyrus_banner.jpg" alt_2=""
-  src_3="images/work_papyrus_bus_stop.jpg" alt_3=""
-  >}}
+{{< figure alt="" src="work_papyrus_sign.jpg">}}
 
-{{< multi-image
-  src_1="images/work_papyrus_cycling_1.png" alt_1=""
-  src_2="images/work_papyrus_hoody.jpg" alt_2=""
-  src_3="images/work_papyrus_jacket.jpg" alt_3=""
-  >}}
 
-{{< multi-image
-  src_1="images/work_papyrus_plan.jpg" alt_1=""
-  src_2="images/work_papyrus_pullup_1.jpg" alt_2=""
-  src_3="images/work_papyrus_pullup_2.jpg" alt_3=""
-  >}}
-
-{{< multi-image
-  src_1="images/work_papyrus_spread.jpg" alt_1=""
-  src_2="images/work_papyrus_sweatshirt.png" alt_2=""
-  src_3="images/work_papyrus_tee.jpg" alt_3=""
-  >}}
-
-{{< multi-image
-  src_1="images/work_papyrus_sign.jpg" alt_1=""
-  src_2="images/work_papyrus_leaflet.jpg" alt_2=""
-  src_3="images/work_papyrus_coffee.jpg" alt_3=""
-  >}}
-
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
+  <div class="col-span-full lg:col-span-4">
+    {{< figure alt="" src="work_papyrus_sweatshirt.png">}}
+  </div>
+  <div class="col-span-full lg:col-span-8 row-span-2">
+    {{< figure alt="" src="work_papyrus_hoody.jpg">}}
+  </div>
+  <div class="col-span-full lg:col-span-4">
+    {{< figure alt="" src="work_papyrus_bag.jpg">}}
+  </div>
+</div>
 
 <!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
   ## Tone of voice
 
   The strategic and creative work began in the workshops. Through those conversations, we repositioned Papyrus from a crisis-led organisation to one defined by hope. That shift informed everything. We drafted a new strapline, ‘Here for Life’, and worked down through a refocused vision and mission, sharpening how Papyrus expresses its purpose. The foundations were solid before anything else was built. The tone of voice and messaging framework grew directly from that groundwork.
+
+  </div>
+</div>
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="col-span-full lg:col-span-8 lg:col-start-5">
+    {{< figure alt="Papyrus strapline: Here for Life" src="work_papyrus_strapline.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
+  </div>
+</div>
+
+<!-- Text right -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
 
   We built a framework that gives the Papyrus team the tools to communicate with young people in a way that is direct, human and supportive. That included detailed guidance on navigating the particular sensitivities of suicide and mental health language, which is a complex communication challenge in the charity sector. Content hierarchies, do’s and don’ts, and clear examples give the team the confidence to communicate consistently, whoever is writing.
@@ -226,18 +216,15 @@ impact_teaser:
   </div>
 </div>
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 my-12 lg:my-24">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="col-span-full relative overflow-hidden">
     {{< animation id="anim-papyrus-tov" >}}
-  </div>
-  <div class="col-span-full">
-    {{< figure alt="Papyrus strapline: Here for Life" src="work_papyrus_strapline.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
   </div>
 </div>
 
 
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8">
 
   ## Internal communications and leadership support
@@ -257,7 +244,7 @@ impact_teaser:
 {{< figure alt="Mat and Michelle discussing the Papyrus project" src="work_papyrus_strategy_1.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover" align="left">}}
 
 <!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end my-12 lg:my-24">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5 lg:order-2">
 
   ## Website
@@ -285,19 +272,10 @@ impact_teaser:
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="col-span-full">
-    {{< laptop-scroll src="work_papyrus_donate.png" alt="a mockup of the donate page on the Papyrus website" speed="7500" loop="true">}}
+    {{< laptop-scroll src="work_papyrus_donate.png" alt="a mockup of the donate page on the Papyrus website" speed="11000" loop="true">}}
   </div>
 </div>
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
 
-  <div class="col-span-full lg:col-span-6">
-    {{< figure alt="Papyrus website on a laptop" src="work_papyrus_laptop.jpg" >}}
-  </div>
-
-  <div class="col-span-full lg:col-span-6">
-    {{< figure alt="Papyrus website on two mobile devices" src="work_papyrus_iphone.jpg" >}}
-  </div>
-</div>
 
 
 

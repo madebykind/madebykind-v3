@@ -135,6 +135,7 @@ We empower young people to lead change through creativity – for themselves, th
   src_4="images/work-artswork-guidelines-1.jpg" alt_4="Artswork brand guidelines pages"
   src_1="images/work-artswork-booklet.jpg" alt_1="Mockup of an Artswork brochure"
   align="end"
+  block_class="pb-10 lg:pb-20 xl:pb-30"
   >}}
 
 
@@ -158,7 +159,7 @@ We empower young people to lead change through creativity – for themselves, th
   src_3="images/work-artswork-ui-4.png"
   alt_3="Artswork website components" >}}
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 pb-10 lg:pb-20 xl:pb-30">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-artswork-ipad.jpg" alt="Artswork website shown on a tablet screen" >}}
   <div class="col-span-full lg:col-span-4">
   {{< mobile-scroll src="work-artswork-homepage-mobile-1.png" alt="a mockup of the Artswork website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="30000">}}

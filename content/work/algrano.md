@@ -86,7 +86,7 @@ We create change with technology to enable independent producers and roasters to
 
 {{< figure align="left" wrapperclass="" src="work-algrano-laptop.jpg" alt="Over the shoulder photograph of the Algrano website on a laptop" >}}
 
-{{< figure wrapperclass="" src="work-algrano-design-system-x2.jpg" alt="Algrano design system components" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-algrano-design-system-x2.jpg" alt="Algrano design system components" >}}
 
 
 
@@ -103,7 +103,7 @@ We create change with technology to enable independent producers and roasters to
 
 {{< figure align="right" wrapperclass="" src="work-algrano-storyboard-2x.jpg" alt="Storyboard screens from Algrano explainer video" >}}
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/961065909?h=9721d21e6f&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;" class="mb-10 lg:mb-20 xl:mb-30"><iframe src="https://player.vimeo.com/video/961065909?h=9721d21e6f&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 <!-- Text left -->
@@ -124,7 +124,7 @@ We create change with technology to enable independent producers and roasters to
   alt_2="Algrano website user interface" >}}
 
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 pb-10 lg:pb-20 xl:pb-30">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-algrano-tablet.jpg" alt="Algrano website designs on tablet screens" >}}
   <div class="col-span-full lg:col-span-4">
   {{< mobile-scroll src="work-algrano-homepage-mobile-full.png" alt="a mockup of the Algrano website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="20000">}}

@@ -31,8 +31,6 @@ teaser_subheading: Brand deep-dive
 ---
 
 
-
-
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
@@ -48,11 +46,35 @@ teaser_subheading: Brand deep-dive
   **Colour**. The previous palette was exactly what you’d expect from a charity operating in this space: safe, quiet, sensitive. We replaced it with something bold and full of life. Rich aquas and deep purples lead the identity, grounded and confident, with vivid oranges, energetic pinks and hints of yellow bringing warmth and energy as supporting tones. Not chosen for their vibrancy alone, but because they embody the mission. Life is worth living. Help exists. You matter. Here for life. The palette had to say all of that before a single word was read.
 
 
+
   **Typography**. We sourced a typeface with genuine character and warmth: expressive, confident, human. Additional glyph characters add personality and a sense of distinctiveness, while a range of widths, from condensed through regular to super wide, give the brand real expressive range, allowing messaging to flex visually across formats and contexts. The typography needed to work hard, carrying the directness of the message while remaining approachable to a young person who might be reading it in a very difficult moment. Big, generous headlines that hold space. Hierarchy that guides rather than overwhelms.
+  
+  </div>
+</div>
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
+  <div class="col-span-full lg:col-span-8 lg:row-span-2 aspect-video">
+    {{< animation id="anim-papyrus-type" >}}
+  </div>
+</div>
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
 
 
   **Icons and imagery**. This is where representation became critical. The old visual language was generic in a way that distanced rather than connected. We crafted a bespoke suite of hand-drawn icons, deliberately designed to appear perfectly imperfect, bringing an authentic, human quality that no stock library could replicate. The new icons and imagery were developed to reflect the young people Papyrus exists for: in the moments, settings and situations that are real to them. For a young person arriving at the Papyrus website in crisis, seeing themselves reflected back is part of what makes the experience feel safe. It signals: this place is for you. You belong here.
 
+  </div>
+</div>
+
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
+  <div class="col-span-6 lg:col-span-4 aspect-square">
+    {{< animation id="anim-papyrus-icons" >}}
+  </div>
+  <div class="col-span-6 lg:col-span-4 aspect-square">
+    {{< animation id="anim-papyrus-bubbles" >}}
   </div>
 </div>
 
@@ -77,8 +99,11 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
+{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
+
+
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8">
 
   ## Brand guidance
@@ -92,8 +117,16 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
+
+{{< multi-image
+  src_1="images/work_papyrus_pullup_1.jpg" alt_1=""
+  src_2="images/work_papyrus_coffee.jpg" alt_2=""
+  src_3="images/work_papyrus_cycling_1.png" alt_3=""
+  >}}
+
+
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8">
 
 
@@ -114,8 +147,17 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
+{{< multi-image
+  src_2="images/work_papyrus_jacket.jpg" alt_2=""
+  src_1="images/work_papyrus_bus_stop.jpg" alt_1=""
+  >}}
+
+{{< figure alt="" src="work_papyrus_banner.jpg">}}
+
+
+
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8">
 
 
@@ -133,8 +175,15 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
+{{< figure alt="" src="work_papyrus_plan.jpg">}}
+
+{{< multi-image
+  src_2="images/work_papyrus_leaflet.jpg" alt_2=""
+  src_1="images/work_papyrus_spread.jpg" alt_1=""
+  >}}
+
 <!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 mt-12 lg:mt-24">
   <div class="prose col-span-full lg:col-span-8">
 
 

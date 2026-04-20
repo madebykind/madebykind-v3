@@ -96,7 +96,7 @@ We are driven by our determination to become the University of the future. By ad
   </div>
 </div>
 
-{{< figure wrapperclass="" src="work-ntu-wireframes.jpg" alt="An over the shoulder photograph of a computer screen. The screen has blue and white 'wireframe' style designs of web templates on it" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-ntu-wireframes.jpg" alt="An over the shoulder photograph of a computer screen. The screen has blue and white 'wireframe' style designs of web templates on it" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -124,4 +124,4 @@ From initiation right through to production the Kind team were always open, frie
   </div>
 </div>
 
-{{< figure wrapperclass="" src="work-ntu-desktop-screens.jpg" alt="A number of mockups of pages on the NTU website" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-ntu-desktop-screens.jpg" alt="A number of mockups of pages on the NTU website" >}}
