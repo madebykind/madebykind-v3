@@ -124,6 +124,10 @@
     {{ partial "banner__chapter" . }}
 {{ end }}
 
+{{ if eq $type "papyrus" }}
+    {{ partial "banner__papyrus" . }}
+{{ end }}
+
 {{ if eq $type "base51" }}
     {{ partial "banner__base51" . }}
 {{ end }}

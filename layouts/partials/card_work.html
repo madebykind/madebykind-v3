@@ -1,23 +1,39 @@
+
+{{ $headingClass := "text-xl" }}
+{{ if .heading_class }}
+  {{ $headingClass = .heading_class }}
+{{ end }}
+
 <article class="h-full">
-  <a class="no-underline group" aria-labelledby="{{ .context.Params.Heading | anchorize }}" href="{{ .context.Permalink }}">
+  <a class="no-underline group relative" aria-labelledby="{{ .context.Params.Heading | anchorize }}" href="{{ .context.Permalink }}">
     <div class="relative overflow-hidden">
       {{ if isset .context.Params "cover_img" }}
         {{ partial "image__card" .context }}
       {{ end }}
 
-      {{ with .context.Params.icon }}
-        <div class="absolute bottom-0 right-0 p-5 bg-white text-black">
-          <svg class="w-24 h-12 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-{{ . }}"/>
-          </svg>
-        </div>
+      {{ if (not .hidelogo )}}
+        {{ with .context.Params.icon }}
+          <div class="absolute bottom-0 right-0 p-5 bg-white text-black">
+            <svg class="w-24 h-12 flex-no-shrink" role="presentation">
+              <use xlink:href="#icon-{{ . }}"/>
+            </svg>
+          </div>
+        {{ end }}
+      {{ end }}
+
+      {{ if .showtag }}
+        {{ with .context.Params.teaser_subheading }}
+          <div class="absolute top-0 right-0 px-4 py-2 bg-blue text-buff font-sans font-bold text-sm">
+            {{ . }}
+          </div>
+        {{ end }}
       {{ end }}
     </div>
 
-      <div class="flex flex-col content-center {{ if .reverse }} gap-1 {{ else }} gap-8 {{ end }} py-5">
-        <h3 class="text-xl h--condensed {{ if .reverse }} order-2{{ end }}" id="{{ .Params.Heading | anchorize }}">{{ .context.Params.Heading|safeHTML }}</h3>
+      <div class="flex flex-col content-center {{ if .reverse }} gap-1 {{ else }} gap-8 {{ end }} pt-5">
+        <h3 class="{{ $headingClass }} h--condensed {{ if .reverse }} order-2{{ end }}" id="{{ .Params.Heading | anchorize }}">{{ .context.Params.Heading|safeHTML }}</h3>
         {{ if (not .hideservices )}}
-        <h4 class="{{ if .dark }} text-pink {{ end }}{{ if .reverse }} h--condensed order-1 {{ else }} text-base font-normal {{ end }}">{{ title (delimit .context.Params.services " + " ) }}</h4>
+          <h4 class="{{ if .dark }} text-pink {{ end }}{{ if .reverse }} h--condensed order-1 {{ else }} text-base font-normal {{ end }}">{{ title (delimit .context.Params.services " + " ) }}</h4>
         {{ end }}
       </div>
   </a>

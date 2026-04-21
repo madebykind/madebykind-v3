@@ -1,7 +1,8 @@
 ---
 # Meta
+draft: true
 date: 2023-06-28T10:52:34.342Z
-weight: 8
+weight: 9
 title: Brand and website design for arts organisation, Backlit
 description: A contemporary, sleek website design for an Arts Council NPO
 sector: for-people
@@ -79,7 +80,7 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
   align="end"
   >}}
 
-{{< figure wrapperclass="" src="work-backlit-shapes.jpg" alt="A laptop with a part of a brand guidelines document showing window shapes" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-backlit-shapes.jpg" alt="A laptop with a part of a brand guidelines document showing window shapes" >}}
 
 
 
@@ -97,7 +98,7 @@ Being LGBTQ+ and Female-led is part of our ongoing foundations as a cultural org
 
 {{< figure align="right" wrapperclass="" src="work-backlit-ipad-pages.jpg" alt="Mockups of the Backlit Gallery website on multiple tablet devices" >}}
 
-{{< figure wrapperclass="" src="work-backlit-kind-team.jpg" alt="Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-backlit-kind-team.jpg" alt="Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs" >}}
 
 
 

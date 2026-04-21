@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2024-07-25T10:52:34.342Z
-weight: 2
+weight: 3
 title: Website design for charity, Bookmark Reading
 description: A fun, playful website with clear journeys and integrated help-centre for a childhood literacy charity
 social_img: images/work-bookmark-laptop-child.jpg
@@ -20,12 +20,12 @@ related_work:
 # Content
 heading: Raising awareness of the childhood literacy gap in the UK 
 preheading: User-centred website and online help-centre for Bookmark Reading.
-intro: 1 in 4 Children in England cannot read well when they leave primary school. Children unable to read well will face difficulties for the rest of school and beyond, devastatingly impacting their life chances. This results in 7.1 million adults in England who struggle to read and face challenges every day – at home, on the move, in the workplace, and with their friends and families.
+intro: "1 in 4 children in England cannot read well when they leave primary school, and the consequences follow them into adulthood: 7.1 million people in England struggle with reading every day, affecting their health, their work and their independence. Bookmark exists to change that, matching volunteer reading mentors with children who need support across the country."
 why:
   text: We were inspired by Bookmark's commitment and dedication to making a real change, and wanted their online presence to reflect their important work.
   person: michelle
 impact:
-  text: Bookmark have a professional, engaging and inviting online presence that has helped increase active volunteer numbers, attract corporate partnerships and support their ongoing strategy to raise awareness of poor literacy in the UK. 
+  text: Bookmark now has a professional, engaging online presence that actively works to grow their volunteer base, attract corporate partnerships and raise awareness of the childhood literacy gap in the UK.
   img: images/work-bookmark-readers.jpg
   img_alt: A child and a woman read together
 
@@ -97,28 +97,37 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Creating clear user journeys
+  ## Research and discovery
 
-  Previously, Bookmark’s content was overwhelming and hard to find. We mapped user needs, and tested IA and wireframes with real users to create targeted journeys for volunteers, donors, schools, and corporate partners. By understanding their motivations, we tailored each journey to highlight impactful involvement opportunities, showcase donor contributions, and present benefits of being involved. This well-defined approach resulted in a seamless and engaging user experience.
+  We ran a discovery workshop with the Bookmark team to map their audiences and prioritise the most important user journeys, followed by one-to-one strategic calls with the executive team, and a survey for stakeholders who could not attend. We reviewed competitor and sector websites alongside Bookmark’s existing documentation, and tested our proposed information architecture with real users.
+
+
+  The research revealed a consistent picture: the existing site made Bookmark look smaller and less developed than they were, volunteer drop-off from paid social campaigns was high, and none of the key audiences, volunteers, schools or corporate partners, had a clear path to get involved.
 
   </div>
 </div>
 
-{{< figure align="right" wrapperclass="" src="work-bookmark-design-system.jpg" alt="Design system components for Bookmark website" >}}
 
+{{< challenge >}}Bookmark’s website was costing them volunteers.{{</ challenge >}}
 
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Helping Bookmark to stand out
+  ## User journeys and information architecture
 
-  We helped Bookmark to stand out by amplifying its unique position and impact. By digitally elevating their brand identity and creating a space for them to articulate their stories we’re able to help them build credibility and trust, which is vital to a newer charity. 
+  We designed targeted user journeys for each of Bookmark’s key audiences (volunteers, schools, corporate partners and donors), building each around what that audience needed to understand and do rather than how Bookmark was organised internally. IA was tested with real users and refined before wireframes were produced.
+
+  ## Website design and digital brand application
+
+  Bookmark had a brand identity, but it wasn’t working hard enough. We digitally elevated it, leading with their illustration style and creating a site that felt credible and inviting while giving the team the tools to publish content and run campaigns independently.
   </div>
 </div>
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+{{< figure align="right" wrapperclass="" src="work-bookmark-design-system.jpg" alt="Design system components for Bookmark website" >}}
+
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 pb-10 lg:pb-20 xl:pb-30">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-bookmark-mobile.jpg" alt="Bookmark website designs on mobile screens" >}}
   <div class="col-span-full lg:col-span-4">
   {{< mobile-scroll src="work-bookmark-homepage-mobile.png" alt="a mockup of the Bookmark website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="50000">}}
@@ -130,10 +139,9 @@ By inspiring the joy of reading we can provide the motivation to read to every c
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## A simple user-friendly, help centre
+  ## Help centre
 
-  We recognised that a chatbot didn’t fully meet the user’s needs, so we designed a user-friendly help centre with clear categories, concise language, and an intuitive search function. Including FAQs and multimedia resources like video tutorials made information easily accessible. Curated content and internal feedback loops ensured the help center was relevant and based on previous enquiries, aiming to improve user satisfaction and reduce support requests.
-
+  Bookmark had asked for an AI chatbot to handle support queries. Having reviewed how their users actually looked for information, we recommended a structured help centre instead: a better solution for users and significantly cheaper to run, with no ongoing AI costs. Clear categories, concise language and an intuitive search function made it easy to navigate, with FAQs and video tutorials covering the most common queries, curated based on previous enquiries to stay relevant and reduce the volume of direct support requests over time.
   </div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2024-07-25T10:52:34.342Z
-weight: 5
+weight: 6
 title: "Ethical branding: Algrano"
 description: Launching a refreshed identity through animation, video production and tone of voice
 social_img: images/work-algrano-growers.jpg
@@ -20,13 +20,13 @@ related_work:
 
 # Content
 heading: Ensuring a fair deal across the global coffee community
-preheading: Brand delivery for Algrano - a distruptor changing the power dynamics in the coffee industry.
-intro: Understanding there was a deep imbalance and asymmetry in the coffee industry, Algrano’s founders sought to disrupt the monopolised industry structure by using online tools, trusted partnerships, price transparency, and shipping management to put roasters in direct touch with the producers growing coffee at source. 
+preheading: Brand delivery for Algrano, a distruptor changing the power dynamics in the coffee industry.
+intro: The global coffee industry has long been structured to favour middlemen over the people who grow the coffee. Algrano set out to change that. Founded in 2015, they built an online platform that connects independent coffee producers directly with roasters, cutting out the gatekeepers, making pricing transparent and giving both sides of the trade more control over how they do business.
 why:
   text: There is a deep imbalance in the coffee industry and Algrano seeks to disrupt that. Putting roasters in direct contact with the producers growing coffee at source and ensuring fair and equitable business for everyone.
   person: michelle
 impact:
-  text: Algrano's work helps to reset the power imbalance in the coffee industry, connecting producers directly to roasters. Our work has helped them to better tell their story and encourage more independents to join their movement.
+  text: Algrano now has a brand presence that communicates what they do and why it matters, clearly and accessibly, to every part of their global community. The work helps more independent producers and roasters find each other, build direct relationships and trade on fairer terms.
   img: images/work-algrano-drinkers.jpg
   img_alt: Two men drinking coffee outside a blue building
 
@@ -59,19 +59,9 @@ icon: algrano-logo
 icon_width: 491
 icon_height: 122
 client: Algrano
-# impact_teaser:
-#   text: 
-#   images:
-#     - img: 
-#       alt: 
-#     - img: 
-#       alt: 
-#     - img: 
-#       alt: 
-#   caption: 
 
 # Footer override
-footer_heading: "Want to launch a new brand?"
+footer_heading: "Want to launch something new?"
 ---
 
 {{< workquote logo="algrano-logo" img="images/work-algrano-growers.jpg" alt="A woman and a man inspect a coffee plant" logowidth="492" logoheight="122">}}
@@ -79,20 +69,24 @@ We create change with technology to enable independent producers and roasters to
 {{</ workquote >}}
 
 
+{{< challenge >}}Algrano’s business model needed to be understood clearly by producers who might be non-technical, working in a second or third language, or based in remote growing regions.
+{{</ challenge >}}
+
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Bringing a brand to life online
+  ## Messaging and tone of voice
 
-  Using Algrano's recently refreshed brand identity, we created an impactful, interactive, and engaging online presence, by capturing their values, mission, and vision through compelling stories and consistent visuals, ensuring their brand will continue to set them apart and make a strong impression.
+  Algrano’s personality is direct, open and honest. The messaging needed to reflect that while working equally well for two very different audiences: independent roasters in Europe looking for better sourcing, and producers in Latin America, Africa and Asia looking for fairer terms. Key messages were developed for both sides of the platform, with language that was plain, confident and free of industry jargon, making Algrano’s value clear to anyone encountering the brand for the first time.
 
   </div>
 </div>
 
 {{< figure align="left" wrapperclass="" src="work-algrano-laptop.jpg" alt="Over the shoulder photograph of the Algrano website on a laptop" >}}
 
-{{< figure wrapperclass="" src="work-algrano-design-system-x2.jpg" alt="Algrano design system components" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-algrano-design-system-x2.jpg" alt="Algrano design system components" >}}
 
 
 
@@ -100,29 +94,25 @@ We create change with technology to enable independent producers and roasters to
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Clear, concise messaging
+  ## Brand explainer video
 
-  Algrano’s brand personality is to be direct, open and friendly. We embraced their changemaker attitude and used straightforward language for their video and website content, making their message engaging and easy to remember, and building trust with potential service users. With a clear balance for both roasters and growers – we focused on showing the relationships that are encouraged, built and nurtured by the Algrano platform. 
-
-  ## Visual storytelling
-
-  To capture attention and maintain engagement we developed an energetic brand explainer video. We created the video to be repurposable, creating multiple short edits that maximised the clients budget and allowed them to use video content across web, social media, presentations and events.
+  An animated brand explainer video was developed to bring Algrano’s story to life succinctly, with a main 30–40 second version and a series of shorter edits for social media, presentations and events. The video was built to be repurposable, maximising the budget and giving the team flexible assets they could use across every channel.
 
   </div>
 </div>
 
 {{< figure align="right" wrapperclass="" src="work-algrano-storyboard-2x.jpg" alt="Storyboard screens from Algrano explainer video" >}}
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/961065909?h=9721d21e6f&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;" class="mb-10 lg:mb-20 xl:mb-30"><iframe src="https://player.vimeo.com/video/961065909?h=9721d21e6f&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## User-journey creation
+  ## Website and user journeys
 
-  We designed user-friendly online journeys by delving into and understanding the needs of Algrano’s diverse user groups. By mapping out different user paths, we created smooth and intuitive experiences, optimising navigation and simplifying processes to enhance user engagement and enable them to meet their desired goals online.
+  Using Algrano’s refreshed brand identity, user journeys were designed for each of their key audience groups, making it easy for roasters to discover and order coffee and for producers to manage their listings, track shipments and communicate directly with buyers. Visual storytelling and a clear content hierarchy gave both audiences a reason to explore further and a clear path to getting started.
   </div>
 </div>
 
@@ -133,18 +123,8 @@ We create change with technology to enable independent producers and roasters to
   src_2="images/work-algrano-ui-2x.jpg"
   alt_2="Algrano website user interface" >}}
 
-<!-- Text right -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Capturing the heart of Algrano
-
-  We captured Algrano’s brand essence and distinctive offerings through an attention-grabbing and engaging design, fostering trust and authenticity for both producers and growers. By incorporating speech bubbles and arrows, we guide audiences on a journey, connecting them with key content and encouraging further exploration.
-
-  </div>
-</div>
-
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 pb-10 lg:pb-20 xl:pb-30">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-algrano-tablet.jpg" alt="Algrano website designs on tablet screens" >}}
   <div class="col-span-full lg:col-span-4">
   {{< mobile-scroll src="work-algrano-homepage-mobile-full.png" alt="a mockup of the Algrano website homepage" wrapper_class="aspect-iphone max-w-[10.5rem]" speed="20000">}}

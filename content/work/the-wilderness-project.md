@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2025-07-31T11:07:38.606Z
-weight: 3
+weight: 4
 title: Brand development and delivery for environmental charity, The Wilderness Project
 description: Website and visual identity to help an organisation protecting Africa's fresh waters
 sector: for-planet
@@ -21,12 +21,12 @@ related_work:
 # Content
 heading: Building a brand story that protects fresh water wilderness
 preheading: Brand development and website delivery for African environmental charity.
-intro: "<p>The Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research with powerful storytelling and by working with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
+intro: "<p>The Wilderness Project brings scientists and storytellers together to protect Africa’s vital rivers, which support half a billion people and critical ecosystems. By combining ground-level research with powerful storytelling and by working closely with local communities, they aim to inspire action and safeguard these freshwater wilderness areas for the future.</p>"
 why:
   text: "With waterways under increasing pressure, understanding and urgency around these fragile systems is essential."
   person: pam
 impact:
-  text: The Wilderness Project now has a strong, authentic brand and website that reflects the depth and impact of their work. Bringing clarity, professionalism, and credibility to their mission, positioning them as experts grounded in the communities who protect Africa’s precious ecosystems. They can now share their knowledge and stories with a global audience, grow their support, and continue driving meaningful environmental change. 
+  text: The Wilderness Project now has a brand and platform that reflects the scale and seriousness of their mission. A stronger presence gives them the credibility to deepen partnerships, reach new audiences and keep making the case for protecting Africa’s most threatened river systems.
 
   img: images/work-twp-landscape-sunset.jpg
   img_alt: "Sunset over a winding river in a grassy marshland, with warm golden light reflecting on the water"
@@ -74,11 +74,28 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  ## Brand strategy
+  ## Research and discovery
 
-  A brand strategy that honours original storytellers and their discoveries. Subtle brand refinements and a distinct visual language bring depth and motion, guiding the audience through an inspiring journey. Every design choice; from colour and typography to UX, works to inspire, engage, and communicate urgency with clarity and purpose.
+  A workshop with the founding team mapped out who The Wilderness Project are, who they need to reach and what each audience needs from them: researchers and scientists, government officials, local communities, environmentalists, partner organisations and media. The sessions surfaced a clear picture of the organisation’s ambitions, the perceptions they were struggling to shift and the brand restrictions they needed to work within.
   </div>
 </div>
+
+
+{{< challenge >}}The Wilderness Project’s brand didn’t reflect the depth or quality of their work on the ground.
+{{</ challenge >}}
+
+
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
+  <div class="prose col-span-full lg:col-span-8">
+
+  ## Brand strategy and visual identity
+
+  The brand strategy was built around TWP’s dual identity as scientists and storytellers, honouring the original explorers and field researchers at the heart of the organisation. The existing logo was refined and an illustration style was developed, drawing on the pen-and-paper field sketches of expedition scientists: expressive, hand-drawn elements that build visual rhythm and immerse audiences in the work. The refreshed palette reflects Africa’s varied landscapes, and the typographic system brings confidence and clarity to communications that previously felt fragmented.
+   
+  </div>
+</div>
+
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-twp-scenery.jpg" alt="A rocky, steep mountain rises from a green, grassy landscape under a cloudy sky, with distant hills and valleys visible in the background." >}}
@@ -99,16 +116,13 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
 
 {{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" src="work-twp-brand-deck.jpg" alt="Pages from The Wilderness Project brand book" >}}
 
-
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
   <div class="prose col-span-full lg:col-span-8 lg:col-start-5">
 
-  ## Visual identity
+  ## Website delivery
 
-  We refined the existing logo and developed an illustration style inspired by expedition scientists’ pen-and-paper field sketches. Expressive, hand-drawn elements guide attention and build visual rhythm, echoing how people highlight key details. The refreshed palette reflects Africa's varied landscapes.
-
-  The identity immerses audiences in the expeditions, offering a glimpse into scientists’ daily experiences and the waterways they explore, while conveying urgency and momentum in the mission.
+  The website was built to showcase both the scientific rigour of TWP’s fieldwork and the human stories connected to Africa’s core river basins. Reports, videos, imagery and expedition updates are presented in a clean, responsive platform that makes the work accessible and shareable globally. With a small, highly active team often working in remote locations, the site was built to be straightforward to manage and update from anywhere.
    
   </div>
 </div>
@@ -116,22 +130,9 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
 {{< multi-image
   src_4="images/work-twp-tablet-expedition-screens.jpg" alt_4="Screens from The Wilderness Project website"
   src_1="images/work-twp-design-system-2.jpg" alt_1="Design system components used on The Wilderness Project website"
-  align="end"
+  block_class="items-end"
   >}}
 
-
-
-
-<!-- Text left -->
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section">
-  <div class="prose col-span-full lg:col-span-8">
-
-  ## Website delivery
-
-  We designed an engaging, visually beautiful website that highlights both the scientific expertise behind The Wilderness Project’s fieldwork and the human stories connected to Africa’s core river basins. The clean, responsive platform showcases reports, videos, imagery, and project updates, making their important work accessible, shareable, and impactful on a global scale. With a small but highly active team often working in remote locations, the site was built to be easy to manage and update, ensuring they can keep the world informed, even while out on expedition.
-   
-  </div>
-</div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   {{< figure wrapperclass="col-span-full lg:col-span-8" src="work-twp-outdoor-laptop.jpg" alt="The Wilderness Project website shown on a laptop. The laptop is situated outdoors, on a rock" >}}
@@ -143,4 +144,3 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
 {{< figure wrapperclass="bleed" imgclass="w-full" src="work-twp-flat-homepage.jpg" alt="Cross-sections of The Wilderness Project homepage" >}}
 
 {{< blockquote author="Tara Kilachand" role="Head of Strategic Communications and Fundraising, The Wilderness Project" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}Finally, an agency that makes the process feel easy instead of intimidating. Kind equipped us with confidence from the beginning—empowering us to make almost every change needed now and for the future. Best of all, they transformed our information overload into an elegant design that managed to merge organic touches with a functional interface, and showcase beautifully the varying elements of our work.{{</ blockquote >}}
-

@@ -100,8 +100,8 @@ teaser:
       icon: logo-planvivo
     - name: Chapter
       icon: chapter-logo
-    #- name: Papyrus
-    #  icon: logo-papyrus
+    - name: Papyrus
+      icon: logo-papyrus
     - name: Base 51
       icon: logo-base51
     - name: Algrano
@@ -110,16 +110,15 @@ teaser:
     #  icon: logo-artswork
     - name: The Wilderness Project
       icon: logo-twp
-    - name: The Association of Hispanists of Great Britain and Ireland
-      icon: ahgbi-logo
+    #- name: The Association of Hispanists of Great Britain and Ireland
+    #  icon: ahgbi-logo
   testimonials:
     - testimonials/base51
     - testimonials/plan-vivo
-    #- testimonials/unesco
   projects_title: Brand projects
   projects:
+    - work/papyrus
     - work/plan-vivo
-    - work/base51
   projects_link:
     title: All brand projects
     url: "/work/#brand"

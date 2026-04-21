@@ -77,6 +77,7 @@ social_img: images/work-izele-gazelle.jpg
   src_3="images/work-izele-prototype-light.png" alt_3="Desktop wireframes of the Izele platform, showing links between pages"
   class_1="lg:col-span-8"
   class_3="self-end"
+  block_class="pb-10 lg:pb-20 xl:pb-30"
   >}}
 
 
@@ -100,7 +101,7 @@ social_img: images/work-izele-gazelle.jpg
   alt_2="Izele pages" >}}
 
 
-{{< figure imgclass="w-full" src="work-izele-mockup-3.jpg" alt="A man uses the Izele website while sat in a safari jeep in the african wilderness" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" imgclass="w-full" src="work-izele-mockup-3.jpg" alt="A man uses the Izele website while sat in a safari jeep in the african wilderness" >}}
 
 
 <!-- Text left -->
@@ -113,6 +114,8 @@ social_img: images/work-izele-gazelle.jpg
    
   </div>
 </div>
+
+<div class="pb-10 lg:pb-20 xl:pb-30">
 {{< image-cycle
   src_1="images/work-izele-design-system-light-1.png"
   alt_1="Izele components"
@@ -121,3 +124,4 @@ social_img: images/work-izele-gazelle.jpg
   src_3="images/work-izele-design-system-light-3.png"
   alt_3="Izele components" >}}
 
+</div>

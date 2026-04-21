@@ -123,7 +123,7 @@ client: StrongerRoots
 
 
 
-{{< figure imgclass="w-full" src="work-sr-social.jpg" alt="Phone screen showing a StrongerRoots Facebook post advertising free Recovery Ally training." >}}
+{{< figure imgclass="w-full" src="work-sr-social.jpg" wrapperclass="pb-10 lg:pb-20 xl:pb-30" alt="Phone screen showing a StrongerRoots Facebook post advertising free Recovery Ally training." >}}
 
 
 <!-- Text right -->
@@ -142,6 +142,6 @@ client: StrongerRoots
   class_1="self-end"
   >}}
 
-{{< figure imgclass="w-full" src="work-sr-business-2.jpg" alt="StrongerRoots logo on a glass window with the strapline “Supporting a recovery-friendly future.”" >}}
+{{< figure imgclass="w-full" src="work-sr-business-2.jpg" alt="StrongerRoots logo on a glass window with the strapline “Supporting a recovery-friendly future.”"  wrapperclass="pb-10 lg:pb-20 xl:pb-30">}}
 
 

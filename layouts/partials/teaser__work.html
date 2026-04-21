@@ -23,14 +23,14 @@
       
       <div class="flex flex-row justify-between {{ if .reverse }} order-1 mb-4 {{ if (not .hideservices) }} md:mb-auto {{ end }} {{ else }} order-3 mt-6 lg:mt-12 2xl:mt-24 {{ end }}">
         {{ if .context.Params.icon }}
-          <svg class="text-buff w-32 {{ if eq .size "large" }} lg:w-44 {{ else }}  md:w-40 {{ end }} {{ if .odd }} order-2 {{ end }}" role="presentation" aria-hidden="true"
+          <svg class="text-buff w-auto h-auto max-h-12 2xl:max-h-16  max-w-32 {{ if eq .size "large" }} lg:max-w-44 {{ else }}  md:max-w-40 {{ end }} {{ if .odd }} order-2 {{ end }}" role="presentation" aria-hidden="true"
             {{ with .context.Params.icon_width }}width="{{ . }}"{{ end }}
             {{ with .context.Params.icon_height }}height="{{ . }}"{{ end }}>
             <use xlink:href="#icon-{{ .context.Params.icon }}"/>
           </svg>
         {{ end }}
         {{ if not .hidelink }}
-        <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 {{ else }} md:pr-4 {{ end }}">
+        <div class="inline-flex items-center gap-2 text-sm md:text-base {{ if .odd }} md:pl-4 md:mr-auto {{ else }} md:pr-4 md:ml-auto {{ end }}">
           <span class="font-bold underline">Read case study<span class="sr-only">: {{ .context.Params.heading }}</span></span>
           <svg class="w-6 h-2 md:w-9 md:h-3 flex-no-shrink mt-1" role="presentation" aria-hidden="true">
             <use xlink:href="#icon-arrow"/>
