@@ -49,7 +49,7 @@ teaser_subheading: Strategy deep-dive
 </div>
 
 
-{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" alt="" src="work_papyrus_brand_10.jpg" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" alt="Two people sat on chairs chatting in a room that has more people and more chats happening" src="work_papyrus_brand_10.jpg" >}}
 
 
 
@@ -68,7 +68,7 @@ teaser_subheading: Strategy deep-dive
   </div>
 </div>
 
-{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" alt="" src="work_papyrus_brand_13.jpg" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" alt="A young woman lying in her friends lap, laughing" src="work_papyrus_brand_13.jpg" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
@@ -107,7 +107,7 @@ teaser_subheading: Strategy deep-dive
   </div>
 </div>
 
-{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" alt="" src="work_papyrus_brand_12.jpg" >}}
+{{< figure wrapperclass="pb-10 lg:pb-20 xl:pb-30" alt="A young man sat in a chair with a laptop" src="work_papyrus_brand_12.jpg" >}}
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">

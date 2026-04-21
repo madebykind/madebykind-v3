@@ -134,9 +134,9 @@ teaser_subheading: Brand deep-dive
 
 
 {{< multi-image
-  src_1="images/work_papyrus_pullup_1.jpg" alt_1=""
-  src_2="images/work_papyrus_coffee.jpg" alt_2=""
-  src_3="images/work_papyrus_cycling_1.png" alt_3=""
+  src_1="images/work_papyrus_pullup_1.jpg" alt_1="Papyrus pull up banner"
+  src_2="images/work_papyrus_coffee.jpg" alt_2="Papyrus coffee cups"
+  src_3="images/work_papyrus_cycling_1.png" alt_3="Papyrus cycling jersey"
   >}}
 
 
@@ -163,11 +163,11 @@ teaser_subheading: Brand deep-dive
 </div>
 
 {{< multi-image
-  src_2="images/work_papyrus_jacket.jpg" alt_2=""
-  src_1="images/work_papyrus_bus_stop.jpg" alt_1=""
+  src_2="images/work_papyrus_jacket.jpg" alt_2="Papyrus volunteer jacket"
+  src_1="images/work_papyrus_bus_stop.jpg" alt_1="Papyrus poster at a bus stop"
   >}}
 
-{{< figure alt="" src="work_papyrus_banner.jpg">}}
+{{< figure alt="Papyrus building banner" src="work_papyrus_banner.jpg">}}
 
 
 
@@ -190,11 +190,11 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
-{{< figure alt="" src="work_papyrus_plan.jpg">}}
+{{< figure alt="Papyrus suicide safety plan document" src="work_papyrus_plan.jpg">}}
 
 {{< multi-image
-  src_2="images/work_papyrus_leaflet.jpg" alt_2=""
-  src_1="images/work_papyrus_spread.jpg" alt_1=""
+  src_2="images/work_papyrus_leaflet.jpg" alt_2="Papyrus leaflet titled: 'Are you woored about someone?'"
+  src_1="images/work_papyrus_spread.jpg" alt_1="Internal spread from a Papyrus document"
   >}}
 
 <!-- Text left -->

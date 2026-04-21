@@ -70,9 +70,9 @@ teaser_subheading: Digital deep-dive
 <div class="pb-10 lg:pb-20 xl:pb-30">
   {{< image-cycle
   src_1="images/work_papyrus_wires.png"
-  alt_1=""
+  alt_1="Papyrus website wireframes"
   src_2="images/work_papyrus_screens.png"
-  alt_2=""
+  alt_2="Papyrus website screens"
   speed="2000" >}}
 </div>
 
@@ -97,9 +97,9 @@ teaser_subheading: Digital deep-dive
 
 
 {{< multi-image
-  src_1="images/work_papyrus_components_1.png" alt_1=""
-  src_2="images/work_papyrus_components_2.png" alt_2=""
-  src_3="images/work_papyrus_components_3.png" alt_3=""
+  src_1="images/work_papyrus_components_1.png" alt_1="Papyrus website components"
+  src_2="images/work_papyrus_components_2.png" alt_2="Papyrus website components"
+  src_3="images/work_papyrus_components_3.png" alt_3="Papyrus website components"
   block_class="items-start pb-10 lg:pb-20 xl:pb-30"
   >}}
 

@@ -171,18 +171,18 @@ impact_teaser:
   </div>
 </div>
 
-{{< figure alt="" src="work_papyrus_sign.jpg">}}
+{{< figure alt="Papyrus logo on external sign" src="work_papyrus_sign.jpg">}}
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
   <div class="col-span-full lg:col-span-4">
-    {{< figure alt="" src="work_papyrus_sweatshirt.png">}}
+    {{< figure alt="Papyrus sweatshirt that reads 'Here for Life'" src="work_papyrus_sweatshirt.png">}}
   </div>
   <div class="col-span-full lg:col-span-8 row-span-2">
-    {{< figure alt="" src="work_papyrus_hoody.jpg">}}
+    {{< figure alt="A Papyrus branded hoody" src="work_papyrus_hoody.jpg">}}
   </div>
   <div class="col-span-full lg:col-span-4">
-    {{< figure alt="" src="work_papyrus_bag.jpg">}}
+    {{< figure alt="A Papyrus branded tote bag" src="work_papyrus_bag.jpg">}}
   </div>
 </div>
 
