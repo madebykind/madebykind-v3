@@ -264,11 +264,16 @@ impact_teaser:
 </div>
 
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="col-span-full lg:col-span-8 lg:col-start-5">
-  {{< figure alt="Papyrus web pages" src="work_papyrus_web_pages.jpg" >}}
-  </div>
-</div>
+{{< image-cycle
+  align="right"
+  src_1="images/work_papyrus_components_1.png"
+  alt_1="Papyrus website components"
+  src_2="images/work_papyrus_components_2.png"
+  alt_2="Papyrus website components"
+  src_3="images/work_papyrus_components_3.png"
+  alt_3="Papyrus website components"
+  src_4="images/work_papyrus_components_4.png"
+  alt_4="Papyrus website components" >}}
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="col-span-full">

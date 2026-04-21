@@ -99,7 +99,20 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
-{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
+<div class="aspect-video w-full h-full">
+  {{< image-cycle
+  src_1="images/work_papyrus_values_1.png"
+  alt_1="You: Papyrus wants you to live. Everything we do – HopeLine 24/7, our awareness campaigns, training programmes and fundraising projects – is about protecting you, your wellbeing and your future. Because you matter. To us, and to the people who care about you. When you need us, we’ll be here: always."
+  src_2="images/work_papyrus_values_2.png"
+  alt_2="Inspiring hope: The tiniest glimmer can be all someone needs. At Papyrus we’ll sit with you while you find yours, and empower you to find your own way forwards. As an organisation we focus on life and all it holds, sharing diverse lived experiences that give you something to hold onto."
+  src_3="images/work_papyrus_values_3.png"
+  alt_3="Speaking up: To get help for ourselves, or to support someone we care about, we have to be able to talk about suicide. By inviting and supporting difficult conversations, by providing a safe space to talk openly, and by showing you that you’re never, ever alone, we’re helping people overcome the shame and fear that blocks the way." 
+  src_4="images/work_papyrus_values_4.png"
+  alt_4="Taking action: To get help for ourselves, or to support someone we care about, we have to be able to talk about suicide. By inviting and supporting difficult conversations, by providing a safe space to talk openly, and by showing you that you’re never, ever alone, we’re helping people overcome the shame and fear that blocks the way."
+  type="snap"
+  speed="2000" >}}
+</div>
+
 
 
 <!-- Text left -->
@@ -116,6 +129,8 @@ teaser_subheading: Brand deep-dive
 
   </div>
 </div>
+
+{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
 
 
 {{< multi-image
