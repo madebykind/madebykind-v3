@@ -276,8 +276,11 @@ impact_teaser:
   alt_4="Papyrus website components" >}}
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="col-span-full">
+  <div class="col-span-full lg:col-span-6 flex items-end bg-[#cbc5c0]">
     {{< laptop-scroll src="work_papyrus_donate.png" alt="a mockup of the donate page on the Papyrus website" speed="11000" loop="true">}}
+  </div>
+  <div class="col-span-full lg:col-span-6">
+    {{< figure alt="Papyrus campaign page showing on iphone screens" src="work_papyrus_iphone.jpg" >}}
   </div>
 </div>
 
