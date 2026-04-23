@@ -1,7 +1,7 @@
 ---
 icon:
 prefix: "£"
-title: 23
+title: 31
 suffix: "K"
 ---
 

@@ -3,43 +3,6 @@
 		{{ partial "header__impact" . }}
 		<div class="container">
 			<div class="first:mt-10">
-{{/* 
-        <section class="grid gap-10 md:grid-cols-2 section--lg">
-          <div class="relative">
-          {{ partial "image" (dict 
-            "alt" "Mat and Michelle, standing by the bureaux and smiling."
-            "class" "md:order-1"
-            "src" "/images/stat-image-bcorp.png" 
-          ) }}
-            <div class="absolute z-10 text-buff bottom-10 left-10">
-              <article>
-                <h3 class="text-3xl h1">&pound;23k</h3>
-                <p class="mt-5">Donated value since 2014</p>
-              </article>
-            </div>
-          </div>
-          <div>
-            <h2 class="mb-5 text-2xl">We’re climate positive</h2>
-            <p>Being certified as Climate Positive means an organisation has gone beyond achieving “Net Zero” and instead creates an environmental benefit by removing additional greenhouse gases from the atmosphere, not just those that it emits.</p>
-            <p>Kind is a climate positive business and have taken the step to balance twice our greenhouse gas emissions since 2014 (when we were founded).</p>
-            <button class="mt-5" data-toggle data-target="#climate-positive">
-              <div class="flex items-center gap-2.5 font-sans">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo text-buff accordion-toggle-icon">
-                  <svg class="w-6 h-6" role="presentation">
-                    <use xlink:href="#icon-chevron"/>
-                  </svg>
-                </div>
-                <p>Read more
-                <span class="sr-only">about how we’re climate positive</span>
-                </p>
-              </div>
-            </button>
-            <div id="climate-positive" class="mt-10">
-              <p>Lorem ipsum dolor sit amet, id eum justo fierent platonem, tantas iriure interpretaris nec in. Sensibus convenire splendide eu nec, posse summo euismod te qui.</p>
-            </div>
-          </div>
-        </section> 
-*/}}
         <section class="grid items-start gap-10 lg:gap-20 md:grid-cols-2 section--lg">
           <div class="relative md:order-1">
             {{ partial "image" (dict 
@@ -49,7 +12,7 @@
             ) }}
             <div class="absolute z-10 text-buff bottom-10 left-10">
               <article>
-                <h3 class="text-3xl h1">93.6</h3>
+                <h3 class="text-3xl h1">87.4</h3>
                 <p class="mt-5">B Impact Assessment Score</p>
               </article>
             </div>
@@ -77,8 +40,8 @@
               <li>create a material positive impact on society and the environment through our business operation</li>
               <li>consider all stakeholders (not just shareholders) when making business decisions. These stakeholders include our team, our suppliers, the environment and society as a whole.</li>
             </ul>
-            <p>To certify, B Corporations are required to go through a “B Impact Assessment” and gain a score of over 80 points, verified by B Lab analysts.
-	          <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind/" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a>.</p>
+            <p>To certify, B Corporations are required to go through a “B Impact Assessment” and gain a score of over 80 points, verified by B Lab analysts. In our two certification processes, 
+	          <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind/" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a> and 87.4.</p>
             <p>Additionally, B Lab found that Kind has an Impact Business Model due to our support for purpose-driven enterprises. A company with an Impact Business Model is intentionally designed to create a specific positive outcome for one its stakeholders.</p>
             <h3>What else can we do?</h3>
             <p>B Impact Assessments happen every 3 years, and we’re in the process of making improvements to our business that will hopefully increase our score and, more importantly, increase our positive impact.</p>
@@ -94,7 +57,7 @@
             ) }}
             <div class="absolute z-10 text-buff bottom-10 left-10">
               <article>
-                <h3 class="text-3xl h1">&pound;23k</h3>
+                <h3 class="text-3xl h1">&pound;31k</h3>
                 <p class="mt-5">Donated value since 2014</p>
               </article>
             </div>
@@ -123,7 +86,7 @@
                   <a href="https://www.sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
                   since 2018, supporting their work to end sewage and plastic pollution in our oceans.</p>
                 <p>Over the last three financial years, we have donated 28% of our profits and 136 hours of our times to charitable causes. That equates to a donated value of more than £15,000.</p>
-                <p>Since 2014, our donated value is more than £23,000.</p>
+                <p>Since 2014, our donated value is more than £31,000.</p>
               </div>
               <div class="flex flex-wrap gap-5 mt-10 lg:gap-10">
                 
@@ -142,7 +105,8 @@
           </div>
 
           <ul class="mt-10 list-none">
-            {{ range where site.RegularPages "Section" "impact-reports" }}
+              {{ range (where site.RegularPages "Section" "impact-reports").ByDate }}
+
               <li>
                 {{ partial "teaser" . }}
               </li>
