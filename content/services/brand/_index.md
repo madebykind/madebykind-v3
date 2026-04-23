@@ -82,8 +82,8 @@ process:
 
 # Related content
 related_work:
-  - work/base51
-  - work/chapter
+  - work/papyrus
+  - work/plan-vivo
 related_posts:
   - branding-sustainability-without-the-greenwash
   - brand-strategy-make-an-impact
