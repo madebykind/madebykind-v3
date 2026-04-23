@@ -140,7 +140,7 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
-{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
+{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations_new.jpg" >}}
 
 
 {{< multi-image
