@@ -126,6 +126,10 @@ teaser_subheading: Digital deep-dive
 {{< blockquote author="Mat Hayward" role="Partnerships Director, Kind" wrapperclass="py-16" align="left">}}The Papyrus website will be used by people experiencing the hardest moments of their lives. Whether that’s young people in crisis, parents who do not know where to turn or people experiencing grief they never prepared for. That’s shaped every decision we’ve made, from structure to content and design details. We needed it to be clear, calm and easy to navigate without the person using it having to work too hard. Knowing how someone might be feeling when using the website, gave us a real focus throughout the project.{{</ blockquote >}}
 
 
+{{< figure alt="Papyrus event page on a laptop, on a table" src="work_papyrus_laptop.jpg" align="left" wrapperclass="pb-10 lg:pb-20 xl:pb-30">}}
+
+
+
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">

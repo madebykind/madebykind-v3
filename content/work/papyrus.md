@@ -47,7 +47,10 @@ impact:
   img_alt: "Two people hug in a door way"
 
 # Header
-banner_type: papyrus
+#banner_type: papyrus
+banner_type: standard
+banner_img: images/work_papyrus_strapline.jpg
+banner_img_alt: "Papyrus strapline: Here for Life"
 
 # Page nav
 external_link: https://www.papyrus-uk.org/
@@ -171,7 +174,9 @@ impact_teaser:
   </div>
 </div>
 
-{{< figure alt="Papyrus logo on external sign" src="work_papyrus_sign.jpg">}}
+
+{{< animation id="anim-papyrus-logo" >}}
+
 
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
@@ -197,11 +202,6 @@ impact_teaser:
   </div>
 </div>
 
-<div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
-  <div class="col-span-full lg:col-span-8 lg:col-start-5">
-    {{< figure alt="Papyrus strapline: Here for Life" src="work_papyrus_strapline.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
-  </div>
-</div>
 
 <!-- Text right -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
