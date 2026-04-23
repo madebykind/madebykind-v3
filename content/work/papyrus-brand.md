@@ -11,14 +11,14 @@ style: subproject
 
 # Content
 heading: A brand that offers hope for everyone
-preheading: Identity, tone of voice, guidance and design
+preheading: Brand strategy, identity, tone of voice, guidance and design
 author: pam
-intro: "<p>Brand is a statement of belief. It tells the world who you are, what you stand for, and who you’re for. For an organisation like Papyrus, whose entire mission is to reach young people at their most vulnerable and give them a reason to hold on, getting that statement right is critical. The brand speaks first to the person in crisis, but it works equally hard for the people around them: a worried parent, a frightened friend, someone who doesn’t know what to say but knows they need to do something.</p><p>The old Papyrus identity didn’t reflect the organisation Papyrus had become, or the young people they were trying to reach. It felt medical, muted and cautious. Understandable, perhaps, given the sensitivity of the subject matter, but counterproductive. Young people don’t respond to the language of medical brochures. They respond to something that feels alive, honest, and real. Our job was to build that.</p>"
+intro: "<p>Brand is a statement of belief. It tells the world who you are, what you stand for, and who you’re for. For an organisation like Papyrus, whose entire mission is to reach young people at their most vulnerable and give them a reason to hold on, getting that statement right is critical. The brand speaks first to the person in crisis, but it works equally hard for the people around them: a worried parent, a frightened friend, someone who doesn’t know what to say but knows they need to do something.</p>"
 
 # Header
 banner_type: standard
-banner_img: images/work_papyrus_posters_2.jpg
-banner_img_alt: "A man walking past 3 Papyrus posters"
+banner_img: images/work_papyrus_banner.jpg
+banner_img_alt: "Papyrus building banner"
 
 # Page nav
 parent: work/papyrus
@@ -30,10 +30,20 @@ teaser_subheading: Brand deep-dive
 
 ---
 
+<!-- Text left -->
+<div class="w-full grid grid-cols-12 items-center gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
+  <div class="prose col-span-full lg:col-span-8">
+
+  The old Papyrus identity didn’t reflect the organisation Papyrus had become, or the young people they were trying to reach. It felt medical, muted and cautious. Understandable, perhaps, given the sensitivity of the subject matter, but counterproductive. Young people don’t respond to the language of medical brochures. They respond to something that feels alive, honest, and real. Our job was to build that.
+
+  </div>
+</div>
+
 
 <!-- Text left -->
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
+
 
   ## A brand built around hope
 
@@ -53,7 +63,7 @@ teaser_subheading: Brand deep-dive
 </div>
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
-  <div class="col-span-full lg:col-span-8 lg:row-span-2 aspect-video">
+  <div class="col-span-full aspect-video">
     {{< animation id="anim-papyrus-type" >}}
   </div>
 </div>
@@ -110,7 +120,7 @@ teaser_subheading: Brand deep-dive
   src_4="images/work_papyrus_values_4.png"
   alt_4="Taking action: To get help for ourselves, or to support someone we care about, we have to be able to talk about suicide. By inviting and supporting difficult conversations, by providing a safe space to talk openly, and by showing you that you’re never, ever alone, we’re helping people overcome the shame and fear that blocks the way."
   type="snap"
-  speed="2000" >}}
+  speed="1000" >}}
 </div>
 
 
@@ -130,13 +140,13 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
-{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations.jpg" >}}
+{{< figure alt="Pages from Papyrus brand guidelines document" src="work_papyrus_brand_foundations_new.jpg" >}}
 
 
 {{< multi-image
-  src_1="images/work_papyrus_pullup_1.jpg" alt_1="Papyrus pull up banner"
-  src_2="images/work_papyrus_coffee.jpg" alt_2="Papyrus coffee cups"
-  src_3="images/work_papyrus_cycling_1.png" alt_3="Papyrus cycling jersey"
+  src_1="images/work_papyrus_brand_8.jpg" alt_1="A young woman is sat against a wall, shielding her face from the sun" class_1="w-full h-full object-cover" img_class_1="w-full h-full object-cover"
+  src_2="images/work_papyrus_pullup_1.jpg" alt_2="Papyrus pull up banner"
+  src_3="images/work_papyrus_cycling_1.png" alt_3="Papyrus cycling jersey" class_3="bg-[#f1e5cb] items-center flex"
   >}}
 
 
@@ -167,7 +177,7 @@ teaser_subheading: Brand deep-dive
   src_1="images/work_papyrus_bus_stop.jpg" alt_1="Papyrus poster at a bus stop"
   >}}
 
-{{< figure alt="Papyrus building banner" src="work_papyrus_banner.jpg">}}
+{{< figure alt="3 Papyrus posters" src="work_papyrus_posters.jpg">}}
 
 
 
@@ -190,11 +200,11 @@ teaser_subheading: Brand deep-dive
   </div>
 </div>
 
-{{< figure alt="Papyrus suicide safety plan document" src="work_papyrus_plan.jpg">}}
+{{< figure alt="Papyrus suicide safety plan document" src="work_papyrus_plan.jpg" align="left">}}
 
 {{< multi-image
-  src_2="images/work_papyrus_leaflet.jpg" alt_2="Papyrus leaflet titled: 'Are you woored about someone?'"
   src_1="images/work_papyrus_spread.jpg" alt_1="Internal spread from a Papyrus document"
+  src_2="images/work_papyrus_leaflet.jpg" alt_2="Papyrus leaflet titled: 'Are you woored about someone?'" class_2="w-full h-full object-cover" img_class_2="w-full h-full object-cover"
   >}}
 
 <!-- Text left -->
