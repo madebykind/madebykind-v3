@@ -49,7 +49,18 @@ related_posts:
 
   Content strategy is the process of working out what your organisation should be saying and how that connects to what you're trying to achieve. A good content strategy gives your team a shared roadmap, ensuring your communications are purposeful and tied to clear goals.
 
-  The process begins with an audit of your existing content to understand what's working and where the gaps are. From there, we establish clear goals aligned to your wider strategy, define your audiences and how different content serves different groups, then build a realistic plan covering what to publish and when, with clear ownership across your team. A measurement framework sits alongside that, so you can track what's having an impact.
+![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+
+{{< /split >}}
+
+{{< split orientation="right" >}}
+
+  ## Starting with what you already have
+
+  Most organisations have more content than they realise, spread across channels that have grown over time without a clear plan behind them. A content audit brings that picture into focus, giving you a clear view of what you have and an honest assessment of how well it's serving your audiences.
+
+
+  From there, we establish clear goals aligned to your wider strategy, define your audiences and how different content serves different groups, then build a plan covering what to publish and when, with clear ownership across your team.
 
 ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
