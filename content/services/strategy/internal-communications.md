@@ -33,7 +33,8 @@ process:
 
 # Related
 related_work:
-related_posts:
+  - work/papyrus
+  - work/nottingham-trent-university
 ---
 
 <div class="section--lg">
