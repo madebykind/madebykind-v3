@@ -24,7 +24,7 @@ related_posts:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## More than a logo
 
@@ -32,7 +32,7 @@ related_posts:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
 
 
@@ -52,7 +52,7 @@ related_posts:
   perrow="3">}}
 
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## Why visual identity is important
 
@@ -60,6 +60,6 @@ related_posts:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
 </div>

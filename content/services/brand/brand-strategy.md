@@ -25,14 +25,14 @@ related_posts:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## What is brand strategy?
 
   Brand strategy gets to the heart of your organisation. What you believe, why you exist, and how you want to be known. It builds a framework for everything that follows.
 
   
-  It shapes how your organisation communicates and how your audiences experience you, from your tone of voice and visual identity to every touchpoint in between.
+  It shapes how your organisation communicates and how your audiences experience you, from your [tone of voice](/services/brand/tone-of-voice) and [visual identity](/services/brand/visual-identity) to every touchpoint in between.
 
   
   In practice, it means your team knows how to talk about what you do, your audiences understand why you exist, and every piece of communication feels like it comes from the same place.
@@ -42,9 +42,9 @@ related_posts:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
   ## Finding your position
 
@@ -57,9 +57,9 @@ related_posts:
   Done well, brand strategy can reposition an organisation entirely. It changes how your audiences see you and gives your team the language and confidence to communicate your impact clearly.
 
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## It's not just for big organisations
 
@@ -73,7 +73,7 @@ related_posts:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
 
 
@@ -95,7 +95,7 @@ related_posts:
   perrow="3">}}
 
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## Why brand strategy is important
 
@@ -107,6 +107,6 @@ related_posts:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
 </div>

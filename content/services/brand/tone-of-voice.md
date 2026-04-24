@@ -21,7 +21,7 @@ related_work:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## What is tone of voice?
 
@@ -32,9 +32,9 @@ related_work:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
   ## It starts with your audiences
 
@@ -44,7 +44,7 @@ related_work:
 
   What stays constant is your voice. Unified, recognisable, and true to your values. The tone adapts to suit who you are speaking to and why, but the personality never changes.
 
-{{% /split %}}
+{{< /split >}}
 
 
 
@@ -61,7 +61,7 @@ related_work:
   item_4_description="A practical reference that gives anyone writing for your organisation the direction they need. Real examples, clear dos and don'ts, and guidance on how to create content that stays true to your brand.">}}
 
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## Why tone of voice is important
 
@@ -69,6 +69,6 @@ related_work:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
 </div>

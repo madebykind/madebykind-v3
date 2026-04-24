@@ -21,7 +21,7 @@ related_work:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## What is a content management system?
   
@@ -33,15 +33,15 @@ related_work:
 
   ![A website being edited in Craft CMS, on a laptop screen, photograph taken over someones shoulder](https://madebykind.imgix.net/rwb-cms.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
 ## Maintaining consistency
 
 Good content management also helps to maintain consistency. By setting clear structures for different content types, everything from articles to events can be created with the right format and presentation. This not only keeps things looking coherent but also makes it easier to reuse content across different parts of a site.
 
-{{% /split %}}
+{{< /split >}}
 
 </div>
 

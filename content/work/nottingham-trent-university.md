@@ -6,6 +6,7 @@ title: University digital strategy and design system delivery, NTU
 description: A user-centred realignment of the University of the Year’s website
 sector: for-people
 topics:
+  - services/strategy/user-research
   - services/strategy/digital-strategy
   - services/digital/user-centred-design
   - services/digital/design-systems

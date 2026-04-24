@@ -21,15 +21,15 @@ related_work:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## What is art direction?
 
-  Art direction gives your brand a consistent visual identity in imagery and motion. It defines the overarching style that runs through all your visual content, from the tone and mood of your photography to the composition, lighting and colour treatment that makes everything feel cohesive and considered. Every decision connects directly back to your brand strategy.
+  Art direction gives your brand a consistent [visual identity](/services/brand/visual-identity) in imagery and motion. It defines the overarching style that runs through all your visual content, from the tone and mood of your photography to the composition, lighting and colour treatment that makes everything feel cohesive and considered. Every decision connects directly back to your [brand strategy](/services/brand/brand-strategy).
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
 
 
@@ -46,7 +46,7 @@ related_work:
   item_4_description="Clear guidance on how to apply your visual style across all channels, so your team and any future collaborators produce imagery that stays true to your brand." >}}
 
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
@@ -56,6 +56,6 @@ related_work:
   Audiences encounter your brand through imagery before they read your content. Strong art direction builds trust, creates recognition, and gives your organisation a visual presence that is consistent and considered wherever it appears.
 
 
-{{% /split %}}
+{{< /split >}}
 
 </div>

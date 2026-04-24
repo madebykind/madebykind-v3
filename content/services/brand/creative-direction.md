@@ -24,7 +24,7 @@ related_posts:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## What is creative direction?
 
@@ -38,9 +38,9 @@ related_posts:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
   ## Rooted in strategy, not trends
 
@@ -50,9 +50,9 @@ related_posts:
 
   Good creative direction starts with your organisation, your audiences, and your sector. It asks what is right for you, not what is popular right now. The result is a brand that feels genuinely yours, stands apart from others in your space, and stays relevant for the long term.
 
-  Linking creative direction to strategy means every decision has a reason. Colour, typography, imagery and tone are grounded in what your brand needs to achieve. Your team understands it. Your audiences feel it.
+  Linking creative direction to [strategy](/services/brand/brand-strategy) means every decision has a reason. Colour, typography, imagery and tone are grounded in what your brand needs to achieve. Your team understands it. Your audiences feel it.
 
-{{% /split %}}
+{{< /split >}}
 
 
 
@@ -69,7 +69,7 @@ related_posts:
   item_4_description="How your brand looks and feels whether someone encounters you online, in print, or at an event." >}}
 
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## Why creative direction is important
 
@@ -79,6 +79,6 @@ related_posts:
 
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
 </div>

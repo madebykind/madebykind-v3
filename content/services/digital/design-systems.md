@@ -22,7 +22,7 @@ related_posts:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## What is design system?
   
@@ -36,9 +36,9 @@ related_posts:
 
   ![Components of the Rivers Trust website](https://madebykind.imgix.net/work-rivers-trust-components-2.png)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
 ## They're not for everyone
 
@@ -58,7 +58,7 @@ But, organisations with an array of different design outputs, both online and of
   <li><a href="https://atlassian.design/" target="_blank">Atlassian Design System</a></li>
 </ul>
 
-{{% /split %}}
+{{< /split >}}
 
 </div>
 
