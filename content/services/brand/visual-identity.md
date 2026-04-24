@@ -54,7 +54,7 @@ related_posts:
 
 {{% split orientation="left" %}}
 
-  ## Why visual identity matters
+  ## Why visual identity is important
 
   Your audiences form an impression of your organisation before they engage with your work. A strong visual identity shapes that impression on your terms. It builds trust, signals credibility, and gives your communities a reason to take you seriously.
 

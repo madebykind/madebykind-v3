@@ -51,7 +51,7 @@ related_work:
   ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
 
-  ## Why art direction matters
+  ## Why art direction is important
 
   Audiences encounter your brand through imagery before they read your content. Strong art direction builds trust, creates recognition, and gives your organisation a visual presence that is consistent and considered wherever it appears.
 

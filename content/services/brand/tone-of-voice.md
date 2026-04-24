@@ -63,7 +63,7 @@ related_work:
 
 {{% split orientation="left" %}}
 
-  ## Why tone of voice matters
+  ## Why tone of voice is important
 
   Purpose-driven organisations have powerful stories to tell. A strong tone of voice is how those stories reach the right people. It builds trust before someone has met you, makes even complex ideas feel accessible, and gives your audiences a reason to move from interest to action.
 
