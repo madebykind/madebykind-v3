@@ -30,7 +30,7 @@ related_work:
   
   Done well, it can reposition an organisation entirely. Not just changing how audiences perceive you, but how clearly your mission comes across and how deeply people engage with your work.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Papyrus internal values](https://madebykind.imgix.net/tone_of_voice_03.jpg)
 
 {{< /split >}}
 
@@ -38,7 +38,7 @@ related_work:
 
   ## It starts with your audiences
 
-  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
+  ![Three people sitting around a wooden table, looking at a tablet and laptop with audience data](https://madebykind.imgix.net/tone_of_voice_01.jpg)
 
   Good tone of voice starts with understanding the people you need to reach. Their world, their concerns, and what they need from you. Every organisation has multiple audiences, each with different motivations and different questions. Your language needs to speak to all of them.
 
@@ -67,7 +67,7 @@ related_work:
 
   Purpose-driven organisations have powerful stories to tell. A strong tone of voice is how those stories reach the right people. It builds trust before someone has met you, makes even complex ideas feel accessible, and gives your audiences a reason to move from interest to action.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  !['Here for Life' strapline on a tablet device](https://madebykind.imgix.net/tone_of_voice_02.jpg)
 
 {{< /split >}}
 

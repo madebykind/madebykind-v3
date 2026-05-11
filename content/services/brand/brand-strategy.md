@@ -40,7 +40,7 @@ related_posts:
   
   The best brand strategies are built from the inside out. They start with honest questions. Why do you exist? Who are you for? What do you believe? The answers work outward to the things people see and hear.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Kind team in a strategy session](https://madebykind.imgix.net/brand_strategy_01.jpg)
 
 {{< /split >}}
 
@@ -48,7 +48,7 @@ related_posts:
 
   ## Finding your position
 
-  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
+  ![Plan Vivo brand guidelines](https://madebykind.imgix.net/brand_strategy_03.png)
 
   The most valuable thing brand strategy does is locate you. It uncovers what is genuinely distinctive about your organisation, the space you can own in your sector that no one else can occupy.
 
@@ -71,7 +71,7 @@ related_posts:
   
   We'll always recommend what your organisation actually needs. Not every project requires a full discovery process, and we'll tell you that honestly.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Chapter brand values](https://madebykind.imgix.net/brand_strategy_05.jpg)
 
 {{< /split >}}
 
@@ -105,7 +105,7 @@ related_posts:
 
   For purpose-driven organisations, clarity is everything. Audiences need to understand who you are, and they often need to understand it quickly. A strong brand strategy gives your team a shared language, and your audiences a clear reason to engage.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Key messages](https://madebykind.imgix.net/brand_strategy_04.jpg)
 
 {{< /split >}}
 

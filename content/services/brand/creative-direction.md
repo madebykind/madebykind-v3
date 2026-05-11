@@ -36,7 +36,7 @@ related_posts:
   
   The result is a brand that your team understands and your audiences recognise. Cohesive, considered, and consistent wherever it appears.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Colour pallete and a GF Smith book](https://madebykind.imgix.net/creative_direction_01.jpg)
 
 {{< /split >}}
 
@@ -44,7 +44,7 @@ related_posts:
 
   ## Rooted in strategy, not trends
 
-  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
+  ![The Wilderness Project creative direction in progress](https://madebykind.imgix.net/creative_direction_04.jpg)
 
   Trends come and go. A brand built on them goes with them.
 
@@ -77,7 +77,7 @@ related_posts:
 
   Strong creative direction makes sure the way your organisation looks reflects what it actually stands for. It builds trust quickly and gives your audiences a reason to engage from the very first impression.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Michelle and Pam chatting](https://madebykind.imgix.net/creative_direction_03.jpg)
 
 {{< /split >}}
 

@@ -48,7 +48,7 @@ related_work:
 
   Internal communications are often overlooked, but they're critical to organisational unity, particularly during periods of growth or change. Clear, consistent internal communication builds a shared understanding that holds teams together when everything else might be changing.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+![Papyrus internal comms installation](https://madebykind.imgix.net/internal_comms_01.jpg)
 
 {{< /split >}}
 
@@ -58,7 +58,7 @@ related_work:
 
   Periods of significant organisational change put internal communications under particular strain. When change is happening, your people need to feel they're being kept in the picture. A clear communications approach during these periods helps organisations maintain trust in leadership and keep people focused on their work, even when not everything can be shared straight away.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+![Papyrus internal values](https://madebykind.imgix.net/internal_comms_02.jpg)
 
 {{< /split >}}
 

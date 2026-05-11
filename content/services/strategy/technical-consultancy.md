@@ -43,17 +43,11 @@ related_work:
 
   Technical consultancy is the advice and guidance that sits around your digital infrastructure. It covers platform and CMS decisions and system integrations, as well as troubleshooting existing setups, with recommendations grounded in what's right for you within your budget and your team's capacity to manage it.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
-
-{{< /split >}}
-
-{{< split orientation="right" >}}
-
-## A critical friend through the process
-
-  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
+  ## A critical friend through the process
 
   We start by understanding your goals and the constraints you're working within, then review your current technology choices. From there, we provide clear guidance on your options with straightforward recommendations. Where it's useful, we stay involved through implementation as a critical friend, helping you navigate decisions as they arise.
+
+![Mat and Michelle chatting](https://madebykind.imgix.net/technical_consultancy_01.jpg)
 
 {{< /split >}}
 

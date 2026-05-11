@@ -49,7 +49,7 @@ related_posts:
 
   A marketing strategy is a clear, practical plan that sets out how your organisation will reach the people it needs to reach, what it will say to them and whether that's working. It starts with your mission and goals, working outward to understand your audiences, where to find them and what will resonate.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+![Michelle and Pam chatting](https://madebykind.imgix.net/marketing_strategy_01.jpg)
 
 {{< /split >}}
 
@@ -57,7 +57,7 @@ related_posts:
 
 ## Grounded in your current position
 
-  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
+  ![A SWOT analysis on a tablet device](https://madebykind.imgix.net/marketing_strategy_02.jpg)
 
   The process begins with an honest assessment of where your organisation currently stands, including a SWOT analysis to sharpen that picture. From there, we develop clear goals and the messages most likely to resonate with your audiences, then identify the channels and tactics best placed to deliver results. A measurement framework runs alongside the plan so your team can track progress and adjust as needed.
 

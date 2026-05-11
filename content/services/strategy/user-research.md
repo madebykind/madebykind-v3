@@ -51,7 +51,7 @@ related_posts:
 
   Most organisations arrive at a new project carrying assumptions about their audiences that haven't been tested. Research works through them systematically, replacing guesswork with evidence, and the findings create a shared understanding across your organisation of what your audiences need and how that should guide your decisions.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+![Mat and Michelle chatting](https://madebykind.imgix.net/user_research_01.jpg)
 
 {{< /split >}}
 
@@ -59,7 +59,7 @@ related_posts:
 
 ## Validating what you think you know
 
-  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
+  ![Mat and Michelle in a research session](https://madebykind.imgix.net/user_research_02.jpg)
 
   The process starts by reviewing existing documentation and speaking with key stakeholders, before exploring audience groups and their needs in more depth. Depending on the scope, this is validated through interviews, workshops or surveys.
 

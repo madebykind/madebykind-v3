@@ -51,7 +51,7 @@ related_posts:
 
   It covers everything from your website and social channels to the internal tools and systems your team relies on. The goal is a clear digital direction your whole organisation can work from, along with a phased roadmap for getting there.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+![Mat and Michelle running a strategy session](https://madebykind.imgix.net/digital_strategy_01.jpg)
 
 {{< /split >}}
 
@@ -59,7 +59,7 @@ related_posts:
 
 ## Grounded in what you actually need
 
-  ![Three people sitting around a wooden table, looking at a tablet and laptop with Backlit Gallery website designs](https://madebykind.imgix.net/strategy-image-kind-site-2.jpg)
+  ![Mat and Pam chatting](https://madebykind.imgix.net//digital_strategy_02.jpg)
 
   The process starts by understanding your organisational goals and reviewing your current digital activity. From there, we define a clear direction, setting out what you want to achieve digitally and for whom, and what that means for how you use digital going forward. That gets translated into a phased transformation roadmap with practical recommendations, and where relevant we can support with platform selection too.
 

@@ -30,7 +30,7 @@ related_posts:
 
   Visual identity is everything that makes your organisation look like itself. The mark on your letterhead, the colours on your website, the typeface that carries your words. Your logo is part of that system, but it's only the beginning.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Plan Vivo business cards](https://madebykind.imgix.net/visual_identity_02.jpg)
 
 {{< /split >}}
 
@@ -58,7 +58,7 @@ related_posts:
 
   Your audiences form an impression of your organisation before they engage with your work. A strong visual identity shapes that impression on your terms. It builds trust, signals credibility, and gives your communities a reason to take you seriously.
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Papyrus outdoor banner](https://madebykind.imgix.net/visual_identity_04.jpg)
 
 {{< /split >}}
 

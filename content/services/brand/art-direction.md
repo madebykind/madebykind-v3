@@ -27,7 +27,7 @@ related_work:
 
   Art direction gives your brand a consistent [visual identity](/services/brand/visual-identity) in imagery and motion. It defines the overarching style that runs through all your visual content, from the tone and mood of your photography to the composition, lighting and colour treatment that makes everything feel cohesive and considered. Every decision connects directly back to your [brand strategy](/services/brand/brand-strategy).
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Rob and Pam chatting at a photoshoot](https://madebykind.imgix.net/art_direction_01.jpg)
 
 {{< /split >}}
 
@@ -48,7 +48,7 @@ related_work:
 
 {{< split orientation="right" >}}
 
-  ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+  ![Art Direction moodboard](https://madebykind.imgix.net/art_direction_02.jpg)
 
 
   ## Why art direction is important

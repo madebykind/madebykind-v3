@@ -49,7 +49,7 @@ related_posts:
 
   Content strategy is the process of working out what your organisation should be saying and how that connects to what you're trying to achieve. A good content strategy gives your team a shared roadmap, ensuring your communications are purposeful and tied to clear goals.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+![Mockup of content boilerplate](https://madebykind.imgix.net/content_strategy_01.jpg)
 
 {{< /split >}}
 
@@ -62,7 +62,7 @@ related_posts:
 
   From there, we establish clear goals aligned to your wider strategy, define your audiences and how different content serves different groups, then build a plan covering what to publish and when, with clear ownership across your team.
 
-![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
+![Laptop with content guidelines](https://madebykind.imgix.net/content_strategy_02.jpg)
 
 {{< /split >}}
 
