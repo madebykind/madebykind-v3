@@ -45,7 +45,7 @@ banner_type: chapter
 
 # Page nav
 toc: true
-external_link: https://chapter.org.uk
+external_link: https://chapter.org
 
 # Teaser content
 cover_img: images/strategy-notes.jpg

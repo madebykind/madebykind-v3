@@ -6,6 +6,7 @@ title: Strategy, brand development and delivery for Papyrus
 description: Website, brand strategy and visual identity to help prevent young suicide
 sector: for-people
 topics:
+  - services/strategy/marketing-strategy
   - services/strategy/digital-strategy
   - services/strategy/content-strategy
   - services/strategy/internal-communications

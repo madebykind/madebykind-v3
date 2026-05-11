@@ -1,43 +1,65 @@
 ---
 # Meta
 date: 2020-04-30T17:28:36.948Z
-weight: 5
+weight: 3
 title: Visual identity
-listonly: true
-_build:
-  render: never
-description: Design styling for recognition, conveying values, and establishing trust through consistent elements for a strong brand presence.
+description: Visual identity is the visible expression of your brand. It's the complete set of design elements that make your organisation recognisable, consistent, and credible across every touchpoint.
 
 # Header
 header_class: bg-sky text-green
 heading: Visual identity
-intro: Design styling for recognition, conveying values, and establishing trust through consistent elements for a strong brand presence.
+intro: Visual identity is the visible expression of your brand. It's the complete set of design elements that make your organisation recognisable, consistent, and credible across every touchpoint.
 cover_img: 
 cover_img_alt: 
 
-# Process
-process:
-  heading: How it works
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  items:
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-    - heading: Subtitle lorem ipsum dolor sit amet
-      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>"
-  block_class: bg-indigo text-buff
-  highlight_class: text-teal
-  border_class: border-buff
-
 # Related
 related_work:
+  - work/papyrus
   - work/base51
-  - work/hispanists
 related_posts:
-
+  - blog/branding-sustainability-without-the-greenwash
+  - blog/the-influence-of-brands-for-social-and-environmental-impact
 ---
+
+
+<div class="section--lg">
+
+{{< split orientation="left" >}}
+
+  ## More than a logo
+
+  Visual identity is everything that makes your organisation look like itself. The mark on your letterhead, the colours on your website, the typeface that carries your words. Your logo is part of that system, but it's only the beginning.
+
+  ![Plan Vivo business cards](https://madebykind.imgix.net/visual_identity_02.jpg)
+
+{{< /split >}}
+
+
+
+{{< breakdown
+  block_class="bg-teal text-blue bleed"
+  heading="What visual identity includes"
+  item_1_heading="Logo design"
+  item_1_description="Your logo is the cornerstone of your visual identity. It might be a wordmark, where your organisation's name is set in a carefully chosen typeface. It might be a symbol or icon that works alongside or independently of your name. In some cases, a brand needs a logo system with variations to suit different executions and formats."
+  item_2_heading="Colour palette"
+  item_2_description="Primary and secondary colours that reflect your brand's personality and work consistently across print and digital."
+  item_3_heading="Typography"
+  item_3_description="A type system that creates clarity and hierarchy across all your communications, on screen and in print."
+  item_4_heading="Design system"
+  item_4_description="The rules and guidance that hold everything together, so anyone creating communications for your organisation does so with confidence and consistency."
+  item_5_heading="Icons and illustrations"
+  item_5_description="Supporting visual elements that extend your brand's language, add personality, and aid comprehension across a wider range of contexts."
+  perrow="3">}}
+
+
+{{< split orientation="left" >}}
+
+  ## Why visual identity is important
+
+  Your audiences form an impression of your organisation before they engage with your work. A strong visual identity shapes that impression on your terms. It builds trust, signals credibility, and gives your communities a reason to take you seriously.
+
+  ![Papyrus outdoor banner](https://madebykind.imgix.net/visual_identity_04.jpg)
+
+{{< /split >}}
+
+</div>

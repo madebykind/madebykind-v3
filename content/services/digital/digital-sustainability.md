@@ -22,7 +22,7 @@ related_posts:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## Making the ethical choice
 
@@ -32,9 +32,9 @@ related_posts:
 
   ![Hands using a mobile phone on a dark background](https://madebykind.imgix.net/gilles-lambert-pb_lF8VWaPU-unsplash.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
   ## Digital sustainability is good practice
 
@@ -45,9 +45,9 @@ related_posts:
 
   The desire to deliver immersive, animated online experiences is understandable, but often this requires the use of heavy Javascript libraries, autoplaying videos and a large number of media and font files. All of which increase energy consumption.
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## A balancing act
 
@@ -58,12 +58,12 @@ related_posts:
 
   Instead making conscious decisions on colours, typography and content while knowing the potential impact forces us at least consider counteracting this with real-world activity such as supporting conservation projects or advocating for improved infrastructure.
 
-{{% /split %}}
+{{< /split >}}
 
 </div>
 
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
   ## Measuring a websites carbon footprint
 
@@ -74,7 +74,7 @@ related_posts:
 
   This website, like many of our clients' websites, has been independently audited by the <a href="https://ecofriendlyweb.org/" target="_blank">Eco-Friendly Web Alliance</a>.
 
-{{% /split %}}
+{{< /split >}}
 
 </div>
 

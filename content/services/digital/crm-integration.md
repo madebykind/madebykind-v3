@@ -22,7 +22,7 @@ related_work:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## Connecting systems for better relationships
 
@@ -34,9 +34,9 @@ related_work:
 
   ![A lone figure walks on a balcony in a modern building](https://madebykind.imgix.net/crm.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
 ## They're not for everyone
 
@@ -44,7 +44,7 @@ related_work:
 
 Integrating a CRM with your website can be complex and expensive, and is most beneficial when organisations need to manage a significant volume of interactions. For a smaller organisation with straightforward needs, the cost and effort may not be justified. But for those handling large audiences and multiple channels of communication, the benefits can be substantial.
 
-{{% /split %}}
+{{< /split >}}
 
 </div>
 

@@ -43,7 +43,7 @@ related_posts:
 
 <div class="section--lg">
 
-{{% split orientation="left" %}}
+{{< split orientation="left" >}}
 
   ## What is user-centred design?
   
@@ -55,9 +55,9 @@ related_posts:
 
 ![Mat and Pam chatting](https://madebykind.imgix.net/mat-pam-chat.jpg)
 
-{{% /split %}}
+{{< /split >}}
 
-{{% split orientation="right" %}}
+{{< split orientation="right" >}}
 
 ## User-Centred Design for Digital Projects
 
@@ -70,7 +70,7 @@ Starting by understanding users, their needs and how they align with an organisa
 These features are then developed iteratively and evaluated with real users as they grow from a rough concept to a completed feature ready to be released into the wild.
 
 
-{{% /split %}}
+{{< /split >}}
 
 </div>
 
