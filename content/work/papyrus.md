@@ -286,4 +286,4 @@ impact_teaser:
 </div>
 
 
-{{< blockquote author="Ged Flynn" role="Chief Executive, papyrus" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}What began as a conversation about a new website became something much bigger – a full repositioning of how Papyrus presents itself to the world. Kind brought strategic focus, creative ambition and a genuine understanding of what's at stake if we get this wrong. I’m proud of what we've created together.{{</ blockquote >}}
+{{< blockquote author="Ged Flynn" role="Chief Executive, Papyrus" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}What began as a conversation about a new website became something much bigger – a full repositioning of how Papyrus presents itself to the world. Kind brought strategic focus, creative ambition and a genuine understanding of what's at stake if we get this wrong. I’m proud of what we've created together.{{</ blockquote >}}
