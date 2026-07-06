@@ -31,7 +31,7 @@ Use this planner when a project is agreed but there are still important question
   description="or let us know your email address and we’ll send you the planner along with some tips for how to use it."
   url=""
   file_url="https://mcusercontent.com/7a49f87afb625e8dd4de9d9fa/files/92a910fd-791a-602a-a344-6c0d82e0eff7/Project_Discovery_Planner.pdf"
-  src="images/driving-change.png"
+  src="images/true-to-who-we-are-v2.png"
   purposes="sending the Project Discovery Planner and advice on how to use it"
   tag="3959875"
   bg_class="pb-12"
