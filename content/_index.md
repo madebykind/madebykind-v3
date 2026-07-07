@@ -44,4 +44,5 @@ tools:
   - tools/strategy-kickstart-canvas
   - tools/project-readiness-checklist
   - tools/project-discovery-planner
+  - tools/brand-strategy-gap-finder
 ---
