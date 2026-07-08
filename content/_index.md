@@ -45,4 +45,5 @@ tools:
   - tools/project-readiness-checklist
   - tools/project-discovery-planner
   - tools/brand-strategy-gap-finder
+  - tools/digital-strategy-gap-finder
 ---

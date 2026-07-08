@@ -26,7 +26,7 @@ Use this checklist on your own or with your team to see where your brand strateg
   heading="Download the Brand Strategy Gap-Finder"
   description="or let us know your email address and we’ll send you the checklist along with some tips for how to use it."
   url=""
-  file_url="https://mcusercontent.com/7a49f87afb625e8dd4de9d9fa/files/3ea0ac21-df5e-7080-abf4-7a72d10c15fd/Brand_Strategy_Gap_Finder.pdf"
+  file_url="https://mcusercontent.com/7a49f87afb625e8dd4de9d9fa/files/5a408851-1667-4651-2e0c-60050ac51364/Digital_Strategy_Gap_Finder.pdf"
   src="images/illustration-empower-change-v2.png"
   purposes="sending the Brand Strategy Gap-finder and advice on how to use it"
   tag="3960235"

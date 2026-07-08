@@ -1,7 +1,7 @@
 
   <article class="h-full">
     <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
-      <div class="overflow-hidden relative aspect-4/3 2xl:aspect-3/4
+      <div class="overflow-hidden relative aspect-4/3 2xl:aspect-square
         {{ with .Params.card_colour }}
           {{ . }}
         {{ end }}
