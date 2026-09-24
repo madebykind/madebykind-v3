@@ -56,10 +56,10 @@ teaser:
       icon: unesco-logo
     - name: Rewilding Britain
       icon: rwb-logo
-    #- name: Artswork
-    #  icon: logo-artswork
-    - name: Papyrus
-      icon: logo-papyrus
+    - name: Artswork
+      icon: logo-artswork
+    #- name: Papyrus
+    #  icon: logo-papyrus
     - name: The V&A
       icon: va-logo
     - name: The Rivers Trust

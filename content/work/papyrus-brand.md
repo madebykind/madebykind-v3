@@ -13,7 +13,7 @@ style: subproject
 heading: A brand that offers hope for everyone
 preheading: Brand strategy, identity, tone of voice, guidance and design
 author: pam
-intro: "<p>Brand is a statement of belief. It tells the world who you are, what you stand for, and who you’re for. For an organisation like Papyrus, whose entire mission is to reach young people at their most vulnerable and give them a reason to hold on, getting that statement right is critical. The brand speaks first to the person in crisis, but it works equally hard for the people around them: a worried parent, a frightened friend, someone who doesn’t know what to say but knows they need to do something.</p>"
+intro: "<p>Brand is a statement of belief. It tells the world who you are, what you stand for, and who you’re for. For an organisation like Papyrus, whose entire mission is to reach young people at their most vulnerable and give them a reason to hold on, getting that statement right is critical. The brand spoke first to the person in crisis, but it works equally hard for the people around them: a worried parent, a frightened friend, someone who doesn’t know what to say but knows they need to do something.</p>"
 
 # Header
 banner_type: standard
@@ -27,6 +27,8 @@ parent: work/papyrus
 cover_img: images/work_papyrus_posters_2.jpg
 cover_img_alt: "A man walking past 3 Papyrus posters"
 teaser_subheading: Brand deep-dive
+
+note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
 
 ---
 
@@ -104,7 +106,7 @@ teaser_subheading: Brand deep-dive
   We started with the foundations. A new strapline, brand vision, manifesto and values, built to reflect the organisation Papyrus had become and to anchor everything that followed. From there, we developed a tone of voice framework that gives the Papyrus team real tools, not just principles. That meant content hierarchies that show how to structure information for different audiences, clear do’s and don’ts, and specific guidance on navigating the particular sensitivities of suicide and mental health language. The wrong word in this context can cause serious harm. Getting the language right matters enormously.
 
 
-  The framework serves five distinct audiences: young people in crisis, people worried about someone, parents and carers, professionals, and supporters. Each group needs something different from Papyrus, and the tone of voice system needed to be flexible enough to meet all four while remaining unmistakably the same brand. Extensive guidance was crafted to equip the Papyrus communications team to deliver this confidently in their day-to-day work, across every channel and context.
+  The framework served five distinct audiences: young people in crisis, people worried about someone, parents and carers, professionals, and supporters. Each group needs something different from Papyrus, and the tone of voice system needed to be flexible enough to meet all five while remaining unmistakably the same brand. Extensive guidance was crafted to equip the Papyrus communications team to deliver this confidently in their day-to-day work, across every channel and context.
 
   </div>
 </div>
