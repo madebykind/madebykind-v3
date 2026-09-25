@@ -1,7 +1,7 @@
 ---
 # Meta
 date: 2026-03-31T12:25:28.863Z
-weight: 1
+weight: 5
 title: Strategy, brand development and delivery for Papyrus
 description: Website, brand strategy and visual identity to help prevent young suicide
 sector: for-people
@@ -31,19 +31,19 @@ heading: A brand and digital transformation to save young lives
 preheading: Marketing strategy, branding and user-centred website for UK charity focused on preventing young suicide.
 intro: >
 
-  Suicide is the biggest killer of people under 35 in the UK. Papyrus believes that many of those deaths are preventable. That belief is the foundation of everything they do.
+  Suicide is the biggest killer of people under 35 in the UK. Papyrus believed that many of those deaths were preventable. That belief was the foundation of everything they did.
 
   
-  Papyrus is the UK’s leading charity dedicated to the prevention of young suicide. Through their HopeLine 24/7 service, training programmes and national campaigning work, they support young people in crisis, the people who care about them, and the professionals who work with them every day.
+  Papyrus was the UK’s leading charity dedicated to the prevention of young suicide. Through their HopeLine 24/7 service, training programmes and national campaigning work, they supported young people in crisis, the people who care about them, and the professionals who work with them every day.
 
 
-  Working with Papyrus is a reminder of why we do what we do.
+  Working with Papyrus was a reminder of why we do what we do.
 
 why:
-  text: "I've known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus give young people hope, and the space to talk openly about how they're feeling. 24 hours a day."
+  text: "I've known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus gave young people hope, and the space to talk openly about how they're feeling. 24 hours a day."
   person: mat
 impact:
-  text: 'The new Papyrus brand launched in April 2026, creating a stronger platform for conversations that save young lives.<br><br>A dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
+  text: 'The new Papyrus brand created a stronger platform for conversations that save young lives.<br><br>A dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
   img: images/work_papyrus_brand_1.jpg
   img_alt: "Two people hug in a door way"
 
@@ -54,7 +54,7 @@ banner_img: images/work_papyrus_strapline.jpg
 banner_img_alt: "Papyrus strapline: Here for Life"
 
 # Page nav
-external_link: https://www.papyrus-uk.org/
+#external_link: https://www.papyrus-uk.org/
 
 # Teaser content
 cover_img: images/work-papyrus-posters-dark.jpg
@@ -81,6 +81,8 @@ impact_teaser:
       
 # Footer override
 #footer_heading:
+
+note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
 ---
 
 
@@ -250,7 +252,7 @@ impact_teaser:
 
   ## Website
 
-  The new website reflects the strength of the brand and serves each of Papyrus’ distinct audiences: young people in crisis, parents, carers and professionals.
+  The new website reflected the strength of the brand and served each of Papyrus’ distinct audiences: young people in crisis, parents, carers and professionals.
 
 
   Particular care was taken in how content is structured and presented. The page designs, user journeys and information architecture were built around one central question: what does someone need at the moment they arrive here? For a young person in distress, that means no overwhelming page layouts, no confusing navigation, no language that adds to their anxiety. It means finding help quickly, calmly, and without having to work for it.

@@ -28,6 +28,8 @@ cover_img: images/work_papyrus_cover.jpg
 cover_img_alt: "A Papyrus report cover"
 teaser_subheading: Strategy deep-dive
 
+note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+
 ---
 
 <!-- Text left -->
@@ -39,7 +41,7 @@ teaser_subheading: Strategy deep-dive
   The first thing we did was listen. Really listen, not just to the leadership team, but to staff, volunteers, and people with lived experience of suicide and mental health crisis. We ran workshops across the organisation, and those conversations shaped everything that followed.
 
 
-  What came back was both inspiring and revealing. The people at Papyrus are deeply, genuinely committed to their mission. They know exactly why the work matters (suicide is the leading cause of death in young people under 35, and they believe many of those deaths are preventable). What was harder was translating that conviction into a brand and a digital presence that could communicate with the same clarity and urgency to the outside world.
+  What came back was both inspiring and revealing. The people at Papyrus were deeply, genuinely committed to their mission. They know exactly why the work matters (suicide is the leading cause of death in young people under 35, and they believe many of those deaths are preventable). What was harder was translating that conviction into a brand and a digital presence that could communicate with the same clarity and urgency to the outside world.
 
 
   By working closely with the marketing team and understanding goals for the future, we were able to focus on the bigger picture for Papyrus. The discovery phase gave us the evidence we needed to make the case for a much bigger piece of work. It’s one thing to say "I think you need a rebrand" - it’s another to be able to show an organisation exactly why, with the voices of their own people behind it. 

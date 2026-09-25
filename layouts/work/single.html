@@ -10,7 +10,16 @@
     {{ end }}
   </div>
 
-  <div class="container order-4">
+  {{ if .Params.note }}
+  <div class="container order-4 lg:-mt-12 lg:-mb-6">
+    <div class="bg-sky p-4 text-sm">
+      <p>{{ .Params.note | markdownify }}</p>
+    </div>
+  </div>
+  {{ end }}
+
+
+  <div class="container order-5">
     <div class="grid grid-cols-12 items-center gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 section--lg">
      
       <div class="col-span-full {{ if eq .Params.style "subproject" }}lg:col-span-8{{ else }}lg:col-span-7 xl:col-span-6{{ end }} flex flex-col gap-8 lg:gap-16">

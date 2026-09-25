@@ -28,6 +28,8 @@ cover_img: images/work_papyrus_mobile.png
 cover_img_alt: "A mobile phone on a denim jacket. The mobile phone has the Papyrus website on the screen"
 teaser_subheading: Digital deep-dive
 
+note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+
 ---
 
 <!-- Text left -->
@@ -89,7 +91,7 @@ teaser_subheading: Digital deep-dive
   One of the things I care about most on any website project is what happens after we launch. A site that depends on the agency for every update is less of a useful long-term tool and more of an ongoing liability. The Papyrus website was built with a flexible, component-based design system that gives their in-house team the confidence to publish content without breaking the brand or the user experience.
 
 
-  The system is structured around clearly defined components, each one designed, documented and tested so the team can build new pages and update existing ones in a way that stays on-brand and will give the website longevity.
+  The system was structured around clearly defined components, each one designed, documented and tested so the team can build new pages and update existing ones in a way that stays on-brand and will give the website longevity.
 
 
   </div>
@@ -112,7 +114,7 @@ teaser_subheading: Digital deep-dive
   ## Integrations that do real work
 
 
-  The website connects directly to Raiser’s Edge NXT, Papyrus’s CRM. Form submissions, fundraising event registrations and shop purchases all pass data automatically, giving the team a real, up-to-date view of their supporters and partners without any manual exporting or importing.
+  The website connected directly to Raiser’s Edge NXT, Papyrus’s CRM. Form submissions, fundraising event registrations and shop purchases all pass data automatically, giving the team a real, up-to-date view of their supporters and partners without any manual exporting or importing.
 
 
   We also integrated Mailchimp, so any form on the site can include a subscription opt-in, and built a Stripe-integrated shop giving Papyrus a direct route to generate income through merchandise and supporters a simple way to contribute to their mission.
@@ -123,7 +125,7 @@ teaser_subheading: Digital deep-dive
 
 
   
-{{< blockquote author="Mat Hayward" role="Partnerships Director, Kind" wrapperclass="py-16" align="left">}}The Papyrus website will be used by people experiencing the hardest moments of their lives. Whether that’s young people in crisis, parents who do not know where to turn or people experiencing grief they never prepared for. That’s shaped every decision we’ve made, from structure to content and design details. We needed it to be clear, calm and easy to navigate without the person using it having to work too hard. Knowing how someone might be feeling when using the website, gave us a real focus throughout the project.{{</ blockquote >}}
+{{< blockquote author="Mat Hayward" role="Partnerships Director, Kind" wrapperclass="py-16" align="left">}}The Papyrus website was to be used by people experiencing the hardest moments of their lives. Whether that’s young people in crisis, parents who do not know where to turn or people experiencing grief they never prepared for. That shaped every decision we made, from structure to content and design details. We needed it to be clear, calm and easy to navigate without the person using it having to work too hard. Knowing how someone might be feeling when using the website, gave us a real focus throughout the project.{{</ blockquote >}}
 
 
 {{< figure alt="Papyrus event page on a laptop, on a table" src="work_papyrus_laptop.jpg" align="left" wrapperclass="pb-10 lg:pb-20 xl:pb-30">}}

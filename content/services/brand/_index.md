@@ -82,8 +82,8 @@ process:
 
 # Related content
 related_work:
-  - work/papyrus
   - work/plan-vivo
+  - work/papyrus
 related_posts:
   - branding-sustainability-without-the-greenwash
   - brand-strategy-make-an-impact
@@ -117,7 +117,7 @@ teaser:
     - testimonials/plan-vivo
   projects_title: Brand projects
   projects:
-    - work/papyrus
+    - work/strongerroots
     - work/plan-vivo
   projects_link:
     title: All brand projects
