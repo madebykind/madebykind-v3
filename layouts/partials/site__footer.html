@@ -4,18 +4,18 @@
     <div class="container grid grid-cols-1 items-end gap-8 lg:grid-cols-12 section--lg">
       <div class="col-span-full lg:col-span-6 self-start">
         <h2 class="text-4xl md:text-5xl leading-heading h--condensed mb-12 max-w-cta-copy">{{ with .Params.footer_heading }} {{ . }} {{ else }} Let’s make a difference, together {{ end }}</h2>
-        {{/*<a href="#" class="btn btn--secondary--blue">
-          Download our creds
+        <a href="https://book.madebykind.com" class="btn btn--secondary--blue" target="_blank">
+          Book a call
           <svg class="w-8 h-8" viewbox="0 0 77 63" role="presentation">
             <use xlink:href="#icon-arrow"/>
           </svg>
-        </a>*/}}
+        </a>
       </div>
       <div class="col-span-full lg:col-span-5 lg:col-start-8 flex flex-col gap-4 lg:gap-12">
         <div>
           <h3 class="h--condensed text-lg mb-2">Get in touch</h3>
           <p class="leading-tight text-md max-w-cta-copy">If you put purpose before profit and need some expert guidance on brand, strategy, or digital, we’re here to help.</p>
-          <ul class="inline-flex gap-5 my-4 lg:mt-8 list-none text-md">
+          <ul class="flex flex-col gap-4 my-4 lg:mt-8 list-none text-base">
             <li class="relative inline-flex">
               <span class="sr-only">Email: </span><a href="mailto:{{.Site.Params.Email}}" rel="me">{{.Site.Params.Email}}</a>
             </li>
@@ -26,7 +26,6 @@
             */}}
           </ul>
         </div>
-        {{/*
         <div>
           <h3 class="h--condensed text-lg mb-2">Stay in the loop</h3>
           <p class="font-sans text-sm">Sign up for our quarterly email to keep up-to-date with our work and its&nbsp;impact.</p>
@@ -35,10 +34,10 @@
             "btn_text" "Subscribe"
             "btn_class" "btn--blue"
             "tag" "3959833"
+            "purposes" "sending you insights and updates about our work"
           ) }}
 
         </div>
-        */}}
       </div>
     </div>
   </div>

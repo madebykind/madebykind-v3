@@ -6,9 +6,10 @@
     "heading" "Since 2014, we've helped:"
   ) }}
   {{ partial "featured_work.html" . }}
-  {{ partial "tools-home.html" (dict
+  {{ partial "quiz.html" . }}
+  {{/* partial "tools-home.html" (dict
     "context" .
     "heading" "Start in the right place"
     "description" "Not sure what to do next? Our discovery tools can help you to work out what needs thinking through before you get started."
-  ) }}
+  ) */}}
 {{ end }}
