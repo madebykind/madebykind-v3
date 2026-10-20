@@ -30,6 +30,8 @@ module.exports = {
       'bright-green': '#006042',
       indigo: '#084059',
       orange: '#e85625',
+      // Darker orange for small text/labels: 4.6:1 against buff (orange is 3.07:1)
+      'orange-dark': '#c53400',
       pink: '#ebd6e6',
       sky: '#b6e0ee',
       teal: '#94cbb8',
