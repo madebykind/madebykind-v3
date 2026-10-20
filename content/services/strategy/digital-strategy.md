@@ -20,7 +20,7 @@ process:
     - heading: Organisational goals
       description: "<p>We start by understanding what your organisation is trying to achieve and how your current digital activity supports that.</p>"
     - heading: Channel and systems review
-      description: "<p>We review your existing digital channels and systems to build a clear picture of what you have and how well it's serving you.</p>"
+      description: "<p>We review your existing digital channels and systems to build a clear picture of what you have and how well it’s serving you.</p>"
     - heading: Defining your digital direction
       description: "<p>We define a clear digital direction, setting out what you want to achieve and for whom, and what that means for how you use digital going forward.</p>"
     - heading: Transformation roadmap

@@ -72,7 +72,7 @@ related_posts:
 
   While it’s only one consideration, it is possible to calculate the carbon emissions of a single we page view. This gives a clear indication of whether a website is sustainable and how it can be improved.
 
-  This website, like many of our clients' websites, has been independently audited by the <a href="https://ecofriendlyweb.org/" target="_blank">Eco-Friendly Web Alliance</a>.
+  This website, like many of our clients’ websites, has been independently audited by the <a href="https://ecofriendlyweb.org/" target="_blank">Eco-Friendly Web Alliance</a>.
 
 {{< /split >}}
 

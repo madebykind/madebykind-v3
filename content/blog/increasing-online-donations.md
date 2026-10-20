@@ -24,11 +24,11 @@ related_posts:
   - building-a-more-sustainable-website-architecture
   - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
 ---
-This doesn't mean that 99% of online visitors aren't useful to the organisation, however. There are plenty of other valuable interactions that users will take on a third-sector website that don't lead to a donation. Such as joining your mailing list, enquiring about volunteer opportunities or enquiring about fundraising for the charity. More importantly, there are those users that could become beneficiaries of your work.
+This doesn’t mean that 99% of online visitors aren’t useful to the organisation, however. There are plenty of other valuable interactions that users will take on a third-sector website that don’t lead to a donation. Such as joining your mailing list, enquiring about volunteer opportunities or enquiring about fundraising for the charity. More importantly, there are those users that could become beneficiaries of your work.
 
-It would be a little illogical to discount these users as 'non-converting' and focus wholly on finding ways to persuade them to donate. Instead we should attach a 'value' to each action. But that's another blog post.
+It would be a little illogical to discount these users as ‘non-converting’ and focus wholly on finding ways to persuade them to donate. Instead we should attach a ‘value’ to each action. But that’s another blog post.
 
-Thinking purely of those users who don't carry out an action with tangible value to the organisation, we're likely to be looking at between 80 and 90% of visitors.
+Thinking purely of those users who don’t carry out an action with tangible value to the organisation, we’re likely to be looking at between 80 and 90% of visitors.
 
 So, how can we persuade these users to join our cause and make a donation?
 
@@ -36,17 +36,17 @@ So, how can we persuade these users to join our cause and make a donation?
 
 Firstly, tell them, in everyday language, what the key issues are and how they, or someone or something they care about, will be affected. Do this, while making sure not to overload them with science, even if you have it. You can make the detail available if they want to read more but, by default, just deliver the synopsis.
 
-While you're thinking about delivering this clear message, consider how you will deliver it. Using more engaging content types, such as video or infographics will not only make it easier for people to understand the information, but also more likely that they will share that content piece with their friends.
+While you’re thinking about delivering this clear message, consider how you will deliver it. Using more engaging content types, such as video or infographics will not only make it easier for people to understand the information, but also more likely that they will share that content piece with their friends.
 
 ## Show them how their donation is spent
 
-Whenever I give to a charitable cause I want to be reassured that at least the majority of my donation is being used to combat the cause and issues I've come to take as my own.
+Whenever I give to a charitable cause I want to be reassured that at least the majority of my donation is being used to combat the cause and issues I’ve come to take as my own.
 
-Giving £30 to a charitable cause is unlikely to make a huge difference in the grand scheme of things, but it will still make some difference and, for me at least, that's quite a bit of money to be giving away without an idea of how it will be spent.
+Giving £30 to a charitable cause is unlikely to make a huge difference in the grand scheme of things, but it will still make some difference and, for me at least, that’s quite a bit of money to be giving away without an idea of how it will be spent.
 
 Rewilding Britain, along with many other charities, clearly show the breakdown of where their income is spent, so we can get a clear idea of how our donation will help.
 
-Another approach to reassuring donors is to show them specific outcomes. With The Rivers Trust, for example, we used messaging such as *"£30 could help purchase trees and plants to support us in our fight to improve river habitats"* to show a clear beneficial outcome to donating a specific amount.
+Another approach to reassuring donors is to show them specific outcomes. With The Rivers Trust, for example, we used messaging such as *“£30 could help purchase trees and plants to support us in our fight to improve river habitats”* to show a clear beneficial outcome to donating a specific amount.
 
 ![The Rivers Trust online donation form, showing what your donation could be used toward](https://madebykind.imgix.net/rt-donate.png "The Rivers Trust online donation form, showing what your donation could be used toward")
 
@@ -54,7 +54,7 @@ Another approach to reassuring donors is to show them specific outcomes. With Th
 
 £10 is a lot of money to spare for many people, but even for those who have disposable income, not many could spare £10 for every single charity that has a worthy cause.
 
-And, even if they choose to give that £10 to your charity, the impact of that single donation is unlikely to be huge. But, as the old saying goes, every penny counts... In this case, every penny counts towards making some huge differences and it's these huge impacts that reassure donors that they are doing the right thing.
+And, even if they choose to give that £10 to your charity, the impact of that single donation is unlikely to be huge. But, as the old saying goes, every penny counts... In this case, every penny counts towards making some huge differences and it’s these huge impacts that reassure donors that they are doing the right thing.
 
 Sharing case studies and statistics, like we did for the Rivers Trust, is a great way to show your impact.
 
@@ -70,14 +70,14 @@ Give them the option to skip straight to the donation process throughout the pag
 
 ## Make it painless
 
-Finally, a potential donor has got all the information they needed to make a decision. And it's a positive one. That £10, £20, £30, however much it is, is going to help further your cause. So now is not the time to confuse and bamboozle them with a complicated form.
+Finally, a potential donor has got all the information they needed to make a decision. And it’s a positive one. That £10, £20, £30, however much it is, is going to help further your cause. So now is not the time to confuse and bamboozle them with a complicated form.
 
 Make it as easy as possible for your users to give the amount they want, decide whether it will be a one-off donation or a regular one, and fill in their details in full, including the Gift Aid box!
 
-This is where our expertise in User Experience Design come in useful. Making the donation form as clear as possible by stripping back distractions, breaking the form into stages so it doesn't feel overwhelming and only asking for the information you **really** need, are all great practice.
+This is where our expertise in User Experience Design come in useful. Making the donation form as clear as possible by stripping back distractions, breaking the form into stages so it doesn’t feel overwhelming and only asking for the information you **really** need, are all great practice.
 
 ![The Rewilding Britain donation form](https://madebykind.imgix.net/rb-pay-now.png "Rewilding Britain reiterate your donation just before it is processed")
 
 You could consider integrating alternative payment processors, such as PayPal or Apple Pay, allowing the donor to use their pre-filled information and saving them precious time. And, just for that final reassurance, reiterate to the donor what they are doing and how it will help, just before they press the button.
 
-That could be in the form of something as simple as changing the button text from "Donate" to "Donate £10 to Rewilding Britain", or just adding a small piece of text that reminds them what their donation will be used for.
+That could be in the form of something as simple as changing the button text from “Donate” to “Donate £10 to Rewilding Britain”, or just adding a small piece of text that reminds them what their donation will be used for.

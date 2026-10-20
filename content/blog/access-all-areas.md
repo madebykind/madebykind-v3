@@ -75,7 +75,7 @@ Access for all.
 
 ### Accessibility is a fundamental human right
 
-Over the years I've seen many excuses for not implementing accessible websites, typically some variation of the following:
+Over the years I’ve seen many excuses for not implementing accessible websites, typically some variation of the following:
 
 * Making my site accessible wont benefit my business.
 * Blind people don’t need to access my site, they’re not my target audience.
@@ -88,7 +88,7 @@ Depending on where you live, or where your customers live, your business may be 
 
 ### Everyone’s a winner!
 
-There are no downsides to making your site accessible; it is good for all the users of your site, without exception. Time and again research has shown that websites that better serve their users needs perform better, it‘s obvious. Accessible websites sell more things to more people; books, beer, religion; everyone benefits from websites that are easy to understand and easy to use.
+There are no downsides to making your site accessible; it is good for all the users of your site, without exception. Time and again research has shown that websites that better serve their users needs perform better, it’s obvious. Accessible websites sell more things to more people; books, beer, religion; everyone benefits from websites that are easy to understand and easy to use.
 
 {{< blockquote author="John F. Kennedy" role="35th President of the United States" >}}
 A rising tide lifts all boats.
@@ -130,4 +130,4 @@ Just some of the things [the team at Kind](https://madebykind.com/about/#team) c
 * Helping with integration of web accessibilty into your workflow
 * Keeping you and your business up to date with legal requirements
 
-It all starts with a conversation, so if you think we might be able to help you let‘s get talking.
+It all starts with a conversation, so if you think we might be able to help you let’s get talking.

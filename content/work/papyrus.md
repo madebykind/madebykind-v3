@@ -40,7 +40,7 @@ intro: >
   Working with Papyrus was a reminder of why we do what we do.
 
 why:
-  text: "I've known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus gave young people hope, and the space to talk openly about how they're feeling. 24 hours a day."
+  text: "I’ve known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus gave young people hope, and the space to talk openly about how they’re feeling. 24 hours a day."
   person: mat
 impact:
   text: 'The new Papyrus brand created a stronger platform for conversations that save young lives.<br><br>A dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
@@ -82,7 +82,7 @@ impact_teaser:
 # Footer override
 #footer_heading:
 
-note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+note: "In September 2026, Papyrus entered administration and closed. We’re deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We’re proud of what we created alongside the Papyrus team, and we’ve kept this case study here as a record of that work."
 ---
 
 
@@ -184,7 +184,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
   <div class="col-span-full lg:col-span-4">
-    {{< figure alt="Papyrus sweatshirt that reads 'Here for Life'" src="work_papyrus_sweatshirt.png" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
+    {{< figure alt="Papyrus sweatshirt that reads ‘Here for Life’" src="work_papyrus_sweatshirt.png" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
   </div>
   <div class="col-span-full lg:col-span-8 row-span-2">
     {{< figure alt="A Papyrus branded hoody" src="work_papyrus_hoody.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
@@ -288,4 +288,4 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 </div>
 
 
-{{< blockquote author="Ged Flynn" role="Chief Executive, Papyrus" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}What began as a conversation about a new website became something much bigger – a full repositioning of how Papyrus presents itself to the world. Kind brought strategic focus, creative ambition and a genuine understanding of what's at stake if we get this wrong. I’m proud of what we've created together.{{</ blockquote >}}
+{{< blockquote author="Ged Flynn" role="Chief Executive, Papyrus" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}What began as a conversation about a new website became something much bigger – a full repositioning of how Papyrus presents itself to the world. Kind brought strategic focus, creative ambition and a genuine understanding of what’s at stake if we get this wrong. I’m proud of what we’ve created together.{{</ blockquote >}}

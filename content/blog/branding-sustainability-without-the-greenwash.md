@@ -27,13 +27,13 @@ related_posts:
   - strategy-for-social-change
 ---
 
-Audiences and potential supporters have become more cautious. They have seen bold claims, confident language, and simple stories that don't always hold up when examined more closely. In the sustainability, environment and carbon sectors, trust is paramount.
+Audiences and potential supporters have become more cautious. They have seen bold claims, confident language, and simple stories that don’t always hold up when examined more closely. In the sustainability, environment and carbon sectors, trust is paramount.
 
 Because of that, branding in this space carries an additional challenge. Being visible or recognisable is the easy part. The language, tone, and statements an organisation makes can shape how trusted it is by the people it needs to reach.
 
 ## How well-intentioned work slips into greenwashing
 
-Greenwashing is not always deliberate, unless it's by an oil company, in which case it almost always is. In the charity and environmental sectors though, it often comes from pressure.
+Greenwashing is not always deliberate, unless it’s by an oil company, in which case it almost always is. In the charity and environmental sectors though, it often comes from pressure.
 
 Brands aim to explain their long-term and complex work in clear and compelling ways. Donors and funders want reassurance and their communications need to compete for attention alongside much louder voices with bigger budgets.
 
@@ -71,7 +71,7 @@ This kind of restraint does not weaken a brand or its impact. It often makes it 
 
   As an international environmental charity supporting community-led projects, its work depends on long-term relationships, high-integrity standards and accountability to very different groups of people. The challenge with our work, was not about becoming louder or more confident, it was about making their existing values and ways of working easier to see and understand.
 
-  That meant focusing on how decisions are made, how communities are involved, and how standards are upheld, rather than leading with headline claims. By grounding the brand in what actually happens on the ground, the story became clearer and more human-centred and didn't need to be overstated.
+  That meant focusing on how decisions are made, how communities are involved, and how standards are upheld, rather than leading with headline claims. By grounding the brand in what actually happens on the ground, the story became clearer and more human-centred and didn’t need to be overstated.
 
   The confidence of the brand now comes from its clarity.
 

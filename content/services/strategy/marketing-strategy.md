@@ -47,7 +47,7 @@ related_posts:
 
   ## What is a marketing strategy?
 
-  A marketing strategy is a clear, practical plan that sets out how your organisation will reach the people it needs to reach, what it will say to them and whether that's working. It starts with your mission and goals, working outward to understand your audiences, where to find them and what will resonate.
+  A marketing strategy is a clear, practical plan that sets out how your organisation will reach the people it needs to reach, what it will say to them and whether that’s working. It starts with your mission and goals, working outward to understand your audiences, where to find them and what will resonate.
 
 ![Michelle and Pam chatting](https://madebykind.imgix.net/marketing_strategy_01.jpg)
 

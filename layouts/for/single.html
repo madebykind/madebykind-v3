@@ -23,7 +23,7 @@
           <svg class="max-w-48 max-h-24 w-auto self-start" role="presentation" aria-hidden="true"
             {{ with .icon_width }}width="{{ . }}"{{ end }}
             {{ with .icon_height }}height="{{ . }}"{{ end }}>
-            <use xlink:href="#icon-{{ .icon }}"/>
+            <use xlink:href="{{ partial "icon-ref" .icon }}"/>
           </svg>
         {{ end }}
         <h1>{{ .Params.heading }}</h1>

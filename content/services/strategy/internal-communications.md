@@ -20,7 +20,7 @@ process:
     - heading: Understanding your organisation
       description: "<p>We start by getting a clear picture of your structure, culture and current internal communications approach.</p>"
     - heading: Identifying the gaps
-      description: "<p>We identify where communications are breaking down or creating confusion, and where there's an opportunity to do things more clearly.</p>"
+      description: "<p>We identify where communications are breaking down or creating confusion, and where there’s an opportunity to do things more clearly.</p>"
     - heading: Defining clear principles
       description: "<p>We define clear principles for how your organisation talks to its people: tone, channels, frequency and ownership.</p>"
     - heading: Practical frameworks
@@ -46,7 +46,7 @@ related_work:
   Internal communications is the practice of managing how information, direction and culture flow through your organisation. It covers the channels your teams use, the tone leadership takes and the rhythms that keep people informed and connected to what the organisation is working toward.
 
 
-  Internal communications are often overlooked, but they're critical to organisational unity, particularly during periods of growth or change. Clear, consistent internal communication builds a shared understanding that holds teams together when everything else might be changing.
+  Internal communications are often overlooked, but they’re critical to organisational unity, particularly during periods of growth or change. Clear, consistent internal communication builds a shared understanding that holds teams together when everything else might be changing.
 
 ![Papyrus internal comms installation](https://madebykind.imgix.net/internal_comms_01.jpg)
 
@@ -56,7 +56,7 @@ related_work:
 
   ## When things are changing
 
-  Periods of significant organisational change put internal communications under particular strain. When change is happening, your people need to feel they're being kept in the picture. A clear communications approach during these periods helps organisations maintain trust in leadership and keep people focused on their work, even when not everything can be shared straight away.
+  Periods of significant organisational change put internal communications under particular strain. When change is happening, your people need to feel they’re being kept in the picture. A clear communications approach during these periods helps organisations maintain trust in leadership and keep people focused on their work, even when not everything can be shared straight away.
 
 ![Papyrus internal values](https://madebykind.imgix.net/internal_comms_02.jpg)
 
@@ -68,7 +68,7 @@ related_work:
   block_class="bg-teal text-blue bleed"
   heading="Benefits of internal communications"
   item_1_heading="Engaged and informed staff"
-  item_1_description="When people understand what's happening and why, they're better placed to do their jobs well and contribute to what the organisation is trying to achieve."
+  item_1_description="When people understand what’s happening and why, they’re better placed to do their jobs well and contribute to what the organisation is trying to achieve."
   item_2_heading="Values-led messaging"
   item_2_description="Good internal communications reflects the same values the organisation projects externally, creating consistency between how you present yourself to the world and how you speak to your own people."
   item_3_heading="A stronger internal culture"

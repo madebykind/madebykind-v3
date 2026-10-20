@@ -17,7 +17,7 @@ stat_block:
   heading: Truly impact-driven
   #description: We’re genuine, caring human beings who’ve chosen to use our skills to make the world a bit better.
   img: images/mat-and-michelle.jpg
-  alt: Mat and Michelle, Kind's leadership team
+  alt: Mat and Michelle, Kind’s leadership team
   stats:
     - pay-gap
     - socially-reponsible

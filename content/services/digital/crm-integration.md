@@ -3,13 +3,13 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 7
 title: CRM integration
-description: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of it's digital presence.
+description: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of it’s digital presence.
 
 
 # Header
 header_class: bg-sky text-green
 heading: CRM integration
-intro: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of it's digital presence.
+intro: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of it’s digital presence.
 
 
 # Related
@@ -38,7 +38,7 @@ related_work:
 
 {{< split orientation="right" >}}
 
-## They're not for everyone
+## They’re not for everyone
 
 ![Garden Organic website on a tablet ](https://madebykind.imgix.net/garden-organic-tablet.jpg)
 
@@ -54,7 +54,7 @@ Integrating a CRM with your website can be complex and expensive, and is most be
   item_1_heading="Accuracy"
   item_1_description="Automatic synchronisation between your website and your CRM, reduces errors and ensures that data is consistent across systems. This saves time and prevents the frustration of outdated records."
   item_2_heading="Personalisation"
-  item_2_description="By connecting audience data with digital platforms, your content can be tailored to an individual's interests and history, leading to more relevant and engaging interactions."
+  item_2_description="By connecting audience data with digital platforms, your content can be tailored to an individual’s interests and history, leading to more relevant and engaging interactions."
   item_3_heading="Efficiency"
   item_3_description="Integration removes the need for manual data entry and batch imports, freeing your team from repetitive tasks and allowing them to focus on more meaningful work."
   item_4_heading="Insight"

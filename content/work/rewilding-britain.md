@@ -3,7 +3,7 @@
 date: 2023-06-28T11:07:38.606Z
 weight: 3
 title: Environmental charity website strategy and delivery, Rewilding Britain
-description: Digital design system and sustainable website delivery for one of the UK's fastest growing charities
+description: Digital design system and sustainable website delivery for one of the UK’s fastest growing charities
 sector: for-planet
 topics:
   - services/strategy/digital-strategy
@@ -24,7 +24,7 @@ related_work:
 # Content
 heading: A platform to inspire rewilding in the UK
 preheading: Long-term digital partnership with environmental charity, Rewilding Britain
-intro: "<p>Rewilding Britain are the first and only country-wide organisation in Britain focused on rewilding - acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.</p><p>We've worked with Rewilding Britain through multiple phases of growth and strategic change, supporting their first major relaunch through to a complete rethink of what the platform needed to do.</p>"
+intro: "<p>Rewilding Britain are the first and only country-wide organisation in Britain focused on rewilding - acting as a catalyst for debate and action, and demonstrating the power of working with nature to tackle the climate emergency and the extinction crisis.</p><p>We’ve worked with Rewilding Britain through multiple phases of growth and strategic change, supporting their first major relaunch through to a complete rethink of what the platform needed to do.</p>"
 why:
   text: "In my opinion, rewilding is the greatest hope we have for a sustainable, biodiverse and fair future."
   person: mat
@@ -69,7 +69,7 @@ impact_teaser:
       alt: A beaver on a river bank
     - img: images/work-rewilding-britain-carousel-4.jpg
       alt: A rewilding meadow in late Summer. Grasses and wild flowers seeding. Oak tree and a rough Hazel hedge field boundary
-  caption: Digital partnership with the UK's rewilding charity
+  caption: Digital partnership with the UK’s rewilding charity
 
 # @TODO: Remove this once these teasers have been replaced
 teaser:
@@ -99,13 +99,13 @@ footer_heading: "Looking for a new strategic partner?"
 
   ## Research
 
-  We ran discovery with Rewilding Britain's audiences to understand how people thought about rewilding, what would motivate them to act, and what different groups needed from the platform: individuals, landowners, corporates and practitioners.
+  We ran discovery with Rewilding Britain’s audiences to understand how people thought about rewilding, what would motivate them to act, and what different groups needed from the platform: individuals, landowners, corporates and practitioners.
 
   </div>
 </div>
 
 
-{{< challenge >}}Most people had never heard of rewilding and those that had didn't know how to take action.
+{{< challenge >}}Most people had never heard of rewilding and those that had didn’t know how to take action.
 {{</ challenge >}}
 
 <!-- Text right -->
@@ -123,7 +123,7 @@ footer_heading: "Looking for a new strategic partner?"
 
 {{< figure wrapperclass="section--lg" src="work-rewilding-britain-design-system.jpg" alt="Components of the Rewilding Britain design system" >}}
 
-{{< partnership img="images/work-rewilding-britain-homepage.jpg" alt="A large screen with the Rewilding Britain website homepage displayed on it" >}}Rewilding Britain needed a digital partner to help them grow, adapt and lead a movement. We've worked alongside them through every phase of that journey, from their brand launch in 2020 to the national recognition they have now, evolving the platform as their strategy and ambitions have grown.{{</ partnership >}}
+{{< partnership img="images/work-rewilding-britain-homepage.jpg" alt="A large screen with the Rewilding Britain website homepage displayed on it" >}}Rewilding Britain needed a digital partner to help them grow, adapt and lead a movement. We’ve worked alongside them through every phase of that journey, from their brand launch in 2020 to the national recognition they have now, evolving the platform as their strategy and ambitions have grown.{{</ partnership >}}
 
 
 
@@ -157,7 +157,7 @@ footer_heading: "Looking for a new strategic partner?"
 
   As Rewilding Britain grew from a niche campaign to a nationally recognised movement, their strategy evolved with them. A shift in focus from education to action required a fundamental rethink of the platform. We ran discovery across the whole organisation and with their audiences, uncovering how people understood rewilding, how they used the site, and what would drive them to do more. Those insights shaped a major rebuild, reoriented around participation and momentum.
 
-  We've since supported a further strategic shift, as Rewilding Britain moved toward leading the rewilding conversation in the UK: telling the stories, advocating to government and pushing the boundaries of what the movement can achieve.
+  We’ve since supported a further strategic shift, as Rewilding Britain moved toward leading the rewilding conversation in the UK: telling the stories, advocating to government and pushing the boundaries of what the movement can achieve.
 
    
   </div>
@@ -173,7 +173,7 @@ footer_heading: "Looking for a new strategic partner?"
 
   ## Digital sustainability
 
-  Throughout all of this, we've worked to reduce the environmental footprint of the site itself. For an organisation whose mission is restoring nature, a [Climate-Positive  certified](https://ecofriendlyweb.org/client/rewilding-britain/) website isn't a detail, it's the point.
+  Throughout all of this, we’ve worked to reduce the environmental footprint of the site itself. For an organisation whose mission is restoring nature, a [Climate-Positive  certified](https://ecofriendlyweb.org/client/rewilding-britain/) website isn’t a detail, it’s the point.
    
   </div>
 </div>

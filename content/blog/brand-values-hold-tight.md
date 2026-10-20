@@ -24,7 +24,7 @@ related_posts:
   - who-gives-a-damn-well-we-do-actually
 ---
 
-Amidst all the noise, maintaining authenticity, honesty, and a firm grip on your brand's values is crucial. Here’s why:
+Amidst all the noise, maintaining authenticity, honesty, and a firm grip on your brand’s values is crucial. Here’s why:
 
 <h2 class="h3">Build your trust</h2>
 
@@ -32,11 +32,11 @@ Your brand values are the core beliefs that guide you. Consistently reflecting t
 
 <h2 class="h3">Be you and only you</h2>
 
-In a sea of options, your brand values ground you and help you stand out. They give your [brand](/services/brand/) a unique personality that resonates with your audience. This isn't about being different for the sake of it but about being different in ways that genuinely matter to your audience.
+In a sea of options, your brand values ground you and help you stand out. They give your [brand](/services/brand/) a unique personality that resonates with your audience. This isn’t about being different for the sake of it but about being different in ways that genuinely matter to your audience.
 
 <h2 class="h3">Always the right thing</h2>
 
-Prioritise doing the right thing, even when it's not the easiest path. Staying true to your brand values shows a commitment to making positive choices for society, the environment, and everyone involved with your company. This not only boosts your reputation but also attracts customers and employees who share your beliefs.
+Prioritise doing the right thing, even when it’s not the easiest path. Staying true to your brand values shows a commitment to making positive choices for society, the environment, and everyone involved with your company. This not only boosts your reputation but also attracts customers and employees who share your beliefs.
 
 <h2 class="h3">Think gains</h2>
 

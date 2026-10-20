@@ -2,9 +2,9 @@
 draft: false
 from: michelle
 title: The Girls’ Network
-seo_title: "We'd love to work with The Girls’ Network"
+seo_title: "We’d love to work with The Girls’ Network"
 description: "We’re Kind, and we’d love to support the amazing work you do to support girls through mentoring and build confidence for the future,"
-heading: We'd like to help open more doors for girls
+heading: We’d like to help open more doors for girls
 subheading: We’re Kind, and we’d love to support the amazing work you do to support girls through mentoring and build confidence for the future. Your mission aligns perfectly with the kind of brands we support and we’d love to use our expertise to help grow awareness and get more people supporting The Girls’ Network.
 cover_img: images/work-sr-billboard.jpg
 cover_img_alt: "Outdoor billboard showing StrongerRoots campaign with the message “Together we’ll grow a recovery-friendly future” beside a smiling young woman."

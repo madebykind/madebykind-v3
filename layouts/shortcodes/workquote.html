@@ -33,7 +33,7 @@
             {{- end -}}" 
           type="image/webp">
 
-        <img
+        <img width="640" height="480"
           alt="{{ $alt }}"
           class="{{ $imgClass }}"
           loading="eager"
@@ -63,7 +63,7 @@
           <svg class="h-12 w-auto max-w-32 lg:h-16 lg:max-w-48 shrink-0" role="presentation"  aria-hidden="true"
             {{ if ne $logoWidth 0 }}width="{{ $logoWidth }}"{{ end }}
             {{ if ne $logoHeight 0 }}height="{{ $logoHeight }}"{{ end }}>
-            <use xlink:href="#icon-{{ .Get "logo" }}"/>
+            <use xlink:href="{{ partial "icon-ref" (.Get "logo") }}"/>
           </svg>
         {{ else if .Get "source" }}
           <div class="text-sm font-normal font-sans">{{ .Get "source" }}</div>

@@ -28,7 +28,7 @@ cover_img: images/work_papyrus_posters_2.jpg
 cover_img_alt: "A man walking past 3 Papyrus posters"
 teaser_subheading: Brand deep-dive
 
-note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+note: "In September 2026, Papyrus entered administration and closed. We’re deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We’re proud of what we created alongside the Papyrus team, and we’ve kept this case study here as a record of that work."
 
 ---
 
@@ -206,7 +206,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 
 {{< multi-image
   src_1="images/work_papyrus_spread.jpg" alt_1="Internal spread from a Papyrus document"
-  src_2="images/work_papyrus_leaflet.jpg" alt_2="Papyrus leaflet titled: 'Are you woored about someone?'" class_2="w-full h-full object-cover" img_class_2="w-full h-full object-cover"
+  src_2="images/work_papyrus_leaflet.jpg" alt_2="Papyrus leaflet titled: ‘Are you woored about someone?’" class_2="w-full h-full object-cover" img_class_2="w-full h-full object-cover"
   >}}
 
 <!-- Text left -->

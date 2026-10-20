@@ -26,7 +26,7 @@
           {{ with $src }}
 
             <picture class="shrink-0 w-24 md:w-48 lg:w-full lg:self-center lg:justify-self-end">
-              <img 
+              <img {{ with partialCached "image-size" . . }} width="{{ .width }}" height="{{ .height }}"{{ end }} 
                 alt="{{ $alt }}" 
                 class="object-cover"
                 loading="eager"

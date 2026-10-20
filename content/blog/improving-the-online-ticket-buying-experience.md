@@ -24,17 +24,17 @@ related_posts:
   - digital-strategy-planning-ahead-creating-valuable-goals-and-remaining-flexible
 ---
 
-From a user point of view, booking tickets for an event is often a long-winded and frustrating experience. If you're using a mobile device (as the majority of web users are) the experience can be particularly awkward and clunky.
+From a user point of view, booking tickets for an event is often a long-winded and frustrating experience. If you’re using a mobile device (as the majority of web users are) the experience can be particularly awkward and clunky.
 
 While it is useful for some people to be able to select their exact seat, requiring this of every user gives a reason to drop-out while they ask their friend for an opinion.
 
-Frustrated users always lead to high abandonment rates. Eventbrite reports an average 70% abandonment rate for ticket purchases and that's certainly not a surprise. So how can we build a ticket purchasing journey that is a breeze.
+Frustrated users always lead to high abandonment rates. Eventbrite reports an average 70% abandonment rate for ticket purchases and that’s certainly not a surprise. So how can we build a ticket purchasing journey that is a breeze.
 
 Make it quick.
 
 - - -
 
-Over the past few years, in our downtime, we've been thinking about this a lot. In that time we've bought tickets for events at theatres, museums, stadium shows and small music venues and we followed the same process time and time again.
+Over the past few years, in our downtime, we’ve been thinking about this a lot. In that time we’ve bought tickets for events at theatres, museums, stadium shows and small music venues and we followed the same process time and time again.
 
 It was painful and drawn out and there were times when we gave up. So we starting looking at how someone might purchase tickets with the least effort possible.
 
@@ -42,7 +42,7 @@ We created a prototype that we call The Arts Project.
 
 ## Surface upcoming dates
 
-A good portion of users will want to know about availability, rather than already have a date in mind that they'd like to attend.
+A good portion of users will want to know about availability, rather than already have a date in mind that they’d like to attend.
 
 Our prototype surfaces the earliest upcoming events that have availability and allows the user to quickly select a time they can attend.
 
@@ -58,18 +58,18 @@ While this is a quick win in speeding up the purchasing process, it could also h
 
 Once a date and time has been chosen, our prototype skips the steps of selecting the number of tickets and choosing where to sit.
 
-This is because we've made these choices for the user.
+This is because we’ve made these choices for the user.
 
 {{< vimeo 539079259 >}}
 
-We've assumed that the majority of ticket purchasers for this event are looking for 2 x standard tickets in the best seats available. We can change this assumption on an event or venue level, but the benefit of making it is that the majority of users never have to go through the confusing experience of deciding where to sit.
+We’ve assumed that the majority of ticket purchasers for this event are looking for 2 x standard tickets in the best seats available. We can change this assumption on an event or venue level, but the benefit of making it is that the majority of users never have to go through the confusing experience of deciding where to sit.
 
 Those who want to select their own seat or change the quantity or type of ticket can do so in the usual way.
 
 {{< vimeo 539079424 >}}
 ## Automate personal and payment details
 
-By this point, a user could have tickets in their basket with seats selected by clicking on just one button on the event detail page. The last thing they'll be required to do is to enter their personal and payment details. We can speed this up too.
+By this point, a user could have tickets in their basket with seats selected by clicking on just one button on the event detail page. The last thing they’ll be required to do is to enter their personal and payment details. We can speed this up too.
 
 Allowing users to authenticate through their social accounts (like Facebook, Twitter or Google) means that personal details can be pulled automatically without the need to manually enter them. It also means, if the user allows, that we can use these details to set up an account and store their information for future use and marketing purposes.
 
@@ -81,7 +81,7 @@ An even quicker solution would be to integrate Apple Pay and Google Pay which, f
 {{< vimeo 539079484 >}}
 
 
-But there are still users that don't have these technologies set up, or simply don't want to use them. For them, we should make the data input process as seamless as possible, using features like auto-completing address fields.
+But there are still users that don’t have these technologies set up, or simply don’t want to use them. For them, we should make the data input process as seamless as possible, using features like auto-completing address fields.
 
 {{< vimeo 539079504 >}}
 
@@ -89,7 +89,7 @@ But there are still users that don't have these technologies set up, or simply d
 
 Another issue with traditional ticket purchasing journeys is up-sells. More specifically, when up-sells are promoted. Often this is an additional step (or steps) at the end of the purchasing process which, due to the frustration and fatigue the user has built up already can be another opportunity for abandonment.
 
-In our prototype, we've still included up-sells as we know this is an important revenue stream for many venues. However, instead of forcing another step in the process, and giving the user another reason to give up, we surface them on the basket page, making assumptions about relevant quantities and products based on the basket contents.
+In our prototype, we’ve still included up-sells as we know this is an important revenue stream for many venues. However, instead of forcing another step in the process, and giving the user another reason to give up, we surface them on the basket page, making assumptions about relevant quantities and products based on the basket contents.
 
 {{< vimeo 539079525 >}}
 

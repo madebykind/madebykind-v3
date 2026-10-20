@@ -5,7 +5,7 @@ date: 2019-07-11T15:52:34.943Z
 author: mat
 draft: false
 unlisted: true
-description: This month marks our 5th anniversary and we'll be celebrating with
+description: This month marks our 5th anniversary and we’ll be celebrating with
   our colleagues, clients, friends and family this evening.
 toc: false
 featured: false
@@ -18,7 +18,7 @@ Since then, we’ve outlined our plan to only work for clients that are making a
 
 All before it was fashionable. 
 
-## Doing 'good' work
+## Doing ‘good’ work
 
 Before Kind, we had spent a long time building up our skills and knowledge and wanted to make sure they were put to good use. While the opportunity to have a directly positive impact with digital work is limited, we could at least make sure that every project we did was aiding a wider cause in some way, whether that be providing education, promoting cultural industries or researching low-carbon energy. 
 
@@ -28,15 +28,15 @@ We’ve gone on to work with higher education clients such as [Nottingham Trent 
 
 This array of work has made it easy to motivate ourselves to do a good job, knowing that the end goal is more than just increasing conversion and profit. 
 
-The biggest risk we have taken so far was when we employed our first member of the team, [Georgia](https://madebykind.com/blog/introducing-our-new-senior-designer). Not because she wasn't an awesome designer who shared our values, but because it meant that we had to consciously decide that Kind was going to be more than a couple of ageing developers hiding from the job market!
+The biggest risk we have taken so far was when we employed our first member of the team, [Georgia](https://madebykind.com/blog/introducing-our-new-senior-designer). Not because she wasn’t an awesome designer who shared our values, but because it meant that we had to consciously decide that Kind was going to be more than a couple of ageing developers hiding from the job market!
 
 It was definitely worth the risk and we have since enjoyed working with Georgia, Sam, Chris and Michelle as well as our short-term interns Curtis, Sophie and Priyanca, who we are sure will all go on to do good things.
 
-As a team, we all share the same values, which can all be summed up as 'giving a shit'. We care about the quality of the work we produce, we care about it's impact to our client organisations and their audiences and we care about our impact on society and the environment.
+As a team, we all share the same values, which can all be summed up as ‘giving a shit’. We care about the quality of the work we produce, we care about it’s impact to our client organisations and their audiences and we care about our impact on society and the environment.
 
-To make it official, we joined 1% For The Planet in 2017 and are still Nottingham's only member. The human race, and businesses in particular, have a huge impact on the environment. We use its resources to build our offices and to create the products we sell and use daily. We owe it everything and so we believe that 1% of our turnover is the least we should be giving back.
+To make it official, we joined 1% For The Planet in 2017 and are still Nottingham’s only member. The human race, and businesses in particular, have a huge impact on the environment. We use its resources to build our offices and to create the products we sell and use daily. We owe it everything and so we believe that 1% of our turnover is the least we should be giving back.
 
-We've enjoyed the activities that membership has led us to, including the [beach clean in Anglesey](https://madebykind.com/blog/kind-go-wild-in-wales/) and our sponsorship of the extremely [inspiring European Summit](https://madebykind.com/blog/learnings-from-the-1-for-the-planet-european-summit/) last year.
+We’ve enjoyed the activities that membership has led us to, including the [beach clean in Anglesey](https://madebykind.com/blog/kind-go-wild-in-wales/) and our sponsorship of the extremely [inspiring European Summit](https://madebykind.com/blog/learnings-from-the-1-for-the-planet-european-summit/) last year.
 
 ## Looking to the future
 

@@ -32,7 +32,7 @@
       <div class="lg:col-span-7 {{ if $.indent_text }} lg:col-start-2 xl:col-start-4 {{ end }} flex flex-col gap-4">
         {{ with $.context.Params.icon }}
           <svg class="w-24 h-12 flex-no-shrink" role="presentation">
-            <use xlink:href="#icon-{{ . }}"/>
+            <use xlink:href="{{ partial "icon-ref" . }}"/>
           </svg>
         {{ end }}
 

@@ -29,7 +29,7 @@ process:
       description: "<p>We craft a flexible, consistent brand identity, from logo and typography to colour palette and key messaging. This is delivered through  practical, digital-first brand guidelines designed for clarity and cohesion that will help you to deliver consitency and engagement across every touchpoint.</p>"
   illustration:
     img: images/choose-kind.png
-    alt: An illustration of a person holding a very large placard. The placard reads 'Choose Kind'.
+    alt: An illustration of a person holding a very large placard. The placard reads ‘Choose Kind’.
 
 # Packages
 # packages:

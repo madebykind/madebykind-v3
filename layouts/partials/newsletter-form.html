@@ -1,11 +1,12 @@
 <form action="https://madebykind.us16.list-manage.com/subscribe/post?u=7a49f87afb625e8dd4de9d9fa&amp;id=ad6d75af23&amp;f_id=003a1ae0f0&amp;redirect=https%3A%2F%2Fmadebykind.com%2Foptin" method="post" target="_blank">
 
-  <label for="fieldEmail" class="font-sans text-xs font-bold {{ with $.label_class }}{{ . }}{{ end }}">Your email address</label>
+  {{ $id := $.id | default "newsletter-email" }}
+  <label for="{{ $id }}" class="font-sans text-xs font-bold {{ with $.label_class }}{{ . }}{{ end }}">Your email address</label>
   <div class="relative w-full mb-2">
-    <input autocomplete="Email" aria-label="Email" class="border-2 {{ $.border_class }} bg-white block w-full p-3 pr-[6.5rem] text-sm focus:outline-none min-h-[3.625rem]" id="fieldEmail" maxlength="200" name="EMAIL" required type="email">
+    <input autocomplete="email" class="border-2 {{ $.border_class }} bg-white block w-full p-3 pr-[6.5rem] text-sm focus:outline-none min-h-[3.625rem]" id="{{ $id }}" maxlength="200" name="EMAIL" required type="email">
     <button type="submit" class="btn btn--small btn--primary absolute right-0 top-0 cursor-pointer min-h-[3.625rem] {{ with $.btn_class }}{{ . }}{{ end }}">
-      {{ $.btn_text }}
-      <svg class="w-8 h-3 shrink-0" role="presentation">
+      {{ with $.btn_text }}{{ . }}{{ else }}<span class="sr-only">Subscribe</span>{{ end }}
+      <svg class="w-8 h-3 shrink-0" role="presentation" aria-hidden="true">
         <use xlink:href="#icon-arrow"/>
       </svg>
     </button>

@@ -1,0 +1,41 @@
+{{- /* llms.txt (https://llmstxt.org): a plain-text map of the site for AI agents, generated from content so it stays current */ -}}
+{{- define "llms-link" -}}
+- [{{ .Title | plainify | htmlUnescape }}]({{ .Permalink }}){{ with partial "seo/description" . }}: {{ . }}{{ end }}
+{{ end -}}
+
+# {{ site.Title }}
+
+> Kind is a UK-based ethical creative agency working exclusively with charities and non-profits, delivering brand strategy, design and digital experiences that drive real social and environmental impact.
+
+We combine strategic thinking, creative design and digital delivery to support socially responsible organisations across people, planet and culture. Kind is a certified B Corp and a member of 1% for the Planet, based in {{ site.Params.address.locality }}, UK.
+
+## Services
+{{ with site.GetPage "/services" }}{{ template "llms-link" . }}{{ end -}}
+{{ range (site.GetPage "/services").Sections.ByWeight }}
+{{- template "llms-link" . }}
+{{- range .RegularPages.ByWeight }}  {{ template "llms-link" . }}{{ end }}
+{{- end }}
+## Sectors
+{{- /* Sector pages are excluded from page collections (list: never), so look them up by file */}}
+{{ range readDir "content/sectors" }}{{ if and (strings.HasSuffix .Name ".md") (ne .Name "_index.md") }}{{ with site.GetPage (printf "/sectors/%s" .Name) }}{{ template "llms-link" . }}{{ end }}{{ end }}{{ end }}
+## Work
+{{ with site.GetPage "/work" }}{{ template "llms-link" . }}{{ end -}}
+{{ range (where site.RegularPages "Section" "work").ByDate.Reverse }}{{ template "llms-link" . }}{{ end }}
+## Insights
+{{ with site.GetPage "/blog" }}{{ template "llms-link" . }}{{ end -}}
+{{ range (where (where site.RegularPages "Section" "blog") "Params.unlisted" "ne" true).ByDate.Reverse }}{{ template "llms-link" . }}{{ end }}
+## Tools
+{{ range (where site.RegularPages "Section" "tools").ByWeight }}{{ template "llms-link" . }}{{ end }}
+## About
+{{ with site.GetPage "/about" }}{{ template "llms-link" . }}{{ end -}}
+{{ with site.GetPage "/about/our-impact" }}{{ template "llms-link" . }}{{ end -}}
+{{ range (where site.RegularPages "Section" "impact-reports").ByTitle.Reverse }}- [Impact report {{ .Title }}]({{ .Permalink }}){{ with partial "seo/description" . }}: {{ . }}{{ end }}
+{{ end }}
+## Get in touch
+- Email: {{ site.Params.email }}
+- [Book a call](https://book.madebykind.com): Arrange an introductory call with the team
+{{ with site.GetPage "/pages/contact" }}{{ template "llms-link" . }}{{ end }}
+## Optional
+{{ range where (where site.RegularPages "Section" "pages") "Params.noindex" "ne" true }}{{ if ne .File.BaseFileName "contact" }}{{ template "llms-link" . }}{{ end }}{{ end -}}
+- [Sitemap]({{ "sitemap.xml" | absURL }})
+- [Insights RSS feed]({{ "blog/index.xml" | absURL }})

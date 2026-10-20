@@ -9,7 +9,7 @@ cover_img_alt: null
 draft: false
 description: We’ve been thinking about what the future looks like for live
   streaming, will it completely cease as events come back again? Our gut feeling
-  is no. Here's why…
+  is no. Here’s why…
 toc: false
 featured: false
 key_topic:
@@ -28,7 +28,7 @@ related_posts:
 ---
 In March we [carried out a survey](https://madebykind.com/blog/cultural-recovery-audience-insights/) asking people how they felt about going back to live events. One interesting thing we found is that audiences are open to attending events online with 27% willing to attend despite never having done so previously and 40% happy to continue streaming.
 
-This is backed up by other surveys, including [Indigo's Cultural Restart Survey](https://www.indigo-ltd.com/culture-restart-toolkit/take-part/culture-restart-experience-surveys) with 33% of recent respondents saying they would continue to engage online even when they can attend in-person, and a further 59% saying they would still consider it.
+This is backed up by other surveys, including [Indigo’s Cultural Restart Survey](https://www.indigo-ltd.com/culture-restart-toolkit/take-part/culture-restart-experience-surveys) with 33% of recent respondents saying they would continue to engage online even when they can attend in-person, and a further 59% saying they would still consider it.
 
 It seems online events and live streaming have the potential to support and contribute to the output of cultural organisations. So what are the benefits?
 
@@ -46,10 +46,10 @@ A win-win for audiences and event hosts.
 
 ### Combining in-person and online events
 
-With the right set-up, streaming does not have to be expensive. If the event is already running, it's a small price to pay to generate additional revenue or engagement which, in turn, would help to create a larger community and build a reputation beyond the physical venue.
+With the right set-up, streaming does not have to be expensive. If the event is already running, it’s a small price to pay to generate additional revenue or engagement which, in turn, would help to create a larger community and build a reputation beyond the physical venue.
 
-There are a number of different platforms available to facilitate live streaming. From paid-for services such as Dacast through to free (but ad-based) sites like YouTube. Depending on the organisation's size and budget, there is an option available to suit everyone's needs, and they shouldn't require too much additional time and set-up to run.
+There are a number of different platforms available to facilitate live streaming. From paid-for services such as Dacast through to free (but ad-based) sites like YouTube. Depending on the organisation’s size and budget, there is an option available to suit everyone’s needs, and they shouldn’t require too much additional time and set-up to run.
 
 ## Offering a more engaging experience
 
-Alongside the benefits of opening out shows to be more inclusive, this could be a great opportunity to offer audiences a far more exclusive and immersive experience. If approached in the right way, venues could give people access to additional footage, backstage access, interviews with performers and so on. Think 'meet and greet' / VIP experiences but digitally. Fans want to get closer to the things they love in a more authentic way, currently, they'll look to get access to this through performers social media and fanbase sites, but by offering this directly organisations can retain audience engagement. This additional content could also be repackaged and used as dynamic marketing content across social media and the website for future performances. This helps to continue to build a dedicated audience, who feel connected to the events, artists, venue and brand regardless of where they are based. Resulting in loyal and committed advocates for your work.
+Alongside the benefits of opening out shows to be more inclusive, this could be a great opportunity to offer audiences a far more exclusive and immersive experience. If approached in the right way, venues could give people access to additional footage, backstage access, interviews with performers and so on. Think ‘meet and greet’ / VIP experiences but digitally. Fans want to get closer to the things they love in a more authentic way, currently, they’ll look to get access to this through performers social media and fanbase sites, but by offering this directly organisations can retain audience engagement. This additional content could also be repackaged and used as dynamic marketing content across social media and the website for future performances. This helps to continue to build a dedicated audience, who feel connected to the events, artists, venue and brand regardless of where they are based. Resulting in loyal and committed advocates for your work.

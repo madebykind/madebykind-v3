@@ -25,7 +25,7 @@ related_posts:
   - brand-values-hold-tight
 ---
 
-Since Kind’s inception in 2014, it was built on the basis of being a force for good. In the years since that, it has snowballed beautifully into a fully-fledged mission and set of core values to put people and the planet at the forefront of everything we do. It's at the root of who we work with, the projects we deliver, the team that we employ, and how we operate every single day in and outside of work. Which is why we are one of the leading sustainable agencies in the UK. 
+Since Kind’s inception in 2014, it was built on the basis of being a force for good. In the years since that, it has snowballed beautifully into a fully-fledged mission and set of core values to put people and the planet at the forefront of everything we do. It’s at the root of who we work with, the projects we deliver, the team that we employ, and how we operate every single day in and outside of work. Which is why we are one of the leading sustainable agencies in the UK. 
 
 All sounds great, but everyone cares about that don’t they? Well, no, the answer is they don’t. If in any doubt have a look at your energy bill, go for a swim in our sewage-infested rivers and seas, or discover that reports now estimate there are more food banks in the UK than there are outlets of McDonald’s. A lot of companies simply **DO NOT CARE**.
 
@@ -33,7 +33,7 @@ Others care if it makes them look good, and in all sectors, we are seeing a huge
 
 Mat and I are not people who typically shout out or put ourselves in the spotlight, we much prefer to do the good work behind the scenes and create a positive impact from the wings so to speak. But recently our mindset has changed and we now believe we need to start speaking up more, to encourage those that want to have a more positive impact in business and to collaborate with the good folk already doing it.
 
-This has led us to our new brand and new service offering (more on that another time) that we are so proud of, as we really believe it encapsulates who we are, what we do, and what we are trying to achieve. As a small team who have continually ‘punched above our weight’, we’ve been truly dedicated to putting purpose, people, and the planet over profit, even when as a business it's really challenging to do so.
+This has led us to our new brand and new service offering (more on that another time) that we are so proud of, as we really believe it encapsulates who we are, what we do, and what we are trying to achieve. As a small team who have continually ‘punched above our weight’, we’ve been truly dedicated to putting purpose, people, and the planet over profit, even when as a business it’s really challenging to do so.
 
 ![Poster mockups of Kind brand values](images/brand-values.jpg)
 

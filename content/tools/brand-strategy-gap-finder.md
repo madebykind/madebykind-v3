@@ -21,7 +21,9 @@ Use this checklist on your own or with your team to see where your brand strateg
   q3="Does everyone understand our brand?"
   q4="Is our brand actually working?"
   >}}
+
 ---
+
 {{< data-capture
   heading="Download the Brand Strategy Gap-Finder"
   description="or let us know your email address and we’ll send you the checklist along with some tips for how to use it."

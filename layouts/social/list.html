@@ -45,7 +45,12 @@
     {{ $imgUrl = printf "%s" $imgAttr | printf "%s%s" "?" | printf "%s%s" $imgUrl | printf "%s" }}
 
   {{ end }}
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Social image - {{ site.Title }}</title>
+  </head>
   <body style="padding: 0; margin: 0">
-    <img src="{{ htmlUnescape $imgUrl | safeHTML }}">
+    <img src="{{ htmlUnescape $imgUrl | safeHTML }}" alt="">
   </body>
 {{ end }}

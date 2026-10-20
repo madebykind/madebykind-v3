@@ -22,7 +22,7 @@ heading: Raising awareness of the childhood literacy gap in the UK
 preheading: User-centred website and online help-centre for Bookmark Reading.
 intro: "1 in 4 children in England cannot read well when they leave primary school, and the consequences follow them into adulthood: 7.1 million people in England struggle with reading every day, affecting their health, their work and their independence. Bookmark exists to change that, matching volunteer reading mentors with children who need support across the country."
 why:
-  text: We were inspired by Bookmark's commitment and dedication to making a real change, and wanted their online presence to reflect their important work.
+  text: We were inspired by Bookmark’s commitment and dedication to making a real change, and wanted their online presence to reflect their important work.
   person: michelle
 impact:
   text: Bookmark now has a professional, engaging online presence that actively works to grow their volunteer base, attract corporate partnerships and raise awareness of the childhood literacy gap in the UK.
@@ -68,7 +68,7 @@ impact_teaser:
       alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
     - img: images/work-bookmark-readers.jpg
       alt:  A child and a woman read together
-  caption: Website and help-centre for children's literacy charity
+  caption: Website and help-centre for children’s literacy charity
 
 # @TODO: Remove this once these teasers have been replaced
 teaser:
@@ -88,7 +88,7 @@ teaser:
 footer_heading: "Do you have similar challenges?"
 ---
 
-{{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn 'Thank you' signs" logowidth="199" logoheight="64">}}
+{{< workquote logo="logo-bookmark" img="images/work-bookmark-kids.jpg" alt="Children in a classroom holding handdrawn ‘Thank you’ signs" logowidth="199" logoheight="64">}}
 By inspiring the joy of reading we can provide the motivation to read to every child and help them succeed in life.
 {{</ workquote >}}
 

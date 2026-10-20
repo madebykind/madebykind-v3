@@ -9,7 +9,7 @@ cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 draft: false
 services: []
-description: Even with the best intentions, digital project can often go awry. What you're missing is a discovery phase
+description: Even with the best intentions, digital project can often go awry. What you’re missing is a discovery phase
 toc: true
 featured: false
 key_topic:
@@ -26,11 +26,11 @@ related_posts:
   - how-to-get-your-colleagues-on-board-with-your-website-project
   - finding-the-common-ground-between-your-organisation-and-its-audience
 ---
-Perhaps, when you launch, results are positive, but nowhere near what you expected or hoped for. Maybe your users aren't as delighted as you'd like them to be. Maybe they complain or go elsewhere.
+Perhaps, when you launch, results are positive, but nowhere near what you expected or hoped for. Maybe your users aren’t as delighted as you’d like them to be. Maybe they complain or go elsewhere.
 
 So where might things have gone wrong? And why is this a far too familiar story in the [digital](/services/digital/) industry?
 
-The simple answer is, because we don't spend long enough on discovery. The rush to meet deadlines, means this important part of the process is often squeezed or even skipped entirely.
+The simple answer is, because we don’t spend long enough on discovery. The rush to meet deadlines, means this important part of the process is often squeezed or even skipped entirely.
 
 ## What is a discovery phase?
 
@@ -44,7 +44,7 @@ The aim is to develop a high-level understanding and a sense of the direction yo
 
 A discovery phase will help you understand what is most important to your organisation and the success of your project.
 
-That knowledge, in turn, will help your chosen delivery partner to understand which deliverables to concentrate their efforts and your budget on. Meaning, everything that is delivered is working towards your strategic goals. And you haven't wasted time and budget on superfluous components or activities that add little to no value.
+That knowledge, in turn, will help your chosen delivery partner to understand which deliverables to concentrate their efforts and your budget on. Meaning, everything that is delivered is working towards your strategic goals. And you haven’t wasted time and budget on superfluous components or activities that add little to no value.
 
 ### Reduce the risk of working with a new digital partner
 
@@ -54,7 +54,7 @@ You’ll get to see how they work and communicate across a wide range of tasks: 
 
 At the end of discovery, if the relationship has gone well you can proceed with confidence. If not, you have a natural breakpoint at which you can finish on amicable terms, rather than having to complete the build phase with a partner who you know not to be the best choice for the job.
 
-As a minimum, by the end of the process, you’ll be better equipped to create a well-researched brief with an appropriate budget. And you'll know what you are, and are not, looking for in a digital delivery partner.
+As a minimum, by the end of the process, you’ll be better equipped to create a well-researched brief with an appropriate budget. And you’ll know what you are, and are not, looking for in a digital delivery partner.
 
 ### Evaluate technology options before committing
 
@@ -70,9 +70,9 @@ Clients quite reasonably want clarity when it comes to pricing, while digital ag
 
 Without a discovery phase, your digital partner will either price higher than needed (to protect themselves), or too low (due to a lack of in-depth understanding). This regularly leads to awkward mid-project discussions about budget vs scope. And frustration on both sides.
 
-Bringing together your expert knowledge of your organisation and sector with your digital partner's broad perspective allows for much more accurate estimating as well as early conversations about what’s possible and practical with the resources available.
+Bringing together your expert knowledge of your organisation and sector with your digital partner’s broad perspective allows for much more accurate estimating as well as early conversations about what’s possible and practical with the resources available.
 
-### Have a hand in the research you're paying for
+### Have a hand in the research you’re paying for
 
 During the tendering process, if a client opts to forego paying for discovery, agencies will often still conduct pre-contract research (in order to win the work) ***but they then factor in the cost of the work already done into their proposal*.**
 

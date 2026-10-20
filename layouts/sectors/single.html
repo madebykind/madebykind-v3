@@ -50,7 +50,7 @@
                 <li>
                   <span class="sr-only">{{ .name }}</span>
                   <svg class="w-24 h-12 lg:w-36 lg:h-18 flex-no-shrink" role="presentation">
-                    <use xlink:href="#icon-{{ .icon }}"/>
+                    <use xlink:href="{{ partial "icon-ref" .icon }}"/>
                   </svg>
                 </li>
               {{ end }}

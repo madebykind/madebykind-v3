@@ -3,7 +3,7 @@
 date: 2025-07-31T11:07:38.606Z
 weight: 4
 title: Brand development and delivery for environmental charity, The Wilderness Project
-description: Website and visual identity to help an organisation protecting Africa's fresh waters
+description: Website and visual identity to help an organisation protecting Africa’s fresh waters
 sector: for-planet
 topics:
   - services/brand/brand-strategy
@@ -54,7 +54,7 @@ icon_width: 386
 icon_height: 194
 client: The Wilderness Project
 impact_teaser:
-  text: Protect Africa's **fresh water** wilderness
+  text: Protect Africa’s **fresh water** wilderness
   images:
     - img: images/work-twp-hero-1.jpg
       alt: "Multiple canoes on a calm river that reflects the colorful sunset sky."

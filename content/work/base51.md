@@ -18,7 +18,7 @@ related_work:
 
 # Content
 heading: Creating an inclusive and safe brand to support young people
-preheading: Branding for charity supporting Nottingham's youth since 1993.
+preheading: Branding for charity supporting Nottingham’s youth since 1993.
 intro: "Nottingham is the worst place in the UK to be young. 17,500 children live in poverty, and funding cuts are making a difficult situation worse. Base 51 has been providing safe, inclusive spaces for over 1,000 young people every year for three decades: counselling, trauma support, youth clubs  and accredited training for the next generation of youth workers. Despite the breadth of what they do
   and the communities they serve, their brand wasn’t doing them justice."
 why:
@@ -27,7 +27,7 @@ why:
 impact:
   text: Base 51 now has a brand that reflects the depth and quality of their work and the communities they serve. An identity strong enough to compete for attention in a crowded fun
   img: images/work-base51-imagery-1.jpg
-  img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
+  img_alt: A young man in an urban setting holds a table tennis paddle, he’s looking upward as if waiting for a ball to drop
 
 
 # Header
@@ -62,7 +62,7 @@ toc_replacements:
 
 # Teaser content
 cover_img: images/work-base51-imagery-1.jpg
-cover_img_alt: A young man in an urban setting holds a table tennis paddle, he's looking upward as if waiting for a ball to drop
+cover_img_alt: A young man in an urban setting holds a table tennis paddle, he’s looking upward as if waiting for a ball to drop
 icon: logo-base51
 icon_width: 1135
 icon_height: 215
@@ -177,7 +177,7 @@ A safe place where change begins.
 </div>
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-end pb-16 lg:pb-32 xl:pb-48">
 
-  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-tshirt.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called 'Outburst'" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-tshirt.jpg" alt="Mockup of a t-shirt for a Base 51 sub-branded event called ‘Outburst’" >}}
 
   {{< figure wrapperclass="col-span-full lg:col-span-4" src="work-base51-water-bottle.jpg" alt="a water bottle with the Base 51 Logo" >}}
 </div>
