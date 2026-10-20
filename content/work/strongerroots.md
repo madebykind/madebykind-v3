@@ -89,15 +89,15 @@ client: StrongerRoots
 </div>
 
 {{< multi-image
-  src_2="images/work-sr-text.jpg" alt_1="Graphic with the StrongerRoots phrase “Together we’ll grow a recovery-friendly future” in bold dark green text on a mint green background."
-  src_3="images/work-sr-image-text.jpg" alt_2="Smiling person wearing glasses in a bright market space, representing positivity and confidence in recovery."
+  src_2="images/work-sr-text.jpg" alt_2="Graphic with the StrongerRoots phrase “Together we’ll grow a recovery-friendly future” in bold dark green text on a mint green background."
+  src_3="images/work-sr-image-text.jpg" alt_3="Smiling person wearing glasses in a bright market space, representing positivity and confidence in recovery."
   >}}
 
 
 
 {{< figure imgclass="w-full" src="work-sr-icons.jpg" alt="Set of four StrongerRoots icon designs in neon green on a dark green background representing growth, connection and community." >}}
 
-{{< partnership img="images/work-sr-team-2.jpg" alt="Kind team members meeting around a wooden table with laptops, collaborating on the StrongerRoots project." align="right">}}StrongerRoots needed a unified identity to connect Nottingham and Nottinghamshire and give local ownership to the IRC movement. They partnered with us to shape this vision, running workshops with people with lived experience, uncovering community insights, and delivering naming, brand design, and a full marketing and PR strategy for launch.{{</ partnership >}}
+{{< partnership img="images/work-sr-team-2.jpg" alt="Kind team members meeting around a wooden table with laptops, collaborating on the StrongerRoots project." align="right">}}Commissioned by Nottingham City Council and Nottinghamshire County Council, StrongerRoots needed a unified identity to connect Nottingham and Nottinghamshire and give local ownership to the IRC movement. They partnered with us to shape this vision, running workshops with people with lived experience, uncovering community insights, and delivering naming, brand design, and a full marketing and PR strategy for launch.{{</ partnership >}}
 
 
 

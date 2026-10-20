@@ -58,7 +58,7 @@ banner_img_alt: "Papyrus strapline: Here for Life"
 
 # Teaser content
 cover_img: images/work-papyrus-posters-dark.jpg
-cover_img_alt: 
+cover_img_alt: Three Papyrus posters on an outdoor wall at dusk, reading ‘What’s bothering you?’, ‘Hold on. We’re here.’ and ‘What’s on your mind?’ with the HOPELINE247 number
 icon: logo-papyrus
 icon_width: 577
 icon_height: 301
@@ -122,7 +122,7 @@ note: "In September 2026, Papyrus entered administration and closed. We’re dee
 
   Their voices shaped everything that followed. From the strategic direction to specific decisions about language, information architecture, and how content is structured for users who may be accessing the site at their most difficult moments. Every design decision, every word choice, every structural call was made with those users in mind.
 
-  This is what good discovery looks like. Routing through all of the information available, taking the feedback and truly listening to users. Not a box-ticking exercise before the real work begins, but the foundation on which everything else is built.
+  This is what good discovery looks like. Rooting through all of the information available, taking the feedback and truly listening to users. Not a box-ticking exercise before the real work begins, but the foundation on which everything else is built.
 
 
   </div>

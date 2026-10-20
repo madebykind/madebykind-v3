@@ -3,13 +3,13 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 7
 title: CRM integration
-description: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of it’s digital presence.
+description: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of its digital presence.
 
 
 # Header
 header_class: bg-sky text-green
 heading: CRM integration
-intro: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of it’s digital presence.
+intro: Integrating a CRM with your website can help bring together your audience data and your digital platforms. Connecting tools like ticketing systems, mailing lists and customer databases to ensure information flows automatically, reduces duplication and empowers your organisation to make the most of its digital presence.
 
 
 # Related

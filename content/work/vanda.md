@@ -37,7 +37,7 @@ impact:
     - 3k-performances
     - 10k-photographs
   img: images/work-vam-petra-2.jpg
-  img_alt: The dessert around Petra, Jordan
+  img_alt: The desert around Petra, Jordan
 
 # Header
 banner_type: standard

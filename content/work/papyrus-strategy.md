@@ -103,7 +103,7 @@ note: "In September 2026, Papyrus entered administration and closed. We’re dee
   We provided interim Marketing Director-level support to help bridge the gap. That meant leading meetings, maintaining the strategic thread of the project, keeping the marketing team and project aligned, and making sure the work kept moving forward with clarity and purpose. The strong relationship we’d built with the Papyrus team meant we understood the organisation well enough to be genuinely useful, rather than just holding a seat at the table.
 
 
-  The project continued to have momentum and produce incredible pieces of work throughout that time, ensuring nothing that had been worked on was wasted or lost. It also meant when stability returned everything was clear and ready to go. 
+  The project continued to have momentum and produce incredible pieces of work throughout that time, ensuring nothing that had been worked on was wasted or lost. It also meant everything was clear and ready for the team to pick up. 
 
 
   </div>
@@ -117,7 +117,7 @@ note: "In September 2026, Papyrus entered administration and closed. We’re dee
 
   ## What I took from this project
 
-  Working with Papyrus reminded me of something I already knew, but that’s easy to forget in the day-to-day: strategy is only as good as the human understanding behind it. The workshops, the conversations, the time spent really getting to know the organisation - that wasn’t the preamble to the real work. That was the real work. Everything else followed from it. By constantly keeping the real goals at the heart of what we did, we were able to provide Papyrus with the tools to continue their most important work. Saving the lives of young people.
+  Working with Papyrus reminded me of something I already knew, but that’s easy to forget in the day-to-day: strategy is only as good as the human understanding behind it. The workshops, the conversations, the time spent really getting to know the organisation - that wasn’t the preamble to the real work. That was the real work. Everything else followed from it. By constantly keeping the real goals at the heart of what we did, we gave Papyrus the tools for their most important work: saving the lives of young people.
 
 
   If you’re working with an organisation doing something this important, you owe it to them to get that foundation right. I think we did.

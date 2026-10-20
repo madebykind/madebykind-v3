@@ -26,7 +26,7 @@ process:
     - heading: Creative development
       description: "<p>Moodboards, messaging and design concepts bring your brand’s personality to life. We work from the inside out, developing a tone of voice and visual language that reflect your values and support your strategic goals.</p>"
     - heading: Identity and expression
-      description: "<p>We craft a flexible, consistent brand identity, from logo and typography to colour palette and key messaging. This is delivered through  practical, digital-first brand guidelines designed for clarity and cohesion that will help you to deliver consitency and engagement across every touchpoint.</p>"
+      description: "<p>We craft a flexible, consistent brand identity, from logo and typography to colour palette and key messaging. This is delivered through  practical, digital-first brand guidelines designed for clarity and cohesion that will help you to deliver consistency and engagement across every touchpoint.</p>"
   illustration:
     img: images/choose-kind.png
     alt: An illustration of a person holding a very large placard. The placard reads ‘Choose Kind’.

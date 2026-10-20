@@ -102,7 +102,7 @@ note: '<p class="text-sm">Expedition and landscape images courtesy of <a href="h
   <div class="col-span-full lg:col-span-4">
   {{< image-cycle
   src_1="images/work-twp-illustration-1.jpg"
-  alt_1="Illustration if an elephant wading through a large expansae of water, with a forest in the background"
+  alt_1="Illustration of an elephant wading through a large expanse of water, with a forest in the background"
   src_2="images/work-twp-illustration-2.jpg"
   alt_2="Illustration of multiple canoes on a calm river that reflects the colorful sunset sky."
   src_3="images/work-twp-illustration-3.jpg"

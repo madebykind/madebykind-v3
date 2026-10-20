@@ -13,7 +13,7 @@ style: subproject
 heading: A digital experience that understands your situation
 preheading: Strategy, design, build and integrations
 author: mat
-intro: "<p>The Papyrus website needed to serve many different groups and different needs, but most importantly, young people who may be in active crisis.</p><p> So, delivering a successful website wasn’t about clever features or a great design (although I think we did that too), Instead, it was about clarity, calmmess in the right areas and making sure that the right information was quick and easy to find, without friction, confusion, or adding to the distress they might already be feeling.</p>"
+intro: "<p>The Papyrus website needed to serve many different groups and different needs, but most importantly, young people who may be in active crisis.</p><p> So, delivering a successful website wasn’t about clever features or a great design (although I think we did that too), Instead, it was about clarity, calmness in the right areas and making sure that the right information was quick and easy to find, without friction, confusion, or adding to the distress they might already be feeling.</p>"
 
 # Header
 banner_type: standard

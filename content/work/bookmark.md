@@ -42,8 +42,7 @@ banner_icon: logo-bookmark
 
 # Page nav
 toc: true
-external_link: 
-external_link: https://www.rewildingbritain.org.uk
+external_link: https://www.bookmarkreading.org/
 toc_replacements:
   - long: Creating clear user journeys
     short: Clear user journeys

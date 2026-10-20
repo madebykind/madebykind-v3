@@ -19,13 +19,13 @@ related_work:
 # Content
 heading: Creating an inclusive and safe brand to support young people
 preheading: Branding for charity supporting Nottingham’s youth since 1993.
-intro: "Nottingham is the worst place in the UK to be young. 17,500 children live in poverty, and funding cuts are making a difficult situation worse. Base 51 has been providing safe, inclusive spaces for over 1,000 young people every year for three decades: counselling, trauma support, youth clubs  and accredited training for the next generation of youth workers. Despite the breadth of what they do
+intro: "Nottingham is one of the worst places in the UK to be young. 17,500 children live in poverty, and funding cuts are making a difficult situation worse. Base 51 has been providing safe, inclusive spaces for over 1,000 young people every year for three decades: counselling, trauma support, youth clubs  and accredited training for the next generation of youth workers. Despite the breadth of what they do
   and the communities they serve, their brand wasn’t doing them justice."
 why:
   text: Charities like BASE 51 are incredibly important. Young people living in areas of poverty are often overlooked and, without help, could be at risk of serious issues like substance abuse, lack of education, homelessness, and mental health struggles.
   person: michelle
 impact:
-  text: Base 51 now has a brand that reflects the depth and quality of their work and the communities they serve. An identity strong enough to compete for attention in a crowded fun
+  text: Base 51 now has a brand that reflects the depth and quality of their work and the communities they serve. An identity strong enough to compete for attention in a crowded funding landscape.
   img: images/work-base51-imagery-1.jpg
   img_alt: A young man in an urban setting holds a table tennis paddle, he’s looking upward as if waiting for a ball to drop
 
@@ -126,7 +126,7 @@ A safe place where change begins.
   <div class="flex flex-wrap ">
     <div class="w-full lg:w-1/2 py-6 lg:pr-6 xl:pr-8 shrink-0">
       <p><strong>Inclusivity</strong><br>
-      A welcoming space for all young people, regardless of background..</p>
+      A welcoming space for all young people, regardless of background.</p>
     </div>
     <div class="w-full lg:w-1/2 py-6 lg:pl-6 xl:pl-8 shrink-0">
       <p><strong>Empowerment</strong><br>
@@ -203,4 +203,4 @@ A safe place where change begins.
 
 
 
-{{< blockquote author="Verity Woods" role="Head of Fundraising and Events, Base 51" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}The new branding will allow us to better connect with 11-25 year olds and to inform them of our life-changing services in a more engaging format. Kind took into account all the opinions/thoughts and created something that sums up our brand and gives us a up-to-date look.{{</ blockquote >}}
+{{< blockquote author="Verity Woods" role="Head of Fundraising and Events, Base 51" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}The new branding will allow us to better connect with 11-25 year olds and to inform them of our life-changing services in a more engaging format. Kind took into account all the opinions/thoughts and created something that sums up our brand and gives us an up-to-date look.{{</ blockquote >}}

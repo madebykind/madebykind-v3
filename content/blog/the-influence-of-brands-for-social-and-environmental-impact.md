@@ -10,7 +10,7 @@ description: Brands have the potential to be powerful agents of change, driving 
 toc: false
 cover_img: images/patagonia-thrawn.jpg
 text_colour: text-white
-cover_img_alt: A still from a Patagonia produced video, Thrawn. A snowboarding stands on snow, looking down at snow-less peaks.
+cover_img_alt: A still from a Patagonia produced video, Thrawn. A snowboarder stands on snow, looking down at snow-less peaks.
 key_topic:
   - Insights
 topics:
@@ -50,7 +50,7 @@ Brands also have the power to build and nurture communities. These communities a
 Brands, especially those with significant influence, can use their platforms to lobby for policy changes that support social and environmental causes. By leveraging their resources and influence, they can advocate for legal and regulatory changes that could have far-reaching impacts.
 
 
-{{< figure wrapperclass="" align="" src="stonewall-marriage.png" alt="Two brides positioned on the right of an image, both looking left and smiling. One is leaning on the others shoulder. Some crossed out text reads ‘Marriage is explicity defined as being between a male and female’. Underneath the text a red star highlights the words ‘repealed 2014’." caption="Since 1989, Stonewall have campaigned for freedom and equity for LGBTQ+ people in the UK with real impacts such as the repealing of Section 28 and the 2014 Marriage Act" >}}
+{{< figure wrapperclass="" align="" src="stonewall-marriage.png" alt="Two brides positioned on the right of an image, both looking left and smiling. One is leaning on the other’s shoulder. Some crossed out text reads ‘Marriage is explicitly defined as being between a male and female’. Underneath the text a red star highlights the words ‘repealed 2014’." caption="Since 1989, Stonewall have campaigned for freedom and equity for LGBTQ+ people in the UK with real impacts such as the repealing of Section 28 and the Marriage (Same Sex Couples) Act 2013" >}}
 
 ## The future of brands: beyond profit
 

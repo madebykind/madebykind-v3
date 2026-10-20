@@ -18,7 +18,7 @@ key_topic:
   - Insights
 topics:
   - Non-profit
-intro: Many charitable organisations rely on public donations to continue their important work and further their cause. And while many have an online donation form, conversion rates for these are often low, with the average rate in the sector being below 1% of visits resulting in a donation.
+intro: Many charitable organisations rely on public donations to continue their important work and further their cause. And while many have an online donation form, conversion rates for these are often low, with [M+R’s 2015 Benchmarks Study](https://www.givelify.com/blog/the-2015-mr-benchmarks-report-for-nonprofits-is-here/) finding that just 0.8% of website visitors made a donation.
 related_posts:
   - communicating-complex-issues
   - building-a-more-sustainable-website-architecture

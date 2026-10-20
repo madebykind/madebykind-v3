@@ -33,8 +33,6 @@ large_hero: true
 social_img: images/27-02-23-Kind3398.jpg
 clients:
   items:
-    - name: Papyrus
-      icon: logo-papyrus
     - name: UNESCO
       icon: unesco-logo
     - name: Rewilding Britain
@@ -45,6 +43,8 @@ clients:
       icon: logo-artswork
     - name: The Wilderness Project
       icon: logo-twp
+    - name: Papyrus
+      icon: logo-papyrus
     - name: The Rivers Trust
       icon: rt-logo
     - name: Base 51
@@ -57,8 +57,6 @@ clients:
     #  icon: backlit-logo
     - name: The V&A
       icon: va-logo
-    - name: Algrano
-      icon: algrano-logo
     - name: Sheffield Hallam University
       icon: shu-logo
   cta:

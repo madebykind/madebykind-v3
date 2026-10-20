@@ -16,7 +16,7 @@ key_topic:
 topics:
   - Digital sustainability
   - Environment
-intro: It’s rare that anyone considers the environmental effects of sending an email, loading a website or posting on social media, but it’s estimated that digital technologies are responsible for 1.7 billion tonnes of greenhouse gas emissions per year.
+intro: It’s rare that anyone considers the environmental effects of sending an email, loading a website or posting on social media, but [research published in 2026](https://www.zew.de/PU95954) estimates that digital industries accounted for 4.1% of global greenhouse gas emissions in 2021.
 related_pages: []
 related_posts:
   - creating-sustainable-and-ethical-digital-products
@@ -61,7 +61,7 @@ As an example, the cost for hosting and serving the images and files for the Kin
 
 Video is very popular on the web (everyone wants that moving hero video that nobody watches) but is also one of the biggest energy users of all content types.
 
-To mitigate this, use video sparingly and host it via a platform like YouTube or Vimeo. These platforms will encode your video to work optimally on as many devices, browsers and connections as possible and then serve that videos through their own CDN.
+To mitigate this, use video sparingly and host it via a platform like YouTube or Vimeo. If you do, use YouTube’s privacy-enhanced mode or Vimeo’s do-not-track setting to reduce the tracking that comes with embedded players. These platforms will encode your video to work optimally on as many devices, browsers and connections as possible and then serve that videos through their own CDN.
 
 Also, do your best to argue for videos not playing automatically. This practice only adds to energy consumption, even when a user isn’t interested.
 

@@ -31,7 +31,7 @@ impact:
 # Header
 banner_type: standard
 banner_img: images/work-shu-header.jpg
-banner_img_alt: Test image
+banner_img_alt: A person wearing a VR headset and holding hand controllers in a large tiled room, in front of a wall-sized projection of a virtual scene
 banner_icon: shu-logo
 
 # Page nav

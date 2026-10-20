@@ -28,7 +28,7 @@ From a user point of view, booking tickets for an event is often a long-winded a
 
 While it is useful for some people to be able to select their exact seat, requiring this of every user gives a reason to drop-out while they ask their friend for an opinion.
 
-Frustrated users always lead to high abandonment rates. Eventbrite reports an average 70% abandonment rate for ticket purchases and that’s certainly not a surprise. So how can we build a ticket purchasing journey that is a breeze.
+Frustrated users always lead to high abandonment rates. [Eventbrite reports](https://www.eventbrite.com/blog/event-checkout-ds00/) that up to 70% of people who start a checkout abandon it and that’s certainly not a surprise. So how can we build a ticket purchasing journey that is a breeze.
 
 Make it quick.
 
@@ -36,7 +36,7 @@ Make it quick.
 
 Over the past few years, in our downtime, we’ve been thinking about this a lot. In that time we’ve bought tickets for events at theatres, museums, stadium shows and small music venues and we followed the same process time and time again.
 
-It was painful and drawn out and there were times when we gave up. So we starting looking at how someone might purchase tickets with the least effort possible.
+It was painful and drawn out and there were times when we gave up. So we started looking at how someone might purchase tickets with the least effort possible.
 
 We created a prototype that we call The Arts Project.
 

@@ -47,7 +47,7 @@ When there isn’t enough time allocated to analysis and discovery, it could be 
 
 These conversations could take the form of one-to-one interviews, with analysts bringing all the information together to attempt to form a ‘big picture’. But this would then need to be shared again with stakeholders, leading to a high probability of an open-ended feedback cycle.
 
-Instead, and especially for larger organisations, it is useful to carry out open sessions or workshops where all stakeholders work together to make decisions quickly and understand whether their opinions are personal or shared (it’s not uncommon for people to be so passionate about their area of work that they believe it should trump all others). Being able to clearly see that a large organisation has multiple priorities, and where their’s might fit within those, can help to prevent resentment or animosity toward a project when it is launched.
+Instead, and especially for larger organisations, it is useful to carry out open sessions or workshops where all stakeholders work together to make decisions quickly and understand whether their opinions are personal or shared (it’s not uncommon for people to be so passionate about their area of work that they believe it should trump all others). Being able to clearly see that a large organisation has multiple priorities, and where theirs might fit within those, can help to prevent resentment or animosity toward a project when it is launched.
 
 During our work with Nottingham Trent University, we began our discovery process by facilitating an [Open Space](https://en.wikipedia.org/wiki/Open_Space_Technology) session with around 50 members of the University Leadership Team (ULT). This ensured that every senior stakeholder had an opportunity to raise issues and enabled the ULT to build its own consensus about what the key objectives were.
 
@@ -64,8 +64,6 @@ These theories about users are then translated into user stories—a short descr
 But, at this stage, these stories are simply a group of nicely structured assumptions. We need to validate these with real users.
 
 This could be achieved through focus groups or one-to-one interviews with key audience groups or, if we’re replacing an existing product, we can use a digital survey to ask current users about the tasks they are trying to complete and why it is important to them.
-
-Example of a user story and how we structure them
 
 ## Scope out the sweet spot
 

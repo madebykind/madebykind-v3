@@ -46,7 +46,7 @@ related_projects:
   - slug: work/artswork
 testimonials:
   - testimonials/glasto
-  - testimonials/lr
+  - testimonials/artswork-website
 help_intro: We partner with arts and cultural organisations, helping them to reach their audiences and achieve their goals through brand strategies and digital activities.
 help_items:
   - title: Improve your ticketing journey

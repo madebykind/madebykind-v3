@@ -84,11 +84,11 @@ When you choose to pay for the discovery phase, you avoid the cost of this waste
 
 Nobody knows your organisation and its audiences better than you do, so it may seem wasteful to pay someone else to tell you what you already know.
 
-Unfortunately, when it comes to planning a user-facing project like a new website, your deep understanding of your own organisation is both your best weapon and your biggest blind spot. It can be extremely difficult to set to one side what you know about your company or product, and instead view your organisation from the outside, as your customers perceive it.
+Unfortunately, when it comes to planning a user-facing project like a new website, your deep understanding of your own organisation is both your best weapon and your biggest blind spot. It can be extremely difficult to set to one side what you know about your organisation or services, and instead view your organisation from the outside, as your audiences see it.
 
 That user-centred perspective is critical to all aspects of project success, from creating an information architecture that your users can move through intuitively, to setting the right tone of voice for your content.
 
-A discovery phase is all about eliminating hunches and subjective views in favour of data and thorough research. By running discovery with a digital partner, you’ll bring together your expertise with their wider perspective and UX thinking. That leads to the creation of a clear, shared understanding of both your objectives and your customers.
+A discovery phase is all about eliminating hunches and subjective views in favour of data and thorough research. By running discovery with a digital partner, you’ll bring together your expertise with their wider perspective and UX thinking. That leads to the creation of a clear, shared understanding of both your objectives and your audiences.
 
 ## What to expect from the discovery process
 
@@ -104,17 +104,17 @@ Using that analysis you can then define objectives for the project that are both
 
 #### Conducting a competitor audit
 
-Research to define the strategies, market share, offering, strengths and weaknesses of your direct and indirect competitors.
+Research to define the strategies, audiences, offering, strengths and weaknesses of organisations working in your space.
 
 #### Reviewing your existing digital data
 
-The best decisions are validated by data. We tend to use a mixture of analytics data, sales funnel data, user testing and benchmarking to uncover opportunities and pain points.
+The best decisions are validated by data. We tend to use a mixture of analytics data, donation and conversion data, user testing and benchmarking to uncover opportunities and pain points.
 
 If you don’t have such data available, one of the first tasks should be to start gathering it during the discovery phase itself.
 
 #### Assessing user needs
 
-Documenting what your users need, want and expect when using your website, be they your customers or your internal teams. These needs form the core of a description of what your project must do well for the people who will actually use it day‑to‑day.
+Documenting what your users need, want and expect when using your website, be they supporters, service users or your internal teams. These needs form the core of a description of what your project must do well for the people who will actually use it day‑to‑day.
 
 At Kind, we use a variety of techniques to do this, including:
 
@@ -133,9 +133,9 @@ You and your digital partner will likely consider not only what the best technol
 
 ### Deliverables
 
-Towards the end of a discovery phase, we will have amounted a wealth of research and raw data but, the main deliverables of a proper discovery phase should be an executive summary of key insights, along with a more extensive report that can become the foundation of informed specialist briefs for the delivery of the project. That report should include:
+Towards the end of a discovery phase, we will have amassed a wealth of research and raw data but, the main deliverables of a proper discovery phase should be an executive summary of key insights, along with a more extensive report that can become the foundation of informed specialist briefs for the delivery of the project. That report should include:
 
-* A statement of the goals for the project, and how they serve the business’s objectives
+* A statement of the goals for the project, and how they serve the organisation’s objectives
 * An informed description of the target audience(s)
 * A list of the actions and behaviours we want users to engage in
 * An audit of existing content & brand assets
