@@ -13,7 +13,7 @@ style: subproject
 heading: A digital experience that understands your situation
 preheading: Strategy, design, build and integrations
 author: mat
-intro: "<p>The Papyrus website needed to serve many different groups and different needs, but most importantly, young people who may be in active crisis.</p><p> So, delivering a successful website wasn’t about clever features or a great design (although I think we did that too), Instead, it was about clarity, calmmess in the right areas and making sure that the right information was quick and easy to find, without friction, confusion, or adding to the distress they might already be feeling.</p>"
+intro: "<p>The Papyrus website needed to serve many different groups and different needs, but most importantly, young people who may be in active crisis.</p><p> So, delivering a successful website wasn’t about clever features or a great design (although I think we did that too), Instead, it was about clarity, calmness in the right areas and making sure that the right information was quick and easy to find, without friction, confusion, or adding to the distress they might already be feeling.</p>"
 
 # Header
 banner_type: standard
@@ -28,7 +28,7 @@ cover_img: images/work_papyrus_mobile.png
 cover_img_alt: "A mobile phone on a denim jacket. The mobile phone has the Papyrus website on the screen"
 teaser_subheading: Digital deep-dive
 
-note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+note: "In September 2026, Papyrus entered administration and closed. We’re deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We’re proud of what we created alongside the Papyrus team, and we’ve kept this case study here as a record of that work."
 
 ---
 

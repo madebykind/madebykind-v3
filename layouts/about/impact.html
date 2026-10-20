@@ -12,7 +12,7 @@
             ) }}
             <div class="absolute z-10 text-buff bottom-10 left-10">
               <article>
-                <h3 class="text-3xl h1">87.4</h3>
+                <p class="text-3xl h1">87.4</p>
                 <p class="mt-5">B Impact Assessment Score</p>
               </article>
             </div>
@@ -42,7 +42,7 @@
             </ul>
             <p>To certify, B Corporations are required to go through a “B Impact Assessment” and gain a score of over 80 points, verified by B Lab analysts. In our two certification processes, 
 	          <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/kind/" target="_blank" rel="noreferrer noopener">Kind scored 93.6</a> and 87.4.</p>
-            <p>Additionally, B Lab found that Kind has an Impact Business Model due to our support for purpose-driven enterprises. A company with an Impact Business Model is intentionally designed to create a specific positive outcome for one its stakeholders.</p>
+            <p>Additionally, B Lab found that Kind has an Impact Business Model due to our support for purpose-driven enterprises. A company with an Impact Business Model is intentionally designed to create a specific positive outcome for one of its stakeholders.</p>
             <h3>What else can we do?</h3>
             <p>B Impact Assessments happen every 3 years, and we’re in the process of making improvements to our business that will hopefully increase our score and, more importantly, increase our positive impact.</p>
             </div>
@@ -57,7 +57,7 @@
             ) }}
             <div class="absolute z-10 text-buff bottom-10 left-10">
               <article>
-                <h3 class="text-3xl h1">&pound;31k</h3>
+                <p class="text-3xl h1">&pound;31k</p>
                 <p class="mt-5">Donated value since 2014</p>
               </article>
             </div>
@@ -82,10 +82,10 @@
             </button>
             <div id="charity-partnerships" class="mt-10">
               <div class="prose">
-                <p>We've also been members of the
+                <p>We’ve also been members of the
                   <a href="https://www.sas.org.uk/take-action/partnerships/the-ocean-network/" target="_blank" rel="noreferrer noopener">Surfers Against Sewage Ocean Network</a>
                   since 2018, supporting their work to end sewage and plastic pollution in our oceans.</p>
-                <p>Over the last three financial years, we have donated 28% of our profits and 136 hours of our times to charitable causes. That equates to a donated value of more than £15,000.</p>
+                <p>Over the last three financial years, we have donated 28% of our profits and 136 hours of our time to charitable causes. That equates to a donated value of more than £15,000.</p>
                 <p>Since 2014, our donated value is more than £31,000.</p>
               </div>
               <div class="flex flex-wrap gap-5 mt-10 lg:gap-10">
@@ -105,7 +105,8 @@
           </div>
 
           <ul class="mt-10 list-none">
-              {{ range (where site.RegularPages "Section" "impact-reports").ByDate }}
+              {{/* Newest first; titles are year ranges like 2024-2025 */}}
+              {{ range (where site.RegularPages "Section" "impact-reports").ByTitle.Reverse }}
 
               <li>
                 {{ partial "teaser" . }}

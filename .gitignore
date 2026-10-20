@@ -58,6 +58,8 @@ public
 *.bak
 
 # HUGO built assets
+data/icons.json
+resources/_gen/getresource
 hugo_stats.json
 .hugo_build.lock
 # resources/_gen/images/

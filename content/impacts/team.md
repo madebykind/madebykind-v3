@@ -4,7 +4,7 @@ icon:
 title: Team
 ---
 
-<p>Our median gender pay gap is 0%, because there's no reason why it shouldn't be. Our full-time equivalent team is 50% female, 50% male, just like our business ownership.</p>
+<p>Our median gender pay gap is 0%, because there’s no reason why it shouldn’t be. Our full-time equivalent team is 50% female, 50% male, just like our business ownership.</p>
 
 <p>Additional to pay, we give our team:</p>
 

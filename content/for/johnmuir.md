@@ -2,7 +2,7 @@
 draft: false
 from: mat
 title: John Muir Trust
-seo_title: "We'd love to work with the John Muir Trust"
+seo_title: "We’d love to work with the John Muir Trust"
 description: "We’re Kind, and we’d love to support the amazing work you do to protect wild places and help more people connect with nature"
 inline_title: the John Muir Trust
 heading: Let us help keep wild places wild

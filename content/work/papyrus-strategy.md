@@ -28,7 +28,7 @@ cover_img: images/work_papyrus_cover.jpg
 cover_img_alt: "A Papyrus report cover"
 teaser_subheading: Strategy deep-dive
 
-note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+note: "In September 2026, Papyrus entered administration and closed. We’re deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We’re proud of what we created alongside the Papyrus team, and we’ve kept this case study here as a record of that work."
 
 ---
 
@@ -44,7 +44,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
   What came back was both inspiring and revealing. The people at Papyrus were deeply, genuinely committed to their mission. They know exactly why the work matters (suicide is the leading cause of death in young people under 35, and they believe many of those deaths are preventable). What was harder was translating that conviction into a brand and a digital presence that could communicate with the same clarity and urgency to the outside world.
 
 
-  By working closely with the marketing team and understanding goals for the future, we were able to focus on the bigger picture for Papyrus. The discovery phase gave us the evidence we needed to make the case for a much bigger piece of work. It’s one thing to say "I think you need a rebrand" - it’s another to be able to show an organisation exactly why, with the voices of their own people behind it. 
+  By working closely with the marketing team and understanding goals for the future, we were able to focus on the bigger picture for Papyrus. The discovery phase gave us the evidence we needed to make the case for a much bigger piece of work. It’s one thing to say “I think you need a rebrand” - it’s another to be able to show an organisation exactly why, with the voices of their own people behind it. 
 
 
   </div>
@@ -103,7 +103,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
   We provided interim Marketing Director-level support to help bridge the gap. That meant leading meetings, maintaining the strategic thread of the project, keeping the marketing team and project aligned, and making sure the work kept moving forward with clarity and purpose. The strong relationship we’d built with the Papyrus team meant we understood the organisation well enough to be genuinely useful, rather than just holding a seat at the table.
 
 
-  The project continued to have momentum and produce incredible pieces of work throughout that time, ensuring nothing that had been worked on was wasted or lost. It also meant when stability returned everything was clear and ready to go. 
+  The project continued to have momentum and produce incredible pieces of work throughout that time, ensuring nothing that had been worked on was wasted or lost. It also meant everything was clear and ready for the team to pick up. 
 
 
   </div>
@@ -117,7 +117,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 
   ## What I took from this project
 
-  Working with Papyrus reminded me of something I already knew, but that’s easy to forget in the day-to-day: strategy is only as good as the human understanding behind it. The workshops, the conversations, the time spent really getting to know the organisation - that wasn’t the preamble to the real work. That was the real work. Everything else followed from it. By constantly keeping the real goals at the heart of what we did, we were able to provide Papyrus with the tools to continue their most important work. Saving the lives of young people.
+  Working with Papyrus reminded me of something I already knew, but that’s easy to forget in the day-to-day: strategy is only as good as the human understanding behind it. The workshops, the conversations, the time spent really getting to know the organisation - that wasn’t the preamble to the real work. That was the real work. Everything else followed from it. By constantly keeping the real goals at the heart of what we did, we gave Papyrus the tools for their most important work: saving the lives of young people.
 
 
   If you’re working with an organisation doing something this important, you owe it to them to get that foundation right. I think we did.

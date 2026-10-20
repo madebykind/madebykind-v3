@@ -4,7 +4,7 @@
       {{ if .Params.icon }}
       <a href="{{ .Permalink }}">
         <svg class="w-auto h-auto max-w-24 max-h-12 lg:max-w-36 lg:max-h-18 flex-no-shrink" width="{{ .Params.icon_width }}" height="{{ .Params.icon_height }}" role="presentation" aria-hidden="true">
-          <use xlink:href="#icon-{{ .Params.icon }}"/>
+          <use xlink:href="{{ partial "icon-ref" .Params.icon }}"/>
         </svg>
       </a>
       {{ end }}

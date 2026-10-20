@@ -53,10 +53,16 @@
     includeSubDomains;
     preload
     '''
-    # Multi-value headers are expressed with multi-line strings
-    cache-control = '''
-    max-age=31536000,
-    must-revalidate'''
+    # No browser cache-control here: pages get Netlify's default
+    # (public, max-age=0, must-revalidate), so browsers check for a new
+    # version on every visit. The CDN still caches them (above) and is
+    # purged on each deploy.
+
+# Built CSS/JS (cache-busted with ?timestamp) and fonts: keep in the browser for a year
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    cache-control = "public, max-age=31536000, immutable"
 
 [[headers]]
   for = "/*.ico"

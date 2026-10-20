@@ -20,8 +20,8 @@ related_work:
 
 # Content
 heading: Ensuring a fair deal across the global coffee community
-preheading: Brand delivery for Algrano, a distruptor changing the power dynamics in the coffee industry.
-intro: The global coffee industry has long been structured to favour middlemen over the people who grow the coffee. Algrano set out to change that. Founded in 2015, they built an online platform that connects independent coffee producers directly with roasters, cutting out the gatekeepers, making pricing transparent and giving both sides of the trade more control over how they do business.
+preheading: Brand delivery for Algrano, a disruptor changing the power dynamics in the coffee industry.
+intro: "The global coffee industry has long been structured to favour middlemen over the people who grow the coffee. Algrano set out to change that. Founded in 2015, they built an online platform that connects independent coffee producers directly with roasters, cutting out the gatekeepers, making pricing transparent and giving both sides of the trade more control over how they do business. Algrano isn’t a charity, but its business model exists to make the coffee trade fairer: it connects growers directly with roasters, cutting out middlemen and making pricing transparent."
 why:
   text: There is a deep imbalance in the coffee industry and Algrano seeks to disrupt that. Putting roasters in direct contact with the producers growing coffee at source and ensuring fair and equitable business for everyone.
   person: michelle
@@ -36,7 +36,7 @@ banner_images:
   - img: images/work-algrano-drinkers.jpg
     alt: Two men drinking coffee outside a blue building
   - img: images/work-algrano-harvest.jpg
-    alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
+    alt: A coffee worker tips freshly harvested coffee cherries from an orange crate into a processing machine
   - img: images/work-algrano-coffee-hands.jpg
     alt: A man holding raw coffee beans in his hands
 banner_icon: algrano-logo

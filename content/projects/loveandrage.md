@@ -6,7 +6,7 @@ name: Love and Rage online campaign hub
 icon: logo-landr
 teaser:
   title: Love and Rage online campaign hub
-  description: Bringing all of Chris Packham's campaigns together in one place, online, to mobilise and incite action from his supporters.
+  description: Bringing all of Chris Packham’s campaigns together in one place, online, to mobilise and incite action from his supporters.
   images:
     - img: images/work-loveandrage-rnn.jpg
       alt: People, including Chris Packham, hold a banner at the Restore Nature Now march

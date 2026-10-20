@@ -30,33 +30,33 @@ Often it’s because the question that matters most was never asked: *Why?*
 
 ## The cost of skipping the ‘why’
 
-The most effective organisations aren’t the ones that move fastest, they’re the ones that focus on the 'why'.
+The most effective organisations aren’t the ones that move fastest, they’re the ones that focus on the ‘why’.
 
 When there isn’t a clear reason behind a project, decisions are often based on preference rather than purpose. Without a clear plan and [strategy](/services/strategy), charity project planning becomes reactive, timelines stretch, budgets disappear and scope gets reduced to make things fit. You end up making compromises that shouldn’t be needed and sometimes you might even find yourself redoing the same work sooner than expected, as it becomes obvious that nothing has really changed.
 
 Everyone’s moving, but nobody is reading the map. It’s not because your team doesn’t care, it’s because they don’t have a shared focus.
 
-Without a clear ‘why’, there’s nothing to measure success against and no way of knowing what is or isn't suitable. There’s no shared understanding of what progress really looks like. The work might look good, but is it making the right kind of difference?
+Without a clear ‘why’, there’s nothing to measure success against and no way of knowing what is or isn’t suitable. There’s no shared understanding of what progress really looks like. The work might look good, but is it making the right kind of difference?
 
 ## The clarity that comes from asking ‘why’
 
-Asking ‘why’ doesn’t slow a project down, in fact we find that it speeds things up. When everyone understands the reason behind the work, decisions become easier to make and your team doesn't need to second-guess anything. The right path is clear to everyone.
+Asking ‘why’ doesn’t slow a project down, in fact we find that it speeds things up. When everyone understands the reason behind the work, decisions become easier to make and your team doesn’t need to second-guess anything. The right path is clear to everyone.
 
 This clarity allows us to replace personal opinions with purpose and helps each part of a project pull in the same direction. Research focuses on what matters most and delivery becomes easier because the destination is agreed from the start.
 
-When the ‘why’ is clear, the end goals are obvious. It’s not about what we deliver anymore, it's about what that delivers for our cause.
+When the ‘why’ is clear, the end goals are obvious. It’s not about what we deliver anymore, it’s about what that delivers for our cause.
 
 {{< example
   heading="In practice"
   project="work/rewilding-britain"
   >}}
-  In 2020, rewilding was still a new idea to most people and Rewilding Britain’s website wasn't bringing the concept of rewilding to life. They needed clarity about their purpose in order to take the next step.
+  In 2020, rewilding was still a new idea to most people and Rewilding Britain’s website wasn’t bringing the concept of rewilding to life. They needed clarity about their purpose in order to take the next step.
 
   Once we focused on that purpose, our goals became clear. The new website had to show why rewilding matters and how it benefits both nature and local communities. That clarity shaped the structure, the content and the design decisions that followed.
 
   As rewilding became better known, Rewilding Britain needed to ensure they were leading the conversation. That meant returning to the strategy, understanding what had changed and realigning the site so it could support a growing national movement.
 
-  By starting with the 'why' and returning to it as things changed, the website continues to help Rewilding Britain to stay focused on the impact they want to create.
+  By starting with the ‘why’ and returning to it as things changed, the website continues to help Rewilding Britain to stay focused on the impact they want to create.
 
 
 {{< /example >}}

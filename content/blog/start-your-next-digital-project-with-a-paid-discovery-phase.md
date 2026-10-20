@@ -9,7 +9,7 @@ cover_img: images/strategy-notes.jpg
 cover_img_alt: Pam and Michelle stood in front of a wall of sticky notes
 draft: false
 services: []
-description: Even with the best intentions, digital project can often go awry. What you're missing is a discovery phase
+description: Even with the best intentions, digital project can often go awry. What you’re missing is a discovery phase
 toc: true
 featured: false
 key_topic:
@@ -26,11 +26,11 @@ related_posts:
   - how-to-get-your-colleagues-on-board-with-your-website-project
   - finding-the-common-ground-between-your-organisation-and-its-audience
 ---
-Perhaps, when you launch, results are positive, but nowhere near what you expected or hoped for. Maybe your users aren't as delighted as you'd like them to be. Maybe they complain or go elsewhere.
+Perhaps, when you launch, results are positive, but nowhere near what you expected or hoped for. Maybe your users aren’t as delighted as you’d like them to be. Maybe they complain or go elsewhere.
 
 So where might things have gone wrong? And why is this a far too familiar story in the [digital](/services/digital/) industry?
 
-The simple answer is, because we don't spend long enough on discovery. The rush to meet deadlines, means this important part of the process is often squeezed or even skipped entirely.
+The simple answer is, because we don’t spend long enough on discovery. The rush to meet deadlines, means this important part of the process is often squeezed or even skipped entirely.
 
 ## What is a discovery phase?
 
@@ -44,7 +44,7 @@ The aim is to develop a high-level understanding and a sense of the direction yo
 
 A discovery phase will help you understand what is most important to your organisation and the success of your project.
 
-That knowledge, in turn, will help your chosen delivery partner to understand which deliverables to concentrate their efforts and your budget on. Meaning, everything that is delivered is working towards your strategic goals. And you haven't wasted time and budget on superfluous components or activities that add little to no value.
+That knowledge, in turn, will help your chosen delivery partner to understand which deliverables to concentrate their efforts and your budget on. Meaning, everything that is delivered is working towards your strategic goals. And you haven’t wasted time and budget on superfluous components or activities that add little to no value.
 
 ### Reduce the risk of working with a new digital partner
 
@@ -54,7 +54,7 @@ You’ll get to see how they work and communicate across a wide range of tasks: 
 
 At the end of discovery, if the relationship has gone well you can proceed with confidence. If not, you have a natural breakpoint at which you can finish on amicable terms, rather than having to complete the build phase with a partner who you know not to be the best choice for the job.
 
-As a minimum, by the end of the process, you’ll be better equipped to create a well-researched brief with an appropriate budget. And you'll know what you are, and are not, looking for in a digital delivery partner.
+As a minimum, by the end of the process, you’ll be better equipped to create a well-researched brief with an appropriate budget. And you’ll know what you are, and are not, looking for in a digital delivery partner.
 
 ### Evaluate technology options before committing
 
@@ -70,9 +70,9 @@ Clients quite reasonably want clarity when it comes to pricing, while digital ag
 
 Without a discovery phase, your digital partner will either price higher than needed (to protect themselves), or too low (due to a lack of in-depth understanding). This regularly leads to awkward mid-project discussions about budget vs scope. And frustration on both sides.
 
-Bringing together your expert knowledge of your organisation and sector with your digital partner's broad perspective allows for much more accurate estimating as well as early conversations about what’s possible and practical with the resources available.
+Bringing together your expert knowledge of your organisation and sector with your digital partner’s broad perspective allows for much more accurate estimating as well as early conversations about what’s possible and practical with the resources available.
 
-### Have a hand in the research you're paying for
+### Have a hand in the research you’re paying for
 
 During the tendering process, if a client opts to forego paying for discovery, agencies will often still conduct pre-contract research (in order to win the work) ***but they then factor in the cost of the work already done into their proposal*.**
 
@@ -84,11 +84,11 @@ When you choose to pay for the discovery phase, you avoid the cost of this waste
 
 Nobody knows your organisation and its audiences better than you do, so it may seem wasteful to pay someone else to tell you what you already know.
 
-Unfortunately, when it comes to planning a user-facing project like a new website, your deep understanding of your own organisation is both your best weapon and your biggest blind spot. It can be extremely difficult to set to one side what you know about your company or product, and instead view your organisation from the outside, as your customers perceive it.
+Unfortunately, when it comes to planning a user-facing project like a new website, your deep understanding of your own organisation is both your best weapon and your biggest blind spot. It can be extremely difficult to set to one side what you know about your organisation or services, and instead view your organisation from the outside, as your audiences see it.
 
 That user-centred perspective is critical to all aspects of project success, from creating an information architecture that your users can move through intuitively, to setting the right tone of voice for your content.
 
-A discovery phase is all about eliminating hunches and subjective views in favour of data and thorough research. By running discovery with a digital partner, you’ll bring together your expertise with their wider perspective and UX thinking. That leads to the creation of a clear, shared understanding of both your objectives and your customers.
+A discovery phase is all about eliminating hunches and subjective views in favour of data and thorough research. By running discovery with a digital partner, you’ll bring together your expertise with their wider perspective and UX thinking. That leads to the creation of a clear, shared understanding of both your objectives and your audiences.
 
 ## What to expect from the discovery process
 
@@ -104,17 +104,17 @@ Using that analysis you can then define objectives for the project that are both
 
 #### Conducting a competitor audit
 
-Research to define the strategies, market share, offering, strengths and weaknesses of your direct and indirect competitors.
+Research to define the strategies, audiences, offering, strengths and weaknesses of organisations working in your space.
 
 #### Reviewing your existing digital data
 
-The best decisions are validated by data. We tend to use a mixture of analytics data, sales funnel data, user testing and benchmarking to uncover opportunities and pain points.
+The best decisions are validated by data. We tend to use a mixture of analytics data, donation and conversion data, user testing and benchmarking to uncover opportunities and pain points.
 
 If you don’t have such data available, one of the first tasks should be to start gathering it during the discovery phase itself.
 
 #### Assessing user needs
 
-Documenting what your users need, want and expect when using your website, be they your customers or your internal teams. These needs form the core of a description of what your project must do well for the people who will actually use it day‑to‑day.
+Documenting what your users need, want and expect when using your website, be they supporters, service users or your internal teams. These needs form the core of a description of what your project must do well for the people who will actually use it day‑to‑day.
 
 At Kind, we use a variety of techniques to do this, including:
 
@@ -133,9 +133,9 @@ You and your digital partner will likely consider not only what the best technol
 
 ### Deliverables
 
-Towards the end of a discovery phase, we will have amounted a wealth of research and raw data but, the main deliverables of a proper discovery phase should be an executive summary of key insights, along with a more extensive report that can become the foundation of informed specialist briefs for the delivery of the project. That report should include:
+Towards the end of a discovery phase, we will have amassed a wealth of research and raw data but, the main deliverables of a proper discovery phase should be an executive summary of key insights, along with a more extensive report that can become the foundation of informed specialist briefs for the delivery of the project. That report should include:
 
-* A statement of the goals for the project, and how they serve the business’s objectives
+* A statement of the goals for the project, and how they serve the organisation’s objectives
 * An informed description of the target audience(s)
 * A list of the actions and behaviours we want users to engage in
 * An audit of existing content & brand assets

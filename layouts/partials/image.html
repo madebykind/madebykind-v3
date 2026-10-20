@@ -26,6 +26,7 @@
           {{ $src }}?w={{ . }}&auto=compress,format {{ . }}w
         {{- end -}}
       {{- end -}}"
-      width="1920">
+      width="1920"
+      {{- with partialCached "image-size" $src $src }} height="{{ math.Round (mul 1920 (div (float .height) .width)) }}"{{ end }}>
   </picture>
 

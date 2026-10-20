@@ -1,5 +1,4 @@
 // Assets
-import 'virtual:svg-icons-register';
 import "./css/index.css";
 // Bootstrap
 import setLoaded from "./js/setLoaded";

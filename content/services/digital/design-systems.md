@@ -3,12 +3,12 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 2
 title: Design systems
-description: A design system brings coherence to your brand's designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
+description: A design system brings coherence to your brand’s designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
 
 # Header
 header_class: bg-sky text-green
 heading: Design systems
-intro: A design system brings coherence to your brand's designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
+intro: A design system brings coherence to your brand’s designs by consolidating its visual identity, strategy, values, and audience into shared practices, patterns, templates, and themes, ensuring consistency across outputs.
 
 
 # Related
@@ -30,7 +30,7 @@ related_posts:
 
   A design system is a consolidation of an organisation’s visual identity, strategy, brand values, purpose and audiences into shared practices, principles, design patterns, templates, themes and end products such as websites and printed media.
 
-  It acts as the single source of truth for everything a brand will deliver visually, and otherwise. It's a playbook for how a brand and strategy translates into real-world assets.
+  It acts as the single source of truth for everything a brand will deliver visually, and otherwise. It’s a playbook for how a brand and strategy translates into real-world assets.
 
   It is constantly evolving, a living thing, and as such is never ‘finished’. As an organisation or brand grows, the number of outputs to maintain grows, and the design system grows along with them.
 
@@ -40,7 +40,7 @@ related_posts:
 
 {{< split orientation="right" >}}
 
-## They're not for everyone
+## They’re not for everyone
 
 ![Shot in the environment, a mobile-optimised website for The Rivers Trust website](https://madebykind.imgix.net/work-rivers-trust-phone-2.jpg)
 

@@ -6,7 +6,7 @@ impact_teaser:
   low-carbon energy institute"
   images:
     - img: images/work-eti-laptop.jpg
-      alt: The ETI's searchable archive of low-carbon research shown on a laptop
+      alt: The ETI’s searchable archive of low-carbon research shown on a laptop
     - img: images/work-eti-offshore-wind.jpg
       alt: Sunset photograph of the sea with a wind farm in the distance
   caption: The Energy Technologies Institute

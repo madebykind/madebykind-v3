@@ -70,7 +70,7 @@ At Kind, we’ve already started. For our own website project we made many consi
 
 It’s easy to add analytics code to a website without thought for what data will be collected, which brings me to some of the many things we learnt from Laura Kalbag. While we can decide not to use the data that most analytics tools collect about our website users, it is still being collected and stored. Not only that it is being monetised and manipulated by the owners of those tools and their advertising platforms, allowing unscrupulous organisations to manipulate it and us.
 
-So, to balance the need for privacy and the need for usage data, we’re using Fathom, an analytics tool that doesn’t follow users around the website, it let’s us know what pages have been looked at, where visitors are coming from and what browser or devices are being used. After all, that’s all we need. So why invade your privacy?
+So, to balance the need for privacy and the need for usage data, we use Plausible, an analytics tool that doesn’t follow users around the website. It tells us which pages have been viewed, where visitors come from and which browsers or devices they use. After all, that’s all we need. So why invade your privacy?
 
 ## Helping our clients
 

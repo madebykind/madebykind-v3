@@ -46,13 +46,13 @@ related_projects:
   - slug: work/artswork
 testimonials:
   - testimonials/glasto
-  - testimonials/lr
+  - testimonials/artswork-website
 help_intro: We partner with arts and cultural organisations, helping them to reach their audiences and achieve their goals through brand strategies and digital activities.
 help_items:
   - title: Improve your ticketing journey
     description: Even the best digital marketing strategy can be let down by a ticket purchasing journey with a low conversion rate. Keeping things simple and concentrating on the user-experience are the keys to increased ticket sales.
   - title: Digitise your historical content
-    description: There's no substitute for seeing artworks or artefacts in person but sometimes that's just not possible. Whether it's because an exhibition has ended, the artefact is in a private collection or it's simply not a physical object, digital technology creates a lot of opportunities to share more and share further.
+    description: There’s no substitute for seeing artworks or artefacts in person but sometimes that’s just not possible. Whether it’s because an exhibition has ended, the artefact is in a private collection or it’s simply not a physical object, digital technology creates a lot of opportunities to share more and share further.
   - title: Strategic consultancy
     description: A strategic approach should be central to every project because, if your project is not meeting organisational goals, it is not worth doing. Taking time to understand your objectives, audiences and opportunities will help to plan and deliver a highly effective end product.
   - title: Prototyping and user testing

@@ -1,0 +1,11 @@
+{{- if eq hugo.Environment "production" -}}
+User-agent: *
+Allow: /
+Disallow: /godmode/
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{- else -}}
+# Branch deploy: crawlable so search engines see each page's noindex tag
+User-agent: *
+Allow: /
+{{- end }}

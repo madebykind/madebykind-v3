@@ -21,12 +21,14 @@ Use this checklist on your own or with your team to see where your brand strateg
   q3="Does everyone understand our brand?"
   q4="Is our brand actually working?"
   >}}
+
 ---
+
 {{< data-capture
   heading="Download the Brand Strategy Gap-Finder"
   description="or let us know your email address and we’ll send you the checklist along with some tips for how to use it."
   url=""
-  file_url="https://mcusercontent.com/7a49f87afb625e8dd4de9d9fa/files/5a408851-1667-4651-2e0c-60050ac51364/Digital_Strategy_Gap_Finder.pdf"
+  file_url="https://mcusercontent.com/7a49f87afb625e8dd4de9d9fa/files/49f3e840-6a57-ec5c-f963-77ada8d82694/Brand_Strategy_Gap_Finder.01.pdf"
   src="images/illustration-empower-change-v2.png"
   purposes="sending the Brand Strategy Gap-finder and advice on how to use it"
   tag="3960235"

@@ -28,7 +28,7 @@ cover_img: images/work_papyrus_posters_2.jpg
 cover_img_alt: "A man walking past 3 Papyrus posters"
 teaser_subheading: Brand deep-dive
 
-note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+note: "In September 2026, Papyrus entered administration and closed. We’re deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We’re proud of what we created alongside the Papyrus team, and we’ve kept this case study here as a record of that work."
 
 ---
 
@@ -120,7 +120,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
   src_3="images/work_papyrus_values_3.png"
   alt_3="Speaking up: To get help for ourselves, or to support someone we care about, we have to be able to talk about suicide. By inviting and supporting difficult conversations, by providing a safe space to talk openly, and by showing you that you’re never, ever alone, we’re helping people overcome the shame and fear that blocks the way." 
   src_4="images/work_papyrus_values_4.png"
-  alt_4="Taking action: To get help for ourselves, or to support someone we care about, we have to be able to talk about suicide. By inviting and supporting difficult conversations, by providing a safe space to talk openly, and by showing you that you’re never, ever alone, we’re helping people overcome the shame and fear that blocks the way."
+  alt_4="Taking action: Papyrus doesn’t just talk. We act. We confront, campaign and pressure, passionately driving projects and policies that will help us save lives. We advocate for children and young people and amplify your voices. And we teach others how to act too, because we know we’re more powerful together."
   type="snap"
   speed="1000" >}}
 </div>
@@ -206,7 +206,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 
 {{< multi-image
   src_1="images/work_papyrus_spread.jpg" alt_1="Internal spread from a Papyrus document"
-  src_2="images/work_papyrus_leaflet.jpg" alt_2="Papyrus leaflet titled: 'Are you woored about someone?'" class_2="w-full h-full object-cover" img_class_2="w-full h-full object-cover"
+  src_2="images/work_papyrus_leaflet.jpg" alt_2="Papyrus leaflet titled: ‘Are you worried about someone?’" class_2="w-full h-full object-cover" img_class_2="w-full h-full object-cover"
   >}}
 
 <!-- Text left -->

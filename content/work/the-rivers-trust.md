@@ -20,10 +20,10 @@ heading: Raising public awareness of Britain’s poor river health
 preheading: User-centred website for environmental charity, The Rivers Trust.
 intro: The Rivers Trust is the umbrella organisation for 65 local trusts working on the ground across the UK and Ireland, and the only group of environmental charities dedicated to protecting and improving river environments for people and wildlife. Their goal is to bring together the people, knowledge and data needed to help rivers thrive again.
 why:
-  text: Healthy rivers can play a huge part in reducing the effects of climate change, like flooding and drought. The UK's rivers are some of the unhealthiest in the world.
+  text: Healthy rivers can play a huge part in reducing the effects of climate change, like flooding and drought. The UK’s rivers are some of the unhealthiest in the world.
   person: mat
 impact:
-  text: ince we launched the new Rivers Trust website in 2021, the state of Britain’s rivers has gone from a niche environmental concern to a national conversation.
+  text: Since we launched the new Rivers Trust website in 2021, the state of Britain’s rivers has gone from a niche environmental concern to a national conversation.
   stats:
     - 304-percent
     - 2k-emails
@@ -84,7 +84,7 @@ Rivers shape our landscapes and provide the foundations of our cities, towns and
 
   ## Research and discovery
 
-  We ran a user needs workshop with the Rivers Trust team, mapping user stories across a remarkably wide range of audiences: donors, member trusts, farmers, wild swimmers, anglers, activists, researchers, corporates, government bodies and journalists. Each group had specific, distinct needs from the platform, and the existing site was serving almost none of them well
+  We ran a user needs workshop with the Rivers Trust team, mapping user stories across a remarkably wide range of audiences: donors, member trusts, farmers, wild swimmers, anglers, activists, researchers, corporates, government bodies and journalists. Each group had specific, distinct needs from the platform, and the existing site was serving almost none of them well.
 
   </div>
 </div>

@@ -2,7 +2,7 @@
 draft: false
 from: mat
 title: League Against Cruel Sports
-seo_title: "We'd love to work with the League Against Cruel Sports"
+seo_title: "We’d love to work with the League Against Cruel Sports"
 description: "We’re Kind, and we’d love to support the amazing work you do to protect animals and challenge cruelty."
 inline_title: the League Against Cruel Sports
 heading: We want to help end cruelty to animals

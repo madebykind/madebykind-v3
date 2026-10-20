@@ -1,0 +1,29 @@
+{{- /*
+  Intrinsic pixel size of an imgix image, read from its JSON metadata (fm=json).
+  Hugo caches the response between builds. Lets templates set width/height so
+  the browser reserves space before the image loads.
+
+  Usage: {{ $size := partialCached "image-size" $src $src }}
+         {{ with $size }}width="{{ .width }}" height="{{ .height }}"{{ end }}
+  Accepts an imgix URL or an "images/…" content path.
+*/ -}}
+{{- $size := dict -}}
+{{- with . -}}
+  {{- $url := . -}}
+  {{- if strings.HasPrefix $url "images/" -}}
+    {{- $url = printf "https://madebykind.imgix.net/%s" (strings.TrimPrefix "images/" $url) -}}
+  {{- end -}}
+  {{- if strings.Contains $url "madebykind.imgix.net/" -}}
+    {{- with resources.GetRemote (printf "%s?fm=json" $url) -}}
+      {{- with .Err -}}
+        {{- warnf "image-size: %s" . -}}
+      {{- else -}}
+        {{- $meta := transform.Unmarshal . -}}
+        {{- if and $meta.PixelWidth $meta.PixelHeight -}}
+          {{- $size = dict "width" $meta.PixelWidth "height" $meta.PixelHeight -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $size -}}

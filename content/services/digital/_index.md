@@ -31,7 +31,7 @@ process:
       description: "<p>By the time we get to production we’ve aligned everyone’s purpose and priorities, so we employ a User-centred Design approach to build sustainable, effective digital products rooted in our strategic and user-focused insights.</p>"
   illustration:
     img: images/choose-kind.png
-    alt: An illustration of a person holding a very large placard. The placard reads 'Choose Kind'.
+    alt: An illustration of a person holding a very large placard. The placard reads ‘Choose Kind’.
 
 # Related content
 related_work:

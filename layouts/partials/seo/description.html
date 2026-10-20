@@ -1,0 +1,18 @@
+{{- /*
+  Plain-text description for meta/OpenGraph/structured data: front matter
+  description, else (for content pages) the summary trimmed to snippet length,
+  else the site description.
+*/ -}}
+{{- $description := "" -}}
+{{- with .Description -}}
+  {{- $description = . | plainify | htmlUnescape -}}
+{{- else -}}
+  {{- if .IsPage -}}
+    {{- $description = .Summary | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace | truncate 160 -}}
+  {{- end -}}
+{{- end -}}
+{{- $description = $description | replaceRE `\s+` " " | strings.TrimSpace -}}
+{{- if not $description -}}
+  {{- $description = site.Params.description -}}
+{{- end -}}
+{{- return $description -}}

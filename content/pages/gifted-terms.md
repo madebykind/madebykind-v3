@@ -8,7 +8,7 @@ url: /gifted/terms
 
 ## Competition terms
 
-1. Entry to the competition is free, just complete the form on the Kind website or email gifted@madebykind.com with your name, company name and your answer to the competition question: **"Tell us how our free brand process would help your organisation deliver more positive impact"**
+1. Entry to the competition is free, just complete the form on the Kind website or email gifted@madebykind.com with your name, company name and your answer to the competition question: **“Tell us how our free brand process would help your organisation deliver more positive impact”**
 1. The competition will close at midnight on 15th March 2024. Any entries received after this time will not be valid.
 1. The competition winner will be chosen by our judging panel and notified by email before 31st March 2024
 1. The competition is open to purpose-driven organisations registered in the United Kingdom or European Union only

@@ -1,6 +1,6 @@
 
   <article class="h-full">
-    <a class="no-underline group" aria-labelledby="{{ .Title | anchorize }}" href="{{ .Permalink }}">
+    <a class="no-underline group" href="{{ .Permalink }}">
     <div class="p-5 md:aspect-4/3 lg:aspect-3/4 xl:aspect-3/5 2xl:aspect-3/4
         {{ with .Params.card_colour }}
           {{ . }}
@@ -16,7 +16,7 @@
             {{ $src := replace .Params.illustration "images" "https://madebykind.imgix.net" }}
             <div class="self-end mt-auto">
               <img
-                alt="{{ .Params.illustration_alt }}"
+                alt=""
                 class="object-cover h-32 w-auto"
                 loading=lazy
                 sizes="(min-width: 100em) 33vw, 96vw"
@@ -26,7 +26,6 @@
                 {{ (printf "%s?w=624&auto=compress,format" $src) }} 600w"
                 height="156"
                 width="156"
-                role="presentation"
               >
             </div>
           {{ end }}

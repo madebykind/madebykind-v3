@@ -22,11 +22,11 @@ related_posts:
   - why-continuing-to-use-live-streaming-post-lockdown-could-be-positive-for-events
   - improving-the-online-ticket-buying-experience
 ---
-We recently undertook a survey asking event-goers across the UK their thoughts on going back to live events. It raised some unsurprising but interesting views on what and how people wanted to be communicated with. Here's what we found...
+We recently undertook a survey asking event-goers across the UK their thoughts on going back to live events. It raised some unsurprising but interesting views on what and how people wanted to be communicated with. Here’s what we found...
 
 ## Where do people go for information?
 
-As expected, 79% of customers told us that they would look for information and updates on the events through the host's website. This remained the same after lockdown, however, there was an increase in respondents stating that they would also look at the confirmation email (+10%) and social media (+6%). These statistics prove the importance of having platforms that are easy to access and well-maintained as viewers will be looking across multiple places to remain informed. A website or social media presence that is not regularly updated or is difficult to use, will not provide a smooth experience for the user and could possibly result in poor ticket sales or lower customer satisfaction.
+As expected, 79% of customers told us that they would look for information and updates on the events through the host’s website. This remained the same after lockdown, however, there was an increase in respondents stating that they would also look at the confirmation email (+10%) and social media (+6%). These statistics prove the importance of having platforms that are easy to access and well-maintained as viewers will be looking across multiple places to remain informed. A website or social media presence that is not regularly updated or is difficult to use, will not provide a smooth experience for the user and could possibly result in poor ticket sales or lower customer satisfaction.
 
 ![Table showing importance of information to audiences](https://madebykind.imgix.net/7-the-need-to-know.jpg)
 
@@ -36,7 +36,7 @@ Most of us have forgotten basic social skills, let alone what it feels like to b
 
 In an ever-changing landscape of rules and measures, people are looking to organisers to provide as much clarity as possible on what to expect and how the venue will function. Articulating the new customer experience clearly provides them with confidence that you are a trusted provider and manages their expectations. According to our survey, showtimes, venue and seating information are the key things to know ahead of attending with health and safety seeing a 50% increase in importance to ticket holders. Proving there is a real appetite from customers in knowing how the venue will operate and the safety measures in place. Providing information on these areas is really important to get your attendees booked in and to provide them with an overall positive experience.
 
-## Don't be scared to over-share
+## Don’t be scared to over-share
 
 Given the rate of cancelled shows, gigs, games and gatherings we’ve endured over the last year, ticket-holders may feel anxious about what it is like to attend but also worry about last-minute cancellations. Our survey highlighted that, previously, people would check for updates either once or a few times ahead of an event. Post lockdown they’ve indicated they’d be far more likely to check a few times, frequently or even daily in the run-up to the event.
 

@@ -17,9 +17,8 @@
     {{ (printf "%s?w=1440&auto=compress,format" .) }} 1440w,
     {{ (printf "%s?w=1920&auto=compress,format" .) }} 1920w"
       width="1024"
-      {{- with $.Title | safeHTML -}}
-        title="{{ . }}"
-      {{- end -}}
+      {{- with partialCached "image-size" . . }} height="{{ math.Round (mul 1024 (div (float .height) .width)) }}"{{ end }}
+      {{- with $.Title | safeHTML }} title="{{ . }}"{{ end }}
     >
   {{- else -}}
     <code class="text-claret">You can’t insert images without alt text! Do not use placeholder alt text!</code>

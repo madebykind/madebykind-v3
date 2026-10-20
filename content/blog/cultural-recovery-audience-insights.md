@@ -24,7 +24,7 @@ related_posts:
   - improving-the-online-ticket-buying-experience
   - communicating-to-reassure-your-audience
 ---
-Despite it showing that respondents are still cautious about measures easing and are unsure about what 'normal life' looks like post-June 21st, it became clear that survey-takers are keen to get back to live events when it is safe to do so.
+Despite it showing that respondents are still cautious about measures easing and are unsure about what ‘normal life’ looks like post-June 21st, it became clear that survey-takers are keen to get back to live events when it is safe to do so.
 
 Here are the headline results of the survey.
 

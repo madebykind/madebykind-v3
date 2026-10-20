@@ -12,7 +12,7 @@ heading: "Digital Strategy Gap-Finder"
 intro: Find out whether your digital activity adds up to a coherent strategy.
 ---
 
-Use this tool when you want to understand how well your digital presence is working as a whole. It works through the key areas of digital strategy and helps you see what's in good shape, what needs attention, and how well the parts connect.
+Use this tool when you want to understand how well your digital presence is working as a whole. It works through the key areas of digital strategy and helps you see what’s in good shape, what needs attention, and how well the parts connect.
 
 {{< questions
   heading="Uncover answers to:"
@@ -21,7 +21,9 @@ Use this tool when you want to understand how well your digital presence is work
   q3="Do our channels and tools work together?"
   q4="Is there a strategy behind our digital activity?"
   >}}
+
 ---
+
 {{< data-capture
   heading="Download the Digital Strategy Gap-Finder"
   description="or let us know your email address and we’ll send you the checklist along with some tips for how to use it."

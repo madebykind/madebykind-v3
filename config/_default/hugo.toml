@@ -1,6 +1,6 @@
 ## Basic Configuration
 baseurl = "/"
-languageCode = "en-gb"
+languageCode = "en-GB"
 languageLang = "en"
 title = "Kind"
 disableHugoGeneratorInject = true
@@ -9,18 +9,38 @@ copyright = "Future Friendly Ltd."
 canonifyURLs = true
 enableEmoji = true
 enableGitInfo = false
-enableRobotsTXT = false
+enableRobotsTXT = true
 summarylength = 10
 paginate = 6
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 timeout = "300s"
-disableKinds = ["rss"]
+
+# llms.txt is generated from content (layouts/index.llms.txt); the only RSS
+# feed is the blog's (enabled in content/blog/_index.md)
+[outputFormats.llms]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["HTML", "llms"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 [markup.goldmark.renderer]
   unsafe = true
 
 [markup.tableOfContents]
   ordered = true
+
+# Remote fetches (image dimensions from imgix) live under resources/ so
+# netlify-plugin-hugo-cache-resources keeps them between deploys
+[caches]
+  [caches.getresource]
+    dir = ":resourceDir/_gen/getresource"
+    maxAge = -1
 
 [module]
 
@@ -38,6 +58,9 @@ disableKinds = ["rss"]
   phone = "+441157270990"
   phonePretty = "0115 727 0990"
   since = 2009
+
+  logo = "https://madebykind.imgix.net/kind-logo-blue.png"
+  address = { street = "16 Commerce Square", locality = "Nottingham", postcode = "NG1 1HS", country = "GB" }
 
   linkedin = "https://www.linkedin.com/company/madebykind/"
   instagram = "https://www.instagram.com/madebykind/"

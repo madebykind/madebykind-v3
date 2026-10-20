@@ -37,7 +37,7 @@ The reality of the situation is that such users are a tiny subset of people with
 Accessibility isn’t a technological problem to be solved. It’s an essential part of the human condition: we all have different needs and abilities.
 {{</ blockquote >}}
 
-We will all, at some point in our lives, have varying levels of ability. This reduced level of ability, or disability, may be something that permanent, temporary or transient and the degree to which it affects us will vary.
+We will all, at some point in our lives, have varying levels of ability. This reduced level of ability, or disability, may be something that is permanent, temporary or transient and the degree to which it affects us will vary.
 
 ### Visual ability
 
@@ -75,26 +75,26 @@ Access for all.
 
 ### Accessibility is a fundamental human right
 
-Over the years I've seen many excuses for not implementing accessible websites, typically some variation of the following:
+Over the years I’ve seen many excuses for not implementing accessible websites, typically some variation of the following:
 
-* Making my site accessible wont benefit my business.
+* Making my site accessible won’t benefit my business.
 * Blind people don’t need to access my site, they’re not my target audience.
 * Making my site accessible would be prohibitively expensive.
 * It’s pretty much impossible to make an accessible website look good.
 
 All of these excuses ignore the human aspect of it all; real people with real feelings use websites. However, there is something else to consider, something which no business can afford to ignore, the law.
 
-Depending on where you live, or where your customers live, your business may be l*egally required* to provide an accessible website. In the US these requirements stem from the [Americans with Disabilities Act](https://www.ada.gov/2010_regs.htm), in the EU it is the [European Accessibility Act](https://ec.europa.eu/social/main.jsp?catId=1202), both require accessibility as a fundamental human right and for business those requirements often extend into the online world.
+In the UK, public sector bodies, including universities, must meet the Public Sector Bodies Accessibility Regulations 2018. In practice this means WCAG 2.2 AA and publishing an accessibility statement. Everyone else, including charities, can face complaints under the Equality Act 2010.
 
 ### Everyone’s a winner!
 
-There are no downsides to making your site accessible; it is good for all the users of your site, without exception. Time and again research has shown that websites that better serve their users needs perform better, it‘s obvious. Accessible websites sell more things to more people; books, beer, religion; everyone benefits from websites that are easy to understand and easy to use.
+There are no downsides to making your site accessible; it is good for all the users of your site, without exception. Time and again research has shown that websites that better serve their users needs perform better, it’s obvious. Accessible websites reach more people, whether you’re selling tickets, recruiting volunteers or asking for donations. Everyone benefits from websites that are easy to understand and easy to use.
 
 {{< blockquote author="John F. Kennedy" role="35th President of the United States" >}}
 A rising tide lifts all boats.
 {{</ blockquote >}}
 
-The [W3C’s Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) (WCAG) is an internationally recognised set of recommendations that explain how to make digital services, websites and apps accessible to everyone, *including* users with impairments.
+The [W3C’s Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG22/) (WCAG) is an internationally recognised set of recommendations that explain how to make digital services, websites and apps accessible to everyone, *including* users with impairments.
 
 WCAG was designed explicitly for the web and is recognised internationally as the gold standard, often being referred to directly in legislation as a minimum requirement. These guidelines are designed to **make the web better for everyone**.
 
@@ -104,11 +104,11 @@ There are many misconceptions about web accessibility such as;
 * Accessible websites look awful,
 * I don’t ‘need’ to make my site accessible,
 
-But these are just misconceptions and excuses, and there are no justifiable reasons for not creating inclusive websites. In many places the law now requires it. Depending on where you live your business may be *l*egally required to provide an accessible website. In the US it is the [Americans with Disabilities Act](https://www.ada.gov/2010_regs.htm), in the EU it is the [European Accessibility Act](https://ec.europa.eu/social/main.jsp?catId=1202), both require accessibility as a fundamental human right.
+But these are just misconceptions and excuses, and there are no justifiable reasons for not creating inclusive websites. In many places the law now requires it.
 
 There are consequences to ignoring these requirements, just ask [Dominos pizza](https://www.bbc.co.uk/news/technology-46894463).
 
-***People prefer websites that work for them, it’s obvious. Nail web accessibility and your website will work for as many people (and robots) as possible. Accessibility is good for you, your business and your visitors.***
+***People prefer websites that work for them, it’s obvious. Nail web accessibility and your website will work for as many people (and robots) as possible. Accessibility is good for you, your organisation and your visitors.***
 
 ## Where do we start?
 
@@ -127,7 +127,7 @@ Just some of the things [the team at Kind](https://madebykind.com/about/#team) c
 * Proposing fixes and highlighting opportunities for improvement
 * Identify accessibility requirements for your business
 * Designing accessible alternative to failing elements
-* Helping with integration of web accessibilty into your workflow
+* Helping with integration of web accessibility into your workflow
 * Keeping you and your business up to date with legal requirements
 
-It all starts with a conversation, so if you think we might be able to help you let‘s get talking.
+It all starts with a conversation, so if you think we might be able to help you let’s get talking.

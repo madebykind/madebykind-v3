@@ -18,7 +18,7 @@ services:
 
 # Content
 heading: Growing organically for a healthy and sustainable world
-preheading: Website and CRM-integrated member area for UK's organic gardening charity.
+preheading: Website and CRM-integrated member area for UK’s organic gardening charity.
 intro: Garden Organic is the UK’s leading organic growing charity, helping gardeners, communities and the next generation cultivate a healthier, more biodiverse world. Through campaigning, advice, community projects, conservation and research, they connect people with nature through growing.
 why:
   text: British people love gardening, and doing so organically helps connect them with nature and the environment and can lead to improved health, well-being, and food security.
@@ -34,7 +34,7 @@ impact:
 # Header
 banner_type: standard
 banner_img: images/work-garden-organic-header.jpg
-banner_img_alt: Carrots held in someone's hand. They are fresh out of the ground, so have soil on them
+banner_img_alt: Carrots held in someone’s hand. They are fresh out of the ground, so have soil on them
 banner_icon: garden-organic-logo
 
 # Page nav

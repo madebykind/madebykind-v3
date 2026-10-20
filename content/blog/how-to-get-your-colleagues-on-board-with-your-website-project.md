@@ -6,7 +6,7 @@ date: 2020-02-19T16:29:36.327Z
 author: michelle
 draft: false
 seo_title: "Internal comms for web projects: Getting your colleagues on board"
-description: Running a digital project can be trick. There is a lot to consider and even more to know when dealing with internal stakeholders.
+description: Running a digital project can be tricky. There is a lot to consider and even more to know when dealing with internal stakeholders.
 toc: false
 featured: false
 key_topic:
@@ -18,7 +18,7 @@ related_posts:
   - partnering-with-the-right-agency-for-you
   - start-your-next-digital-project-with-a-paid-discovery-phase
 ---
-Managing a digital project can be a tricky process. Often, your internal stakeholders will show a high level of interest but won't always have the same level of understanding of the project process and its objectives. This can result in a disparity between expectations and reality and lead to frustration and bad feeling about the project itself.
+Managing a digital project can be a tricky process. Often, your internal stakeholders will show a high level of interest but won’t always have the same level of understanding of the project process and its objectives. This can result in a disparity between expectations and reality and lead to frustration and bad feeling about the project itself.
 
 Because of this, over the years I learnt that, when approaching a new project, it was really important to follow a few simple steps in order to produce the best project possible, with the support and endorsement of your colleagues.
 
@@ -67,4 +67,4 @@ To communicate effectively make sure you utilise all of the tools available to y
 
 ---
 
-If you're starting a digital project soon, hopefully this rundown will help things run smoothly. Good luck!
+If you’re starting a digital project soon, hopefully this rundown will help things run smoothly. Good luck!

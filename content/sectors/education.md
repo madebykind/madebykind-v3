@@ -13,9 +13,9 @@ banner_images:
   - img: images/work-shu-protestor.jpg
     alt: A closeup of a smiling young woman, wearing a wooly hat. A colourful is visible in the background
   - img: images/work-bookmark-reading-mentor.jpg
+    alt: A boy and a woman reading a large picture book together in a colourful classroom
   - img: images/work-bookmark-laptop-child.jpg
     alt: A child with yellow headphones in a library. He is sitting at an open laptop and smiling
-    alt: A photograph of a man working on designs for a website on an iMac screen
   - img: images/work-unesco-online.jpg
     alt: The UNESCO Education in Emergencies Knowledge Hub shown on a laptop device outside a government building
   - img: images/work-shu-runner.jpg

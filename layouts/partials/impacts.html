@@ -12,7 +12,7 @@
                   data-impact-flicker
                   data-impact-caption="{{ .Params.impact_teaser.caption }}"
                   data-impact-id="{{ $e }}"
-                  data-impact-icon="#icon-{{ .Params.icon }}"
+                  data-impact-icon="{{ partial "icon-ref" .Params.icon }}"
                   data-impact-images-count="{{ .Params.impact_teaser.images | len }}"
                   {{ range $index, $e := .Params.impact_teaser.images }}
                     data-impact-image-{{ add $index 1 }}="{{ $e.img }}"

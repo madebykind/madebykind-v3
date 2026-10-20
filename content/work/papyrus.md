@@ -40,7 +40,7 @@ intro: >
   Working with Papyrus was a reminder of why we do what we do.
 
 why:
-  text: "I've known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus gave young people hope, and the space to talk openly about how they're feeling. 24 hours a day."
+  text: "I’ve known people who’ve lost someone to suicide, and seen the lasting impact it has on them. Papyrus gave young people hope, and the space to talk openly about how they’re feeling. 24 hours a day."
   person: mat
 impact:
   text: 'The new Papyrus brand created a stronger platform for conversations that save young lives.<br><br>A dated identity became a confident national presence, and a crisis-led charity became a hopeful, future-facing movement providing real-time support for young people in need.'
@@ -58,7 +58,7 @@ banner_img_alt: "Papyrus strapline: Here for Life"
 
 # Teaser content
 cover_img: images/work-papyrus-posters-dark.jpg
-cover_img_alt: 
+cover_img_alt: Three Papyrus posters on an outdoor wall at dusk, reading ‘What’s bothering you?’, ‘Hold on. We’re here.’ and ‘What’s on your mind?’ with the HOPELINE247 number
 icon: logo-papyrus
 icon_width: 577
 icon_height: 301
@@ -82,7 +82,7 @@ impact_teaser:
 # Footer override
 #footer_heading:
 
-note: "In September 2026, Papyrus entered administration and closed. We're deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We're proud of what we created alongside the Papyrus team, and we've kept this case study here as a record of that work."
+note: "In September 2026, Papyrus entered administration and closed. We’re deeply saddened by the news. For almost 30 years, Papyrus worked to prevent young suicide in the UK, and its closure is a huge loss for the young people and families it supported.<br><br>We’re proud of what we created alongside the Papyrus team, and we’ve kept this case study here as a record of that work."
 ---
 
 
@@ -122,7 +122,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 
   Their voices shaped everything that followed. From the strategic direction to specific decisions about language, information architecture, and how content is structured for users who may be accessing the site at their most difficult moments. Every design decision, every word choice, every structural call was made with those users in mind.
 
-  This is what good discovery looks like. Routing through all of the information available, taking the feedback and truly listening to users. Not a box-ticking exercise before the real work begins, but the foundation on which everything else is built.
+  This is what good discovery looks like. Rooting through all of the information available, taking the feedback and truly listening to users. Not a box-ticking exercise before the real work begins, but the foundation on which everything else is built.
 
 
   </div>
@@ -184,7 +184,7 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8 items-stretch">
   <div class="col-span-full lg:col-span-4">
-    {{< figure alt="Papyrus sweatshirt that reads 'Here for Life'" src="work_papyrus_sweatshirt.png" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
+    {{< figure alt="Papyrus sweatshirt that reads ‘Here for Life’" src="work_papyrus_sweatshirt.png" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
   </div>
   <div class="col-span-full lg:col-span-8 row-span-2">
     {{< figure alt="A Papyrus branded hoody" src="work_papyrus_hoody.jpg" wrapperclass="w-full h-full" imgclass="w-full h-full object-cover">}}
@@ -288,4 +288,4 @@ note: "In September 2026, Papyrus entered administration and closed. We're deepl
 </div>
 
 
-{{< blockquote author="Ged Flynn" role="Chief Executive, Papyrus" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}What began as a conversation about a new website became something much bigger – a full repositioning of how Papyrus presents itself to the world. Kind brought strategic focus, creative ambition and a genuine understanding of what's at stake if we get this wrong. I’m proud of what we've created together.{{</ blockquote >}}
+{{< blockquote author="Ged Flynn" role="Chief Executive, Papyrus" wrapperclass="py-16 lg:py-32 xl:py-48" align="center">}}What began as a conversation about a new website became something much bigger – a full repositioning of how Papyrus presents itself to the world. Kind brought strategic focus, creative ambition and a genuine understanding of what’s at stake if we get this wrong. I’m proud of what we’ve created together.{{</ blockquote >}}
