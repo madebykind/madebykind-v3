@@ -20,9 +20,9 @@ process:
     - heading: Review and stakeholder conversations
       description: "<p>We start by reviewing existing organisational documentation and speaking with key stakeholders to understand your starting point and the assumptions already in play.</p>"
     - heading: Audience mapping
-      description: "<p>We map your audience groups together, exploring their needs and preferences to build a clearer picture of who you're serving.</p>"
+      description: "<p>We map your audience groups together, exploring their needs and preferences to build a clearer picture of who you’re serving.</p>"
     - heading: Research and validation
-      description: "<p>We deepen that understanding through research appropriate to your organisation, whether that's interviews, workshops or surveys.</p>"
+      description: "<p>We deepen that understanding through research appropriate to your organisation, whether that’s interviews, workshops or surveys.</p>"
     - heading: Finding the sweet spot
       description: "<p>We identify the point where audience needs and organisational goals genuinely align, which becomes the foundation for everything that follows.</p>"
     - heading: Actionable insights
@@ -47,9 +47,9 @@ related_posts:
 
   ## Putting your audiences at the centre of every decision
 
-  User research and analysis is the process of identifying who you're actually trying to reach, understanding what those people need, and mapping where those needs and your organisational goals overlap.
+  User research and analysis is the process of identifying who you’re actually trying to reach, understanding what those people need, and mapping where those needs and your organisational goals overlap.
 
-  Most organisations arrive at a new project carrying assumptions about their audiences that haven't been tested. Research works through them systematically, replacing guesswork with evidence, and the findings create a shared understanding across your organisation of what your audiences need and how that should guide your decisions.
+  Most organisations arrive at a new project carrying assumptions about their audiences that haven’t been tested. Research works through them systematically, replacing guesswork with evidence, and the findings create a shared understanding across your organisation of what your audiences need and how that should guide your decisions.
 
 ![Mat and Michelle chatting](https://madebykind.imgix.net/user_research_01.jpg)
 
@@ -75,6 +75,6 @@ related_posts:
   item_1_heading="Evidence-based decisions"
   item_1_description="When decisions are grounded in what your audiences actually need, every subsequent choice about content and channels is more likely to land. Research replaces internal consensus with something more reliable."
   item_2_heading="Shared understanding"
-  item_2_description="Working through findings as a team builds a common picture of who you're serving, which makes it easier to prioritise and harder to pull in different directions."
+  item_2_description="Working through findings as a team builds a common picture of who you’re serving, which makes it easier to prioritise and harder to pull in different directions."
   item_3_heading="Focused resources"
   item_3_description="Knowing which audience groups are most important and what they need allows you to direct budget and effort accordingly. Research done at the start of a project typically saves more time and resource than it costs." >}}

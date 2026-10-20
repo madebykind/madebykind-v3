@@ -58,7 +58,7 @@ related_work:
   item_3_heading="Audience messaging"
   item_3_description="How your voice adapts to speak to different audiences without losing its character. The same organisation, the same values, expressed in a way that resonates with each group you need to reach."
   item_4_heading="Guidelines"
-  item_4_description="A practical reference that gives anyone writing for your organisation the direction they need. Real examples, clear dos and don'ts, and guidance on how to create content that stays true to your brand.">}}
+  item_4_description="A practical reference that gives anyone writing for your organisation the direction they need. Real examples, clear dos and don’ts, and guidance on how to create content that stays true to your brand.">}}
 
 
 {{< split orientation="left" >}}
@@ -67,7 +67,7 @@ related_work:
 
   Purpose-driven organisations have powerful stories to tell. A strong tone of voice is how those stories reach the right people. It builds trust before someone has met you, makes even complex ideas feel accessible, and gives your audiences a reason to move from interest to action.
 
-  !['Here for Life' strapline on a tablet device](https://madebykind.imgix.net/tone_of_voice_02.jpg)
+  ![‘Here for Life’ strapline on a tablet device](https://madebykind.imgix.net/tone_of_voice_02.jpg)
 
 {{< /split >}}
 

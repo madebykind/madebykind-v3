@@ -14,7 +14,7 @@
                 {{- with .Params.services -}}
                   {{- range . -}}{{ . | anchorize }} {{ end -}}
                 {{- end -}}">
-        {{ partial "teaser__work" ( dict "context" . "size" "large" "labelColourClass" $textColourClass) }}
+        {{ partial "teaser__work" ( dict "context" . "size" "large" "labelColourClass" $textColourClass "eager" $.eager) }}
       </div>
     {{ end }}
     <div class="container md:max-w-none md:w-auto md:bleed">

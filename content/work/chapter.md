@@ -23,15 +23,15 @@ heading: Helping a pioneering arts centre reflect its evolving mission
 preheading: Brand development and website delivery for Chapter.
 intro: >
 
-  Chapter provides space for creativity in all its many forms: art, cinema, theatre, community. For over 50 years they've been presenting, producing and promoting work in Cardiff, nurturing artists and welcoming audiences from the local community and around the world.
+  Chapter provides space for creativity in all its many forms: art, cinema, theatre, community. For over 50 years they’ve been presenting, producing and promoting work in Cardiff, nurturing artists and welcoming audiences from the local community and around the world.
 
   
-  Their brand and website didn't reflect that ambition. Chapter needed an identity and digital presence that conveyed the full breadth of what they do: not just a cinema, not just a café, but a multidisciplinary arts organisation at the heart of its community.
+  Their brand and website didn’t reflect that ambition. Chapter needed an identity and digital presence that conveyed the full breadth of what they do: not just a cinema, not just a café, but a multidisciplinary arts organisation at the heart of its community.
 why:
-  text: Chapter is a cultural organisation that truly understands the power and importance of the arts. By commissioning exhibitions from diverse artists, hosting a community garden and offering 'pay what you can' pricing, they make art more accessible to all.
+  text: Chapter is a cultural organisation that truly understands the power and importance of the arts. By commissioning exhibitions from diverse artists, hosting a community garden and offering ‘pay what you can’ pricing, they make art more accessible to all.
   person: mat
 impact:
-  text: Since we relaunched Chapter's brand and website in 2023, Chapter is reaching more of its community across everything it does, recognised most recently with an Art Fund Museum of the Year nomination in 2025.
+  text: Since we relaunched Chapter’s brand and website in 2023, Chapter is reaching more of its community across everything it does, recognised most recently with an Art Fund Museum of the Year nomination in 2025.
   stats:
     - chapter-visitors
     - chapter-checkouts
@@ -79,7 +79,7 @@ teaser:
     - img: images/work-chapter-billboard.jpg
       alt: A mockup of a billboard for “The Rolling Calf” a performance event at Chapter. A man is walking past the billboard at the bottom left of the image.
     - img: images/work-chapter-poster-underground.jpg
-      alt: A single poster mockup for the performance 'Dani Dinger - No Sense of Watching'. The poster is in a subway.
+      alt: A single poster mockup for the performance ‘Dani Dinger - No Sense of Watching’. The poster is in a subway.
       
 # Footer override
 #footer_heading:
@@ -113,7 +113,7 @@ From world-class and emerging talent to the next generation, to our audiences an
 
   ## Brand strategy and identity
 
-  From the research foundation we developed a brand strategy: a bold manifesto, clear values and a tone of voice that captured Chapter's character. From that we built a full identity designed to work across every context: typography, iconography, colourways, poster templates, stationery, digital and in-venue wayfinding signage. An identity system with enough range to hold together everything Chapter does.
+  From the research foundation we developed a brand strategy: a bold manifesto, clear values and a tone of voice that captured Chapter’s character. From that we built a full identity designed to work across every context: typography, iconography, colourways, poster templates, stationery, digital and in-venue wayfinding signage. An identity system with enough range to hold together everything Chapter does.
 
   </div>
 </div>
@@ -150,7 +150,7 @@ From world-class and emerging talent to the next generation, to our audiences an
 
   ## User-centred website
 
-  The website needed to present Chapter as far more than a venue, while making it genuinely easy to find and book events. We designed and built a component-based system in Craft CMS, with flexible templates giving equal weight to cinema, performance, exhibitions and community programming across all devices. Chapter's team can build and manage content pages independently.
+  The website needed to present Chapter as far more than a venue, while making it genuinely easy to find and book events. We designed and built a component-based system in Craft CMS, with flexible templates giving equal weight to cinema, performance, exhibitions and community programming across all devices. Chapter’s team can build and manage content pages independently.
 
   </div>
 </div>
@@ -177,7 +177,7 @@ From world-class and emerging talent to the next generation, to our audiences an
 
   ## Integrated with Spektrix
 
-  We connected the Spektrix REST API to pull event data nightly into the CMS, keeping What's On current without manual duplication. Spektrix Web Components handled ticket sales, memberships, donations and gift vouchers across the site. The same data pipeline fed live event information to in-venue digital screens throughout the building. For the first time, Chapter had full visibility of the customer journey from discovery to purchase, tracking over 1.6 million Spektrix ticketing interactions in the first six months post-launch.
+  We connected the Spektrix REST API to pull event data nightly into the CMS, keeping What’s On current without manual duplication. Spektrix Web Components handled ticket sales, memberships, donations and gift vouchers across the site. The same data pipeline fed live event information to in-venue digital screens throughout the building. For the first time, Chapter had full visibility of the customer journey from discovery to purchase, tracking over 1.6 million Spektrix ticketing interactions in the first six months post-launch.
 
   </div>
 </div>

@@ -26,7 +26,7 @@ related_posts:
 
 ## About Jellyfish Theatre
 
-London-based Jellyfish Theatre teamed up with local actors Jordan Laidley and Mitchell Ndema to bring an interactive family show 'The Wagon of Dreams' to 10 parks across Nottingham. They managed to secure funding from the Arts Council England and local councillors to create a touring production with the aim to engage with families that do not have frequent access to theatre, in a safe outdoor environment.
+London-based Jellyfish Theatre teamed up with local actors Jordan Laidley and Mitchell Ndema to bring an interactive family show ‘The Wagon of Dreams’ to 10 parks across Nottingham. They managed to secure funding from the Arts Council England and local councillors to create a touring production with the aim to engage with families that do not have frequent access to theatre, in a safe outdoor environment.
 
 ![A caravan window, three people popping there heads out at different angles.](https://madebykind.imgix.net/jf-theatre.jpeg)
 
@@ -36,7 +36,7 @@ Given their ethos and passion for their shows, we were thrilled to help them in 
 
 ## Research
 
-To make sure we could give the best guidance, we undertook some research to understand the theatre company, regional outlets/press/venues that may be useful to them and how other shows were attempting to 'reopen' the arts during the pandemic.
+To make sure we could give the best guidance, we undertook some research to understand the theatre company, regional outlets/press/venues that may be useful to them and how other shows were attempting to ‘reopen’ the arts during the pandemic.
 
 ## Meeting
 
@@ -52,4 +52,4 @@ One of the central ideas we discussed was around how they could utilise their di
 
 The team wanted to engage the local media in order to reach their target audience and create excitement around the show. We guided them on how to put together a press release in the right format for local media and gave them a list of outlets to reach out to.
 
-They've just completed their shows in Nottingham, we've loved seeing them promoting their work and getting lots of people involved across the city. Now they're taking their tour across the country, check out their [website](https://www.jellyfishtheatre.com/) to see if they are heading towards a park near you! We'd highly recommend it.
+They’ve just completed their shows in Nottingham, we’ve loved seeing them promoting their work and getting lots of people involved across the city. Now they’re taking their tour across the country, check out their [website](https://www.jellyfishtheatre.com/) to see if they are heading towards a park near you! We’d highly recommend it.

@@ -5,7 +5,7 @@ card_colour: bg-sky text-green
 date: 2020-10-22T15:25:39.141Z
 author: michelle
 draft: false
-description: We're delighted to announce that Kind have been selected as a
+description: We’re delighted to announce that Kind have been selected as a
   provider to the BBC on their digital services framework.
 toc: false
 featured: false
@@ -16,7 +16,7 @@ related_posts:
   - partnering-with-the-right-agency-for-you
   - implementing-a-design-system-on-a-legacy-code-base
 ---
-We're delighted to announce that Kind have been successful in winning a place on the Digital Services Framework IV for the British Broadcasting Corporation (BBC), running for 2 years from October 2020.
+We’re delighted to announce that Kind have been successful in winning a place on the Digital Services Framework IV for the British Broadcasting Corporation (BBC), running for 2 years from October 2020.
 
 The contract will see us work across the BBC’s digital portfolio including, but not limited to, Childrens and Education, News, Sport, Sounds, Home, iPlayer and TV.
 

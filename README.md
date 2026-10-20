@@ -28,4 +28,9 @@ Assumes that you are on Mac OS and have Homebrew installed…
 1. Build all the things, in memory, and watch all the things `yarn dev`
 1. If things ever go pear-shaped `yarn clean` will remove `/node_modules` reinstall everything from scratch and remove the build output directory `/dist/` to leave you with a box-fresh and squeaky clean dev environment.
 
+### Icons
+
+SVG icons live in `src/icons`. `yarn build:icons` (run automatically by `yarn dev` and `yarn build`) compiles them into `data/icons.json`, and each page inlines only the icons it uses. The interface icons listed in `layouts/partials/icon-sprite.html` are on every page, so `<use xlink:href="#icon-arrow"/>` works anywhere. For any other icon (e.g. client logos), use `<use xlink:href="{{ partial "icon-ref" .Params.icon }}"/>` so it's added to that page's sprite. Re-run `yarn build:icons` after adding or changing an SVG while `yarn dev` is running.
+
+
 That's it. Netlify build's everything on Git push. If you need to deploy somewhere else `yarn build` the dist directory is the complete built site.

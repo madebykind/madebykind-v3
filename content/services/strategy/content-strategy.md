@@ -3,12 +3,12 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 2
 title: Content strategy
-description: A content strategy is a clear plan for what your organisation publishes, why, and who it's for, connecting your content activity directly to your organisational objectives across your website, social media and email campaigns.
+description: A content strategy is a clear plan for what your organisation publishes, why, and who it’s for, connecting your content activity directly to your organisational objectives across your website, social media and email campaigns.
 
 # Header
 header_class: bg-sky text-green
 heading: Content strategy
-intro: A content strategy is a clear plan for what your organisation publishes, why, and who it's for, connecting your content activity directly to your organisational objectives across your website, social media and email campaigns.
+intro: A content strategy is a clear plan for what your organisation publishes, why, and who it’s for, connecting your content activity directly to your organisational objectives across your website, social media and email campaigns.
 cover_img: 
 cover_img_alt: 
 
@@ -18,7 +18,7 @@ process:
   description: We approach content strategy as a practical exercise, building plans that your team can realistically deliver and measure.
   items:
     - heading: Content audit
-      description: "<p>We review your existing content across all relevant channels to understand what's working and where the gaps are.</p>"
+      description: "<p>We review your existing content across all relevant channels to understand what’s working and where the gaps are.</p>"
     - heading: Goal setting
       description: "<p>We establish clear content goals and align them to your wider organisational strategy.</p>"
     - heading: Audience definition
@@ -47,7 +47,7 @@ related_posts:
 
   ## Aligning your content to your objectives
 
-  Content strategy is the process of working out what your organisation should be saying and how that connects to what you're trying to achieve. A good content strategy gives your team a shared roadmap, ensuring your communications are purposeful and tied to clear goals.
+  Content strategy is the process of working out what your organisation should be saying and how that connects to what you’re trying to achieve. A good content strategy gives your team a shared roadmap, ensuring your communications are purposeful and tied to clear goals.
 
 ![Mockup of content boilerplate](https://madebykind.imgix.net/content_strategy_01.jpg)
 
@@ -57,7 +57,7 @@ related_posts:
 
   ## Starting with what you already have
 
-  Most organisations have more content than they realise, spread across channels that have grown over time without a clear plan behind them. A content audit brings that picture into focus, giving you a clear view of what you have and an honest assessment of how well it's serving your audiences.
+  Most organisations have more content than they realise, spread across channels that have grown over time without a clear plan behind them. A content audit brings that picture into focus, giving you a clear view of what you have and an honest assessment of how well it’s serving your audiences.
 
 
   From there, we establish clear goals aligned to your wider strategy, define your audiences and how different content serves different groups, then build a plan covering what to publish and when, with clear ownership across your team.
@@ -76,4 +76,4 @@ related_posts:
   item_2_heading="A clear roadmap"
   item_2_description="Your team has a shared plan to work from, which saves time and prevents duplication of effort."
   item_3_heading="Consistent communications"
-  item_3_description="A well-planned content programme builds audience trust over time, because the people you're trying to reach hear from you in a consistent and relevant way." >}}
+  item_3_description="A well-planned content programme builds audience trust over time, because the people you’re trying to reach hear from you in a consistent and relevant way." >}}

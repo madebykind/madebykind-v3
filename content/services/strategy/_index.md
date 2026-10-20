@@ -31,7 +31,7 @@ process:
       description: "<p>Strategy only works when it lives in the day-to-day. We support our clients to embed new thinking, build internal understanding and sustain momentum. And because things change, we build in flexibility, allowing your strategy to adapt, respond and keep delivering value over time.</p>"
   illustration:
     img: images/choose-kind.png
-    alt: An illustration of a person holding a very large placard. The placard reads 'Choose Kind'.
+    alt: An illustration of a person holding a very large placard. The placard reads ‘Choose Kind’.
 
 # Related content
 related_work:

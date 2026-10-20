@@ -30,7 +30,7 @@
             {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
+      <img {{ with partialCached "image-size" $src $src }} width="{{ .width }}" height="{{ .height }}"{{ end }} alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
   {{ if .Get "src_2" }}
@@ -56,7 +56,7 @@
             {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
+      <img {{ with partialCached "image-size" $src $src }} width="{{ .width }}" height="{{ .height }}"{{ end }} alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
   {{ if .Get "src_3" }}
@@ -82,7 +82,7 @@
             {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
+      <img {{ with partialCached "image-size" $src $src }} width="{{ .width }}" height="{{ .height }}"{{ end }} alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
   {{ if .Get "src_4" }}
@@ -108,7 +108,7 @@
             {{ $src }}?w={{ . }}&fm=jpg {{ . }}w
           {{- end -}}
         {{- end -}}" type="image/jpeg">
-      <img alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
+      <img {{ with partialCached "image-size" $src $src }} width="{{ .width }}" height="{{ .height }}"{{ end }} alt="{{ $alt }}" class="{{ $imgClass }}" src="{{ (printf "%s?w=640&auto=compress,format" $src) }}" loading="lazy">
     </picture>
   {{ end }}
   

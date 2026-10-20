@@ -3,12 +3,12 @@
 date: 2020-04-30T17:28:36.948Z
 weight: 1
 title: Brand strategy
-description: Brand strategy defines who you are, what you stand for, and how you show up in the world. It's the thinking behind your visual identity and every decision your organisation makes publicly. Get it right and everything else follows.
+description: Brand strategy defines who you are, what you stand for, and how you show up in the world. It’s the thinking behind your visual identity and every decision your organisation makes publicly. Get it right and everything else follows.
 
 # Header
 header_class: bg-sky text-green
 heading: Brand strategy
-intro: Brand strategy defines who you are, what you stand for, and how you show up in the world. It's the thinking behind your visual identity and every decision your organisation makes publicly. Get it right and everything else follows.
+intro: Brand strategy defines who you are, what you stand for, and how you show up in the world. It’s the thinking behind your visual identity and every decision your organisation makes publicly. Get it right and everything else follows.
 cover_img: 
 cover_img_alt: 
 
@@ -52,7 +52,7 @@ related_posts:
 
   The most valuable thing brand strategy does is locate you. It uncovers what is genuinely distinctive about your organisation, the space you can own in your sector that no one else can occupy.
 
-  For many organisations, this is where the real work happens. It's a rigorous, honest process of uncovering what makes you genuinely different and what your audiences need from you specifically.
+  For many organisations, this is where the real work happens. It’s a rigorous, honest process of uncovering what makes you genuinely different and what your audiences need from you specifically.
 
   Done well, brand strategy can reposition an organisation entirely. It changes how your audiences see you and gives your team the language and confidence to communicate your impact clearly.
 
@@ -61,15 +61,15 @@ related_posts:
 
 {{< split orientation="left" >}}
 
-  ## It's not just for big organisations
+  ## It’s not just for big organisations
 
-  Every organisation benefits from knowing exactly who they are and how to communicate it. The scale of the work looks different depending on where you are, but the value of getting it right doesn't change.
+  Every organisation benefits from knowing exactly who they are and how to communicate it. The scale of the work looks different depending on where you are, but the value of getting it right doesn’t change.
 
   
   For purpose-driven organisations especially, a clear strategy means nothing is wasted. Every piece of communication pulls in the same direction, toward the same goal.
 
   
-  We'll always recommend what your organisation actually needs. Not every project requires a full discovery process, and we'll tell you that honestly.
+  We’ll always recommend what your organisation actually needs. Not every project requires a full discovery process, and we’ll tell you that honestly.
 
   ![Chapter brand values](https://madebykind.imgix.net/brand_strategy_05.jpg)
 
@@ -85,7 +85,7 @@ related_posts:
   item_2_heading="Mission"
   item_2_description="Your day-to-day commitment to making that vision real. What you do, who you do it for, and how."
   item_3_heading="Values"
-  item_3_description="The principles that don't move. Values shape your culture and your decisions, and they should work just as hard externally. Communicated clearly, they give your audiences a reason to choose you, trust you, and believe in what you stand for."
+  item_3_description="The principles that don’t move. Values shape your culture and your decisions, and they should work just as hard externally. Communicated clearly, they give your audiences a reason to choose you, trust you, and believe in what you stand for."
   item_4_heading="Brand positioning"
   item_4_description="Where your organisation sits in relation to others in your sector and the space you occupy that no one else can."
   item_5_heading="Tone of voice"
@@ -101,7 +101,7 @@ related_posts:
 
   A brand without strategy is just a logo. With it, everything your organisation does pulls in the same direction. Your audiences get it, faster. They engage with more confidence, and your team has a shared sense of purpose to work from.
 
-  That's true whether you're a global charity or a local community organisation just finding your voice.
+  That’s true whether you’re a global charity or a local community organisation just finding your voice.
 
   For purpose-driven organisations, clarity is everything. Audiences need to understand who you are, and they often need to understand it quickly. A strong brand strategy gives your team a shared language, and your audiences a clear reason to engage.
 

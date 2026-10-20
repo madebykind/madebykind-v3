@@ -4,7 +4,7 @@ icon:
 title: Travel
 ---
 
-Kind have clients all over the UK but even making a visit by public transport has an affect on the environment.
+Kind have clients all over the UK but even making a visit by public transport has an effect on the environment.
  
 While we aim to carry out at least 90% of our meetings via video conferencing tools, face-to-face meetings can often be beneficial to the projects we’re working on, so there are occasions when we travel to our clients’ offices. 
  

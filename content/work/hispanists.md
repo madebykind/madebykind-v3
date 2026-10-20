@@ -69,7 +69,7 @@ client: AHGBI
 
   AHGBI had outgrown their former identity and digital platform. Our collaborative efforts focused on creating a brand that not only accommodates their diverse initiatives but also possesses the resilience to evolve alongside their continued growth.
 
-  We crafted a brand strategy and identity that subtly honours heritage and culture, while anchoring in the association's values, beliefs, and future initiatives. Introducing a bold and impactful design, the new brand identity stands out, appealing to a new generation of academics, and offers flexibility to evolve with the association's growth.
+  We crafted a brand strategy and identity that subtly honours heritage and culture, while anchoring in the association’s values, beliefs, and future initiatives. Introducing a bold and impactful design, the new brand identity stands out, appealing to a new generation of academics, and offers flexibility to evolve with the association’s growth.
 
   </div>
 </div>
@@ -113,7 +113,7 @@ client: AHGBI
 <div class="w-full grid grid-cols-12 gap-x-2.5 gap-y-6 lg:gap-6 xl:gap-8">
   <div class="prose col-span-full lg:col-span-8">
 
-  Adopting the abbreviation allowed us to design a bold, simplified identity. The handcrafted logo, employing a strong stacked composition inspired by the tilde's nuances and wave feature, accentuates the 'H,' anchoring Hispanists within the logo. We developed variations that allow for the logo to be stand alone or be supported by the full organisation name.
+  Adopting the abbreviation allowed us to design a bold, simplified identity. The handcrafted logo, employing a strong stacked composition inspired by the tilde’s nuances and wave feature, accentuates the ‘H,’ anchoring Hispanists within the logo. We developed variations that allow for the logo to be stand alone or be supported by the full organisation name.
 
   Harmonised with a refined selection of typography that balances modernity and tradition, these elements work in concert to support hierarchy and engagement. 
 

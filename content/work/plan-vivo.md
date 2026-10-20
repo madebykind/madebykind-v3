@@ -3,7 +3,7 @@
 date: 2026-01-26T11:07:38.606Z
 weight: 1
 title: Brand and website design for environmental NGO, Plan Vivo
-description: See how Kind partnered with Plan Vivo to create a new brand, website and digital memebrship hub supporting locally led, high-integrity climate action.
+description: See how Kind partnered with Plan Vivo to create a new brand, website and digital membership hub supporting locally led, high-integrity climate action.
 sector: for-planet
 topics:
   - services/strategy/user-research
@@ -57,7 +57,7 @@ client: Plan Vivo
 
   We ran strategic calls with Plan Vivo’s senior leadership team and staff, conducted desk-based research across the competitive landscape, and ran an online survey that drew responses from across their stakeholder community. We followed this with two workshops, one online and one in person, mapping user groups, prioritising audiences and working through what each of them needed from the brand and the website.
 
-  The existing brand didn't engaged well with potential users and the website was information-heavy, hard to navigate and reliant on users already knowing where to look. The organisation itself was respected but seen as a niche player: trusted by those already in the know, but not projecting the authority and confidence that its track record warranted. The voluntary carbon market had also become crowded and, in places, tarnished.
+  The existing brand didn’t engage well with potential users and the website was information-heavy, hard to navigate and reliant on users already knowing where to look. The organisation itself was respected but seen as a niche player: trusted by those already in the know, but not projecting the authority and confidence that its track record warranted. The voluntary carbon market had also become crowded and, in places, tarnished.
    
   </div>
 </div>

@@ -1,8 +1,9 @@
 ---
+noindex: true
 layout: stripped
 title: Almost there...
 heading: Almost there...
-intro: "We've sent you an email to confirm your subscription.
+intro: "We’ve sent you an email to confirm your subscription.
 
 
 Please click on the link in the email to join our mailing list."

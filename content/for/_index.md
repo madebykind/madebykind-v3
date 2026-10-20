@@ -8,4 +8,5 @@ cascade:
     render: always
     list: never
     publishResources: true
+  noindex: true
 ---

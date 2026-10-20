@@ -1,0 +1,12 @@
+{{- /*
+  Returns the sprite reference for an icon, e.g. #icon-logo-papyrus, and records
+  it against the page being rendered so icon-sprite includes its symbol.
+  Use for icons whose name comes from content/params:
+    <use xlink:href="{{ partial "icon-ref" .Params.icon }}"/>
+*/ -}}
+{{- $ref := "" -}}
+{{- with . -}}
+  {{- page.Store.SetInMap "icons" . true -}}
+  {{- $ref = printf "#icon-%s" . -}}
+{{- end -}}
+{{- return $ref -}}

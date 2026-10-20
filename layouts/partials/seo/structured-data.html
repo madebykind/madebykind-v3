@@ -1,0 +1,87 @@
+{{- /*
+  JSON-LD for search engines and agents. Every page describes Kind (Organization)
+  and the site (WebSite); blog posts add a BlogPosting and service pages a
+  Service. Breadcrumbs are marked up with microdata in the page headers.
+*/ -}}
+{{- $home := site.Home.Permalink -}}
+{{- $orgId := printf "%s#organization" $home -}}
+{{- $orgRef := dict "@id" $orgId -}}
+{{- $description := partial "seo/description" . -}}
+{{- $ISO8601 := "2006-01-02T15:04:05-07:00" -}}
+
+{{- $sameAs := slice -}}
+{{- range slice "linkedin" "instagram" "bluesky" -}}
+  {{- with index site.Params . -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+{{- end -}}
+
+{{- $org := dict
+  "@type" "Organization"
+  "@id" $orgId
+  "name" site.Title
+  "legalName" site.Copyright
+  "url" $home
+  "description" site.Params.description
+  "email" site.Params.email
+  "logo" (dict "@type" "ImageObject" "url" site.Params.logo)
+  "sameAs" $sameAs
+-}}
+{{- with site.Params.address -}}
+  {{- $org = merge $org (dict "address" (dict
+    "@type" "PostalAddress"
+    "streetAddress" .street
+    "addressLocality" .locality
+    "postalCode" .postcode
+    "addressCountry" .country
+  )) -}}
+{{- end -}}
+
+{{- $graph := slice $org (dict
+  "@type" "WebSite"
+  "@id" (printf "%s#website" $home)
+  "name" site.Title
+  "url" $home
+  "description" site.Params.description
+  "inLanguage" site.LanguageCode
+  "publisher" $orgRef
+) -}}
+
+{{- if and .IsPage (eq .Section "blog") -}}
+  {{- $author := $orgRef -}}
+  {{- with .Params.author -}}
+    {{- with index site.Data.authors . -}}
+      {{- $author = dict "@type" "Person" "name" .name "jobTitle" .role "worksFor" $orgRef -}}
+      {{- with .url -}}{{- $author = merge $author (dict "url" .) -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $post := dict
+    "@type" "BlogPosting"
+    "@id" (printf "%s#article" .Permalink)
+    "headline" (.Title | plainify)
+    "description" $description
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "image" (partialCached "seo/social-image-url" . .RelPermalink)
+    "datePublished" (.PublishDate.Format $ISO8601)
+    "dateModified" (.Lastmod.Format $ISO8601)
+    "author" $author
+    "publisher" $orgRef
+    "inLanguage" site.LanguageCode
+  -}}
+  {{- with .Params.topics -}}
+    {{- $post = merge $post (dict "keywords" (delimit . ", ")) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $post -}}
+{{- else if and (eq .Section "services") (ne .RelPermalink "/services/") -}}
+  {{- $graph = $graph | append (dict
+    "@type" "Service"
+    "@id" (printf "%s#service" .Permalink)
+    "name" (.Title | plainify)
+    "description" $description
+    "url" .Permalink
+    "provider" $orgRef
+    "audience" (dict "@type" "Audience" "audienceType" "Charities and non-profit organisations")
+    "areaServed" (dict "@type" "Country" "name" "United Kingdom")
+  ) -}}
+{{- end -}}
+
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

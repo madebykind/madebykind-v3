@@ -5,7 +5,7 @@
 
 {{ with $src }}
 
-  <img
+  <img {{ with partialCached "image-size" . . }} width="{{ .width }}" height="{{ .height }}"{{ end }}
     alt="{{ $alt }}"
     class="object-cover"
     loading="eager"

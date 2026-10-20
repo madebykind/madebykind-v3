@@ -1,20 +1,6 @@
 {{ block "fullPage" . }}
 <!doctype html>
-<html class="min-h-full js-loading  {{/*snap-y snap-proximity*/}} overflow-y-auto h-screen" lang="{{ $.Site.Language.Lang }}" itemscope itemtype="http://schema.org/WebPage">
-
-  <!-- Analytics -->
-  {{ if not hugo.IsServer }}
-    <!-- Privacy-friendly analytics by Plausible -->
-    <script async src="https://plausible.io/js/pa-vQHovfNuqHb_B5l_3j-tV.js"></script>
-    <script>
-      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-      plausible.init({
-      hashBasedRouting: true
-    })
-    </script>
-  {{ end }}
-
-  
+<html class="min-h-full js-loading  {{/*snap-y snap-proximity*/}} overflow-y-auto h-screen" lang="{{ site.LanguageCode }}" itemscope itemtype="http://schema.org/WebPage">
 
   <!-- The <head> element. See https://github.com/joshbuchea/HEAD for what _could_ go here. -->
   {{ block "head" . }}
@@ -52,38 +38,7 @@
       ) }}
     </div>
 
-    <!-- SEO Shiz! -->
-    {{ $m := dict
-      "@context" "https://schema.org"
-      "@type" "Article"
-      "mainEntityOfPage" (dict
-        "@type" "WebPage"
-        "@id" .Permalink
-      )
-      "headline" .Title
-      "image" .Params.cover_img
-      "author" (dict
-        "@type" "Organization"
-        "name" (site.Title | safeHTML)
-        "url" site.BaseURL
-      )
-      "publisher" (dict
-        "@type" "Organization"
-        "name" "Name"
-        "logo" (dict
-          "@type" "ImageObject"
-          "url" (print site.BaseURL "/img/logo.png")
-        )
-      )
-      "datePublished" .Params.date
-      "dateModified" .Params.lastmod
-    }}
-
-    <script type="application/ld+json">
-      {{ jsonify (dict "indent" "  ") $m | safeJS }}
-    </script>
-
-    
+    {{ partial "icon-sprite" . }}
   </body>
 </html>
 {{ end }}

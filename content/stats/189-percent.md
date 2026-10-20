@@ -5,4 +5,4 @@ title: 189
 suffix: "%"
 ---
 
-increase in social media referals in first 3 months
+increase in social media referrals in first 3 months

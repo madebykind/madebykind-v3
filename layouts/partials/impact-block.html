@@ -34,7 +34,7 @@
               {{- end -}}" 
             type="image/webp">
 
-          <img
+          <img width="640" height="480"
             alt="{{ $alt }}"
             class="{{ $imgClass }}"
             loading="eager"
@@ -63,9 +63,9 @@
             {{ range .stats }}
               {{ with site.GetPage . }}
                 <div class="{{ if ge $statsLen 2 }} w-1/2 {{ end }} {{ if le $statsLen 2 }} lg:w-full {{ end }} shrink-0 px-4 sm:px-6">
-                  <h4 class="h1">
+                  <p class="h1">
                     {{ if .Params.prefix }}<span class="text-3xl lg:text-4xl">{{ .Params.prefix }}</span>{{ end }}{{ .Title }}{{ if .Params.suffix }}<span class="text-3xl lg:text-4xl">{{ .Params.suffix }}</span>{{ end }}
-                  </h4>
+                  </p>
                   <div class="max-w-56 lg:max-w-80 mt-4 font-sans text-sm leading-tight">{{ .Content }}</div>
                 </div>
               {{ end }}

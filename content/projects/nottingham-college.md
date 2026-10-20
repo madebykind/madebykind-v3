@@ -16,7 +16,7 @@ teaser:
     - img: images/work-nottingham-college-students-2.jpg
       alt: 3 students walking through a large atrium of a college building
     - img: images/work-nottingham-college-phone.jpg
-      alt: A shot of a mobile phone in someone's hand, taken from their point-of-view. They have a coffee cup in the other hand. They are looking at the Nottingham College website
+      alt: A shot of a mobile phone in someone’s hand, taken from their point-of-view. They have a coffee cup in the other hand. They are looking at the Nottingham College website
     - img: images/work-nottingham-college-flats.jpg
       alt: Flat lay mockups of pages on the Nottingham College website
 impact_teaser:

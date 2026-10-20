@@ -6,6 +6,7 @@ menu: main
 title: Insights from Ethical Creative Agency, Kind
 heading: Creative insights from our expert team
 linktitle: Insights
+outputs: [HTML, RSS]
 weight: 4
 social_img_txt: "Insights from our expert team"
 social_img_color: "sky"

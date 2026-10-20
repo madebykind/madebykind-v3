@@ -53,7 +53,7 @@ Patagonia’s Mihela Hledin Wolfe led a pertinent discourse around the significa
 
 Mihela outlined the work Patagonia continues to do in this area and how they embed this passion for activism and change in all of their employees, encouraging them to take a stance and do the best they can do for the company and the planet at the same time. Patagonia’s mission statement has a fundamental message which should be considered by us all as something to work towards.
 
-{{< blockquote author="Patagonia's mission statement">}}
+{{< blockquote author="Patagonia’s mission statement">}}
 Build the best product, cause no unnecessary harm, use business to inspire and implement solutions to the environmental crisis.
 {{</ blockquote >}}
 

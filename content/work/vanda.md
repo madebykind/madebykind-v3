@@ -27,7 +27,7 @@ intro: "The V&A is the world’s leading museum of art and design, housing a per
 2.8 million objects, books and archives spanning more than 5,000 years of human creativity."
 
 why:
-  text: Culture isn't just about art or design, it's about our history, our communities and our shared experiences. That's why we believe that preserving cultural knowledge and heritage is so important.
+  text: Culture isn’t just about art or design, it’s about our history, our communities and our shared experiences. That’s why we believe that preserving cultural knowledge and heritage is so important.
   person: mat
 impact:
   text: The archives have made cultural records that were previously scattered or inaccessible available to researchers, institutions and the public worldwide.
@@ -37,7 +37,7 @@ impact:
     - 3k-performances
     - 10k-photographs
   img: images/work-vam-petra-2.jpg
-  img_alt: The dessert around Petra, Jordan
+  img_alt: The desert around Petra, Jordan
 
 # Header
 banner_type: standard
@@ -62,7 +62,7 @@ impact_teaser:
       alt: The Ancient City of Petra, Jordan
     - img: images/work-va-teaser.jpg
       alt: A woman in a high-vis jacket and purple gloves working on a large head of a statue
-  caption: Digital support for the V&A's research projects
+  caption: Digital support for the V&A’s research projects
 
 # Footer override
 #footer_heading:
@@ -105,7 +105,7 @@ Our mission is to be recognised as the world’s leading museum of art, design a
   <div class="col-span-full lg:col-span-4 aspect-square relative overflow-hidden">
     {{< mobile-scroll src="work-va-glastonbury-mobile-scroll.png" alt="a mockup of a performer record page on the Glastonbury digital archive" wrapper_class="aspect-iphone max-w-[10.5rem]" >}}
   </div>
-  {{< figure wrapperclass="col-span-full lg:col-span-8 relative overflow-hidden" alt="A photograph from Glastonbury Festival - a large robot with two spider-like legs stands over a crowd in the dark. Fire is shooting from it's 'head' and it's 'eyes' light up the crowd with red beams" src="work-va-glastonbury.jpg" imgclass="object-cover" >}}
+  {{< figure wrapperclass="col-span-full lg:col-span-8 relative overflow-hidden" alt="A photograph from Glastonbury Festival - a large robot with two spider-like legs stands over a crowd in the dark. Fire is shooting from it’s ‘head’ and it’s ‘eyes’ light up the crowd with red beams" src="work-va-glastonbury.jpg" imgclass="object-cover" >}}
 </div>
 
 

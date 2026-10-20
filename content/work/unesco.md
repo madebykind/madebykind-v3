@@ -46,7 +46,7 @@ icon_width: 162
 icon_height: 35
 client: UNESCO
 impact_teaser:
-  text: Improve **access to education** for over 200m children
+  text: Improve **access to education** for millions of children
   images:
     - img: images/work-unesco-school.jpg
       alt: Children at desks in a school, working with blue pens. One child is looking directly at the camera

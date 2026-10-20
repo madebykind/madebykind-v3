@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite'
 import fs from 'fs'
-import { resolve } from 'path';
 import ViteRestart from 'vite-plugin-restart'
-import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import copy from 'rollup-plugin-copy'
 import {fileURLToPath, URL} from 'url'
 
@@ -42,12 +40,6 @@ export default ({command}) => ({
 				'./tailwind.config.js',
 			],
 		}),
-    createSvgIconsPlugin({
-      // Specify the icon folder to be cached
-      iconDirs: [resolve(process.cwd(), 'src/icons')],
-      // Specify symbolId format
-      symbolId: 'icon-[name]',
-    }),
 	],
 	publicDir: './dist/',
 	resolve: {

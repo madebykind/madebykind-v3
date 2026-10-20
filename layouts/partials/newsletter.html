@@ -31,7 +31,7 @@
     {{ with $src }}
 
       <picture class="{{ if eq $.style "wide" }}lg:order-1 col-span-2 lg:col-span-4{{ else }}max-w-iphone{{ end }} block">
-        <img 
+        <img {{ with partialCached "image-size" . . }} width="{{ .width }}" height="{{ .height }}"{{ end }} 
           alt="Illustration of a person holding a watering can that waters many plants" 
           class="w-full {{ with $.image_class }}{{ . }}{{ end }}"
           loading="lazy"

@@ -1,0 +1,19 @@
+{{- /*
+  Inline SVG sprite containing only the icons this page needs: the interface
+  icons used by the shared templates (header, footer, cards, etc.) plus any
+  registered via the icon-ref partial. Symbols come from data/icons.json, which
+  scripts/build-icons.mjs compiles from src/icons.
+*/ -}}
+{{- $names := slice "arrow" "arrow-down" "arrow-hover" "bcorp" "bluesky" "chevron" "close" "efwa" "email" "external" "1fortheplanet" "hamburger" "instagram" "linkedin" "tick" -}}
+{{- range $name, $_ := .Store.Get "icons" -}}
+  {{- $names = $names | append $name -}}
+{{- end -}}
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  {{- range $names | uniq -}}
+    {{- with index site.Data.icons . -}}
+      {{- . | safeHTML -}}
+    {{- else -}}
+      {{- warnf "icon-sprite: no icon named %q in src/icons (%s)" . $.RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+</svg>

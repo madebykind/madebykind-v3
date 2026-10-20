@@ -25,7 +25,7 @@ Unfortunately, to those critically important end-users, this type of navigation 
 
 Information Architecture (IA) is the art and science of organising and labelling online environments, be that a website, mobile application, intranet or software system, to aid usability and findability.
 
-We’ve found that the process of devising an IA is often overlooked, when it’s expected the structure won’t change from it’s previous incarnation, or is hurriedly carried out as part of the initial briefing process without consultation with any third parties.
+We’ve found that the process of devising an IA is often overlooked, when it’s expected the structure won’t change from its previous incarnation, or is hurriedly carried out as part of the initial briefing process without consultation with any third parties.
 
 For us, structure is a key part of a user-centred design and the only way to build a user-centred end product is to understand the audience that will interact with it and assist them to achieve their own objectives through using it.
 
@@ -47,7 +47,7 @@ On larger sites, navigation can be further supported with integrated search func
 
 We know from our experience and the collective analysis of the digital projects we have worked on that no two users are the same, and that the numerous ways users navigate a website can be surprising. Based on this knowledge, another approach for larger sites is to to support the primary audience-based architecture with an alternative, yet simultaneous, architecture based on some other classification scheme.
 
-We’re currently working with the digital team at [Nottingham Trent University](https://www.ntu.ac.uk/) to not only organise their content based on audience groups but also by the key content themes found throughout the site. This will allow their users to discover related or complimentary content without the need to know it’s place within the primary structure.
+We’re currently working with the digital team at [Nottingham Trent University](https://www.ntu.ac.uk/) to not only organise their content based on audience groups but also by the key content themes found throughout the site. This will allow their users to discover related or complementary content without the need to know its place within the primary structure.
 
 ## Reducing the risk of assumption
 
