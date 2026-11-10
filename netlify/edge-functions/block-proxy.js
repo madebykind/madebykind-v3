@@ -1,6 +1,8 @@
 export default async (request) => {
   const cfWorker = request.headers.get("cf-worker");
-  if (cfWorker) console.log("cf-worker:", cfWorker, request.url);
+  if (cfWorker && cfWorker !== "madebykind.com") {
+    return new Response("Forbidden", { status: 403 });
+  }
 };
 
 export const config = {
