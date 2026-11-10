@@ -8,6 +8,7 @@ import { compilerIcon } from 'vite-plugin-svg-icons';
 const iconDir = 'src/icons';
 const outFile = 'data/icons.json';
 const icons = {};
+const skipRounding = new Set(['efwa']);
 
 for (const file of fs.readdirSync(iconDir).filter((f) => f.endsWith('.svg')).sort()) {
   const name = path.basename(file, '.svg');
@@ -19,7 +20,9 @@ for (const file of fs.readdirSync(iconDir).filter((f) => f.endsWith('.svg')).sor
 
   // Logos render at ~200px or less, so on artboards 100+ units wide one decimal
   // place is sub-pixel. Roughly halves the size of the larger traced logos.
-  const svgoOptions = width >= 100 ? { floatPrecision: 1 } : {};
+  // Exception: icons whose paths are in tiny unit coordinates and scaled up by a
+  // transform (efwa), where rounding collapses the glyph shapes.
+  const svgoOptions = width >= 100 && !skipRounding.has(name) ? { floatPrecision: 1 } : {};
   const symbol = await compilerIcon(path.join(iconDir, file), `icon-${name}`, svgoOptions);
 
   icons[name] = symbol.replace(/ xmlns(:xlink)?="[^"]*"/g, '');
